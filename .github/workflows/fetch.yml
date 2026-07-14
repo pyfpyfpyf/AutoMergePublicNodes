@@ -33,10 +33,14 @@ jobs:
       run: python ./fetch.py
       
     - name: 提交更改
-      run: |                 
+      run:                 
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
-        git pull origin master
+        git add list*
+        git add snippets/
+        git stash
+        git pull origin master --rebase
+        git stash pop || true
         git add list*
         git add snippets/
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点"
