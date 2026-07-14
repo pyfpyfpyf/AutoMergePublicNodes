@@ -12,28 +12,28 @@
 # ============================================================
 
 
-# ===== 精选高存活率源 (2026-07-14, 仅保留实测可用节点来源) =====
+# ===== 精选高存活率源 (2026-07-14) =====
 
-# Au1rxx/free-vpn-subscriptions (每小时更新, 每个节点经HTTP-over-proxy真实流量验证)
+# Au1rxx/free-vpn-subscriptions (每小时更新, HTTP-over-proxy验证, ~94节点)
 https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml
 https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/v2ray-base64.txt
 
-# rtwo2/FastNodes (每6小时更新, TCP存活检测+质量排序)
-https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/protocols/vless.yaml
-https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/protocols/trojan.yaml
-https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/protocols/vmess.yaml
-https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/protocols/hysteria2.yaml
-https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/protocols/ss.yaml
+# rtwo2/FastNodes (每6小时更新, TCP存活+质量排序, 限每协议100节点)
+https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/protocols/vless.yaml#max=100
+https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/protocols/trojan.yaml#max=100
+https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/protocols/vmess.yaml#max=50
+https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/protocols/hysteria2.yaml#max=50
+https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/protocols/ss.yaml#max=50
 
-# zhuhaiuk/free-nodes (每小时更新, 节点名zhuhai.uk)
+# zhuhaiuk/free-nodes (每小时更新, zhuhai.uk节点)
 https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml
 https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/nodes.txt
 
 # zhangkaiitugithub/passcro (speed_node来源)
 https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml#ignore=vmess,ss,ssr
 
-# Barabama/FreeNodes (yudou789/v2cross/保加利亚/美国来源, 163+节点)
-https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.yaml
+# Barabama/FreeNodes (yudou789/v2cross/保加利亚/美国)
+https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.yaml#max=100
 https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodefree.yaml
-https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/blues.yaml
-https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/clashmeta.yaml
+https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/blues.yaml#max=50
+https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/clashmeta.yaml#max=50
