@@ -586,6 +586,8 @@ class Node:
 
     def supports_meta(self, noMeta=False) -> bool:
         if self.isfake: return False
+        # 过滤 cipher:auto 的 SS 节点，Clash 运行时不支持
+        if self.type == 'ss' and self.data.get('cipher') == 'auto': return False
         if self.type == 'vmess':
             supported = CLASH_CIPHER_VMESS
         elif self.type == 'ss' or self.type == 'ssr':
