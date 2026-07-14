@@ -12,138 +12,22 @@
 # ============================================================
 
 
-# ===== 经HTTP真实流量验证的源 (2026-07-14 新增, 高存活率) =====
+# ===== 精选高存活率源 (2026-07-14, 仅保留实测可用节点来源) =====
 
-# Au1rxx/free-vpn-subscriptions (每小时更新, 每个节点经HTTP-over-proxy验证, ~150节点)
-# Clash格式 - 含url-test自动测速切换
+# Au1rxx/free-vpn-subscriptions (每小时更新, 每个节点经HTTP-over-proxy真实流量验证)
 https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml
-# V2Ray Base64格式
 https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/v2ray-base64.txt
 
-# rtwo2/FastNodes (每6小时更新, 5万+TCP存活节点, 质量排序, 按协议分文件)
+# rtwo2/FastNodes (每6小时更新, TCP存活检测+质量排序)
 https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/protocols/vless.yaml
 https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/protocols/trojan.yaml
 https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/protocols/vmess.yaml
 https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/protocols/hysteria2.yaml
 https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/protocols/ss.yaml
 
-# ebrasha/free-v2ray-public-list (每15分钟更新, 自动移除失效节点)
-https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/vless_configs.txt
-https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/trojan_configs.txt
-
-# gfpcom/free-proxy-list (每小时更新, 200万+代理, 含验证)
-https://raw.githubusercontent.com/wiki/gfpcom/free-proxy-list/lists/vless.txt
-https://raw.githubusercontent.com/wiki/gfpcom/free-proxy-list/lists/hy2.txt
-https://raw.githubusercontent.com/wiki/gfpcom/free-proxy-list/lists/trojan.txt
-
-
-# ===== 已验证可用订阅源 (2026-07-14 文件可下载) =====
-
-# ripaojiedian/freenode (持续更新)
-https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
-https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash
-
-# zhangkaiitugithub/passcro
-https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml#ignore=vmess,ss,ssr
-
-# Surfboardv2ray/TGParse (TG频道节点)
-https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2
-
-# zhuhaiuk/free-nodes (每小时更新, ~50节点, Hysteria2/VLESS/Trojan/SS)
+# zhuhaiuk/free-nodes (每小时更新, 节点名zhuhai.uk)
 https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml
 https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/nodes.txt
 
-# free18/v2ray (每日更新, ~420节点)
-https://raw.githubusercontent.com/free18/v2ray/main/c.yaml
-https://raw.githubusercontent.com/free18/v2ray/main/v.txt
-
-# Barabama/FreeNodes (每日12点更新, 多源聚合)
-https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.yaml
-https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodefree.yaml
-https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/v2rayshare.yaml
-https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/wenode.yaml
-https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/ndnode.yaml
-https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/blues.yaml
-https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/clashmeta.yaml
-
-# peasoft/NoMoreWalls (上游项目, 持续维护)
-https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt
-https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml
-
-# freefq/free
-https://raw.githubusercontent.com/freefq/free/master/v2
-
-# Pawdroid/Free-servers
-https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
-
-# mfuu/v2ray
-https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
-https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml
-
-# anaer/Sub (大文件, 445KB)
-https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml
-
-# mheidari98/.proxy (超大文件, 5.5MB, 全网节点聚合)
-https://raw.githubusercontent.com/mheidari98/.proxy/main/all#max=500
-
-# v2raynnodes/clashfree (846KB, Hysteria2为主)
-https://raw.githubusercontent.com/v2raynnodes/clashfree/main/clash.yaml
-
-
-# ===== 已失效/404的源 (已移除) =====
-# https://raw.githubusercontent.com/Huibq/TrojanLinks/master/links/vmess # 空订阅
-# https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2 # 内容极少
-# https://raw.githubusercontent.com/qjlxg/hy2/main/splitted/hy2 # 404
-# *https://raw.githubusercontent.com/mksshare/mksshare.github.io/main/README.md # 404
-# *https://raw.githubusercontent.com/abshare/abshare.github.io/main/README.md # 404
-# https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/* # 全部404
-# https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt # 404
-# https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodev2ray.yaml # 空文件
-# https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2 # 404
-# https://raw.githubusercontent.com/snakem982/proxypool/main/source/* # 404
-# https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml # 空文件
-# !https://gitlab.com/colloq168/nodefiltrate/-/raw/main/filtrate?ref_type=heads # 403
-
-
-# ===== 不更新/备用源 =====
-# https://raw.githubusercontent.com/freefq/free/master/v2
-# https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml
-# https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_v2ray.yml
-# https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_trojan.yml
-# https://raw.githubusercontent.com/lflflf999/0516/main/BX-JD # 关闭，循环引用
-# https://raw.githubusercontent.com/Mr8AHAL/v2ray/main/SERVER.txt
-# https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_META_IRAN-Direct.yml
-# https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
-# https://raw.githubusercontent.com/moneyfly1/sublist/main/clash.yml
-# https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx1
-# https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx2
-# https://raw.githubusercontent.com/cxr9912/cxr2022/main/free.yaml
-# https://raw.githubusercontent.com/cxr9912/cxr2022/main/vmess.yaml
-# https://raw.githubusercontent.com/cxr9912/cxr2022/main/ss.yaml
-# https://raw.githubusercontent.com/cxr9912/cxr2022/main/cxr.yml
-# https://raw.githubusercontent.com/Junely/clash/main/clash_near.txt
-# https://raw.githubusercontent.com/Junely/clash/main/template3.yaml
-# https://raw.githubusercontent.com/imohammadkhalili/V2RAY/main/Mkhalili
-# https://raw.githubusercontent.com/mlabalabala/v2ray-node/main/nodefree4clash.txt
-# https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num
-# https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/V2ray
-# https://raw.githubusercontent.com/hkaa0/permalink/main/proxy/clash
-
-# +date https://nodefree.org/dy/%Y/%m/%Y%m%d.txt
-# +date https://nodefree.org/dy/%Y/%m/%Y%m%d.yaml
-# !+date https://v2rayshare.com/wp-content/uploads/%Y/%m/%Y%m%d.txt
-# !+date https://v2rayshare.com/wp-content/uploads/%Y/%m/%Y%m%d.yaml
-# !+date https://node.oneclash.cc/%Y/%m/%Y%m%d.txt
-# !+date https://node.oneclash.cc/%Y/%m/%Y%m%d.yaml
-# !https://sub.nicevpn.top/long
-# !https://sub.nicevpn.top/Clash.yaml
-# https://sub.sharecentre.online/sub
-# https://prop.cf/?name=paimon&client=base64
-# https://prop.cf/?name=paimon&client=clash
-# !https://clash.221207.xyz/pubclashyaml
-# !https://free.jingfu.cf/clash/proxies
-# https://vpnyyds.link/free
-# !https://jc.openxai.link/
-
-# Airports
-# *https://raw.githubusercontent.com/RenaLio/Mux2sub/main/urllist # 挂了，谁叫你不控制抓取时长
+# zhangkaiitugithub/passcro (speed_node来源)
+https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml#ignore=vmess,ss,ssr
