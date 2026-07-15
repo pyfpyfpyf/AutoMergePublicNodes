@@ -573,6 +573,10 @@ class Node:
             ret['uuid'] = DEFAULT_UUID
         if 'group' in ret: del ret['group']
         if 'cipher' in ret and not ret['cipher']:
+            if self.type == 'ss':
+                # SS 节点 cipher 为空时不能用 auto，Clash 不支持
+                # 直接过滤，不写入配置
+                return None
             ret['cipher'] = 'auto'
         if self.type == 'vless' and 'flow' in ret:
             if ret['flow'].endswith('-udp443'):
@@ -586,8 +590,8 @@ class Node:
 
     def supports_meta(self, noMeta=False) -> bool:
         if self.isfake: return False
-        # 过滤 cipher:auto 的 SS 节点，Clash 运行时不支持
-        if self.type == 'ss' and self.data.get('cipher') == 'auto': return False
+        # 过滤 cipher:auto 或 cipher 为空的 SS 节点，Clash 运行时不支持
+        if self.type == 'ss' and (self.data.get('cipher') == 'auto' or not self.data.get('cipher')): return False
         if self.type == 'vmess':
             supported = CLASH_CIPHER_VMESS
         elif self.type == 'ss' or self.type == 'ssr':
@@ -1124,9 +1128,11 @@ def main():
                     if ctgs and keys[-1] == 'OVERALL':
                         break
                 if len(ctgs) == 1:
-                    if node.supports_clash():
-                        ctg_nodes[ctgs[0]].append(node.clash_data)
-                    ctg_nodes_meta[ctgs[0]].append(node.clash_data)
+                    cd = node.clash_data
+                    if cd is not None:
+                        if node.supports_clash():
+                            ctg_nodes[ctgs[0]].append(cd)
+                        ctg_nodes_meta[ctgs[0]].append(cd)
         for ctg, proxies in ctg_nodes.items():
             with open("snippets/nodes_"+ctg+".yml", 'w', encoding="utf-8") as f:
                 yaml.dump({'proxies': proxies}, f, allow_unicode=True)
@@ -1181,10 +1187,12 @@ def main():
             if ('client-fingerprint' in p.data and
                     p.data['client-fingerprint'] == global_fp):
                 del p.data['client-fingerprint']
-            proxies_meta.append(p.clash_data)
+            cd = p.clash_data
+            if cd is None: continue
+            proxies_meta.append(cd)
             names_clash_meta.add(p.data['name'])
             if p.supports_clash():
-                proxies.append(p.clash_data)
+                proxies.append(cd)
                 names_clash.add(p.data['name'])
     names_clash = list(names_clash)
     names_clash_meta = list(names_clash_meta)
