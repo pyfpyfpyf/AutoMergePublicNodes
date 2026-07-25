@@ -79,38 +79,55 @@ proxies:
     path: /
 - name: 2|US - zhuhai.uk
   port: 9002
-  server: 138.199.35.203
+  server: 156.146.59.32
   skip-cert-verify: true
   tls: true
   type: http
 - name: 2|US - zhuhai.uk 02
   port: 9002
-  server: 156.146.59.30
+  server: 138.199.35.211
   skip-cert-verify: true
   tls: true
   type: http
-- name: 2|US - zhuhai.uk 03
-  port: 9002
-  server: 156.146.59.22
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 2|US - zhuhai.uk 06
+- name: 2|US - zhuhai.uk 04
   port: 9002
   server: 156.146.59.49
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: edge
-  name: 2|US - zhuhai.uk 08
-  network: ws
-  port: 8443
-  server: 193.33.133.57
-  servername: cloudflare.vhub.pro
+- name: 2|US - zhuhai.uk 05
+  port: 9002
+  server: 156.146.59.36
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 2|US - zhuhai.uk 07
+  port: 9002
+  server: 156.146.59.20
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 2|US - zhuhai.uk 09
+  port: 9002
+  server: 156.146.59.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 2|US - zhuhai.uk 10
+  port: 443
+  reality-opts:
+    public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
+    short-id: c76ba2c2fb172e8b
+  server: 154.193.55.183
+  servername: storage.yandex.net
   tls: true
   type: vless
-  uuid: 547c0d9e-9bb5-4e83-b6e7-09953bc6004b
-  ws-opts:
-    headers:
-      Host: cloudflare.vhub.pro
-    path: /websocket
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- cipher: aes-128-gcm
+  name: 2|US - zhuhai.uk 11
+  password: ba2a429e-dcaa-4d94-a651-99b0a920ee38
+  port: 40031
+  server: permission_level_01.unclemanco.com
+  type: ss

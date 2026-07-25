@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1,2|US - zhuhai.uk 04
+  name: 1,2|US - zhuhai.uk 06
   packet-encoding: xudp
   port: 443
   reality-opts:
@@ -15,7 +15,17 @@ proxies:
   udp: true
   uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
 - name: 2|KR - zhuhai.uk
-  port: 1090
-  server: 121.169.46.116
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  sni: testkr3.ssv.vc
+  tls: true
+  type: http
+  username: test
+- name: 2|KR - zhuhai.uk 02
+  password: admin
+  port: 5555
+  server: 158.180.91.51
   type: socks5
-  username: Og%3D%3D
+  username: admin
