@@ -1,5 +1,27 @@
 proxies:
-- name: 2|SG - zhuhai.uk
-  port: 10808
-  server: 45.43.63.37
-  type: socks5
+- client-fingerprint: chrome
+  name: 2|SG - zhuhai.uk
+  network: ws
+  port: 666
+  server: 43.160.220.164
+  servername: 43.160.220.164
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
+  ws-opts:
+    headers:
+      Host: 43.160.220.164
+    path: /proxy
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|SG - zhuhai.uk 02
+  port: 40118
+  reality-opts:
+    public-key: x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20
+    short-id: 5895914d
+  server: 43.255.157.9
+  servername: www.lamer.com.sg
+  tls: true
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
