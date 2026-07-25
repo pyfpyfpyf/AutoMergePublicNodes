@@ -79,55 +79,90 @@ proxies:
     path: /
 - name: 2|US - zhuhai.uk
   port: 9002
-  server: 156.146.59.32
+  server: 138.199.35.203
   skip-cert-verify: true
   tls: true
   type: http
 - name: 2|US - zhuhai.uk 02
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
+  port: 21115
+  server: us6.dexlos.com
+  sni: us6.dexlos.com
+  type: hysteria2
+- name: 2|US - zhuhai.uk 03
   port: 9002
-  server: 138.199.35.211
+  server: 138.199.35.196
   skip-cert-verify: true
   tls: true
   type: http
 - name: 2|US - zhuhai.uk 04
   port: 9002
-  server: 156.146.59.49
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 2|US - zhuhai.uk 05
-  port: 9002
-  server: 156.146.59.36
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 2|US - zhuhai.uk 07
-  port: 9002
-  server: 156.146.59.20
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 2|US - zhuhai.uk 09
-  port: 9002
-  server: 156.146.59.33
+  server: 138.199.35.210
   skip-cert-verify: true
   tls: true
   type: http
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 2|US - zhuhai.uk 10
+  name: 2|US - zhuhai.uk 05
   port: 443
   reality-opts:
     public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
     short-id: c76ba2c2fb172e8b
   server: 154.193.55.183
   servername: storage.yandex.net
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-- cipher: aes-128-gcm
-  name: 2|US - zhuhai.uk 11
-  password: ba2a429e-dcaa-4d94-a651-99b0a920ee38
-  port: 40031
-  server: permission_level_01.unclemanco.com
-  type: ss
+- name: 2|US - zhuhai.uk 06
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 2|US - zhuhai.uk 07
+  port: 9002
+  server: 156.146.59.17
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 2|US - zhuhai.uk 08
+  port: 9002
+  server: 156.146.59.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 2|US - zhuhai.uk 10
+  port: 9002
+  server: 156.146.59.9
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 2|US - zhuhai.uk 11
+  port: 9002
+  server: 156.146.59.35
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 2|US - zhuhai.uk 12
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 2|US - zhuhai.uk 13
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
+  port: 20378
+  server: us2.dexlos.com
+  skip-cert-verify: true
+  type: hysteria2
+- name: 2|US - zhuhai.uk 14
+  password: d4d98c6c-f5ad-4994-8a96-9915c1fc9a5e
+  port: 52856
+  server: 108.181.5.106
+  skip-cert-verify: true
+  type: hysteria2
