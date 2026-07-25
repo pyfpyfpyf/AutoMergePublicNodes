@@ -1,15 +1,34 @@
 proxies:
-- client-fingerprint: safari
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 2|RU - zhuhai.uk
-  network: ws
   port: 443
-  server: 46.8.229.48
-  servername: furrycdn.net
-  skip-cert-verify: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 45.131.212.22
+  servername: sellflow.org
   tls: true
   type: vless
-  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
-  ws-opts:
-    headers:
-      Host: furrycdn.net
-    path: /api/v1/video-stream
+  uuid: 0108c657-a9bd-4c99-9179-74050cf78889
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 2|RU - zhuhai.uk 02
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 45.131.212.24
+  servername: sellflow.org
+  tls: true
+  type: vless
+  uuid: 0108c657-a9bd-4c99-9179-74050cf78889
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 2|RU - zhuhai.uk 03
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 91.224.87.98
+  servername: sellflow.org
+  tls: true
+  type: vless
+  uuid: 0108c657-a9bd-4c99-9179-74050cf78889

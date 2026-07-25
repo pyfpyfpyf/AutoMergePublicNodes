@@ -1,13 +1,11 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 2|DE - zhuhai.uk
-  port: 443
-  reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: d67ec5a8fc40ebea
-  server: ger05.myxasecure.space
-  servername: ger05.myxasecure.space
-  tls: true
+- name: 2|DE - zhuhai.uk
+  network: ws
+  port: 80
+  server: 151.101.193.54
   type: vless
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+  uuid: 46445435-11cd-47e8-87dc-1acc159fc360
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
