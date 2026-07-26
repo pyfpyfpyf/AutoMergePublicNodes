@@ -1,24 +1,4 @@
 proxies:
-- name: 2|SG - zhuhai.uk
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
-  port: 20878
-  server: sg5.dexlos.com
-  type: hysteria2
-- name: 2|SG - zhuhai.uk 02
-  network: ws
-  password: '!!str 521314'
-  port: 443
-  server: 157.230.44.100
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: update
@@ -30,6 +10,21 @@ proxies:
     short-id: 686c0ef0
   server: sg3-r.link-t7.com
   servername: d1.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4572D477-103D-4E01-A26D-32A5A4612D35
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  name: 2|SG - zhuhai.uk 02
+  network: grpc
+  port: 10037
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg2-r.link-t7.com
+  servername: s0.awsstatic.com
   tls: true
   type: vless
   udp: true

@@ -1,12 +1,12 @@
 proxies:
 - name: 2|JP - zhuhai.uk
-  password: AQ71834695
-  port: 443
-  server: better-silkworm.rooster465.autos
-  skip-cert-verify: true
-  sni: better-silkworm.rooster465.autos
-  tls: true
-  type: trojan
+  port: 10808
+  server: 101.36.104.46
+  type: socks5
+- name: 2|JP - zhuhai.uk 02
+  port: 10808
+  server: 101.36.104.239
+  type: socks5
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: update
@@ -81,18 +81,3 @@ proxies:
   type: vless
   udp: true
   uuid: 9a15843f-c194-4625-b058-29833674acc0
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 2|JP - zhuhai.uk 02
-  network: grpc
-  port: 10032
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: jp2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4572D477-103D-4E01-A26D-32A5A4612D35
