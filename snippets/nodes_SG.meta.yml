@@ -1,5 +1,17 @@
 proxies:
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|SG - zhuhai.uk 02
+  port: 40118
+  reality-opts:
+    public-key: x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20
+    short-id: 5895914d
+  server: 43.255.156.59
+  servername: www.lamer.com.sg
+  tls: true
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: update
   name: 2|SG - zhuhai.uk 04
@@ -10,21 +22,6 @@ proxies:
     short-id: 686c0ef0
   server: sg3-r.link-t7.com
   servername: d1.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4572D477-103D-4E01-A26D-32A5A4612D35
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 2|SG - zhuhai.uk 02
-  network: grpc
-  port: 10037
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg2-r.link-t7.com
-  servername: s0.awsstatic.com
   tls: true
   type: vless
   udp: true

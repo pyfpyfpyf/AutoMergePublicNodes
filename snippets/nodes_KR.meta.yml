@@ -1,23 +1,14 @@
 proxies:
-- name: 2|KR - zhuhai.uk 02
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  sni: testkr3.ssv.vc
-  tls: true
-  type: http
-  username: test
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: update
-  name: 2|KR - zhuhai.uk 01
+  name: 2|KR - zhuhai.uk 03
   network: grpc
-  port: 10046
+  port: 10048
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: 686c0ef0
-  server: kr1-r.link-t7.com
+  server: kr3-r.link-t7.com
   servername: s0.awsstatic.com
   tls: true
   type: vless
@@ -41,13 +32,13 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: update
-  name: 2|KR - zhuhai.uk 03
+  name: 2|KR - zhuhai.uk 02
   network: grpc
-  port: 10048
+  port: 10047
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: 686c0ef0
-  server: kr3-r.link-t7.com
+  server: kr2-r.link-t7.com
   servername: s0.awsstatic.com
   tls: true
   type: vless
