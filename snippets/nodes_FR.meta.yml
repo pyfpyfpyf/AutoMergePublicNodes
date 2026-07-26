@@ -1,19 +1,11 @@
 proxies:
 - name: 2|FR - zhuhai.uk
-  port: 1080
-  server: 213.199.47.140
-  type: socks5
-- client-fingerprint: safari
-  grpc-opts:
-    grpc-service-name: your-custom-path
-  name: 2|FR - zhuhai.uk 02
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
-    short-id: 2da4299da566b7
-  server: 85.192.30.86
-  servername: maps.apple.com
-  tls: true
+  network: ws
+  port: 8880
+  server: 8.47.69.0
   type: vless
-  uuid: 423caebf-ce56-4e26-a792-7a6becb17e9b
+  uuid: a8178248-3cdf-4fb0-ab7b-87c1ab77201c
+  ws-opts:
+    headers:
+      Host: cnd.france2.gg.newwaycdn.com
+    path: /cdn/assets/stream
