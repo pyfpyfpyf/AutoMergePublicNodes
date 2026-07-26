@@ -1,26 +1,20 @@
 proxies:
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 2|DE - zhuhai.uk
-  network: grpc
+- name: 2|DE - zhuhai.uk 02
+  port: 1080
+  server: 159.195.49.27
+  type: socks5
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 2|DE - zhuhai.uk 03
   port: 443
   reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: 3303c7a5
-  server: 194.93.0.28
-  servername: media2.tcpdoor.net
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    short-id: d67ec5a8fc40ebea
+  server: ger17.myxasecure.space
+  servername: ger17.myxasecure.space
   tls: true
   type: vless
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- name: 2|DE - zhuhai.uk 02
-  network: ws
-  port: 52315
-  server: 5.175.249.199
-  type: vless
-  uuid: bece874b-e905-48a4-9620-5ef59b49081a
-  ws-opts:
-    path: /
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 2|DE - zhuhai.uk 01

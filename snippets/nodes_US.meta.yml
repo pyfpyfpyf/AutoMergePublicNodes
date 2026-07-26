@@ -7,10 +7,12 @@ proxies:
   type: http
   udp: true
   username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- name: 1|US_speednode_0086
+- name: 1,2|US - zhuhai.uk 08
   password: 16955d72-1794-11f0-a035-f23c95b6f51d
   port: 443
   server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+  skip-cert-verify: true
+  sni: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
   tls: true
   type: http
   udp: true
@@ -37,60 +39,100 @@ proxies:
       Host: www.ignitelimit.com
     path: /assignment
 - name: 2|US - zhuhai.uk
-  port: 9002
-  server: 156.146.59.22
-  skip-cert-verify: true
-  tls: true
-  type: http
+  port: 666
+  server: 23.254.233.221
+  type: socks5
 - name: 2|US - zhuhai.uk 02
-  port: 9002
-  server: 156.146.59.49
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: usp.noesissite.ru
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: usp.noesissite.ru
+  type: hysteria2
 - name: 2|US - zhuhai.uk 03
-  password: 9de223f6-86ac-4bf9-85b5-fabc62ddd7d9
-  port: 18912
-  server: vps.aifoxin.com
+  password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
+  port: 8443
+  server: 159.223.157.129
   skip-cert-verify: true
-  sni: vps.aifoxin.com
+  sni: www.microsoft.com
   type: hysteria2
-- name: 2|US - zhuhai.uk 04
-  password: e1bd5c86-721c-4a2d-bdf8-ba50e522ec57
-  port: 8881
-  server: uk.xfj123.top
-  skip-cert-verify: true
-  sni: uk.xfj123.top
-  type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 2|US - zhuhai.uk 04
+  port: 443
+  reality-opts:
+    public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
+    short-id: c76ba2c2fb172e8b
+  server: 154.193.55.183
+  servername: storage.yandex.net
+  tls: true
+  type: vless
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
 - name: 2|US - zhuhai.uk 05
+  port: 44499
+  server: 45.61.188.134
+  type: socks5
+- name: 2|US - zhuhai.uk 07
   port: 9002
-  server: 138.199.35.201
+  server: 156.146.59.8
   skip-cert-verify: true
   tls: true
   type: http
-- name: 2|US - zhuhai.uk 06
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 2|US - zhuhai.uk 12
+  port: 443
+  reality-opts:
+    public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
+    short-id: dbbe8dca27a92c35
+  server: 154.193.55.183
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
+- name: 2|US - zhuhai.uk 10
+  obfs: salamander
+  obfs-password: ed56da70f1614311cbfc1e87
+  password: 72bcd6fe388a12c386a1c40ff55f6c1e
+  port: 8443
+  server: proxy.sailreach.org
+  type: hysteria2
+- name: 2|US - zhuhai.uk 11
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 2|US - zhuhai.uk 13
   port: 9002
   server: 138.199.35.215
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 2|US - zhuhai.uk 08
-  network: tcp
-  port: 20001
-  reality-opts:
-    public-key: x-SY8-gdy6LPtfJXNH9s9S4I7o2mTI2T8i3R5KAa5TY
-    short-id: 07f9d8acd616bd
-  server: phoenix.maimaiyun.shop
-  servername: identity.oraclecloud.com
+- name: 2|US - zhuhai.uk 14
+  port: 9002
+  server: 156.146.59.20
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  type: http
+- alterId: 0
+  cipher: auto
+  name: 2|US - zhuhai.uk 15
+  network: ws
+  port: 443
+  server: cloudflare-ech.com
+  servername: swap-connectors-online-peter.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: f48311de-6fdb-4ac6-beec-10b8b55c444f
+  ws-opts:
+    headers:
+      Host: swap-connectors-online-peter.trycloudflare.com
+    path: /f48311de-6fdb-4ac6-beec-10b8b55c444f-vm
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 2|US - zhuhai.uk 09
+  name: 2|US - zhuhai.uk 01
   network: tcp
   port: 30001
   reality-opts:

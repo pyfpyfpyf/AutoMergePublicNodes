@@ -1,34 +1,33 @@
 proxies:
 - name: 2|JP - zhuhai.uk
-  port: 10808
-  server: 101.36.104.46
-  type: socks5
-- name: 2|JP - zhuhai.uk 02
-  port: 10808
-  server: 101.36.104.239
-  type: socks5
-- name: 2|JP - zhuhai.uk 05
-  network: tcp
-  port: 10000
-  server: 14.137.238.17
-  type: vless
-  udp: true
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 2|JP - zhuhai.uk 04
-  network: grpc
-  port: 10036
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: jp6-r.link-t7.com
-  servername: s0.awsstatic.com
+  password: AQ71834695
+  port: 443
+  server: tops-marlin.rooster465.autos
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 4572D477-103D-4E01-A26D-32A5A4612D35
+  type: trojan
+- name: 2|JP - zhuhai.uk 02
+  password: HK78346019
+  port: 443
+  server: better-silkworm.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+- name: 2|JP - zhuhai.uk 04
+  password: HK78346019
+  port: 443
+  server: better-silkworm.rooster465.autos
+  skip-cert-verify: true
+  sni: better-silkworm.rooster465.autos
+  tls: true
+  type: trojan
+- name: 2|JP - zhuhai.uk 05
+  password: AQ71834695
+  port: 443
+  server: fit-heron.rooster465.autos
+  sni: fit-heron.rooster465.autos
+  tls: true
+  type: trojan
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: update
@@ -39,21 +38,6 @@ proxies:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: 686c0ef0
   server: jp1-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4572D477-103D-4E01-A26D-32A5A4612D35
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 2|JP - zhuhai.uk 03
-  network: grpc
-  port: 10033
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: jp3-r.link-t7.com
   servername: s0.awsstatic.com
   tls: true
   type: vless
