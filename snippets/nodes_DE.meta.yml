@@ -1,26 +1,27 @@
 proxies:
-- name: 2|DE - zhuhai.uk
-  network: ws
-  port: 52315
-  server: 5.175.249.199
-  type: vless
-  uuid: bece874b-e905-48a4-9620-5ef59b49081a
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: your-custom-path
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
   name: 2|DE - zhuhai.uk 02
-  network: grpc
-  port: 6443
+  port: 49000
   reality-opts:
-    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
-    short-id: 2da4299da566b7
-  server: 45.151.102.99
-  servername: maps.apple.com
+    public-key: lKxU4TCjenarM3nQqOVPaVhaTo5QaDHmRlS40XdwzUk
+  server: defast.mifbot.pro
+  servername: git.sly.team
   tls: true
   type: vless
-  uuid: 423caebf-ce56-4e26-a792-7a6becb17e9b
+  uuid: 11113f77-b439-4911-a8dd-414d2ee36b59
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|DE - zhuhai.uk 03
+  port: 2027
+  reality-opts:
+    public-key: EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0
+    short-id: 6ba7b8109dad11d1
+  server: germ.skysafe.online
+  servername: germ.skysafe.online
+  tls: true
+  type: vless
+  uuid: 806b803b-7dad-4f13-b525-f3b1ab50e44e
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 2|DE - zhuhai.uk 01

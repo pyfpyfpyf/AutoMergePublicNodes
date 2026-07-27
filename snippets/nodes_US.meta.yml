@@ -37,96 +37,84 @@ proxies:
       Host: www.ignitelimit.com
     path: /assignment
 - client-fingerprint: chrome
-  name: 2|US - zhuhai.uk
-  network: ws
-  port: 2083
-  server: 91.193.58.15
-  servername: vlso.1d.mom
-  tls: true
-  type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso.1d.mom
-    path: /socks5=888:888@8.210.127.248:1080
-- name: 2|US - zhuhai.uk 02
-  port: 9002
-  server: 156.146.59.9
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 2|US - zhuhai.uk 03
-  port: 666
-  server: 23.254.233.221
-  type: socks5
-- name: 2|US - zhuhai.uk 04
-  port: 9002
-  server: 156.146.59.20
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 2|US - zhuhai.uk 05
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|US - zhuhai.uk 06
+  name: 2|US - zhuhai.uk
   port: 443
   reality-opts:
     public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
     short-id: dbbe8dca27a92c35
   server: 154.193.55.183
   servername: storage.yandex.net
-  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
-- client-fingerprint: chrome
+- name: 2|US - zhuhai.uk 02
+  port: 9002
+  server: 156.146.59.48
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 2|US - zhuhai.uk 03
+  port: 9002
+  server: 156.146.59.32
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 2|US - zhuhai.uk 04
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 2|US - zhuhai.uk 05
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 2|US - zhuhai.uk 06
+  port: 9002
+  server: 156.146.59.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 2|US - zhuhai.uk 07
-  network: ws
-  port: 8443
-  server: 91.193.58.163
-  servername: vlso.1d.mom
+  port: 443
+  reality-opts:
+    public-key: ZCYpNgP7BsaN5WzpxhO8IXtfoHm2DWZuchCAl-ACmyI
+    short-id: 6e4a9c1f0b7d23a8
+  server: 5.42.121.154
+  servername: api-maps.yandex.ru
   tls: true
   type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso.1d.mom
-    path: /socks5=888:888@8.210.127.248:1080
+  uuid: 11113f77-b439-4911-a8dd-414d2ee36b59
 - name: 2|US - zhuhai.uk 08
   port: 9002
-  server: 138.199.35.208
+  server: 156.146.59.27
   skip-cert-verify: true
   tls: true
   type: http
 - name: 2|US - zhuhai.uk 09
-  port: 443
-  server: 38.28.193.188
+  port: 9002
+  server: 138.199.35.211
   skip-cert-verify: true
   tls: true
   type: http
 - name: 2|US - zhuhai.uk 10
   port: 9002
-  server: 156.146.59.33
+  server: 138.199.35.210
   skip-cert-verify: true
   tls: true
   type: http
 - name: 2|US - zhuhai.uk 11
-  port: 9002
-  server: 138.199.35.196
+  password: 4684baa8-c839-47eb-aac3-0b8ed45c20e5
+  port: 8881
+  server: us.xfj123.top
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 2|US - zhuhai.uk 12
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
+  sni: us.xfj123.top
+  type: hysteria2
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: movie
