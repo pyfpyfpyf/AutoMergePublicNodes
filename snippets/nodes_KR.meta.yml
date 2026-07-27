@@ -16,7 +16,7 @@ proxies:
   uuid: f75814f6-8f81-4847-b792-168c41f2dc85
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 1|KR_speednode_0004
+  name: 1,2|US - zhuhai.uk 02
   port: 443
   reality-opts:
     public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
@@ -28,6 +28,11 @@ proxies:
   type: vless
   udp: true
   uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
+- name: 2|KR - zhuhai.uk
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  username: T2clM0QlM0Q6
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: update
@@ -46,51 +51,6 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: update
-  name: 2|KR - zhuhai.uk 01
-  network: grpc
-  port: 10046
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: kr1-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4572D477-103D-4E01-A26D-32A5A4612D35
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 2|KR - zhuhai.uk 02
-  network: grpc
-  port: 10047
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: kr2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4572D477-103D-4E01-A26D-32A5A4612D35
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 2|KR - zhuhai.uk 04
-  network: grpc
-  port: 10049
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: kr4-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4572D477-103D-4E01-A26D-32A5A4612D35
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
   name: 2|KR - zhuhai.uk 05
   network: grpc
   port: 10050
@@ -98,6 +58,21 @@ proxies:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: 686c0ef0
   server: kr5-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4572D477-103D-4E01-A26D-32A5A4612D35
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  name: 2|KR - zhuhai.uk 01
+  network: grpc
+  port: 10046
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr1-r.link-t7.com
   servername: s0.awsstatic.com
   tls: true
   type: vless
