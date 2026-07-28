@@ -1,34 +1,24 @@
 proxies:
-- client-fingerprint: random
-  name: 2|US - zhuhai.uk
-  port: 443
-  reality-opts:
-    public-key: lYcMPEgf6ePmF_d8RXR5fsVorycW37v_ECl-fz_H6w4
-    short-id: cfe08c23a85f24
-  server: 78.111.89.171
-  servername: www.cloudflare.com
-  tls: true
+- name: 2|US - zhuhai.uk
+  network: ws
+  port: 44194
+  server: 154.64.228.51
   type: vless
-  uuid: 0370b162-baff-4757-86cc-cce4bf07f6f1
+  uuid: 3857c126-6475-4dd7-d219-2e1d8fd43684
+  ws-opts:
+    path: /
 - name: 2|US - zhuhai.uk 02
   port: 9002
-  server: 138.199.35.216
+  server: 138.199.35.210
   skip-cert-verify: true
   tls: true
   type: http
 - name: 2|US - zhuhai.uk 03
-  network: ws
-  password: MITIVPN
-  port: 2053
-  server: 104.17.147.22
+  port: 9002
+  server: 156.146.59.16
   skip-cert-verify: true
-  sni: ikk---7-MiTiVPN----o.kingnetwork.ir
   tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ikk---7-MiTiVPN----o.kingnetwork.ir
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de
+  type: http
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 2|US - zhuhai.uk 06

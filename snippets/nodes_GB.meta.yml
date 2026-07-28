@@ -1,22 +1,20 @@
 proxies:
-- client-fingerprint: chrome
-  name: 1|GB_speednode_0001
-  network: tcp
-  packet-encoding: xudp
+- cipher: chacha20-ietf-poly1305
+  name: 2|GB - zhuhai.uk
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: 61312
+  server: 144.24.229.215
+  type: ss
+- name: 2|GB - zhuhai.uk 02
+  network: ws
   port: 443
-  reality-opts:
-    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: 0b
-  server: 45.155.52.231
-  servername: ru2.skydrgn-online.online
-  skip-cert-verify: false
+  server: 47.102.212.166
+  servername: vangoghhh.info
+  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
-- cipher: aes-256-cfb
-  name: 2|GB - zhuhai.uk
-  password: amazonskr05
-  port: 443
-  server: 35.176.5.239
-  type: ss
+  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
+  ws-opts:
+    headers:
+      Host: vangoghhh.info
+    path: /rdfgtws
