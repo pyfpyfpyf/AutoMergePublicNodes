@@ -1,11 +1,4 @@
 proxies:
-- name: 2|TW - zhuhai.uk 06
-  network: tcp
-  port: 10000
-  server: 60.249.101.14
-  type: vless
-  udp: true
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - name: 2|TW - zhuhai.uk 03
   network: tcp
   port: 10000
@@ -13,3 +6,16 @@ proxies:
   type: vless
   udp: true
   uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|TW - zhuhai.uk 24
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: tw35.alytest.cc
+  servername: tw.jd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c90afede-81f8-439d-9a20-f45579f623ec

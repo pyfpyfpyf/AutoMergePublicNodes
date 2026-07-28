@@ -40,16 +40,57 @@ proxies:
   type: vless
   udp: true
   uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
+- name: 2|US - zhuhai.uk
+  port: 1080
+  server: 103.7.138.17
+  type: socks5
 - name: 2|US - zhuhai.uk 02
   port: 9002
-  server: 156.146.59.16
+  server: 156.146.59.21
   skip-cert-verify: true
   tls: true
   type: http
 - name: 2|US - zhuhai.uk 03
-  port: 1080
-  server: 152.53.209.196
-  type: socks5
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: ljfxz
+  name: 2|US - zhuhai.uk 04
+  network: grpc
+  port: 46795
+  server: t3.hhaakk9922.com
+  servername: t3.hhaakk9922.com
+  tls: true
+  type: vless
+  uuid: e34501b9-faa9-356f-8b30-8f2c986b764b
+- alterId: 0
+  cipher: auto
+  name: 2|US - zhuhai.uk 05
+  network: ws
+  port: 36802
+  server: cindy51.ceoiii.com
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- name: 2|US - zhuhai.uk 06
+  port: 9002
+  server: 156.146.59.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 2|US - zhuhai.uk 07
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: movie
@@ -65,46 +106,3 @@ proxies:
   type: vless
   udp: true
   uuid: 6BA21C4F-87EA-43D9-B0C9-BCD40900DAF8
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 2|US - zhuhai.uk 06
-  network: tcp
-  port: 20001
-  reality-opts:
-    public-key: x-SY8-gdy6LPtfJXNH9s9S4I7o2mTI2T8i3R5KAa5TY
-    short-id: 07f9d8acd616bd
-  server: phoenix.maimaiyun.shop
-  servername: identity.oraclecloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: movie
-  name: 2|US - zhuhai.uk 04
-  network: grpc
-  port: 10242
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: us5-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65ED2A4D-E1DB-4310-AB85-65C711BA873A
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 2|US - zhuhai.uk 07
-  network: tcp
-  port: 30001
-  reality-opts:
-    public-key: 1jkizvy42aHc-um3C7LgmBYRn6HFJomyk0F2T_i2PwA
-    short-id: 6d9478ae
-  server: zz.j-pan.ccwu.cc
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca

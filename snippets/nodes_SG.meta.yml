@@ -1,4 +1,31 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 2|SG - zhuhai.uk
+  network: ws
+  port: 36809
+  server: cindy58.ceoiii.com
+  type: vmess
+  uuid: d5cac7ea-a02f-3cf2-9ca8-f48b6666b419
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  name: 2|SG - zhuhai.uk 05
+  network: grpc
+  port: 10037
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65ED2A4D-E1DB-4310-AB85-65C711BA873A
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: update
@@ -32,36 +59,6 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: update
-  name: 2|SG - zhuhai.uk 06
-  network: grpc
-  port: 10038
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg3-r.link-t7.com
-  servername: d1.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65ED2A4D-E1DB-4310-AB85-65C711BA873A
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 2|SG - zhuhai.uk 05
-  network: grpc
-  port: 10037
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65ED2A4D-E1DB-4310-AB85-65C711BA873A
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
   name: 2|SG - zhuhai.uk 01
   network: grpc
   port: 10036
@@ -74,3 +71,18 @@ proxies:
   type: vless
   udp: true
   uuid: 6BA21C4F-87EA-43D9-B0C9-BCD40900DAF8
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  name: 2|SG - zhuhai.uk 06
+  network: grpc
+  port: 10038
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg3-r.link-t7.com
+  servername: d1.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65ED2A4D-E1DB-4310-AB85-65C711BA873A
