@@ -1,12 +1,127 @@
 proxies:
-- client-fingerprint: random
-  name: 2|RU - zhuhai.uk
-  port: 40443
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 1|RU_speednode_0018
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: O9clKx7I5jpBnibeaV5Httd1lDFkVIhsf0c8kgjIkiU
-    short-id: 20c6
-  server: 5.129.215.24
-  servername: deepl.com
+    public-key: M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w
+  server: 94.139.251.191
+  servername: apple.com
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 9f5f55bd-e59e-4c32-a29d-85639919f01f
+  udp: true
+  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|RU_speednode_0019
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
+  server: 94.139.251.9
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 1|RU_speednode_0020
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w
+  server: 94.139.251.191
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d6dc1358-1bb5-4a9d-92fd-3e255567e3fc
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 1|RU_speednode_0021
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w
+  server: 94.139.251.191
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 1|RU_speednode_0022
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
+  server: 94.139.251.23
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d6dc1358-1bb5-4a9d-92fd-3e255567e3fc
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 1|RU_speednode_0023
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
+  server: 94.139.251.189
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|RU_speednode_0024
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
+  server: 94.139.251.23
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 1|RU_speednode_0025
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
+  server: 94.139.251.189
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
+- client-fingerprint: edge
+  grpc-opts:
+    grpc-service-name: cdn-spb.buildsnow.top
+  name: 2|RU - zhuhai.uk
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: SthWDW71MJzhV10XWlbGwdc0BJ6W1ILfny_xn2D0e1A
+    short-id: 0ac1b591aafcfa51
+  server: cdn-spb.buildsnow.top
+  servername: cdn-spb.buildsnow.top
+  tls: true
+  type: vless
+  uuid: f9922bed-4524-4a6a-8709-9c2e26dedee9
