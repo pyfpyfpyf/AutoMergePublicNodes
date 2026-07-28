@@ -75,32 +75,35 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt.
     path: /
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 1|US_speednode_0075
-  port: 443
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: abcd
-  server: 140.233.160.24
-  servername: ya.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
 - name: 2|US - zhuhai.uk
   port: 9002
   server: 138.199.35.218
   skip-cert-verify: true
   tls: true
   type: http
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 2|US - zhuhai.uk 03
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.232
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - name: 2|US - zhuhai.uk 04
   port: 9002
   server: 138.199.35.195
   skip-cert-verify: true
   tls: true
   type: http
+- name: 2|US - zhuhai.uk 05
+  port: 10000
+  server: 180.178.60.252
+  type: vless
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: movie
