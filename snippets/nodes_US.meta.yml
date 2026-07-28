@@ -27,7 +27,7 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/nl
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 1,2|FI - zhuhai.uk
+  name: 1|US_speednode_0033
   network: tcp
   port: 443
   reality-opts:
@@ -40,22 +40,16 @@ proxies:
   type: vless
   udp: true
   uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
-- name: 2|US - zhuhai.uk
-  port: 1080
-  server: 23.175.248.21
-  type: socks5
 - name: 2|US - zhuhai.uk 02
   port: 9002
-  server: 156.146.59.4
+  server: 156.146.59.16
   skip-cert-verify: true
   tls: true
   type: http
 - name: 2|US - zhuhai.uk 03
-  port: 9002
-  server: 156.146.59.47
-  skip-cert-verify: true
-  tls: true
-  type: http
+  port: 1080
+  server: 152.53.209.196
+  type: socks5
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: movie

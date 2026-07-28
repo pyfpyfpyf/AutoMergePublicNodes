@@ -15,7 +15,7 @@ proxies:
       Host: forfreeuse.sub-flow.online
     path: /
 - client-fingerprint: chrome
-  name: 1|DE_speednode_0005
+  name: 1,2|FI - zhuhai.uk
   network: ws
   port: 2053
   server: 147.45.196.240
@@ -44,30 +44,22 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
-- name: 2|DE - zhuhai.uk
+- cipher: chacha20-ietf-poly1305
+  name: 2|DE - zhuhai.uk
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.112.143
+  type: ss
+- name: 2|DE - zhuhai.uk 02
   network: ws
   port: 80
-  server: 151.101.193.54
+  server: 167.82.0.1
   type: vless
   uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
   ws-opts:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt.
     path: /
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 2|DE - zhuhai.uk 02
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: 3303c7a5
-  server: 194.93.0.28
-  servername: media2.tcpdoor.net
-  tls: true
-  type: vless
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 2|DE - zhuhai.uk 01
