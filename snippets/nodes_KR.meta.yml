@@ -1,7 +1,7 @@
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 1,2|US - zhuhai.uk 03
+  name: 1|KR_speednode_0031
   network: tcp
   port: 443
   reality-opts:
@@ -29,10 +29,6 @@ proxies:
   type: vless
   udp: true
   uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-- name: 2|KR - zhuhai.uk
-  port: 1080
-  server: 8.213.149.224
-  type: socks5
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: update
