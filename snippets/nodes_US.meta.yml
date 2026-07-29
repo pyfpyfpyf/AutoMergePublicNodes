@@ -41,53 +41,25 @@ proxies:
   udp: true
   uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
 - name: 2|US - zhuhai.uk
-  port: 1080
-  server: 103.7.138.17
-  type: socks5
+  port: 9002
+  server: 156.146.59.19
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 2|US - zhuhai.uk 02
   port: 9002
-  server: 156.146.59.21
+  server: 156.146.59.12
   skip-cert-verify: true
   tls: true
   type: http
-- name: 2|US - zhuhai.uk 03
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: ljfxz
-  name: 2|US - zhuhai.uk 04
-  network: grpc
-  port: 46795
-  server: t3.hhaakk9922.com
-  servername: t3.hhaakk9922.com
-  tls: true
+- name: 2|US - zhuhai.uk 04
+  port: 10000
+  server: 180.178.60.252
   type: vless
-  uuid: e34501b9-faa9-356f-8b30-8f2c986b764b
-- alterId: 0
-  cipher: auto
-  name: 2|US - zhuhai.uk 05
-  network: ws
-  port: 36802
-  server: cindy51.ceoiii.com
-  type: vmess
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
-- name: 2|US - zhuhai.uk 06
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
+- name: 2|US - zhuhai.uk 05
   port: 9002
-  server: 156.146.59.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 2|US - zhuhai.uk 07
-  port: 9002
-  server: 138.199.35.219
+  server: 156.146.59.23
   skip-cert-verify: true
   tls: true
   type: http

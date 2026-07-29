@@ -44,6 +44,35 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 2|DE - zhuhai.uk
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: 3c9c5d01c6f824dd
+  server: 155.117.137.201
+  servername: cdn9-33.yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 5c2a674b-bf9d-4461-b56d-a9c2bc299d9a
+- name: 2|DE - zhuhai.uk 02
+  port: 1080
+  server: 152.89.104.11
+  type: socks5
+- client-fingerprint: chrome
+  name: 2|DE - zhuhai.uk 03
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  uuid: 9e267ee7-45d1-47a3-88d7-f22230ad8c85
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 2|DE - zhuhai.uk 01
