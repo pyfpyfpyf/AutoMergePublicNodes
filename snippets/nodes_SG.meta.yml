@@ -1,19 +1,14 @@
 proxies:
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 2|SG - zhuhai.uk 05
-  network: grpc
-  port: 10037
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65ED2A4D-E1DB-4310-AB85-65C711BA873A
+- cipher: chacha20-ietf-poly1305
+  name: 2|SG - zhuhai.uk
+  password: Y2QwZTQ0MDYzOWFhNjA5YmE0NTZhNWFkODkzMWNmODU=
+  port: 56927
+  server: 161.118.208.6
+  type: ss
+- name: 2|SG - zhuhai.uk 02
+  port: 10808
+  server: 45.43.63.37
+  type: socks5
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: update
@@ -32,18 +27,33 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: update
-  name: 2|SG - zhuhai.uk 02
+  name: 2|SG - zhuhai.uk 06
   network: grpc
-  port: 10039
+  port: 10038
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: 686c0ef0
-  server: sg4-r.link-t7.com
+  server: sg3-r.link-t7.com
   servername: d1.awsstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: 6BA21C4F-87EA-43D9-B0C9-BCD40900DAF8
+  uuid: 65ED2A4D-E1DB-4310-AB85-65C711BA873A
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  name: 2|SG - zhuhai.uk 05
+  network: grpc
+  port: 10037
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65ED2A4D-E1DB-4310-AB85-65C711BA873A
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: update
@@ -59,18 +69,3 @@ proxies:
   type: vless
   udp: true
   uuid: 6BA21C4F-87EA-43D9-B0C9-BCD40900DAF8
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 2|SG - zhuhai.uk 06
-  network: grpc
-  port: 10038
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg3-r.link-t7.com
-  servername: d1.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65ED2A4D-E1DB-4310-AB85-65C711BA873A
