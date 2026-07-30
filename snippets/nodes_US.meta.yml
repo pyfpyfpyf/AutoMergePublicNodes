@@ -30,58 +30,20 @@ proxies:
     path: /fnetvpn2026
 - name: 2|US - zhuhai.uk
   port: 9002
-  server: 138.199.35.214
+  server: 156.146.59.44
   skip-cert-verify: true
   tls: true
   type: http
 - name: 2|US - zhuhai.uk 02
-  port: 9002
-  server: 138.199.35.195
+  port: 8090
+  server: 209.148.53.153
   skip-cert-verify: true
   tls: true
   type: http
 - name: 2|US - zhuhai.uk 03
-  port: 9002
-  server: 156.146.59.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 2|US - zhuhai.uk 04
-  port: 9002
-  server: 156.146.59.32
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 2|US - zhuhai.uk 05
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 2|US - zhuhai.uk 06
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 2|US - zhuhai.uk 07
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 2|US - zhuhai.uk 08
-  port: 9002
-  server: 156.146.59.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 2|US - zhuhai.uk 09
-  port: 9002
-  server: 156.146.59.21
-  skip-cert-verify: true
-  tls: true
-  type: http
+  port: 1080
+  server: 23.175.248.21
+  type: socks5
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: movie
@@ -97,3 +59,18 @@ proxies:
   type: vless
   udp: true
   uuid: 6BA21C4F-87EA-43D9-B0C9-BCD40900DAF8
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: movie
+  name: 2|US - zhuhai.uk 04
+  network: grpc
+  port: 10242
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: us5-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65ED2A4D-E1DB-4310-AB85-65C711BA873A
