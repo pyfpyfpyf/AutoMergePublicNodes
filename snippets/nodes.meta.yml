@@ -1,10 +1,10 @@
 proxies:
-- name: 0|hysteria2-200394189
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+- name: 0|hysteria2-203838260
+  password: 9b08bee0-2615-46c6-8939-54b575517a26
   port: 443
-  server: vpn-ca-001.fastervpn.world
+  server: 78.159.240.215
   skip-cert-verify: true
-  sni: vpn-ca-001.fastervpn.world
+  sni: quic.tyr-agentstvo.tech
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
   name: 0|shadowsocks-202711382
@@ -13,81 +13,35 @@ proxies:
   server: 158.101.208.107
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-200379481
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 193.29.139.234
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-201309337
-  password: IYJ5IS2oSAs93kGT
-  port: 443
-  server: 4.231.225.39
-  type: ss
-  udp: true
-- name: 0|trojan-179702033
-  password: MiTiVPN
-  port: 443
-  server: 46.202.30.27
-  skip-cert-verify: true
-  sni: g-o-mitivpn---mitivpnj.app-cloud.ir
-  type: trojan
-  udp: true
-- name: 0|trojan-194719180
-  password: MITIVPN
-  port: 443
-  server: 45.130.125.112
-  skip-cert-verify: true
-  sni: ikk---7-mitivpn----o.maqror.ir
-  type: trojan
-  udp: true
-- name: 0|trojan-200574044
+- name: 0|trojan-23
   password: humanity
   port: 443
   server: 172.64.147.24
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.gossipglove.com
   type: trojan
   udp: true
-- name: 0|vless-201280610
-  network: ws
-  port: 8880
-  server: muddy-art-8cda.197-0c6.workers.dev
-  type: vless
-  udp: true
-  uuid: 86d998bc-a5a2-45d5-8169-b906259110a6
-- name: 0|vless-200265607
-  network: ws
+- name: 0|trojan-203085152
+  password: humanity
   port: 443
-  server: 69.46.46.2
-  servername: rvg-production-aa2f.up.railway.app
+  server: 208.103.161.159
   skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+- flow: xtls-rprx-vision
+  name: 0|vless-202742757
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: sntQ0HsOXhaye-K7bKrMw1w3cRmjgp0lT5IhP-ngwlU
+    short-id: 998432bc
+  server: 152.53.55.155
+  servername: cnn.com
   tls: true
   type: vless
   udp: true
-  uuid: 489f6ece-37ab-58ab-cb12-208eb13b9193
-- name: 0|vless-201317358
-  network: ws
-  port: 443
-  server: 69.46.46.80
-  servername: rvg-production-ae93.up.railway.app
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 281f20e3-318d-f3b6-8902-1df9c7b9ce03
-- name: 0|vless-200274615
-  network: ws
-  port: 443
-  server: soskeynets-x4g-ezaccess1-de8a3.up.railway.app
-  servername: ezaccess1-x4g-ezaccess1-de8a3.up.railway.app
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 953ed84d-ade1-5d22-6974-4eacd93589df
+  uuid: 9cddcc01-3dfb-46e0-85d8-e3c6818232cf
 - name: 0|vless-202711383
   network: tcp
   port: 62145
@@ -108,38 +62,27 @@ proxies:
   type: vless
   udp: true
   uuid: 661f395d-b153-4199-a04b-693f5fe7f261
-- name: 0|vless-201320361
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 0|vless-203790485
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Z2c9dK70_0OWBEZGgeaXJyt9dup9h2-hZlCCvIGLg1Q
+    short-id: 496ee75c2f91f51d
+  server: jp-ak.astralweb.tech
+  servername: jp-ak.astralweb.tech
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
+- name: 0|vless-202749789
   network: tcp
   port: 1446
   server: 78.154.108.51
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-111111111111
-- name: 0|vless-200394191
-  network: tcp
-  port: 62145
-  server: 157.137.230.78
-  type: vless
-  udp: true
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- alterId: 0
-  cipher: auto
-  name: 0|vmess-201326405
-  network: none
-  port: 24548
-  server: dsl081-033-205.lax1.dsl.speakeasy.net
-  type: vmess
-  udp: true
-  uuid: ed81c339-eca0-463a-c671-fce729a683b3
-- alterId: 0
-  cipher: auto
-  name: 0|vmess-200292604
-  network: tcp
-  port: 27726
-  server: 195.133.193.18
-  type: vmess
-  udp: true
-  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
   name: 0|vmess-202761753
@@ -149,63 +92,18 @@ proxies:
   type: vmess
   udp: true
   uuid: 4f198ea9-311e-3dcf-910c-896de6cb160b
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 0|vless-200278613
-  network: raw
-  port: 8443
+- name: 0|vless-203831507
+  network: grpc
+  port: 2053
   reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  server: 31.58.50.200
-  servername: tradingview.com
+    public-key: GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY
+    short-id: 524efc1f88592266
+  server: gr043.bamajobin.ir
+  servername: play.google.com
   tls: true
   type: vless
   udp: true
-  uuid: b222ebc7-569c-45ca-a0e4-756f171b247b
-- flow: xtls-rprx-vision
-  name: 0|vless-200264611
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: vJBCJXM6AYo1zobLsW7-UzJsznfiqzVpz7OphyAbGX0
-    short-id: 7b661daae97b9789
-  server: 167.88.167.57
-  servername: site.rumedia-cdn.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 41cbcc75-759f-4707-984e-aea715046830
-- name: 0|vless-200274614
-  network: ws
-  port: 443
-  server: ezaccess1-x4g-ezaccess1-de8a3.up.railway.app
-  servername: ezaccess1-x4g-ezaccess1-de8a3.up.railway.app
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 953ed84d-ade1-5d22-6974-4eacd93589df
-- flow: xtls-rprx-vision
-  name: 0|vless-200282613
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: kjiuPmjM4IutdZudHfcPZHEwcrBEFY4qBLlvfC6A_Ss
-    short-id: b9f8d3f8
-  server: 216.152.147.28
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d9e4721d-cdac-44c7-bc91-117367eac194
-- name: 0|vless-202751758
-  network: tcp
-  port: 22222
-  server: 15.237.168.93
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  uuid: e480ec05-1570-4a7d-b377-c3a20f80afa8
 - name: 0,1|US_speednode_0122
   network: tcp
   port: 2553
@@ -230,14 +128,6 @@ proxies:
   type: vless
   udp: true
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 0|trojan-194720183
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
 - name: 0|trojan-202723755
   password: humanity
   port: 443
@@ -246,76 +136,27 @@ proxies:
   sni: www.creationlong.org
   type: trojan
   udp: true
-- flow: xtls-rprx-vision
-  name: 0,1,2|EE - zhuhai.uk
+- client-fingerprint: firefox
+  name: 0|vless-203838234
   network: tcp
-  port: 993
-  reality-opts:
-    public-key: Nnpwm8dqFl9dlMJmg0M9G11vmgCKzNagFTn4tH4sWy4
-  server: 88.218.44.4
-  servername: swcdn.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- name: 0|vless-201320359
-  network: tcp
-  port: 2551
-  server: 78.154.108.200
-  type: vless
-  udp: true
-  uuid: d8b42cd5-a149-4356-9e61-000000000000
-- name: 0|vless-201320358
-  network: tcp
-  port: 2550
-  server: 78.154.108.146
-  type: vless
-  udp: true
-  uuid: d8b42cd5-a149-4356-9e61-000000000000
-- name: 0|vless-200263610
-  network: ws
   port: 443
-  server: 69.46.46.3
-  servername: rvg-production-5879.up.railway.app
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 35ec6474-c6fd-0210-34c9-de9e43389781
-- name: 0,2|HK - zhuhai.uk 03
-  network: tcp
-  port: 10000
-  server: 207.174.133.222
-  type: vless
-  udp: true
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- flow: xtls-rprx-vision
-  name: 0|vless-200271615
-  network: raw
-  port: 18007
   reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  server: 3.114.220.22
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-- name: 0|vless-200278618
-  network: grpc
-  port: 8082
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
     short-id: ''
-  server: 83.228.196.3
-  servername: id.vk.com
+  server: pro-jp.emrata.top
+  servername: pro-jp.emrata.top
   tls: true
   type: vless
   udp: true
-  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
-- name: 0|vless-201317359
+  uuid: cf502d0f-812c-4301-bf48-3d3728911d49
+- name: 0|vless-202751758
+  network: tcp
+  port: 22222
+  server: 15.237.168.93
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 0|vless-202729779
   network: ws
   port: 443
   server: orange.seeck.cn
@@ -326,78 +167,18 @@ proxies:
   udp: true
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
 - client-fingerprint: firefox
-  name: 0|vless-200261608
-  network: grpc
-  port: 16923
-  reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: 10ffb85da1c2d986
-  server: 152.53.169.29
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26e354ba-a3ee-45f0-bf68-422e27e12884
-- alterId: 0
-  cipher: auto
-  name: 0|vmess-200293605
-  network: ws
-  port: 443
-  server: jeffptrade.com
-  servername: ''
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: b86f3b55-04dd-532b-3a05-11d9ebd42604
-- name: 0|hysteria2-200394203
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 60111
-  server: 62.210.7.139
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-- name: 0|trojan-176269129
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- name: 0|vless-201320356
-  network: tcp
-  port: 2552
-  server: 195.21.129.117
-  type: vless
-  udp: true
-  uuid: d8b42cd5-a149-4356-9e61-000000000000
-- client-fingerprint: firefox
-  name: 0|vless-201211610
-  network: grpc
-  port: 16923
-  reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: 10ffb85da1c2d986
-  server: 152.233.31.80
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ecc1e369-4aaf-441a-b919-6e7455dd8354
-- flow: xtls-rprx-vision
-  name: 0|vless-202742757
+  name: 0|vless-203838235
   network: tcp
   port: 443
   reality-opts:
-    public-key: sntQ0HsOXhaye-K7bKrMw1w3cRmjgp0lT5IhP-ngwlU
-    short-id: 998432bc
-  server: 152.53.55.155
-  servername: cnn.com
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: ''
+  server: pro-jp.emrata.top
+  servername: pro-jp.emrata.top
   tls: true
   type: vless
   udp: true
-  uuid: 9cddcc01-3dfb-46e0-85d8-e3c6818232cf
+  uuid: 3c6275a3-9d27-4f19-8f87-f9da04db78e8
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 0|vless-202731761
@@ -424,89 +205,26 @@ proxies:
   type: vless
   udp: true
   uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 0|vless-200264617
-  network: tcp
-  port: 57367
-  reality-opts:
-    public-key: DN5-6pEo8XE3S7MzxzNFVCPPRk87KirDt8yUybpdmWE
-    short-id: 9fddc2f52909d4d3
-  server: nd2.fastcodz.ir
-  servername: play.google.com
-  tls: true
-  type: vless
+- name: 0|trojan-197443130
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: undef.network
+  skip-cert-verify: false
+  sni: com.digitalposts.dpdns.org
+  type: trojan
   udp: true
-  uuid: 43abfc3a-15fc-4e72-9362-a48a503aad68
-- flow: xtls-rprx-vision
-  name: 0|vless-202747798
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: cudJBi1zLMATgg_nlqMK5O6Lshlv8EQ2BBQjxbpF4AY
-    short-id: eedf31ed
-  server: 139.64.166.55
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c743b343-b1c9-4e44-98a9-274df2015727
-- name: 0|vless-200284613
-  network: tcp
-  port: 2090
-  server: 31.56.196.205
-  type: vless
-  udp: true
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-- client-fingerprint: firefox
-  name: 0|vless-200285603
+- name: 0|vless-203828500
   network: grpc
   port: 16923
   reality-opts:
     public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
     short-id: 10ffb85da1c2d986
-  server: 152.53.169.29
+  server: 152.233.31.80
   servername: api-maps.yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: ecc1e369-4aaf-441a-b919-6e7455dd8354
-- name: 0|trojan-202718753
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: undef.network
-  skip-cert-verify: true
-  sni: com.digitalposts.dpdns.org
-  type: trojan
-  udp: true
-- name: 0|vless-201320363
-  network: tcp
-  port: 22223
-  server: 15.237.168.93
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 0|vless-201261609
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 5Z6PwoPSNBLPIsX8lZtHM7-Y-psMMR1vz5Pit0EVISs
-    short-id: 82f5d3a1e9c0b661
-  server: 85.155.226.82
-  servername: getsavesafe.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
-- name: 0|vless-201238612
-  network: tcp
-  port: 2090
-  server: 217.19.4.60
-  type: vless
-  udp: true
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  uuid: 26e354ba-a3ee-45f0-bf68-422e27e12884
 - name: 0|vless-202711553
   network: tcp
   port: 62145
@@ -545,81 +263,31 @@ proxies:
   type: vless
   udp: true
   uuid: 347e34f2-3211-4e01-b475-409f46788d3f
-- name: 0|vless-200262632
-  network: tcp
-  port: 57211
-  reality-opts:
-    public-key: 0i7YOLXsD5JDW-ThLSukwtLgR2MFeDmZrqEva0AZMEw
-    short-id: '596419'
-  server: 62.60.238.19
-  servername: www.intel.com
+- name: 0|vless-203830499
+  network: ws
+  port: 2096
+  server: 160.153.136.8
+  servername: tn1rr.qzz.io
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 34a6814b-6555-4a60-ba00-04ada451c7da
-- name: 0|vless-200259616
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 0,1|GB_speednode_0007
   network: tcp
-  port: 56685
+  port: 443
   reality-opts:
-    public-key: t0kZxe2pNnijiZMax1dSxySZyXwBM85__lBkrFP_pGI
-    short-id: '97'
-  server: 62.60.238.19
-  servername: www.intel.com
+    public-key: qgQAQ19q2EhKzfolYMDsvTlmP9EAiCT8kng4uWR4QVg
+    short-id: 0a2d53503fdec721
+  server: de.prime-net.me
+  servername: de.prime-net.me
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 19d5595f-3073-4e7e-aa2b-a2be77414b79
-- name: 0|vless-200270603
-  network: tcp
-  port: 43886
-  reality-opts:
-    public-key: HdWBXjTjf7x3DLM8yerAIgRkZ44dHa9kWPPz9ly3hiY
-    short-id: b263
-  server: 62.60.238.19
-  servername: www.sony.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 72a165ff-0571-4d4b-a830-32759ef32a43
-- name: 0|vless-200259603
-  network: tcp
-  port: 38601
-  reality-opts:
-    public-key: Sj9bDIFfayJXRvHQ924TbCZHMwtvUVgapTXlxvUdjgM
-    short-id: c1f2f50d6b2beee9
-  server: 62.60.238.19
-  servername: www.intel.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 13d8c901-889a-4909-bb7e-249e80c2a9f2
-- name: 0|vless-200266603
-  network: tcp
-  port: 28021
-  reality-opts:
-    public-key: VPPHJDA15WpIwZBnheLr2RBltRDtSmR5S831dD8vS1E
-    short-id: 8a7a173737bfef67
-  server: 62.60.238.19
-  servername: www.sony.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e0b9fcb-c0a1-4e35-baf3-8d500b6fef3b
-- name: 0|trojan-182595885
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-  udp: true
-- name: 0|vless-201320360
-  network: tcp
-  port: 1447
-  server: 78.154.108.26
-  type: vless
-  udp: true
-  uuid: d8b42cd5-a149-4356-9e61-111111111111
+  uuid: 30702f28-0a64-4f96-bd8f-cc601ca87e4d
 - name: 0|vless-202746768
   network: tcp
   port: 6500
@@ -652,138 +320,30 @@ proxies:
   type: vless
   udp: true
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
-- name: 0|vless-200280607
-  network: tcp
-  port: 53945
-  reality-opts:
-    public-key: VBRv9MUX-FTu5W4ufrOrneJoVUQbmfFlBz6YJXwqcn8
-    short-id: b966b2b323
-  server: 62.60.238.19
-  servername: www.intel.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c57a318c-04b5-4f95-9439-f47aa4b6b585
-- flow: xtls-rprx-vision
-  name: 0|vless-200274646
-  network: raw
-  port: 8443
-  reality-opts:
-    public-key: UZn-GKszDMErkbxDZAMbPmOMBk2nwEc7Av5uhZFMkgI
-    short-id: 7a3f9c2e1b8d4506
-  server: 144.31.98.144
-  servername: www.tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9a6ee382-75c3-4cc5-bacd-66494cf99daa
-- name: 0|vless-200262610
-  network: ws
-  port: 8443
-  server: ad-013.pixel9xdmq.info
-  servername: ''
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
-- name: 0|vless-200257603
-  network: tcp
-  port: 33701
-  reality-opts:
-    public-key: G6i8gTwVX9C88TnY36adM26e2MgFv9AW7pvf0LmJxxc
-    short-id: '3802'
-  server: 176.124.198.224
-  servername: aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 01efedf3-888b-4b94-8b97-953d761199e9
-- name: 0|vless-200270608
-  network: tcp
-  port: 41761
-  reality-opts:
-    public-key: p4Uk5ChUwM47GauI3hoo_crpAgSI0F-4iDBXcsXlJGc
-    short-id: 1876e5da
-  server: 62.60.238.19
-  servername: www.tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 771c2911-64c0-4e5b-b012-450c83750c26
-- name: 0|vless-200282610
-  network: tcp
-  port: 30222
-  reality-opts:
-    public-key: TIOS12fA2Xk8CTPDeJHIwGRfzS2mXaCwjqoAOZSSgUc
-    short-id: 82eae93ca3
-  server: 62.60.238.19
-  servername: www.icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d959c6b4-490d-4de9-a465-3f53b50f9988
-- flow: xtls-rprx-vision
-  name: 0,1|CA_speednode_0003
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: UZn-GKszDMErkbxDZAMbPmOMBk2nwEc7Av5uhZFMkgI
-    short-id: 7a3f9c2e1b8d4506
-  server: 167.17.182.192
-  servername: www.tesla.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9a6ee382-75c3-4cc5-bacd-66494cf99daa
-- alterId: 0
-  cipher: auto
-  name: 0|vmess-200292607
-  network: raw
-  port: 27726
-  server: fj260404.freechatup.com
-  type: vmess
-  udp: true
-  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
-- name: 0|hysteria2-200394206
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: wopa7.api3-max.ru
-  skip-cert-verify: true
-  sni: wopa7.api3-max.ru
-  type: hysteria2
-- name: 0|vless-201320364
-  network: tcp
-  port: 22224
-  server: 15.237.168.93
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 0|vless-201279611
+  name: 0|vless-203771485
   network: tcp
   port: 443
   reality-opts:
-    public-key: FiGwAuKMy_5VK62hqCxDZn1jUjrplWTM1RmAwoA5o1w
-    short-id: 0d6c02fda165f38c
-  server: lbvzo.falsemirrov.com
-  servername: lbvzo.falsemirrov.com
+    public-key: tZEzySB7soxBmNn2NPyzvUZtC7H1O0pyZx5M60_X2g4
+    short-id: 496ee75c2f91f51d
+  server: 82.97.252.129
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: 0fd412c1-6904-4ccc-bb6e-9653975c73f3
-- name: 0|vless-200279641
-  network: ws
+  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
+- name: 0|vless-203838220
+  network: tcp
   port: 443
-  server: 188.114.97.6
-  servername: nll-l--ss--nl.kingcloud-1.ir
+  server: 203.23.179.151
+  servername: ddc-akn.astralweb.tech
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: c19735a7-ff97-a112-3f07-60e500f7719b
+  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
 - name: 0|vless-202740779
   network: grpc
   port: 443
@@ -796,37 +356,6 @@ proxies:
   type: vless
   udp: true
   uuid: 8aa07b45-5cce-432d-8cf8-52dcaa8b712b
-- name: 0|vless-200259609
-  network: tcp
-  port: 39288
-  reality-opts:
-    public-key: xd91-Py-1-8IYoQxwSehpzajysr2XPpyuIaxiI3Z-00
-    short-id: b2
-  server: 176.124.198.224
-  servername: www.tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 162dd762-30d3-4107-9b56-5d6f20669011
-- name: 0|vless-200268614
-  network: tcp
-  port: 43407
-  reality-opts:
-    public-key: cCmCTCCWHc1bQxlf84vsZVJxrZtEwfJYyskP4rs6bCA
-    short-id: cf0e
-  server: 62.60.238.19
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 625e5120-1fec-41f6-b075-237058f1054a
-- name: 0|vless-200275603
-  network: tcp
-  port: 14610
-  server: 87.120.106.226
-  type: vless
-  udp: true
-  uuid: 9c32f85f-6e9c-429f-b7dc-3eeb8901259e
 - name: 0|vless-202740780
   network: grpc
   port: 443
@@ -878,85 +407,37 @@ proxies:
   type: vless
   udp: true
   uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
-- name: 0|trojan-202711533
+- name: 0|trojan-197443122
   password: 5xjmr1dz66pgsew0
   port: 8443
   server: cctvhikvision.center
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: com.digitalposts.dpdns.org
   type: trojan
   udp: true
-- name: 0|trojan-200581047
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
+- name: 0|trojan-2514895
+  password: humanity
+  port: 443
+  server: 104.18.6.147
+  skip-cert-verify: false
+  sni: www.creationlong.org
   type: trojan
   udp: true
-- client-fingerprint: qq
-  name: 0|vless-202727754
-  network: grpc
-  port: 16923
-  reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: 10ffb85da1c2d986
-  server: 152.53.169.29
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1324e49f-18f6-4b10-bc3a-03e60785105f
-- flow: xtls-rprx-vision
-  name: 0|vless-200269613
-  network: raw
+- name: 0|vless-203838233
+  network: tcp
   port: 443
   reality-opts:
-    public-key: CH9W2oh_iX9lNVegNBYJ3Z6Ht2PMS5xFaq7gZ_S-3AY
-    short-id: 7c069b4738e25acd
-  server: fl.unlimitedteam.space
-  servername: fl.unlimitedteam.space
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: ''
+  server: pro-it.emrata.top
+  servername: pro-it.emrata.top
   tls: true
   type: vless
   udp: true
-  uuid: 6fa1b8eb-56f4-4f41-97dc-e0185bcfc575
-- name: 0|vless-200262609
-  network: ws
-  port: 8443
-  server: ad-013.orbitqgr7v.info
-  servername: ''
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
-- name: 0|vless-200260604
-  network: tcp
-  port: 26319
-  reality-opts:
-    public-key: 341kcPUPVb4hqAWeT1twBL8lOgLJeIgvpPsiGOmN1VY
-    short-id: '26'
-  server: 62.60.238.19
-  servername: www.tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1d21ee25-0c9a-4f8c-86b1-752602f6620d
-- name: 0|vless-200278620
-  network: tcp
-  port: 15533
-  reality-opts:
-    public-key: 5wERd0FHLLmeOwR3VHFht5Dec8wPOh722-u1yiw9a1w
-    short-id: dd36
-  server: 77.110.106.130
-  servername: www.amd.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b51baac1-6bc5-42a7-995d-1602035e40d7
+  uuid: 3c6275a3-9d27-4f19-8f87-f9da04db78e8
 - flow: xtls-rprx-vision
-  name: 0|vless-200268606
-  network: tcp
+  name: 0|vless-202736757
+  network: raw
   port: 443
   reality-opts:
     public-key: bMcyxNueltQhz5Kuxcf8odDStWHowYfLhKNdCbUweDc
@@ -989,7 +470,8 @@ proxies:
   type: vless
   udp: true
   uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
-- name: 0|vless-201317357
+- client-fingerprint: edge
+  name: 0|vless-202729772
   network: grpc
   port: 16923
   reality-opts:
@@ -1002,8 +484,8 @@ proxies:
   udp: true
   uuid: 2702228d-880f-410a-bf39-bdbe26228ead
 - flow: xtls-rprx-vision
-  name: 0|vless-200262631
-  network: tcp
+  name: 0|vless-202730756
+  network: raw
   port: 443
   reality-opts:
     public-key: dRPcJM7ZWihjiGNHuIJ4iaCpLxHAKoo59WE-vsTZASs
@@ -1016,97 +498,18 @@ proxies:
   uuid: 34a1ada8-4a1a-434b-8583-7b68668f6e9d
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 0|vless-201258610
+  name: 0|vless-203838255
   network: tcp
   port: 443
   reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: d67ec5a8fc40ebea
-  server: 78.17.128.185
-  servername: pl10.myxasecure.space
+    public-key: da5UVhoC5QOCDm84AxB-RRxf0z2nySZ3lOemgqizLS4
+    short-id: ''
+  server: pro-tr.emrata.top
+  servername: pro-tr.emrata.top
   tls: true
   type: vless
   udp: true
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-- alterId: 0
-  cipher: auto
-  name: 0|vmess-200292606
-  network: ws
-  port: 36801
-  server: 68.155.86.84
-  type: vmess
-  udp: true
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-- name: 0|trojan-200581048
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-  udp: true
-- name: 0|vless-200278628
-  network: tcp
-  port: 44198
-  reality-opts:
-    public-key: wJx2IKZO_4-ZyQKJucdaJmi8jSI0D8Dn5NrwyljdbA8
-    short-id: 5a63
-  server: 62.60.238.19
-  servername: www.icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b8e5a17a-9679-4623-a5b6-00e7ea3df6af
-- name: 0|vless-200272611
-  network: tcp
-  port: 53527
-  reality-opts:
-    public-key: dSKEUO5noCILgii6uOrRsAdNHVtBqYmTgpo4EfP6AVk
-    short-id: 0aa4
-  server: 176.124.198.224
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 862bf51d-df98-423a-b0f0-0fd95c818db9
-- name: 0|vless-200258606
-  network: tcp
-  port: 58283
-  reality-opts:
-    public-key: m4L7-SlnWq_faFSBtCz3euNRC364Ra8i3ws7PeFP-mU
-    short-id: d5dc4b77d17d5fcd
-  server: 77.110.106.130
-  servername: www.intel.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0d0decd6-bb24-4b43-bad3-664810bbb50c
-- flow: xtls-rprx-vision
-  name: 0|vless-200267607
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: bbc68cec8bb8d2e3
-  server: 138.124.112.196
-  servername: node5.mxvpn.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
-- client-fingerprint: firefox
-  name: 0|vless-200263621
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
-    short-id: c6e19c434dc87df7
-  server: tun.temas-bor.ir
-  servername: login.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 38df5518-26c5-449b-98d9-a4f456f5f689
+  uuid: 3c6275a3-9d27-4f19-8f87-f9da04db78e8
 - name: 0,1|US_speednode_0118
   network: tcp
   port: 8443
@@ -1120,6 +523,19 @@ proxies:
   type: vless
   udp: true
   uuid: b9b1e7c9-4160-49b4-85a4-2f096706509a
+- flow: xtls-rprx-vision
+  name: 0|vless-202747798
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: cudJBi1zLMATgg_nlqMK5O6Lshlv8EQ2BBQjxbpF4AY
+    short-id: eedf31ed
+  server: 139.64.166.55
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c743b343-b1c9-4e44-98a9-274df2015727
 - flow: xtls-rprx-vision
   name: 0|vless-202733753
   network: raw
@@ -1147,20 +563,6 @@ proxies:
   type: vless
   udp: true
   uuid: 4462f038-7759-41fa-ab08-917ce33442f3
-- name: 0|vless-201206609
-  network: ws
-  port: 80
-  server: 143.14.11.236
-  type: vless
-  udp: true
-  uuid: f55ce6cc-3f6b-40fc-9e3b-abe26db17009
-- name: 0|hysteria2-200394229
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: taga2.api3-max.ru
-  skip-cert-verify: true
-  sni: taga2.api3-max.ru
-  type: hysteria2
 - name: 0|trojan-202722755
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 9450
@@ -1170,18 +572,19 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: firefox
-  name: 0|vless-200286612
-  network: raw
-  port: 22012
+  flow: xtls-rprx-vision
+  name: 0|vless-203838240
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
-    short-id: c6e19c434dc87df7
-  server: 89.167.81.142
-  servername: login.yahoo.com
+    public-key: FiGwAuKMy_5VK62hqCxDZn1jUjrplWTM1RmAwoA5o1w
+    short-id: 0d6c02fda165f38c
+  server: lbvzo.falsemirrov.com
+  servername: lbvzo.falsemirrov.com
   tls: true
   type: vless
   udp: true
-  uuid: efeefecf-72f9-4118-9e25-634ca2b2ca11
+  uuid: 0fd412c1-6904-4ccc-bb6e-9653975c73f3
 - flow: xtls-rprx-vision
   name: 0|vless-202736754
   network: tcp
@@ -1209,19 +612,6 @@ proxies:
   type: vless
   udp: true
   uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
-- client-fingerprint: firefox
-  name: 0|vless-200286610
-  network: raw
-  port: 22012
-  reality-opts:
-    public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
-    short-id: c6e19c434dc87df7
-  server: 167.233.233.187
-  servername: login.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: efeefecf-72f9-4118-9e25-634ca2b2ca11
 - name: 0|vless-202746766
   network: grpc
   port: 8082
@@ -1234,26 +624,6 @@ proxies:
   type: vless
   udp: true
   uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
-- name: 0|vless-200279638
-  network: ws
-  port: 443
-  server: 104.18.16.56
-  servername: l-j--vmitivpn---mitivpn-pp-o.kingcloud-1.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c19735a7-ff97-a112-3f07-60e500f7719b
-- name: 0|vless-200279636
-  network: ws
-  port: 443
-  server: 104.18.152.246
-  servername: ldggej--mitivpn---mitivpn-o.kingcloud-1.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c19735a7-ff97-a112-3f07-60e500f7719b
 - name: 0|vless-202730753
   network: raw
   port: 443
@@ -1266,89 +636,32 @@ proxies:
   type: vless
   udp: true
   uuid: 312eed52-b74a-41d7-a399-62efdc8f0122
-- flow: xtls-rprx-vision
-  name: 0|vless-201287612
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: rNBFVzV18kAj_ei4AqsgZywzmvD36WK9hcRdVnpHPAM
-    short-id: c0573c8280a0c019
-  server: try.north-1winter.cv
-  servername: www.ya.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: acc50200-7f21-4f90-9cca-0057efcbf042
-- name: 0|trojan-200254604
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: false
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: 0|trojan-184964699
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: false
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- flow: xtls-rprx-vision
-  name: 0|vless-200256646
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk
-    short-id: 0990d22f
-  server: 167.17.69.171
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00144519-7e0d-476b-8d28-435576af9262
 - client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 0|vless-200268619
-  network: raw
-  port: 443
+  name: 0|vless-202727754
+  network: grpc
+  port: 16923
   reality-opts:
-    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
-    short-id: ''
-  server: 94.139.251.23
-  servername: apple.com
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: 10ffb85da1c2d986
+  server: 152.53.169.29
+  servername: api-maps.yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 0|vless-200263604
+  uuid: 1324e49f-18f6-4b10-bc3a-03e60785105f
+- flow: xtls-rprx-vision
+  name: 0|vless-203830545
   network: tcp
   port: 443
   reality-opts:
-    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
-    short-id: ''
-  server: 94.126.204.43
-  servername: apple.com
+    public-key: LaGTRJ1CJnnYV7FnyqQnU28I0xFTPFKI8xmUFwig5ic
+    short-id: c410508e9721512b
+  server: 152.53.46.27
+  servername: stackoverflow.com
   tls: true
   type: vless
   udp: true
-  uuid: 35699c54-9188-4f43-972e-e8e42dbb104e
-- flow: xtls-rprx-vision
-  name: 0|vless-200281638
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w
-    short-id: ''
-  server: 94.126.206.129
-  servername: apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d6dc1358-1bb5-4a9d-92fd-3e255567e3fc
+  uuid: bcc094e4-1a85-8a25-f8e1-5b08b9af841c
 - flow: xtls-rprx-vision
   name: 0|vless-202736767
   network: tcp
@@ -1385,21 +698,19 @@ proxies:
   type: vless
   udp: true
   uuid: 33d5ecd8-b530-4040-9c40-98b6805a3992
-- alterId: 0
-  cipher: auto
-  name: 0|vmess-200292603
-  network: ws
-  port: 36809
-  server: 104.43.100.56
-  type: vmess
+- name: 0|vless-203749485
+  network: tcp
+  port: 2090
+  server: 213.232.204.98
+  type: vless
   udp: true
-  uuid: d5cac7ea-a02f-3cf2-9ca8-f48b6666b419
-- name: 0|hysteria2-172463165
-  password: 28d38ce6-7c79-4e9d-9175-2186da5be395
-  port: 443
-  server: 159.65.79.184
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+- name: 0|hysteria2-106798541
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  port: 33333
+  server: 155.248.209.237
   skip-cert-verify: true
-  sni: addons.mozilla.org
+  sni: ''
   type: hysteria2
 - name: 0|hysteria2-180178213
   password: bce6c821-200d-421f-bf3d-7159e5246ea0
@@ -1411,6 +722,13 @@ proxies:
 - name: 0|hysteria2-159719822
   password: 28d38ce6-7c79-4e9d-9175-2186da5be395
   port: 20000
+  server: 159.65.79.184
+  skip-cert-verify: true
+  sni: addons.mozilla.org
+  type: hysteria2
+- name: 0|hysteria2-172463165
+  password: 28d38ce6-7c79-4e9d-9175-2186da5be395
+  port: 443
   server: 159.65.79.184
   skip-cert-verify: true
   sni: addons.mozilla.org
@@ -1428,13 +746,6 @@ proxies:
   server: 43.130.7.3
   skip-cert-verify: true
   sni: bing.com
-  type: hysteria2
-- name: 0|hysteria2-106798541
-  password: bce6c821-200d-421f-bf3d-7159e5246ea0
-  port: 33333
-  server: 155.248.209.237
-  skip-cert-verify: true
-  sni: ''
   type: hysteria2
 - name: 0|hysteria2-143263693
   password: dongtaiwang.com
@@ -1478,13 +789,6 @@ proxies:
   skip-cert-verify: true
   sni: ''
   type: hysteria2
-- name: 0|hysteria2-182535885
-  password: 76dff95d-a720-4909-8ca6-3d848e786a9c
-  port: 443
-  server: 159.65.178.189
-  skip-cert-verify: true
-  sni: ''
-  type: hysteria2
 - name: 0|hysteria2-163614022
   password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
   port: 8443
@@ -1492,19 +796,12 @@ proxies:
   skip-cert-verify: true
   sni: www.microsoft.com
   type: hysteria2
-- name: 0|hysteria2-69097873
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-us-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-004.fastervpn.world
-  type: hysteria2
-- name: 0|hysteria2-113404865
+- name: 0|hysteria2-182535885
   password: 76dff95d-a720-4909-8ca6-3d848e786a9c
   port: 443
   server: 159.65.178.189
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: ''
   type: hysteria2
 - name: 0|hysteria2-159719813
   password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
@@ -1520,6 +817,13 @@ proxies:
   skip-cert-verify: false
   sni: usa1.spectrumproxy.shop
   type: hysteria2
+- name: 0|hysteria2-113404865
+  password: 76dff95d-a720-4909-8ca6-3d848e786a9c
+  port: 443
+  server: 159.65.178.189
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 - name: 0|hysteria2-188185580
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -1533,6 +837,13 @@ proxies:
   server: vpn-us-003.fastervpn.world
   skip-cert-verify: true
   sni: vpn-us-003.fastervpn.world
+  type: hysteria2
+- name: 0|hysteria2-200394189
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-ca-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-ca-001.fastervpn.world
   type: hysteria2
 - name: 0|hysteria2-200242607
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -1548,6 +859,20 @@ proxies:
   skip-cert-verify: false
   sni: usp.noesissite.ru
   type: hysteria2
+- name: 0|hysteria2-69097873
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-us-004.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-004.fastervpn.world
+  type: hysteria2
+- name: 0|hysteria2-11309677
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-jp-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-002.fastervpn.world
+  type: hysteria2
 - name: 0|hysteria2-13527647
   password: 6c077487-06af-4fb1-9e46-d485d98f0a31
   port: 52454
@@ -1561,13 +886,6 @@ proxies:
   server: usp.noesissite.ru
   skip-cert-verify: false
   sni: usp.noesissite.ru
-  type: hysteria2
-- name: 0|hysteria2-197583441
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  port: 8080
-  server: 23.95.75.151
-  skip-cert-verify: true
-  sni: hopp-us.yyuyy.com
   type: hysteria2
 - name: 0|hysteria2-24902
   password: zhangyang
@@ -1590,26 +908,19 @@ proxies:
   skip-cert-verify: true
   sni: www.microsoft.com
   type: hysteria2
-- name: 0|hysteria2-135749211
+- name: 0|hysteria2-72828583
+  password: 7_Bz834J98n238cNbx7cjLAw_Nux28c_kIO1Hq86Vr
+  port: 8443
+  server: 151.247.219.191
+  skip-cert-verify: false
+  sni: hopp-queen.roxa.org
+  type: hysteria2
+- name: 0|hysteria2-163625318
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
-  server: germany1.noesissite.ru
+  server: 178.215.238.30
   skip-cert-verify: false
   sni: germany1.noesissite.ru
-  type: hysteria2
-- name: 0|hysteria2-11309677
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-jp-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-002.fastervpn.world
-  type: hysteria2
-- name: 0|hysteria2-71125758
-  password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
-  port: 8443
-  server: 213.202.219.29
-  skip-cert-verify: false
-  sni: grape-sos-de.roxa.org
   type: hysteria2
 - name: 0|hysteria2-26500142
   password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
@@ -1618,19 +929,26 @@ proxies:
   skip-cert-verify: true
   sni: ''
   type: hysteria2
-- name: 0|hysteria2-137781265
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world
+- name: 0|hysteria2-148419128
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 76.164.202.213
+  skip-cert-verify: false
+  sni: mercedes-grape.yyuyy.com
   type: hysteria2
-- name: 0|hysteria2-197583436
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-fr-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-fr-002.fastervpn.world
+- name: 0|hysteria2-148419130
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 205.237.109.212
+  skip-cert-verify: false
+  sni: grape-turbo-fr.roxa.org
+  type: hysteria2
+- name: 0|hysteria2-197435869
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 205.237.109.213
+  skip-cert-verify: false
+  sni: grape-turbo-fr.roxa.org
   type: hysteria2
 - name: 0|hysteria2-179702012
   password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
@@ -1646,33 +964,12 @@ proxies:
   skip-cert-verify: false
   sni: fr2.h2corp.org
   type: hysteria2
-- name: 0|hysteria2-148419128
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 76.164.202.213
-  skip-cert-verify: false
-  sni: mercedes-grape.yyuyy.com
-  type: hysteria2
-- name: 0|hysteria2-157363869
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 205.237.109.212
+- name: 0|hysteria2-197583436
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-fr-002.fastervpn.world
   skip-cert-verify: true
-  sni: grape-turbo-fr.roxa.org
-  type: hysteria2
-- name: 0|hysteria2-177823913
-  password: zhangyang
-  port: 6443
-  server: 130.61.50.75
-  skip-cert-verify: true
-  sni: 130.61.50.75
-  type: hysteria2
-- name: 0|hysteria2-197583438
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 205.237.109.213
-  skip-cert-verify: true
-  sni: grape-turbo-fr.roxa.org
+  sni: vpn-fr-002.fastervpn.world
   type: hysteria2
 - name: 0|hysteria2-131172
   password: zhangyang
@@ -1688,19 +985,19 @@ proxies:
   skip-cert-verify: true
   sni: grape-zet-turbo-nl.yyuyy.com
   type: hysteria2
-- name: 0|hysteria2-72828583
-  password: 7_Bz834J98n238cNbx7cjLAw_Nux28c_kIO1Hq86Vr
-  port: 8443
-  server: 151.247.219.191
-  skip-cert-verify: false
-  sni: hopp-queen.roxa.org
-  type: hysteria2
 - name: 0|hysteria2-180178214
   password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
   port: 443
   server: 194.180.174.69
   skip-cert-verify: false
   sni: fr2.h2corp.org
+  type: hysteria2
+- name: 0|hysteria2-177823913
+  password: zhangyang
+  port: 6443
+  server: 130.61.50.75
+  skip-cert-verify: true
+  sni: 130.61.50.75
   type: hysteria2
 - name: 0|hysteria2-200242612
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
@@ -1723,12 +1020,12 @@ proxies:
   skip-cert-verify: true
   sni: germany3.h2corp.local
   type: hysteria2
-- name: 0|hysteria2-131230480
-  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-  port: 8443
-  server: 185.90.61.28
+- name: 0|hysteria2-138245576
+  password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
+  port: 443
+  server: popa.leontunel.ru
   skip-cert-verify: false
-  sni: hopp-legend-se.roxa.org
+  sni: popa.leontunel.ru
   type: hysteria2
 - name: 0|hysteria2-153592294
   password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
@@ -1736,6 +1033,13 @@ proxies:
   server: 5.180.97.78
   skip-cert-verify: false
   sni: nederland.gamestocke.ru
+  type: hysteria2
+- name: 0|hysteria2-131230480
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8443
+  server: 185.90.61.28
+  skip-cert-verify: false
+  sni: hopp-legend-se.roxa.org
   type: hysteria2
 - name: 0|hysteria2-200242418
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
@@ -1748,13 +1052,6 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-fr-002.fastervpn.world
-  skip-cert-verify: true
-  sni: ''
-  type: hysteria2
-- name: 0|hysteria2-107825281
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.29
   skip-cert-verify: true
   sni: ''
   type: hysteria2
@@ -1772,19 +1069,26 @@ proxies:
   skip-cert-verify: true
   sni: grape-power-pl.ddnsguru.com
   type: hysteria2
+- name: 0|hysteria2-197583441
+  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+  port: 8080
+  server: 23.95.75.151
+  skip-cert-verify: true
+  sni: hopp-us.yyuyy.com
+  type: hysteria2
+- name: 0|hysteria2-140296501
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: germany1.noesissite.ru
+  skip-cert-verify: true
+  sni: germany1.noesissite.ru
+  type: hysteria2
 - name: 0|hysteria2-48396260
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.255.220.11
   skip-cert-verify: true
   sni: ''
-  type: hysteria2
-- name: 0|hysteria2-145039
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-sg-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
   type: hysteria2
 - name: 0|hysteria2-48396255
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
@@ -1849,6 +1153,27 @@ proxies:
   skip-cert-verify: true
   sni: vpn-sg-001.fastervpn.world
   type: hysteria2
+- name: 0|hysteria2-58965449
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 443
+  server: swe-one.quiet-rogue.site
+  skip-cert-verify: true
+  sni: swe-one.quiet-rogue.site
+  type: hysteria2
+- name: 0|hysteria2-145039
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-sg-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  type: hysteria2
+- name: 0|hysteria2-107825281
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.29
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria2
 - name: 0|hysteria2-24079434
   password: b7c9e2f1-4d83-42a1-9e5f-sg2026proxy
   port: 8443
@@ -1856,47 +1181,19 @@ proxies:
   skip-cert-verify: true
   sni: 209.74.81.28
   type: hysteria2
-- name: 0|hysteria2-153592303
-  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
+- name: 0|hysteria2-200394206
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
-  server: fr2.h2corp.org
-  skip-cert-verify: false
-  sni: ''
+  server: wopa7.api3-max.ru
+  skip-cert-verify: true
+  sni: wopa7.api3-max.ru
   type: hysteria2
-- name: 0|hysteria2-184903690
-  password: velluto_8325804083:b12eebc2-369c-4f3c-96a0-a8bd150ca8d5
-  port: 35000
-  server: 31.76.30.79
+- name: 0|hysteria2-71125758
+  password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
+  port: 8443
+  server: 213.202.219.29
   skip-cert-verify: false
-  sni: gretacoin.shop
-  type: hysteria2
-- name: 0|hysteria2-192020441
-  password: 71cada65-d23e-418c-88e4-a06188d14689
-  port: 443
-  server: swe-one.quiet-rogue.site
-  skip-cert-verify: false
-  sni: swe-one.quiet-rogue.site
-  type: hysteria2
-- name: 0|hysteria2-197436120
-  password: 71cada65-d23e-418c-88e4-a06188d14689
-  port: 443
-  server: swe-one.quiet-rogue.site
-  skip-cert-verify: false
-  sni: ''
-  type: hysteria2
-- name: 0|hysteria2-153592297
-  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
-  port: 25447
-  server: 144.31.107.101
-  skip-cert-verify: false
-  sni: devideo.h2corp.org
-  type: hysteria2
-- name: 0|hysteria2-138245576
-  password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
-  port: 443
-  server: popa.leontunel.ru
-  skip-cert-verify: false
-  sni: popa.leontunel.ru
+  sni: grape-sos-de.roxa.org
   type: hysteria2
 - name: 0|hysteria2-17587
   password: 35415e5e-3666-4454-8c45-903af0fcddf4
@@ -1905,11 +1202,39 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- name: 0|hysteria2-200242609
+- name: 0|hysteria2-144857076
+  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
+  port: 443
+  server: fr2.h2corp.org
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria2
+- name: 0|hysteria2-137781265
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
+  sni: vpn-tw-002.fastervpn.world
+  type: hysteria2
+- name: 0|hysteria2-154172161
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: germany1.noesissite.ru
+  skip-cert-verify: false
+  sni: ''
+  type: hysteria2
+- name: 0|hysteria2-200394203
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+- name: 0|hysteria2-197436120
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 443
+  server: swe-one.quiet-rogue.site
+  skip-cert-verify: false
   sni: ''
   type: hysteria2
 - name: 0|hysteria2-187264193
@@ -1919,18 +1244,18 @@ proxies:
   skip-cert-verify: false
   sni: ''
   type: hysteria2
-- name: 0|hysteria2-154172161
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+- name: 0|hysteria2-200242609
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: germany1.noesissite.ru
-  skip-cert-verify: false
+  server: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
   sni: ''
   type: hysteria2
-- name: 0|hysteria2-133881749
+- name: 0|hysteria2-126398685
   password: grape_288923
   port: 8080
   server: 194.247.182.201
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: grape-coffee-fi.gleeze.com
   type: hysteria2
 - name: 0|hysteria2-24391
@@ -1940,31 +1265,24 @@ proxies:
   skip-cert-verify: true
   sni: www.microsoft.com
   type: hysteria2
+- name: 0|hysteria2-200394230
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: taga9.api3-max.ru
+  skip-cert-verify: true
+  sni: taga9.api3-max.ru
+  type: hysteria2
+- name: 0|hysteria2-150309880
+  password: ew9_M93_6a31Qd45_hUX3984F_jNZ83x_Nz1l_f
+  port: 8443
+  server: 94.20.88.13
+  skip-cert-verify: true
+  sni: azer-tea-grape.bumbleshrimp.com
+  type: hysteria2
 - name: 0|hysteria2-153592304
   password: uj7XGZGUqRlmdpk6rysyZMN333RWsxTFj0hBIMaFV-NUCd5r
   port: 443
   server: ro.h2corp.org
-  skip-cert-verify: false
-  sni: ro.h2corp.org
-  type: hysteria2
-- name: 0|hysteria2-150776121
-  password: ew9_M93_6a31Qd45_hUX3984F_jNZ83x_Nz1l_f
-  port: 8443
-  server: 94.20.88.13
-  skip-cert-verify: false
-  sni: azer-tea-grape.bumbleshrimp.com
-  type: hysteria2
-- name: 0|hysteria2-163625318
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
-  port: 443
-  server: 178.215.238.30
-  skip-cert-verify: false
-  sni: germany1.noesissite.ru
-  type: hysteria2
-- name: 0|hysteria2-163625323
-  password: uj7XGZGUqRlmdpk6rysyZMN333RWsxTFj0hBIMaFV-NUCd5r
-  port: 443
-  server: 185.225.19.39
   skip-cert-verify: false
   sni: ro.h2corp.org
   type: hysteria2
@@ -1975,19 +1293,40 @@ proxies:
   skip-cert-verify: false
   sni: ger.leontunel.ru
   type: hysteria2
-- name: 0|hysteria2-138245575
+- name: 0|hysteria2-96169322
+  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  port: 25447
+  server: 144.31.107.101
+  skip-cert-verify: true
+  sni: devideo.h2corp.org
+  type: hysteria2
+- name: 0|hysteria2-137781216
   password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
   port: 443
   server: ger.leontunel.ru
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: ger.leontunel.ru
   type: hysteria2
-- name: 0|hysteria2-170711974
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+- name: 0|hysteria2-163625323
+  password: uj7XGZGUqRlmdpk6rysyZMN333RWsxTFj0hBIMaFV-NUCd5r
   port: 443
-  server: wopa1.api3-max.ru
+  server: 185.225.19.39
   skip-cert-verify: false
-  sni: wopa1.api3-max.ru
+  sni: ro.h2corp.org
+  type: hysteria2
+- name: 0|hysteria2-184903690
+  password: velluto_8325804083:b12eebc2-369c-4f3c-96a0-a8bd150ca8d5
+  port: 35000
+  server: 31.76.30.79
+  skip-cert-verify: false
+  sni: gretacoin.shop
+  type: hysteria2
+- name: 0|hysteria2-200394187
+  password: ba845a48-cfcb-48c4-ab8c-0836e360112e
+  port: 56789
+  server: ceo69.ceoiii.com
+  skip-cert-verify: true
+  sni: ajax.microsoft.com
   type: hysteria2
 - name: 0|hysteria2-194840577
   password: ba845a48-cfcb-48c4-ab8c-0836e360112e
@@ -2010,6 +1349,13 @@ proxies:
   skip-cert-verify: false
   sni: ''
   type: hysteria2
+- name: 0|hysteria2-170711974
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa1.api3-max.ru
+  skip-cert-verify: false
+  sni: wopa1.api3-max.ru
+  type: hysteria2
 - cipher: chacha20-ietf-poly1305
   name: 0|shadowsocks-2536938
   password: bQZl7HDxSabr1FurTYQHFU
@@ -2018,17 +1364,10 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-157
-  password: G5p6ww4o67HB
-  port: 8388
-  server: 108.181.0.177
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 0|shadowsocks-156
-  password: shadowsocks
+  name: 0|shadowsocks-216
+  password: hCCWOcIsK5wrFz4OX70rWf
   port: 443
-  server: 173.244.56.9
+  server: 216.105.168.18
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -2045,11 +1384,11 @@ proxies:
   server: 108.181.118.10
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 0|shadowsocks-159
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.170
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-157
+  password: G5p6ww4o67HB
+  port: 8388
+  server: 108.181.0.177
   type: ss
   udp: true
 - cipher: aes-128-gcm
@@ -2060,24 +1399,10 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 0|shadowsocks-155
-  password: shadowsocks
-  port: 443
-  server: 173.244.56.6
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
   name: 0|shadowsocks-158
   password: shadowsocks
   port: 443
   server: 156.146.38.167
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 0|shadowsocks-194
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.169
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -2094,11 +1419,39 @@ proxies:
   server: 149.22.95.183
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 0|shadowsocks-170091589
-  password: amazonskr05
+- cipher: aes-128-gcm
+  name: 0|shadowsocks-159
+  password: shadowsocks
   port: 443
-  server: 100.58.124.178
+  server: 156.146.38.170
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 0|shadowsocks-156
+  password: shadowsocks
+  port: 443
+  server: 173.244.56.9
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 0|shadowsocks-194
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.169
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-192112226
+  password: GyO2pLS8rLplFHIDnWM4XM
+  port: 443
+  server: 104.192.227.164
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 0|shadowsocks-155
+  password: shadowsocks
+  port: 443
+  server: 173.244.56.6
   type: ss
   udp: true
 - cipher: rc4-md5
@@ -2109,10 +1462,10 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 0|shadowsocks-193
+  name: 0|shadowsocks-195
   password: shadowsocks
   port: 443
-  server: 37.19.198.160
+  server: 37.19.198.243
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -2122,11 +1475,11 @@ proxies:
   server: 198.98.53.130
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 0|shadowsocks-107825314
-  password: amazonskr05
-  port: 443
-  server: 34.207.235.215
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-10989
+  password: RSo52SbxW40r
+  port: 8388
+  server: 108.181.57.93
   type: ss
   udp: true
 - cipher: aes-128-gcm
@@ -2143,25 +1496,11 @@ proxies:
   server: 37.19.198.244
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-10989
-  password: RSo52SbxW40r
-  port: 8388
-  server: 108.181.57.93
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|shadowsocks-186340545
-  password: amazonskr05
-  port: 443
-  server: 54.226.105.188
-  type: ss
-  udp: true
 - cipher: aes-128-gcm
-  name: 0|shadowsocks-195
+  name: 0|shadowsocks-193
   password: shadowsocks
   port: 443
-  server: 37.19.198.243
+  server: 37.19.198.160
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -2179,13 +1518,6 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905728
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 38.113.188.118
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 0|shadowsocks-184905730
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
@@ -2193,31 +1525,17 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-175455223
+  name: 0|shadowsocks-184905728
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
-  server: 184.75.221.134
+  server: 38.113.188.118
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-175455231
+  name: 0|shadowsocks-184905729
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
-  server: 37.120.139.234
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-175455233
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 72.10.173.91
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 0|shadowsocks-166
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 137.184.174.93
+  server: 38.132.118.198
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -2235,38 +1553,38 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-175455231
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 37.120.139.234
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 0|shadowsocks-166
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 137.184.174.93
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-175455223
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 184.75.221.134
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-175455230
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 217.138.213.38
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 0|shadowsocks-184905712
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
   server: 185.247.68.94
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905748
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: ca1.levikogjgfdd.ir
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905715
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 193.42.38.209
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905729
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 38.132.118.198
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 0|shadowsocks-11074
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 185.196.61.82
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -2277,10 +1595,10 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905692
+  name: 0|shadowsocks-184905715
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
-  server: 146.70.34.226
+  server: 193.42.38.209
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -2291,10 +1609,17 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-175455230
+  name: 0|shadowsocks-184905692
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
-  server: 217.138.213.38
+  server: 146.70.34.226
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|shadowsocks-11074
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 185.196.61.82
   type: ss
   udp: true
 - cipher: aes-128-gcm
@@ -2305,17 +1630,24 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
+  name: 0|shadowsocks-213
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
   name: 0|shadowsocks-218
   password: shadowsocks
   port: 443
   server: 149.22.87.204
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 0|shadowsocks-213
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.240
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-184905748
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: ca1.levikogjgfdd.ir
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -2326,38 +1658,24 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-201309337
+  password: IYJ5IS2oSAs93kGT
+  port: 443
+  server: 4.231.225.39
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 0|shadowsocks-184905749
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
   server: us1.levikogjgfdd.ir
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 0|shadowsocks-126252
-  password: shadowsocks
-  port: 443
-  server: 158.173.24.73
-  type: ss
-  udp: true
-- cipher: aes-128-cfb
-  name: 0|shadowsocks-205
-  password: shadowsocks
-  port: 443
-  server: 109.201.152.181
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-189644220
-  password: jGmlLG23FdMVtwAq
-  port: 443
-  server: 4.210.66.168
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-198810585
-  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
-  port: 45819
-  server: 144.21.37.164
+  name: 0|shadowsocks-175455233
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 72.10.173.91
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -2367,137 +1685,11 @@ proxies:
   server: 213.109.147.242
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905717
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 194.187.249.220
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 0|shadowsocks-226
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.179
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 0|shadowsocks-227
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.182
-  type: ss
-  udp: true
 - cipher: aes-128-gcm
   name: 0|shadowsocks-271
   password: shadowsocks
   port: 443
   server: 141.98.101.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-179
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.235
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-212
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.126.122
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905733
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 62.113.194.158
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-234
-  password: bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E
-  port: 27116
-  server: 104.156.233.234
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 0|shadowsocks-165
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 146.70.61.37
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 0|shadowsocks-225
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.178
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 0|shadowsocks-27056
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 109.104.154.163
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 0|shadowsocks-240
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-217
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.58.239
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905736
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 62.113.237.3
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905719
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 195.12.48.126
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-37998200
-  password: zz0dHjDfoaSaZuRFLGH-hNfBALSEJUYD
-  port: 1234
-  server: 194.164.92.198
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-11024
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.195
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-40118927
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.34
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905732
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 62.113.194.157
   type: ss
   udp: true
 - cipher: aes-128-gcm
@@ -2508,6 +1700,34 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-234
+  password: bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E
+  port: 27116
+  server: 104.156.233.234
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 0|shadowsocks-205
+  password: shadowsocks
+  port: 443
+  server: 109.201.152.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-189642226
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: 61.231.49.122
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-189644219
+  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
+  port: 50099
+  server: 61.231.49.122
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 0|shadowsocks-184905705
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
@@ -2515,276 +1735,10 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-48399240
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.39
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-166303196
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 193.29.139.198
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905714
+  name: 0|shadowsocks-184905736
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
-  server: 190.2.147.119
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-303
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905716
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 194.187.249.218
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|shadowsocks-198814584
-  password: amazonskr05
-  port: 443
-  server: 51.20.125.180
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-298
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-11022
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.190
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-96653029
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.36
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-11030
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.212
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-11033
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-53939390
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.28
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-48398240
-  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
-  port: 50099
-  server: r3mrcg001287h3p.cybervena.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905743
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 89.249.74.188
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.151
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-241
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001287h3p.cybervena.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-182
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.218
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-114874950
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 193.29.139.132
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-11044
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.164
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-186
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.204
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-168
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.186
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-129824
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.13
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-10898
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.203
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-127246
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.144
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-11042
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.11
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-10899
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.204
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-98971312
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.49
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-112078279
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.36
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 0|shadowsocks-11080
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: 103.106.231.82
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905731
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 51.159.19.174
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-91981760
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.174
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-269
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.199
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-125944315
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.162
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-11021
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.185
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-177
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.192
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-178
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.219
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905703
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 185.128.25.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-273
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.2
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-130088
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.9
+  server: 62.113.237.3
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -2795,10 +1749,346 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-270
+  name: 0|shadowsocks-298
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg00129437x.cybervena.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-217
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.58.239
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|shadowsocks-27056
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 109.104.154.163
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|shadowsocks-276
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 213.202.208.199
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-48398240
+  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
+  port: 50099
+  server: r3mrcg001287h3p.cybervena.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-275
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.7
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-173
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.15
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-184905732
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 62.113.194.157
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-48399240
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.39
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-184905714
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 190.2.147.119
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-176
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.57
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-174
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.155
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-37998200
+  password: zz0dHjDfoaSaZuRFLGH-hNfBALSEJUYD
+  port: 1234
+  server: 194.164.92.198
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 0|shadowsocks-225
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.178
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-212
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.126.122
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-303
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-274
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.10
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-184905719
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 195.12.48.126
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-11033
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.176
+  server: 82.38.31.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-169
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.202
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-184905717
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 194.187.249.220
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-53939390
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.28
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 0|shadowsocks-226
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.179
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-200379481
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 193.29.139.234
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-11021
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.185
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-184905743
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 89.249.74.188
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-91981760
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.174
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-172
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.194
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-114874950
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 193.29.139.132
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|shadowsocks-240
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 94.156.250.148
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-11044
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.164
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-129824
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.13
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-184905731
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 51.159.19.174
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-258
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.35
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-11024
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.195
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-182
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.218
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-11042
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.11
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-184905733
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 62.113.194.158
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-60057373
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.48
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-98971312
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.49
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-96653029
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.36
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-190
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.191
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|shadowsocks-11080
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 103.106.231.82
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-10898
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.203
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-186
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.204
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-184905721
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 195.154.29.29
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-72830589
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.156
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-42869377
+  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
+  port: 50099
+  server: r3mrcg00129437x.cybervena.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-127246
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.144
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -2808,11 +2098,81 @@ proxies:
   server: 82.38.31.149
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 0|shadowsocks-186340544
-  password: amazonskr05
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-197438122
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
-  server: 13.53.198.63
+  server: pl1.levikogjgfdd.ir
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-168
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.186
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-125944315
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.162
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-273
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.2
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-178
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.219
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-166303196
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 193.29.139.198
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-130088
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.9
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-270
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.176
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-269
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.199
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-40118927
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.34
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-184905716
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 194.187.249.218
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -2830,20 +2190,6 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-189642226
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 61.231.49.122
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-172
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.194
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 0|shadowsocks-11026
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -2851,10 +2197,17 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-180
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  name: 0|shadowsocks-268
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
-  server: 82.38.31.187
+  server: 82.38.31.35
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|shadowsocks-194714180
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 64.31.63.244
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -2865,10 +2218,59 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-11030
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.212
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-184905737
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 62.210.123.100
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-177
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.192
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-181
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.205
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-179
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.235
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 0|shadowsocks-11025
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.198
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 0|shadowsocks-227
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.182
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-10899
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.204
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -2907,13 +2309,6 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-189642225
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 61.231.49.100
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 0|shadowsocks-11028
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -2925,27 +2320,6 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.211
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-198822224
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 193.29.139.168
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-190
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.191
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905737
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 62.210.123.100
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -2970,17 +2344,10 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-175455228
+  name: 0|shadowsocks-175455221
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
-  server: 212.83.51.81
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-187
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.210
+  server: 146.70.26.156
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -2991,17 +2358,17 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-175455221
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 146.70.26.156
+  name: 0|shadowsocks-197438121
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: nl2.levikogjgfdd.ir
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-174
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: 0|shadowsocks-189
+  password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.155
+  server: 82.38.31.184
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -3019,13 +2386,6 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-181
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.205
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 0|shadowsocks-175
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -3033,17 +2393,17 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-175455228
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 212.83.51.81
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 0|shadowsocks-11032
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.214
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905723
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 195.242.213.238
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -3060,18 +2420,25 @@ proxies:
   server: 82.38.31.46
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 0|shadowsocks-194714180
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 64.31.63.244
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-187
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.210
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-11019
+  name: 0|shadowsocks-184905746
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 95.173.193.201
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-11020
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.180
+  server: 82.38.31.183
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -3096,73 +2463,38 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-11020
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.183
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-274
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.10
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-173
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.15
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-16136
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.181
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 0|shadowsocks-11045
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.18
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905721
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 195.154.29.29
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-275
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+- cipher: rc4-md5
+  name: 0|shadowsocks-165
+  password: 14fFPrbezE3HDZzsMOr6
   port: 8080
-  server: 82.38.31.7
+  server: 146.70.61.37
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-42869377
-  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
+  name: 0|shadowsocks-209
+  password: 1hhrqrokj3ag
+  port: 8388
+  server: 209.46.102.22
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905701
+  name: 0|shadowsocks-184905703
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
-  server: 185.117.88.9
+  server: 185.128.25.44
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-189644219
-  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
-  port: 50099
-  server: 61.231.49.122
+  name: 0|shadowsocks-175455218
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 146.70.203.254
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -3173,10 +2505,10 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-266
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  name: 0|shadowsocks-198822224
+  password: QCXDxuDlTTMD7jtgHUjIoj
   port: 8080
-  server: 82.38.31.216
+  server: 193.29.139.168
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -3187,31 +2519,24 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-238
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.217
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|shadowsocks-278
-  password: qwerREWQ@@
-  port: 4652
-  server: 218.237.185.230
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905746
+  name: 0|shadowsocks-184905723
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
-  server: 95.173.193.201
+  server: 195.242.213.238
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-209
-  password: 1hhrqrokj3ag
-  port: 8388
-  server: 209.46.102.22
+  name: 0|shadowsocks-175455217
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 146.70.146.222
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-184
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.151
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -3228,18 +2553,11 @@ proxies:
   server: 163.172.244.41
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-11027
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.206
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-169
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.202
+- cipher: aes-256-cfb
+  name: 0|shadowsocks-27309
+  password: qYEN5HX4JKeVCdEC
+  port: 9039
+  server: 195.238.126.84
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -3247,6 +2565,13 @@ proxies:
   password: WSyL4XTwNsdv
   port: 8388
   server: 108.181.121.226
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-184905701
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 185.117.88.9
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -3257,6 +2582,20 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-184905695
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 156.146.40.84
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-238
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.217
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 0|shadowsocks-11052
   password: qItG8SueYQcP
   port: 8388
@@ -3264,45 +2603,10 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-175455219
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 146.70.222.126
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-197438121
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: nl2.levikogjgfdd.ir
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905704
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 185.128.27.178
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 0|shadowsocks-283
-  password: qwerREWQ@@
-  port: 13979
-  server: 221.139.79.57
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-175455217
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 146.70.146.222
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-72830589
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: 0|shadowsocks-185
+  password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.156
+  server: 82.38.31.189
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -3313,6 +2617,41 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-198811584
+  password: H5R7JXdDb5xo3sCdzA7gKjLrnZ0rbSmos8LO40edGZU=
+  port: 17497
+  server: 152.42.243.20
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-10973
+  password: uROuEqsL8IUMMVb4wDwnGU
+  port: 10443
+  server: 57.129.121.230
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-197438120
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: fr3.levikogjgfdd.ir
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-266
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.216
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-16136
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.181
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 0|shadowsocks-198812584
   password: W8T44NSLuczcncGIf92m6Q
   port: 1080
@@ -3320,10 +2659,10 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-198811584
-  password: H5R7JXdDb5xo3sCdzA7gKjLrnZ0rbSmos8LO40edGZU=
-  port: 17497
-  server: 152.42.243.20
+  name: 0|shadowsocks-184905704
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 185.128.27.178
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -3333,20 +2672,6 @@ proxies:
   server: 185.156.174.106
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 0|shadowsocks-287
-  password: qwerREWQ@@
-  port: 6123
-  server: 211.178.105.134
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905695
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 156.146.40.84
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: 0|shadowsocks-11079
   password: Y6R9pAtvxxzmGC
@@ -3354,18 +2679,25 @@ proxies:
   server: 103.106.229.69
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-184905697
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 178.255.41.214
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: 0|shadowsocks-125255
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: 0|shadowsocks-128223
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 38.180.113.194
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905720
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 195.123.209.159
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -3383,6 +2715,13 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-11019
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.180
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 0|shadowsocks-175455220
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
@@ -3390,17 +2729,10 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905697
+  name: 0|shadowsocks-184905691
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
-  server: 178.255.41.214
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-175455218
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 146.70.203.254
+  server: 146.70.221.238
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -3408,13 +2740,6 @@ proxies:
   password: lGqs95QkFHo2NV
   port: 5498
   server: 141.164.45.187
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905698
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 185.106.94.132
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -3425,10 +2750,17 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-176
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: 0|shadowsocks-26744
+  password: QFWzCw2uX9B9i6qAYeFBIE
   port: 443
-  server: 82.38.31.57
+  server: 154.46.31.106
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-187267192
+  password: rYfi4cQ3z7zts7BO4-Y9_A
+  port: 1080
+  server: vpna.poorifast.ir
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -3439,24 +2771,17 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905691
+  name: 0|shadowsocks-184905720
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
-  server: 146.70.221.238
-  type: ss
-  udp: true
-- cipher: chacha20-ietf
-  name: 0|shadowsocks-125255
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
+  server: 195.123.209.159
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-60057373
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.48
+  name: 0|shadowsocks-184905722
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 195.206.107.94
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -3494,31 +2819,10 @@ proxies:
   server: 31.210.78.66
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905722
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 195.206.107.94
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: 0|shadowsocks-4892330
   password: TEzjfAYq2IjtuoS
   port: 6697
-  server: 141.164.45.187
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-268
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.35
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 0|shadowsocks-4892328
-  password: faBAoD54k87UJG7
-  port: 2376
   server: 141.164.45.187
   type: ss
   udp: true
@@ -3529,18 +2833,11 @@ proxies:
   server: 38.244.132.14
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-197438122
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: pl1.levikogjgfdd.ir
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-258
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.35
+- cipher: aes-256-gcm
+  name: 0|shadowsocks-4892328
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 141.164.45.187
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -3548,13 +2845,6 @@ proxies:
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 141.164.45.187
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-175455222
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 146.70.53.62
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -3572,13 +2862,6 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-187267192
-  password: rYfi4cQ3z7zts7BO4-Y9_A
-  port: 1080
-  server: vpna.poorifast.ir
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 0|shadowsocks-184905745
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
@@ -3593,10 +2876,10 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-19056434
-  password: wwzVn2ZnHfqYa6l8EWh3eY
-  port: 443
-  server: 92.112.126.90
+  name: 0|shadowsocks-125093
+  password: d7zh2lMrXNH5+8+8pKzlxiCU9NN022ih+uAyxj5d4qo=
+  port: 31700
+  server: 102.129.229.85
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -3614,10 +2897,17 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-130484
-  password: QFWzCw2uX9B9i6qAYeFBIE
-  port: 443
-  server: bogging-eyeteeth-fly.freesocks.work
+  name: 0|shadowsocks-184905747
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: bl1.levikogjgfdd.ir
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|shadowsocks-278
+  password: qwerREWQ@@
+  port: 4652
+  server: 218.237.185.230
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -3628,10 +2918,31 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-246
+  password: Xsy8Ox4yOV3xLlpxtjzs3X
+  port: 16233
+  server: 102.133.165.160
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-112078279
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.36
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 0|shadowsocks-236
   password: aduB9HGxQHjA2SBMRjkHX6
   port: 443
   server: 102.37.156.224
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-11022
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.190
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -3641,11 +2952,11 @@ proxies:
   server: 137.74.119.18
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-185
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.189
+- cipher: aes-256-gcm
+  name: 0|shadowsocks-125593
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 141.164.45.187
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -3655,11 +2966,11 @@ proxies:
   server: 185.185.134.70
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 0|shadowsocks-125593
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 141.164.45.187
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-175455222
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 146.70.53.62
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -3677,24 +2988,10 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 0|shadowsocks-260
+  name: 0|shadowsocks-287
   password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-184905747
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: bl1.levikogjgfdd.ir
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-197438120
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: fr3.levikogjgfdd.ir
+  port: 6123
+  server: 211.178.105.134
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -3719,38 +3016,10 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-188236297
-  password: OVlHEMLx3ZBjznj/RJ6p8jAIcLdRyzojPMqIjPI215U=
-  port: 55129
-  server: n3.cover20.ir
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-175455229
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 217.138.207.106
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-216
-  password: hCCWOcIsK5wrFz4OX70rWf
-  port: 443
-  server: 216.105.168.18
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 0|shadowsocks-11086
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 185.123.101.64
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-175455224
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 185.210.217.94
+  name: 0|shadowsocks-11027
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.206
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -3767,32 +3036,53 @@ proxies:
   server: 103.120.178.193
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-200242631
-  password: zyqB77GsJ0CZnRBiWvF6buPpynCXXHQY6QDPrDNIwXU=
-  port: 19964
-  server: n4.cover20.ir
+- cipher: aes-256-cfb
+  name: 0|shadowsocks-283
+  password: qwerREWQ@@
+  port: 13979
+  server: 221.139.79.57
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-175455225
+  name: 0|shadowsocks-175455219
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
-  server: 188.119.149.27
+  server: 146.70.222.126
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 0|shadowsocks-11086
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 185.123.101.64
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-246
-  password: Xsy8Ox4yOV3xLlpxtjzs3X
-  port: 16233
-  server: 102.133.165.160
+  name: 0|shadowsocks-180
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.187
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-10973
-  password: uROuEqsL8IUMMVb4wDwnGU
-  port: 10443
-  server: 57.129.121.230
+  name: 0|shadowsocks-184905698
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 185.106.94.132
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-175455229
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 217.138.207.106
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-19056434
+  password: wwzVn2ZnHfqYa6l8EWh3eY
+  port: 443
+  server: 92.112.126.90
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -3800,6 +3090,27 @@ proxies:
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 141.164.45.187
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-130484
+  password: QFWzCw2uX9B9i6qAYeFBIE
+  port: 443
+  server: bogging-eyeteeth-fly.freesocks.work
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-290
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|shadowsocks-175455224
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 185.210.217.94
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -3817,20 +3128,6 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 0|shadowsocks-210
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 141.164.45.187
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-26744
-  password: QFWzCw2uX9B9i6qAYeFBIE
-  port: 443
-  server: 154.46.31.106
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
   name: 0|shadowsocks-27048
   password: RexnBgU7EV5ADxG
   port: 7002
@@ -3838,10 +3135,10 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 0|shadowsocks-276
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 213.202.208.199
+  name: 0|shadowsocks-210
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 141.164.45.187
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -3852,18 +3149,19 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-290
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
+  name: 0|shadowsocks-175455225
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 188.119.149.27
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|shadowsocks-189
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.184
-  type: ss
+- name: 0|trojan-198807551
+  password: kkzh2prsyr2ik47as615
+  port: 57142
+  server: 64.94.95.114
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
   udp: true
 - name: 0|trojan-198807552
   password: kkzh2prsyr2ik47as615
@@ -3905,18 +3203,58 @@ proxies:
   sni: ''
   type: trojan
   udp: true
-- name: 0|trojan-198807551
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.114
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-  udp: true
 - name: 0|trojan-143578
   password: kkzh2prsyr2ik47as615
   port: 57142
   server: 64.94.95.118
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- name: 0|trojan-197446121
+  password: MITIVPN
+  port: 8443
+  server: 104.17.148.22
+  skip-cert-verify: false
+  sni: mehrosaboran---mehrosaboran-7.kingnetwork.ir
+  type: trojan
+  udp: true
+- name: 0|trojan-2520863
+  password: kkzh2prsyr2ik47as615
+  port: 57142
+  server: 64.94.95.115
+  skip-cert-verify: true
+  sni: static.rutube.ru
+  type: trojan
+  udp: true
+- name: 0|trojan-59508879
+  password: bIsrw94HH7zmhmvmGskKIb4HbmOZdcCR
+  port: 58615
+  server: 148.72.168.35
+  skip-cert-verify: true
+  sni: 148.72.168.35
+  type: trojan
+  udp: true
+- name: 0|trojan-109302836
+  password: 0ebb269c9f2d4e8e46b0cd4105a55134
+  port: 49361
+  server: 163.245.196.68
+  skip-cert-verify: false
+  sni: 163.245.196.68.sslip.io
+  type: trojan
+  udp: true
+- name: 0|trojan-197446123
+  password: MITIVPN
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: true
+  sni: mitivpn---mitivpn-7.maqror.ir
+  type: trojan
+  udp: true
+- name: 0|trojan-198091834
+  password: bIsrw94HH7zmhmvmGskKIb4HbmOZdcCR
+  port: 58615
+  server: 148.72.168.35
   skip-cert-verify: true
   sni: ''
   type: trojan
@@ -3929,51 +3267,11 @@ proxies:
   sni: mitivpn---mitivpn-7.kingnetwork.ir
   type: trojan
   udp: true
-- name: 0|trojan-2520863
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.115
-  skip-cert-verify: true
-  sni: static.rutube.ru
-  type: trojan
-  udp: true
-- name: 0|trojan-194707928
-  password: MITIVPN
-  port: 8443
-  server: 104.17.148.22
-  skip-cert-verify: true
-  sni: mehrosaboran---mehrosaboran-7.kingnetwork.ir
-  type: trojan
-  udp: true
-- name: 0|trojan-198091834
-  password: bIsrw94HH7zmhmvmGskKIb4HbmOZdcCR
-  port: 58615
-  server: 148.72.168.35
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-  udp: true
-- name: 0|trojan-59508879
-  password: bIsrw94HH7zmhmvmGskKIb4HbmOZdcCR
-  port: 58615
-  server: 148.72.168.35
-  skip-cert-verify: true
-  sni: 148.72.168.35
-  type: trojan
-  udp: true
-- name: 0|trojan-103740669
-  password: 0ebb269c9f2d4e8e46b0cd4105a55134
-  port: 49361
-  server: 163.245.196.68
-  skip-cert-verify: false
-  sni: 163.245.196.68.sslip.io
-  type: trojan
-  udp: true
-- name: 0|trojan-177855885
+- name: 0|trojan-89214153
   password: 9ad83f65a560960e6509b677eb6162c1
   port: 49271
   server: 153.75.250.171
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: 153.75.250.171.sslip.io
   type: trojan
   udp: true
@@ -3985,20 +3283,20 @@ proxies:
   sni: 7ib-i--mitivpn---mitivpn-7.app-cloud.ir
   type: trojan
   udp: true
-- name: 0|trojan-192020307
-  password: MiTiVPN
-  port: 2087
-  server: 104.18.6.178
-  skip-cert-verify: true
-  sni: g-o-mitivpn---mitivpnj.kingnetwork.ir
-  type: trojan
-  udp: true
-- name: 0|trojan-201299290
+- name: 0|trojan-2525862
   password: tsuchiya
   port: 443
   server: 161.34.39.108
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: aa.ccmusic.jp
+  type: trojan
+  udp: true
+- name: 0|trojan-194719180
+  password: MITIVPN
+  port: 443
+  server: 45.130.125.112
+  skip-cert-verify: true
+  sni: ikk---7-mitivpn----o.maqror.ir
   type: trojan
   udp: true
 - name: 0|trojan-198832039
@@ -4009,31 +3307,55 @@ proxies:
   sni: ''
   type: trojan
   udp: true
-- name: 0|trojan-198822228
+- name: 0|trojan-192031508
   password: MiTiVPN
-  port: 443
+  port: 2087
   server: 104.18.6.178
-  skip-cert-verify: true
-  sni: g-o-mitivpn---mitivpnj.maqror.ir
+  skip-cert-verify: false
+  sni: g-o-mitivpn---mitivpnj.kingnetwork.ir
   type: trojan
   udp: true
-- name: 0|trojan-192020306
+- name: 0|trojan-200581054
+  password: MiTiVPN
+  port: 443
+  server: 46.202.30.27
+  skip-cert-verify: true
+  sni: g-o-mitivpn---mitivpnj.app-cloud.ir
+  type: trojan
+  udp: true
+- name: 0|trojan-189686241
   password: MITIVPN
   port: 2053
   server: 104.17.147.22
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: ikk---7-mitivpn----o.kingnetwork.ir
   type: trojan
   udp: true
-- name: 0|trojan-189690220
+- name: 0|trojan-179702035
   password: MiTiVPN
   port: 443
   server: 66.81.247.155
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: ib-bbg--mitivpn---mitivpn-u.app-cloud.ir
   type: trojan
   udp: true
-- name: 0|trojan-197446129
+- name: 0|trojan-198822226
+  password: MiTiVPN
+  port: 443
+  server: 104.18.152.229
+  skip-cert-verify: false
+  sni: swsjh--mitivpn---mitivpn-ao.maqror.ir
+  type: trojan
+  udp: true
+- name: 0|trojan-201316343
+  password: MiTiVPN
+  port: 443
+  server: 202.37.33.80
+  skip-cert-verify: false
+  sni: ib-bbg--mitivpn---mitivpn-.maqror.ir
+  type: trojan
+  udp: true
+- name: 0|trojan-189688220
   password: MiTiVPN
   port: 2083
   server: 104.18.7.178
@@ -4049,12 +3371,12 @@ proxies:
   sni: 86.106.84.195
   type: trojan
   udp: true
-- name: 0|trojan-179702031
-  password: MiTiVPN
-  port: 443
-  server: 45.130.125.0
-  skip-cert-verify: true
-  sni: swsjh--mitivpn---mitivpn-ao.app-cloud.ir
+- name: 0|trojan-192032509
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: 157.254.38.210
+  skip-cert-verify: false
+  sni: hk.catxstar.com
   type: trojan
   udp: true
 - name: 0|trojan-51444474
@@ -4065,7 +3387,7 @@ proxies:
   sni: ''
   type: trojan
   udp: true
-- name: 0|trojan-16949
+- name: 0|trojan-2514725
   password: humanity
   port: 443
   server: 104.18.13.149
@@ -4073,122 +3395,18 @@ proxies:
   sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-133769367
-  password: BxceQaOe
+- name: 0|trojan-198822228
+  password: MiTiVPN
   port: 443
-  server: 119.246.1.143
+  server: 104.18.6.178
   skip-cert-verify: true
-  sni: t.me%2fripaojiedian
+  sni: g-o-mitivpn---mitivpnj.maqror.ir
   type: trojan
   udp: true
-- name: 0|trojan-2519732
+- name: 0|trojan-2515774
   password: humanity
   port: 443
-  server: 8.6.112.0
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2515898
-  password: humanity
-  port: 443
-  server: 141.193.213.30
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2519774
-  password: humanity
-  port: 443
-  server: 89.116.46.210
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2518899
-  password: humanity
-  port: 443
-  server: 5.10.214.34
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-11927
-  password: humanity
-  port: 443
-  server: 199.181.197.169
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-16422
-  password: humanity
-  port: 443
-  server: 45.130.125.160
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2518902
-  password: humanity
-  port: 443
-  server: 5.10.214.4
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2515917
-  password: humanity
-  port: 443
-  server: 162.159.193.202
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-118980
-  password: humanity
-  port: 443
-  server: 45.130.125.0
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2516935
-  password: humanity
-  port: 443
-  server: 188.114.96.3
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-11903
-  password: humanity
-  port: 443
-  server: 162.159.38.119
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2517821
-  password: humanity
-  port: 443
-  server: 188.114.98.0
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2513786
-  password: humanity
-  port: 443
-  server: 104.16.7.70
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-16408
-  password: humanity
-  port: 443
-  server: 199.181.197.36
+  server: 104.20.42.250
   skip-cert-verify: false
   sni: www.calmloud.com
   type: trojan
@@ -4201,50 +3419,58 @@ proxies:
   sni: 119.246.1.143
   type: trojan
   udp: true
-- name: 0|trojan-2517743
+- name: 0|trojan-179702031
+  password: MiTiVPN
+  port: 443
+  server: 45.130.125.0
+  skip-cert-verify: true
+  sni: swsjh--mitivpn---mitivpn-ao.app-cloud.ir
+  type: trojan
+  udp: true
+- name: 0|trojan-133769367
+  password: BxceQaOe
+  port: 443
+  server: 119.246.1.143
+  skip-cert-verify: true
+  sni: t.me%2fripaojiedian
+  type: trojan
+  udp: true
+- name: 0|trojan-2513877
   password: humanity
   port: 443
-  server: 188.114.97.194
+  server: 104.17.72.206
   skip-cert-verify: false
   sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-2469762
+- name: 0|trojan-2517801
   password: humanity
   port: 443
-  server: 8.6.112.6
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2518796
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-121296
-  password: humanity
-  port: 443
-  server: 8.6.112.139
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2519894
-  password: humanity
-  port: 443
-  server: www.calmlunch.com
+  server: 188.114.98.0
   skip-cert-verify: false
-  sni: ''
+  sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-2519821
+- name: 0|trojan-2518882
   password: humanity
   port: 443
-  server: sourceforge.net
+  server: 45.130.125.96
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2519787
+  password: humanity
+  port: 443
+  server: 91.193.58.77
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2518867
+  password: humanity
+  port: 443
+  server: 45.130.125.76
   skip-cert-verify: false
   sni: www.calmloud.com
   type: trojan
@@ -4257,44 +3483,92 @@ proxies:
   sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-2515876
+- name: 0|trojan-2517743
+  password: humanity
+  port: 443
+  server: 188.114.97.194
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2519791
+  password: humanity
+  port: 443
+  server: 94.140.0.100
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2518899
+  password: humanity
+  port: 443
+  server: 5.10.214.34
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-121296
+  password: humanity
+  port: 443
+  server: 8.6.112.139
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-11914
+  password: humanity
+  port: 443
+  server: 185.18.250.252
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: 0|trojan-16408
+  password: humanity
+  port: 443
+  server: 199.181.197.36
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-124426
+  password: humanity
+  port: 443
+  server: sourceforge.net
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2515877
   password: humanity
   port: 443
   server: 141.193.213.10
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2519894
+  password: humanity
+  port: 443
+  server: www.calmlunch.com
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  udp: true
+- name: 0|trojan-2516816
+  password: humanity
+  port: 443
+  server: 172.64.152.23
   skip-cert-verify: false
   sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-2519778
+- name: 0|trojan-11950
   password: humanity
   port: 443
-  server: 89.116.46.68
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2518866
-  password: humanity
-  port: 443
-  server: 45.130.125.76
+  server: www.calmlunch.com
   skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2515879
-  password: humanity
-  port: 443
-  server: 141.193.213.11
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2518731
-  password: humanity
-  port: 443
-  server: 208.103.161.101
-  skip-cert-verify: true
-  sni: www.calmloud.com
+  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: 0|trojan-2518785
@@ -4305,19 +3579,19 @@ proxies:
   sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-2514927
+- name: 0|trojan-2518847
   password: humanity
   port: 443
-  server: 104.18.9.83
+  server: 45.130.125.69
   skip-cert-verify: false
-  sni: www.calmlunch.com
+  sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-2514872
+- name: 0|trojan-2515898
   password: humanity
   port: 443
-  server: 104.18.32.47
-  skip-cert-verify: false
+  server: 141.193.213.30
+  skip-cert-verify: true
   sni: www.calmloud.com
   type: trojan
   udp: true
@@ -4337,26 +3611,34 @@ proxies:
   sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: 0|trojan-2518855
+- name: 0|trojan-2517876
   password: humanity
   port: 443
-  server: 45.130.125.72
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2518880
-  password: humanity
-  port: 443
-  server: 45.130.125.96
+  server: 199.181.197.176
   skip-cert-verify: false
   sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-2513927
+- name: 0|trojan-108650
   password: humanity
   port: 443
-  server: 104.18.12.149
+  server: 104.19.2.175
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2514927
+  password: humanity
+  port: 443
+  server: 104.18.9.83
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2519731
+  password: humanity
+  port: 443
+  server: 8.6.112.0
   skip-cert-verify: true
   sni: www.calmloud.com
   type: trojan
@@ -4369,14 +3651,6 @@ proxies:
   sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-11690
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
 - name: 0|trojan-11668
   password: humanity
   port: 443
@@ -4385,52 +3659,12 @@ proxies:
   sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: 0|trojan-2513877
-  password: humanity
-  port: 443
-  server: 104.17.72.206
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2515729
-  password: humanity
-  port: 443
-  server: 104.19.229.21
+- name: 0|trojan-176269129
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2516873
-  password: humanity
-  port: 443
-  server: 172.67.155.199
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2518849
-  password: humanity
-  port: 443
-  server: 45.130.125.69
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2515919
-  password: humanity
-  port: 443
-  server: 162.159.193.22
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-189686240
-  password: MITIVPN
-  port: 443
-  server: 104.16.72.41
-  skip-cert-verify: false
-  sni: ikk---7-mitivpn----o.app-cloud.ir
+  sni: de.catxstar.com
   type: trojan
   udp: true
 - name: 0|trojan-16169
@@ -4441,100 +3675,91 @@ proxies:
   sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-2515775
+- name: 0|trojan-2513783
   password: humanity
   port: 443
-  server: 104.20.42.250
+  server: 104.16.7.70
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2514872
+  password: humanity
+  port: 443
+  server: 104.18.32.47
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2463802
+  password: humanity
+  port: 443
+  server: 141.193.213.11
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2519775
+  password: humanity
+  port: 443
+  server: 89.116.46.68
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2469762
+  password: humanity
+  port: 443
+  server: 8.6.112.6
   skip-cert-verify: true
   sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-2515886
-  password: humanity
+- name: 0|trojan-179702029
+  password: MITIVPN
   port: 443
-  server: 141.193.213.21
+  server: 104.16.72.41
   skip-cert-verify: true
-  sni: www.calmloud.com
+  sni: ikk---7-mitivpn----o.app-cloud.ir
   type: trojan
   udp: true
-- name: 0|trojan-2518749
+- name: 0|trojan-16422
   password: humanity
   port: 443
-  server: 208.103.161.170
+  server: 45.130.125.160
   skip-cert-verify: false
   sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-2513019
+- name: 0|trojan-2514876
   password: humanity
   port: 443
-  server: 104.16.174.101
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2519792
-  password: humanity
-  port: 443
-  server: 94.140.0.100
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-11949
-  password: humanity
-  port: 443
-  server: www.calmlunch.com
-  skip-cert-verify: false
+  server: 104.18.32.47
+  skip-cert-verify: true
   sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: 0,2|GB - zhuhai.uk
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
+- name: 0|trojan-2469743
+  password: humanity
+  port: 443
+  server: 188.114.97.3
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-11941
+  password: humanity
+  port: 443
+  server: 66.81.247.155
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2518812
+  password: humanity
+  port: 443
+  server: 45.130.125.0
   skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 0|trojan-2516892
-  password: humanity
-  port: 443
-  server: 185.18.250.252
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2519787
-  password: humanity
-  port: 443
-  server: 91.193.58.77
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2514839
-  password: humanity
-  port: 443
-  server: 104.18.17.216
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2517759
-  password: humanity
-  port: 443
-  server: 188.114.97.6
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-108306
-  password: humanity
-  port: 443
-  server: 104.18.152.233
-  skip-cert-verify: false
   sni: www.calmloud.com
   type: trojan
   udp: true
@@ -4546,6 +3771,54 @@ proxies:
   sni: www.calmlunch.com
   type: trojan
   udp: true
+- name: 0|trojan-2515945
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2517773
+  password: humanity
+  port: 443
+  server: 188.114.97.6
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2518902
+  password: humanity
+  port: 443
+  server: 5.10.214.4
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-16399
+  password: humanity
+  port: 443
+  server: 199.181.197.111
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-182595885
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+  udp: true
+- name: 0|trojan-2515935
+  password: humanity
+  port: 443
+  server: 162.159.38.119
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
 - name: 0|trojan-108314
   password: humanity
   port: 443
@@ -4554,34 +3827,50 @@ proxies:
   sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-2515762
+- name: 0|trojan-24448
   password: humanity
   port: 443
-  server: 104.19.230.21
+  server: 188.114.98.0
   skip-cert-verify: false
-  sni: www.multiplydose.com
+  sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: 0|trojan-2514876
+- name: 0|trojan-16407
   password: humanity
   port: 443
-  server: 104.18.32.47
+  server: 199.181.197.228
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2516817
+  password: humanity
+  port: 443
+  server: 172.64.152.23
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2515729
+  password: humanity
+  port: 443
+  server: 104.19.229.21
   skip-cert-verify: true
-  sni: www.calmlunch.com
+  sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-113446
+- name: 0|trojan-16405
   password: humanity
   port: 443
-  server: 162.159.91.211
+  server: 199.181.197.212
   skip-cert-verify: false
-  sni: www.calmlunch.com
+  sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-16399
+- name: 0|trojan-2517739
   password: humanity
   port: 443
-  server: 199.181.197.111
+  server: 188.114.96.4
   skip-cert-verify: false
   sni: www.calmloud.com
   type: trojan
@@ -4594,126 +3883,6 @@ proxies:
   sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: 0|trojan-2513847
-  password: humanity
-  port: 443
-  server: 104.17.121.71
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-11670
-  password: humanity
-  port: 443
-  server: 104.17.121.71
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 0|trojan-18
-  password: humanity
-  port: 443
-  server: 104.16.174.44
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2516815
-  password: humanity
-  port: 443
-  server: 172.64.152.23
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2517885
-  password: humanity
-  port: 443
-  server: 199.181.197.228
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2517734
-  password: humanity
-  port: 443
-  server: 188.114.96.4
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-108650
-  password: humanity
-  port: 443
-  server: 104.19.2.175
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2518903
-  password: humanity
-  port: 443
-  server: 5.10.214.53
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-11667
-  password: humanity
-  port: 443
-  server: 104.16.72.2
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2519801
-  password: humanity
-  port: 443
-  server: chat.openai.com
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 0|trojan-108234
-  password: humanity
-  port: 443
-  server: 104.18.10.110
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2515798
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-- name: 0|trojan-24353
-  password: humanity
-  port: 443
-  server: 104.18.12.149
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-- name: 0|trojan-11909
-  password: humanity
-  port: 443
-  server: 172.64.152.23
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 0|trojan-118986
-  password: humanity
-  port: 443
-  server: 45.130.125.190
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
 - name: 0|trojan-2515927
   password: humanity
   port: 443
@@ -4722,19 +3891,19 @@ proxies:
   sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: 0|trojan-2514845
+- name: 0|trojan-2516871
   password: humanity
   port: 443
-  server: 104.18.22.208
+  server: 172.67.155.199
   skip-cert-verify: false
-  sni: www.multiplydose.com
+  sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-107725
+- name: 0|trojan-2518796
   password: humanity
   port: 443
-  server: 104.16.174.33
-  skip-cert-verify: false
+  server: 216.24.57.7
+  skip-cert-verify: true
   sni: www.calmloud.com
   type: trojan
   udp: true
@@ -4746,10 +3915,138 @@ proxies:
   sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: 0|trojan-2515812
+- name: 0|trojan-2463754
   password: humanity
   port: 443
-  server: 104.20.6.134
+  server: 141.193.213.21
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-11667
+  password: humanity
+  port: 443
+  server: 104.16.72.2
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: 0|trojan-11690
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2515916
+  password: humanity
+  port: 443
+  server: 162.159.193.138
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-11670
+  password: humanity
+  port: 443
+  server: 104.17.121.71
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2518855
+  password: humanity
+  port: 443
+  server: 45.130.125.72
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2516935
+  password: humanity
+  port: 443
+  server: 188.114.96.3
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2518749
+  password: humanity
+  port: 443
+  server: 208.103.161.170
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2519774
+  password: humanity
+  port: 443
+  server: 89.116.46.210
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-184964699
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20129
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: 0|trojan-24353
+  password: humanity
+  port: 443
+  server: 104.18.12.149
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+- name: 0|trojan-113446
+  password: humanity
+  port: 443
+  server: 162.159.91.211
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: 0|trojan-13367504
+  password: humanity
+  port: 443
+  server: 188.114.96.3
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2514829
+  password: humanity
+  port: 443
+  server: 104.18.16.216
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-11927
+  password: humanity
+  port: 443
+  server: 199.181.197.169
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-115723
+  password: humanity
+  port: 443
+  server: 188.114.96.250
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-107725
+  password: humanity
+  port: 443
+  server: 104.16.174.33
   skip-cert-verify: false
   sni: www.calmloud.com
   type: trojan
@@ -4762,20 +4059,12 @@ proxies:
   sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-16168
+- name: 0|trojan-2514799
   password: humanity
   port: 443
-  server: 188.114.96.3
+  server: 104.18.152.233
   skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2520752
-  password: humanity
-  port: 443
-  server: www.multiplydose.com
-  skip-cert-verify: true
-  sni: www.multiplydose.com
+  sni: www.calmloud.com
   type: trojan
   udp: true
 - name: 0|trojan-108294
@@ -4786,12 +4075,12 @@ proxies:
   sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-2517746
+- name: 0|trojan-2513858
   password: humanity
   port: 443
-  server: 188.114.97.3
+  server: 104.17.121.9
   skip-cert-verify: false
-  sni: www.calmloud.com
+  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: 0|trojan-16144
@@ -4810,11 +4099,27 @@ proxies:
   sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-2517875
+- name: 0|trojan-2513847
   password: humanity
   port: 443
-  server: 199.181.197.176
-  skip-cert-verify: true
+  server: 104.17.121.71
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-192034505
+  password: humanity
+  port: 443
+  server: 5.10.214.53
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2515812
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: false
   sni: www.calmloud.com
   type: trojan
   udp: true
@@ -4830,6 +4135,14 @@ proxies:
   password: humanity
   port: 443
   server: 45.130.125.75
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2519801
+  password: humanity
+  port: 443
+  server: chat.openai.com
   skip-cert-verify: false
   sni: www.calmlunch.com
   type: trojan
@@ -4850,26 +4163,10 @@ proxies:
   sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-11941
+- name: 0|trojan-118986
   password: humanity
   port: 443
-  server: 66.81.247.155
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-16405
-  password: humanity
-  port: 443
-  server: 199.181.197.212
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-24448
-  password: humanity
-  port: 443
-  server: 188.114.98.0
+  server: 45.130.125.190
   skip-cert-verify: false
   sni: www.calmlunch.com
   type: trojan
@@ -4890,15 +4187,7 @@ proxies:
   sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: 0|trojan-182057629
-  password: MiTiVPN
-  port: 2096
-  server: 162.159.140.91
-  skip-cert-verify: true
-  sni: ib-bbg--mitivpn---mitivpn-u.kingnetwork.ir
-  type: trojan
-  udp: true
-- name: 0|trojan-2513916
+- name: 0|trojan-2126903
   password: humanity
   port: 443
   server: 104.18.11.110
@@ -4906,68 +4195,60 @@ proxies:
   sni: www.multiplydose.com
   type: trojan
   udp: true
-- name: 0|trojan-25365
+- name: 0|trojan-107718
   password: humanity
   port: 443
-  server: 172.64.152.23
+  server: 104.16.174.121
   skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2518731
+  password: humanity
+  port: 443
+  server: 208.103.161.101
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2515918
+  password: humanity
+  port: 443
+  server: 162.159.193.202
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-13363703
+  password: humanity
+  port: 443
+  server: 188.114.96.3
+  skip-cert-verify: true
   sni: www.multiplydose.com
   type: trojan
   udp: true
-- name: 0|trojan-2513860
+- name: 0|trojan-16401
   password: humanity
   port: 443
-  server: 104.17.121.9
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2516920
-  password: humanity
-  port: 443
-  server: 188.114.96.250
+  server: 199.181.197.143
   skip-cert-verify: false
   sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-197446126
-  password: MiTiVPN
-  port: 443
-  server: 104.18.152.229
-  skip-cert-verify: true
-  sni: swsjh--mitivpn---mitivpn-ao.maqror.ir
-  type: trojan
-  udp: true
-- name: 0|trojan-2514767
-  password: humanity
-  port: 443
-  server: 104.18.152.207
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2516783
-  password: humanity
-  port: 443
-  server: 172.64.147.29
-  skip-cert-verify: true
-  sni: www.gossipglove.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2518757
+- name: 0|trojan-11933
   password: humanity
   port: 443
   server: 212.183.88.136
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: 0|trojan-11914
+- name: 0|trojan-2513904
   password: humanity
   port: 443
-  server: 185.18.250.252
+  server: 104.18.10.110
   skip-cert-verify: false
-  sni: www.calmlunch.com
+  sni: www.multiplydose.com
   type: trojan
   udp: true
 - name: 0|trojan-11937
@@ -4978,28 +4259,12 @@ proxies:
   sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-198804551
-  password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
-  port: 50573
-  server: 139.59.238.97
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-  udp: true
-- name: 0|trojan-2520745
+- name: 0|trojan-2520742
   password: humanity
   port: 443
   server: www.multiplydose.com
   skip-cert-verify: false
   sni: ''
-  type: trojan
-  udp: true
-- name: 0|trojan-2515916
-  password: humanity
-  port: 443
-  server: 162.159.193.138
-  skip-cert-verify: true
-  sni: www.calmloud.com
   type: trojan
   udp: true
 - name: 0|trojan-25095
@@ -5018,7 +4283,7 @@ proxies:
   sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-175462217
+- name: 0|trojan-62821141
   password: 0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m
   port: 450
   server: 167.150.100.133
@@ -5026,12 +4291,12 @@ proxies:
   sni: grape-power-sg.roxa.org
   type: trojan
   udp: true
-- name: 0|trojan-17
+- name: 0|trojan-2513019
   password: humanity
   port: 443
-  server: 104.18.152.97
+  server: 104.16.174.101
   skip-cert-verify: false
-  sni: www.ignitelimit.com
+  sni: www.calmloud.com
   type: trojan
   udp: true
 - name: 0|trojan-2513798
@@ -5074,23 +4339,15 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
-- name: 0|trojan-2513729
+- name: 0|trojan-11951
   password: humanity
   port: 443
-  server: 104.16.174.121
+  server: www.multiplydose.com
   skip-cert-verify: false
-  sni: www.calmloud.com
+  sni: www.multiplydose.com
   type: trojan
   udp: true
-- name: 0|trojan-16429
-  password: humanity
-  port: 443
-  server: www.ignitelimit.com
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-  udp: true
-- name: 0|trojan-33238130
+- name: 0|trojan-95305971
   password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
   port: 50573
   server: 139.59.238.97
@@ -5098,20 +4355,21 @@ proxies:
   sni: 139.59.238.97
   type: trojan
   udp: true
-- name: 0|trojan-2517869
+- name: 0|trojan-2516908
   password: humanity
   port: 443
-  server: 199.181.197.143
-  skip-cert-verify: true
+  server: 185.18.250.252
+  skip-cert-verify: false
   sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-198822231
-  password: MiTiVPN
-  port: 443
-  server: 202.37.33.80
+- name: 0,2|GB - zhuhai.uk
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: ib-bbg--mitivpn---mitivpn-.maqror.ir
+  sni: hkdcrtc-e.catcat321.com
+  tls: true
   type: trojan
   udp: true
 - name: 0|trojan-2519784
@@ -5120,6 +4378,14 @@ proxies:
   server: 89.116.46.8
   skip-cert-verify: true
   sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-56203977
+  password: 2eutknankxtbgkwcajzt
+  port: 52794
+  server: 193.148.19.213
+  skip-cert-verify: true
+  sni: 193.148.19.213
   type: trojan
   udp: true
 - name: 0|trojan-16156
@@ -5146,28 +4412,20 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
-- name: 0|trojan-2513022
+- name: 0|trojan-2514753
   password: humanity
   port: 443
-  server: 104.16.174.109
+  server: 104.18.152.149
   skip-cert-verify: false
   sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-11907
+- name: 0|trojan-2517780
   password: humanity
   port: 443
-  server: 165.215.250.14
-  skip-cert-verify: false
+  server: 188.114.97.6
+  skip-cert-verify: true
   sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 0|trojan-26561142
-  password: humanity
-  port: 443
-  server: www.gossipglove.com
-  skip-cert-verify: false
-  sni: ''
   type: trojan
   udp: true
 - name: 0|trojan-121795
@@ -5178,19 +4436,11 @@ proxies:
   sni: www.multiplydose.com
   type: trojan
   udp: true
-- name: 0|trojan-2517722
-  password: humanity
-  port: 443
-  server: 188.114.96.3
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2516849
+- name: 0|trojan-16403
   password: humanity
   port: 443
   server: 172.66.44.211
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.multiplydose.com
   type: trojan
   udp: true
@@ -5202,12 +4452,20 @@ proxies:
   sni: ''
   type: trojan
   udp: true
-- name: 0|trojan-2519945
+- name: 0|trojan-26561144
   password: humanity
   port: 443
   server: www.gossipglove.com
   skip-cert-verify: false
   sni: www.gossipglove.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2515925
+  password: humanity
+  port: 443
+  server: 162.159.195.173
+  skip-cert-verify: false
+  sni: www.calmloud.com
   type: trojan
   udp: true
 - name: 0|trojan-2515736
@@ -5218,6 +4476,14 @@ proxies:
   sni: www.multiplydose.com
   type: trojan
   udp: true
+- name: 0|trojan-2516882
+  password: humanity
+  port: 443
+  server: 185.18.250.245
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
 - name: 0|trojan-2516891
   password: humanity
   port: 443
@@ -5226,7 +4492,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
-- name: 0|trojan-2520737
+- name: 0|trojan-2520734
   password: humanity
   port: 443
   server: www.ignitelimit.com
@@ -5242,10 +4508,10 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
-- name: 0|trojan-2463766
+- name: 0|trojan-113280
   password: humanity
   port: 443
-  server: 216.24.57.1
+  server: 162.159.193.22
   skip-cert-verify: false
   sni: www.calmloud.com
   type: trojan
@@ -5258,11 +4524,11 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
-- name: 0|trojan-2519807
+- name: 0|trojan-2519804
   password: humanity
   port: 443
   server: chatgpt.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.gossipglove.com
   type: trojan
   udp: true
@@ -5274,6 +4540,14 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
+- name: 0|trojan-13366847
+  password: humanity
+  port: 443
+  server: 172.64.152.23
+  skip-cert-verify: true
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
 - name: 0|trojan-2518763
   password: humanity
   port: 443
@@ -5282,20 +4556,12 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
-- name: 0|trojan-2517761
+- name: 0|trojan-2517793
   password: humanity
   port: 443
   server: 188.114.97.6
-  skip-cert-verify: false
-  sni: www.gossipglove.com
-  type: trojan
-  udp: true
-- name: 0|trojan-46244303
-  password: 2eutknankxtbgkwcajzt
-  port: 52794
-  server: 193.148.19.213
   skip-cert-verify: true
-  sni: 193.148.19.213
+  sni: www.gossipglove.com
   type: trojan
   udp: true
 - name: 0|trojan-11682
@@ -5314,11 +4580,19 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
-- name: 0|trojan-2519754
+- name: 0|trojan-26560141
+  password: humanity
+  port: 443
+  server: 8.6.112.0
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2519760
   password: humanity
   port: 443
   server: 8.6.112.6
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
   udp: true
@@ -5354,12 +4628,12 @@ proxies:
   sni: www.vk.com
   type: trojan
   udp: true
-- name: 0|trojan-188185699
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 6357
-  server: 18.163.180.201
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+- name: 0|trojan-200584044
+  password: M7v%w11Se*
+  port: 443
+  server: qfdfsg.wsone.icu
+  skip-cert-verify: true
+  sni: qfdfsg.wsone.icu
   type: trojan
   udp: true
 - name: 0|trojan-121793
@@ -5370,7 +4644,15 @@ proxies:
   sni: www.multiplydose.com
   type: trojan
   udp: true
-- name: 0|trojan-16410
+- name: 0|trojan-2514839
+  password: humanity
+  port: 443
+  server: 104.18.17.216
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2518790
   password: humanity
   port: 443
   server: 216.24.57.7
@@ -5378,12 +4660,20 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
-- name: 0|trojan-26560141
+- name: 0|trojan-189706220
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 6357
+  server: 18.163.180.201
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 0|trojan-2513924
   password: humanity
   port: 443
-  server: 8.6.112.0
+  server: 104.18.12.149
   skip-cert-verify: false
-  sni: www.multiplydose.com
+  sni: www.calmloud.com
   type: trojan
   udp: true
 - name: 0|trojan-11666
@@ -5402,20 +4692,20 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
-- name: 0|trojan-2516856
+- name: 0|trojan-2516855
   password: humanity
   port: 443
   server: 172.66.47.45
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.multiplydose.com
   type: trojan
   udp: true
-- name: 0|trojan-113939
+- name: 0|trojan-2515808
   password: humanity
   port: 443
-  server: 172.64.146.37
-  skip-cert-verify: true
-  sni: www.gossipglove.com
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.multiplydose.com
   type: trojan
   udp: true
 - name: 0|trojan-24185
@@ -5442,14 +4732,6 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
-- name: 0|trojan-2518739
-  password: humanity
-  port: 443
-  server: 208.103.161.101
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  udp: true
 - name: 0|trojan-2463773
   password: humanity
   port: 443
@@ -5474,34 +4756,10 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
-- name: 0|trojan-2517784
-  password: humanity
-  port: 443
-  server: 188.114.97.6
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  udp: true
 - name: 0|trojan-116669
   password: humanity
   port: 443
   server: 198.41.201.36
-  skip-cert-verify: false
-  sni: www.gossipglove.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2513014
-  password: humanity
-  port: 443
-  server: 104.16.118.43
-  skip-cert-verify: true
-  sni: www.creationlong.org
-  type: trojan
-  udp: true
-- name: 0|trojan-131309802
-  password: humanity
-  port: 443
-  server: 104.17.147.22
   skip-cert-verify: false
   sni: www.gossipglove.com
   type: trojan
@@ -5514,14 +4772,6 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
-- name: 0|trojan-13368806
-  password: humanity
-  port: 443
-  server: 104.18.13.149
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
 - name: 0|trojan-108291
   password: humanity
   port: 443
@@ -5530,43 +4780,11 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
-- name: 0|trojan-114025
-  password: humanity
-  port: 443
-  server: 172.64.229.75
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-192020285
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 9450
-  server: rr1.tube-cat.com
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-  udp: true
 - name: 0|trojan-2515929
   password: humanity
   port: 443
   server: 162.159.36.20
   skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 0|trojan-113926
-  password: humanity
-  port: 443
-  server: 172.64.146.129
-  skip-cert-verify: true
-  sni: www.gossipglove.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2517780
-  password: humanity
-  port: 443
-  server: 188.114.97.6
-  skip-cert-verify: true
   sni: www.calmlunch.com
   type: trojan
   udp: true
@@ -5578,12 +4796,12 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
-- name: 0|trojan-2516843
+- name: 0|trojan-16411
   password: humanity
   port: 443
-  server: 172.66.44.211
+  server: 45.130.125.126
   skip-cert-verify: false
-  sni: www.creationlong.org
+  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: 0|trojan-121794
@@ -5602,7 +4820,7 @@ proxies:
   sni: www.multiplydose.com
   type: trojan
   udp: true
-- name: 0|trojan-2516803
+- name: 0|trojan-2516819
   password: humanity
   port: 443
   server: 172.64.152.23
@@ -5618,12 +4836,20 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
-- name: 0|trojan-2515909
+- name: 0|trojan-11695
   password: humanity
   port: 443
-  server: 162.159.153.4
+  server: 104.19.64.105
   skip-cert-verify: false
-  sni: www.calmloud.com
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2515764
+  password: humanity
+  port: 443
+  server: 104.19.230.21
+  skip-cert-verify: false
+  sni: www.multiplydose.com
   type: trojan
   udp: true
 - name: 0|trojan-11662
@@ -5642,15 +4868,7 @@ proxies:
   sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-107907
-  password: humanity
-  port: 443
-  server: 104.16.62.25
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  udp: true
-- name: 0|trojan-107724
+- name: 0|trojan-2513742
   password: humanity
   port: 443
   server: 104.16.174.22
@@ -5658,7 +4876,7 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
-- name: 0|trojan-11678
+- name: 0|trojan-2514778
   password: humanity
   port: 443
   server: 104.18.152.225
@@ -5666,20 +4884,12 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
-- name: 0|trojan-2515948
-  password: humanity
-  port: 443
-  server: 165.215.250.14
+- name: 0|trojan-198804552
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: 154.64.226.149
   skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  udp: true
-- name: 0|trojan-78749029
-  password: humanity
-  port: 443
-  server: 104.18.115.61
-  skip-cert-verify: false
-  sni: www.gossipglove.com
+  sni: hk.catxstar.com
   type: trojan
   udp: true
 - name: 0|trojan-2516790
@@ -5690,6 +4900,14 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+- name: 0|trojan-114025
+  password: humanity
+  port: 443
+  server: 172.64.229.75
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
 - name: 0|trojan-11692
   password: humanity
   port: 443
@@ -5698,44 +4916,36 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
-- name: 0|trojan-11929
+- name: 0|trojan-70540696
   password: humanity
   port: 443
   server: 202.37.33.80
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  udp: true
-- name: 0|trojan-2519923
-  password: humanity
-  port: 443
-  server: www.creationlong.org
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  udp: true
-- name: 0|trojan-2515731
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  udp: true
-- name: 0|trojan-2513820
-  password: humanity
-  port: 443
-  server: 104.16.80.73
   skip-cert-verify: true
   sni: www.creationlong.org
   type: trojan
   udp: true
-- name: 0|trojan-13368644
+- name: 0|trojan-2515741
   password: humanity
   port: 443
-  server: 172.64.152.42
+  server: 104.19.229.21
+  skip-cert-verify: true
+  sni: www.creationlong.org
+  type: trojan
+  udp: true
+- name: 0|trojan-11673
+  password: humanity
+  port: 443
+  server: 104.18.12.149
   skip-cert-verify: false
-  sni: www.multiplydose.com
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2518739
+  password: humanity
+  port: 443
+  server: 208.103.161.101
+  skip-cert-verify: false
+  sni: www.creationlong.org
   type: trojan
   udp: true
 - name: 0|trojan-117500
@@ -5746,14 +4956,6 @@ proxies:
   sni: www.creationlong.org
   type: trojan
   udp: true
-- name: 0|trojan-2518895
-  password: humanity
-  port: 443
-  server: 45.85.118.176
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
 - name: 0|trojan-16396
   password: humanity
   port: 443
@@ -5762,15 +4964,15 @@ proxies:
   sni: www.multiplydose.com
   type: trojan
   udp: true
-- name: 0|trojan-2516924
+- name: 0|trojan-31992696
   password: humanity
   port: 443
   server: 188.114.96.3
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.gossipglove.com
   type: trojan
   udp: true
-- name: 0|trojan-2516894
+- name: 0|trojan-2516909
   password: humanity
   port: 443
   server: 185.18.250.252
@@ -5786,14 +4988,6 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
-- name: 0|trojan-2514895
-  password: humanity
-  port: 443
-  server: 104.18.6.147
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  udp: true
 - name: 0|trojan-2516727
   password: humanity
   port: 443
@@ -5802,12 +4996,12 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
-- name: 0|trojan-2513766
+- name: 0|trojan-2518895
   password: humanity
   port: 443
-  server: 104.16.6.70
+  server: 45.85.118.176
   skip-cert-verify: true
-  sni: www.creationlong.org
+  sni: www.calmloud.com
   type: trojan
   udp: true
 - name: 0|trojan-2513873
@@ -5818,7 +5012,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
-- name: 0|trojan-26559142
+- name: 0|trojan-2518745
   password: humanity
   port: 443
   server: 208.103.161.110
@@ -5826,7 +5020,7 @@ proxies:
   sni: www.creationlong.org
   type: trojan
   udp: true
-- name: 0|trojan-16428
+- name: 0|trojan-2519926
   password: humanity
   port: 443
   server: www.creationlong.org
@@ -5840,14 +5034,6 @@ proxies:
   server: 104.17.111.3
   skip-cert-verify: false
   sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2519744
-  password: humanity
-  port: 443
-  server: 8.6.112.6
-  skip-cert-verify: true
-  sni: www.creationlong.org
   type: trojan
   udp: true
 - name: 0|trojan-2516758
@@ -5874,23 +5060,7 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
-- name: 0|trojan-31995697
-  password: humanity
-  port: 443
-  server: 81.255.155.10
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  udp: true
-- name: 0|trojan-2518768
-  password: humanity
-  port: 443
-  server: 216.24.57.1
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  udp: true
-- name: 0|trojan-16413
+- name: 0|trojan-2518784
   password: humanity
   port: 443
   server: 216.24.57.6
@@ -5898,19 +5068,27 @@ proxies:
   sni: www.creationlong.org
   type: trojan
   udp: true
-- name: 0|trojan-2517832
+- name: 0|trojan-11923
   password: humanity
   port: 443
   server: 188.114.98.0
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.creationlong.org
   type: trojan
   udp: true
-- name: 0|trojan-2516863
+- name: 0|trojan-2516861
   password: humanity
   port: 443
   server: 172.66.47.69
-  skip-cert-verify: true
+  skip-cert-verify: false
+  sni: www.creationlong.org
+  type: trojan
+  udp: true
+- name: 0|trojan-16427
+  password: humanity
+  port: 443
+  server: 81.255.155.10
+  skip-cert-verify: false
   sni: www.creationlong.org
   type: trojan
   udp: true
@@ -5946,11 +5124,11 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
-- name: 0|trojan-2519735
+- name: 0|trojan-2519742
   password: humanity
   port: 443
   server: 8.6.112.0
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.gossipglove.com
   type: trojan
   udp: true
@@ -5962,55 +5140,31 @@ proxies:
   sni: www.calmloud.com
   type: trojan
   udp: true
-- name: 0|trojan-11924
+- name: 0|trojan-31994697
   password: humanity
   port: 443
-  server: 188.114.99.0
-  skip-cert-verify: false
-  sni: www.gossipglove.com
-  type: trojan
-  udp: true
-- name: 0|trojan-116644
-  password: humanity
-  port: 443
-  server: 198.202.211.10
+  server: 216.24.57.1
   skip-cert-verify: false
   sni: www.creationlong.org
   type: trojan
   udp: true
-- name: 0|trojan-2515924
-  password: humanity
-  port: 443
-  server: 162.159.195.173
+- name: 0|trojan-198804551
+  password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
+  port: 50573
+  server: 139.59.238.97
   skip-cert-verify: true
-  sni: www.calmloud.com
+  sni: ''
   type: trojan
   udp: true
-- name: 0|trojan-5166761
+- name: 0|trojan-2519915
   password: humanity
   port: 443
-  server: 104.18.139.67
+  server: www.creationlong.org
   skip-cert-verify: false
   sni: www.creationlong.org
   type: trojan
   udp: true
-- name: 0|trojan-2516810
-  password: humanity
-  port: 443
-  server: 172.64.152.23
-  skip-cert-verify: false
-  sni: www.gossipglove.com
-  type: trojan
-  udp: true
-- name: 0|trojan-107997
-  password: humanity
-  port: 443
-  server: 104.17.121.71
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  udp: true
-- name: 0|trojan-2513836
+- name: 0|trojan-2513842
   password: humanity
   port: 443
   server: 104.17.121.71
@@ -6018,11 +5172,19 @@ proxies:
   sni: www.multiplydose.com
   type: trojan
   udp: true
-- name: 0|trojan-2513813
+- name: 0|trojan-107926
   password: humanity
   port: 443
   server: 104.16.79.73
-  skip-cert-verify: true
+  skip-cert-verify: false
+  sni: www.creationlong.org
+  type: trojan
+  udp: true
+- name: 0|trojan-107907
+  password: humanity
+  port: 443
+  server: 104.16.62.25
+  skip-cert-verify: false
   sni: www.creationlong.org
   type: trojan
   udp: true
@@ -6034,15 +5196,7 @@ proxies:
   sni: www.creationlong.org
   type: trojan
   udp: true
-- name: 0|trojan-2515817
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  udp: true
-- name: 0|trojan-2516940
+- name: 0|trojan-11918
   password: humanity
   port: 443
   server: 188.114.96.3
@@ -6050,20 +5204,12 @@ proxies:
   sni: www.creationlong.org
   type: trojan
   udp: true
-- name: 0|trojan-2516832
+- name: 0|trojan-2516834
   password: humanity
   port: 443
   server: 172.64.155.209
-  skip-cert-verify: true
-  sni: www.gossipglove.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2513868
-  password: humanity
-  port: 443
-  server: 104.17.150.76
   skip-cert-verify: false
-  sni: www.calmloud.com
+  sni: www.gossipglove.com
   type: trojan
   udp: true
 - name: 0|trojan-109839
@@ -6074,28 +5220,12 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
-- name: 0|trojan-97919908
-  password: humanity
-  port: 443
-  server: 162.159.38.119
-  skip-cert-verify: true
-  sni: www.gossipglove.com
-  type: trojan
-  udp: true
 - name: 0|trojan-2516738
   password: humanity
   port: 443
   server: 172.64.146.211
   skip-cert-verify: true
   sni: www.gossipglove.com
-  type: trojan
-  udp: true
-- name: 0|trojan-107645
-  password: humanity
-  port: 443
-  server: 104.16.117.43
-  skip-cert-verify: false
-  sni: www.creationlong.org
   type: trojan
   udp: true
 - name: 0|trojan-113984
@@ -6114,31 +5244,31 @@ proxies:
   sni: www.multiplydose.com
   type: trojan
   udp: true
-- name: 0|trojan-194720180
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: 157.254.38.210
-  skip-cert-verify: true
-  sni: hk.catxstar.com
+- name: 0|trojan-2520730
+  password: humanity
+  port: 443
+  server: www.ignitelimit.com
+  skip-cert-verify: false
+  sni: ''
   type: trojan
   udp: true
-- name: 0|trojan-2513819
+- name: 0|trojan-16149
+  password: humanity
+  port: 443
+  server: 104.17.121.43
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2513815
   password: humanity
   port: 443
   server: 104.16.80.73
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.gossipglove.com
   type: trojan
   udp: true
-- name: 0|trojan-192569962
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2514790
+- name: 0|trojan-2514791
   password: humanity
   port: 443
   server: 104.18.152.229
@@ -6146,12 +5276,28 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
-- name: 0|trojan-2514750
+- name: 0|trojan-2514748
   password: humanity
   port: 443
   server: 104.18.152.144
   skip-cert-verify: false
   sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2516825
+  password: humanity
+  port: 443
+  server: 172.64.152.23
+  skip-cert-verify: false
+  sni: www.gossipglove.com
+  type: trojan
+  udp: true
+- name: 0|trojan-13368644
+  password: humanity
+  port: 443
+  server: 172.64.152.42
+  skip-cert-verify: false
+  sni: www.multiplydose.com
   type: trojan
   udp: true
 - name: 0|trojan-107683
@@ -6162,12 +5308,12 @@ proxies:
   sni: www.creationlong.org
   type: trojan
   udp: true
-- name: 0|trojan-11673
+- name: 0|trojan-26561145
   password: humanity
   port: 443
-  server: 104.18.12.149
+  server: www.gossipglove.com
   skip-cert-verify: false
-  sni: www.calmlunch.com
+  sni: ''
   type: trojan
   udp: true
 - name: 0|trojan-2519818
@@ -6178,14 +5324,6 @@ proxies:
   sni: www.multiplydose.com
   type: trojan
   udp: true
-- name: 0|trojan-131183
-  password: humanity
-  port: 443
-  server: 104.26.6.159
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  udp: true
 - name: 0|trojan-25793
   password: humanity
   port: 443
@@ -6194,10 +5332,10 @@ proxies:
   sni: www.multiplydose.com
   type: trojan
   udp: true
-- name: 0|trojan-2513825
+- name: 0|trojan-2517765
   password: humanity
   port: 443
-  server: 104.16.90.120
+  server: 188.114.97.6
   skip-cert-verify: false
   sni: www.creationlong.org
   type: trojan
@@ -6234,36 +5372,20 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
-- name: 0|trojan-2516748
+- name: 0|trojan-2516843
   password: humanity
   port: 443
-  server: 172.64.146.28
-  skip-cert-verify: true
-  sni: www.gossipglove.com
-  type: trojan
-  udp: true
-- name: 0|trojan-107949
-  password: humanity
-  port: 443
-  server: 104.16.89.120
+  server: 172.66.44.211
   skip-cert-verify: false
   sni: www.creationlong.org
   type: trojan
   udp: true
-- name: 0|trojan-2513789
+- name: 0|trojan-2513788
   password: humanity
   port: 443
   server: 104.16.7.70
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-- name: 0|trojan-16149
-  password: humanity
-  port: 443
-  server: 104.17.121.43
   skip-cert-verify: false
-  sni: www.calmlunch.com
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
 - name: 0|trojan-107908
@@ -6282,20 +5404,12 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
-- name: 0|trojan-2513782
+- name: 0|trojan-2513868
   password: humanity
   port: 443
-  server: 104.16.7.70
-  skip-cert-verify: true
-  sni: www.creationlong.org
-  type: trojan
-  udp: true
-- name: 0|trojan-194707948
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: oplosgru-c.catcat321.com
+  server: 104.17.150.76
+  skip-cert-verify: false
+  sni: www.calmloud.com
   type: trojan
   udp: true
 - name: 0|trojan-2513809
@@ -6312,22 +5426,6 @@ proxies:
   server: 104.18.152.159
   skip-cert-verify: false
   sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2514829
-  password: humanity
-  port: 443
-  server: 104.18.16.216
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  udp: true
-- name: 0|trojan-2514753
-  password: humanity
-  port: 443
-  server: 104.18.152.149
-  skip-cert-verify: false
-  sni: www.calmloud.com
   type: trojan
   udp: true
 - name: 0|trojan-16406
@@ -6354,6 +5452,14 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
+- name: 0|trojan-97919908
+  password: humanity
+  port: 443
+  server: 162.159.38.119
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  udp: true
 - name: 0|trojan-2516781
   password: humanity
   port: 443
@@ -6362,18 +5468,26 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
-- name: 0|trojan-116659
-  password: humanity
-  port: 443
-  server: 198.41.194.243
+- name: 0|trojan-189689219
+  password: MiTiVPN
+  port: 2096
+  server: 162.159.140.91
   skip-cert-verify: false
-  sni: www.gossipglove.com
+  sni: ib-bbg--mitivpn---mitivpn-u.kingnetwork.ir
   type: trojan
   udp: true
-- name: 0|trojan-16170
+- name: 0|trojan-2469722
   password: humanity
   port: 443
   server: 104.19.208.184
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2514845
+  password: humanity
+  port: 443
+  server: 104.18.22.208
   skip-cert-verify: false
   sni: www.multiplydose.com
   type: trojan
@@ -6386,20 +5500,348 @@ proxies:
   sni: www.creationlong.org
   type: trojan
   udp: true
-- name: 0|trojan-16411
+- name: 0|trojan-13368806
   password: humanity
   port: 443
-  server: 45.130.125.126
-  skip-cert-verify: false
-  sni: www.calmlunch.com
+  server: 104.18.13.149
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
-- name: 0|trojan-2514736
+- name: 0|trojan-2514732
   password: humanity
   port: 443
   server: 104.18.139.67
   skip-cert-verify: false
   sni: www.multiplydose.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2513828
+  password: humanity
+  port: 443
+  server: 104.17.121.37
+  skip-cert-verify: false
+  sni: www.gossipglove.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2513812
+  password: humanity
+  port: 443
+  server: 104.16.73.213
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2515909
+  password: humanity
+  port: 443
+  server: 162.159.153.4
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2515863
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2126899
+  password: humanity
+  port: 443
+  server: 104.16.80.73
+  skip-cert-verify: false
+  sni: www.creationlong.org
+  type: trojan
+  udp: true
+- name: 0|trojan-2516728
+  password: humanity
+  port: 443
+  server: 172.64.146.161
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2515796
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+- name: 0|trojan-16143
+  password: humanity
+  port: 443
+  server: 104.16.174.71
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2516762
+  password: humanity
+  port: 443
+  server: 172.64.147.183
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2513022
+  password: humanity
+  port: 443
+  server: 104.16.174.109
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-11676
+  password: humanity
+  port: 443
+  server: 104.18.152.187
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2513010
+  password: humanity
+  port: 443
+  server: 104.16.117.43
+  skip-cert-verify: true
+  sni: www.creationlong.org
+  type: trojan
+  udp: true
+- name: 0|trojan-11674
+  password: humanity
+  port: 443
+  server: 104.18.12.149
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2463766
+  password: humanity
+  port: 443
+  server: 216.24.57.1
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-197443124
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: hyperon.site
+  skip-cert-verify: false
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  udp: true
+- name: 0|trojan-2514767
+  password: humanity
+  port: 443
+  server: 104.18.152.207
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2513785
+  password: humanity
+  port: 443
+  server: 104.16.7.70
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+- name: 0|trojan-108303
+  password: humanity
+  port: 443
+  server: 104.18.152.179
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2513835
+  password: humanity
+  port: 443
+  server: 104.17.121.71
+  skip-cert-verify: false
+  sni: www.creationlong.org
+  type: trojan
+  udp: true
+- name: 0|trojan-2514773
+  password: humanity
+  port: 443
+  server: 104.18.152.210
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+- name: 0|trojan-113946
+  password: humanity
+  port: 443
+  server: 172.64.147.131
+  skip-cert-verify: false
+  sni: www.gossipglove.com
+  type: trojan
+  udp: true
+- name: 0|trojan-113949
+  password: humanity
+  port: 443
+  server: 172.64.147.143
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2463742
+  password: humanity
+  port: 443
+  server: 45.130.125.126
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  udp: true
+- name: 0|trojan-113926
+  password: humanity
+  port: 443
+  server: 172.64.146.129
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  udp: true
+- name: 0|trojan-189704220
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20023
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2513745
+  password: humanity
+  port: 443
+  server: 104.16.174.33
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2513885
+  password: humanity
+  port: 443
+  server: 104.18.0.55
+  skip-cert-verify: false
+  sni: www.gossipglove.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2516784
+  password: humanity
+  port: 443
+  server: 172.64.147.2
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  udp: true
+- name: 0|trojan-54003095
+  password: humanity
+  port: 443
+  server: 104.17.111.4
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+- name: 0|trojan-11697
+  password: humanity
+  port: 443
+  server: 104.21.40.34
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2514764
+  password: humanity
+  port: 443
+  server: 104.18.152.204
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+- name: 0|trojan-108218
+  password: humanity
+  port: 443
+  server: 104.17.94.151
+  skip-cert-verify: false
+  sni: www.gossipglove.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2517772
+  password: humanity
+  port: 443
+  server: 188.114.97.6
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2516729
+  password: humanity
+  port: 443
+  server: 172.64.146.163
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  udp: true
+- name: 0|trojan-16145
+  password: humanity
+  port: 443
+  server: 104.18.152.208
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+- name: 0|trojan-114653
+  password: humanity
+  port: 443
+  server: 172.67.74.2
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2514744
+  password: humanity
+  port: 443
+  server: 104.18.152.133
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2518836
+  password: humanity
+  port: 443
+  server: 45.130.125.160
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2519771
+  password: humanity
+  port: 443
+  server: 86.38.214.205
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+- name: 0|trojan-2518831
+  password: humanity
+  port: 443
+  server: 45.130.125.158
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+- name: 0|trojan-16416
+  password: humanity
+  port: 443
+  server: 43.169.18.179
+  skip-cert-verify: false
+  sni: www.creationlong.org
   type: trojan
   udp: true
 - alpn:
@@ -6425,6 +5867,20 @@ proxies:
   tls: true
   type: http
   udp: true
+- flow: xtls-rprx-vision
+  name: 1|CA_speednode_0003
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: UZn-GKszDMErkbxDZAMbPmOMBk2nwEc7Av5uhZFMkgI
+    short-id: 7a3f9c2e1b8d4506
+  server: 167.17.182.192
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9a6ee382-75c3-4cc5-bacd-66494cf99daa
 - name: 1|DE_speednode_0004
   network: ws
   port: 2053
@@ -6461,21 +5917,6 @@ proxies:
     headers:
       Host: vms.lifetime02.workers.dev
     path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|GB_speednode_0007
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: qgQAQ19q2EhKzfolYMDsvTlmP9EAiCT8kng4uWR4QVg
-    short-id: 0a2d53503fdec721
-  server: de.prime-net.me
-  servername: de.prime-net.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 30702f28-0a64-4f96-bd8f-cc601ca87e4d
 - name: 1|HK_speednode_0008
   password: BxceQaOe
   port: 27161
@@ -7326,6 +6767,19 @@ proxies:
     headers:
       Host: raspy-feather-12ec.137-257.workers.dev
     path: /pyip=TelegramU0001F1E8U0001F1F3 @WangCai2
+- flow: xtls-rprx-vision
+  name: 1,2|EE - zhuhai.uk
+  network: tcp
+  port: 993
+  reality-opts:
+    public-key: Nnpwm8dqFl9dlMJmg0M9G11vmgCKzNagFTn4tH4sWy4
+  server: 88.218.44.4
+  servername: swcdn.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
 - name: 1|US_speednode_0125
   network: ws
   port: 80
@@ -7846,6 +7300,13 @@ proxies:
   type: vless
   udp: true
   uuid: 65ED2A4D-E1DB-4310-AB85-65C711BA873A
+- name: 2|HK - zhuhai.uk 03
+  network: tcp
+  port: 10000
+  server: 207.174.133.222
+  type: vless
+  udp: true
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - grpc-opts:
     grpc-service-name: update
   name: 2|JP - zhuhai.uk 09
