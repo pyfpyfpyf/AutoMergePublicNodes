@@ -1,15 +1,16 @@
 proxies:
-- client-fingerprint: edge
-  name: 2|CA - zhuhai.uk 01
-  network: ws
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|CA_speednode_0001
+  network: tcp
   port: 443
-  server: cf.130209.xyz
-  servername: canda.usic.ccwu.cc
+  reality-opts:
+    public-key: ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk
+    short-id: 0990d22f
+  server: 167.17.69.171
+  servername: www.cloudflare.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
-  ws-opts:
-    headers:
-      Host: canda.usic.ccwu.cc
-    path: /api/v2/check_update
+  uuid: 00144519-7e0d-476b-8d28-435576af9262

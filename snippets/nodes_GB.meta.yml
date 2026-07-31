@@ -1,1 +1,42 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  name: 1|GB_speednode_0002
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
+    short-id: 0b
+  server: 45.155.52.231
+  servername: ru2.skydrgn-online.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: TunService
+  name: 2|GB - zhuhai.uk
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  server: 88.218.44.4
+  servername: download.nvidia.com
+  tls: true
+  type: vless
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+- name: 2|GB - zhuhai.uk 05
+  password: a95e9198-0671-11f0-9426-f23c932f2c32
+  port: 443
+  server: 5c78e09e-thxmo0-tjdj5q-azvy.cldvpuk.cdnbytescm.com
+  tls: true
+  type: http
+  username: a95e9198-0671-11f0-9426-f23c932f2c32
+- name: 2|GB - zhuhai.uk 03
+  password: a95e9198-0671-11f0-9426-f23c932f2c32
+  port: 443
+  server: c0a5bcb4-thtxc0-ths4hq-azvy.cldvpuk.cdnbytescm.com
+  tls: true
+  type: http
+  username: a95e9198-0671-11f0-9426-f23c932f2c32
