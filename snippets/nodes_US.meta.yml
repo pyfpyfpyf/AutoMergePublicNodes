@@ -6,20 +6,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|US_speednode_0103
-  network: tcp
-  port: 993
-  reality-opts:
-    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
-  server: 88.218.44.4
-  servername: dl.google.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
 - name: 1|US_speednode_0090
   port: 9002
   server: 138.199.35.207
@@ -105,7 +91,7 @@ proxies:
     headers:
       Host: hk.isoziyuan.com
     path: /
-- name: 1,2|US - zhuhai.uk 03
+- name: 1,2|US - zhuhai.uk 04
   port: 9002
   server: 138.199.35.209
   skip-cert-verify: true
@@ -201,7 +187,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 1,2|DE - zhuhai.uk
+- name: 1|US_speednode_0111
   network: ws
   port: 80
   server: ru-de.apruxdomain.xyz
@@ -215,21 +201,31 @@ proxies:
     headers:
       Host: ru-de.apruxdomain.xyz
     path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|US - zhuhai.uk
-  port: 443
-  reality-opts:
-    public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
-    short-id: dbbe8dca27a92c35
-  server: 154.193.55.183
-  servername: storage.yandex.net
+- name: 2|US - zhuhai.uk
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
-- client-fingerprint: chrome
+  type: http
+  username: 'null'
+- name: 2|US - zhuhai.uk 02
+  password: 'null'
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 2|US - zhuhai.uk 03
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 2|US - zhuhai.uk 04
+  name: 2|US - zhuhai.uk 05
   port: 443
   reality-opts:
     public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
@@ -240,35 +236,17 @@ proxies:
   tls: true
   type: vless
   uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 2|US - zhuhai.uk 05
-  port: 50122
-  reality-opts:
-    public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
-    short-id: 70ab6d813e
-  server: apinbxs.eovay.com
-  servername: iosapps.itunes.apple.com
-  tls: true
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - name: 2|US - zhuhai.uk 06
   password: 'null'
   port: 9002
-  server: 138.199.35.198
+  server: 156.146.59.16
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
 - name: 2|US - zhuhai.uk 07
-  port: 1080
-  server: 144.24.47.42
-  type: socks5
-- name: 2|US - zhuhai.uk 08
-  password: 'null'
   port: 9002
-  server: 138.199.35.215
+  server: 156.146.59.21
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
