@@ -20,7 +20,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 1,2|TH - zhuhai.uk
+- name: 1|US_speednode_0092
   network: ws
   port: 80
   server: www.true.th
@@ -144,7 +144,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 1|US_speednode_0106
+- name: 1,2|US - zhuhai.uk 02
   port: 9002
   server: 156.146.59.5
   skip-cert-verify: true
@@ -180,7 +180,7 @@ proxies:
     headers:
       Host: pan1.global.ssl.fastly.neT
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-- name: 1|US_speednode_0110
+- name: 1,2|US - zhuhai.uk 06
   port: 9002
   server: 138.199.35.205
   skip-cert-verify: true
@@ -201,9 +201,9 @@ proxies:
     headers:
       Host: ru-de.apruxdomain.xyz
     path: /
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|US - zhuhai.uk 02
+  name: 2|US - zhuhai.uk
   port: 443
   reality-opts:
     public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
@@ -216,22 +216,42 @@ proxies:
   uuid: f75814f6-8f81-4847-b792-168c41f2dc85
 - name: 2|US - zhuhai.uk 03
   port: 9002
-  server: 138.199.35.211
+  server: 156.146.59.22
   skip-cert-verify: true
   tls: true
   type: http
 - name: 2|US - zhuhai.uk 04
   port: 9002
-  server: 138.199.35.199
+  server: 156.146.59.42
   skip-cert-verify: true
   tls: true
   type: http
 - name: 2|US - zhuhai.uk 05
   port: 9002
-  server: 156.146.59.15
+  server: 138.199.35.211
   skip-cert-verify: true
   tls: true
   type: http
+- name: 2|US - zhuhai.uk 07
+  password: 'null'
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|US - zhuhai.uk 08
+  port: 443
+  reality-opts:
+    public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
+    short-id: dbbe8dca27a92c35
+  server: 154.193.55.183
+  servername: storage.yandex.net
+  tls: true
+  type: vless
+  uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
 - name: 2|US - zhuhai.uk 19
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 443
