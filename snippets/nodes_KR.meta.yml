@@ -16,7 +16,7 @@ proxies:
   uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 1|KR_speednode_0016
+  name: 1,2|US - zhuhai.uk
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -25,8 +25,26 @@ proxies:
     short-id: c76ba2c2fb172e8b
   server: 154.193.55.183
   servername: storage.yandex.net
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- client-fingerprint: chrome
+  name: 2|KR - zhuhai.uk
+  network: ws
+  port: 11019
+  server: 211.104.99.209
+  servername: sni.ehb.cc.cd
+  tls: true
+  type: vless
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- name: 2|KR - zhuhai.uk 07
+  port: 1080
+  server: 43.164.136.189
+  type: socks5
+  udp: true
