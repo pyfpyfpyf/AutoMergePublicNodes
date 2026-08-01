@@ -14,21 +14,6 @@ proxies:
   type: vless
   udp: true
   uuid: f055899d-026b-49b5-88ed-0227795082da
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|GB_speednode_0018
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: -qRasoN1QIcSdRL937b6s-Y2qOb-9OFmlaHBi7UcOSM
-    short-id: e17b4d9a8c1f3526
-  server: 2.26.139.184
-  servername: kukuruza.mycdn-me.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f055899d-026b-49b5-88ed-0227795082da
 - name: 1|GB_speednode_0019
   password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
   port: 443
@@ -52,20 +37,20 @@ proxies:
   type: vless
   udp: true
   uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-- name: 2|GB - zhuhai.uk 04
-  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 2|GB - zhuhai.uk
+  network: ws
   port: 443
-  server: 663a898a-t9zts0-tatrrz-yjq0.uk.oshuawei.com
+  server: 172.67.176.245
+  servername: cg1c12.waimaojd.com
   tls: true
-  type: http
-  username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-- name: 2|GB - zhuhai.uk 03
-  password: a95e9198-0671-11f0-9426-f23c932f2c32
-  port: 443
-  server: c0a5bcb4-thtxc0-ths4hq-azvy.cldvpuk.cdnbytescm.com
-  tls: true
-  type: http
-  username: a95e9198-0671-11f0-9426-f23c932f2c32
+  type: vmess
+  uuid: 0632bfa9-b15c-4257-8c75-32f7c0c53b27
+  ws-opts:
+    headers:
+      Host: cg1c12.waimaojd.com
+    path: /api/v1/graphql
 - name: 2|GB - zhuhai.uk 05
   password: a95e9198-0671-11f0-9426-f23c932f2c32
   port: 443
