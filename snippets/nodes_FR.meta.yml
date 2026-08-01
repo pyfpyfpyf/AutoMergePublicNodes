@@ -1,30 +1,36 @@
 proxies:
-- client-fingerprint: chrome
-  name: 1|FR_speednode_0012
-  network: tcp
-  port: 5039
-  reality-opts:
-    public-key: fv-InxuZSzLlHc83OANs4U2windIUSwPilOpJkMgtW0
-    short-id: 2e8424a2696cb606
-  server: taoccqyacf7e.dop66.com
-  servername: www.yahoo.com
+- name: 1|FR_speednode_0005
+  port: 22223
+  server: 13.38.194.199
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: a5bea439-6176-4b5d-a891-bd31fc3530c9
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 2|FR - zhuhai.uk
-  port: 443
-  reality-opts:
-    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
-    short-id: ece180c605b5453c
-  server: 45.192.2.51
-  servername: yandex.net
-  tls: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 1|FR_speednode_0006
+  port: 22222
+  server: 13.38.194.199
+  skip-cert-verify: false
+  tls: false
   type: vless
-  uuid: e9346960-a429-4c1a-b661-512611450fea
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 1|FR_speednode_0007
+  port: 22224
+  server: 13.38.194.199
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 2|FR - zhuhai.uk
+  password: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b
+  port: 443
+  server: 01d9eacf-t9zts0-taxf6m-ieln.fr.oshuawei.com
+  sni: 01d9eacf-t9zts0-taxf6m-ieln.fr.oshuawei.com
+  tls: true
+  type: http
+  username: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b
 - name: 2|FR - zhuhai.uk 02
   port: 1080
   server: 213.199.47.140
