@@ -29,22 +29,27 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net
-- client-fingerprint: chrome
+- client-fingerprint: random
+  flow: xtls-rprx-vision
   name: 2|JP - zhuhai.uk
-  network: ws
-  port: 443
-  server: 45.95.212.117
-  servername: sni.ehb.cc.cd
+  port: 11446
+  reality-opts:
+    public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
+    short-id: 77a47b18
+  server: lainjp.gfw2500.com
+  servername: cloud.tencent.com
   tls: true
   type: vless
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- cipher: chacha20-ietf-poly1305
+  uuid: b3168980-cc71-47b2-ac5f-b72907ac1afe
+- client-fingerprint: random
+  flow: xtls-rprx-vision
   name: 2|JP - zhuhai.uk 02
-  password: f83107e6-7d68-4707-a57a-a6ef20130ab6
-  port: 19439
-  server: c.normal.main.sys-metric-report.com
-  type: ss
+  port: 38333
+  reality-opts:
+    public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
+    short-id: 77a47b18
+  server: awsjp.gfw2500.com
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 29604c23-fe0d-4b20-a291-cb595053a6db
