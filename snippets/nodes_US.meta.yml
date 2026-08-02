@@ -71,7 +71,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 1,2|US - zhuhai.uk 03
+- name: 1|US_speednode_0253
   port: 9002
   server: 138.199.35.220
   skip-cert-verify: true
@@ -121,7 +121,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 1|US_speednode_0263
+- name: 1,2|US - zhuhai.uk 11
   port: 9002
   server: 156.146.59.7
   skip-cert-verify: true
@@ -149,7 +149,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 1|US_speednode_0268
+- name: 1,2|US - zhuhai.uk 09
   port: 9002
   server: 138.199.35.211
   skip-cert-verify: true
@@ -233,6 +233,20 @@ proxies:
   type: vless
   udp: true
   uuid: 5cd8fc43-878f-11f1-8c93-54db13ea7d40
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|US_speednode_0281
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU
+  server: 91.132.162.200
+  servername: de0001.kubservice.icu
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 767a17d0-0579-4d98-ae13-413198f44752
 - name: 1|US_speednode_0284
   password: None
   port: 9002
@@ -241,7 +255,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 1|US_speednode_0285
+- name: 1,2|US - zhuhai.uk 06
   port: 9002
   server: 156.146.59.23
   skip-cert-verify: true
@@ -291,6 +305,21 @@ proxies:
   type: vless
   udp: true
   uuid: 767a17d0-0579-4d98-ae13-413198f44752
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|US_speednode_0290
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: q_lfutznS1iTS7bGphTIGMYVeht-8clcf_IfzIf4mBQ
+    short-id: 10a5c8e2f4b7d936
+  server: ch.tunnelx.space
+  servername: ch.tunnelx.space
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
 - client-fingerprint: chrome
   name: 1|US_speednode_0291
   network: ws
@@ -1123,14 +1152,64 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net
-- name: 1,2|US - zhuhai.uk
+- name: 1|US_speednode_0348
   port: 9002
   server: 156.146.59.25
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+- name: 2|US - zhuhai.uk
+  password: 'null'
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
 - name: 2|US - zhuhai.uk 02
-  port: 1080
-  server: 144.24.47.42
+  port: 9002
+  server: 156.146.59.10
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 2|US - zhuhai.uk 03
+  password: 'null'
+  port: 9002
+  server: 156.146.59.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 2|US - zhuhai.uk 04
+  port: 9002
+  server: 156.146.59.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 2|US - zhuhai.uk 05
+  port: 22222
+  server: 193.25.215.182
   type: socks5
+- name: 2|US - zhuhai.uk 07
+  password: 'null'
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 2|US - zhuhai.uk 08
+  port: 9002
+  server: 156.146.59.43
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 2|US - zhuhai.uk 10
+  password: 32315324-cf6b-11ed-979b-f23c9164ca5d
+  port: 443
+  server: 5badc430-tcxds0-tdua6y-nx3b.se.oshuawei.com
+  sni: 5badc430-tcxds0-tdua6y-nx3b.se.oshuawei.com
+  tls: true
+  type: http
+  username: 32315324-cf6b-11ed-979b-f23c9164ca5d
