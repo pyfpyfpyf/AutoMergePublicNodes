@@ -38,8 +38,15 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net
-- name: 2|KR - zhuhai.uk 01
-  port: 1080
-  server: 43.164.136.189
-  type: socks5
-  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|KR - zhuhai.uk
+  port: 39215
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: v2.cdn.yye837u1f6xg.jjxdns.net
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
