@@ -76,7 +76,8 @@ def peasoft():
     return session.get("https://gist.githubusercontent.com/peasoft/8a0613b7a2be881d1b793a6bb7536281/raw/").text
 
 AUTOURLS = []
-AUTOFETCH = [peasoft]
+# 已按需求停用全部动态源，仅保留 sources.list 中的静态订阅源
+AUTOFETCH = []
 
 if __name__ == '__main__':
     print("URL 抓取："+', '.join([_.__name__ for _ in AUTOURLS]))
