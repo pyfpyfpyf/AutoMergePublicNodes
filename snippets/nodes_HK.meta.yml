@@ -22,12 +22,15 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
   udp: true
-- name: 1|HK - zhuhai.uk
-  port: 1080
-  server: 43.161.253.113
-  type: socks5
-- name: 1|HK - zhuhai.uk 02
-  port: 20000
-  server: 59.38.113.185
-  type: socks5
-  username: Og==
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk
+  port: 60810
+  reality-opts:
+    public-key: kZNyTuZ7eGidXYNhdgUiijYlCrai6LkhZl8acByg9Ho
+    short-id: dc1a75da
+  server: waf-node-01.unpkg-mirror.site
+  servername: images.apple.com
+  tls: true
+  type: vless
+  uuid: d97c80a6-4195-4511-9371-4dd1d5f984db
