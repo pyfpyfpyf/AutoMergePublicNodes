@@ -23,64 +23,49 @@ proxies:
   sni: eager-louse.rooster465.autos
   type: trojan
   udp: true
-- cipher: aes-128-gcm
-  name: 1|TR - zhuhai.uk
-  password: 0e50a57f-f2d0-40cf-a924-847dbd11d899
-  port: 30052
-  server: 5f8e6462a4bbd61e.tencent-oss.cn
-  type: ss
-- cipher: aes-128-gcm
-  name: 1|MY - zhuhai.uk
-  password: 0e50a57f-f2d0-40cf-a924-847dbd11d899
-  port: 20041
-  server: f59607d7e0b46da9.tencent-oss.cn
-  type: ss
-- name: 1|US - zhuhai.uk 02
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 188.114.97.6
+- name: 1|TW - zhuhai.uk
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: 39221
+  server: speed-01.aliyun-web-tracker.cn
   skip-cert-verify: true
-  sni: dde1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88r.ir
+  sni: speed-01.aliyun-web-tracker.cn
   tls: true
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 1|NL - zhuhai.uk
+  network: ws
+  port: 443
+  server: 152.228.191.232
+  servername: apjhdggyx.com
+  tls: true
+  type: vmess
+  uuid: 5f72f180-b21b-4b7a-8484-240759012604
   ws-opts:
     headers:
-      Host: dde1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88r.ir
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      Host: apjhdggyx.com
+    path: /5f72f180-b21b-4b7a-8484-240759096785
 - cipher: chacha20-ietf-poly1305
-  name: 1|DE - zhuhai.uk
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 92.5.168.59
+  name: 1|GB - zhuhai.uk 05
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: 61312
+  server: 129.151.82.75
   type: ss
-- name: 1|US - zhuhai.uk 04
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 188.114.98.0
-  skip-cert-verify: true
-  sni: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 1|UA - zhuhai.uk
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20066
-  server: oplosgru-c.catcat321.com
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-- name: 1|JP - zhuhai.uk
+- cipher: chacha20-ietf-poly1305
+  name: 1|GB - zhuhai.uk 06
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: 61312
+  server: 129.151.77.194
+  type: ss
+- name: 1|JP - zhuhai.uk 48
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
   server: oplosgru-c.catcat321.com
   skip-cert-verify: true
+  sni: hk.catxstar.com
   tls: true
   type: trojan
+  udp: true
 - name: 1|DE - zhuhai.uk 07
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
