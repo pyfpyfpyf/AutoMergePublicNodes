@@ -30,11 +30,10 @@ proxies:
   type: vless
   udp: true
   uuid: b3b23e31-4972-4eec-9852-8de3eb6c7ef7
-- name: 0,1|US - zhuhai.uk 04
+- name: 0|US_speednode_0060
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
   server: 1ca4fab3-tcxds0-tujecz-1qkeg.sj.oshuawei.com
-  sni: 1ca4fab3-tcxds0-tujecz-1qkeg.sj.oshuawei.com
   tls: true
   type: http
   udp: true
@@ -136,22 +135,48 @@ proxies:
   type: http
   udp: true
 - name: 1|US - zhuhai.uk
-  password: 'null'
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 02
   port: 9002
   server: 138.199.35.204
   skip-cert-verify: true
   tls: true
   type: http
+- name: 1|US - zhuhai.uk 02
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 188.114.97.6
+  skip-cert-verify: true
+  sni: dde1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88r.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dde1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88r.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - name: 1|US - zhuhai.uk 03
   port: 9002
-  server: 138.199.35.206
+  server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
+- name: 1|US - zhuhai.uk 04
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 188.114.98.0
+  skip-cert-verify: true
+  sni: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 1|US - zhuhai.uk 05
+  password: 'null'
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
