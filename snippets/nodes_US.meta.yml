@@ -1,5 +1,5 @@
 proxies:
-- name: 0,1|US - zhuhai.uk 04
+- name: 0,1|US - zhuhai.uk
   password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
   port: 443
   server: 704f20b2-tcxds0-td95qh-1isea.sj.oshuawei.com
@@ -41,7 +41,7 @@ proxies:
   username: a305ac08-d136-11ee-b6db-f23c91cfbbc9
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|US_speednode_0071
+  name: 0,1|RU - zhuhai.uk
   network: tcp
   port: 993
   reality-opts:
@@ -53,7 +53,7 @@ proxies:
   type: vless
   udp: true
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- name: 0,1|US - zhuhai.uk 05
+- name: 0|US_speednode_0062
   port: 443
   server: 38.28.193.188
   skip-cert-verify: true
@@ -135,13 +135,34 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 1|US - zhuhai.uk
+- name: 1|US - zhuhai.uk 02
   port: 9002
-  server: 156.146.59.23
+  server: 156.146.59.39
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 02
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 03
+  port: 443
+  reality-opts:
+    public-key: wleI_i5zku-rrqzLdCZ3qe5C4HrE27IzCRmbXOmcMkw
+    short-id: 72f70ccc0c2568ef
+  server: 103.94.185.145
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 40aba943-fa2a-4236-9034-e5a8911b8f78
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 04
+  port: 23253
+  server: los.chihirokk.online
+  servername: los.chihirokk.online
+  tls: true
+  type: vless
+  uuid: 0c946396-6336-40c3-a161-fcb6bec776ce
+- name: 1|US - zhuhai.uk 05
   password: 'null'
   port: 9002
   server: 138.199.35.196
@@ -149,9 +170,37 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 03
+- name: 1|US - zhuhai.uk 06
   port: 9002
-  server: 156.146.59.47
+  server: 156.146.59.4
   skip-cert-verify: true
   tls: true
   type: http
+- name: 1|US - zhuhai.uk 07
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 08
+  password: 'null'
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- alterId: 0
+  cipher: auto
+  name: 1|US - zhuhai.uk 09
+  network: ws
+  port: 23142
+  server: la.2555555.xyz
+  servername: la.2555555.xyz
+  tls: true
+  type: vmess
+  uuid: 22ca377b-2ee8-49a9-907a-e6219b267113
+  ws-opts:
+    headers:
+      Host: la.2555555.xyz
+    path: /pfrq
