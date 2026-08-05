@@ -22,7 +22,7 @@ proxies:
   type: http
   udp: true
   username: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-- name: 0,1|GB - zhuhai.uk 03
+- name: 0,1|GB - zhuhai.uk
   password: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
   port: 443
   server: 07b7ddcf-tcxds0-tifnix-1ro8s.uk.oshuawei.com
@@ -31,36 +31,28 @@ proxies:
   type: http
   udp: true
   username: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
-- name: 0|GB_speednode_0007
+- name: 0,1|GB - zhuhai.uk 03
   password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
   port: 443
   server: b7342ec0-t9zts0-tnkuks-wujn.uk.oshuawei.com
+  sni: b7342ec0-t9zts0-tnkuks-wujn.uk.oshuawei.com
   tls: true
   type: http
   udp: true
   username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-- name: 1|GB - zhuhai.uk
-  password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-  port: 443
-  server: b11c9f63-t9zts0-tsdg75-tlhh.uk.oshuawei.com
-  sni: b11c9f63-t9zts0-tsdg75-tlhh.uk.oshuawei.com
-  tls: true
-  type: http
-  username: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-- cipher: chacha20-ietf-poly1305
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: TunService
   name: 1|GB - zhuhai.uk 02
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: 61312
-  server: 129.151.75.219
-  type: ss
-- name: 1|GB - zhuhai.uk 04
-  password: de629d50-1711-11ed-bd7c-f23c913c8d2b
-  port: 443
-  server: efe1539c-t9zts0-tlpfci-1jdha.uk.oshuawei.com
-  sni: efe1539c-t9zts0-tlpfci-1jdha.uk.oshuawei.com
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  server: 88.218.44.4
+  servername: download.nvidia.com
   tls: true
-  type: http
-  username: de629d50-1711-11ed-bd7c-f23c913c8d2b
+  type: vless
+  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
 - name: 1|GB - zhuhai.uk 05
   password: a95e9198-0671-11f0-9426-f23c932f2c32
   port: 443
