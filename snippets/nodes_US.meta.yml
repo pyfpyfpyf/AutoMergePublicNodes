@@ -46,61 +46,66 @@ proxies:
   udp: true
 - name: 1|US - zhuhai.uk
   port: 9002
-  server: 156.146.59.43
+  server: 138.199.35.219
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
-  port: 38182
-  server: 69.55.49.177
-  type: socks5
-- name: 1|US - zhuhai.uk 03
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
-- name: 1|US - zhuhai.uk 04
-  password: 32315324-cf6b-11ed-979b-f23c9164ca5d
-  port: 443
-  server: 5badc430-tcxds0-tdua6y-nx3b.se.oshuawei.com
-  sni: 5badc430-tcxds0-tdua6y-nx3b.se.oshuawei.com
-  tls: true
-  type: http
-  username: 32315324-cf6b-11ed-979b-f23c9164ca5d
-- name: 1|US - zhuhai.uk 05
   password: 'null'
   port: 9002
-  server: 138.199.35.211
+  server: 156.146.59.23
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 06
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.17.112.113
-  skip-cert-verify: true
-  sni: sws-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ssssw-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 1|US - zhuhai.uk 07
-  password: 'null'
+- name: 1|US - zhuhai.uk 03
   port: 9002
   server: 138.199.35.210
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 08
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  port: 8443
-  server: 172.245.233.237
+- name: 1|US - zhuhai.uk 04
+  port: 9002
+  server: 156.146.59.41
   skip-cert-verify: true
-  sni: hopp-us.yyuyy.com
-  type: hysteria2
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 05
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- name: 1|US - zhuhai.uk 06
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 07
+  network: ws
+  port: 443
+  server: 104.16.106.217
+  servername: dr.evanjson.sbs
+  tls: true
+  type: vless
+  uuid: 95470b1b-2164-4243-b977-ab6784f468e6
+  ws-opts:
+    headers:
+      Host: dr.evanjson.sbs
+    path: /uhznws
+- name: 1|US - zhuhai.uk 08
+  port: 9002
+  server: 156.146.59.7
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 09
+  port: 443
+  server: usamd2.95318.cf
+  servername: usamd2.95318.cf
+  tls: true
+  type: vless
+  uuid: de515b65-ad6f-4dfa-b3a2-405a7eef71be

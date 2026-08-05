@@ -1,24 +1,23 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 1|DE - zhuhai.uk
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.149.97
-  type: ss
-- name: 1|DE - zhuhai.uk 02
-  obfs: salamander
-  obfs-password: 816ys5fceofhpwft
-  password: 22j0d00lev7mq0yv
-  port: 1935
-  server: ipaste.4ippi.ru
-  skip-cert-verify: true
-  sni: ipaste.4ippi.ru
-  type: hysteria2
 - client-fingerprint: firefox
-  name: 1|DE - zhuhai.uk 03
+  name: 1|DE - zhuhai.uk
   port: 443
   server: 217.60.193.1
   servername: ddc-akn.astralweb.tech
   tls: true
   type: vless
   uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
+- client-fingerprint: chrome
+  name: 1|DE - zhuhai.uk 02
+  network: ws
+  port: 443
+  server: hht.hhlldjc.kdns.fr
+  servername: hht.hhlldjc.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: a4f61bab-947b-4451-b289-2e09962b9c9e
+  ws-opts:
+    headers:
+      Host: hht.hhlldjc.kdns.fr
+    path: /fdip=turn://167.235.139.220:3479?global=0&ed=2560
