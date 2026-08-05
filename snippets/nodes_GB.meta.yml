@@ -1,58 +1,52 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 0|GB_speednode_0004
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: -3odEfg8iWnQ-DQ4xN7nKLu8NFgdAXhv02FhlTACs10
-    short-id: 64c1fe36c7846400
-  server: 212.104.141.166
-  servername: findmypackets.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 631ee34f-4faf-4ad7-b49d-e6f50403cf0e
-- name: 0|GB_speednode_0005
-  password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-  port: 443
-  server: 03a71324-t9zts0-tiuovf-v3c2.uk.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-- name: 0,1|GB - zhuhai.uk
-  password: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
-  port: 443
-  server: 07b7ddcf-tcxds0-tifnix-1ro8s.uk.oshuawei.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
-- name: 0,1|GB - zhuhai.uk 03
+- name: 0|GB_speednode_0002
   password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
   port: 443
   server: b7342ec0-t9zts0-tnkuks-wujn.uk.oshuawei.com
-  sni: b7342ec0-t9zts0-tnkuks-wujn.uk.oshuawei.com
   tls: true
   type: http
   udp: true
   username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: TunService
-  name: 1|GB - zhuhai.uk 02
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
-  server: 88.218.44.4
-  servername: download.nvidia.com
+- name: 0|GB_speednode_0003
+  password: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
+  port: 443
+  server: 07b7ddcf-tcxds0-tifnix-1ro8s.uk.oshuawei.com
   tls: true
-  type: vless
-  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
+  type: http
+  udp: true
+  username: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
+- name: 1|GB - zhuhai.uk
+  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  port: 443
+  server: 686ce217-t9zts0-ta5nd4-e06r.uk.oshuawei.com
+  sni: 686ce217-t9zts0-ta5nd4-e06r.uk.oshuawei.com
+  tls: true
+  type: http
+  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+- name: 1|GB - zhuhai.uk 02
+  password: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+  port: 443
+  server: c6132f4c-t9zts0-tm23vf-1jk6u.uk.oshuawei.com
+  sni: c6132f4c-t9zts0-tm23vf-1jk6u.uk.oshuawei.com
+  tls: true
+  type: http
+  username: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
+- name: 1|GB - zhuhai.uk 03
+  password: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b
+  port: 443
+  server: d299fec1-ta1og0-taxf6m-ieln.uk.oshuawei.com
+  sni: d299fec1-ta1og0-taxf6m-ieln.uk.oshuawei.com
+  tls: true
+  type: http
+  username: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b
+- name: 1|GB - zhuhai.uk 04
+  password: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
+  port: 443
+  server: 0b517612-t9zts0-tcq5zn-19qpt.uk.oshuawei.com
+  sni: 0b517612-t9zts0-tcq5zn-19qpt.uk.oshuawei.com
+  tls: true
+  type: http
+  username: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
 - name: 1|GB - zhuhai.uk 05
   password: a95e9198-0671-11f0-9426-f23c932f2c32
   port: 443
