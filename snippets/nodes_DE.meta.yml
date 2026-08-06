@@ -1,23 +1,17 @@
 proxies:
 - client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 1|DE - zhuhai.uk
   port: 443
-  server: 217.60.193.1
-  servername: ddc-akn.astralweb.tech
+  reality-opts:
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: fdda9806fe5d8584
+  server: 45.129.78.196
+  servername: ger05.skorostnet.space
   tls: true
   type: vless
-  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
-- client-fingerprint: chrome
-  name: 1|DE - zhuhai.uk 02
-  network: ws
-  port: 443
-  server: hht.hhlldjc.kdns.fr
-  servername: hht.hhlldjc.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: a4f61bab-947b-4451-b289-2e09962b9c9e
-  ws-opts:
-    headers:
-      Host: hht.hhlldjc.kdns.fr
-    path: /fdip=turn://167.235.139.220:3479?global=0&ed=2560
+  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+- name: 1|DE - zhuhai.uk 02
+  port: 8443
+  server: 91.239.211.83
+  type: socks5
