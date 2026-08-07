@@ -1,17 +1,17 @@
 proxies:
-- client-fingerprint: random
-  name: 1|DE - zhuhai.uk
-  network: ws
+- name: 1|DE - zhuhai.uk
+  password: e4b72b531a2d10900519
   port: 443
-  server: www.visa.com.hk
-  servername: eu-central.862400.xyz
+  server: 167.172.172.190
+  skip-cert-verify: true
+  sni: a7acacbe.acsnet.co
   tls: true
-  type: vless
-  uuid: 7f2935fa-3845-466c-9320-c17aed65f454
-  ws-opts:
-    headers:
-      Host: eu-central.862400.xyz
-    path: /announcement
+  type: http
+  username: testuser1
+- name: 1|DE - zhuhai.uk 02
+  port: 1081
+  server: 45.137.43.0
+  type: socks5
 - name: 1|DE - zhuhai.uk 04
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
