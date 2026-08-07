@@ -14,7 +14,7 @@ proxies:
   type: vless
   udp: true
   uuid: e7d317bd-9124-4eb0-ae76-4d3b8dc54e92
-- name: 0|US_speednode_0022
+- name: 0,1|US - zhuhai.uk 03
   port: 9002
   server: 138.199.35.214
   skip-cert-verify: true
@@ -47,26 +47,49 @@ proxies:
 - name: 1|US - zhuhai.uk
   password: 'null'
   port: 9002
-  server: 138.199.35.210
+  server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 02
-  password: 'null'
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 03
-  port: 9002
-  server: 156.146.59.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 04
-  port: 44499
-  server: 45.61.188.134
+  port: 22222
+  server: 193.25.215.182
   type: socks5
+- name: 1|US - zhuhai.uk 04
+  port: 9002
+  server: 156.146.59.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 05
+  port: 9002
+  server: 156.146.59.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 06
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 07
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- name: 1|US - zhuhai.uk 08
+  port: 9002
+  server: 156.146.59.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- cipher: aes-256-cfb
+  name: 1|US - zhuhai.uk 01
+  password: amazonskr05
+  port: 443
+  server: 98.89.48.191
+  type: ss
+  udp: true

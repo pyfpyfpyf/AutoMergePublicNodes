@@ -1,21 +1,56 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|BR - zhuhai.uk
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: 59319
-  server: 163.176.50.193
+  name: 1|GB - zhuhai.uk
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: 61312
+  server: 129.151.78.21
   type: ss
-- name: 1|GB - zhuhai.uk
+- cipher: chacha20-ietf-poly1305
+  name: 1|SG - zhuhai.uk
+  password: Y2QwZTQ0MDYzOWFhNjA5YmE0NTZhNWFkODkzMWNmODU=
+  port: 56927
+  server: 168.107.68.191
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|US - zhuhai.uk 01
+  password: amazonskr05
+  port: 443
+  server: 98.89.48.191
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 1|TW - zhuhai.uk 02
+  password: amazonskr05
+  port: 443
+  server: 13.114.17.103
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 1|JP - zhuhai.uk 02
+  password: amazonskr05
+  port: 443
+  server: 51.21.130.209
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 1|KR - zhuhai.uk 01
+  password: amazonskr05
+  port: 443
+  server: 13.61.189.139
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 1|JP - zhuhai.uk 01
+  password: amazonskr05
+  port: 443
+  server: 13.50.4.72
+  type: ss
+  udp: true
+- name: 1|DE - zhuhai.uk 04
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
-  server: Hkdcrtc-e.catcat321.com
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: de.catxstar.com
-  tls: true
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 1|BR - zhuhai.uk 02
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: 59319
-  server: 163.176.120.141
-  type: ss
+  udp: true
