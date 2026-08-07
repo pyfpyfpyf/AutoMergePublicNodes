@@ -1,11 +1,17 @@
 proxies:
-- name: 1|DE - zhuhai.uk
-  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
-  port: 25447
-  server: 144.31.107.101
-  skip-cert-verify: true
-  sni: devideo.h2corp.org
-  type: hysteria2
+- client-fingerprint: random
+  name: 1|DE - zhuhai.uk
+  network: ws
+  port: 443
+  server: www.visa.com.hk
+  servername: eu-central.862400.xyz
+  tls: true
+  type: vless
+  uuid: 7f2935fa-3845-466c-9320-c17aed65f454
+  ws-opts:
+    headers:
+      Host: eu-central.862400.xyz
+    path: /announcement
 - name: 1|DE - zhuhai.uk 04
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
