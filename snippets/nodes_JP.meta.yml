@@ -1,21 +1,15 @@
 proxies:
-- name: 1|JP - zhuhai.uk
-  password: 16ab4d4a-fd81-4535-9b7b-346677226ce8
-  port: 443
-  server: jp.cryptoofarm.com
-  skip-cert-verify: true
-  sni: jp.cryptoofarm.com
-  type: hysteria2
-- name: 1|JP - zhuhai.uk 02
-  password: '!!str 123456'
-  port: 1080
-  server: 8.209.236.192
-  type: socks5
-  username: '123456'
 - cipher: aes-256-cfb
   name: 1|JP - zhuhai.uk 01
   password: amazonskr05
   port: 443
   server: 13.50.4.72
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 1|JP - zhuhai.uk 02
+  password: amazonskr05
+  port: 443
+  server: 51.21.130.209
   type: ss
   udp: true
