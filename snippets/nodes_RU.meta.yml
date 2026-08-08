@@ -1,11 +1,20 @@
 proxies:
-- name: 1|RU - zhuhai.uk
-  network: ws
-  port: 4100
-  server: 5.129.252.140
+- cipher: aes-256-gcm
+  name: 1|RU - zhuhai.uk
+  password: 81a20429165df87e
+  port: 10806
+  server: 195.133.23.200
+  type: ss
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 1|RU - zhuhai.uk 02
+  port: 40443
+  reality-opts:
+    public-key: WRveYv8IuUyvai4jgnQ6nWCL971-wKboe8evES5arlg
+    short-id: 69d4
+  server: 201.51.1.11
+  servername: deepl.com
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: eb135f2b-4b9e-4abb-9a89-78242613da61
-  ws-opts:
-    headers:
-      Host: live.ok.ru
-    path: /v1
+  uuid: 28d0edc6-93c9-4465-bac9-720274d8b8c4
