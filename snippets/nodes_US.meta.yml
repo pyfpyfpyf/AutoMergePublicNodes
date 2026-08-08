@@ -46,28 +46,63 @@ proxies:
   udp: true
 - name: 1|US - zhuhai.uk
   port: 9002
-  server: 156.146.59.11
+  server: 138.199.35.205
   skip-cert-verify: true
-  sni: 156.146.59.11
+  sni: 138.199.35.205
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
   port: 9002
-  server: 156.146.59.28
+  server: 156.146.59.47
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 03
-  port: 1080
-  server: 159.195.61.240
-  type: socks5
-  username: Og==
-- name: 1|US - zhuhai.uk 04
-  password: 'null'
+  password: None
   port: 9002
-  server: 156.146.59.21
+  server: 138.199.35.209
   skip-cert-verify: true
-  sni: 156.146.59.21
+  sni: 138.199.35.209
   tls: true
   type: http
   username: 'null'
+- client-fingerprint: random
+  name: 1|US - zhuhai.uk 04
+  network: ws
+  port: 443
+  server: ct.877774.xyz
+  servername: us-lax.862400.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: e4281fbe-7729-4ef1-ad3b-f33aca54e339
+  ws-opts:
+    headers:
+      Host: us-lax.862400.xyz
+    path: /announcement
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 05
+  port: 19001
+  reality-opts:
+    public-key: LRMtZDygVe621vfhniB5ZSLza7zk_HOBFQsm8jS_XFg
+    short-id: bf63ee4d
+  server: 38.162.115.161
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 23ed3e1a-afe7-4fb5-8a11-93b3717bf23e
+- name: 1|US - zhuhai.uk 06
+  password: 'null'
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 07
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
