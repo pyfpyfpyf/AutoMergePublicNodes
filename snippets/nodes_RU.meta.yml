@@ -1,7 +1,14 @@
 proxies:
-- cipher: aes-256-gcm
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
   name: 1|RU - zhuhai.uk
-  password: 81a20429165df87e
-  port: 10806
-  server: 195.133.23.200
-  type: ss
+  port: 40443
+  reality-opts:
+    public-key: WRveYv8IuUyvai4jgnQ6nWCL971-wKboe8evES5arlg
+    short-id: 69d4
+  server: status.netraidly.ru
+  servername: deepl.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 28d0edc6-93c9-4465-bac9-720274d8b8c4
