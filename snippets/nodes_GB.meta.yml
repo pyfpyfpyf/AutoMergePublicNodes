@@ -16,38 +16,41 @@ proxies:
   udp: true
   username: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
 - name: 1|GB - zhuhai.uk
-  password: e29de954-ea01-11ef-a271-f23c91cfbbc9
+  password: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
   port: 443
-  server: 7770dfdb-t9zts0-taj9mo-1tco3.uk.oshuawei.com
-  skip-cert-verify: true
-  sni: 7770dfdb-t9zts0-taj9mo-1tco3.uk.oshuawei.com
+  server: 87b1270a-t9zts0-trg4wh-z65w.uk.oshuawei.com
+  sni: 87b1270a-t9zts0-trg4wh-z65w.uk.oshuawei.com
   tls: true
   type: http
-  username: e29de954-ea01-11ef-a271-f23c91cfbbc9
+  username: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
 - name: 1|GB - zhuhai.uk 02
-  password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+  password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
   port: 443
-  server: aa254e35-t9zts0-tb592v-4lg6.uk.oshuawei.com
-  sni: aa254e35-t9zts0-tb592v-4lg6.uk.oshuawei.com
+  server: 0a6a8aa6-t9zts0-tighxj-12hj8.uk.oshuawei.com
+  sni: 0a6a8aa6-t9zts0-tighxj-12hj8.uk.oshuawei.com
   tls: true
   type: http
-  username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
-- name: 1|GB - zhuhai.uk 03
-  password: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
-  port: 443
-  server: ddcf3b01-tcxds0-tnsc3a-1f0gu.uk.oshuawei.com
-  sni: ddcf3b01-tcxds0-tnsc3a-1f0gu.uk.oshuawei.com
+  username: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: TunService
+  name: 1|GB - zhuhai.uk 03
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  server: 88.218.44.4
+  servername: download.nvidia.com
   tls: true
-  type: http
-  username: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
+  type: vless
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
 - name: 1|GB - zhuhai.uk 04
-  password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
+  password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
   port: 443
-  server: 3051f36a-t9zts0-tr9h64-1f1f1.uk.oshuawei.com
-  sni: 3051f36a-t9zts0-tr9h64-1f1f1.uk.oshuawei.com
+  server: 73721193-tcxds0-tvgkxc-hrtf.uk.oshuawei.com
   tls: true
   type: http
-  username: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
+  username: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
 - name: 1|GB - zhuhai.uk 06
   password: a95e9198-0671-11f0-9426-f23c932f2c32
   port: 443
