@@ -1,14 +1,7 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk
-  port: 60810
-  reality-opts:
-    public-key: kZNyTuZ7eGidXYNhdgUiijYlCrai6LkhZl8acByg9Ho
-    short-id: dc1a75da
-  server: waf-node-01.unpkg-mirror.site
-  servername: images.apple.com
-  skip-cert-verify: true
+- name: 1|HK - zhuhai.uk
+  port: 443
+  server: hk40.240104.xyz
+  sni: hk40.240104.xyz
   tls: true
-  type: vless
-  uuid: d97c80a6-4195-4511-9371-4dd1d5f984db
+  type: http
