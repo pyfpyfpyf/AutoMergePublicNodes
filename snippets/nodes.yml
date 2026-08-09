@@ -1,17 +1,40 @@
 proxies:
-- name: 1|TH - zhuhai.uk
-  password: 0010996f-3eab-4804-9b3a-3a889d6767fc
-  port: 20023
-  server: a8zbx9xj.catcat321.com
+- name: 1|DE - zhuhai.uk 04
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: iepl.thz1.cat.bilibili.com
+  sni: de.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|BR - zhuhai.uk
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 137.131.180.148
+  type: ss
+- name: 1|JP - zhuhai.uk
+  password: 4c93f53c90441cd1c8ee51d1a94fcc8a
+  port: 443
+  server: 45.89.235.159
+  skip-cert-verify: true
+  sni: vpshosting.pitopone.com
+  tls: true
+  type: trojan
+- name: 1|GB - zhuhai.uk 03
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
   tls: true
   type: trojan
 - cipher: aes-256-cfb
-  name: 1|JP - zhuhai.uk 02
+  name: 1|TW - zhuhai.uk 02
   password: amazonskr05
   port: 443
-  server: 51.21.130.209
+  server: 13.114.17.103
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -20,19 +43,4 @@ proxies:
   port: 443
   server: 13.50.4.72
   type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 1|TW - zhuhai.uk 02
-  password: amazonskr05
-  port: 443
-  server: 13.114.17.103
-  type: ss
-  udp: true
-- name: 1|DE - zhuhai.uk 04
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
   udp: true

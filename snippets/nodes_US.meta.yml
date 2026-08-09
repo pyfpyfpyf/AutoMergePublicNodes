@@ -45,66 +45,52 @@ proxies:
   type: http
   udp: true
 - name: 1|US - zhuhai.uk
-  password: 'null'
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 02
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 03
-  port: 9002
-  server: 156.146.59.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 04
-  password: 'null'
   port: 9002
   server: 138.199.35.213
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 05
-  network: ws
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 02
   port: 443
-  server: 104.17.152.170
-  servername: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
-    path: /
-- name: 1|US - zhuhai.uk 06
-  port: 9002
-  server: 138.199.35.205
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 82.40.23.174
+  servername: sellflow.org
   skip-cert-verify: true
   tls: true
-  type: http
-- name: 1|US - zhuhai.uk 07
+  type: vless
+  uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
+- name: 1|US - zhuhai.uk 03
   password: 'null'
   port: 9002
-  server: 156.146.59.27
+  server: 138.199.35.220
   skip-cert-verify: true
-  sni: 156.146.59.27
+  sni: 138.199.35.220
   tls: true
   type: http
   username: 'null'
+- name: 1|US - zhuhai.uk 04
+  password: 'null'
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 05
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  sni: 138.199.35.210
+  tls: true
+  type: http
 - client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 08
+  name: 1|US - zhuhai.uk 06
   network: ws
   port: 443
-  server: 23.226.135.157
+  server: 104.18.151.172
   servername: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
   tls: true
   type: vless
@@ -113,10 +99,11 @@ proxies:
     headers:
       Host: 0h3qt.oqwt.pl0.hh.vavava.kdns.fr
     path: /
-- name: 1|US - zhuhai.uk 09
-  port: 9002
-  server: 156.146.59.19
-  skip-cert-verify: true
-  sni: 156.146.59.19
+- name: 1|US - zhuhai.uk 07
+  password: freeuser1
+  port: 9251
+  server: dl1-us.freeconnect.link
+  sni: dl1-us.freeconnect.link
   tls: true
   type: http
+  username: freeuser1
