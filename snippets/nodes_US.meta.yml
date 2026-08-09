@@ -45,60 +45,75 @@ proxies:
   type: http
   udp: true
 - name: 1|US - zhuhai.uk
-  port: 9002
-  server: 156.146.59.8
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 107.151.238.27
   skip-cert-verify: true
-  sni: 156.146.59.8
+  sni: 6b97ee1b.acsnet.co
   tls: true
   type: http
+  username: testuser1
 - name: 1|US - zhuhai.uk 02
-  port: 9002
-  server: 156.146.59.17
-  skip-cert-verify: true
-  sni: 156.146.59.17
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 03
   password: 'null'
   port: 9002
-  server: 156.146.59.23
+  server: 138.199.35.202
   skip-cert-verify: true
+  sni: 138.199.35.202
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 04
+- name: 1|US - zhuhai.uk 03
   port: 9002
   server: 156.146.59.31
   skip-cert-verify: true
-  sni: 156.146.59.31
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 04
+  port: 9002
+  server: 156.146.59.50
+  skip-cert-verify: true
+  sni: 156.146.59.50
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 05
-  password: None
+  password: 'null'
   port: 9002
-  server: 156.146.59.20
+  server: 138.199.35.199
   skip-cert-verify: true
-  sni: 156.146.59.20
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 06
-  password: None
   port: 9002
-  server: 138.199.35.209
+  server: 156.146.59.33
+  skip-cert-verify: true
+  sni: 156.146.59.33
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 07
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 08
+  network: ws
+  port: 443
+  server: cf-ak-us01.ziyoufly.xyz
+  servername: cf-ak-us01.ziyoufly.xyz
+  tls: true
+  type: vless
+  uuid: 6008d318-d827-47b6-8bc7-74db5fb53746
+  ws-opts:
+    headers:
+      Host: cf-ak-us01.ziyoufly.xyz
+    path: /ziyou
+- name: 1|US - zhuhai.uk 09
+  password: 'null'
+  port: 9002
+  server: 138.199.35.210
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 07
-  port: 9002
-  server: 156.146.59.32
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 08
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
