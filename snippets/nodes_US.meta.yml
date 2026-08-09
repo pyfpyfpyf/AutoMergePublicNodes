@@ -21,7 +21,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0023
+- name: 0,1|US - zhuhai.uk 09
   port: 9002
   server: 138.199.35.199
   skip-cert-verify: true
@@ -45,17 +45,19 @@ proxies:
   type: http
   udp: true
 - name: 1|US - zhuhai.uk
-  port: 443
-  server: fan.365747.xyz
+  password: 'null'
+  port: 9002
+  server: 156.146.59.27
   skip-cert-verify: true
-  sni: fan.365747.xyz
+  sni: 156.146.59.27
   tls: true
   type: http
+  username: 'null'
 - name: 1|US - zhuhai.uk 02
   port: 9002
-  server: 138.199.35.209
+  server: 156.146.59.25
   skip-cert-verify: true
-  sni: 138.199.35.209
+  sni: 156.146.59.25
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 03
@@ -68,27 +70,43 @@ proxies:
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 04
-  password: 'null'
   port: 9002
-  server: 138.199.35.213
+  server: 138.199.35.216
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 05
-  password: 'null'
   port: 9002
-  server: 138.199.35.211
+  server: 138.199.35.215
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 06
-  password: 'null'
+  password: None
   port: 9002
-  server: 156.146.59.28
+  server: 138.199.35.209
   skip-cert-verify: true
-  sni: 156.146.59.28
+  sni: 138.199.35.209
   tls: true
   type: http
   username: 'null'
+- name: 1|US - zhuhai.uk 07
+  port: 9002
+  server: 156.146.59.7
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 08
+  port: 443
+  server: jgwynphotoarts.pro
+  skip-cert-verify: true
+  sni: jgwynphotoarts.pro
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 10
+  port: 9002
+  server: 156.146.59.34
+  skip-cert-verify: true
+  sni: 156.146.59.34
+  tls: true
+  type: http
