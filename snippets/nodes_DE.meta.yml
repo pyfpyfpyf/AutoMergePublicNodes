@@ -1,13 +1,8 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk
+- name: 1|DE - zhuhai.uk
   port: 443
-  reality-opts:
-    public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
-    short-id: f7d0420b8ab26060
-  server: 185.238.191.169
-  servername: de-cdn.ru
+  server: fan.973511.xyz
+  skip-cert-verify: true
+  sni: fan.973511.xyz
   tls: true
-  type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
+  type: http
