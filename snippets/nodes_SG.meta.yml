@@ -1,14 +1,21 @@
 proxies:
-- client-fingerprint: random
-  name: 1|SG - zhuhai.uk
-  network: ws
+- name: 1|SG - zhuhai.uk
+  password: e4b72b531a2d10900519
   port: 443
-  server: ct.877774.xyz
-  servername: ap-south.862400.xyz
+  server: 146.70.29.45
+  sni: 92461d2d.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk 02
+  port: 31877
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 155.117.199.12
+  servername: cdnjs.cloudflare.com
   tls: true
   type: vless
-  uuid: e30df0c8-d1f1-4ede-a6e6-9ec050decd2f
-  ws-opts:
-    headers:
-      Host: ap-south.862400.xyz
-    path: /announcement
+  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b

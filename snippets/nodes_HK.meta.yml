@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|HK - zhuhai.uk
-  port: 39605
+  port: 29717
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
     short-id: bc8e3658db7d1323
@@ -11,15 +11,9 @@ proxies:
   tls: true
   type: vless
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk 02
-  port: 55555
-  reality-opts:
-    public-key: PH97MWo9GJbJNzsqX5RXPoFs4KCNjcikYGn2aQXV1BA
-    short-id: 59ff141b
-  server: ak-hk01.ziyoufly.xyz
-  servername: www.hkexpress.com
-  tls: true
-  type: vless
-  uuid: 66c92fe3-d4db-4876-9e87-773b4a44b0c7
+- name: 1|HK - zhuhai.uk 02
+  password: abc123
+  port: 1080
+  server: 47.239.98.42
+  type: socks5
+  username: abc123
