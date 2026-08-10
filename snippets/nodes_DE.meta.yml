@@ -1,49 +1,25 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|FR - zhuhai.uk 02
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 193.233.255.14
-  servername: fr.sellflow.org
-  tls: true
-  type: vless
-  uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk 03
-  port: 8443
-  reality-opts:
-    public-key: mBaiGOrxW7NFGpW7aZLztWiME6vulM0Nk1Uh0SxX4zc
-    short-id: fa1a12cf
-  server: 161.104.32.106
-  servername: api-maps.yandex.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 501b6afa-f955-473f-8440-1010110a1548
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk 04
+  name: 1|DE - zhuhai.uk
   port: 7443
   reality-opts:
     public-key: mBaiGOrxW7NFGpW7aZLztWiME6vulM0Nk1Uh0SxX4zc
     short-id: fa1a12cf
   server: 161.104.32.106
   servername: eh.vk.com
-  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 501b6afa-f955-473f-8440-1010110a1548
-- name: 1|DE - zhuhai.uk 05
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk 02
   port: 443
-  server: ddc-akn.astralweb.tech
-  skip-cert-verify: true
+  reality-opts:
+    public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
+    short-id: f7d0420b8ab26060
+  server: 185.238.191.157
+  servername: de-cdn.ru
   tls: true
   type: vless
-  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
-- name: 1|DE - zhuhai.uk 06
-  port: 1081
-  server: 46.37.123.166
-  type: socks5
+  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
