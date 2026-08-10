@@ -1,14 +1,13 @@
 proxies:
-- client-fingerprint: random
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 1|DE - zhuhai.uk
-  network: ws
   port: 443
-  server: ct.877774.xyz
-  servername: eu-central.862400.xyz
+  reality-opts:
+    public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
+    short-id: f7d0420b8ab26060
+  server: 185.238.191.169
+  servername: de-cdn.ru
   tls: true
   type: vless
-  uuid: e30df0c8-d1f1-4ede-a6e6-9ec050decd2f
-  ws-opts:
-    headers:
-      Host: eu-central.862400.xyz
-    path: /announcement
+  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6

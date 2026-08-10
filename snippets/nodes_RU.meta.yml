@@ -1,24 +1,16 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc-tuning-stream
   name: 1|RU - zhuhai.uk
-  port: 40443
+  network: grpc
+  port: 9441
   reality-opts:
-    public-key: EbXSjwJKAI1cmU2TK3af62qS2k58x8Rnct1525c0m1I
-    short-id: e6ada633d7771dda
-  server: 85.198.69.110
-  servername: deepl.com
+    public-key: xTk5dX6E0DGuQj19bWDMafx13XoUK8euqlmtwJIg8wY
+    short-id: 8a7137d4e9c49b9c
+  server: 176.109.85.140
+  servername: max.ru
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 641baa2f-6f74-4ecf-b948-032d19ba0142
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|RU - zhuhai.uk 02
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.131.212.34
-  servername: sellflow.org
-  tls: true
-  type: vless
-  uuid: 08d31ab3-6ab7-4fb8-9948-a572e3196fff
+  uuid: b251ec8f-47ec-4ab4-8bd2-13ac333a4100
