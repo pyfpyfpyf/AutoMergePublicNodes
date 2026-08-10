@@ -1,5 +1,13 @@
 proxies:
-- name: 1|HK - zhuhai.uk
-  port: 10808
-  server: 123.58.219.171
-  type: socks5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk
+  port: 443
+  reality-opts:
+    public-key: 0EtR_KBpH13wngvWn6rXJjINlWjb2nW8fgXrR46bz3E
+    short-id: bd685806015172ca
+  server: 18.162.173.112
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: ed720ae2-e1ab-41d4-8c9c-ca9ab3cfee70
