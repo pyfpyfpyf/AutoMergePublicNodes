@@ -1,72 +1,58 @@
 proxies:
 - name: 1|US - zhuhai.uk
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 02
   port: 8090
   server: 209.148.53.153
   skip-cert-verify: true
   sni: 209.148.53.153
   tls: true
   type: http
+- name: 1|US - zhuhai.uk 02
+  password: 'null'
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  sni: 138.199.35.198
+  tls: true
+  type: http
+  username: 'null'
 - name: 1|US - zhuhai.uk 03
+  password: 'null'
   port: 9002
-  server: 156.146.59.19
+  server: 138.199.35.200
   skip-cert-verify: true
+  sni: 138.199.35.200
   tls: true
   type: http
+  username: 'null'
 - name: 1|US - zhuhai.uk 04
-  network: ws
-  port: 666
-  server: 43.162.83.82
-  servername: 43.162.83.82
+  port: 9002
+  server: 138.199.35.195
   skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
-  ws-opts:
-    headers:
-      Host: 43.162.83.82
-    path: /proxy
+  type: http
 - name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 156.146.59.38
-  skip-cert-verify: true
-  sni: 156.146.59.38
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 06
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 07
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
-- name: 1|US - zhuhai.uk 08
+  password: e4b72b531a2d10900519
   port: 443
-  server: fan.596189.xyz
-  skip-cert-verify: true
-  sni: fan.596189.xyz
+  server: 147.182.216.4
+  sni: 93b6d804.acsnet.co
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 09
+  username: testuser1
+- name: 1|US - zhuhai.uk 06
+  port: 1080
+  server: 43.162.94.99
+  type: socks5
+- name: 1|US - zhuhai.uk 07
+  password: None
   port: 9002
-  server: 156.146.59.4
+  server: 156.146.59.50
   skip-cert-verify: true
-  sni: 156.146.59.4
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 10
+  username: 'null'
+- name: 1|US - zhuhai.uk 08
   port: 9002
-  server: 156.146.59.46
+  server: 156.146.59.8
   skip-cert-verify: true
   tls: true
   type: http
