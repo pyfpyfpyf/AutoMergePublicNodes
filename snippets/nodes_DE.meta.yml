@@ -1,24 +1,33 @@
 proxies:
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk
-  port: 7443
-  reality-opts:
-    public-key: mBaiGOrxW7NFGpW7aZLztWiME6vulM0Nk1Uh0SxX4zc
-    short-id: fa1a12cf
-  server: 161.104.32.106
-  servername: eh.vk.com
-  tls: true
-  type: vless
-  uuid: 501b6afa-f955-473f-8440-1010110a1548
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk 02
+  name: 1|DE - zhuhai.uk
   port: 443
   reality-opts:
     public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
     short-id: f7d0420b8ab26060
-  server: 185.238.191.157
+  server: 185.238.191.171
+  servername: de-cdn.ru
+  tls: true
+  type: vless
+  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
+- name: 1|DE - zhuhai.uk 02
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 167.172.172.190
+  skip-cert-verify: true
+  sni: a7acacbe.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk 03
+  port: 443
+  reality-opts:
+    public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
+    short-id: f7d0420b8ab26060
+  server: 185.238.191.182
   servername: de-cdn.ru
   tls: true
   type: vless

@@ -46,14 +46,33 @@ proxies:
   udp: true
 - name: 1|US - zhuhai.uk
   port: 9002
-  server: 156.146.59.50
+  server: 156.146.59.9
   skip-cert-verify: true
-  sni: 156.146.59.50
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
   port: 9002
-  server: 156.146.59.25
+  server: 156.146.59.49
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 03
+  port: 9002
+  server: 156.146.59.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 04
+  password: 'null'
+  port: 9002
+  server: 156.146.59.41
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 05
+  port: 9002
+  server: 156.146.59.43
   skip-cert-verify: true
   tls: true
   type: http
