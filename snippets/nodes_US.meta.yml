@@ -1,26 +1,72 @@
 proxies:
 - name: 1|US - zhuhai.uk
   port: 9002
-  server: 156.146.59.38
+  server: 138.199.35.203
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
-  port: 9002
-  server: 138.199.35.217
+  port: 8090
+  server: 209.148.53.153
   skip-cert-verify: true
-  sni: 138.199.35.217
+  sni: 209.148.53.153
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 03
   port: 9002
-  server: 156.146.59.39
+  server: 156.146.59.19
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 04
+  network: ws
+  port: 666
+  server: 43.162.83.82
+  servername: 43.162.83.82
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
+  ws-opts:
+    headers:
+      Host: 43.162.83.82
+    path: /proxy
+- name: 1|US - zhuhai.uk 05
   port: 9002
-  server: 138.199.35.220
+  server: 156.146.59.38
+  skip-cert-verify: true
+  sni: 156.146.59.38
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 06
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 07
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- name: 1|US - zhuhai.uk 08
+  port: 443
+  server: fan.596189.xyz
+  skip-cert-verify: true
+  sni: fan.596189.xyz
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 09
+  port: 9002
+  server: 156.146.59.4
+  skip-cert-verify: true
+  sni: 156.146.59.4
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 10
+  port: 9002
+  server: 156.146.59.46
   skip-cert-verify: true
   tls: true
   type: http
