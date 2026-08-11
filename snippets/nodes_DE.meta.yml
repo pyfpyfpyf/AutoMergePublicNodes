@@ -8,27 +8,10 @@ proxies:
   type: http
   udp: true
   username: testuser1
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk
+- name: 1|DE - zhuhai.uk
   port: 443
-  reality-opts:
-    public-key: vs39cITZN6jMHKslRMmvkwXupHXUbyKNX1MQsWRWKlg
-    short-id: 3f40efc7
-  server: 191.44.108.152
-  servername: www.nvidia.com
+  server: fan.973511.xyz
+  skip-cert-verify: true
+  sni: fan.973511.xyz
   tls: true
-  type: vless
-  uuid: 20717e25-8cea-4634-b9ab-9c9bc9ca0620
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk 02
-  port: 2053
-  reality-opts:
-    public-key: E6u2RbffXIPvia5v5iIZVj6U_VpSBWmGTsHHNtH-5Rg
-    short-id: 417063feab794131
-  server: de3.neobo-tooth.ru
-  servername: vk.ru
-  tls: true
-  type: vless
-  uuid: b6c29ae7-4748-4049-b642-b695c0d2c776
+  type: http

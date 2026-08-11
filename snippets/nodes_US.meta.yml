@@ -72,7 +72,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,1|SG - zhuhai.uk
+  name: 0|US_speednode_0123
   network: tcp
   port: 31877
   reality-opts:
@@ -85,11 +85,10 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- name: 0,1|US - zhuhai.uk 03
+- name: 0|US_speednode_0124
   port: 9002
   server: 138.199.35.210
   skip-cert-verify: true
-  sni: 138.199.35.210
   tls: true
   type: http
   udp: true
@@ -118,7 +117,7 @@ proxies:
   username: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|US_speednode_0127
+  name: 0,1|HK - zhuhai.uk 02
   network: tcp
   packet-encoding: xudp
   port: 9713
@@ -127,7 +126,7 @@ proxies:
     short-id: bc8e3658db7d1323
   server: 155.117.199.12
   servername: cdnjs.cloudflare.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -369,69 +368,61 @@ proxies:
   type: http
   udp: true
 - name: 1|US - zhuhai.uk
-  password: 'null'
   port: 9002
-  server: 138.199.35.213
+  server: 138.199.35.205
   skip-cert-verify: true
+  sni: 138.199.35.205
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 02
+  password: None
+  port: 9002
+  server: 156.146.59.23
+  skip-cert-verify: true
+  sni: 156.146.59.23
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 02
+- name: 1|US - zhuhai.uk 03
   port: 9002
-  server: 156.146.59.46
+  server: 138.199.35.219
   skip-cert-verify: true
-  sni: 156.146.59.46
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 04
   port: 9002
-  server: 138.199.35.204
+  server: 138.199.35.203
   skip-cert-verify: true
+  sni: 138.199.35.203
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 05
-  port: 8090
-  server: 209.148.53.153
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 06
-  network: ws
-  port: 443
-  server: 104.17.153.219
-  servername: vps.181110.xyz
-  tls: true
-  type: vless
-  uuid: cf63446e-f6b7-4d34-b7ed-d8648eeed0f7
-  ws-opts:
-    headers:
-      Host: vps.181110.xyz
-    path: /cf63446e-vl
-- name: 1|US - zhuhai.uk 07
-  port: 443
-  server: 38.28.193.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 08
-  network: ws
-  port: 443
-  server: 104.17.146.67
-  servername: vps.181110.xyz
-  tls: true
-  type: vless
-  uuid: cf63446e-f6b7-4d34-b7ed-d8648eeed0f7
-  ws-opts:
-    headers:
-      Host: vps.181110.xyz
-    path: /cf63446e-vl
-- name: 1|US - zhuhai.uk 09
   password: 'null'
   port: 9002
-  server: 138.199.35.206
+  server: 156.146.59.30
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
+- name: 1|US - zhuhai.uk 06
+  password: 'null'
+  port: 9002
+  server: 156.146.59.12
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 07
+  port: 9002
+  server: 156.146.59.16
+  skip-cert-verify: true
+  sni: 156.146.59.16
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 08
+  port: 9002
+  server: 156.146.59.22
+  skip-cert-verify: true
+  sni: 156.146.59.22
+  tls: true
+  type: http
