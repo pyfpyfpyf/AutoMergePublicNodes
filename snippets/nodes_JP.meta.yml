@@ -1,11 +1,20 @@
 proxies:
-- cipher: aes-256-cfb
+- name: 1|JP - zhuhai.uk
+  port: 10808
+  server: 101.36.104.46
+  type: socks5
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
   name: 1|JP - zhuhai.uk 02
-  password: amazonskr05
-  port: 443
-  server: 51.21.130.209
-  type: ss
-  udp: true
+  port: 20725
+  reality-opts:
+    public-key: hceZHd9X9FSbWGXGgm3OWN-4Au26rrsriTcyHw5M3VU
+    short-id: 0102ac4e
+  server: rm-jp-01.409648.xyz
+  servername: buylite.tv.apple.com
+  tls: true
+  type: vless
+  uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
 - cipher: aes-256-cfb
   name: 1|JP - zhuhai.uk 01
   password: amazonskr05
