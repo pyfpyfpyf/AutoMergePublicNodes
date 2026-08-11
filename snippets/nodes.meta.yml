@@ -1,9 +1,10 @@
 proxies:
-- name: 0|DE_speednode_0001
+- name: 0,1|DE - zhuhai.uk
   password: e4b72b531a2d10900519
   port: 443
   server: 167.172.172.190
   skip-cert-verify: true
+  sni: a7acacbe.acsnet.co
   tls: true
   type: http
   udp: true
@@ -193,7 +194,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|NL_speednode_0024
+- name: 0,1|NL - zhuhai.uk
   port: 9002
   server: 84.17.47.146
   skip-cert-verify: true
@@ -288,7 +289,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|RO - zhuhai.uk 05
+- name: 0|RO_speednode_0037
   port: 9002
   server: 84.239.49.244
   skip-cert-verify: true
@@ -436,7 +437,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|RO - zhuhai.uk
+- name: 0|RO_speednode_0058
   port: 9002
   server: 84.239.49.199
   skip-cert-verify: true
@@ -580,10 +581,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|RO_speednode_0078
+- name: 0,1|RO - zhuhai.uk 05
   port: 9002
   server: 84.239.49.245
   skip-cert-verify: true
+  sni: www.bing.com
   tls: true
   type: http
   udp: true
@@ -646,7 +648,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|RO_speednode_0087
+- name: 0,1|RO - zhuhai.uk 11
   port: 9002
   server: 84.239.49.175
   skip-cert-verify: true
@@ -660,7 +662,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|RO - zhuhai.uk 08
+- name: 0|RO_speednode_0089
   port: 9002
   server: 193.176.84.34
   skip-cert-verify: true
@@ -674,7 +676,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|RO_speednode_0091
+- name: 0,1|RO - zhuhai.uk 10
   port: 9002
   server: 193.176.84.29
   skip-cert-verify: true
@@ -695,10 +697,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|RO_speednode_0094
+- name: 0,1|RO - zhuhai.uk 03
   port: 9002
   server: 193.176.84.19
   skip-cert-verify: true
+  sni: www.bing.com
   tls: true
   type: http
   udp: true
@@ -717,11 +720,10 @@ proxies:
   type: vless
   udp: true
   uuid: d16a7171-625d-4d09-9459-859f1c9b3b0a
-- name: 0,1|RO - zhuhai.uk 02
+- name: 0|RO_speednode_0096
   port: 9002
   server: 84.239.49.159
   skip-cert-verify: true
-  sni: 84.239.49.159
   tls: true
   type: http
   udp: true
@@ -781,7 +783,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|RO - zhuhai.uk 04
+- name: 0|RO_speednode_0105
   port: 9002
   server: 84.239.49.165
   skip-cert-verify: true
@@ -911,7 +913,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|TH - zhuhai.uk 02
+- name: 0|US_speednode_0120
   network: ws
   port: 443
   server: www.true.th
@@ -1047,16 +1049,14 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 12
+- name: 0|US_speednode_0134
   password: None
   port: 9002
   server: 138.199.35.209
   skip-cert-verify: true
-  sni: 138.199.35.209
   tls: true
   type: http
   udp: true
-  username: 'null'
 - name: 0|US_speednode_0135
   password: None
   port: 9002
@@ -1100,7 +1100,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0140
+- name: 0,1|US - zhuhai.uk 08
   port: 9002
   server: 138.199.35.213
   skip-cert-verify: true
@@ -1199,7 +1199,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 06
+- name: 0|US_speednode_0154
   port: 9002
   server: 156.146.59.15
   skip-cert-verify: true
@@ -1227,11 +1227,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 07
+- name: 0|US_speednode_0158
   port: 9002
   server: 156.146.59.39
   skip-cert-verify: true
-  sni: 156.146.59.39
   tls: true
   type: http
   udp: true
@@ -1242,151 +1241,170 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 1|US - zhuhai.uk
+- name: 1|RO - zhuhai.uk
+  password: None
   port: 9002
-  server: 138.199.35.201
+  server: 84.239.49.163
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 02
-  password: 'null'
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  sni: 138.199.35.213
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 03
-  port: 9002
-  server: 156.146.59.38
-  skip-cert-verify: true
-  sni: 156.146.59.38
+- name: 1|US - zhuhai.uk
+  password: freeuser1
+  port: 9251
+  server: la4-us.freeconnect.link
+  sni: la4-us.freeconnect.link
   tls: true
   type: http
-- name: 1|FR - zhuhai.uk
-  password: bd515574-3b10-11ee-ac14-f23c9164ca5d
+  username: freeuser1
+- name: 1|US - zhuhai.uk 02
+  network: ws
   port: 443
-  server: 472e9718-tcxds0-tu0ezx-1m7l4.fr.oshuawei.com
-  skip-cert-verify: true
-  sni: 472e9718-tcxds0-tu0ezx-1m7l4.fr.oshuawei.com
-  tls: true
-  type: http
-  username: bd515574-3b10-11ee-ac14-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 1|TW - zhuhai.uk
-  port: 29010
-  server: 366-1095.rabbitpro-in-3.com
-  type: vmess
-  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|HU - zhuhai.uk
-  port: 443
-  reality-opts:
-    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
-    short-id: f4b4a6365558ea2e
-  server: 45.195.111.123
-  servername: storage.yandex.net
+  server: 104.17.146.67
+  servername: vps.181110.xyz
   tls: true
   type: vless
-  uuid: d2042070-c247-4226-a3ac-15337923e00d
-- name: 1|RO - zhuhai.uk 03
+  uuid: cf63446e-f6b7-4d34-b7ed-d8648eeed0f7
+  ws-opts:
+    headers:
+      Host: vps.181110.xyz
+    path: /cf63446e-vl
+- name: 1|US - zhuhai.uk 03
+  password: 'null'
   port: 9002
-  server: 84.239.49.186
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 04
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|RO - zhuhai.uk 02
+  port: 9002
+  server: 84.239.49.224
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 04
-  port: 443
-  server: berniesbodybla.fun
-  skip-cert-verify: true
-  sni: berniesbodybla.fun
-  tls: true
-  type: http
 - name: 1|US - zhuhai.uk 05
-  port: 443
-  server: zebpay.site
-  sni: zebpay.site
-  tls: true
-  type: http
-- name: 1|NL - zhuhai.uk
-  password: 'null'
   port: 9002
-  server: 84.17.47.148
+  server: 156.146.59.47
   skip-cert-verify: true
-  sni: 84.17.47.148
   tls: true
   type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 08
+- name: 1|RO - zhuhai.uk 04
+  port: 9002
+  server: 84.239.49.38
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 06
   password: 'null'
   port: 9002
-  server: 138.199.35.217
+  server: 138.199.35.212
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
+- name: 1|US - zhuhai.uk 07
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 1|RO - zhuhai.uk 06
   port: 9002
-  server: 84.239.49.180
+  server: 193.176.84.36
   skip-cert-verify: true
-  sni: 84.239.49.180
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 1|SG - zhuhai.uk
+  password: admin
+  port: 1080
+  server: 143.198.85.89
+  type: socks5
+  username: admin
+- name: 1|RO - zhuhai.uk 07
+  port: 9002
+  server: 84.239.14.146
+  skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 09
   password: 'null'
   port: 9002
-  server: 156.146.59.19
+  server: 138.199.35.213
   skip-cert-verify: true
-  sni: 156.146.59.19
   tls: true
   type: http
   username: 'null'
-- name: 1|RO - zhuhai.uk 07
+- name: 1|RO - zhuhai.uk 08
   port: 9002
-  server: 84.239.49.230
+  server: 84.239.49.198
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 1|HK - zhuhai.uk
-  port: 10808
-  server: 123.58.219.171
-  type: socks5
-- name: 1|HK - zhuhai.uk 02
-  port: 20000
-  server: 59.38.113.185
-  type: socks5
-  username: Og==
 - name: 1|US - zhuhai.uk 10
-  password: 'null'
+  password: None
   port: 9002
-  server: 138.199.35.218
+  server: 138.199.35.196
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 11
-  port: 443
-  server: 38.28.193.1
+  port: 9002
+  server: 156.146.59.32
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|RO - zhuhai.uk 09
   port: 9002
-  server: 84.239.49.242
+  server: 193.176.84.31
   skip-cert-verify: true
-  sni: 84.239.49.242
   tls: true
   type: http
-- name: 1|name-jyjj - zhuhai.uk
-  password: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
-  port: 443
-  server: 7778ff8c-tcxds0-tnsc3a-1f0gu.se.oshuawei.com
-  sni: 7778ff8c-tcxds0-tnsc3a-1f0gu.se.oshuawei.com
+- name: 1|US - zhuhai.uk 12
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
   tls: true
   type: http
-  username: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
+- name: 1|US - zhuhai.uk 13
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|RO - zhuhai.uk 12
+  port: 9002
+  server: 84.239.49.208
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 1|RO - zhuhai.uk 13
+  password: None
+  port: 9002
+  server: 84.239.14.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 14
+  password: 'null'
+  port: 9002
+  server: 156.146.59.30
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
