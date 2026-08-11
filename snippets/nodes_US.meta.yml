@@ -1,40 +1,49 @@
 proxies:
 - name: 1|US - zhuhai.uk
-  port: 9002
-  server: 156.146.59.20
-  skip-cert-verify: true
-  sni: 156.146.59.20
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 02
-  port: 9002
-  server: 156.146.59.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 03
-  port: 9002
-  server: 156.146.59.44
-  skip-cert-verify: true
-  sni: 156.146.59.44
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 04
-  network: ws
-  port: 2087
-  server: 188.164.248.32
-  servername: jcxjcnasvip.jcdenas.top
+  port: 1083
+  server: 216.22.13.244
+  type: socks5
+- client-fingerprint: edge
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 1|US - zhuhai.uk 02
+  network: grpc
+  port: 8113
+  reality-opts:
+    public-key: 1XNcujMbWdVkVnPV4JvvIllMFdRXToudea_mqzXcMWg
+    short-id: a4f8c92d
+  server: market.cvedcdigital.vip
+  servername: westondigita.cloud
   tls: true
   type: vless
-  uuid: 5b06a1b1-8839-4969-874a-3b501528275b
-  ws-opts:
-    headers:
-      Host: jcxjcnasvip.jcdenas.top
-    path: /
-- name: 1|US - zhuhai.uk 05
+  uuid: f5e5da05-ef1d-4a19-b75d-aaf30c93bb1a
+- name: 1|US - zhuhai.uk 03
   port: 9002
-  server: 156.146.59.30
+  server: 156.146.59.38
   skip-cert-verify: true
+  sni: 156.146.59.38
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 04
+  port: 443
+  server: efr-marktplatz.club
+  skip-cert-verify: true
+  sni: efr-marktplatz.club
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 05
+  password: 'null'
+  port: 9002
+  server: 156.146.59.23
+  skip-cert-verify: true
+  sni: 156.146.59.23
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 06
+  port: 9002
+  server: 156.146.59.16
+  skip-cert-verify: true
+  sni: 156.146.59.16
   tls: true
   type: http
