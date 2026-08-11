@@ -1,20 +1,32 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 1|BR - zhuhai.uk
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: 59319
-  server: 136.248.70.239
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 1|GB - zhuhai.uk 02
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: 61312
-  server: 129.151.87.5
-  type: ss
+- name: 0|HK_speednode_0012
+  password: BxceQaOe
+  port: 27161
+  server: 16.162.3.11
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 0|HK_speednode_0013
+  password: BxceQaOe
+  port: 27161
+  server: 16.162.3.11
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- name: 0|JP_speednode_0014
+  password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
+  port: 55682
+  server: t11.qifei.app
+  skip-cert-verify: true
+  sni: t11.qifei.app
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 1|GR - zhuhai.uk
-  port: 29072
+  name: 1|HK - zhuhai.uk 02
+  port: 29013
   server: 366-1095.rabbitpro-in-3.com
   type: vmess
   uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
