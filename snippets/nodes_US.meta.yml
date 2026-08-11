@@ -1,46 +1,40 @@
 proxies:
 - name: 1|US - zhuhai.uk
-  password: 'null'
   port: 9002
-  server: 138.199.35.206
+  server: 156.146.59.20
   skip-cert-verify: true
+  sni: 156.146.59.20
   tls: true
   type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 07
+- name: 1|US - zhuhai.uk 02
   port: 9002
-  server: 138.199.35.209
+  server: 156.146.59.33
   skip-cert-verify: true
-  sni: 138.199.35.209
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 03
   port: 9002
-  server: 156.146.59.49
+  server: 156.146.59.44
   skip-cert-verify: true
+  sni: 156.146.59.44
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 04
-  port: 9002
-  server: 156.146.59.50
-  skip-cert-verify: true
-  sni: 156.146.59.50
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 04
+  network: ws
+  port: 2087
+  server: 188.164.248.32
+  servername: jcxjcnasvip.jcdenas.top
   tls: true
-  type: http
+  type: vless
+  uuid: 5b06a1b1-8839-4969-874a-3b501528275b
+  ws-opts:
+    headers:
+      Host: jcxjcnasvip.jcdenas.top
+    path: /
 - name: 1|US - zhuhai.uk 05
-  password: 'null'
   port: 9002
-  server: 138.199.35.208
+  server: 156.146.59.30
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 06
-  password: 'null'
-  port: 9002
-  server: 156.146.59.19
-  skip-cert-verify: true
-  sni: 156.146.59.19
-  tls: true
-  type: http
-  username: 'null'
