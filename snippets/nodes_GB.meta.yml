@@ -71,17 +71,18 @@ proxies:
   type: http
   udp: true
   username: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-- name: 0|GB_speednode_0015
+- name: 0,1|GB - zhuhai.uk
   password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
   port: 443
   server: 3051f36a-t9zts0-tr9h64-1f1f1.uk.oshuawei.com
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true
   username: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
-- name: 1|GB - zhuhai.uk
-  port: 443
-  server: 6d74a01e-thrgg0-thri9q-azvy.cldvpuk.cdnbytescm.com
-  skip-cert-verify: true
-  tls: true
-  type: http
+- cipher: chacha20-ietf-poly1305
+  name: 1|GB - zhuhai.uk 02
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: 61312
+  server: 129.151.87.5
+  type: ss
