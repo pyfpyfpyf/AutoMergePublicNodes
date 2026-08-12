@@ -1,1 +1,33 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 1|SG - zhuhai.uk
+  network: ws
+  port: 443
+  server: 172.67.69.106
+  servername: zero.csmaster.ggff.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
+  ws-opts:
+    headers:
+      Host: zero.csmaster.ggff.net
+    path: /
+- name: 1|SG - zhuhai.uk 02
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 146.70.29.45
+  skip-cert-verify: true
+  sni: 92461d2d.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+- name: 1|SG - zhuhai.uk 03
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 104.248.148.240
+  skip-cert-verify: true
+  sni: us.acskey.co
+  tls: true
+  type: http
+  username: testuser1
