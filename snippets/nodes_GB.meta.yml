@@ -1,13 +1,14 @@
 proxies:
-- name: 0|GB_speednode_0003
+- name: 0,1|GB - zhuhai.uk 04
   password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
   port: 443
   server: aa254e35-t9zts0-tb592v-4lg6.uk.oshuawei.com
+  sni: aa254e35-t9zts0-tb592v-4lg6.uk.oshuawei.com
   tls: true
   type: http
   udp: true
   username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
-- name: 0,1|GB - zhuhai.uk 04
+- name: 0|GB_speednode_0004
   password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
   port: 443
   server: 73721193-tcxds0-tvgkxc-hrtf.uk.oshuawei.com
@@ -56,34 +57,35 @@ proxies:
   type: http
   udp: true
   username: a95e9198-0671-11f0-9426-f23c932f2c32
-- name: 0|GB_speednode_0010
+- name: 0,1|GB - zhuhai.uk
   password: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
   port: 443
   server: 650f31b8-t9zts0-tkka1f-1k25p.uk.oshuawei.com
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true
   username: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
-- name: 0|GB_speednode_0011
+- name: 0,1|GB - zhuhai.uk 03
   password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
   port: 443
   server: 3051f36a-t9zts0-tr9h64-1f1f1.uk.oshuawei.com
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true
   username: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
-- name: 1|GB - zhuhai.uk
-  password: e29de954-ea01-11ef-a271-f23c91cfbbc9
-  port: 443
-  server: 7770dfdb-t9zts0-taj9mo-1tco3.uk.oshuawei.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: e29de954-ea01-11ef-a271-f23c91cfbbc9
 - name: 1|GB - zhuhai.uk 02
-  password: a95e9198-0671-11f0-9426-f23c932f2c32
+  password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
   port: 443
-  server: d3ea7b20-ths2o0-ths4hq-azvy.cldvpuk.cdnbytescm.com
+  server: b11c9f63-t9zts0-tsdg75-tlhh.uk.oshuawei.com
+  sni: b11c9f63-t9zts0-tsdg75-tlhh.uk.oshuawei.com
   tls: true
   type: http
-  username: a95e9198-0671-11f0-9426-f23c932f2c32
+  username: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
+- cipher: chacha20-ietf-poly1305
+  name: 1|GB - zhuhai.uk 05
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: 61312
+  server: 144.24.230.163
+  type: ss
