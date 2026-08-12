@@ -1,16 +1,16 @@
 proxies:
-- name: 0|FR_speednode_0002
+- name: 0,1|NL - zhuhai.uk
   port: 23856
   server: 51.159.225.196
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|FR - zhuhai.uk
-  port: 443
-  server: fr199.mechvpn.online
+- name: 1|FR - zhuhai.uk
+  password: freeuser1
+  port: 9251
+  server: fr012.freeconnect.link
+  sni: fr012.freeconnect.link
   tls: true
-  type: vless
-  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  type: http
+  username: freeuser1
