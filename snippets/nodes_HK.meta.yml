@@ -16,17 +16,21 @@ proxies:
   type: trojan
   udp: true
 - name: 1|HK - zhuhai.uk
-  password: '!!str 123'
-  port: 3060
-  server: 43.100.43.112
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
   type: socks5
-  username: '123'
-- name: 1|HK - zhuhai.uk 02
-  port: 20000
-  server: 59.38.113.185
-  type: socks5
-  username: Og==
-- name: 1|HK - zhuhai.uk 03
-  port: 10808
-  server: 123.58.219.171
-  type: socks5
+  username: '111'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 02
+  port: 35187
+  reality-opts:
+    public-key: d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE
+    short-id: e8daed2d
+  server: hk3n.wxgqlfx.vip
+  servername: www.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 8924529c-7ced-4ecd-b4ee-40aadf021385
