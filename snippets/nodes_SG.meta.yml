@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- name: 1|SG - zhuhai.uk
+  network: ws
+  port: 443
+  server: speed.dulacloud.store
+  servername: m.zoom.us
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: b04a7ec4-c501-4d9b-b0ba-73354e4fc972
+  ws-opts:
+    headers:
+      Host: speed.dulacloud.store
+    path: /dula
