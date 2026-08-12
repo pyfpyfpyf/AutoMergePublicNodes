@@ -212,7 +212,7 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- name: 0|US_speednode_0138
+- name: 0,1|US - zhuhai.uk 11
   port: 9002
   server: 138.199.35.211
   skip-cert-verify: true
@@ -304,7 +304,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0151
+- name: 0,1|US - zhuhai.uk 04
   port: 9002
   server: 156.146.59.41
   skip-cert-verify: true
@@ -325,7 +325,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0154
+- name: 0,1|US - zhuhai.uk 03
   port: 9002
   server: 156.146.59.15
   skip-cert-verify: true
@@ -369,30 +369,46 @@ proxies:
   udp: true
 - name: 1|US - zhuhai.uk
   port: 9002
-  server: 138.199.35.216
+  server: 156.146.59.47
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
+  password: 'null'
   port: 9002
-  server: 156.146.59.7
+  server: 138.199.35.198
   skip-cert-verify: true
   tls: true
   type: http
+  username: 'null'
 - name: 1|US - zhuhai.uk 05
-  password: e65a846c5c4a5ae3d91b6efd7c5784f9
-  port: 10801
-  server: proxyma.space
+  password: None
+  port: 9002
+  server: 138.199.35.208
   skip-cert-verify: true
-  sni: proxyma.space
   tls: true
   type: http
-  username: 7f560461e2298329
+  username: 'null'
+- name: 1|US - zhuhai.uk 06
+  password: 'null'
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 07
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  sni: 138.199.35.203
+  tls: true
+  type: http
 - client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 04
+  name: 1|US - zhuhai.uk 08
   network: ws
   port: 443
-  server: 172.67.109.220
+  server: yx-auto.pages.dev
   servername: vps.181110.xyz
   tls: true
   type: vless
@@ -401,44 +417,21 @@ proxies:
     headers:
       Host: vps.181110.xyz
     path: /cf63446e-vl
-- flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 06
-  port: 49356
-  server: 27.44.127.166
-  servername: dmla.huaweiyouxuan.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: fb957ee2-2ca0-43f3-ab86-724a9ca0b628
-- name: 1|US - zhuhai.uk 07
-  password: 'null'
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  sni: 138.199.35.207
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 08
-  password: 'null'
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 09
-  password: None
   port: 9002
-  server: 138.199.35.196
+  server: 138.199.35.216
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 10
-  port: 9002
-  server: 156.146.59.49
-  skip-cert-verify: true
-  sni: 156.146.59.49
+  password: test123
+  port: 1080
+  server: 185.145.99.41
+  type: socks5
+  username: test123
+- name: 1|US - zhuhai.uk 12
+  port: 443
+  server: purposebydesig.club
+  sni: purposebydesig.club
   tls: true
   type: http

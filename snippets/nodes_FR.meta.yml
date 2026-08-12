@@ -1,16 +1,16 @@
 proxies:
-- name: 0,1|NL - zhuhai.uk 02
+- name: 0|FR_speednode_0002
   port: 23856
   server: 51.159.225.196
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 1|FR - zhuhai.uk
-  password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|FR - zhuhai.uk
   port: 443
-  server: 527b5b47-t9zts0-tighxj-12hj8.fr.oshuawei.com
-  sni: 527b5b47-t9zts0-tighxj-12hj8.fr.oshuawei.com
+  server: fr199.mechvpn.online
   tls: true
-  type: http
-  username: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
+  type: vless
+  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
