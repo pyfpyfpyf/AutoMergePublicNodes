@@ -85,7 +85,7 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- name: 0,1|US - zhuhai.uk 04
+- name: 0|US_speednode_0124
   port: 9002
   server: 138.199.35.210
   skip-cert-verify: true
@@ -368,44 +368,77 @@ proxies:
   type: http
   udp: true
 - name: 1|US - zhuhai.uk
-  password: None
   port: 9002
-  server: 138.199.35.197
+  server: 138.199.35.216
   skip-cert-verify: true
-  sni: 138.199.35.197
   tls: true
   type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 02
-  password: 32315324-cf6b-11ed-979b-f23c9164ca5d
-  port: 443
-  server: 5badc430-tcxds0-tdua6y-nx3b.se.oshuawei.com
-  sni: 5badc430-tcxds0-tdua6y-nx3b.se.oshuawei.com
+  port: 9002
+  server: 156.146.59.7
+  skip-cert-verify: true
   tls: true
   type: http
-  username: 32315324-cf6b-11ed-979b-f23c9164ca5d
-- name: 1|US - zhuhai.uk 03
+- name: 1|US - zhuhai.uk 05
+  password: e65a846c5c4a5ae3d91b6efd7c5784f9
+  port: 10801
+  server: proxyma.space
+  skip-cert-verify: true
+  sni: proxyma.space
+  tls: true
+  type: http
+  username: 7f560461e2298329
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 04
+  network: ws
+  port: 443
+  server: 172.67.109.220
+  servername: vps.181110.xyz
+  tls: true
+  type: vless
+  uuid: cf63446e-f6b7-4d34-b7ed-d8648eeed0f7
+  ws-opts:
+    headers:
+      Host: vps.181110.xyz
+    path: /cf63446e-vl
+- flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 06
+  port: 49356
+  server: 27.44.127.166
+  servername: dmla.huaweiyouxuan.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: fb957ee2-2ca0-43f3-ab86-724a9ca0b628
+- name: 1|US - zhuhai.uk 07
   password: 'null'
   port: 9002
-  server: 156.146.59.33
+  server: 138.199.35.207
   skip-cert-verify: true
-  sni: 156.146.59.33
+  sni: 138.199.35.207
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 05
+- name: 1|US - zhuhai.uk 08
+  password: 'null'
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 09
   password: None
   port: 9002
-  server: 138.199.35.208
+  server: 138.199.35.196
   skip-cert-verify: true
-  sni: 138.199.35.208
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 06
+- name: 1|US - zhuhai.uk 10
   port: 9002
-  server: 138.199.35.204
+  server: 156.146.59.49
   skip-cert-verify: true
-  sni: 138.199.35.204
+  sni: 156.146.59.49
   tls: true
   type: http
