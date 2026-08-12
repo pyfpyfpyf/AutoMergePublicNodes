@@ -160,7 +160,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0132
+- name: 0,1|US - zhuhai.uk 05
   port: 9002
   server: 138.199.35.220
   skip-cert-verify: true
@@ -226,7 +226,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 03
+- name: 0|US_speednode_0140
   port: 9002
   server: 138.199.35.213
   skip-cert-verify: true
@@ -367,37 +367,52 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 1|US - zhuhai.uk
-  password: freeuser1
-  port: 9251
-  server: dl1-us.freeconnect.link
-  sni: dl1-us.freeconnect.link
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk
+  network: ws
+  port: 443
+  server: yx-auto.pages.dev
+  servername: vps.181110.xyz
   tls: true
-  type: http
-  username: freeuser1
+  type: vless
+  uuid: cf63446e-f6b7-4d34-b7ed-d8648eeed0f7
+  ws-opts:
+    headers:
+      Host: vps.181110.xyz
+    path: /cf63446e-vl
 - name: 1|US - zhuhai.uk 02
-  port: 9002
-  server: 156.146.59.7
-  skip-cert-verify: true
+  port: 38182
+  server: 69.55.49.177
+  type: socks5
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 03
+  port: 30906
+  reality-opts:
+    public-key: HnQ_s7eu3XUu6upzLoe0jj5ZgsYvM7KXuMG41IwN4R0
+    short-id: 17a94dc584e3
+  server: 204.48.20.223
+  servername: www.cloudflare.com
   tls: true
-  type: http
-- cipher: chacha20-ietf-poly1305
+  type: vless
+  uuid: 43a13764-23dd-4e01-8b79-cde8a16e13ce
+- client-fingerprint: chrome
   name: 1|US - zhuhai.uk 04
-  password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
-  port: 42982
-  server: autodiscover.fuzzyaytor.cyou
-  type: ss
-- name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 156.146.59.32
-  skip-cert-verify: true
+  network: ws
+  port: 443
+  server: 104.25.76.209
+  servername: vps.181110.xyz
   tls: true
-  type: http
+  type: vless
+  uuid: cf63446e-f6b7-4d34-b7ed-d8648eeed0f7
+  ws-opts:
+    headers:
+      Host: vps.181110.xyz
+    path: /cf63446e-vl
 - client-fingerprint: chrome
   name: 1|US - zhuhai.uk 06
   network: ws
   port: 443
-  server: 162.159.160.22
+  server: 104.21.80.209
   servername: vps.181110.xyz
   tls: true
   type: vless
@@ -410,7 +425,65 @@ proxies:
   name: 1|US - zhuhai.uk 07
   network: ws
   port: 443
-  server: 104.17.153.219
+  server: 104.21.74.8
+  servername: vps.181110.xyz
+  tls: true
+  type: vless
+  uuid: cf63446e-f6b7-4d34-b7ed-d8648eeed0f7
+  ws-opts:
+    headers:
+      Host: vps.181110.xyz
+    path: /cf63446e-vl
+- name: 1|US - zhuhai.uk 08
+  password: 'null'
+  port: 9002
+  server: 156.146.59.28
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 09
+  port: 40056
+  reality-opts:
+    public-key: EYLZTm0VpViSmTLfehDg0DE57ZEp0P0hab5ME3pXrgs
+    short-id: 9ccdca9f
+  server: 166.1.89.85
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 090122da-ad6b-42a1-92d7-bab2630e2511
+- name: 1|US - zhuhai.uk 10
+  password: 'null'
+  port: 9002
+  server: 156.146.59.7
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 11
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 12
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 13
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 14
+  network: ws
+  port: 443
+  server: 172.67.109.220
   servername: vps.181110.xyz
   tls: true
   type: vless

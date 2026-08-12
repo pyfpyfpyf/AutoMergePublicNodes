@@ -1,8 +1,10 @@
 proxies:
-- name: 0|GB_speednode_0003
+- name: 0,1|GB - zhuhai.uk 02
   password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
   port: 443
   server: aa254e35-t9zts0-tb592v-4lg6.uk.oshuawei.com
+  skip-cert-verify: true
+  sni: aa254e35-t9zts0-tb592v-4lg6.uk.oshuawei.com
   tls: true
   type: http
   udp: true
@@ -31,11 +33,10 @@ proxies:
   type: http
   udp: true
   username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
-- name: 0,1|GB - zhuhai.uk 02
+- name: 0|GB_speednode_0007
   password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
   port: 443
   server: 9035056e-t9zts0-tcmken-19les.uk.oshuawei.com
-  skip-cert-verify: true
   tls: true
   type: http
   udp: true
@@ -73,15 +74,11 @@ proxies:
   type: http
   udp: true
   username: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|GB - zhuhai.uk
+- name: 1|GB - zhuhai.uk
+  password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
   port: 443
-  reality-opts:
-    public-key: D-OHTModvYqWAvNpZUlIEB4he1pQ0HUHB4fUd6LyOic
-    short-id: ecc652c213fed5d1
-  server: 188.68.220.99
-  servername: uk.nightproducts.ru
+  server: f92a9516-tcxds0-tpaqgu-1smhu.uk.oshuawei.com
+  sni: f92a9516-tcxds0-tpaqgu-1smhu.uk.oshuawei.com
   tls: true
-  type: vless
-  uuid: 2daa9f67-8edc-41a2-a401-4a2497640c53
+  type: http
+  username: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
