@@ -160,7 +160,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0132
+- name: 0,1|US - zhuhai.uk
   port: 9002
   server: 138.199.35.220
   skip-cert-verify: true
@@ -174,7 +174,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0134
+- name: 0,1|US - zhuhai.uk 14
   password: None
   port: 9002
   server: 138.199.35.209
@@ -182,6 +182,7 @@ proxies:
   tls: true
   type: http
   udp: true
+  username: 'null'
 - name: 0|US_speednode_0135
   password: None
   port: 9002
@@ -226,7 +227,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0140
+- name: 0,1|US - zhuhai.uk 16
   port: 9002
   server: 138.199.35.213
   skip-cert-verify: true
@@ -268,7 +269,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0146
+- name: 0,1|US - zhuhai.uk 19
   port: 9002
   server: 156.146.59.23
   skip-cert-verify: true
@@ -304,18 +305,18 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 11
+- name: 0|US_speednode_0151
   port: 9002
   server: 156.146.59.41
   skip-cert-verify: true
-  sni: 156.146.59.41
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0152
+- name: 0,1|US - zhuhai.uk 17
   port: 9002
   server: 156.146.59.8
   skip-cert-verify: true
+  sni: 156.146.59.8
   tls: true
   type: http
   udp: true
@@ -340,10 +341,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0156
+- name: 0,1|US - zhuhai.uk 09
   port: 9002
   server: 156.146.59.34
   skip-cert-verify: true
+  sni: 156.146.59.34
   tls: true
   type: http
   udp: true
@@ -368,118 +370,108 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 1|US - zhuhai.uk
-  password: 0010996f-3eab-4804-9b3a-3a889d6767fc
-  port: 20011
-  server: a8zbx9xj.catcat321.com
-  skip-cert-verify: true
-  sni: iepl.usq2.cat.bilibili.com
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: movie
+  name: 1|US - zhuhai.uk 02
+  network: grpc
+  port: 10238
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: us1-r.link-t7.com
+  servername: s0.awsstatic.com
   tls: true
-  type: trojan
-- name: 1|US - zhuhai.uk 02
-  password: None
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
+  type: vless
+  uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 03
+  port: 49356
+  server: 27.44.127.166
+  servername: dmla.huaweiyouxuan.com
   tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 03
-  password: 'null'
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
+  type: vless
+  uuid: fb957ee2-2ca0-43f3-ab86-724a9ca0b628
 - name: 1|US - zhuhai.uk 04
-  password: None
-  port: 9002
-  server: 156.146.59.50
+  port: 443
+  server: 38.28.193.188
   skip-cert-verify: true
+  sni: 38.28.193.188
   tls: true
   type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 05
+  port: 443
+  server: fan.365747.xyz
+  sni: fan.365747.xyz
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 06
   password: 'null'
   port: 9002
-  server: 156.146.59.38
+  server: 156.146.59.30
   skip-cert-verify: true
+  sni: 156.146.59.30
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 07
-  password: 0010996f-3eab-4804-9b3a-3a889d6767fc
-  port: 20095
-  server: krhtybay.catcat321.com
-  skip-cert-verify: true
-  sni: iepl.ush2.cat.bilibili.com
-  tls: true
-  type: trojan
-- name: 1|US - zhuhai.uk 08
-  password: 32315324-cf6b-11ed-979b-f23c9164ca5d
-  port: 443
-  server: 5badc430-tcxds0-tdua6y-nx3b.se.oshuawei.com
-  tls: true
-  type: http
-  username: 32315324-cf6b-11ed-979b-f23c9164ca5d
-- name: 1|US - zhuhai.uk 09
-  port: 443
-  server: kimberlymilano.icu
-  sni: kimberlymilano.icu
-  tls: true
-  type: http
 - name: 1|US - zhuhai.uk 10
-  password: 'null'
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 12
-  password: 'null'
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 14
-  port: 443
-  server: 38.28.193.1
-  skip-cert-verify: true
-  sni: 38.28.193.1
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 15
-  password: 'null'
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  sni: 138.199.35.214
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 16
   port: 9002
   server: 138.199.35.217
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 17
+- name: 1|US - zhuhai.uk 11
   port: 9002
-  server: 156.146.59.50
+  server: 138.199.35.202
   skip-cert-verify: true
-  sni: 156.146.59.50
+  sni: 138.199.35.202
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 13
+  password: 'null'
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 15
+  port: 443
+  server: efr-marktplatz.club
+  sni: efr-marktplatz.club
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 18
-  password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
-  port: 8443
-  server: 139.28.168.54
-  sni: grape-honk.yyuyy.com
-  type: hysteria2
+  password: 'null'
+  port: 9002
+  server: 156.146.59.12
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 20
+  password: None
+  port: 9002
+  server: 156.146.59.43
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: movie
+  name: 1|US - zhuhai.uk 21
+  network: grpc
+  port: 10240
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: us3-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
 - name: 1|US - zhuhai.uk 01
   password: AE62539071
   port: 443

@@ -23,79 +23,37 @@ proxies:
   sni: t11.qifei.app
   type: trojan
   udp: true
-- name: 1|US - zhuhai.uk
+- cipher: chacha20-ietf-poly1305
+  name: 1|BR - zhuhai.uk
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 129.148.48.245
+  type: ss
+- name: 1|ID - zhuhai.uk
   password: 0010996f-3eab-4804-9b3a-3a889d6767fc
-  port: 20011
+  port: 20056
   server: a8zbx9xj.catcat321.com
   skip-cert-verify: true
-  sni: iepl.usq2.cat.bilibili.com
+  sni: iepl.idz1.cat.bilibili.com
   tls: true
   type: trojan
 - alterId: 0
   cipher: auto
   name: 1|HK - zhuhai.uk
-  port: 29002
+  port: 29099
   server: 366-1095.rabbitpro-in-3.com
   type: vmess
   uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-- alterId: 0
-  cipher: auto
-  name: 1|NL - zhuhai.uk
-  network: ws
-  port: 443
-  server: 185.246.152.159
-  servername: apjhdggyx.com
-  tls: true
-  type: vmess
-  uuid: 5f72f180-b21b-4b7a-8484-240759012604
-  ws-opts:
-    headers:
-      Host: apjhdggyx.com
-    path: /5f72f180-b21b-4b7a-8484-240759096785
-- name: 1|US - zhuhai.uk 07
-  password: 0010996f-3eab-4804-9b3a-3a889d6767fc
-  port: 20095
-  server: krhtybay.catcat321.com
-  skip-cert-verify: true
-  sni: iepl.ush2.cat.bilibili.com
-  tls: true
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 1|BR - zhuhai.uk 02
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: 59319
-  server: 163.176.227.96
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 1|GB - zhuhai.uk 03
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: 61312
-  server: 129.151.81.89
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 1|JP - zhuhai.uk
-  port: 29021
-  server: 366-1095.rabbitpro-in-3.com
-  type: vmess
-  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-- name: 1|FR - zhuhai.uk
-  password: AE62539071
-  port: 443
-  server: tough-hermit.rooster465.autos
-  sni: tough-hermit.rooster465.autos
-  tls: true
-  type: trojan
 - name: 1|US - zhuhai.uk 01
   password: AE62539071
   port: 443
   server: liked-serval.rooster465.autos
   type: trojan
   udp: true
-- name: 1|NL - zhuhai.uk 04
+- name: 1|FR - zhuhai.uk 03
   password: AE62539071
   port: 443
-  server: emerging-weevil.rooster465.autos
+  server: distinct-quail.rooster465.autos
   type: trojan
   udp: true
 - name: 1|FR - zhuhai.uk 01
@@ -560,12 +518,6 @@ proxies:
   server: known-albacore.rooster465.autos
   type: trojan
   udp: true
-- name: 1|JP - zhuhai.uk 03
-  password: AE62539071
-  port: 443
-  server: frank-frog.rooster465.autos
-  type: trojan
-  udp: true
 - name: 1|JP - zhuhai.uk 08
   password: AE62539071
   port: 443
@@ -624,6 +576,12 @@ proxies:
   password: AE62539071
   port: 443
   server: infinite-tuna.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|KR - zhuhai.uk 03
+  password: AE62539071
+  port: 443
+  server: causal-ladybug.rooster465.autos
   type: trojan
   udp: true
 - name: 1|KR - zhuhai.uk 10
@@ -878,16 +836,52 @@ proxies:
   server: magical-kodiak.rooster465.autos
   type: trojan
   udp: true
+- name: 1|HK - zhuhai.uk 02
+  password: AE62539071
+  port: 443
+  server: smiling-ray.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|HK - zhuhai.uk 04
+  password: AE62539071
+  port: 443
+  server: novel-mouse.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|HK - zhuhai.uk 06
+  password: AE62539071
+  port: 443
+  server: strong-haddock.rooster465.autos
+  type: trojan
+  udp: true
 - name: 1|HK - zhuhai.uk 09
   password: AE62539071
   port: 443
   server: wealthy-loon.rooster465.autos
   type: trojan
   udp: true
+- name: 1|HK - zhuhai.uk 03
+  password: AE62539071
+  port: 443
+  server: dynamic-grubworm.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|HK - zhuhai.uk 05
+  password: AE62539071
+  port: 443
+  server: humorous-parakeet.rooster465.autos
+  type: trojan
+  udp: true
 - name: 1|HK - zhuhai.uk 08
   password: AE62539071
   port: 443
   server: upright-bedbug.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|KR - zhuhai.uk 02
+  password: AE62539071
+  port: 443
+  server: oriented-pegasus.rooster465.autos
   type: trojan
   udp: true
 - name: 1|KR - zhuhai.uk 05
