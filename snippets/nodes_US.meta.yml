@@ -174,14 +174,16 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0134
+- name: 0,1|US - zhuhai.uk 21
   password: None
   port: 9002
   server: 138.199.35.209
   skip-cert-verify: true
+  sni: 138.199.35.209
   tls: true
   type: http
   udp: true
+  username: 'null'
 - name: 0|US_speednode_0135
   password: None
   port: 9002
@@ -212,7 +214,7 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- name: 0|US_speednode_0138
+- name: 0,1|US - zhuhai.uk 18
   port: 9002
   server: 138.199.35.211
   skip-cert-verify: true
@@ -275,17 +277,18 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 02
+- name: 0|US_speednode_0147
   port: 9002
   server: 156.146.59.33
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0148
+- name: 0,1|US - zhuhai.uk 19
   port: 9002
   server: 156.146.59.9
   skip-cert-verify: true
+  sni: 156.146.59.9
   tls: true
   type: http
   udp: true
@@ -297,7 +300,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0150
+- name: 0,1|US - zhuhai.uk 03
   port: 9002
   server: 156.146.59.31
   skip-cert-verify: true
@@ -311,7 +314,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 14
+- name: 0|US_speednode_0152
   port: 9002
   server: 156.146.59.8
   skip-cert-verify: true
@@ -325,10 +328,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0154
+- name: 0,1|US - zhuhai.uk 14
   port: 9002
   server: 156.146.59.15
   skip-cert-verify: true
+  sni: 156.146.59.15
   tls: true
   type: http
   udp: true
@@ -339,14 +343,14 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 09
+- name: 0|US_speednode_0156
   port: 9002
   server: 156.146.59.34
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk
+- name: 0|US_speednode_0157
   port: 9002
   server: 156.146.59.10
   skip-cert-verify: true
@@ -367,13 +371,111 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 1|US - zhuhai.uk 03
+- name: 1|US - zhuhai.uk
+  password: None
   port: 9002
-  server: 138.199.35.205
+  server: 156.146.59.23
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 02
+  port: 9002
+  server: 156.146.59.50
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 04
+  password: None
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 05
+  password: 'null'
+  port: 9002
+  server: 156.146.59.7
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 06
+  password: 'null'
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 07
+  port: 8090
+  server: 209.148.53.153
+  skip-cert-verify: true
+  sni: 209.148.53.153
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 09
+  password: freeuser1
+  port: 9251
+  server: dl1-us.freeconnect.link
+  skip-cert-verify: true
+  sni: dl1-us.freeconnect.link
+  tls: true
+  type: http
+  username: freeuser1
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 10
+  network: ws
+  port: 443
+  server: 172.67.164.20
+  servername: 5-M23.daegU2032.cCwu.cC
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: e8a2c7f9-cfec-46e0-a91a-a1394aaa90e4
+  ws-opts:
+    headers:
+      Host: 5-M23.daEGU2032.CcWu.CC
+    path: /kXHZ0iPM96r8UDUAsTH2scSHpeWN
+- name: 1|US - zhuhai.uk 12
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 162.243.146.243
+  skip-cert-verify: true
+  sni: a2f392f3.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+- name: 1|US - zhuhai.uk 13
+  port: 38182
+  server: 69.55.49.177
+  type: socks5
+- name: 1|US - zhuhai.uk 15
+  port: 9002
+  server: 156.146.59.32
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 16
+  password: None
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 17
+  password: 'null'
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  sni: 138.199.35.199
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 20
   password: 'null'
   port: 9002
   server: 138.199.35.210
@@ -381,65 +483,20 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- alterId: 0
-  cipher: auto
-  name: 1|US - zhuhai.uk 05
-  port: 27116
-  server: 366-1095.rabbitpro-in-3.com
-  type: vmess
-  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-- alterId: 0
-  cipher: auto
-  name: 1|US - zhuhai.uk 06
-  port: 27114
-  server: 366-1095.rabbitpro-in-3.com
-  type: vmess
-  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-- name: 1|US - zhuhai.uk 07
-  port: 443
-  server: 38.28.193.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- cipher: aes-256-gcm
-  name: 1|US - zhuhai.uk 08
-  password: 086e3e70-9996-3892-b559-c105ab132e6d
-  port: 20017
-  server: w.c.w.4.s.b.y.8.d.us02-ae5.entry.v51124-4.qpon
-  type: ss
-- name: 1|US - zhuhai.uk 10
+- name: 1|US - zhuhai.uk 22
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- name: 1|US - zhuhai.uk 23
+  password: 'null'
   port: 9002
-  server: 138.199.35.206
+  server: 156.146.59.16
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 11
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: movie
-  name: 1|US - zhuhai.uk 12
-  network: grpc
-  port: 10239
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: us2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
-- alterId: 0
-  cipher: auto
-  name: 1|US - zhuhai.uk 13
-  port: 29018
-  server: 366-1095.rabbitpro-in-3.com
-  type: vmess
-  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+  username: 'null'
 - name: 1|US - zhuhai.uk 01
   password: AE62539071
   port: 443
