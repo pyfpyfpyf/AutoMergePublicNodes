@@ -23,34 +23,74 @@ proxies:
   sni: t11.qifei.app
   type: trojan
   udp: true
-- name: 1|KR - zhuhai.uk
+- name: 1|JP - zhuhai.uk 46
   password: AE62539071
   port: 443
-  server: possible-yeti.rooster465.autos
-  sni: possible-yeti.rooster465.autos
+  server: literate-cow.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 1|DE - zhuhai.uk
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 199.232.78.160
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: s2z-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- cipher: aes-256-gcm
+  name: 1|RU - zhuhai.uk
+  password: 81a20429165df87e
+  port: 30331
+  server: 195.133.23.200
+  type: ss
+- name: 1|JP - zhuhai.uk 50
+  password: AE62539071
+  port: 443
+  server: current-barnacle.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 1|NL - zhuhai.uk
+  password: AE62539071
+  port: 443
+  server: whole-woodcock.rooster465.autos
+  sni: whole-woodcock.rooster465.autos
+  tls: true
+  type: trojan
+- name: 1|FR - zhuhai.uk 03
+  password: AE62539071
+  port: 443
+  server: one-quail.rooster465.autos
+  sni: one-quail.rooster465.autos
   tls: true
   type: trojan
 - alterId: 0
   cipher: auto
   name: 1|US - zhuhai.uk 05
-  port: 29018
+  port: 29007
   server: 366-1095.rabbitpro-in-3.com
   type: vmess
   uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-- alterId: 0
-  cipher: auto
-  name: 1|JP - zhuhai.uk
-  port: 27123
-  server: 366-1095.rabbitpro-in-3.com
-  type: vmess
-  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-- name: 1|JP - zhuhai.uk 06
+- name: 1|DE - zhuhai.uk 02
   password: AE62539071
   port: 443
-  server: known-albacore.rooster465.autos
+  server: dashing-bedbug.rooster465.autos
+  sni: dashing-bedbug.rooster465.autos
   tls: true
   type: trojan
-  udp: true
+- name: 1|KR - zhuhai.uk
+  password: AE62539071
+  port: 443
+  server: gorgeous-hookworm.rooster465.autos
+  sni: gorgeous-hookworm.rooster465.autos
+  tls: true
+  type: trojan
 - name: 1|US - zhuhai.uk 01
   password: AE62539071
   port: 443
@@ -205,12 +245,6 @@ proxies:
   password: AE62539071
   port: 443
   server: clear-snail.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|JP - zhuhai.uk 46
-  password: AE62539071
-  port: 443
-  server: literate-cow.rooster465.autos
   type: trojan
   udp: true
 - name: 1|JP - zhuhai.uk 45
@@ -387,12 +421,6 @@ proxies:
   server: tough-robin.rooster465.autos
   type: trojan
   udp: true
-- name: 1|JP - zhuhai.uk 50
-  password: AE62539071
-  port: 443
-  server: current-barnacle.rooster465.autos
-  type: trojan
-  udp: true
 - name: 1|JP - zhuhai.uk 51
   password: AE62539071
   port: 443
@@ -465,34 +493,22 @@ proxies:
   server: real-cardinal.rooster465.autos
   type: trojan
   udp: true
-- name: 1|NL - zhuhai.uk 02
-  password: AE62539071
-  port: 443
-  server: thorough-falcon.rooster465.autos
-  type: trojan
-  udp: true
 - name: 1|JP - zhuhai.uk 43
   password: AE62539071
   port: 443
   server: pet-antelope.rooster465.autos
   type: trojan
   udp: true
+- name: 1|JP - zhuhai.uk 06
+  password: AE62539071
+  port: 443
+  server: known-albacore.rooster465.autos
+  type: trojan
+  udp: true
 - name: 1|JP - zhuhai.uk 04
   password: AE62539071
   port: 443
   server: modest-pup.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|NL - zhuhai.uk 03
-  password: AE62539071
-  port: 443
-  server: present-warthog.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|FR - zhuhai.uk 03
-  password: AE62539071
-  port: 443
-  server: distinct-quail.rooster465.autos
   type: trojan
   udp: true
 - name: 1|JP - zhuhai.uk 07
@@ -555,22 +571,10 @@ proxies:
   server: moved-bluegill.rooster465.autos
   type: trojan
   udp: true
-- name: 1|DE - zhuhai.uk 02
-  password: AE62539071
-  port: 443
-  server: sterling-macaw.rooster465.autos
-  type: trojan
-  udp: true
 - name: 1|DE - zhuhai.uk 01
   password: AE62539071
   port: 443
   server: proper-marlin.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|DE - zhuhai.uk 04
-  password: AE62539071
-  port: 443
-  server: dashing-bedbug.rooster465.autos
   type: trojan
   udp: true
 - name: 1|KR - zhuhai.uk 26
@@ -589,12 +593,6 @@ proxies:
   password: AE62539071
   port: 443
   server: infinite-tuna.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|KR - zhuhai.uk 03
-  password: AE62539071
-  port: 443
-  server: causal-ladybug.rooster465.autos
   type: trojan
   udp: true
 - name: 1|KR - zhuhai.uk 11

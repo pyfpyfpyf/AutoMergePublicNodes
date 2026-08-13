@@ -1,5 +1,5 @@
 proxies:
-- name: 0|DE_speednode_0001
+- name: 0,1|DE - zhuhai.uk 03
   password: e4b72b531a2d10900519
   port: 443
   server: 167.172.172.190
@@ -63,12 +63,11 @@ proxies:
   type: http
   udp: true
   username: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
-- name: 0,1|GB - zhuhai.uk
+- name: 0|GB_speednode_0009
   password: a95e9198-0671-11f0-9426-f23c932f2c32
   port: 443
   server: 6d74a01e-thrgg0-thri9q-azvy.cldvpuk.cdnbytescm.com
   skip-cert-verify: true
-  sni: 6d74a01e-thrgg0-thri9q-azvy.cldvpuk.cdnbytescm.com
   tls: true
   type: http
   udp: true
@@ -187,10 +186,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|NL_speednode_0023
+- name: 0,1|NL - zhuhai.uk 02
   port: 9002
   server: 84.17.47.150
   skip-cert-verify: true
+  sni: 84.17.47.150
   tls: true
   type: http
   udp: true
@@ -960,7 +960,7 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- name: 0,1|US - zhuhai.uk 11
+- name: 0|US_speednode_0124
   port: 9002
   server: 138.199.35.210
   skip-cert-verify: true
@@ -1018,11 +1018,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 12
+- name: 0|US_speednode_0130
   port: 9002
   server: 138.199.35.214
   skip-cert-verify: true
-  sni: 138.199.35.214
   tls: true
   type: http
   udp: true
@@ -1119,10 +1118,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0143
+- name: 0,1|US - zhuhai.uk 06
   port: 9002
   server: 156.146.59.28
   skip-cert-verify: true
+  sni: 156.146.59.28
   tls: true
   type: http
   udp: true
@@ -1226,7 +1226,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 10
+- name: 0|US_speednode_0158
   port: 9002
   server: 156.146.59.39
   skip-cert-verify: true
@@ -1240,64 +1240,196 @@ proxies:
   tls: true
   type: http
   udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|IN - zhuhai.uk
-  port: 443
-  reality-opts:
-    public-key: sbl95eJz_SP1vYb8doCjAJOo0o5NveutEb9J-XKGl1w
-    short-id: 9c2378562188c3cb
-  server: 157.20.27.52
-  servername: apxc.falsemirrov.com
-  tls: true
-  type: vless
-  uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
-- name: 1|CO - zhuhai.uk
-  port: 62145
-  server: 149.130.189.155
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-- name: 1|KR - zhuhai.uk
-  password: AE62539071
-  port: 443
-  server: possible-yeti.rooster465.autos
-  sni: possible-yeti.rooster465.autos
-  tls: true
-  type: trojan
-- grpc-opts:
-    grpc-service-name: update
-  name: 1|SG - zhuhai.uk
-  network: grpc
-  port: 10036
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg1-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
 - name: 1|US - zhuhai.uk
   password: 'null'
   port: 9002
-  server: 138.199.35.196
+  server: 138.199.35.218
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 1|FR - zhuhai.uk
+- name: 1|JP - zhuhai.uk 46
+  password: AE62539071
   port: 443
-  server: fan.132031.xyz
-  sni: fan.132031.xyz
+  server: literate-cow.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 1|SG - zhuhai.uk
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 146.70.29.45
+  sni: 92461d2d.acsnet.co
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 02
-  port: 9002
-  server: 138.199.35.216
+  username: testuser1
+- name: 1|DE - zhuhai.uk
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 199.232.78.160
   skip-cert-verify: true
-  sni: 138.199.35.216
+  sni: ssl.fastly.com
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: s2z-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- cipher: aes-256-gcm
+  name: 1|RU - zhuhai.uk
+  password: 81a20429165df87e
+  port: 30331
+  server: 195.133.23.200
+  type: ss
+- name: 1|FR - zhuhai.uk
+  network: ws
+  port: 443
+  server: 81.95.4.189
+  servername: bab-6.site
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  ws-opts:
+    headers:
+      Host: bab-6.site
+    path: /vws/
+- flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk
+  port: 443
+  reality-opts:
+    public-key: KhRbgahSFqlPKB6QNp9QYb4oXMy2SIgi440tm6iFZHA
+    short-id: ea6b43
+  server: hk4.miyazono-kaori.com
+  servername: hk4e-launcher-static.hoyoverse.com
+  tls: true
+  type: vless
+  uuid: 978495d0-8feb-4b87-a09b-ef8f98416301
+- name: 1|FR - zhuhai.uk 02
+  password: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
+  port: 443
+  server: eac88fe8-t9zts0-tonrmx-8n27.fr.oshuawei.com
+  sni: eac88fe8-t9zts0-tonrmx-8n27.fr.oshuawei.com
   tls: true
   type: http
+  username: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
+- name: 1|JP - zhuhai.uk 50
+  password: AE62539071
+  port: 443
+  server: current-barnacle.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 1|US - zhuhai.uk 03
+  network: ws
+  port: 443
+  server: 104.21.31.99
+  servername: 6-m23.DAEgU2031.ccWU.CC
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: e8a2c7f9-cfec-46e0-a91a-a1394aaa90e4
+  ws-opts:
+    headers:
+      Host: 6-m23.dAEGu2031.ccWu.Cc
+    path: /kXHZ0iPM96r8UDUAsTH2scSHpeWN
+- name: 1|NL - zhuhai.uk
+  password: AE62539071
+  port: 443
+  server: whole-woodcock.rooster465.autos
+  sni: whole-woodcock.rooster465.autos
+  tls: true
+  type: trojan
+- name: 1|GB - zhuhai.uk
+  password: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
+  port: 443
+  server: ddcf3b01-tcxds0-tnsc3a-1f0gu.uk.oshuawei.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
+- name: 1|FR - zhuhai.uk 03
+  password: AE62539071
+  port: 443
+  server: one-quail.rooster465.autos
+  sni: one-quail.rooster465.autos
+  tls: true
+  type: trojan
+- name: 1|US - zhuhai.uk 04
+  port: 9002
+  server: 156.146.59.42
+  skip-cert-verify: true
+  sni: 156.146.59.42
+  tls: true
+  type: http
+- name: 1|GB - zhuhai.uk 02
+  password: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
+  port: 443
+  server: 87b1270a-t9zts0-trg4wh-z65w.uk.oshuawei.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 1|US - zhuhai.uk 05
+  port: 29007
+  server: 366-1095.rabbitpro-in-3.com
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+- name: 1|DE - zhuhai.uk 02
+  password: AE62539071
+  port: 443
+  server: dashing-bedbug.rooster465.autos
+  sni: dashing-bedbug.rooster465.autos
+  tls: true
+  type: trojan
+- name: 1|GB - zhuhai.uk 03
+  port: 443
+  server: 6d74a01e-thrgg0-thri9q-azvy.cldvpuk.cdnbytescm.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|DE - zhuhai.uk 04
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.124.99
+  sni: mercedes-grape.yyuyy.com
+  type: hysteria2
+- name: 1|KR - zhuhai.uk
+  password: AE62539071
+  port: 443
+  server: gorgeous-hookworm.rooster465.autos
+  sni: gorgeous-hookworm.rooster465.autos
+  tls: true
+  type: trojan
+- name: 1|US - zhuhai.uk 07
+  password: 'null'
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  sni: 138.199.35.207
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 08
+  password: 'null'
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  sni: 138.199.35.202
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 09
+  password: 'null'
+  port: 9002
+  server: 156.146.59.7
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
 - grpc-opts:
     grpc-service-name: update
   name: 1|KR - zhuhai.uk 02
@@ -1312,155 +1444,24 @@ proxies:
   tls: true
   type: vless
   uuid: B1BF44DF-BADD-44EE-826A-12C27206993D
-- name: 1|US - zhuhai.uk 03
-  password: 'null'
+- name: 1|US - zhuhai.uk 10
   port: 9002
-  server: 138.199.35.217
+  server: 138.199.35.209
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|NL - zhuhai.uk
-  port: 443
-  reality-opts:
-    public-key: Q6sZPc96fGUJvHsOjwpAc57V16CajEfhkHHhuv-_Bg4
-    short-id: 0f3adaccbda5e56b
-  server: dnlch.mostserv.xyz
-  servername: dnlch.mostserv.xyz
-  tls: true
-  type: vless
-  uuid: 463a26c2-eba8-0065-89c4-ee5c1373ccbe
-- name: 1|US - zhuhai.uk 04
-  password: 'null'
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  sni: 138.199.35.195
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|GB - zhuhai.uk 02
-  password: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
-  port: 443
-  server: ddcf3b01-tcxds0-tnsc3a-1f0gu.uk.oshuawei.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
-- name: 1|FI - zhuhai.uk
-  password: x
-  port: 8891
-  server: extension.intern3t.ru
-  sni: extension.intern3t.ru
-  tls: true
-  type: http
-  username: 85efca17026d85555ffc9b651149b5b7
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|SE - zhuhai.uk
-  port: 443
-  reality-opts:
-    public-key: g0mDPNlv3uOrnxXvBYP3cEjd0ewJuIFlBh93KE5bU3A
-    short-id: d0ca141e839394a3
-  server: dsech.mostserv.xyz
-  servername: dsech.mostserv.xyz
-  tls: true
-  type: vless
-  uuid: 463a26c2-eba8-40ea-89c4-ee5c1373ccbe
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|IN - zhuhai.uk 02
-  port: 443
-  reality-opts:
-    public-key: sbl95eJz_SP1vYb8doCjAJOo0o5NveutEb9J-XKGl1w
-    short-id: 9c2378562188c3cb
-  server: apxc.falsemirrov.com
-  servername: apxc.falsemirrov.com
-  tls: true
-  type: vless
-  uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 1|FI - zhuhai.uk 02
-  port: 443
-  server: ru211.mechvpn.online
-  servername: ru211.mechvpn.online
-  tls: true
-  type: vless
-  uuid: 1c6824de-312c-4876-aa3f-5a30e3df2de7
-- alterId: 0
-  cipher: auto
-  name: 1|US - zhuhai.uk 05
-  port: 29018
-  server: 366-1095.rabbitpro-in-3.com
-  type: vmess
-  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-- name: 1|US - zhuhai.uk 06
-  port: 9002
-  server: 156.146.59.43
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 07
-  port: 9002
-  server: 156.146.59.44
-  skip-cert-verify: true
-  sni: 156.146.59.44
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 08
-  port: 9002
-  server: 156.146.59.42
-  skip-cert-verify: true
-  sni: 156.146.59.42
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 09
-  password: 'null'
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- alterId: 0
-  cipher: auto
-  name: 1|JP - zhuhai.uk
-  port: 27123
-  server: 366-1095.rabbitpro-in-3.com
-  type: vmess
-  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-- name: 1|GB - zhuhai.uk 03
-  password: a95e9198-0671-11f0-9426-f23c932f2c32
-  port: 443
-  server: d3ea7b20-ths2o0-ths4hq-azvy.cldvpuk.cdnbytescm.com
-  tls: true
-  type: http
-  username: a95e9198-0671-11f0-9426-f23c932f2c32
-- name: 1|US - zhuhai.uk 13
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  sni: 138.199.35.219
-  tls: true
-  type: http
-- name: 1|GB - zhuhai.uk 04
-  password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
-  port: 443
-  server: f92a9516-tcxds0-tpaqgu-1smhu.uk.oshuawei.com
-  sni: f92a9516-tcxds0-tpaqgu-1smhu.uk.oshuawei.com
-  tls: true
-  type: http
-  username: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
-- name: 1|JP - zhuhai.uk 06
-  password: AE62539071
-  port: 443
-  server: known-albacore.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
+- name: 1|NL - zhuhai.uk 03
+  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
+  port: 8443
+  server: 86.107.178.71
+  sni: grape-zet-turbo-nl.yyuyy.com
+  type: hysteria2
+- name: 1|KR - zhuhai.uk 03
+  password: admin
+  port: 5555
+  server: 158.180.91.51
+  type: socks5
+  username: admin
 - name: 1|US - zhuhai.uk 01
   password: AE62539071
   port: 443
@@ -1615,12 +1616,6 @@ proxies:
   password: AE62539071
   port: 443
   server: clear-snail.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|JP - zhuhai.uk 46
-  password: AE62539071
-  port: 443
-  server: literate-cow.rooster465.autos
   type: trojan
   udp: true
 - name: 1|JP - zhuhai.uk 45
@@ -1797,12 +1792,6 @@ proxies:
   server: tough-robin.rooster465.autos
   type: trojan
   udp: true
-- name: 1|JP - zhuhai.uk 50
-  password: AE62539071
-  port: 443
-  server: current-barnacle.rooster465.autos
-  type: trojan
-  udp: true
 - name: 1|JP - zhuhai.uk 51
   password: AE62539071
   port: 443
@@ -1875,34 +1864,22 @@ proxies:
   server: real-cardinal.rooster465.autos
   type: trojan
   udp: true
-- name: 1|NL - zhuhai.uk 02
-  password: AE62539071
-  port: 443
-  server: thorough-falcon.rooster465.autos
-  type: trojan
-  udp: true
 - name: 1|JP - zhuhai.uk 43
   password: AE62539071
   port: 443
   server: pet-antelope.rooster465.autos
   type: trojan
   udp: true
+- name: 1|JP - zhuhai.uk 06
+  password: AE62539071
+  port: 443
+  server: known-albacore.rooster465.autos
+  type: trojan
+  udp: true
 - name: 1|JP - zhuhai.uk 04
   password: AE62539071
   port: 443
   server: modest-pup.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|NL - zhuhai.uk 03
-  password: AE62539071
-  port: 443
-  server: present-warthog.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|FR - zhuhai.uk 03
-  password: AE62539071
-  port: 443
-  server: distinct-quail.rooster465.autos
   type: trojan
   udp: true
 - name: 1|JP - zhuhai.uk 07
@@ -1965,22 +1942,10 @@ proxies:
   server: moved-bluegill.rooster465.autos
   type: trojan
   udp: true
-- name: 1|DE - zhuhai.uk 02
-  password: AE62539071
-  port: 443
-  server: sterling-macaw.rooster465.autos
-  type: trojan
-  udp: true
 - name: 1|DE - zhuhai.uk 01
   password: AE62539071
   port: 443
   server: proper-marlin.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|DE - zhuhai.uk 04
-  password: AE62539071
-  port: 443
-  server: dashing-bedbug.rooster465.autos
   type: trojan
   udp: true
 - name: 1|KR - zhuhai.uk 26
@@ -1999,12 +1964,6 @@ proxies:
   password: AE62539071
   port: 443
   server: infinite-tuna.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|KR - zhuhai.uk 03
-  password: AE62539071
-  port: 443
-  server: causal-ladybug.rooster465.autos
   type: trojan
   udp: true
 - name: 1|KR - zhuhai.uk 11
