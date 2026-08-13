@@ -7,13 +7,38 @@ proxies:
   sni: t11.qifei.app
   type: trojan
   udp: true
-- name: 1|JP - zhuhai.uk 11
-  password: AE62539071
-  port: 443
-  server: polished-imp.rooster465.autos
+- name: 1|JP - zhuhai.uk
+  port: 10808
+  server: 101.36.104.239
+  type: socks5
+- alterId: 0
+  cipher: auto
+  name: 1|JP - zhuhai.uk 02
+  port: 27123
+  server: 366-1095.rabbitpro-in-3.com
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  name: 1|JP - zhuhai.uk 03
+  network: grpc
+  port: 10033
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: jp3-r.link-t7.com
+  servername: s0.awsstatic.com
   tls: true
-  type: trojan
-  udp: true
+  type: vless
+  uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
+- alterId: 0
+  cipher: auto
+  name: 1|JP - zhuhai.uk 04
+  port: 29004
+  server: 366-1095.rabbitpro-in-3.com
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
 - name: 1|JP - zhuhai.uk 31
   password: AE62539071
   port: 443
@@ -398,16 +423,10 @@ proxies:
   server: improved-anteater.rooster465.autos
   type: trojan
   udp: true
-- name: 1|JP - zhuhai.uk 03
+- name: 1|JP - zhuhai.uk 11
   password: AE62539071
   port: 443
-  server: frank-frog.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|JP - zhuhai.uk 04
-  password: AE62539071
-  port: 443
-  server: modest-pup.rooster465.autos
+  server: polished-imp.rooster465.autos
   type: trojan
   udp: true
 - name: 1|JP - zhuhai.uk 08
@@ -432,12 +451,6 @@ proxies:
   password: AE62539071
   port: 443
   server: intimate-koi.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|JP - zhuhai.uk 02
-  password: AE62539071
-  port: 443
-  server: evolving-kangaroo.rooster465.autos
   type: trojan
   udp: true
 - name: 1|JP - zhuhai.uk 01

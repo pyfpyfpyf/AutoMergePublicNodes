@@ -16,40 +16,36 @@ proxies:
   type: trojan
   udp: true
 - name: 1|HK - zhuhai.uk
-  port: 443
-  server: hk40.240104.xyz
-  skip-cert-verify: true
-  sni: hk40.240104.xyz
-  tls: true
-  type: http
-- name: 1|HK - zhuhai.uk 02
-  password: Og==
-  port: 20000
-  server: 59.38.113.185
+  port: 10808
+  server: 123.58.219.171
   type: socks5
-  username: Og==
-- alterId: 0
-  cipher: auto
-  name: 1|HK - zhuhai.uk 03
-  port: 29002
-  server: 366-1095.rabbitpro-in-3.com
-  type: vmess
-  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: movie
-  name: 1|HK - zhuhai.uk 04
+  name: 1|HK - zhuhai.uk 02
   network: grpc
-  port: 10128
+  port: 10130
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: 686c0ef0
-  server: hk3-r.link-t7.com
+  server: hk5-r.link-t7.com
   servername: s0.awsstatic.com
-  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 03
+  port: 443
+  reality-opts:
+    public-key: CdNLdccy_ALnjDvwZa14eP31CoJ_BLqJAS2OLCNwogg
+    short-id: d19dcb524604e214
+  server: 124.156.182.132
+  servername: www.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 1b6de5d8-3285-422c-b6fe-2989918f528b
 - name: 1|HK - zhuhai.uk 08
   password: AE62539071
   port: 443
@@ -72,6 +68,12 @@ proxies:
   password: AE62539071
   port: 443
   server: wealthy-loon.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|HK - zhuhai.uk 04
+  password: AE62539071
+  port: 443
+  server: novel-mouse.rooster465.autos
   type: trojan
   udp: true
 - name: 1|HK - zhuhai.uk 07

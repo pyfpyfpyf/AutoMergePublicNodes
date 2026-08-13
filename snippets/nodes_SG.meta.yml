@@ -1,11 +1,43 @@
 proxies:
-- name: 1|SG - zhuhai.uk
+- cipher: aes-256-gcm
+  name: 1|SG - zhuhai.uk
+  password: 086e3e70-9996-3892-b559-c105ab132e6d
+  port: 20082
+  server: w.2.w.9.s.j.m.8.d.sg03-ae5.entry.v51124-4.qpon
+  type: ss
+- cipher: aes-256-gcm
+  name: 1|SG - zhuhai.uk 02
+  password: 086e3e70-9996-3892-b559-c105ab132e6d
+  port: 20077
+  server: q.c.w.4.p.v.m.8.d.sg02-ae5.entry.v51124-4.qpon
+  type: ss
+- name: 1|SG - zhuhai.uk 03
+  password: admin
+  port: 1080
+  server: 143.198.85.89
+  type: socks5
+  username: admin
+- name: 1|SG - zhuhai.uk 04
   password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 60572
-  server: sivp666.ipad1el.com
-  sni: yzhou015.jdvipkuai.cc
+  port: 56277
+  server: yzany01.jdoanst2026.com
+  sni: xjp03.ascwt179.com
   type: anytls
   udp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  name: 1|SG - zhuhai.uk 05
+  network: grpc
+  port: 10040
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg5-r.link-t7.com
+  servername: d1.awsstatic.com
+  tls: true
+  type: vless
+  uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
 - name: 1|SG - zhuhai.uk 22
   password: AE62539071
   port: 443
