@@ -1,5 +1,5 @@
 proxies:
-- name: 0,1|NL - zhuhai.uk 02
+- name: 0,1|NL - zhuhai.uk 03
   port: 23856
   server: 51.159.225.196
   skip-cert-verify: true
@@ -8,13 +8,21 @@ proxies:
   type: http
   udp: true
 - name: 1|FR - zhuhai.uk
-  password: freeuser1
-  port: 9251
-  server: fr012.freeconnect.link
-  sni: fr012.freeconnect.link
+  password: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
+  port: 443
+  server: eac88fe8-t9zts0-tonrmx-8n27.fr.oshuawei.com
+  skip-cert-verify: true
+  sni: eac88fe8-t9zts0-tonrmx-8n27.fr.oshuawei.com
   tls: true
   type: http
-  username: freeuser1
+  username: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
+- name: 1|FR - zhuhai.uk 02
+  port: 443
+  server: fan.132031.xyz
+  skip-cert-verify: true
+  sni: fan.132031.xyz
+  tls: true
+  type: http
 - name: 1|FR - zhuhai.uk 03
   password: AE62539071
   port: 443

@@ -160,7 +160,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk
+- name: 0|US_speednode_0132
   port: 9002
   server: 138.199.35.220
   skip-cert-verify: true
@@ -174,7 +174,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 14
+- name: 0,1|US - zhuhai.uk 11
   password: None
   port: 9002
   server: 138.199.35.209
@@ -227,10 +227,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 16
+- name: 0,1|US - zhuhai.uk 07
   port: 9002
   server: 138.199.35.213
   skip-cert-verify: true
+  sni: 138.199.35.213
   tls: true
   type: http
   udp: true
@@ -269,7 +270,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 19
+- name: 0|US_speednode_0146
   port: 9002
   server: 156.146.59.23
   skip-cert-verify: true
@@ -312,7 +313,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 17
+- name: 0,1|US - zhuhai.uk
   port: 9002
   server: 156.146.59.8
   skip-cert-verify: true
@@ -341,11 +342,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 09
+- name: 0|US_speednode_0156
   port: 9002
   server: 156.146.59.34
   skip-cert-verify: true
-  sni: 156.146.59.34
   tls: true
   type: http
   udp: true
@@ -370,43 +370,23 @@ proxies:
   tls: true
   type: http
   udp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: movie
-  name: 1|US - zhuhai.uk 02
-  network: grpc
-  port: 10238
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: us1-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 03
-  port: 49356
-  server: 27.44.127.166
-  servername: dmla.huaweiyouxuan.com
-  tls: true
-  type: vless
-  uuid: fb957ee2-2ca0-43f3-ab86-724a9ca0b628
-- name: 1|US - zhuhai.uk 04
-  port: 443
-  server: 38.28.193.188
+- name: 1|US - zhuhai.uk 02
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
   skip-cert-verify: true
-  sni: 38.28.193.188
+  sni: 138.199.35.216
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 05
-  port: 443
-  server: fan.365747.xyz
-  sni: fan.365747.xyz
+  username: 'null'
+- name: 1|US - zhuhai.uk 03
+  port: 9002
+  server: 156.146.59.44
+  skip-cert-verify: true
+  sni: 156.146.59.44
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 06
+- name: 1|US - zhuhai.uk 04
   password: 'null'
   port: 9002
   server: 156.146.59.30
@@ -415,59 +395,42 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 10
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 11
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  sni: 138.199.35.202
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 13
-  password: 'null'
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 15
-  port: 443
-  server: efr-marktplatz.club
-  sni: efr-marktplatz.club
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 18
-  password: 'null'
-  port: 9002
-  server: 156.146.59.12
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 20
-  password: None
+- name: 1|US - zhuhai.uk 05
   port: 9002
   server: 156.146.59.43
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
+- name: 1|US - zhuhai.uk 06
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  sni: 138.199.35.209
+  tls: true
+  type: http
+- alterId: 0
+  cipher: auto
+  name: 1|US - zhuhai.uk 08
+  port: 29007
+  server: 366-1095.rabbitpro-in-3.com
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+- name: 1|US - zhuhai.uk 09
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: movie
-  name: 1|US - zhuhai.uk 21
+  name: 1|US - zhuhai.uk 10
   network: grpc
-  port: 10240
+  port: 10238
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: 686c0ef0
-  server: us3-r.link-t7.com
+  server: us1-r.link-t7.com
   servername: s0.awsstatic.com
   tls: true
   type: vless
