@@ -1,151 +1,37 @@
 proxies:
-- name: 1|KR - zhuhai.uk
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: test
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|KR - zhuhai.uk 02
-  port: 13779
+  grpc-opts:
+    grpc-service-name: update
+  name: 1|KR - zhuhai.uk
+  network: grpc
+  port: 10046
   reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: af1bdd293097b664
-  server: 47.80.59.17
-  servername: tesla.com
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: 43.203.209.13
+  servername: s0.awsstatic.com
   skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-- name: 1|KR - zhuhai.uk 04
-  password: AE62539071
-  port: 443
-  server: driving-antelope.rooster465.autos
-  skip-cert-verify: true
+  uuid: B1BF44DF-BADD-44EE-826A-12C27206993D
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  name: 1|KR - zhuhai.uk 02
+  network: grpc
+  port: 10046
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr1-r.link-t7.com
+  servername: s0.awsstatic.com
   tls: true
-  type: trojan
-  udp: true
-- name: 1|KR - zhuhai.uk 09
-  password: AE62539071
-  port: 443
-  server: viable-serval.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|KR - zhuhai.uk 29
-  password: AE62539071
-  port: 443
-  server: square-skink.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|KR - zhuhai.uk 08
-  password: AE62539071
-  port: 443
-  server: capable-jay.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|KR - zhuhai.uk 06
-  password: AE62539071
-  port: 443
-  server: square-gnat.rooster465.autos
-  type: trojan
-  udp: true
+  type: vless
+  uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
 - name: 1|KR - zhuhai.uk 21
   password: AE62539071
   port: 443
   server: main-whippet.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|KR - zhuhai.uk 31
-  password: AE62539071
-  port: 443
-  server: firm-krill.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|KR - zhuhai.uk 30
-  password: AE62539071
-  port: 443
-  server: distinct-llama.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|KR - zhuhai.uk 13
-  password: AE62539071
-  port: 443
-  server: allowing-halibut.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|KR - zhuhai.uk 14
-  password: AE62539071
-  port: 443
-  server: glorious-glider.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|KR - zhuhai.uk 27
-  password: AE62539071
-  port: 443
-  server: infinite-tuna.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|KR - zhuhai.uk 05
-  password: AE62539071
-  port: 443
-  server: eager-platypus.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|KR - zhuhai.uk 23
-  password: AE62539071
-  port: 443
-  server: glorious-lark.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|KR - zhuhai.uk 20
-  password: AE62539071
-  port: 443
-  server: uncommon-feline.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|KR - zhuhai.uk 17
-  password: AE62539071
-  port: 443
-  server: prepared-monitor.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|KR - zhuhai.uk 11
-  password: AE62539071
-  port: 443
-  server: light-sheepdog.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|KR - zhuhai.uk 24
-  password: AE62539071
-  port: 443
-  server: full-mayfly.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|KR - zhuhai.uk 18
-  password: AE62539071
-  port: 443
-  server: magnetic-haddock.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|KR - zhuhai.uk 01
-  password: AE62539071
-  port: 443
-  server: saved-ghoul.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|KR - zhuhai.uk 22
-  password: AE62539071
-  port: 443
-  server: gorgeous-hookworm.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|KR - zhuhai.uk 28
-  password: AE62539071
-  port: 443
-  server: grand-grub.rooster465.autos
   type: trojan
   udp: true
 - name: 1|KR - zhuhai.uk 07
@@ -154,10 +40,16 @@ proxies:
   server: awake-satyr.rooster465.autos
   type: trojan
   udp: true
-- name: 1|KR - zhuhai.uk 12
+- name: 1|KR - zhuhai.uk 25
   password: AE62539071
   port: 443
-  server: allowed-hermit.rooster465.autos
+  server: precious-racer.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|KR - zhuhai.uk 31
+  password: AE62539071
+  port: 443
+  server: firm-krill.rooster465.autos
   type: trojan
   udp: true
 - name: 1|KR - zhuhai.uk 26
@@ -166,10 +58,16 @@ proxies:
   server: sacred-hound.rooster465.autos
   type: trojan
   udp: true
-- name: 1|KR - zhuhai.uk 25
+- name: 1|KR - zhuhai.uk 27
   password: AE62539071
   port: 443
-  server: precious-racer.rooster465.autos
+  server: infinite-tuna.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|KR - zhuhai.uk 03
+  password: AE62539071
+  port: 443
+  server: causal-ladybug.rooster465.autos
   type: trojan
   udp: true
 - name: 1|KR - zhuhai.uk 10
@@ -178,10 +76,94 @@ proxies:
   server: skilled-monster.rooster465.autos
   type: trojan
   udp: true
+- name: 1|KR - zhuhai.uk 24
+  password: AE62539071
+  port: 443
+  server: full-mayfly.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|KR - zhuhai.uk 17
+  password: AE62539071
+  port: 443
+  server: prepared-monitor.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|KR - zhuhai.uk 13
+  password: AE62539071
+  port: 443
+  server: allowing-halibut.rooster465.autos
+  type: trojan
+  udp: true
 - name: 1|KR - zhuhai.uk 19
   password: AE62539071
   port: 443
   server: intimate-moray.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|KR - zhuhai.uk 09
+  password: AE62539071
+  port: 443
+  server: viable-serval.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|KR - zhuhai.uk 08
+  password: AE62539071
+  port: 443
+  server: capable-jay.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|KR - zhuhai.uk 12
+  password: AE62539071
+  port: 443
+  server: allowed-hermit.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|KR - zhuhai.uk 06
+  password: AE62539071
+  port: 443
+  server: square-gnat.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|KR - zhuhai.uk 22
+  password: AE62539071
+  port: 443
+  server: gorgeous-hookworm.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|KR - zhuhai.uk 16
+  password: AE62539071
+  port: 443
+  server: possible-yeti.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|KR - zhuhai.uk 30
+  password: AE62539071
+  port: 443
+  server: distinct-llama.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|KR - zhuhai.uk 20
+  password: AE62539071
+  port: 443
+  server: uncommon-feline.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|KR - zhuhai.uk 18
+  password: AE62539071
+  port: 443
+  server: magnetic-haddock.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|KR - zhuhai.uk 23
+  password: AE62539071
+  port: 443
+  server: glorious-lark.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|KR - zhuhai.uk 11
+  password: AE62539071
+  port: 443
+  server: light-sheepdog.rooster465.autos
   type: trojan
   udp: true
 - name: 1|KR - zhuhai.uk 15
@@ -190,9 +172,39 @@ proxies:
   server: engaged-skink.rooster465.autos
   type: trojan
   udp: true
-- name: 1|KR - zhuhai.uk 16
+- name: 1|KR - zhuhai.uk 14
   password: AE62539071
   port: 443
-  server: possible-yeti.rooster465.autos
+  server: glorious-glider.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|KR - zhuhai.uk 29
+  password: AE62539071
+  port: 443
+  server: square-skink.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|KR - zhuhai.uk 01
+  password: AE62539071
+  port: 443
+  server: saved-ghoul.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|KR - zhuhai.uk 28
+  password: AE62539071
+  port: 443
+  server: grand-grub.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|KR - zhuhai.uk 04
+  password: AE62539071
+  port: 443
+  server: driving-antelope.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|KR - zhuhai.uk 05
+  password: AE62539071
+  port: 443
+  server: eager-platypus.rooster465.autos
   type: trojan
   udp: true

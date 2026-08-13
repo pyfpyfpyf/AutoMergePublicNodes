@@ -1,30 +1,35 @@
 proxies:
-- name: 0,1|NL - zhuhai.uk 06
+- name: 0|FR_speednode_0002
   port: 23856
   server: 51.159.225.196
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: chrome
-  name: 1|FR - zhuhai.uk
-  network: ws
+- name: 1|FR - zhuhai.uk
+  password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
   port: 443
-  server: 35.157.240.237
-  servername: bab-6.site
+  server: d6bf69ca-tcxds0-td1l1t-1s824.fr.oshuawei.com
+  sni: d6bf69ca-tcxds0-td1l1t-1s824.fr.oshuawei.com
   tls: true
-  type: vless
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  ws-opts:
-    headers:
-      Host: bab-6.site
-    path: /vws/
-- name: 1|FR - zhuhai.uk 05
+  type: http
+  username: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+- name: 1|FR - zhuhai.uk 02
   password: AE62539071
   port: 443
-  server: chief-cricket.rooster465.autos
+  server: tough-hermit.rooster465.autos
+  skip-cert-verify: true
+  sni: tough-hermit.rooster465.autos
+  tls: true
   type: trojan
-  udp: true
+- name: 1|FR - zhuhai.uk 03
+  password: bd515574-3b10-11ee-ac14-f23c9164ca5d
+  port: 443
+  server: 472e9718-tcxds0-tu0ezx-1m7l4.fr.oshuawei.com
+  sni: 472e9718-tcxds0-tu0ezx-1m7l4.fr.oshuawei.com
+  tls: true
+  type: http
+  username: bd515574-3b10-11ee-ac14-f23c9164ca5d
 - name: 1|FR - zhuhai.uk 01
   password: AE62539071
   port: 443
@@ -37,9 +42,9 @@ proxies:
   server: one-quail.rooster465.autos
   type: trojan
   udp: true
-- name: 1|FR - zhuhai.uk 03
+- name: 1|FR - zhuhai.uk 05
   password: AE62539071
   port: 443
-  server: distinct-quail.rooster465.autos
+  server: chief-cricket.rooster465.autos
   type: trojan
   udp: true
