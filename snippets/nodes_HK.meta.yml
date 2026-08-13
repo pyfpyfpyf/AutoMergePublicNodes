@@ -15,32 +15,33 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: movie
-  name: 1|HK - zhuhai.uk
-  network: grpc
-  port: 10130
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk5-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- name: 1|HK - zhuhai.uk
+  password: '!!str 123'
+  port: 3060
+  server: 43.100.43.112
+  type: socks5
+  username: '123'
+- alterId: 0
+  cipher: auto
   name: 1|HK - zhuhai.uk 02
-  port: 13779
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: af1bdd293097b664
-  server: 103.149.183.198
-  servername: tesla.com
-  tls: true
-  type: vless
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+  port: 29011
+  server: 366-1095.rabbitpro-in-3.com
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+- alterId: 0
+  cipher: auto
+  name: 1|HK - zhuhai.uk 03
+  port: 27103
+  server: 366-1095.rabbitpro-in-3.com
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+- name: 1|HK - zhuhai.uk 04
+  password: fafb06a2-19d0-4310-ac7a-30b2b5c7b2b3
+  port: 34004
+  server: odusd.youtu2.top
+  sni: s.dydyyd.com
+  type: anytls
+  udp: true
 - name: 1|HK - zhuhai.uk 08
   password: AE62539071
   port: 443
@@ -63,18 +64,6 @@ proxies:
   password: AE62539071
   port: 443
   server: wealthy-loon.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|HK - zhuhai.uk 04
-  password: AE62539071
-  port: 443
-  server: novel-mouse.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|HK - zhuhai.uk 03
-  password: AE62539071
-  port: 443
-  server: dynamic-grubworm.rooster465.autos
   type: trojan
   udp: true
 - name: 1|HK - zhuhai.uk 07

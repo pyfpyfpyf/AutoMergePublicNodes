@@ -8,12 +8,17 @@ proxies:
   type: http
   udp: true
   username: testuser1
-- name: 1|DE - zhuhai.uk
-  password: 130e6aab-9eba-441e-9021-22cbccc72832
-  port: 8443
-  server: srvhy1.ezcon24.online
-  sni: srvhy1.ezcon24.online
-  type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk
+  port: 33012
+  reality-opts:
+    public-key: YzbFa-CuVFYDR86mnMgEUGL3KvONvNfut3TKEa_0JCk
+  server: 86.53.105.117
+  servername: www.iij.ad.jp
+  tls: true
+  type: vless
+  uuid: dbab9df7-5c0a-4726-8574-11e34972b67d
 - name: 1|DE - zhuhai.uk 07
   password: AE62539071
   port: 443
