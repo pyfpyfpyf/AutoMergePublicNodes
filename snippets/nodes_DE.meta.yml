@@ -8,16 +8,17 @@ proxies:
   type: http
   udp: true
   username: testuser1
-- cipher: aes-256-cfb
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 1|DE - zhuhai.uk
-  password: amazonskr05
-  port: 443
-  server: 3.76.30.105
-  type: ss
-- name: 1|DE - zhuhai.uk 02
-  port: 1080
-  server: 159.195.49.27
-  type: socks5
+  port: 33012
+  reality-opts:
+    public-key: YzbFa-CuVFYDR86mnMgEUGL3KvONvNfut3TKEa_0JCk
+  server: 86.53.105.117
+  servername: www.iij.ad.jp
+  tls: true
+  type: vless
+  uuid: dbab9df7-5c0a-4726-8574-11e34972b67d
 - name: 1|DE - zhuhai.uk 06
   password: FH72359861
   port: 443
@@ -46,5 +47,11 @@ proxies:
   password: FH72359861
   port: 443
   server: renewed-porpoise.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|DE - zhuhai.uk 02
+  password: FH72359861
+  port: 443
+  server: summary-lemming.rooster465.autos
   type: trojan
   udp: true
