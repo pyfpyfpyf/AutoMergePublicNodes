@@ -15,49 +15,69 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
+- client-fingerprint: random
+  name: 1|HK - zhuhai.uk
+  network: ws
+  port: 2083
+  server: 172.67.72.20
+  servername: kv.074167.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+  ws-opts:
+    headers:
+      Host: kv.074167.xyz
+    path: /
+- client-fingerprint: random
+  name: 1|HK - zhuhai.uk 02
+  network: ws
+  port: 2083
+  server: 172.67.67.182
+  servername: kv.074167.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+  ws-opts:
+    headers:
+      Host: kv.074167.xyz
+    path: /
 - alterId: 0
   cipher: auto
-  name: 1|HK - zhuhai.uk
+  name: 1|HK - zhuhai.uk 03
   port: 27104
   server: 366-1095.rabbitpro-in-3.com
   type: vmess
   uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-- alterId: 0
-  cipher: auto
-  name: 1|HK - zhuhai.uk 02
-  port: 29008
-  server: 366-1095.rabbitpro-in-3.com
-  type: vmess
-  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: movie
-  name: 1|HK - zhuhai.uk 03
-  network: grpc
-  port: 10128
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk3-r.link-t7.com
-  servername: s0.awsstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
 - name: 1|HK - zhuhai.uk 04
-  port: 10808
-  server: 123.58.219.171
-  type: socks5
-- name: 1|HK - zhuhai.uk 01
   password: AE62539071
   port: 443
-  server: modest-foal.rooster465.autos
+  server: novel-mouse.rooster465.autos
   type: trojan
   udp: true
 - name: 1|HK - zhuhai.uk 07
   password: AE62539071
   port: 443
   server: magical-kodiak.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|HK - zhuhai.uk 05
+  password: AE62539071
+  port: 443
+  server: humorous-parakeet.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|HK - zhuhai.uk 01
+  password: AE62539071
+  port: 443
+  server: modest-foal.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|HK - zhuhai.uk 08
+  password: AE62539071
+  port: 443
+  server: upright-bedbug.rooster465.autos
   type: trojan
   udp: true
 - name: 1|HK - zhuhai.uk 06
@@ -70,17 +90,5 @@ proxies:
   password: AE62539071
   port: 443
   server: wealthy-loon.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|HK - zhuhai.uk 05
-  password: AE62539071
-  port: 443
-  server: humorous-parakeet.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|HK - zhuhai.uk 08
-  password: AE62539071
-  port: 443
-  server: upright-bedbug.rooster465.autos
   type: trojan
   udp: true
