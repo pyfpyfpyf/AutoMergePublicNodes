@@ -219,10 +219,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0139
+- name: 0,1|US - zhuhai.uk 02
   port: 9002
   server: 138.199.35.199
   skip-cert-verify: true
+  sni: 138.199.35.199
   tls: true
   type: http
   udp: true
@@ -346,11 +347,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 06
+- name: 0,1|US - zhuhai.uk
   port: 9002
   server: 156.146.59.10
   skip-cert-verify: true
-  sni: 156.146.59.10
   tls: true
   type: http
   udp: true
@@ -361,57 +361,32 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0159
+- name: 0,1|US - zhuhai.uk 05
   port: 9002
   server: 156.146.59.11
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 1|US - zhuhai.uk
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 107.151.238.27
-  sni: 6b97ee1b.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- name: 1|US - zhuhai.uk 02
-  password: 'null'
-  port: 9002
-  server: 156.146.59.38
-  skip-cert-verify: true
-  sni: 156.146.59.38
-  tls: true
-  type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 03
-  password: 'null'
   port: 9002
-  server: 156.146.59.16
+  server: 156.146.59.21
   skip-cert-verify: true
+  sni: 156.146.59.21
   tls: true
   type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 04
+  port: 9002
+  server: 156.146.59.49
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 06
+  password: FH72359861
   port: 443
-  server: crosscards.site
-  skip-cert-verify: true
-  sni: crosscards.site
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 07
-  port: 9002
-  server: 156.146.59.46
-  skip-cert-verify: true
-  tls: true
-  type: http
+  server: outgoing-lynx.rooster465.autos
+  type: trojan
+  udp: true
 - name: 1|US - zhuhai.uk 09
   password: FH72359861
   port: 443
@@ -428,6 +403,12 @@ proxies:
   password: FH72359861
   port: 443
   server: dominant-jaguar.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|US - zhuhai.uk 07
+  password: FH72359861
+  port: 443
+  server: humorous-hawk.rooster465.autos
   type: trojan
   udp: true
 - name: 1|US - zhuhai.uk 01
