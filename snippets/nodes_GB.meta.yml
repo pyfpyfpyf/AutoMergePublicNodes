@@ -1,8 +1,9 @@
 proxies:
-- name: 0|GB_speednode_0003
+- name: 0,1|GB - zhuhai.uk 03
   password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
   port: 443
   server: aa254e35-t9zts0-tb592v-4lg6.uk.oshuawei.com
+  sni: aa254e35-t9zts0-tb592v-4lg6.uk.oshuawei.com
   tls: true
   type: http
   udp: true
@@ -56,12 +57,10 @@ proxies:
   type: http
   udp: true
   username: a95e9198-0671-11f0-9426-f23c932f2c32
-- name: 0,1|GB - zhuhai.uk 02
+- name: 0|GB_speednode_0010
   password: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
   port: 443
   server: 650f31b8-t9zts0-tkka1f-1k25p.uk.oshuawei.com
-  skip-cert-verify: true
-  sni: 650f31b8-t9zts0-tkka1f-1k25p.uk.oshuawei.com
   tls: true
   type: http
   udp: true
@@ -77,8 +76,24 @@ proxies:
 - name: 1|GB - zhuhai.uk
   password: a95e9198-0671-11f0-9426-f23c932f2c32
   port: 443
-  server: 75da2c41-thvs00-tjdj5q-azvy.cldvpuk.cdnbytescm.com
-  sni: 75da2c41-thvs00-tjdj5q-azvy.cldvpuk.cdnbytescm.com
+  server: c0a5bcb4-thtxc0-ths4hq-azvy.cldvpuk.cdnbytescm.com
+  sni: c0a5bcb4-thtxc0-ths4hq-azvy.cldvpuk.cdnbytescm.com
+  tls: true
+  type: http
+  username: a95e9198-0671-11f0-9426-f23c932f2c32
+- name: 1|GB - zhuhai.uk 02
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  sni: 37.120.233.34
+  tls: true
+  type: http
+- name: 1|GB - zhuhai.uk 04
+  password: a95e9198-0671-11f0-9426-f23c932f2c32
+  port: 443
+  server: d3ea7b20-ths2o0-ths4hq-azvy.cldvpuk.cdnbytescm.com
+  skip-cert-verify: true
+  sni: d3ea7b20-ths2o0-ths4hq-azvy.cldvpuk.cdnbytescm.com
   tls: true
   type: http
   username: a95e9198-0671-11f0-9426-f23c932f2c32
