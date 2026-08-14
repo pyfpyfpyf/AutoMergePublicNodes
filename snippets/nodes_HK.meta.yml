@@ -15,19 +15,20 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: 1|HK - zhuhai.uk
-  password: Og==
-  port: 20000
-  server: 59.38.113.185
-  type: socks5
-  username: Og==
-- name: 1|HK - zhuhai.uk 02
-  port: 443
-  server: hk40.240104.xyz
-  skip-cert-verify: true
-  sni: hk40.240104.xyz
-  tls: true
-  type: http
+- alterId: 0
+  cipher: auto
+  name: 1|HK - zhuhai.uk
+  port: 27104
+  server: 366-1095.rabbitpro-in-3.com
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+- alterId: 0
+  cipher: auto
+  name: 1|HK - zhuhai.uk 02
+  port: 29008
+  server: 366-1095.rabbitpro-in-3.com
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: movie
@@ -44,33 +45,9 @@ proxies:
   type: vless
   uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
 - name: 1|HK - zhuhai.uk 04
-  password: TW_3QZglKmlgzc9zBCDD5W8tQ==
-  port: 443
-  server: 45.144.136.244
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: anytls
-  udp: true
-- name: 1|HK - zhuhai.uk 05
-  password: '!!str 111'
-  port: 11211
-  server: 47.243.173.50
+  port: 10808
+  server: 123.58.219.171
   type: socks5
-  username: '111'
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: movie
-  name: 1|HK - zhuhai.uk 06
-  network: grpc
-  port: 10129
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk4-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
 - name: 1|HK - zhuhai.uk 01
   password: AE62539071
   port: 443
@@ -83,10 +60,22 @@ proxies:
   server: magical-kodiak.rooster465.autos
   type: trojan
   udp: true
+- name: 1|HK - zhuhai.uk 06
+  password: AE62539071
+  port: 443
+  server: strong-haddock.rooster465.autos
+  type: trojan
+  udp: true
 - name: 1|HK - zhuhai.uk 09
   password: AE62539071
   port: 443
   server: wealthy-loon.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|HK - zhuhai.uk 05
+  password: AE62539071
+  port: 443
+  server: humorous-parakeet.rooster465.autos
   type: trojan
   udp: true
 - name: 1|HK - zhuhai.uk 08

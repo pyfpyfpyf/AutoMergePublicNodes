@@ -7,27 +7,20 @@ proxies:
   sni: t11.qifei.app
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 1|JP - zhuhai.uk 06
-  network: grpc
-  port: 10034
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: jp4-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
-- name: 1|JP - zhuhai.uk 05
-  port: 443
-  server: fan.571589.xyz
-  skip-cert-verify: true
-  sni: fan.571589.xyz
-  tls: true
-  type: http
+- alterId: 0
+  cipher: auto
+  name: 1|JP - zhuhai.uk
+  port: 27124
+  server: 366-1095.rabbitpro-in-3.com
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+- alterId: 0
+  cipher: auto
+  name: 1|JP - zhuhai.uk 02
+  port: 27122
+  server: 366-1095.rabbitpro-in-3.com
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: update
@@ -38,20 +31,6 @@ proxies:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: 686c0ef0
   server: jp2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  uuid: 98525CD3-88F8-45AE-851A-B64327E39D2A
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 1|JP - zhuhai.uk 04
-  network: grpc
-  port: 10031
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: jp1-r.link-t7.com
   servername: s0.awsstatic.com
   tls: true
   type: vless
@@ -218,6 +197,12 @@ proxies:
   server: pure-kodiak.rooster465.autos
   type: trojan
   udp: true
+- name: 1|JP - zhuhai.uk 04
+  password: AE62539071
+  port: 443
+  server: modest-pup.rooster465.autos
+  type: trojan
+  udp: true
 - name: 1|JP - zhuhai.uk 16
   password: AE62539071
   port: 443
@@ -234,6 +219,12 @@ proxies:
   password: AE62539071
   port: 443
   server: grateful-crawdad.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|JP - zhuhai.uk 05
+  password: AE62539071
+  port: 443
+  server: climbing-frog.rooster465.autos
   type: trojan
   udp: true
 - name: 1|JP - zhuhai.uk 49
@@ -444,6 +435,12 @@ proxies:
   password: AE62539071
   port: 443
   server: charmed-fly.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|JP - zhuhai.uk 06
+  password: AE62539071
+  port: 443
+  server: known-albacore.rooster465.autos
   type: trojan
   udp: true
 - name: 1|JP - zhuhai.uk 08
