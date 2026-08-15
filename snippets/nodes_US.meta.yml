@@ -182,14 +182,16 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0135
+- name: 0,1|US - zhuhai.uk 04
   password: None
   port: 9002
   server: 138.199.35.204
   skip-cert-verify: true
+  sni: 138.199.35.204
   tls: true
   type: http
   udp: true
+  username: 'null'
 - name: 0|US_speednode_0136
   port: 9002
   server: 138.199.35.195
@@ -253,7 +255,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 04
+- name: 0|US_speednode_0144
   port: 9002
   server: 156.146.59.5
   skip-cert-verify: true
@@ -367,49 +369,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 1|US - zhuhai.uk
-  password: 'null'
-  port: 9002
-  server: 156.146.59.23
-  skip-cert-verify: true
-  sni: 156.146.59.23
-  tls: true
-  type: http
-  username: 'null'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 02
-  port: 45144
-  reality-opts:
-    public-key: AjPZ5Fc0UN1XyKjU9Y5Gektbs-Umv5OPabK1jhtw2nY
-    short-id: da2bdaad4438cbcb
-  server: 64.186.231.51
-  servername: ysvoic.com
-  tls: true
-  type: vless
-  uuid: 66a9f53a-c80b-428c-baad-80131fc3870f
 - name: 1|US - zhuhai.uk 03
-  port: 1080
-  server: 77.110.114.114
-  type: socks5
-- name: 1|US - zhuhai.uk 05
-  password: 7E62D6D5-1880-EAA4-96E9-FFD6E81B9446
-  port: 20045
-  server: oss-shanghai.micron-qwer.com
-  skip-cert-verify: true
-  sni: mpvideo.qpic.cn
-  tls: true
-  type: trojan
-- name: 1|US - zhuhai.uk 06
-  password: None
-  port: 9002
-  server: 156.146.59.50
-  skip-cert-verify: true
-  sni: 156.146.59.50
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 07
   password: 7E62D6D5-1880-EAA4-96E9-FFD6E81B9446
   port: 20044
   server: oss-shanghai.micron-qwer.com
@@ -417,6 +377,31 @@ proxies:
   sni: mpvideo.qpic.cn
   tls: true
   type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 02
+  port: 11094
+  reality-opts:
+    public-key: 9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk
+    short-id: a356addf
+  server: 51.81.223.225
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
+- name: 1|US - zhuhai.uk 05
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  sni: 138.199.35.204
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 07
+  password: FH72359861
+  port: 443
+  server: humorous-hawk.rooster465.autos
+  type: trojan
+  udp: true
 - name: 1|US - zhuhai.uk 01
   password: FH72359861
   port: 443
@@ -427,6 +412,12 @@ proxies:
   password: FH72359861
   port: 443
   server: neutral-quail.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|US - zhuhai.uk 06
+  password: FH72359861
+  port: 443
+  server: outgoing-lynx.rooster465.autos
   type: trojan
   udp: true
 - name: 1|US - zhuhai.uk 08
