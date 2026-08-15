@@ -15,15 +15,39 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- cipher: aes-256-gcm
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 1|HK - zhuhai.uk
+  port: 28144
+  reality-opts:
+    public-key: HBeH_uPYOMp9D7Mq1KxBzduX07OZ9C8rT4zSHNjiO3g
+    short-id: c1cd56a8
+  server: guzsasfreuivcluie44.gxsdfewocinexuxiqee.com
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 27b586fd-1d82-49ed-90c1-b4d859753fe4
+- cipher: aes-256-gcm
+  name: 1|HK - zhuhai.uk 02
   password: 9306aebe-da01-3301-8bf0-8d24a461674e
-  port: 18645
-  server: f.7.h.4.x.v.1.8.d.hk08-ae5.entry.v51124-4.qpon
+  port: 1814
+  server: x.2.w.9.p.e.y.8.d.hk05-ae5.entry.v51124-4.qpon
   type: ss
-- name: 1|HK - zhuhai.uk 02
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 03
+  port: 28142
+  reality-opts:
+    public-key: HBeH_uPYOMp9D7Mq1KxBzduX07OZ9C8rT4zSHNjiO3g
+    short-id: c1cd56a8
+  server: guzsasfreuivcluie42.gxsdfewocinexuxiqee.com
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 27b586fd-1d82-49ed-90c1-b4d859753fe4
+- name: 1|HK - zhuhai.uk 04
   password: 7E62D6D5-1880-EAA4-96E9-FFD6E81B9446
-  port: 20006
+  port: 20001
   server: oss-guangzhou.micron-qwer.com
   skip-cert-verify: true
   sni: mpvideo.qpic.cn
@@ -31,31 +55,16 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 1|HK - zhuhai.uk 03
+  name: 1|HK - zhuhai.uk 05
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
   type: vmess
-  uuid: d52b72b0-a509-490a-adae-23da2348d29c
+  uuid: fd15f1d9-a3f5-41e3-a755-f3e7bb32d78d
   ws-opts:
     headers:
-      Host: 82d16f3a12ad1d0871e0270510bf2ef6.mobgslb.tbcache.com
+      Host: 67102451140aedb1cbfa18e08d87aeeb.mobgslb.tbcache.com
     path: /
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 1|HK - zhuhai.uk 04
-  network: grpc
-  port: 10126
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: 95.40.100.129
-  servername: s0.awsstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: B1BF44DF-BADD-44EE-826A-12C27206993D
 - name: 1|HK - zhuhai.uk 08
   password: FH72359861
   port: 443
@@ -72,12 +81,6 @@ proxies:
   password: FH72359861
   port: 443
   server: modern-bedbug.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|HK - zhuhai.uk 05
-  password: FH72359861
-  port: 443
-  server: strong-haddock.rooster465.autos
   type: trojan
   udp: true
 - name: 1|HK - zhuhai.uk 07
