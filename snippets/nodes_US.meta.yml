@@ -49,10 +49,11 @@ proxies:
     headers:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: /
-- name: 0|US_speednode_0121
+- name: 0,1|US - zhuhai.uk 10
   port: 9002
   server: 138.199.35.215
   skip-cert-verify: true
+  sni: 138.199.35.215
   tls: true
   type: http
   udp: true
@@ -145,11 +146,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 02
+- name: 0|US_speednode_0130
   port: 9002
   server: 138.199.35.214
   skip-cert-verify: true
-  sni: 138.199.35.214
   tls: true
   type: http
   udp: true
@@ -161,7 +161,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0132
+- name: 0,1|US - zhuhai.uk 04
   port: 9002
   server: 138.199.35.220
   skip-cert-verify: true
@@ -191,11 +191,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 05
+- name: 0|US_speednode_0136
   port: 9002
   server: 138.199.35.195
   skip-cert-verify: true
-  sni: 138.199.35.195
   tls: true
   type: http
   udp: true
@@ -214,10 +213,11 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- name: 0|US_speednode_0138
+- name: 0,1|US - zhuhai.uk 13
   port: 9002
   server: 138.199.35.211
   skip-cert-verify: true
+  sni: 138.199.35.211
   tls: true
   type: http
   udp: true
@@ -299,10 +299,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0150
+- name: 0,1|US - zhuhai.uk 05
   port: 9002
   server: 156.146.59.31
   skip-cert-verify: true
+  sni: 156.146.59.31
   tls: true
   type: http
   udp: true
@@ -369,64 +370,91 @@ proxies:
   tls: true
   type: http
   udp: true
-- client-fingerprint: edge
+- client-fingerprint: random
   name: 1|US - zhuhai.uk
   network: ws
-  port: 2053
-  server: www.wto.org
-  servername: usa.105794.xyz
+  port: 8443
+  server: 172.64.229.148
+  servername: kv.074167.xyz
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
   ws-opts:
     headers:
-      Host: usa.105794.xyz
-    path: /download/v3/installer-x64.bin
+      Host: kv.074167.xyz
+    path: /?ed=2560
+- name: 1|US - zhuhai.uk 02
+  password: 2c1611f83747dd3694e0e90cbf7d4e29
+  port: 50160
+  server: 38.99.248.120
+  skip-cert-verify: true
+  sni: 38-99-248-120.liao.kdns.fr
+  type: hysteria2
 - name: 1|US - zhuhai.uk 03
-  port: 443
-  server: purecambogiasl.live
-  sni: purecambogiasl.live
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 04
   password: 'null'
   port: 9002
-  server: 156.146.59.21
+  server: 138.199.35.220
   skip-cert-verify: true
-  sni: 156.146.59.21
+  sni: 138.199.35.220
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 06
-  password: FH72359861
-  port: 443
-  server: outgoing-lynx.rooster465.autos
-  type: trojan
-  udp: true
+  password: None
+  port: 9002
+  server: 156.146.59.50
+  skip-cert-verify: true
+  sni: 156.146.59.50
+  tls: true
+  type: http
+  username: 'null'
 - name: 1|US - zhuhai.uk 07
-  password: FH72359861
+  password: None
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: random
+  name: 1|US - zhuhai.uk 08
+  network: ws
   port: 443
-  server: humorous-hawk.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|US - zhuhai.uk 10
-  password: FH72359861
-  port: 443
-  server: tough-tuna.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|US - zhuhai.uk 08
-  password: FH72359861
-  port: 443
-  server: dominant-jaguar.rooster465.autos
-  type: trojan
-  udp: true
+  server: 172.67.193.74
+  servername: testcf.motherfuck.dpdns.org
+  tls: true
+  type: vless
+  uuid: 2e67eff4-02ac-4a13-b695-4452465df6a1
+  ws-opts:
+    headers:
+      Host: testcf.motherfuck.dpdns.org
+    path: /?ed=2560
 - name: 1|US - zhuhai.uk 09
-  password: FH72359861
-  port: 443
-  server: neutral-quail.rooster465.autos
-  type: trojan
-  udp: true
+  password: None
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 11
+  password: 'null'
+  port: 9002
+  server: 156.146.59.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 12
+  password: None
+  port: 9002
+  server: 156.146.59.43
+  skip-cert-verify: true
+  sni: 156.146.59.43
+  tls: true
+  type: http
+  username: 'null'
 - name: 1|US - zhuhai.uk 01
   password: FH72359861
   port: 443
