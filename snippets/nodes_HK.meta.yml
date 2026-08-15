@@ -15,22 +15,57 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: 1|HK - zhuhai.uk
-  port: 443
-  server: hk40.240104.xyz
-  sni: hk40.240104.xyz
+- cipher: aes-256-gcm
+  name: 1|HK - zhuhai.uk
+  password: 9306aebe-da01-3301-8bf0-8d24a461674e
+  port: 18645
+  server: f.7.h.4.x.v.1.8.d.hk08-ae5.entry.v51124-4.qpon
+  type: ss
+- name: 1|HK - zhuhai.uk 02
+  password: 7E62D6D5-1880-EAA4-96E9-FFD6E81B9446
+  port: 20006
+  server: oss-guangzhou.micron-qwer.com
+  skip-cert-verify: true
+  sni: mpvideo.qpic.cn
   tls: true
-  type: http
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 1|HK - zhuhai.uk 03
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: d52b72b0-a509-490a-adae-23da2348d29c
+  ws-opts:
+    headers:
+      Host: 82d16f3a12ad1d0871e0270510bf2ef6.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  name: 1|HK - zhuhai.uk 04
+  network: grpc
+  port: 10126
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: 95.40.100.129
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: B1BF44DF-BADD-44EE-826A-12C27206993D
 - name: 1|HK - zhuhai.uk 08
   password: FH72359861
   port: 443
   server: growing-oyster.rooster465.autos
   type: trojan
   udp: true
-- name: 1|HK - zhuhai.uk 05
+- name: 1|HK - zhuhai.uk 06
   password: FH72359861
   port: 443
-  server: strong-haddock.rooster465.autos
+  server: dynamic-grubworm.rooster465.autos
   type: trojan
   udp: true
 - name: 1|HK - zhuhai.uk 01
@@ -39,33 +74,15 @@ proxies:
   server: modern-bedbug.rooster465.autos
   type: trojan
   udp: true
+- name: 1|HK - zhuhai.uk 05
+  password: FH72359861
+  port: 443
+  server: strong-haddock.rooster465.autos
+  type: trojan
+  udp: true
 - name: 1|HK - zhuhai.uk 07
   password: FH72359861
   port: 443
   server: smiling-ray.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|HK - zhuhai.uk 02
-  password: FH72359861
-  port: 443
-  server: amused-peacock.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|HK - zhuhai.uk 03
-  password: FH72359861
-  port: 443
-  server: choice-worm.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|HK - zhuhai.uk 04
-  password: FH72359861
-  port: 443
-  server: natural-swan.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|HK - zhuhai.uk 06
-  password: FH72359861
-  port: 443
-  server: dynamic-grubworm.rooster465.autos
   type: trojan
   udp: true
