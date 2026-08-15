@@ -23,24 +23,59 @@ proxies:
   sni: t11.qifei.app
   type: trojan
   udp: true
+- cipher: aes-256-gcm
+  name: 1|GB - zhuhai.uk
+  password: f552e8bf-9b43-3654-8efa-b7cb366431e8
+  port: 20021
+  server: l.d.o.g.n.x.z.9.6.gb01-ae5.entry.v51124-3a.qpon
+  type: ss
+- cipher: aes-256-gcm
+  name: 1|HK - zhuhai.uk 02
+  password: b27f5f6f-8bd6-318a-a922-292df69fe38a
+  port: 14562
+  server: m.u.g.8.9.n.4.8.d.hk02-ae5.entry.v51124-4.qpon
+  type: ss
+- name: 1|HK - zhuhai.uk 03
+  password: 7E62D6D5-1880-EAA4-96E9-FFD6E81B9446
+  port: 20005
+  server: oss-guangzhou.micron-qwer.com
+  skip-cert-verify: true
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
 - name: 1|US - zhuhai.uk 09
+  password: 7E62D6D5-1880-EAA4-96E9-FFD6E81B9446
+  port: 20047
+  server: oss-shanghai.micron-qwer.com
+  skip-cert-verify: true
+  sni: mpvideo.qpic.cn
+  tls: true
+  type: trojan
+- cipher: aes-256-gcm
+  name: 1|HK - zhuhai.uk 04
+  password: 9306aebe-da01-3301-8bf0-8d24a461674e
+  port: 762
+  server: w.7.o.b.o.b.m.8.d.hk03-ae5.entry.v51124-4.qpon
+  type: ss
+- cipher: aes-256-gcm
+  name: 1|AR - zhuhai.uk
+  password: b27f5f6f-8bd6-318a-a922-292df69fe38a
+  port: 20027
+  server: m.h.g.r.u.r.4.8.d.ar01-ae5.entry.v51124-4.qpon
+  type: ss
+- name: 1|JP - zhuhai.uk 02
   password: FH72359861
   port: 443
-  server: neutral-quail.rooster465.autos
+  server: helping-shark.rooster465.autos
+  sni: helping-shark.rooster465.autos
+  tls: true
   type: trojan
-  udp: true
-- name: 1|US - zhuhai.uk 10
-  password: FH72359861
-  port: 443
-  server: tough-tuna.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|US - zhuhai.uk 08
-  password: FH72359861
-  port: 443
-  server: dominant-jaguar.rooster465.autos
-  type: trojan
-  udp: true
+- cipher: aes-256-gcm
+  name: 1|US - zhuhai.uk 14
+  password: b27f5f6f-8bd6-318a-a922-292df69fe38a
+  port: 20012
+  server: m.x.2.t.y.l.4.8.d.us01-ae5.entry.v51124-4.qpon
+  type: ss
 - name: 1|NL - zhuhai.uk 02
   password: FH72359861
   port: 443
@@ -539,12 +574,6 @@ proxies:
   server: united-sculpin.rooster465.autos
   type: trojan
   udp: true
-- name: 1|JP - zhuhai.uk 02
-  password: FH72359861
-  port: 443
-  server: living-hagfish.rooster465.autos
-  type: trojan
-  udp: true
 - name: 1|JP - zhuhai.uk 04
   password: FH72359861
   port: 443
@@ -887,34 +916,10 @@ proxies:
   server: smiling-ray.rooster465.autos
   type: trojan
   udp: true
-- name: 1|HK - zhuhai.uk 02
-  password: FH72359861
-  port: 443
-  server: amused-peacock.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|HK - zhuhai.uk 03
-  password: FH72359861
-  port: 443
-  server: choice-worm.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|HK - zhuhai.uk 04
-  password: FH72359861
-  port: 443
-  server: natural-swan.rooster465.autos
-  type: trojan
-  udp: true
 - name: 1|HK - zhuhai.uk 06
   password: FH72359861
   port: 443
   server: dynamic-grubworm.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|KR - zhuhai.uk 02
-  password: FH72359861
-  port: 443
-  server: massive-ocelot.rooster465.autos
   type: trojan
   udp: true
 - name: 1|AU - zhuhai.uk 03

@@ -1,16 +1,17 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 1|SG - zhuhai.uk
+  network: ws
   port: 443
-  reality-opts:
-    public-key: X2V5laU4uPwp3_AZnSv6gJEq-BftxoNZnZBPYkVJchI
-    short-id: ddd74b6f896ad665
-  server: sg3.laodavip.com
-  servername: sg3.laodavip.com
+  server: cfyes.lxy1015.top
+  servername: lx-1sg.lxy1015.top
   tls: true
   type: vless
-  uuid: acc89b18-5ca3-4df9-97cf-c959e080cd20
+  uuid: b70c77c7-5a9f-42af-8c98-fd78a1f7144b
+  ws-opts:
+    headers:
+      Host: lx-1sg.lxy1015.top
+    path: /liangxin/sg1
 - name: 1|SG - zhuhai.uk 40
   password: FH72359861
   port: 443
