@@ -1,27 +1,36 @@
 proxies:
-- name: 1|SG - zhuhai.uk
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 56277
-  server: yzany01.jdoanst2026.com
-  sni: xjp03.ascwt179.com
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|SG - zhuhai.uk 02
-  port: 443
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: update
+  name: 1|SG - zhuhai.uk
+  network: grpc
+  port: 10038
   reality-opts:
-    public-key: X2V5laU4uPwp3_AZnSv6gJEq-BftxoNZnZBPYkVJchI
-    short-id: ddd74b6f896ad665
-  server: sg3.laodavip.com
-  servername: sg3.laodavip.com
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg3-r.link-t7.com
+  servername: d1.awsstatic.com
   tls: true
   type: vless
-  uuid: acc89b18-5ca3-4df9-97cf-c959e080cd20
-- name: 1|SG - zhuhai.uk 41
+  uuid: F5363530-7194-486B-BF2C-9AF7E75F6543
+- client-fingerprint: chrome
+  name: 1|SG - zhuhai.uk 02
+  network: ws
+  port: 443
+  server: 172.67.69.106
+  servername: zero.csmaster.ggff.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
+  ws-opts:
+    headers:
+      Host: zero.csmaster.ggff.net
+    path: /
+- name: 1|SG - zhuhai.uk 22
   password: FH72359861
   port: 443
-  server: guided-ferret.rooster465.autos
+  server: boss-sailfish.rooster465.autos
   type: trojan
   udp: true
 - name: 1|SG - zhuhai.uk 13
@@ -30,46 +39,10 @@ proxies:
   server: integral-quetzal.rooster465.autos
   type: trojan
   udp: true
-- name: 1|SG - zhuhai.uk 24
+- name: 1|SG - zhuhai.uk 17
   password: FH72359861
   port: 443
-  server: casual-basilisk.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|SG - zhuhai.uk 36
-  password: FH72359861
-  port: 443
-  server: funny-hawk.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|SG - zhuhai.uk 19
-  password: FH72359861
-  port: 443
-  server: exciting-turtle.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|SG - zhuhai.uk 11
-  password: FH72359861
-  port: 443
-  server: charming-ox.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|SG - zhuhai.uk 22
-  password: FH72359861
-  port: 443
-  server: boss-sailfish.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|SG - zhuhai.uk 25
-  password: FH72359861
-  port: 443
-  server: relative-labrador.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|SG - zhuhai.uk 21
-  password: FH72359861
-  port: 443
-  server: topical-shark.rooster465.autos
+  server: worthy-perch.rooster465.autos
   type: trojan
   udp: true
 - name: 1|SG - zhuhai.uk 31
@@ -78,10 +51,34 @@ proxies:
   server: immune-grackle.rooster465.autos
   type: trojan
   udp: true
+- name: 1|SG - zhuhai.uk 11
+  password: FH72359861
+  port: 443
+  server: charming-ox.rooster465.autos
+  type: trojan
+  udp: true
 - name: 1|SG - zhuhai.uk 35
   password: FH72359861
   port: 443
   server: noted-bass.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|SG - zhuhai.uk 25
+  password: FH72359861
+  port: 443
+  server: relative-labrador.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|SG - zhuhai.uk 36
+  password: FH72359861
+  port: 443
+  server: funny-hawk.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|SG - zhuhai.uk 41
+  password: FH72359861
+  port: 443
+  server: guided-ferret.rooster465.autos
   type: trojan
   udp: true
 - name: 1|SG - zhuhai.uk 37
@@ -96,15 +93,21 @@ proxies:
   server: massive-terrapin.rooster465.autos
   type: trojan
   udp: true
+- name: 1|SG - zhuhai.uk 24
+  password: FH72359861
+  port: 443
+  server: casual-basilisk.rooster465.autos
+  type: trojan
+  udp: true
 - name: 1|SG - zhuhai.uk 23
   password: FH72359861
   port: 443
   server: stable-racer.rooster465.autos
   type: trojan
   udp: true
-- name: 1|SG - zhuhai.uk 17
+- name: 1|SG - zhuhai.uk 19
   password: FH72359861
   port: 443
-  server: worthy-perch.rooster465.autos
+  server: exciting-turtle.rooster465.autos
   type: trojan
   udp: true
