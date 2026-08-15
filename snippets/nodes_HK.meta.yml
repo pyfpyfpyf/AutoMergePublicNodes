@@ -16,11 +16,10 @@ proxies:
   type: trojan
   udp: true
 - name: 1|HK - zhuhai.uk
-  password: 2fd892b8-4f6c-4597-977e-85ec8a82c7a1
-  port: 448
-  server: 119.147.134.47
-  skip-cert-verify: true
-  sni: ssp.vivo.com.cn
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: 51178
+  server: yzany01.jdoanst2026.com
+  sni: hk09.alytest.cc
   type: anytls
   udp: true
 - alterId: 0
@@ -35,18 +34,12 @@ proxies:
     headers:
       Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 1|HK - zhuhai.uk 03
-  network: ws
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
-  type: vmess
-  uuid: 6d27fe18-4e19-4b4e-8f47-e05a85414f0d
-  ws-opts:
-    headers:
-      Host: a7fbf12df555e5e8a99fc901525aaa76.mobgslb.tbcache.com
-    path: /
+- name: 1|HK - zhuhai.uk 03
+  password: Og==
+  port: 20000
+  server: 59.38.113.185
+  type: socks5
+  username: Og==
 - name: 1|HK - zhuhai.uk 08
   password: FH72359861
   port: 443
