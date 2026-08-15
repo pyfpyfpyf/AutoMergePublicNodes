@@ -1,30 +1,30 @@
 proxies:
-- name: 0,1|NL - zhuhai.uk 02
+- name: 0|FR_speednode_0002
   port: 23856
   server: 51.159.225.196
   skip-cert-verify: true
-  sni: 51.159.225.196
   tls: true
   type: http
   udp: true
 - name: 1|FR - zhuhai.uk
   password: freeuser1
   port: 9251
-  server: fr003.freeconnect.link
-  sni: fr003.freeconnect.link
+  server: fr012.freeconnect.link
   tls: true
   type: http
   username: freeuser1
 - name: 1|FR - zhuhai.uk 02
+  password: freeuser1
+  port: 9251
+  server: fr017.freeconnect.link
+  sni: fr017.freeconnect.link
+  tls: true
+  type: http
+  username: freeuser1
+- name: 1|FR - zhuhai.uk 01
   password: FH72359861
   port: 443
-  server: tough-hermit.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|FR - zhuhai.uk 03
-  password: FH72359861
-  port: 443
-  server: correct-pony.rooster465.autos
+  server: nearby-cod.rooster465.autos
   type: trojan
   udp: true
 - name: 1|FR - zhuhai.uk 05
@@ -33,16 +33,16 @@ proxies:
   server: smiling-fowl.rooster465.autos
   type: trojan
   udp: true
+- name: 1|FR - zhuhai.uk 03
+  password: FH72359861
+  port: 443
+  server: correct-pony.rooster465.autos
+  type: trojan
+  udp: true
 - name: 1|FR - zhuhai.uk 04
   password: FH72359861
   port: 443
   server: careful-tadpole.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|FR - zhuhai.uk 01
-  password: FH72359861
-  port: 443
-  server: nearby-cod.rooster465.autos
   type: trojan
   udp: true
 - name: 1|FR - zhuhai.uk 06
