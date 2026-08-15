@@ -1,32 +1,23 @@
 proxies:
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: update
-  name: 1|SG - zhuhai.uk
-  network: grpc
-  port: 10038
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg3-r.link-t7.com
-  servername: d1.awsstatic.com
-  tls: true
-  type: vless
-  uuid: F5363530-7194-486B-BF2C-9AF7E75F6543
 - client-fingerprint: chrome
-  name: 1|SG - zhuhai.uk 02
-  network: ws
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk
   port: 443
-  server: 172.67.69.106
-  servername: zero.csmaster.ggff.net
+  reality-opts:
+    public-key: I2PQq5bidT2RjVCJt2r-eSVpLNY61quSYgS2dseomF8
+    short-id: 1dd8558159ecd0
+  server: sg4.miyazono-kaori.com
+  servername: www.changiairport.com
   skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
-  ws-opts:
-    headers:
-      Host: zero.csmaster.ggff.net
-    path: /
+  uuid: bcab5741-d9bd-4f9d-9413-b13e8cbdf064
+- name: 1|SG - zhuhai.uk 02
+  password: pass
+  port: 1080
+  server: 47.237.78.169
+  type: socks5
+  username: user
 - name: 1|SG - zhuhai.uk 22
   password: FH72359861
   port: 443
