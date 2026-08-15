@@ -145,10 +145,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0130
+- name: 0,1|US - zhuhai.uk 02
   port: 9002
   server: 138.199.35.214
   skip-cert-verify: true
+  sni: 138.199.35.214
   tls: true
   type: http
   udp: true
@@ -190,10 +191,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0136
+- name: 0,1|US - zhuhai.uk 05
   port: 9002
   server: 138.199.35.195
   skip-cert-verify: true
+  sni: 138.199.35.195
   tls: true
   type: http
   udp: true
@@ -212,14 +214,14 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- name: 0,1|US - zhuhai.uk 11
+- name: 0|US_speednode_0138
   port: 9002
   server: 138.199.35.211
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 06
+- name: 0|US_speednode_0139
   port: 9002
   server: 138.199.35.199
   skip-cert-verify: true
@@ -282,14 +284,14 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 03
+- name: 0|US_speednode_0148
   port: 9002
   server: 156.146.59.9
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk
+- name: 0|US_speednode_0149
   password: None
   port: 9002
   server: 156.146.59.19
@@ -297,7 +299,6 @@ proxies:
   tls: true
   type: http
   udp: true
-  username: 'null'
 - name: 0|US_speednode_0150
   port: 9002
   server: 156.146.59.31
@@ -368,55 +369,64 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 1|US - zhuhai.uk 02
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
+- client-fingerprint: edge
+  name: 1|US - zhuhai.uk
+  network: ws
+  port: 2053
+  server: www.wto.org
+  servername: usa.105794.xyz
+  tls: true
+  type: vless
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  ws-opts:
+    headers:
+      Host: usa.105794.xyz
+    path: /download/v3/installer-x64.bin
+- name: 1|US - zhuhai.uk 03
+  port: 443
+  server: purecambogiasl.live
+  sni: purecambogiasl.live
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 04
+  password: 'null'
   port: 9002
-  server: 138.199.35.207
+  server: 156.146.59.21
   skip-cert-verify: true
+  sni: 156.146.59.21
   tls: true
   type: http
-- client-fingerprint: random
-  name: 1|US - zhuhai.uk 05
-  network: ws
-  port: 2083
-  server: 172.67.193.74
-  servername: testcf.motherfuck.dpdns.org
-  tls: true
-  type: vless
-  uuid: 2e67eff4-02ac-4a13-b695-4452465df6a1
-  ws-opts:
-    headers:
-      Host: testcf.motherfuck.dpdns.org
-    path: /?ed=2560
+  username: 'null'
+- name: 1|US - zhuhai.uk 06
+  password: FH72359861
+  port: 443
+  server: outgoing-lynx.rooster465.autos
+  type: trojan
+  udp: true
 - name: 1|US - zhuhai.uk 07
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  tls: true
-  type: http
+  password: FH72359861
+  port: 443
+  server: humorous-hawk.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|US - zhuhai.uk 10
+  password: FH72359861
+  port: 443
+  server: tough-tuna.rooster465.autos
+  type: trojan
+  udp: true
 - name: 1|US - zhuhai.uk 08
-  port: 9002
-  server: 156.146.59.20
-  skip-cert-verify: true
-  tls: true
-  type: http
+  password: FH72359861
+  port: 443
+  server: dominant-jaguar.rooster465.autos
+  type: trojan
+  udp: true
 - name: 1|US - zhuhai.uk 09
   password: FH72359861
   port: 443
-  server: communal-squid.rooster465.autos
-  tls: true
+  server: neutral-quail.rooster465.autos
   type: trojan
-- name: 1|US - zhuhai.uk 10
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
+  udp: true
 - name: 1|US - zhuhai.uk 01
   password: FH72359861
   port: 443
