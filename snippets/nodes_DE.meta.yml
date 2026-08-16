@@ -1,51 +1,36 @@
 proxies:
-- name: 0|DE_speednode_0001
+- name: 0,1|DE - zhuhai.uk
   password: e4b72b531a2d10900519
   port: 443
   server: 167.172.172.190
   skip-cert-verify: true
+  sni: a7acacbe.acsnet.co
   tls: true
   type: http
   udp: true
   username: testuser1
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk
-  port: 443
-  reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: 00bca5982f82d083
-  server: 217.60.68.196
-  servername: eu-central.cendora.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: 1|DE - zhuhai.uk 02
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: 443
-  server: de48.mechvpn.online
-  skip-cert-verify: true
-  sni: de48.mechvpn.online
-  type: hysteria2
 - client-fingerprint: firefox
-  name: 1|DE - zhuhai.uk 03
-  port: 33843
-  server: 87.120.84.32
-  servername: deproxy2.lckdwn.ru
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk 02
+  port: 2027
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: 8d3293f0066e129a
+  server: 78.159.247.253
+  servername: storage.yandex.net
   tls: true
   type: vless
-  uuid: 93dac4b8-3879-4179-abdb-9666a9e2ca8d
-- name: 1|DE - zhuhai.uk 04
-  port: 443
-  server: fan.973511.xyz
-  sni: fan.973511.xyz
-  tls: true
-  type: http
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
 - name: 1|DE - zhuhai.uk 01
   password: PQ05174892
   port: 443
   server: fine-elf.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|DE - zhuhai.uk 04
+  password: PQ05174892
+  port: 443
+  server: many-cricket.rooster465.autos
   type: trojan
   udp: true
 - name: 1|DE - zhuhai.uk 07
@@ -64,5 +49,11 @@ proxies:
   password: PQ05174892
   port: 443
   server: rapid-firefly.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|DE - zhuhai.uk 03
+  password: PQ05174892
+  port: 443
+  server: usable-dogfish.rooster465.autos
   type: trojan
   udp: true
