@@ -1,8 +1,18 @@
 proxies:
 - name: 1|SG - zhuhai.uk
-  port: 10808
-  server: 45.43.63.37
-  type: socks5
+  password: ca0e6830aee0eb1c775734c4ab91b573
+  port: 50160
+  server: 213-35-102-40.liao.kdns.fr
+  sni: 213-35-102-40.liao.kdns.fr
+  type: hysteria2
+- name: 1|SG - zhuhai.uk 02
+  password: ac466a42-4623-42ad-a5a4-b747dd8763f9
+  port: 56762
+  server: 665.zlstar.sbs
+  skip-cert-verify: true
+  sni: 665.zlstar.sbs
+  type: anytls
+  udp: true
 - name: 1|SG - zhuhai.uk 31
   password: FH72359861
   port: 443
