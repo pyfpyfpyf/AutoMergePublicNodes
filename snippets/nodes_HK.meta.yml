@@ -15,23 +15,33 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk
-  port: 13443
+- name: 1|HK - zhuhai.uk
+  password: '!!str 123'
+  port: 3060
+  server: 43.100.43.112
+  type: socks5
+  username: '123'
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  name: 1|HK - zhuhai.uk 02
+  network: grpc
+  port: 10126
   reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: a7f3c91b2e6d84c0
-  server: 114.29.238.251
-  servername: auto.cendora.ru
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: 95.40.100.129
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  uuid: B1BF44DF-BADD-44EE-826A-12C27206993D
 - name: 1|HK - zhuhai.uk 03
-  password: PQ05174892
-  port: 443
-  server: smiling-ray.rooster465.autos
-  type: trojan
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: 24318
+  server: yzany01.jdoanst2026.com
+  sni: hk08.alytest.cc
+  type: anytls
   udp: true
 - name: 1|HK - zhuhai.uk 01
   password: PQ05174892
@@ -55,12 +65,6 @@ proxies:
   password: PQ05174892
   port: 443
   server: wealthy-loon.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|HK - zhuhai.uk 02
-  password: PQ05174892
-  port: 443
-  server: ideal-robin.rooster465.autos
   type: trojan
   udp: true
 - name: 1|HK - zhuhai.uk 06
