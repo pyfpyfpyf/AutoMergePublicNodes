@@ -174,14 +174,16 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0134
+- name: 0,1|US - zhuhai.uk 04
   password: None
   port: 9002
   server: 138.199.35.209
   skip-cert-verify: true
+  sni: 138.199.35.209
   tls: true
   type: http
   udp: true
+  username: 'null'
 - name: 0|US_speednode_0135
   password: None
   port: 9002
@@ -369,9 +371,9 @@ proxies:
   udp: true
 - name: 1|US - zhuhai.uk
   port: 443
-  server: fan.365747.xyz
+  server: jewelscollecti.icu
   skip-cert-verify: true
-  sni: fan.365747.xyz
+  sni: jewelscollecti.icu
   tls: true
   type: http
 - client-fingerprint: ios
@@ -381,70 +383,53 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-  server: 169.40.42.35
-  servername: yahoo.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: 1|US - zhuhai.uk 03
-  password: freeuser1
-  port: 9251
-  server: dl1-us.freeconnect.link
-  skip-cert-verify: true
-  sni: dl1-us.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
-- name: 1|US - zhuhai.uk 04
-  password: 'null'
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 05
-  port: 443
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  sni: jewelscollecti.icu
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 06
-  password: None
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 07
-  password: 'null'
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 08
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 09
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
   server: 169.40.42.231
   servername: yahoo.com
   tls: true
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- name: 1|US - zhuhai.uk 03
+  port: 9002
+  server: 156.146.59.16
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 05
+  password: 'null'
+  port: 9002
+  server: 156.146.59.28
+  skip-cert-verify: true
+  sni: 156.146.59.28
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 06
+  port: 9002
+  server: 156.146.59.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 07
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.89
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- name: 1|US - zhuhai.uk 08
+  password: 'null'
+  port: 9002
+  server: 156.146.59.41
+  skip-cert-verify: true
+  sni: 156.146.59.41
+  tls: true
+  type: http
+  username: 'null'
 - name: 1|US - zhuhai.uk 01
   password: PQ05174892
   port: 443
@@ -455,5 +440,11 @@ proxies:
   password: PQ05174892
   port: 443
   server: mature-lamprey.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|US - zhuhai.uk 09
+  password: PQ05174892
+  port: 443
+  server: comic-poodle.rooster465.autos
   type: trojan
   udp: true
