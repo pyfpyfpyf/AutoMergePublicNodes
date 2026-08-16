@@ -16,14 +16,13 @@ proxies:
   type: trojan
   udp: true
 - name: 1|HK - zhuhai.uk
-  port: 20000
-  server: 112.90.88.102
-  type: socks5
-- name: 1|HK - zhuhai.uk 02
-  port: 20000
-  server: 59.38.113.185
-  type: socks5
-  username: VDJjOVBUcFBaejA5Og==
+  password: 3QZglKmlgzc9zBCDD5W8tQ==
+  port: 443
+  server: 45.144.136.244
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: anytls
+  udp: true
 - name: 1|HK - zhuhai.uk 01
   password: FH72359861
   port: 443
@@ -34,6 +33,12 @@ proxies:
   password: FH72359861
   port: 443
   server: strong-haddock.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|HK - zhuhai.uk 02
+  password: FH72359861
+  port: 443
+  server: amused-peacock.rooster465.autos
   type: trojan
   udp: true
 - name: 1|HK - zhuhai.uk 07

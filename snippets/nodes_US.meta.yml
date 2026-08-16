@@ -212,7 +212,7 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- name: 0|US_speednode_0138
+- name: 0,1|US - zhuhai.uk 06
   port: 9002
   server: 138.199.35.211
   skip-cert-verify: true
@@ -360,59 +360,48 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0159
+- name: 0,1|US - zhuhai.uk 04
   port: 9002
   server: 156.146.59.11
   skip-cert-verify: true
+  sni: 156.146.59.11
   tls: true
   type: http
   udp: true
 - name: 1|US - zhuhai.uk
-  port: 443
-  server: carolinafreigh.fun
-  sni: carolinafreigh.fun
-  tls: true
-  type: http
-- client-fingerprint: random
-  name: 1|US - zhuhai.uk 02
-  network: ws
-  port: 443
-  server: 172.67.193.74
-  servername: testcf.motherfuck.dpdns.org
-  tls: true
-  type: vless
-  uuid: 2e67eff4-02ac-4a13-b695-4452465df6a1
-  ws-opts:
-    headers:
-      Host: testcf.motherfuck.dpdns.org
-    path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 03
-  port: 11094
-  reality-opts:
-    public-key: 9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk
-    short-id: a356addf
-  server: 51.81.223.225
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 1|US - zhuhai.uk 04
-  password: freeuser1
-  port: 9251
-  server: dl1-us.freeconnect.link
-  skip-cert-verify: true
-  sni: dl1-us.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
-- name: 1|US - zhuhai.uk 05
   port: 9002
-  server: 138.199.35.196
+  server: 156.146.59.12
   skip-cert-verify: true
   tls: true
   type: http
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 02
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.89
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- name: 1|US - zhuhai.uk 03
+  password: 'null'
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 05
+  password: None
+  port: 9002
+  server: 156.146.59.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
 - name: 1|US - zhuhai.uk 09
   password: FH72359861
   port: 443
@@ -423,12 +412,6 @@ proxies:
   password: FH72359861
   port: 443
   server: comic-poodle.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|US - zhuhai.uk 06
-  password: FH72359861
-  port: 443
-  server: outgoing-lynx.rooster465.autos
   type: trojan
   udp: true
 - name: 1|US - zhuhai.uk 08
