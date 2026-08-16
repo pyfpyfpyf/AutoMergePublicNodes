@@ -239,11 +239,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 09
+- name: 0|US_speednode_0142
   port: 9002
   server: 156.146.59.4
   skip-cert-verify: true
-  sni: 156.146.59.4
   tls: true
   type: http
   udp: true
@@ -283,7 +282,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk
+- name: 0|US_speednode_0148
   port: 9002
   server: 156.146.59.9
   skip-cert-verify: true
@@ -368,28 +367,17 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 1|US - zhuhai.uk 02
-  password: 'null'
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  sni: 138.199.35.199
+- name: 1|US - zhuhai.uk
+  port: 443
+  server: carolinafreigh.fun
+  sni: carolinafreigh.fun
   tls: true
   type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 03
-  password: 'null'
-  port: 9002
-  server: 156.146.59.7
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
 - client-fingerprint: random
-  name: 1|US - zhuhai.uk 04
+  name: 1|US - zhuhai.uk 02
   network: ws
-  port: 2053
-  server: 172.67.194.48
+  port: 443
+  server: 172.67.193.74
   servername: testcf.motherfuck.dpdns.org
   tls: true
   type: vless
@@ -398,44 +386,66 @@ proxies:
     headers:
       Host: testcf.motherfuck.dpdns.org
     path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 03
+  port: 11094
+  reality-opts:
+    public-key: 9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk
+    short-id: a356addf
+  server: 51.81.223.225
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
+- name: 1|US - zhuhai.uk 04
+  password: freeuser1
+  port: 9251
+  server: dl1-us.freeconnect.link
+  skip-cert-verify: true
+  sni: dl1-us.freeconnect.link
+  tls: true
+  type: http
+  username: freeuser1
 - name: 1|US - zhuhai.uk 05
-  password: ac466a42-4623-42ad-a5a4-b747dd8763f9
-  port: 24532
-  server: 662.zlstar.sbs
+  port: 9002
+  server: 138.199.35.196
   skip-cert-verify: true
-  sni: 662.zlstar.sbs
-  type: anytls
-  udp: true
-- name: 1|US - zhuhai.uk 06
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 09
+  password: FH72359861
   port: 443
-  server: fan.365747.xyz
-  sni: fan.365747.xyz
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 07
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  sni: 138.199.35.216
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 08
-  port: 9002
-  server: 156.146.59.30
-  skip-cert-verify: true
-  tls: true
-  type: http
+  server: neutral-quail.rooster465.autos
+  type: trojan
+  udp: true
 - name: 1|US - zhuhai.uk 01
   password: FH72359861
   port: 443
   server: comic-poodle.rooster465.autos
   type: trojan
   udp: true
+- name: 1|US - zhuhai.uk 06
+  password: FH72359861
+  port: 443
+  server: outgoing-lynx.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|US - zhuhai.uk 08
+  password: FH72359861
+  port: 443
+  server: dominant-jaguar.rooster465.autos
+  type: trojan
+  udp: true
 - name: 1|US - zhuhai.uk 10
   password: FH72359861
   port: 443
   server: tough-tuna.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|US - zhuhai.uk 07
+  password: FH72359861
+  port: 443
+  server: humorous-hawk.rooster465.autos
   type: trojan
   udp: true
