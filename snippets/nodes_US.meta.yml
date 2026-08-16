@@ -174,14 +174,16 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0134
+- name: 0,1|US - zhuhai.uk
   password: None
   port: 9002
   server: 138.199.35.209
   skip-cert-verify: true
+  sni: 138.199.35.209
   tls: true
   type: http
   udp: true
+  username: 'null'
 - name: 0|US_speednode_0135
   password: None
   port: 9002
@@ -253,10 +255,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0144
+- name: 0,1|US - zhuhai.uk 05
   port: 9002
   server: 156.146.59.5
   skip-cert-verify: true
+  sni: 156.146.59.5
   tls: true
   type: http
   udp: true
@@ -367,81 +370,70 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 1|US - zhuhai.uk
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 1|US - zhuhai.uk 02
-  port: 443
-  server: efr-marktplatz.club
-  sni: efr-marktplatz.club
+  password: 'null'
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  sni: 138.199.35.196
   tls: true
   type: http
+  username: 'null'
 - name: 1|US - zhuhai.uk 03
-  password: 'null'
   port: 9002
-  server: 156.146.59.16
+  server: 156.146.59.7
   skip-cert-verify: true
-  sni: 156.146.59.16
+  sni: 156.146.59.7
   tls: true
   type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 04
-  password: 'null'
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  sni: 138.199.35.200
+- client-fingerprint: firefox
+  name: 1|US - zhuhai.uk 04
+  port: 8443
+  server: 177.3.212.127
+  servername: neth6.lckdwn.ru
   tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 05
-  password: 'null'
-  port: 9002
-  server: 156.146.59.30
+  type: vless
+  uuid: 14da77da-4fb3-4e49-ac4f-7881ea19b267
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 06
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.74
+  servername: yahoo.com
   skip-cert-verify: true
   tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 06
-  port: 22222
-  server: 193.25.215.182
-  type: socks5
-- name: 1|US - zhuhai.uk 07
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  sni: 138.199.35.204
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 08
-  password: 'null'
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  sni: 138.199.35.205
-  tls: true
-  type: http
-  username: 'null'
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - name: 1|US - zhuhai.uk 09
-  password: 'null'
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
+  password: FH72359861
+  port: 443
+  server: neutral-quail.rooster465.autos
+  type: trojan
+  udp: true
 - name: 1|US - zhuhai.uk 01
   password: FH72359861
   port: 443
   server: comic-poodle.rooster465.autos
   type: trojan
   udp: true
+- name: 1|US - zhuhai.uk 08
+  password: FH72359861
+  port: 443
+  server: dominant-jaguar.rooster465.autos
+  type: trojan
+  udp: true
 - name: 1|US - zhuhai.uk 10
   password: FH72359861
   port: 443
   server: tough-tuna.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|US - zhuhai.uk 07
+  password: FH72359861
+  port: 443
+  server: humorous-hawk.rooster465.autos
   type: trojan
   udp: true
