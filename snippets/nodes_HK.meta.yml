@@ -16,26 +16,17 @@ proxies:
   type: trojan
   udp: true
 - name: 1|HK - zhuhai.uk
-  password: '!!str 123'
-  port: 3060
-  server: 43.100.43.112
+  port: 20000
+  server: 112.90.88.102
   type: socks5
-  username: '123'
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 1|HK - zhuhai.uk 02
-  network: grpc
-  port: 10126
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: 95.40.100.129
-  servername: s0.awsstatic.com
+- name: 1|HK - zhuhai.uk 02
+  password: 2fd892b8-4f6c-4597-977e-85ec8a82c7a1
+  port: 448
+  server: 119.147.134.47
   skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: B1BF44DF-BADD-44EE-826A-12C27206993D
+  sni: ssp.vivo.com.cn
+  type: anytls
+  udp: true
 - name: 1|HK - zhuhai.uk 01
   password: FH72359861
   port: 443
