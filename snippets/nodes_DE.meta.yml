@@ -9,46 +9,60 @@ proxies:
   udp: true
   username: testuser1
 - client-fingerprint: qq
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
+  flow: xtls-rprx-vision
   name: 1|DE - zhuhai.uk
-  network: grpc
-  port: 9871
+  port: 443
   reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: aabb
-  server: 200.165.228.114
-  servername: dl.google.com
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+  server: 217.60.68.196
+  servername: eu-central.cendora.ru
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 2a650f3b-d95b-4bd6-aadf-16ccc0717155
-- name: 1|DE - zhuhai.uk 01
-  password: FH72359861
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+- name: 1|DE - zhuhai.uk 02
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
-  server: epic-iguana.rooster465.autos
+  server: de48.mechvpn.online
+  skip-cert-verify: true
+  sni: de48.mechvpn.online
+  type: hysteria2
+- client-fingerprint: firefox
+  name: 1|DE - zhuhai.uk 03
+  port: 33843
+  server: 87.120.84.32
+  servername: deproxy2.lckdwn.ru
+  tls: true
+  type: vless
+  uuid: 93dac4b8-3879-4179-abdb-9666a9e2ca8d
+- name: 1|DE - zhuhai.uk 04
+  port: 443
+  server: fan.973511.xyz
+  sni: fan.973511.xyz
+  tls: true
+  type: http
+- name: 1|DE - zhuhai.uk 01
+  password: PQ05174892
+  port: 443
+  server: fine-elf.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|DE - zhuhai.uk 07
+  password: PQ05174892
+  port: 443
+  server: alert-fish.rooster465.autos
   type: trojan
   udp: true
 - name: 1|DE - zhuhai.uk 06
-  password: FH72359861
+  password: PQ05174892
   port: 443
-  server: up-dinosaur.rooster465.autos
+  server: casual-quail.rooster465.autos
   type: trojan
   udp: true
-- name: 1|DE - zhuhai.uk 03
-  password: FH72359861
+- name: 1|DE - zhuhai.uk 05
+  password: PQ05174892
   port: 443
-  server: renewed-porpoise.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|DE - zhuhai.uk 04
-  password: FH72359861
-  port: 443
-  server: engaging-toucan.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|DE - zhuhai.uk 02
-  password: FH72359861
-  port: 443
-  server: summary-lemming.rooster465.autos
+  server: rapid-firefly.rooster465.autos
   type: trojan
   udp: true
