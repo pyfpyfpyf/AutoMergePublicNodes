@@ -35,12 +35,12 @@ proxies:
   type: http
   udp: true
 - client-fingerprint: chrome
-  name: 0,1|TH - zhuhai.uk
+  name: 0|US_speednode_0120
   network: ws
   port: 443
   server: www.true.th
   servername: d1yxsk0zprgivr.cloudfront.net
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -85,11 +85,10 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- name: 0,1|US - zhuhai.uk 07
+- name: 0|US_speednode_0124
   port: 9002
   server: 138.199.35.210
   skip-cert-verify: true
-  sni: 138.199.35.210
   tls: true
   type: http
   udp: true
@@ -161,7 +160,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0132
+- name: 0,1|US - zhuhai.uk 07
   port: 9002
   server: 138.199.35.220
   skip-cert-verify: true
@@ -254,11 +253,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 09
+- name: 0|US_speednode_0144
   port: 9002
   server: 156.146.59.5
   skip-cert-verify: true
-  sni: 156.146.59.5
   tls: true
   type: http
   udp: true
@@ -284,11 +282,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 04
+- name: 0|US_speednode_0148
   port: 9002
   server: 156.146.59.9
   skip-cert-verify: true
-  sni: 156.146.59.9
   tls: true
   type: http
   udp: true
@@ -371,76 +368,86 @@ proxies:
   type: http
   udp: true
 - name: 1|US - zhuhai.uk
-  password: 'null'
   port: 9002
-  server: 138.199.35.217
+  server: 156.146.59.44
   skip-cert-verify: true
-  sni: 138.199.35.217
+  sni: 156.146.59.44
   tls: true
   type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 02
   password: 'null'
   port: 9002
-  server: 156.146.59.41
+  server: 138.199.35.199
   skip-cert-verify: true
-  sni: 156.146.59.41
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 03
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 03
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.229
+  servername: yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- name: 1|US - zhuhai.uk 04
   password: 'null'
   port: 9002
-  server: 138.199.35.213
+  server: 138.199.35.202
   skip-cert-verify: true
-  sni: 138.199.35.213
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 05
-  password: 'null'
-  port: 9002
-  server: 138.199.35.210
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 05
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.35
+  servername: yahoo.com
   skip-cert-verify: true
-  sni: 138.199.35.210
   tls: true
-  type: http
-  username: 'null'
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - name: 1|US - zhuhai.uk 06
-  password: 'null'
+  password: None
   port: 9002
-  server: 138.199.35.206
+  server: 156.146.59.16
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 08
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 08
+  port: 37735
+  reality-opts:
+    public-key: XPA6z8rF7u5PktPHScbl5rAXzxcZr3GGcWjQsAbgGCQ
+    short-id: 42fe6ac8
+  server: rm-us-04.409648.xyz
+  servername: d1--ov-gotcha07.bilivideo.com
+  tls: true
+  type: vless
+  uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
+- name: 1|US - zhuhai.uk 09
+  password: 'null'
   port: 9002
-  server: 156.146.59.50
+  server: 156.146.59.23
   skip-cert-verify: true
   tls: true
   type: http
+  username: 'null'
 - name: 1|US - zhuhai.uk 10
   password: 'null'
   port: 9002
-  server: 156.146.59.38
-  skip-cert-verify: true
-  sni: 156.146.59.38
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 11
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 147.182.216.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: testuser1
-- name: 1|US - zhuhai.uk 12
-  password: None
-  port: 9002
-  server: 156.146.59.43
+  server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
