@@ -72,9 +72,38 @@ proxies:
   type: http
   udp: true
   username: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
-- name: 1|GB - zhuhai.uk
-  password: 55b71f97202647049ce999646de57c50
-  port: 8444
-  server: f1b.wareznet.ru
-  sni: f1b.wareznet.ru
-  type: hysteria2
+- client-fingerprint: chrome
+  name: 1|GB - zhuhai.uk
+  network: ws
+  port: 8443
+  server: 193.219.99.183
+  servername: kjgdksgghre466.pages.dev
+  tls: true
+  type: vless
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- name: 1|GB - zhuhai.uk 02
+  password: a95e9198-0671-11f0-9426-f23c932f2c32
+  port: 443
+  server: 2f24d33a-thtb40-thri9q-azvy.cldvpuk.cdnbytescm.com
+  skip-cert-verify: true
+  sni: 2f24d33a-thtb40-thri9q-azvy.cldvpuk.cdnbytescm.com
+  tls: true
+  type: http
+  username: a95e9198-0671-11f0-9426-f23c932f2c32
+- client-fingerprint: chrome
+  name: 1|GB - zhuhai.uk 03
+  network: ws
+  port: 8443
+  server: 193.219.99.248
+  servername: kjgdksgghre466.pages.dev
+  tls: true
+  type: vless
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
