@@ -16,15 +16,18 @@ proxies:
   type: trojan
   udp: true
 - name: 1|HK - zhuhai.uk
-  password: '!!str 123'
-  port: 3060
-  server: 43.100.43.112
-  type: socks5
-  username: '123'
+  port: 443
+  server: fan.240104.xyz
+  skip-cert-verify: true
+  sni: fan.240104.xyz
+  tls: true
+  type: http
 - name: 1|HK - zhuhai.uk 02
-  port: 20000
-  server: 59.38.113.185
-  type: socks5
+  password: PQ05174892
+  port: 443
+  server: ideal-robin.rooster465.autos
+  type: trojan
+  udp: true
 - name: 1|HK - zhuhai.uk 04
   password: PQ05174892
   port: 443
