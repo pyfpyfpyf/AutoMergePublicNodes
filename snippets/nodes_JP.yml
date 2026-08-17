@@ -7,6 +7,19 @@ proxies:
   sni: t11.qifei.app
   type: trojan
   udp: true
+- name: 1|JP - zhuhai.uk
+  network: ws
+  password: ec0abe0c-4937-41e3-b5fc-c62410d7b1d6
+  port: 42315
+  server: 221.181.169.76
+  skip-cert-verify: true
+  sni: vpn-node.internal
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vpn-node.internal
+    path: /xVpnTrojanWsSvc7f3a
 - name: 1|JP - zhuhai.uk 70
   password: PQ05174892
   port: 443

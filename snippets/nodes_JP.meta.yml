@@ -8,23 +8,22 @@ proxies:
   type: trojan
   udp: true
 - name: 1|JP - zhuhai.uk
-  password: bc751c4c5c80f17dfbc05785c368b613
-  port: 50160
-  server: 154.31.115.179
-  sni: 154-31-115-179.liao.kdns.fr
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|JP - zhuhai.uk 02
-  port: 8443
-  reality-opts:
-    public-key: 6rwYiIkFeAvFmuAZv8ZclWjn5SmTU1ex4U4KTRRQ2DI
-    short-id: 12206db5fe8b1dd4
-  server: 45.202.254.53
-  servername: www.cloudflare.com
+  network: ws
+  password: ec0abe0c-4937-41e3-b5fc-c62410d7b1d6
+  port: 42315
+  server: 221.181.169.76
+  skip-cert-verify: true
+  sni: vpn-node.internal
   tls: true
-  type: vless
-  uuid: 601e4ca5-df0a-43a1-97c2-0b1f5c0ae413
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vpn-node.internal
+    path: /xVpnTrojanWsSvc7f3a
+- name: 1|JP - zhuhai.uk 02
+  port: 10808
+  server: 101.36.104.46
+  type: socks5
 - name: 1|JP - zhuhai.uk 70
   password: PQ05174892
   port: 443

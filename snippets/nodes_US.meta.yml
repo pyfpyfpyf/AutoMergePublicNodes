@@ -219,14 +219,14 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 09
+- name: 0|US_speednode_0139
   port: 9002
   server: 138.199.35.199
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0140
+- name: 0,1|US - zhuhai.uk 03
   port: 9002
   server: 138.199.35.213
   skip-cert-verify: true
@@ -339,7 +339,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 07
+- name: 0|US_speednode_0156
   port: 9002
   server: 156.146.59.34
   skip-cert-verify: true
@@ -367,21 +367,8 @@ proxies:
   tls: true
   type: http
   udp: true
-- client-fingerprint: random
-  name: 1|US - zhuhai.uk
-  network: ws
-  port: 2053
-  server: 172.67.193.74
-  servername: testcf.motherfuck.dpdns.org
-  tls: true
-  type: vless
-  uuid: 2e67eff4-02ac-4a13-b695-4452465df6a1
-  ws-opts:
-    headers:
-      Host: testcf.motherfuck.dpdns.org
-    path: /?ed=2560
 - client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 02
+  name: 1|US - zhuhai.uk
   network: ws
   port: 2053
   server: 104.17.148.111
@@ -393,64 +380,68 @@ proxies:
     headers:
       Host: vpn-1fj.pages.dev
     path: /
-- name: 1|US - zhuhai.uk 03
-  port: 9002
-  server: 156.146.59.32
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 02
+  network: ws
+  port: 8443
+  server: 8.35.211.188
+  servername: vpn-1fj.pages.dev
   tls: true
-  type: http
+  type: vless
+  uuid: 2b181a3a-c001-4145-845a-5d43a43837d5
+  ws-opts:
+    headers:
+      Host: vpn-1fj.pages.dev
+    path: /
 - name: 1|US - zhuhai.uk 04
-  password: None
   port: 9002
-  server: 156.146.59.43
+  server: 138.199.35.209
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 05
-  password: None
+  password: 'null'
   port: 9002
-  server: 138.199.35.198
+  server: 138.199.35.216
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 06
-  port: 38182
-  server: 69.55.49.177
-  type: socks5
-- name: 1|US - zhuhai.uk 08
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 07
   password: 'null'
   port: 9002
-  server: 156.146.59.23
+  server: 156.146.59.7
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
+- name: 1|US - zhuhai.uk 08
+  port: 8090
+  server: 209.148.53.153
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 1|US - zhuhai.uk 10
-  password: None
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 11
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 12
-  password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+  password: PQ05174892
   port: 443
-  server: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
-  tls: true
-  type: http
-  username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+  server: mature-lamprey.rooster465.autos
+  type: trojan
+  udp: true
 - name: 1|US - zhuhai.uk 01
   password: PQ05174892
   port: 443
   server: sure-bengal.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|US - zhuhai.uk 09
+  password: PQ05174892
+  port: 443
+  server: comic-poodle.rooster465.autos
   type: trojan
   udp: true
