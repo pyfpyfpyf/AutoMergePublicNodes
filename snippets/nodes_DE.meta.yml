@@ -1,9 +1,10 @@
 proxies:
-- name: 0|DE_speednode_0001
+- name: 0,1|DE - zhuhai.uk 03
   password: e4b72b531a2d10900519
   port: 443
   server: 167.172.172.190
   skip-cert-verify: true
+  sni: a7acacbe.acsnet.co
   tls: true
   type: http
   udp: true
@@ -11,8 +12,8 @@ proxies:
 - client-fingerprint: chrome
   name: 1|DE - zhuhai.uk
   network: ws
-  port: 443
-  server: 87.236.146.43
+  port: 2053
+  server: 159.100.22.206
   servername: kjgdksgghre466.pages.dev
   tls: true
   type: vless
@@ -24,8 +25,8 @@ proxies:
 - client-fingerprint: chrome
   name: 1|DE - zhuhai.uk 02
   network: ws
-  port: 2087
-  server: 64.226.88.144
+  port: 2053
+  server: 80.211.249.240
   servername: kjgdksgghre466.pages.dev
   tls: true
   type: vless
@@ -34,22 +35,16 @@ proxies:
     headers:
       Host: kjgdksgghre466.pages.dev
     path: /
-- name: 1|DE - zhuhai.uk 01
-  password: PQ05174892
-  port: 443
-  server: fine-elf.rooster465.autos
-  type: trojan
-  udp: true
 - name: 1|DE - zhuhai.uk 05
   password: PQ05174892
   port: 443
   server: rapid-firefly.rooster465.autos
   type: trojan
   udp: true
-- name: 1|DE - zhuhai.uk 03
+- name: 1|DE - zhuhai.uk 01
   password: PQ05174892
   port: 443
-  server: usable-dogfish.rooster465.autos
+  server: fine-elf.rooster465.autos
   type: trojan
   udp: true
 - name: 1|DE - zhuhai.uk 04
