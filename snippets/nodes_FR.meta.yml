@@ -10,7 +10,7 @@ proxies:
   name: 1|FR - zhuhai.uk
   network: ws
   port: 2053
-  server: 46.8.224.102
+  server: 95.182.97.46
   servername: kjgdksgghre466.pages.dev
   tls: true
   type: vless
@@ -19,13 +19,19 @@ proxies:
     headers:
       Host: kjgdksgghre466.pages.dev
     path: /
-- name: 1|FR - zhuhai.uk 02
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: flkf3.mangshe.xyz
-  skip-cert-verify: true
-  sni: flkf3.mangshe.xyz
-  type: hysteria2
+- client-fingerprint: chrome
+  name: 1|FR - zhuhai.uk 02
+  network: ws
+  port: 8443
+  server: 31.57.108.170
+  servername: kjgdksgghre466.pages.dev
+  tls: true
+  type: vless
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
 - name: 1|FR - zhuhai.uk 04
   password: PQ05174892
   port: 443

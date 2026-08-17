@@ -134,10 +134,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|NL_speednode_0017
+- name: 0,1|NL - zhuhai.uk 02
   port: 9002
   server: 84.17.47.147
   skip-cert-verify: true
+  sni: 84.17.47.147
   tls: true
   type: http
   udp: true
@@ -171,7 +172,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|NL - zhuhai.uk 03
+- name: 0|NL_speednode_0021
   port: 9002
   server: 84.17.47.149
   skip-cert-verify: true
@@ -903,11 +904,10 @@ proxies:
     headers:
       Host: josni.hoyes.cloudns.ch
     path: /musiclovers85_musiclovers85?ed=512
-- name: 0,1|US - zhuhai.uk 02
+- name: 0|US_speednode_0119
   port: 443
   server: fan.596189.xyz
   skip-cert-verify: true
-  sni: fan.596189.xyz
   tls: true
   type: http
   udp: true
@@ -1239,199 +1239,39 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 1|ES - zhuhai.uk
-  network: ws
-  port: 443
-  server: 31.57.190.9
-  servername: kjgdksgghre466.pages.dev
-  tls: true
-  type: vless
-  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
-  ws-opts:
-    headers:
-      Host: kjgdksgghre466.pages.dev
-    path: /
-- name: 1|US - zhuhai.uk
-  password: None
-  port: 9002
-  server: 156.146.59.50
+- flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk 02
+  port: 2027
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: dc8109baf0f607ea
+  server: 78.159.247.253
+  servername: storage.yandex.net
   skip-cert-verify: true
-  sni: 156.146.59.50
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|IT - zhuhai.uk
-  network: ws
-  port: 443
-  server: 57.131.35.117
-  servername: kjgdksgghre466.pages.dev
   tls: true
   type: vless
-  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
-  ws-opts:
-    headers:
-      Host: kjgdksgghre466.pages.dev
-    path: /
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
 - name: 1|NL - zhuhai.uk
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 82.196.9.7
-  sni: 52c40907.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- name: 1|HK - zhuhai.uk
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 45883
-  server: yzany01.jdoanst2026.com
-  sni: hk35.ascwt179.com
-  type: anytls
-  udp: true
-- name: 1|US - zhuhai.uk 03
-  password: 'null'
-  port: 9002
-  server: 156.146.59.23
+  password: freeuser1
+  port: 9251
+  server: nl209.freeconnect.link
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
-- name: 1|NL - zhuhai.uk 02
-  network: ws
-  port: 8443
-  server: 141.144.200.19
-  servername: kjgdksgghre466.pages.dev
-  tls: true
-  type: vless
-  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
-  ws-opts:
-    headers:
-      Host: kjgdksgghre466.pages.dev
-    path: /
-- name: 1|US - zhuhai.uk 04
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|AT - zhuhai.uk
-  network: ws
-  port: 2053
-  server: 91.184.248.209
-  servername: kjgdksgghre466.pages.dev
-  tls: true
-  type: vless
-  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
-  ws-opts:
-    headers:
-      Host: kjgdksgghre466.pages.dev
-    path: /
-- name: 1|FR - zhuhai.uk
-  network: ws
-  port: 2053
-  server: 46.8.224.102
-  servername: kjgdksgghre466.pages.dev
-  tls: true
-  type: vless
-  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
-  ws-opts:
-    headers:
-      Host: kjgdksgghre466.pages.dev
-    path: /
-- name: 1|US - zhuhai.uk 05
-  port: 38182
-  server: 69.55.49.177
-  type: socks5
-- name: 1|ES - zhuhai.uk 02
-  network: ws
-  port: 443
-  server: 31.57.190.93
-  servername: kjgdksgghre466.pages.dev
-  tls: true
-  type: vless
-  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
-  ws-opts:
-    headers:
-      Host: kjgdksgghre466.pages.dev
-    path: /
+  username: freeuser1
 - name: 1|SE - zhuhai.uk
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  network: ws
   port: 443
-  server: us65.mechvpn.online
-  skip-cert-verify: true
-  sni: us65.mechvpn.online
-  type: hysteria2
+  server: 159.255.33.206
+  servername: kjgdksgghre466.pages.dev
+  tls: true
+  type: vless
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
 - name: 1|FI - zhuhai.uk
-  network: ws
-  port: 443
-  server: 157.180.112.12
-  servername: kjgdksgghre466.pages.dev
-  tls: true
-  type: vless
-  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
-  ws-opts:
-    headers:
-      Host: kjgdksgghre466.pages.dev
-    path: /
-- name: 1|CZ - zhuhai.uk
-  network: ws
-  port: 443
-  server: 92.61.71.49
-  servername: kjgdksgghre466.pages.dev
-  tls: true
-  type: vless
-  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
-  ws-opts:
-    headers:
-      Host: kjgdksgghre466.pages.dev
-    path: /
-- name: 1|SE - zhuhai.uk 02
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 60005
-  server: svip.skycon808.com
-  sni: xjp18.2uuzhe.com
-  type: anytls
-  udp: true
-- name: 1|US - zhuhai.uk 06
-  password: 'null'
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|AT - zhuhai.uk 02
-  network: ws
-  port: 443
-  server: 91.199.160.188
-  servername: kjgdksgghre466.pages.dev
-  tls: true
-  type: vless
-  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
-  ws-opts:
-    headers:
-      Host: kjgdksgghre466.pages.dev
-    path: /
-- name: 1|JP - zhuhai.uk
-  password: 3489a008067e4b789cd91f3f0d3ece47
-  port: 50160
-  server: 140-238-43-0.liao.kdns.fr
-  sni: 140-238-43-0.liao.kdns.fr
-  type: hysteria2
-- name: 1|ES - zhuhai.uk 03
-  network: ws
-  port: 443
-  server: 31.57.190.97
-  servername: kjgdksgghre466.pages.dev
-  tls: true
-  type: vless
-  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
-  ws-opts:
-    headers:
-      Host: kjgdksgghre466.pages.dev
-    path: /
-- name: 1|FI - zhuhai.uk 02
   network: ws
   port: 2053
   server: 185.109.48.13
@@ -1443,22 +1283,10 @@ proxies:
     headers:
       Host: forfreeuse.rtqa.ru
     path: /
-- name: 1|DK - zhuhai.uk
-  network: ws
-  port: 443
-  server: 93.92.112.216
-  servername: kjgdksgghre466.pages.dev
-  tls: true
-  type: vless
-  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
-  ws-opts:
-    headers:
-      Host: kjgdksgghre466.pages.dev
-    path: /
-- name: 1|BE - zhuhai.uk
+- name: 1|FR - zhuhai.uk
   network: ws
   port: 2053
-  server: 82.40.49.242
+  server: 95.182.97.46
   servername: kjgdksgghre466.pages.dev
   tls: true
   type: vless
@@ -1467,9 +1295,8 @@ proxies:
     headers:
       Host: kjgdksgghre466.pages.dev
     path: /
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 1|SE - zhuhai.uk 03
+- flow: xtls-rprx-vision
+  name: 1|SE - zhuhai.uk 02
   port: 443
   reality-opts:
     public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
@@ -1479,10 +1306,10 @@ proxies:
   tls: true
   type: vless
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: 1|SE - zhuhai.uk 04
+- name: 1|ES - zhuhai.uk
   network: ws
   port: 443
-  server: 94.242.59.31
+  server: 31.57.190.97
   servername: kjgdksgghre466.pages.dev
   tls: true
   type: vless
@@ -1491,17 +1318,23 @@ proxies:
     headers:
       Host: kjgdksgghre466.pages.dev
     path: /
-- name: 1|JP - zhuhai.uk 51
-  password: PQ05174892
-  port: 443
-  server: sterling-vervet.rooster465.autos
+- name: 1|US - zhuhai.uk
+  network: ws
+  password: 758a36c5-d422-4e0d-9bee-a89ce9f9b078
+  port: 48774
+  server: 172.238.22.232
+  skip-cert-verify: true
+  sni: vpn-node.internal
   tls: true
   type: trojan
-  udp: true
-- name: 1|DE - zhuhai.uk
+  ws-opts:
+    headers:
+      Host: vpn-node.internal
+    path: /xVpnTrojanWsSvc7f3a
+- name: 1|PL - zhuhai.uk
   network: ws
   port: 443
-  server: 146.70.233.11
+  server: 57.128.246.84
   servername: kjgdksgghre466.pages.dev
   tls: true
   type: vless
@@ -1510,18 +1343,236 @@ proxies:
     headers:
       Host: kjgdksgghre466.pages.dev
     path: /
-- name: 1|US - zhuhai.uk 07
-  port: 52683
-  server: jp.sofast.live
+- name: 1|DE - zhuhai.uk 03
+  port: 1080
+  server: 45.144.54.40
+  type: socks5
+- name: 1|PL - zhuhai.uk 02
+  network: ws
+  port: 443
+  server: 51.68.130.118
+  servername: kjgdksgghre466.pages.dev
+  tls: true
   type: vless
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-- name: 1|FR - zhuhai.uk 02
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: flkf3.mangshe.xyz
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- name: 1|US - zhuhai.uk 02
+  password: 'null'
+  port: 9002
+  server: 156.146.59.41
   skip-cert-verify: true
-  sni: flkf3.mangshe.xyz
-  type: hysteria2
+  tls: true
+  type: http
+  username: 'null'
+- alterId: 0
+  cipher: auto
+  name: 1|JP - zhuhai.uk
+  network: ws
+  port: 16617
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: 0c657913-e593-4893-9555-f88478c33a4b
+  ws-opts:
+    headers:
+      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
+    path: /
+- name: 1|DE - zhuhai.uk 04
+  network: ws
+  port: 443
+  server: 146.70.71.157
+  servername: kjgdksgghre466.pages.dev
+  tls: true
+  type: vless
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 03
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.231
+  servername: yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- name: 1|NL - zhuhai.uk 03
+  password: 'null'
+  port: 23856
+  server: 51.159.225.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 04
+  port: 443
+  server: tzoa.fun
+  sni: tzoa.fun
+  tls: true
+  type: http
+- name: 1|CH - zhuhai.uk
+  network: ws
+  port: 443
+  server: 194.246.118.199
+  servername: kjgdksgghre466.pages.dev
+  tls: true
+  type: vless
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- name: 1|LT - zhuhai.uk
+  network: ws
+  port: 443
+  server: 91.197.3.69
+  servername: kjgdksgghre466.pages.dev
+  tls: true
+  type: vless
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- name: 1|FI - zhuhai.uk 02
+  network: ws
+  port: 2053
+  server: 65.109.95.205
+  servername: kjgdksgghre466.pages.dev
+  tls: true
+  type: vless
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 05
+  port: 11094
+  reality-opts:
+    public-key: 9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk
+    short-id: a356addf
+  server: 51.81.223.225
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
+- name: 1|US - zhuhai.uk 06
+  port: 9002
+  server: 156.146.59.32
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 07
+  port: 9002
+  server: 156.146.59.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|SE - zhuhai.uk 03
+  network: ws
+  port: 8443
+  server: 91.186.211.248
+  servername: kjgdksgghre466.pages.dev
+  tls: true
+  type: vless
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- name: 1|US - zhuhai.uk 08
+  password: 'null'
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 09
+  password: 'null'
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|HK - zhuhai.uk
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: 51178
+  server: yzany01.jdoanst2026.com
+  sni: hk09.alytest.cc
+  type: anytls
+  udp: true
+- name: 1|US - zhuhai.uk 10
+  port: 9002
+  server: 156.146.59.49
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|NL - zhuhai.uk 04
+  network: ws
+  port: 443
+  server: 45.135.58.68
+  servername: kjgdksgghre466.pages.dev
+  tls: true
+  type: vless
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- name: 1|DE - zhuhai.uk 05
+  network: ws
+  port: 8443
+  server: 185.72.10.89
+  servername: kjgdksgghre466.pages.dev
+  tls: true
+  type: vless
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- name: 1|FR - zhuhai.uk 02
+  network: ws
+  port: 8443
+  server: 31.57.108.170
+  servername: kjgdksgghre466.pages.dev
+  tls: true
+  type: vless
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk 02
+  port: 39411
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 188.253.123.164
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- name: 1|JP - zhuhai.uk 03
+  password: HC04361579
+  port: 443
+  server: accepted-starling.rooster465.autos
+  sni: accepted-starling.rooster465.autos
+  tls: true
+  type: trojan
 - name: 1|KR - zhuhai.uk
   password: HC04361579
   port: 443
@@ -1559,28 +1610,10 @@ proxies:
   port: 1088
   server: 144.24.111.128
   type: socks5
-- name: 1|US - zhuhai.uk 09
-  password: PQ05174892
-  port: 443
-  server: comic-poodle.rooster465.autos
-  type: trojan
-  udp: true
 - name: 1|US - zhuhai.uk 01
   password: PQ05174892
   port: 443
   server: sure-bengal.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|US - zhuhai.uk 08
-  password: PQ05174892
-  port: 443
-  server: smooth-sculpin.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|US - zhuhai.uk 10
-  password: PQ05174892
-  port: 443
-  server: mature-lamprey.rooster465.autos
   type: trojan
   udp: true
 - name: 1|NL - zhuhai.uk 01
@@ -1617,36 +1650,6 @@ proxies:
   password: PQ05174892
   port: 443
   server: musical-shrew.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|NL - zhuhai.uk 04
-  password: PQ05174892
-  port: 443
-  server: whole-woodcock.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|DE - zhuhai.uk 05
-  password: PQ05174892
-  port: 443
-  server: rapid-firefly.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|DE - zhuhai.uk 02
-  password: PQ05174892
-  port: 443
-  server: informed-alpaca.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|DE - zhuhai.uk 03
-  password: PQ05174892
-  port: 443
-  server: usable-dogfish.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|DE - zhuhai.uk 04
-  password: PQ05174892
-  port: 443
-  server: many-cricket.rooster465.autos
   type: trojan
   udp: true
 - name: 1|FR - zhuhai.uk 01
@@ -1749,6 +1752,12 @@ proxies:
   password: PQ05174892
   port: 443
   server: fun-poodle.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|JP - zhuhai.uk 51
+  password: PQ05174892
+  port: 443
+  server: sterling-vervet.rooster465.autos
   type: trojan
   udp: true
 - name: 1|JP - zhuhai.uk 22
@@ -2061,12 +2070,6 @@ proxies:
   password: PQ05174892
   port: 443
   server: picked-hippo.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|JP - zhuhai.uk 03
-  password: PQ05174892
-  port: 443
-  server: musical-mouse.rooster465.autos
   type: trojan
   udp: true
 - name: 1|JP - zhuhai.uk 16

@@ -1,25 +1,20 @@
 proxies:
-- name: 1|US - zhuhai.uk 09
-  password: PQ05174892
-  port: 443
-  server: comic-poodle.rooster465.autos
+- name: 1|US - zhuhai.uk
+  network: ws
+  password: 758a36c5-d422-4e0d-9bee-a89ce9f9b078
+  port: 48774
+  server: 172.238.22.232
+  skip-cert-verify: true
+  sni: vpn-node.internal
+  tls: true
   type: trojan
-  udp: true
+  ws-opts:
+    headers:
+      Host: vpn-node.internal
+    path: /xVpnTrojanWsSvc7f3a
 - name: 1|US - zhuhai.uk 01
   password: PQ05174892
   port: 443
   server: sure-bengal.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|US - zhuhai.uk 08
-  password: PQ05174892
-  port: 443
-  server: smooth-sculpin.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|US - zhuhai.uk 10
-  password: PQ05174892
-  port: 443
-  server: mature-lamprey.rooster465.autos
   type: trojan
   udp: true

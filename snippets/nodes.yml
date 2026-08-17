@@ -23,13 +23,38 @@ proxies:
   sni: t11.qifei.app
   type: trojan
   udp: true
-- name: 1|JP - zhuhai.uk 51
-  password: PQ05174892
-  port: 443
-  server: sterling-vervet.rooster465.autos
+- name: 1|US - zhuhai.uk
+  network: ws
+  password: 758a36c5-d422-4e0d-9bee-a89ce9f9b078
+  port: 48774
+  server: 172.238.22.232
+  skip-cert-verify: true
+  sni: vpn-node.internal
   tls: true
   type: trojan
-  udp: true
+  ws-opts:
+    headers:
+      Host: vpn-node.internal
+    path: /xVpnTrojanWsSvc7f3a
+- alterId: 0
+  cipher: auto
+  name: 1|JP - zhuhai.uk
+  network: ws
+  port: 16617
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: 0c657913-e593-4893-9555-f88478c33a4b
+  ws-opts:
+    headers:
+      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
+    path: /
+- name: 1|JP - zhuhai.uk 03
+  password: HC04361579
+  port: 443
+  server: accepted-starling.rooster465.autos
+  sni: accepted-starling.rooster465.autos
+  tls: true
+  type: trojan
 - name: 1|KR - zhuhai.uk
   password: HC04361579
   port: 443
@@ -37,28 +62,10 @@ proxies:
   sni: powerful-troll.rooster465.autos
   tls: true
   type: trojan
-- name: 1|US - zhuhai.uk 09
-  password: PQ05174892
-  port: 443
-  server: comic-poodle.rooster465.autos
-  type: trojan
-  udp: true
 - name: 1|US - zhuhai.uk 01
   password: PQ05174892
   port: 443
   server: sure-bengal.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|US - zhuhai.uk 08
-  password: PQ05174892
-  port: 443
-  server: smooth-sculpin.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|US - zhuhai.uk 10
-  password: PQ05174892
-  port: 443
-  server: mature-lamprey.rooster465.autos
   type: trojan
   udp: true
 - name: 1|NL - zhuhai.uk 01
@@ -95,36 +102,6 @@ proxies:
   password: PQ05174892
   port: 443
   server: musical-shrew.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|NL - zhuhai.uk 04
-  password: PQ05174892
-  port: 443
-  server: whole-woodcock.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|DE - zhuhai.uk 05
-  password: PQ05174892
-  port: 443
-  server: rapid-firefly.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|DE - zhuhai.uk 02
-  password: PQ05174892
-  port: 443
-  server: informed-alpaca.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|DE - zhuhai.uk 03
-  password: PQ05174892
-  port: 443
-  server: usable-dogfish.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|DE - zhuhai.uk 04
-  password: PQ05174892
-  port: 443
-  server: many-cricket.rooster465.autos
   type: trojan
   udp: true
 - name: 1|FR - zhuhai.uk 01
@@ -227,6 +204,12 @@ proxies:
   password: PQ05174892
   port: 443
   server: fun-poodle.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|JP - zhuhai.uk 51
+  password: PQ05174892
+  port: 443
+  server: sterling-vervet.rooster465.autos
   type: trojan
   udp: true
 - name: 1|JP - zhuhai.uk 22
@@ -539,12 +522,6 @@ proxies:
   password: PQ05174892
   port: 443
   server: picked-hippo.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|JP - zhuhai.uk 03
-  password: PQ05174892
-  port: 443
-  server: musical-mouse.rooster465.autos
   type: trojan
   udp: true
 - name: 1|JP - zhuhai.uk 16
