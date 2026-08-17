@@ -160,7 +160,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 12
+- name: 0|US_speednode_0132
   port: 9002
   server: 138.199.35.220
   skip-cert-verify: true
@@ -325,10 +325,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0154
+- name: 0,1|US - zhuhai.uk 09
   port: 9002
   server: 156.146.59.15
   skip-cert-verify: true
+  sni: 156.146.59.15
   tls: true
   type: http
   udp: true
@@ -370,96 +371,76 @@ proxies:
 - name: 1|US - zhuhai.uk
   password: 'null'
   port: 9002
-  server: 138.199.35.195
+  server: 156.146.59.30
   skip-cert-verify: true
+  sni: 156.146.59.30
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 02
-  password: 'null'
-  port: 9002
-  server: 156.146.59.28
-  skip-cert-verify: true
+  password: PQ05174892
+  port: 443
+  server: mature-lamprey.rooster465.autos
   tls: true
-  type: http
-  username: 'null'
+  type: trojan
 - name: 1|US - zhuhai.uk 03
   port: 9002
-  server: 156.146.59.19
+  server: 138.199.35.209
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 04
   password: 'null'
-  port: 9002
-  server: 156.146.59.33
+  port: 443
+  server: 38.28.193.188
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  sni: 138.199.35.201
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 06
   password: 'null'
   port: 9002
-  server: 138.199.35.196
+  server: 138.199.35.210
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 06
+  network: ws
+  port: 2096
+  server: 166.62.104.98
+  servername: kjgdksgghre466.pages.dev
+  tls: true
+  type: vless
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
 - name: 1|US - zhuhai.uk 07
   port: 9002
-  server: 138.199.35.219
+  server: 156.146.59.44
   skip-cert-verify: true
-  sni: 138.199.35.219
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 08
-  port: 443
-  server: zebpay.site
-  skip-cert-verify: true
-  sni: zebpay.site
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 09
-  password: freeuser1
-  port: 9251
-  server: dl1-us.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
-- name: 1|US - zhuhai.uk 10
-  port: 9002
-  server: 156.146.59.17
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 11
   password: 'null'
   port: 9002
-  server: 156.146.59.19
+  server: 156.146.59.28
   skip-cert-verify: true
-  sni: 156.146.59.19
+  sni: 156.146.59.28
   tls: true
   type: http
   username: 'null'
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 13
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.231
-  servername: yahoo.com
+- name: 1|US - zhuhai.uk 10
+  password: 'null'
+  port: 9002
+  server: 156.146.59.12
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  type: http
+  username: 'null'
 - name: 1|US - zhuhai.uk 01
   password: PQ05174892
   port: 443

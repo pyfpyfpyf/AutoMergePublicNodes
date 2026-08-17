@@ -16,12 +16,18 @@ proxies:
   type: trojan
   udp: true
 - name: 1|HK - zhuhai.uk
-  port: 443
-  server: fan.240104.xyz
+  network: ws
+  password: 2763afef-32a8-410a-b76b-4f42e3f505a1
+  port: 46867
+  server: 221.181.169.196
   skip-cert-verify: true
-  sni: fan.240104.xyz
+  sni: vpn-node.internal
   tls: true
-  type: http
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vpn-node.internal
+    path: /xVpnTrojanWsSvc7f3a
 - name: 1|HK - zhuhai.uk 02
   password: PQ05174892
   port: 443

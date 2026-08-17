@@ -1,32 +1,43 @@
 proxies:
-- name: 0|FR_speednode_0002
+- name: 0,1|NL - zhuhai.uk 06
   port: 23856
   server: 51.159.225.196
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 1|FR - zhuhai.uk 02
-  port: 443
-  server: fan.132031.xyz
-  sni: fan.132031.xyz
+- client-fingerprint: chrome
+  name: 1|FR - zhuhai.uk
+  network: ws
+  port: 8443
+  server: 31.56.228.250
+  servername: kjgdksgghre466.pages.dev
   tls: true
-  type: http
+  type: vless
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 1|FR - zhuhai.uk 02
+  network: ws
+  port: 8443
+  server: 31.59.120.179
+  servername: kjgdksgghre466.pages.dev
+  tls: true
+  type: vless
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
 - name: 1|FR - zhuhai.uk 03
-  password: freeuser1
-  port: 9251
-  server: fr003.freeconnect.link
-  sni: fr003.freeconnect.link
+  password: PQ05174892
+  port: 443
+  server: humane-bird.rooster465.autos
   tls: true
-  type: http
-  username: freeuser1
-- name: 1|FR - zhuhai.uk 04
-  password: freeuser1
-  port: 9251
-  server: fr017.freeconnect.link
-  tls: true
-  type: http
-  username: freeuser1
+  type: trojan
 - name: 1|FR - zhuhai.uk 05
   password: PQ05174892
   port: 443
@@ -43,5 +54,11 @@ proxies:
   password: PQ05174892
   port: 443
   server: musical-shrew.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|FR - zhuhai.uk 04
+  password: PQ05174892
+  port: 443
+  server: immune-earwig.rooster465.autos
   type: trojan
   udp: true
