@@ -160,7 +160,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 07
+- name: 0|US_speednode_0132
   port: 9002
   server: 138.199.35.220
   skip-cert-verify: true
@@ -239,7 +239,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0142
+- name: 0,1|US - zhuhai.uk 03
   port: 9002
   server: 156.146.59.4
   skip-cert-verify: true
@@ -367,24 +367,27 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 1|US - zhuhai.uk
-  port: 9002
-  server: 156.146.59.44
-  skip-cert-verify: true
-  sni: 156.146.59.44
-  tls: true
-  type: http
 - name: 1|US - zhuhai.uk 02
-  password: 'null'
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
+  password: 6f65680b8d4de72e9f7c030e92e27a32
+  port: 50160
+  server: 166-0-16-52.liao.kdns.fr
+  sni: 166-0-16-52.liao.kdns.fr
+  type: hysteria2
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 04
+  port: 37735
+  reality-opts:
+    public-key: XPA6z8rF7u5PktPHScbl5rAXzxcZr3GGcWjQsAbgGCQ
+    short-id: 42fe6ac8
+  server: rm-us-04.409648.xyz
+  servername: d1--ov-gotcha07.bilivideo.com
   tls: true
-  type: http
-  username: 'null'
+  type: vless
+  uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 03
+  name: 1|US - zhuhai.uk 05
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -395,66 +398,45 @@ proxies:
   tls: true
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: 1|US - zhuhai.uk 04
-  password: 'null'
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 05
+  name: 1|US - zhuhai.uk 06
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-  server: 169.40.42.35
+  server: 169.40.42.223
   servername: yahoo.com
-  skip-cert-verify: true
   tls: true
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: 1|US - zhuhai.uk 06
-  password: None
-  port: 9002
-  server: 156.146.59.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 08
-  port: 37735
-  reality-opts:
-    public-key: XPA6z8rF7u5PktPHScbl5rAXzxcZr3GGcWjQsAbgGCQ
-    short-id: 42fe6ac8
-  server: rm-us-04.409648.xyz
-  servername: d1--ov-gotcha07.bilivideo.com
-  tls: true
-  type: vless
-  uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
-- name: 1|US - zhuhai.uk 09
-  password: 'null'
-  port: 9002
-  server: 156.146.59.23
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 10
-  password: 'null'
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 01
   password: PQ05174892
   port: 443
   server: sure-bengal.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|US - zhuhai.uk 09
+  password: PQ05174892
+  port: 443
+  server: comic-poodle.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|US - zhuhai.uk 10
+  password: PQ05174892
+  port: 443
+  server: mature-lamprey.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|US - zhuhai.uk 07
+  password: PQ05174892
+  port: 443
+  server: absolute-teal.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|US - zhuhai.uk 08
+  password: PQ05174892
+  port: 443
+  server: smooth-sculpin.rooster465.autos
   type: trojan
   udp: true
