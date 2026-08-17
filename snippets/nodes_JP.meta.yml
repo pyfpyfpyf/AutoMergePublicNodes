@@ -7,54 +7,42 @@ proxies:
   sni: t11.qifei.app
   type: trojan
   udp: true
-- client-fingerprint: chrome
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
   name: 1|JP - zhuhai.uk
-  port: 13779
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: af1bdd293097b664
-  server: 202.144.192.76
-  servername: tesla.com
-  tls: true
-  type: vless
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-- name: 1|JP - zhuhai.uk 02
-  network: ws
-  password: ec0abe0c-4937-41e3-b5fc-c62410d7b1d6
-  port: 42315
-  server: 221.181.169.76
-  skip-cert-verify: true
-  sni: vpn-node.internal
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: vpn-node.internal
-    path: /xVpnTrojanWsSvc7f3a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|JP - zhuhai.uk 03
-  port: 39411
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 188.253.123.164
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|JP - zhuhai.uk 04
   port: 443
   reality-opts:
-    public-key: 0gYZJnHAz7yMRQjZH5Twd9ETHfKjzQimUgbzb1yLlhM
-    short-id: df9232eff6
-  server: jp1.miyazono-kaori.com
-  servername: www.capcom.co.jp
+    public-key: ePEdL0MQGHT0BGkhSprooNXTYHgp_mdaxEaOkGTKO3k
+    short-id: 195c371d
+  server: pq.aws54.yydjc.top
+  servername: updates.cdn-apple.com
   tls: true
   type: vless
-  uuid: aba8b762-e6c5-413e-b342-c132007fa767
+  uuid: f30663a7-a924-4211-870f-a5e0bd0948aa
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk 02
+  port: 443
+  reality-opts:
+    public-key: FrLhPuCVfzdM5rppzxHXQ5BZSGf1YHrXgo-cCtecGSo
+    short-id: f3b38af2
+  server: pq.aws51.yydjc.top
+  servername: cdn-dynmedia-1.microsoft.com
+  tls: true
+  type: vless
+  uuid: f30663a7-a924-4211-870f-a5e0bd0948aa
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk 03
+  port: 443
+  reality-opts:
+    public-key: KeIvEyXB-ftboKdIoaSDyUKJPQpmcZiVaqY2JndkX08
+    short-id: 55fbcc37
+  server: pq.aws57.yydjc.top
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
+  uuid: f30663a7-a924-4211-870f-a5e0bd0948aa
 - name: 1|JP - zhuhai.uk 26
   password: PQ05174892
   port: 443
@@ -119,6 +107,12 @@ proxies:
   password: PQ05174892
   port: 443
   server: lasting-jaguar.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|JP - zhuhai.uk 04
+  password: PQ05174892
+  port: 443
+  server: ready-monarch.rooster465.autos
   type: trojan
   udp: true
 - name: 1|JP - zhuhai.uk 56

@@ -49,10 +49,11 @@ proxies:
     headers:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: /
-- name: 0|US_speednode_0121
+- name: 0,1|US - zhuhai.uk 04
   port: 9002
   server: 138.199.35.215
   skip-cert-verify: true
+  sni: 138.199.35.215
   tls: true
   type: http
   udp: true
@@ -160,7 +161,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0132
+- name: 0,1|US - zhuhai.uk 03
   port: 9002
   server: 138.199.35.220
   skip-cert-verify: true
@@ -311,10 +312,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0152
+- name: 0,1|US - zhuhai.uk 09
   port: 9002
   server: 156.146.59.8
   skip-cert-verify: true
+  sni: 156.146.59.8
   tls: true
   type: http
   udp: true
@@ -339,7 +341,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 03
+- name: 0|US_speednode_0156
   port: 9002
   server: 156.146.59.34
   skip-cert-verify: true
@@ -368,62 +370,80 @@ proxies:
   type: http
   udp: true
 - name: 1|US - zhuhai.uk
-  password: 16955d72-1794-11f0-a035-f23c95b6f51d
   port: 443
-  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+  server: tzoa.fun
+  sni: tzoa.fun
   tls: true
   type: http
-  username: 16955d72-1794-11f0-a035-f23c95b6f51d
-- name: 1|US - zhuhai.uk 04
-  password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 02
   port: 443
-  server: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
-  sni: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.89
+  servername: yahoo.com
+  skip-cert-verify: true
   tls: true
-  type: http
-  username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-- name: 1|US - zhuhai.uk 05
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 05
+  network: ws
+  port: 2083
+  server: 27.50.48.69
+  servername: kjgdksgghre466.pages.dev
+  tls: true
+  type: vless
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 06
+  port: 443
+  reality-opts:
+    public-key: zyuUbkfNG5nWHUVIVjGCCYIs85gKcxho6vmHKXVMIWA
+    short-id: 2ad0cb03eb3fa5
+  server: us4.miyazono-kaori.com
+  servername: download-porter.hoyoverse.com
+  tls: true
+  type: vless
+  uuid: aba8b762-e6c5-413e-b342-c132007fa767
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 07
+  network: ws
+  port: 2083
+  server: 198.62.62.123
+  servername: kjgdksgghre466.pages.dev
+  tls: true
+  type: vless
+  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
+  ws-opts:
+    headers:
+      Host: kjgdksgghre466.pages.dev
+    path: /
+- name: 1|US - zhuhai.uk 08
   password: 'null'
   port: 9002
-  server: 156.146.59.23
+  server: 156.146.59.16
   skip-cert-verify: true
+  sni: 156.146.59.16
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 06
-  port: 9002
-  server: 156.146.59.50
-  skip-cert-verify: true
-  sni: 156.146.59.50
-  tls: true
-  type: http
 - name: 1|US - zhuhai.uk 01
   password: PQ05174892
   port: 443
   server: sure-bengal.rooster465.autos
   type: trojan
   udp: true
-- name: 1|US - zhuhai.uk 09
-  password: PQ05174892
-  port: 443
-  server: comic-poodle.rooster465.autos
-  type: trojan
-  udp: true
 - name: 1|US - zhuhai.uk 10
   password: PQ05174892
   port: 443
   server: mature-lamprey.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|US - zhuhai.uk 07
-  password: PQ05174892
-  port: 443
-  server: absolute-teal.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|US - zhuhai.uk 08
-  password: PQ05174892
-  port: 443
-  server: smooth-sculpin.rooster465.autos
   type: trojan
   udp: true
