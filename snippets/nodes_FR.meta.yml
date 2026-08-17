@@ -1,37 +1,18 @@
 proxies:
-- name: 0,1|NL - zhuhai.uk 06
+- name: 0|FR_speednode_0002
   port: 23856
   server: 51.159.225.196
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: chrome
-  name: 1|FR - zhuhai.uk
-  network: ws
-  port: 8443
-  server: 31.56.228.250
-  servername: kjgdksgghre466.pages.dev
+- name: 1|FR - zhuhai.uk 02
+  port: 443
+  server: fan.132031.xyz
+  skip-cert-verify: true
+  sni: fan.132031.xyz
   tls: true
-  type: vless
-  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
-  ws-opts:
-    headers:
-      Host: kjgdksgghre466.pages.dev
-    path: /
-- client-fingerprint: chrome
-  name: 1|FR - zhuhai.uk 02
-  network: ws
-  port: 8443
-  server: 31.59.120.179
-  servername: kjgdksgghre466.pages.dev
-  tls: true
-  type: vless
-  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
-  ws-opts:
-    headers:
-      Host: kjgdksgghre466.pages.dev
-    path: /
+  type: http
 - name: 1|FR - zhuhai.uk 03
   password: PQ05174892
   port: 443
