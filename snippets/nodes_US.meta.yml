@@ -49,11 +49,10 @@ proxies:
     headers:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: /
-- name: 0,1|US - zhuhai.uk 04
+- name: 0|US_speednode_0121
   port: 9002
   server: 138.199.35.215
   skip-cert-verify: true
-  sni: 138.199.35.215
   tls: true
   type: http
   udp: true
@@ -161,7 +160,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 03
+- name: 0|US_speednode_0132
   port: 9002
   server: 138.199.35.220
   skip-cert-verify: true
@@ -312,11 +311,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 09
+- name: 0|US_speednode_0152
   port: 9002
   server: 156.146.59.8
   skip-cert-verify: true
-  sni: 156.146.59.8
   tls: true
   type: http
   udp: true
@@ -348,7 +346,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0157
+- name: 0,1|US - zhuhai.uk 08
   port: 9002
   server: 156.146.59.10
   skip-cert-verify: true
@@ -370,14 +368,50 @@ proxies:
   type: http
   udp: true
 - name: 1|US - zhuhai.uk
-  port: 443
-  server: tzoa.fun
-  sni: tzoa.fun
+  password: 'null'
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
   tls: true
   type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 02
+  password: 'null'
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 03
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 04
+  password: 'null'
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 05
+  port: 38182
+  server: 69.55.49.177
+  type: socks5
+- name: 1|US - zhuhai.uk 06
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 02
+  name: 1|US - zhuhai.uk 07
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -388,50 +422,17 @@ proxies:
   tls: true
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 05
-  network: ws
-  port: 2083
-  server: 27.50.48.69
-  servername: kjgdksgghre466.pages.dev
-  tls: true
-  type: vless
-  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
-  ws-opts:
-    headers:
-      Host: kjgdksgghre466.pages.dev
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 06
+- name: 1|US - zhuhai.uk 09
   port: 443
-  reality-opts:
-    public-key: zyuUbkfNG5nWHUVIVjGCCYIs85gKcxho6vmHKXVMIWA
-    short-id: 2ad0cb03eb3fa5
-  server: us4.miyazono-kaori.com
-  servername: download-porter.hoyoverse.com
-  tls: true
-  type: vless
-  uuid: aba8b762-e6c5-413e-b342-c132007fa767
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 07
-  network: ws
-  port: 2083
-  server: 198.62.62.123
-  servername: kjgdksgghre466.pages.dev
-  tls: true
-  type: vless
-  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
-  ws-opts:
-    headers:
-      Host: kjgdksgghre466.pages.dev
-    path: /
-- name: 1|US - zhuhai.uk 08
-  password: 'null'
-  port: 9002
-  server: 156.146.59.16
+  server: fan.365747.xyz
   skip-cert-verify: true
-  sni: 156.146.59.16
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 10
+  password: None
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
@@ -439,11 +440,5 @@ proxies:
   password: PQ05174892
   port: 443
   server: sure-bengal.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|US - zhuhai.uk 10
-  password: PQ05174892
-  port: 443
-  server: mature-lamprey.rooster465.autos
   type: trojan
   udp: true
