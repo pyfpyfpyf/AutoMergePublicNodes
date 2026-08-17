@@ -7,19 +7,25 @@ proxies:
   sni: t11.qifei.app
   type: trojan
   udp: true
-- name: 1|JP - zhuhai.uk
-  network: ws
-  password: ec0abe0c-4937-41e3-b5fc-c62410d7b1d6
-  port: 42315
-  server: 221.181.169.76
-  skip-cert-verify: true
-  sni: vpn-node.internal
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk
+  port: 39411
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 188.253.123.164
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- name: 1|JP - zhuhai.uk 02
+  password: HC04361579
+  port: 443
+  server: accepted-starling.rooster465.autos
+  sni: accepted-starling.rooster465.autos
   tls: true
   type: trojan
-  ws-opts:
-    headers:
-      Host: vpn-node.internal
-    path: /xVpnTrojanWsSvc7f3a
 - name: 1|JP - zhuhai.uk 26
   password: PQ05174892
   port: 443
@@ -144,12 +150,6 @@ proxies:
   password: PQ05174892
   port: 443
   server: glorious-hamster.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|JP - zhuhai.uk 02
-  password: PQ05174892
-  port: 443
-  server: modest-pup.rooster465.autos
   type: trojan
   udp: true
 - name: 1|JP - zhuhai.uk 11
