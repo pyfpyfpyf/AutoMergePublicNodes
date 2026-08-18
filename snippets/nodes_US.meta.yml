@@ -239,7 +239,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 03
+- name: 0|US_speednode_0142
   port: 9002
   server: 156.146.59.4
   skip-cert-verify: true
@@ -367,46 +367,95 @@ proxies:
   tls: true
   type: http
   udp: true
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.89
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - name: 1|US - zhuhai.uk 02
+  network: ws
+  port: 80
+  server: 104.25.248.247
+  type: vless
+  uuid: b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d
+  ws-opts:
+    headers:
+      Host: cfnew.schzyc.cc.cd
+    path: /
+- client-fingerprint: random
+  name: 1|US - zhuhai.uk 03
+  network: ws
+  port: 2053
+  server: 172.67.194.48
+  servername: testcf.motherfuck.dpdns.org
+  tls: true
+  type: vless
+  uuid: 2e67eff4-02ac-4a13-b695-4452465df6a1
+  ws-opts:
+    headers:
+      Host: testcf.motherfuck.dpdns.org
+    path: /?ed=2560
+- name: 1|US - zhuhai.uk 04
+  network: ws
+  port: 8880
+  server: 104.234.239.2
+  type: vless
+  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
+  ws-opts:
+    headers:
+      Host: old-violet-a5ce.29-440.workers.dev
+    path: /pyip=Telegram🇨🇳+@WangCai2
+- name: 1|US - zhuhai.uk 05
   password: 6f65680b8d4de72e9f7c030e92e27a32
   port: 50160
   server: 166-0-16-52.liao.kdns.fr
   sni: 166-0-16-52.liao.kdns.fr
   type: hysteria2
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 04
-  port: 37735
-  reality-opts:
-    public-key: XPA6z8rF7u5PktPHScbl5rAXzxcZr3GGcWjQsAbgGCQ
-    short-id: 42fe6ac8
-  server: rm-us-04.409648.xyz
-  servername: d1--ov-gotcha07.bilivideo.com
+- name: 1|US - zhuhai.uk 06
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 05
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 169.40.42.229
-  servername: yahoo.com
+  type: http
+- name: 1|US - zhuhai.uk 07
+  password: None
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 08
+  network: ws
+  port: 2087
+  server: 188.164.248.32
+  servername: jcxjcnasvip.jcdenas.top
   skip-cert-verify: true
   tls: true
   type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  uuid: 5b06a1b1-8839-4969-874a-3b501528275b
+  ws-opts:
+    headers:
+      Host: jcxjcnasvip.jcdenas.top
+    path: /
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 06
+  name: 1|US - zhuhai.uk 09
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-  server: 169.40.42.223
+  server: 169.40.42.104
   servername: yahoo.com
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
@@ -416,27 +465,9 @@ proxies:
   server: sure-bengal.rooster465.autos
   type: trojan
   udp: true
-- name: 1|US - zhuhai.uk 09
-  password: PQ05174892
-  port: 443
-  server: comic-poodle.rooster465.autos
-  type: trojan
-  udp: true
 - name: 1|US - zhuhai.uk 10
   password: PQ05174892
   port: 443
   server: mature-lamprey.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|US - zhuhai.uk 07
-  password: PQ05174892
-  port: 443
-  server: absolute-teal.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|US - zhuhai.uk 08
-  password: PQ05174892
-  port: 443
-  server: smooth-sculpin.rooster465.autos
   type: trojan
   udp: true

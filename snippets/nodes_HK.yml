@@ -15,28 +15,29 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: 1|HK - zhuhai.uk 02
-  password: PQ05174892
-  port: 443
-  server: ideal-robin.rooster465.autos
+- name: 1|HK - zhuhai.uk
+  network: ws
+  password: 2763afef-32a8-410a-b76b-4f42e3f505a1
+  port: 46867
+  server: 221.181.169.196
+  skip-cert-verify: true
+  sni: vpn-node.internal
+  tls: true
   type: trojan
-  udp: true
-- name: 1|HK - zhuhai.uk 01
-  password: PQ05174892
-  port: 443
-  server: strong-haddock.rooster465.autos
-  type: trojan
-  udp: true
+  ws-opts:
+    headers:
+      Host: vpn-node.internal
+    path: /xVpnTrojanWsSvc7f3a
 - name: 1|HK - zhuhai.uk 05
   password: PQ05174892
   port: 443
   server: well-marmot.rooster465.autos
   type: trojan
   udp: true
-- name: 1|HK - zhuhai.uk 06
+- name: 1|HK - zhuhai.uk 01
   password: PQ05174892
   port: 443
-  server: just-alpaca.rooster465.autos
+  server: strong-haddock.rooster465.autos
   type: trojan
   udp: true
 - name: 1|HK - zhuhai.uk 04
@@ -61,5 +62,17 @@ proxies:
   password: PQ05174892
   port: 443
   server: glad-roughy.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|HK - zhuhai.uk 06
+  password: PQ05174892
+  port: 443
+  server: just-alpaca.rooster465.autos
+  type: trojan
+  udp: true
+- name: 1|HK - zhuhai.uk 02
+  password: PQ05174892
+  port: 443
+  server: ideal-robin.rooster465.autos
   type: trojan
   udp: true
