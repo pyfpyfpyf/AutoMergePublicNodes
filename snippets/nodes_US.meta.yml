@@ -346,7 +346,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0157
+- name: 0,1|US - zhuhai.uk 04
   port: 9002
   server: 156.146.59.10
   skip-cert-verify: true
@@ -368,88 +368,66 @@ proxies:
   type: http
   udp: true
 - name: 1|US - zhuhai.uk
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
+  password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+  port: 443
+  server: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
   tls: true
   type: http
+  username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
 - name: 1|US - zhuhai.uk 02
-  password: 'null'
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- client-fingerprint: random
-  name: 1|US - zhuhai.uk 03
-  network: ws
-  port: 2053
-  server: 172.67.193.74
-  servername: testcf.motherfuck.dpdns.org
-  tls: true
+  port: 52683
+  server: jp.sofast.live
   type: vless
-  uuid: 2e67eff4-02ac-4a13-b695-4452465df6a1
-  ws-opts:
-    headers:
-      Host: testcf.motherfuck.dpdns.org
-    path: /?ed=2560
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 04
+  name: 1|US - zhuhai.uk 03
   port: 20725
   reality-opts:
     public-key: hceZHd9X9FSbWGXGgm3OWN-4Au26rrsriTcyHw5M3VU
     short-id: 0102ac4e
   server: rm-us-07.409648.xyz
   servername: d1--ov-gotcha07.bilivideo.com
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
 - name: 1|US - zhuhai.uk 05
   port: 9002
-  server: 138.199.35.206
+  server: 138.199.35.205
   skip-cert-verify: true
-  sni: 138.199.35.206
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 06
-  port: 443
-  server: carolinafreigh.fun
+  port: 9002
+  server: 156.146.59.19
   skip-cert-verify: true
-  sni: carolinafreigh.fun
   tls: true
   type: http
-- flow: xtls-rprx-vision
+- client-fingerprint: chrome
   name: 1|US - zhuhai.uk 07
-  port: 49356
-  server: 27.44.127.166
-  servername: dmla.huaweiyouxuan.com
-  skip-cert-verify: true
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: uag6mQ8Nj62hZYzJhhd4ZZ-0GOGA42khyC6XtRbEnAg
+    short-id: 77ca514a4493ae52
+  server: se.morinsq.su
+  servername: se.morinsq.su
   tls: true
   type: vless
-  uuid: fb957ee2-2ca0-43f3-ab86-724a9ca0b628
-- name: 1|US - zhuhai.uk 08
-  port: 9002
-  server: 156.146.59.43
-  skip-cert-verify: true
+  udp: true
+  uuid: 93fab704-cea7-4ca4-a9ac-5bb46aef263c
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 01
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.229
+  servername: yahoo.com
   tls: true
-  type: http
-- name: 1|US - zhuhai.uk 01
-  password: PQ05174892
-  port: 443
-  server: sure-bengal.rooster465.autos
-  type: trojan
+  type: vless
   udp: true
-- name: 1|US - zhuhai.uk 09
-  password: PQ05174892
-  port: 443
-  server: comic-poodle.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|US - zhuhai.uk 10
-  password: PQ05174892
-  port: 443
-  server: mature-lamprey.rooster465.autos
-  type: trojan
-  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
