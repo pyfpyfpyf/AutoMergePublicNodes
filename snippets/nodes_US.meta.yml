@@ -131,10 +131,11 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- name: 0|US_speednode_0128
+- name: 0,1|US - zhuhai.uk 05
   port: 9002
   server: 138.199.35.212
   skip-cert-verify: true
+  sni: 138.199.35.212
   tls: true
   type: http
   udp: true
@@ -246,7 +247,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 10
+- name: 0|US_speednode_0143
   port: 9002
   server: 156.146.59.28
   skip-cert-verify: true
@@ -332,7 +333,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0155
+- name: 0,1|US - zhuhai.uk 06
   port: 9002
   server: 156.146.59.27
   skip-cert-verify: true
@@ -368,70 +369,61 @@ proxies:
   type: http
   udp: true
 - name: 1|US - zhuhai.uk
-  port: 52683
-  server: jp.sofast.live
-  type: vless
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-- name: 1|US - zhuhai.uk 02
-  password: 'null'
+  password: None
   port: 9002
-  server: 156.146.59.16
+  server: 138.199.35.215
   skip-cert-verify: true
+  sni: 138.199.35.215
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 03
-  password: 'null'
+  password: None
   port: 9002
-  server: 156.146.59.28
+  server: 138.199.35.198
   skip-cert-verify: true
-  sni: 156.146.59.28
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 04
-  port: 1080
-  server: 43.162.94.99
-  type: socks5
-- name: 1|US - zhuhai.uk 05
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 07
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 08
   password: None
   port: 9002
-  server: 156.146.59.43
+  server: 138.199.35.197
   skip-cert-verify: true
-  sni: 156.146.59.43
   tls: true
   type: http
   username: 'null'
-- flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 09
-  port: 49356
-  server: 27.44.127.166
-  servername: dmla.huaweiyouxuan.com
+- name: 1|US - zhuhai.uk 09
+  network: ws
+  password: 758a36c5-d422-4e0d-9bee-a89ce9f9b078
+  port: 48774
+  server: 172.238.22.232
+  skip-cert-verify: true
+  sni: vpn-node.internal
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vpn-node.internal
+    path: /xVpnTrojanWsSvc7f3a
+- name: 1|US - zhuhai.uk 10
+  port: 9002
+  server: 138.199.35.219
   skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: fb957ee2-2ca0-43f3-ab86-724a9ca0b628
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 07
-  port: 8443
-  reality-opts:
-    public-key: sCx9uyop_1YrTRXcqKb_D66AnIFDAfkpmpo5PiBljFs
-    short-id: f6328a3b80dd9dce
-  server: 156.229.164.49
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 601e4ca5-df0a-43a1-97c2-0b1f5c0ae413
-- name: 1|US - zhuhai.uk 08
-  obfs: salamander
-  obfs-password: vtxobfs_4fb1b902428602984b523d6339abce6c
-  password: vha1.eyJ2IjoxLCJ1aWQiOiJmNTkwMjYyMC1kYjFkLTQyNTAtYjNjNC0zOGM0MTQ3NWE0MGEiLCJ1dWlkIjoiNjAxZTRjYTUtZGYwYS00M2ExLTk3YzItMGIxZjVjMGFlNDEzIiwiaWF0IjoxNzg2NjM5OTA2LCJleHAiOjE3ODY2NjE1MDZ9.7PW1PzB5DPd-Wh7l264Qkl5wHcDa3VCj31r4F8JAuaY
-  port: 443
-  server: 156.229.164.49
-  skip-cert-verify: true
-  sni: us3-hy2.vortexio.cc
-  type: hysteria2
+  type: http
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: 1|US - zhuhai.uk 01

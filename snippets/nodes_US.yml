@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- name: 1|US - zhuhai.uk 09
+  network: ws
+  password: 758a36c5-d422-4e0d-9bee-a89ce9f9b078
+  port: 48774
+  server: 172.238.22.232
+  skip-cert-verify: true
+  sni: vpn-node.internal
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vpn-node.internal
+    path: /xVpnTrojanWsSvc7f3a
