@@ -16,15 +16,22 @@ proxies:
   type: trojan
   udp: true
 - name: 1|HK - zhuhai.uk
-  password: '!!str 123'
-  port: 3060
-  server: 43.100.43.112
-  type: socks5
-  username: '123'
-- name: 1|HK - zhuhai.uk 02
   password: 13f0acfa-38c1-4e82-a758-583aa31740df
   port: 24318
   server: yzany01.jdoanst2026.com
-  sni: hk08.alytest.cc
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- name: 1|HK - zhuhai.uk 02
+  password: admin
+  port: 1080
+  server: 47.239.116.165
+  type: socks5
+  username: admin
+- name: 1|HK - zhuhai.uk 03
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: 33782
+  server: yzany01.jdoanst2026.com
+  skip-cert-verify: true
   type: anytls
   udp: true
