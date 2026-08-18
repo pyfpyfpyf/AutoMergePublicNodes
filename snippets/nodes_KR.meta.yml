@@ -1,17 +1,24 @@
 proxies:
-- name: 1|KR - zhuhai.uk
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|KR - zhuhai.uk
+  port: 38551
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 188.253.123.164
+  servername: cdnjs.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- name: 1|KR - zhuhai.uk 02
   password: HC04361579
   port: 443
   server: quick-ant.rooster465.autos
   sni: quick-ant.rooster465.autos
   tls: true
   type: trojan
-- name: 1|KR - zhuhai.uk 02
-  password: PQ05174892
-  port: 443
-  server: hopeful-burro.rooster465.autos
-  type: trojan
-  udp: true
 - name: 1|KR - zhuhai.uk 30
   password: PQ05174892
   port: 443

@@ -8,30 +8,35 @@ proxies:
   type: http
   udp: true
   username: testuser1
-- name: 1|DE - zhuhai.uk
-  port: 443
-  server: fan.973511.xyz
-  sni: fan.973511.xyz
-  tls: true
-  type: http
-- cipher: chacha20-ietf-poly1305
-  name: 1|DE - zhuhai.uk 02
-  password: 0XCI4pQcZ2nxzVT40CCc0K
-  port: 5228
-  server: creativegermany.zanity.net
-  type: ss
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk 03
+  name: 1|DE - zhuhai.uk
   port: 2027
   reality-opts:
     public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: 8d3293f0066e129a
+    short-id: dc8109baf0f607ea
   server: 78.159.247.253
   servername: storage.yandex.net
   tls: true
   type: vless
   uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+- client-fingerprint: firefox
+  name: 1|DE - zhuhai.uk 02
+  network: ws
+  port: 443
+  server: 94.183.157.60.fwqfw783rg2dad.website
+  servername: 94.183.157.60.fwqfw783rg2dad.website
+  tls: true
+  type: vless
+  uuid: 5ca83936-136d-4314-8453-4ba10a86cf60
+  ws-opts:
+    path: /websocket
+- name: 1|DE - zhuhai.uk 03
+  password: PQ05174892
+  port: 443
+  server: usable-dogfish.rooster465.autos
+  type: trojan
+  udp: true
 - name: 1|DE - zhuhai.uk 06
   password: PQ05174892
   port: 443
