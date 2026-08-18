@@ -15,21 +15,39 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: 1|HK - zhuhai.uk
-  password: '!!str 123'
-  port: 3060
-  server: 43.100.43.112
-  type: socks5
-  username: '123'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk 02
-  port: 46836
+  name: 1|HK - zhuhai.uk
+  port: 31723
   reality-opts:
-    public-key: 34E9kBFzQNFZzM4ob-t3VFM44SJ-RREhTwgna0r8Rgc
-  server: fuck.p1d2.com
-  servername: swdist.apple.com
-  skip-cert-verify: true
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 155.117.199.13
+  servername: cdnjs.cloudflare.com
   tls: true
   type: vless
-  uuid: 83efc3a0-05c6-462b-89f7-07c430f73c03
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- alterId: 0
+  cipher: auto
+  name: 1|HK - zhuhai.uk 02
+  network: ws
+  port: 16622
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: 9e014282-24a2-46b2-b59a-2e3012aa3b2a
+  ws-opts:
+    headers:
+      Host: 219abf709035cffa8a8edd0dd3a8de57.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 03
+  port: 443
+  reality-opts:
+    public-key: KhRbgahSFqlPKB6QNp9QYb4oXMy2SIgi440tm6iFZHA
+    short-id: ea6b43
+  server: hk4.miyazono-kaori.com
+  servername: hk4e-launcher-static.hoyoverse.com
+  tls: true
+  type: vless
+  uuid: 757ea408-8207-4850-b23f-f2082243288d

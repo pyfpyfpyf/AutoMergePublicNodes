@@ -23,18 +23,31 @@ proxies:
   sni: t11.qifei.app
   type: trojan
   udp: true
-- name: 1|FR - zhuhai.uk 02
-  password: fg20mtCFHy
-  port: 5577
-  server: 172.232.42.44
-  skip-cert-verify: true
-  sni: gtyxz.southbyte.xyz
+- alterId: 0
+  cipher: auto
+  name: 1|HK - zhuhai.uk 02
+  network: ws
+  port: 16622
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: 9e014282-24a2-46b2-b59a-2e3012aa3b2a
+  ws-opts:
+    headers:
+      Host: 219abf709035cffa8a8edd0dd3a8de57.mobgslb.tbcache.com
+    path: /
+- grpc-opts:
+    grpc-service-name: ajv
+  name: 1|EE - zhuhai.uk 02
+  network: grpc
+  password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
+  port: 443
+  server: ru-5b7331.atlanta-games.com
+  sni: ru-5b7331.atlanta-games.com
   tls: true
   type: trojan
-- name: 1|JP - zhuhai.uk 02
-  password: HC04361579
+- name: 1|SG - zhuhai.uk 03
+  password: EQ30679154
   port: 443
-  server: pet-albacore.rooster465.autos
-  sni: pet-albacore.rooster465.autos
+  server: internal-raccoon.rooster465.autos
   tls: true
   type: trojan

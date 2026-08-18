@@ -6,18 +6,27 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 1|FR - zhuhai.uk
-  password: freeuser1
-  port: 9251
-  server: fr012.freeconnect.link
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|FR - zhuhai.uk
+  port: 39399
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 155.117.199.13
+  servername: cdnjs.cloudflare.com
   tls: true
-  type: http
-  username: freeuser1
-- name: 1|FR - zhuhai.uk 02
-  password: fg20mtCFHy
-  port: 5577
-  server: 172.232.42.44
-  skip-cert-verify: true
-  sni: gtyxz.southbyte.xyz
+  type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|FR - zhuhai.uk 02
+  port: 39395
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 155.117.199.13
+  servername: cdnjs.cloudflare.com
   tls: true
-  type: trojan
+  type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
