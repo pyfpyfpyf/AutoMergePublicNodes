@@ -8,20 +8,28 @@ proxies:
   type: http
   udp: true
   username: testuser1
-- client-fingerprint: chrome
+- client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 1|DE - zhuhai.uk
-  port: 443
+  port: 13443
   reality-opts:
-    public-key: p3sQ8oByv8AXIm2jaOdFvAmxTeMGjr9uwCqyFvHpJz0
-    short-id: d6c4636b81237396
-  server: 45.10.165.209
-  servername: storage.yandex.net
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: a7f3c91b2e6d84c0
+  server: 150.241.94.59
+  servername: auto.cendora.ru
   tls: true
   type: vless
-  uuid: 5e19b3c8-c1dc-4163-95e2-895319c15d6c
-- name: 1|DE - zhuhai.uk 02
-  port: 443
-  server: fan.973511.xyz
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk 03
+  port: 2027
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: 8d3293f0066e129a
+  server: 78.159.247.253
+  servername: storage.yandex.net
+  skip-cert-verify: true
   tls: true
-  type: http
+  type: vless
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060

@@ -26,15 +26,24 @@ proxies:
 - name: 1|JP - zhuhai.uk
   password: HC04361579
   port: 443
-  server: driven-doberman.rooster465.autos
-  sni: driven-doberman.rooster465.autos
+  server: exact-sawfish.rooster465.autos
+  sni: exact-sawfish.rooster465.autos
   tls: true
   type: trojan
-- name: 1|HK - zhuhai.uk
-  password: HC04361579
+- cipher: aes-256-cfb
+  name: 1|FR - zhuhai.uk
+  password: amazonskr05
   port: 443
-  server: renewing-ewe.rooster465.autos
-  sni: renewing-ewe.rooster465.autos
+  server: 15.237.189.197
+  type: ss
+- grpc-opts:
+    grpc-service-name: ajv
+  name: 1|EE - zhuhai.uk
+  network: grpc
+  password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
+  port: 443
+  server: ru-5b7331.atlanta-games.com
+  sni: ru-5b7331.atlanta-games.com
   tls: true
   type: trojan
 - name: 1|JP - zhuhai.uk 01
@@ -43,5 +52,19 @@ proxies:
   server: accepted-starling.rooster465.autos
   skip-cert-verify: true
   sni: accepted-starling.rooster465.autos
+  tls: true
   type: trojan
   udp: true
+- cipher: aes-128-gcm
+  name: 1|IT - zhuhai.uk
+  password: 929c5ce8-222b-4d93-a80f-9ed580e2e8c1
+  port: 1061
+  server: edir2end.cloud2orbit.com
+  type: ss
+- name: 1|HK - zhuhai.uk 02
+  password: HC04361579
+  port: 443
+  server: renewing-ewe.rooster465.autos
+  sni: renewing-ewe.rooster465.autos
+  tls: true
+  type: trojan
