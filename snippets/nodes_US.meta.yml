@@ -131,11 +131,10 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- name: 0,1|US - zhuhai.uk 02
+- name: 0|US_speednode_0128
   port: 9002
   server: 138.199.35.212
   skip-cert-verify: true
-  sni: 138.199.35.212
   tls: true
   type: http
   udp: true
@@ -213,10 +212,11 @@ proxies:
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- name: 0|US_speednode_0138
+- name: 0,1|US - zhuhai.uk 04
   port: 9002
   server: 138.199.35.211
   skip-cert-verify: true
+  sni: 138.199.35.211
   tls: true
   type: http
   udp: true
@@ -370,44 +370,19 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk
-  port: 8443
+  name: 1|US - zhuhai.uk 03
+  port: 10086
   reality-opts:
-    public-key: VJwBthRcBwhGwneFMFK-9IsC-TbEgs7ZvIVn2bg6oQo
-    short-id: f444
-  server: 107.172.243.149
-  servername: services.digitaleast.mobi
-  tls: true
-  type: vless
-  uuid: fa0f1a88-70d9-45b2-a51d-c56cc252cd6d
-- name: 1|US - zhuhai.uk 03
-  port: 9002
-  server: 138.199.35.219
+    public-key: 0e170mEy43TNARHNG2wkpZD0sfDiosX03F5SQeqNHTU
+  server: fuck.p1d2.com
+  servername: swdist.apple.com
   skip-cert-verify: true
   tls: true
-  type: http
-- name: 1|US - zhuhai.uk 04
-  port: 443
-  server: fullmanfirm.icu
-  sni: fullmanfirm.icu
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 05
-  port: 443
-  reality-opts:
-    public-key: dvXaj6cjjCxv1btRo7vHk93VR0BCQTF_xQClCjVZ1mM
-    short-id: 5cfd1c
-  server: us3.miyazono-kaori.com
-  servername: download-porter.hoyoverse.com
-  tls: true
   type: vless
-  uuid: 757ea408-8207-4850-b23f-f2082243288d
-- name: 1|US - zhuhai.uk 06
+  uuid: 83efc3a0-05c6-462b-89f7-07c430f73c03
+- name: 1|US - zhuhai.uk 02
   port: 9002
-  server: 138.199.35.196
+  server: 138.199.35.203
   skip-cert-verify: true
-  sni: 138.199.35.196
   tls: true
   type: http
