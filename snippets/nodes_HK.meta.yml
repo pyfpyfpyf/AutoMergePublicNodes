@@ -16,18 +16,24 @@ proxies:
   type: trojan
   udp: true
 - name: 1|HK - zhuhai.uk
-  network: ws
-  password: 2763afef-32a8-410a-b76b-4f42e3f505a1
-  port: 46867
-  server: 221.181.169.196
+  port: 443
+  server: fan.240104.xyz
   skip-cert-verify: true
-  sni: vpn-node.internal
+  sni: fan.240104.xyz
   tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: vpn-node.internal
-    path: /xVpnTrojanWsSvc7f3a
+  type: http
+- name: 1|HK - zhuhai.uk 02
+  port: 20000
+  server: 112.90.88.102
+  type: socks5
+- name: 1|HK - zhuhai.uk 03
+  password: TW_3QZglKmlgzc9zBCDD5W8tQ==
+  port: 443
+  server: 45.144.136.244
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: anytls
+  udp: true
 - name: 1|HK - zhuhai.uk 05
   password: PQ05174892
   port: 443
@@ -46,12 +52,6 @@ proxies:
   server: full-ox.rooster465.autos
   type: trojan
   udp: true
-- name: 1|HK - zhuhai.uk 03
-  password: PQ05174892
-  port: 443
-  server: smiling-ray.rooster465.autos
-  type: trojan
-  udp: true
 - name: 1|HK - zhuhai.uk 08
   password: PQ05174892
   port: 443
@@ -68,11 +68,5 @@ proxies:
   password: PQ05174892
   port: 443
   server: just-alpaca.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|HK - zhuhai.uk 02
-  password: PQ05174892
-  port: 443
-  server: ideal-robin.rooster465.autos
   type: trojan
   udp: true
