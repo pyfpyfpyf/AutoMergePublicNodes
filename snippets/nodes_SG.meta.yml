@@ -1,13 +1,25 @@
 proxies:
-- client-fingerprint: safari
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|SG - zhuhai.uk
   port: 443
   reality-opts:
-    public-key: fDaI9PXV_80HmzLkpSPN-Js5SmzsV8Gd0uHvEb4eGAQ
-    short-id: 3d89388254c3265b
-  server: 163.128.98.187
-  servername: www.apple.com
+    public-key: kHFYHKGTtnXyXLBRrsgRygBIZ1G471pWw7h6MvpnuGo
+  server: z1.dengta.lat
+  servername: apple.com
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: b4062431-69a1-4e7f-9341-452f4bd58bd9
+  uuid: 83efc3a0-05c6-462b-89f7-07c430f73c03
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk 02
+  port: 23104
+  reality-opts:
+    public-key: 2JSelebbqcprIrG8Xk6PmtonR0lccm22lKZchOtTiTc
+  server: fuck.p1d2.com
+  servername: swdist.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 83efc3a0-05c6-462b-89f7-07c430f73c03
