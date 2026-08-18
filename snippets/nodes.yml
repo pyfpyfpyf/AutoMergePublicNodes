@@ -23,9 +23,27 @@ proxies:
   sni: t11.qifei.app
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|JP - zhuhai.uk
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21109
-  server: 211.91.158.27
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1|HK - zhuhai.uk
+  network: ws
+  port: 16622
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: 5b874a21-93b4-4fd5-9e11-b3cc30c9abdf
+  ws-opts:
+    headers:
+      Host: 73226094b12c74c4f4e0d0220d300108.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|HK - zhuhai.uk 03
+  network: ws
+  port: 16622
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: 8dac4389-c4fa-4df6-983c-da2ead0a22f7
+  ws-opts:
+    headers:
+      Host: 1bf422b464b0b7151f0a527e043c9b68.mobgslb.tbcache.com
+    path: /

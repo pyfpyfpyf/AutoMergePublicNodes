@@ -7,12 +7,30 @@ proxies:
   sni: t11.qifei.app
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|JP - zhuhai.uk
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21109
-  server: 211.91.158.27
-  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk 03
+  port: 22369
+  reality-opts:
+    public-key: rRNb-oeDtsCMz2CW-wEZPeIRV2IRcYhNB--jX2aIYDk
+  server: fuck.p1d2.com
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 83efc3a0-05c6-462b-89f7-07c430f73c03
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk 02
+  port: 28176
+  reality-opts:
+    public-key: HBeH_uPYOMp9D7Mq1KxBzduX07OZ9C8rT4zSHNjiO3g
+    short-id: c1cd56a8
+  server: guzljsefoasducuxk76.gxiwoxwecuowerfns.com
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 48d6a7ca-4257-4400-b810-eecb16e9e30f
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|JP - zhuhai.uk 01

@@ -233,11 +233,9 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 02
+- name: 0|US_speednode_0141
   port: 443
   server: fan.226278.xyz
-  skip-cert-verify: true
-  sni: fan.226278.xyz
   tls: true
   type: http
   udp: true
@@ -370,34 +368,68 @@ proxies:
   type: http
   udp: true
 - name: 1|US - zhuhai.uk
-  password: None
+  password: 'null'
   port: 9002
-  server: 138.199.35.215
+  server: 138.199.35.216
   skip-cert-verify: true
-  sni: 138.199.35.215
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 03
+- name: 1|US - zhuhai.uk 02
   port: 9002
-  server: 156.146.59.12
+  server: 138.199.35.198
   skip-cert-verify: true
   tls: true
   type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 03
+  port: 28180
+  reality-opts:
+    public-key: HBeH_uPYOMp9D7Mq1KxBzduX07OZ9C8rT4zSHNjiO3g
+    short-id: c1cd56a8
+  server: guzljsefoasducuxk80.gxiwoxwecuowerfns.com
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 48d6a7ca-4257-4400-b810-eecb16e9e30f
 - name: 1|US - zhuhai.uk 04
   password: 'null'
   port: 9002
-  server: 156.146.59.7
+  server: 138.199.35.215
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 05
-  password: 'null'
+  password: None
   port: 9002
-  server: 138.199.35.195
+  server: 138.199.35.196
   skip-cert-verify: true
-  sni: 138.199.35.195
   tls: true
   type: http
   username: 'null'
+- name: 1|US - zhuhai.uk 06
+  password: V2SXTzHaoyzTPHZW
+  port: 36001
+  server: 35.91.81.96
+  sni: us-ls-o-1.khljbzxpeytzgsqgtfki.cc
+  type: hysteria2
+- name: 1|US - zhuhai.uk 07
+  port: 8090
+  server: 209.148.53.153
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 08
+  port: 25089
+  reality-opts:
+    public-key: 0e170mEy43TNARHNG2wkpZD0sfDiosX03F5SQeqNHTU
+  server: fuck.p1d2.com
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 83efc3a0-05c6-462b-89f7-07c430f73c03

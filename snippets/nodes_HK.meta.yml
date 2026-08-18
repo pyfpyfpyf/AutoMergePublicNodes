@@ -15,21 +15,39 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: 1|HK - zhuhai.uk
-  password: '!!str 123'
-  port: 3060
-  server: 43.100.43.112
-  type: socks5
-  username: '123'
+- alterId: 0
+  cipher: auto
+  name: 1|HK - zhuhai.uk
+  network: ws
+  port: 16622
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: 5b874a21-93b4-4fd5-9e11-b3cc30c9abdf
+  ws-opts:
+    headers:
+      Host: 73226094b12c74c4f4e0d0220d300108.mobgslb.tbcache.com
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|HK - zhuhai.uk 02
-  port: 39571
+  port: 31723
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
     short-id: bc8e3658db7d1323
-  server: 188.253.123.164
+  server: 155.117.199.13
   servername: cdnjs.cloudflare.com
   tls: true
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- alterId: 0
+  cipher: auto
+  name: 1|HK - zhuhai.uk 03
+  network: ws
+  port: 16622
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: 8dac4389-c4fa-4df6-983c-da2ead0a22f7
+  ws-opts:
+    headers:
+      Host: 1bf422b464b0b7151f0a527e043c9b68.mobgslb.tbcache.com
+    path: /
