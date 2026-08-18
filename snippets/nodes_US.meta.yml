@@ -246,7 +246,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0143
+- name: 0,1|US - zhuhai.uk 10
   port: 9002
   server: 156.146.59.28
   skip-cert-verify: true
@@ -346,7 +346,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 04
+- name: 0|US_speednode_0157
   port: 9002
   server: 156.146.59.10
   skip-cert-verify: true
@@ -368,55 +368,70 @@ proxies:
   type: http
   udp: true
 - name: 1|US - zhuhai.uk
-  password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-  port: 443
-  server: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
-  tls: true
-  type: http
-  username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-- name: 1|US - zhuhai.uk 02
   port: 52683
   server: jp.sofast.live
   type: vless
   uuid: 399b6b23-cc40-4831-a494-61948e2df133
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 03
-  port: 20725
-  reality-opts:
-    public-key: hceZHd9X9FSbWGXGgm3OWN-4Au26rrsriTcyHw5M3VU
-    short-id: 0102ac4e
-  server: rm-us-07.409648.xyz
-  servername: d1--ov-gotcha07.bilivideo.com
+- name: 1|US - zhuhai.uk 02
+  password: 'null'
+  port: 9002
+  server: 156.146.59.16
   skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: 6dcb725e-947e-4bbe-bb35-903374d57179
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 03
+  password: 'null'
+  port: 9002
+  server: 156.146.59.28
+  skip-cert-verify: true
+  sni: 156.146.59.28
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 04
+  port: 1080
+  server: 43.162.94.99
+  type: socks5
 - name: 1|US - zhuhai.uk 05
+  password: None
   port: 9002
-  server: 138.199.35.205
+  server: 156.146.59.43
   skip-cert-verify: true
+  sni: 156.146.59.43
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 06
-  port: 9002
-  server: 156.146.59.19
+  username: 'null'
+- flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 09
+  port: 49356
+  server: 27.44.127.166
+  servername: dmla.huaweiyouxuan.com
   skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 07
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: uag6mQ8Nj62hZYzJhhd4ZZ-0GOGA42khyC6XtRbEnAg
-    short-id: 77ca514a4493ae52
-  server: se.morinsq.su
-  servername: se.morinsq.su
   tls: true
   type: vless
-  udp: true
-  uuid: 93fab704-cea7-4ca4-a9ac-5bb46aef263c
+  uuid: fb957ee2-2ca0-43f3-ab86-724a9ca0b628
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 07
+  port: 8443
+  reality-opts:
+    public-key: sCx9uyop_1YrTRXcqKb_D66AnIFDAfkpmpo5PiBljFs
+    short-id: f6328a3b80dd9dce
+  server: 156.229.164.49
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 601e4ca5-df0a-43a1-97c2-0b1f5c0ae413
+- name: 1|US - zhuhai.uk 08
+  obfs: salamander
+  obfs-password: vtxobfs_4fb1b902428602984b523d6339abce6c
+  password: vha1.eyJ2IjoxLCJ1aWQiOiJmNTkwMjYyMC1kYjFkLTQyNTAtYjNjNC0zOGM0MTQ3NWE0MGEiLCJ1dWlkIjoiNjAxZTRjYTUtZGYwYS00M2ExLTk3YzItMGIxZjVjMGFlNDEzIiwiaWF0IjoxNzg2NjM5OTA2LCJleHAiOjE3ODY2NjE1MDZ9.7PW1PzB5DPd-Wh7l264Qkl5wHcDa3VCj31r4F8JAuaY
+  port: 443
+  server: 156.229.164.49
+  skip-cert-verify: true
+  sni: us3-hy2.vortexio.cc
+  type: hysteria2
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: 1|US - zhuhai.uk 01

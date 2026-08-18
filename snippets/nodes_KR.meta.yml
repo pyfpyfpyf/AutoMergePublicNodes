@@ -1,14 +1,16 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|KR - zhuhai.uk
-  port: 38551
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 188.253.123.164
-  servername: cdnjs.cloudflare.com
+- name: 1|KR - zhuhai.uk
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
   skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+  type: http
+  username: test
+- name: 1|KR - zhuhai.uk 02
+  password: HC04361579
+  port: 443
+  server: quick-ant.rooster465.autos
+  sni: quick-ant.rooster465.autos
+  tls: true
+  type: trojan
