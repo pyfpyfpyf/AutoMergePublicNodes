@@ -7,13 +7,25 @@ proxies:
   sni: t11.qifei.app
   type: trojan
   udp: true
-- name: 1|JP - zhuhai.uk
-  password: HC04361579
-  port: 443
-  server: accepted-starling.rooster465.autos
-  sni: accepted-starling.rooster465.autos
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk
+  port: 39411
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 188.253.123.164
+  servername: cdnjs.cloudflare.com
   tls: true
-  type: trojan
+  type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- name: 1|JP - zhuhai.uk 02
+  password: Pwd_23g4oqdgv8uQJlgcmv_2026
+  port: 19659
+  server: 38.143.180.241
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 - name: 1|JP - zhuhai.uk 34
   password: PQ05174892
   port: 443
@@ -438,12 +450,6 @@ proxies:
   password: PQ05174892
   port: 443
   server: thorough-elf.rooster465.autos
-  type: trojan
-  udp: true
-- name: 1|JP - zhuhai.uk 02
-  password: PQ05174892
-  port: 443
-  server: modest-pup.rooster465.autos
   type: trojan
   udp: true
 - name: 1|JP - zhuhai.uk 15
