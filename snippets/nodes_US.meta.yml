@@ -179,35 +179,38 @@ proxies:
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
   port: 9002
-  server: 138.199.35.205
+  server: 156.146.59.43
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
   port: 9002
-  server: 156.146.59.36
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 03
-  port: 9002
   server: 138.199.35.213
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 04
-  port: 9002
-  server: 138.199.35.204
+- name: 1|US - zhuhai.uk 03
+  password: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
+  port: 443
+  server: a55eae52-tk59c0-tldaam-1j0a4.sjc.oshuawei.com
   skip-cert-verify: true
-  sni: 138.199.35.204
   tls: true
   type: http
+  username: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
+- name: 1|US - zhuhai.uk 04
+  password: 39275498-a48c-11ee-b03a-f23c913c8d2b
+  port: 443
+  server: 9f572af8-tk59c0-tl2lpx-1ofy2.se.oshuawei.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 39275498-a48c-11ee-b03a-f23c913c8d2b
 - name: 1|US - zhuhai.uk 05
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
+  port: 9002
+  server: 156.146.59.7
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|US - zhuhai.uk 01
