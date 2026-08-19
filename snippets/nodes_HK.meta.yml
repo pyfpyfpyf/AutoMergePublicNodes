@@ -16,38 +16,28 @@ proxies:
   type: trojan
   udp: true
 - name: 1|HK - zhuhai.uk
-  port: 10808
-  server: 123.58.219.171
-  type: socks5
-- client-fingerprint: qq
+  port: 443
+  server: fan.240104.xyz
+  sni: fan.240104.xyz
+  tls: true
+  type: http
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|HK - zhuhai.uk 02
-  port: 13443
+  port: 39571
   reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: a7f3c91b2e6d84c0
-  server: 103.195.4.7
-  servername: auto.cendora.ru
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 188.253.123.164
+  servername: cdnjs.cloudflare.com
   tls: true
   type: vless
-  uuid: b80b392c-0cf4-42f9-ae54-9f862e3ba276
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - alterId: 0
   cipher: auto
   name: 1|HK - zhuhai.uk 03
   network: ws
   port: 16622
-  server: t.cnmjcn.cyou
-  type: vmess
-  uuid: 7b9d480b-ff5a-4fde-a192-ac79131caa9a
-  ws-opts:
-    headers:
-      Host: d2e7f5d110ba6d4b122b4723b13ecc8f.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|HK - zhuhai.uk 04
-  network: ws
-  port: 16632
   server: planb.mojcn.com.linuxlh.xin
   type: vmess
   uuid: 0c657913-e593-4893-9555-f88478c33a4b
@@ -55,3 +45,12 @@ proxies:
     headers:
       Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
     path: /
+- flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 04
+  port: 14343
+  server: 112.49.63.11
+  servername: thuk.huaweiyouxuan.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: fb957ee2-2ca0-43f3-ab86-724a9ca0b628

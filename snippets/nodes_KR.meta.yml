@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|KR - zhuhai.uk
-  port: 39213
+  port: 39215
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
     short-id: bc8e3658db7d1323
@@ -11,12 +11,18 @@ proxies:
   tls: true
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- cipher: aes-256-cfb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 1|KR - zhuhai.uk 02
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.235
-  type: ss
+  port: 443
+  reality-opts:
+    public-key: 6pZxjabeHoyJlsc2cP3Q5YK7G0bIOQwzWFyiarbUQXc
+    short-id: c8af1462debbc1
+  server: kr2.miyazono-kaori.com
+  servername: www.coway.com
+  tls: true
+  type: vless
+  uuid: 8890a66f-c7af-47ee-a682-2a4e343d3daa
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|KR - zhuhai.uk 01

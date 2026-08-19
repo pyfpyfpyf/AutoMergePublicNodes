@@ -226,7 +226,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 06
+- name: 0|US_speednode_0140
   port: 9002
   server: 138.199.35.213
   skip-cert-verify: true
@@ -297,7 +297,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0150
+- name: 0,1|US - zhuhai.uk
   port: 9002
   server: 156.146.59.31
   skip-cert-verify: true
@@ -367,52 +367,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 1|US - zhuhai.uk
-  network: ws
-  port: 443
-  server: ed8d.wdz.de5.net
-  servername: ed8d.wdz.de5.net
-  tls: true
-  type: vless
-  uuid: 0b06f318-ab9d-4de7-8779-360bd5f7ea67
-  ws-opts:
-    path: /
-- name: 1|US - zhuhai.uk 02
-  port: 443
-  server: goedkoopgeluid.icu
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 03
-  port: 9002
-  server: 156.146.59.42
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 04
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 05
-  password: 'null'
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 07
-  port: 9002
-  server: 156.146.59.36
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 08
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 162.243.146.243
-  sni: a2f392f3.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
+- alterId: 0
+  cipher: auto
+  name: 1|US - zhuhai.uk 02
+  network: http
+  port: 52080
+  server: 38.246.226.240
+  type: vmess
+  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
