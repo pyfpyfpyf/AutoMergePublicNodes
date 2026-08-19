@@ -1,19 +1,27 @@
 proxies:
-- name: 1|SG - zhuhai.uk
-  password: pass
-  port: 1080
-  server: 47.237.78.169
-  type: socks5
-  username: user
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk
+  port: 443
+  reality-opts:
+    public-key: kwZBG2HBA1WN4eZW1GK0D9OVC4TPEs5J-ZeeBA2bVBw
+    short-id: 08f1620e7ad50ca8
+  server: 162.128.87.50
+  servername: www.bing.com
+  tls: true
+  type: vless
+  uuid: be154d71-04ca-4389-8a89-d14219b25cd7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|SG - zhuhai.uk 02
-  port: 31873
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 155.117.199.13
-  servername: cdnjs.cloudflare.com
+    public-key: l7JQh1wolRUB1fiUDIMjbgKksM2hMfQaOr4yeFUZLQk
+    short-id: 905354e3cbb8e2fb
+  server: 162.128.69.118
+  servername: www.bing.com
   tls: true
   type: vless
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+  udp: true
+  uuid: e1497c37-4943-4b99-918b-ee52a0976d29

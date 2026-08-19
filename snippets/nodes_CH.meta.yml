@@ -1,4 +1,10 @@
 proxies:
+- name: 1|CH - zhuhai.uk
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|CH - zhuhai.uk 01
