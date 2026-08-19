@@ -178,22 +178,36 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  password: 39275498-a48c-11ee-b03a-f23c913c8d2b
-  port: 443
-  server: aec1a117-tk59c0-tl2lpx-1ofy2.los.gotochinatown.net
+  port: 9002
+  server: 156.146.59.34
   skip-cert-verify: true
+  sni: 156.146.59.34
   tls: true
   type: http
-  username: 39275498-a48c-11ee-b03a-f23c913c8d2b
 - name: 1|US - zhuhai.uk 02
-  port: 9002
-  server: 138.199.35.213
+  port: 52683
+  server: jp.sofast.live
+  type: vless
+  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+- name: 1|US - zhuhai.uk 03
+  password: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
+  port: 443
+  server: 8e146d42-tk59c0-tldaam-1j0a4.los.gotochinatown.net
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 03
+  username: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
+- name: 1|US - zhuhai.uk 04
   port: 9002
-  server: 138.199.35.216
+  server: 138.199.35.200
   skip-cert-verify: true
+  sni: 138.199.35.200
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 05
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  sni: 138.199.35.202
   tls: true
   type: http
