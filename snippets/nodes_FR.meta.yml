@@ -1,22 +1,32 @@
 proxies:
-- name: 0,1|NL - zhuhai.uk
+- name: 0|FR_speednode_0002
   port: 23856
   server: 51.159.225.196
   skip-cert-verify: true
-  sni: 51.159.225.196
   tls: true
   type: http
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|FR - zhuhai.uk
+  port: 39395
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 155.117.199.13
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|FR - zhuhai.uk 02
   port: 29893
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
     short-id: bc8e3658db7d1323
   server: 155.117.199.13
   servername: cdnjs.cloudflare.com
-  skip-cert-verify: true
   tls: true
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3

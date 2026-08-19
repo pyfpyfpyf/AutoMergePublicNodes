@@ -23,47 +23,17 @@ proxies:
   sni: t11.qifei.app
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|SG - zhuhai.uk
-  password: kUIoP1MSXcvz
-  port: 8388
-  server: 167.99.66.226
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 1|HK - zhuhai.uk
-  network: ws
-  port: 16622
-  server: planb.mojcn.com.linuxlh.xin
-  type: vmess
-  uuid: 5b874a21-93b4-4fd5-9e11-b3cc30c9abdf
-  ws-opts:
-    headers:
-      Host: 73226094b12c74c4f4e0d0220d300108.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|HK - zhuhai.uk 06
-  network: ws
-  port: 16622
-  server: t.cnmjcn.cyou
-  type: vmess
-  uuid: e01e16ef-6e90-43a0-8582-84c426264678
-  ws-opts:
-    headers:
-      Host: 0c9125a3a7b10901acb65f26906fea4b.mobgslb.tbcache.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 1|HK - zhuhai.uk 03
   network: ws
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
+  port: 16622
+  server: t.cnmjcn.cyou
   type: vmess
-  uuid: 0c657913-e593-4893-9555-f88478c33a4b
+  uuid: 7b9d480b-ff5a-4fde-a192-ac79131caa9a
   ws-opts:
     headers:
-      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
+      Host: d2e7f5d110ba6d4b122b4723b13ecc8f.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -79,19 +49,43 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|HK - zhuhai.uk 08
+  name: 1|DE - zhuhai.uk 03
   network: ws
-  port: 16622
-  server: t.cnmjcn.cyou
+  port: 16644
+  server: planb.mojcn.com.linuxlh.xin
   type: vmess
-  uuid: 7b9d480b-ff5a-4fde-a192-ac79131caa9a
+  uuid: e1a48fdd-747d-4a93-9f1e-04aacfcf94b7
   ws-opts:
     headers:
-      Host: d2e7f5d110ba6d4b122b4723b13ecc8f.mobgslb.tbcache.com
+      Host: c1b4a4f9bfe0c1b73ad7a9952428db13.mobgslb.tbcache.com
     path: /
 - cipher: aes-256-cfb
-  name: 1|KR - zhuhai.uk
+  name: 1|KR - zhuhai.uk 02
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.235
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 1|HK - zhuhai.uk 04
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: 0c657913-e593-4893-9555-f88478c33a4b
+  ws-opts:
+    headers:
+      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|TH - zhuhai.uk
+  network: ws
+  port: 80
+  server: www.true.th
+  type: vmess
+  uuid: a150d554-e962-4632-829f-ee583ada3f95
+  ws-opts:
+    headers:
+      Host: d7pu5mzr9c4b0.cloudfront.net
+    path: /htun
