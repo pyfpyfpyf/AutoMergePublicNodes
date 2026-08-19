@@ -1,9 +1,20 @@
 proxies:
-- name: 0|JP_speednode_0014
-  password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
-  port: 55682
-  server: t11.qifei.app
-  skip-cert-verify: true
-  sni: t11.qifei.app
+- alterId: 0
+  cipher: auto
+  name: 1|JP - zhuhai.uk
+  network: ws
+  port: 16617
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: 0c657913-e593-4893-9555-f88478c33a4b
+  ws-opts:
+    headers:
+      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
+    path: /
+- name: 1|JP - zhuhai.uk 02
+  password: EQ30679154
+  port: 443
+  server: definite-gazelle.rooster465.autos
+  sni: definite-gazelle.rooster465.autos
+  tls: true
   type: trojan
-  udp: true

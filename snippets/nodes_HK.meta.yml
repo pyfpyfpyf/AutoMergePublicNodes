@@ -1,47 +1,15 @@
 proxies:
-- name: 0|HK_speednode_0012
-  password: BxceQaOe
-  port: 27161
-  server: 16.162.3.11
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 0|HK_speednode_0013
-  password: BxceQaOe
-  port: 27161
-  server: 16.162.3.11
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk
-  port: 14343
-  server: 27.155.117.209
-  servername: thuk.huaweiyouxuan.com
-  skip-cert-verify: true
+- name: 1|HK - zhuhai.uk
+  port: 443
+  server: hk40.240104.xyz
   tls: true
-  type: vless
-  uuid: fb957ee2-2ca0-43f3-ab86-724a9ca0b628
+  type: http
 - flow: xtls-rprx-vision
   name: 1|HK - zhuhai.uk 02
   port: 14343
-  server: 14.17.78.146
+  server: 36.248.14.90
   servername: thuk.huaweiyouxuan.com
   skip-cert-verify: true
   tls: true
   type: vless
   uuid: fb957ee2-2ca0-43f3-ab86-724a9ca0b628
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk 03
-  port: 38507
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 188.253.123.164
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
