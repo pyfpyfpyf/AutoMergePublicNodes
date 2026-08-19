@@ -68,7 +68,7 @@ proxies:
   uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,1|FR - zhuhai.uk 01
+  name: 0,1|FR - zhuhai.uk 02
   network: tcp
   port: 29893
   reality-opts:
@@ -113,7 +113,7 @@ proxies:
   uuid: 055dce30-0ee3-44c3-b680-be1c95b8d6e7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,1|BR - zhuhai.uk 01
+  name: 0|US_speednode_0139
   network: tcp
   port: 443
   reality-opts:
@@ -142,7 +142,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,1|KR - zhuhai.uk 01
+  name: 0|US_speednode_0142
   network: tcp
   port: 39211
   reality-opts:
@@ -179,49 +179,42 @@ proxies:
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
   port: 9002
-  server: 156.146.59.43
+  server: 156.146.59.19
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
+  port: 443
+  server: goedkoopgeluid.icu
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 03
-  password: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
-  port: 443
-  server: a55eae52-tk59c0-tldaam-1j0a4.sjc.oshuawei.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
-- name: 1|US - zhuhai.uk 04
   password: 39275498-a48c-11ee-b03a-f23c913c8d2b
   port: 443
-  server: 9f572af8-tk59c0-tl2lpx-1ofy2.se.oshuawei.com
+  server: 943b6ab6-tk59c0-tl2lpx-1ofy2.sj.hyhuawei.com
   skip-cert-verify: true
   tls: true
   type: http
   username: 39275498-a48c-11ee-b03a-f23c913c8d2b
-- name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 156.146.59.7
+- name: 1|US - zhuhai.uk 04
+  password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+  port: 8443
+  server: 422fc6a4-tk59c0-tll9n7-1l0qa.isp.cdnkuaishou.com
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 01
-  network: tcp
-  port: 13443
-  reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: a7f3c91b2e6d84c0
-  server: 88.218.92.126
-  servername: auto.cendora.ru
+  username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+- name: 1|US - zhuhai.uk 05
+  password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+  port: 443
+  server: 225e15d6-tk59c0-tll9n7-1l0qa.los.gotochinatown.net
+  type: socks5
+  username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+- name: 1|US - zhuhai.uk 06
+  password: 'null'
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  type: http
+  username: 'null'
