@@ -15,16 +15,28 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: 1|HK - zhuhai.uk
-  port: 443
-  server: fan.240104.xyz
-  sni: fan.240104.xyz
+- flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk
+  port: 14343
+  server: 27.155.117.209
+  servername: thuk.huaweiyouxuan.com
+  skip-cert-verify: true
   tls: true
-  type: http
+  type: vless
+  uuid: fb957ee2-2ca0-43f3-ab86-724a9ca0b628
+- flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 02
+  port: 14343
+  server: 14.17.78.146
+  servername: thuk.huaweiyouxuan.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: fb957ee2-2ca0-43f3-ab86-724a9ca0b628
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk 02
-  port: 39571
+  name: 1|HK - zhuhai.uk 03
+  port: 38507
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
     short-id: bc8e3658db7d1323
@@ -33,24 +45,3 @@ proxies:
   tls: true
   type: vless
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- alterId: 0
-  cipher: auto
-  name: 1|HK - zhuhai.uk 03
-  network: ws
-  port: 16622
-  server: planb.mojcn.com.linuxlh.xin
-  type: vmess
-  uuid: 0c657913-e593-4893-9555-f88478c33a4b
-  ws-opts:
-    headers:
-      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
-    path: /
-- flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk 04
-  port: 14343
-  server: 112.49.63.11
-  servername: thuk.huaweiyouxuan.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: fb957ee2-2ca0-43f3-ab86-724a9ca0b628
