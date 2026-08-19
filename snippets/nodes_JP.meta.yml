@@ -8,22 +8,11 @@ proxies:
   type: trojan
   udp: true
 - name: 1|JP - zhuhai.uk
-  port: 52143
-  server: 139.180.198.220
-  type: vless
-  uuid: 2942bae7-9dcf-4a2e-f928-933c0ab3eab0
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|JP - zhuhai.uk 02
   port: 443
-  reality-opts:
-    public-key: ZuN9nc78h4Ccb19eb9NpTCs0jZkhJB8L0i1ZoAhu0XU
-    short-id: b2f4518cf979889d
-  server: 43.165.177.82
-  servername: www.cloudflare.com
+  server: fan.571589.xyz
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: 0b772594-d6b9-4f4f-849b-8a6f92f594fe
+  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|JP - zhuhai.uk 01
@@ -38,3 +27,17 @@ proxies:
   type: vless
   udp: true
   uuid: 48d6a7ca-4257-4400-b810-eecb16e9e30f
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk 02
+  network: tcp
+  port: 39411
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 188.253.123.164
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
