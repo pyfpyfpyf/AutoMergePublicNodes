@@ -1,37 +1,29 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk
-  port: 9713
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 155.117.199.13
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- alterId: 0
-  cipher: auto
-  name: 1|HK - zhuhai.uk 02
-  network: ws
-  port: 16622
-  server: t.cnmjcn.cyou
-  type: vmess
-  uuid: 7b9d480b-ff5a-4fde-a192-ac79131caa9a
-  ws-opts:
-    headers:
-      Host: d2e7f5d110ba6d4b122b4723b13ecc8f.mobgslb.tbcache.com
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk 03
-  port: 13443
-  reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: a7f3c91b2e6d84c0
-  server: 103.195.4.7
-  servername: auto.cendora.ru
-  tls: true
-  type: vless
-  uuid: b80b392c-0cf4-42f9-ae54-9f862e3ba276
+- name: 1|HK - zhuhai.uk
+  password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+  port: 443
+  server: 79d0b4ab-tk59c0-tll9n7-1l0qa.hk2.hyhuawei.com
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- name: 1|HK - zhuhai.uk 02
+  password: 39275498-a48c-11ee-b03a-f23c913c8d2b
+  port: 443
+  server: 23d89b4a-tk59c0-tl2lpx-1ofy2.hk2.hyhuawei.com
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- name: 1|HK - zhuhai.uk 03
+  obfs: salamander
+  obfs-password: 1ol3tasb90
+  password: 1dcc3b89-0b45-3908-9120-19741361d55d
+  port: 12235
+  server: k8i4gd320.d33tqmk.cc
+  sni: xk7qhk201.ckpfef.top
+  type: hysteria2
+- name: 1|HK - zhuhai.uk 04
+  password: 1427eb10-7529-4d38-a6a2-01b337868b37
+  port: 4433
+  server: hk2.xiaoliyu.cyou
+  skip-cert-verify: true
+  type: hysteria2

@@ -178,31 +178,36 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  port: 443
-  server: fan.596189.xyz
+  port: 9002
+  server: 138.199.35.205
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
   port: 9002
-  server: 156.146.59.10
+  server: 156.146.59.36
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: firefox
-  name: 1|US - zhuhai.uk 03
-  network: ws
-  port: 443
-  server: api.fuck-you.dyn.site.fwqfw783rg2dad.website
-  servername: api.fuck-you.dyn.site.fwqfw783rg2dad.website
+- name: 1|US - zhuhai.uk 03
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 391f093f-85fc-473d-abe2-ea607b9ff567
-  ws-opts:
-    headers:
-      Host: api.fuck-you.dyn.site.fwqfw783rg2dad.website
-    path: /websocket?ed=2560
+  type: http
+- name: 1|US - zhuhai.uk 04
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  sni: 138.199.35.204
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 05
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|US - zhuhai.uk 01
