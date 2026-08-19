@@ -1,15 +1,25 @@
 proxies:
-- name: 1|HK - zhuhai.uk
-  port: 443
-  server: hk40.240104.xyz
-  tls: true
-  type: http
-- flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk 02
-  port: 14343
-  server: 36.248.14.90
-  servername: thuk.huaweiyouxuan.com
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk
+  port: 9713
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 155.117.199.13
+  servername: cdnjs.cloudflare.com
   tls: true
   type: vless
-  uuid: fb957ee2-2ca0-43f3-ab86-724a9ca0b628
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 02
+  port: 31723
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 155.117.199.13
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
