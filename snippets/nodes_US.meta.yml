@@ -38,7 +38,7 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 0,1|US - zhuhai.uk 07
+- name: 0|US_speednode_0133
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
@@ -178,53 +178,31 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  password: 'null'
-  port: 9002
-  server: 138.199.35.219
+  port: 443
+  server: fan.596189.xyz
   skip-cert-verify: true
-  sni: 138.199.35.219
   tls: true
   type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 02
-  password: 'null'
   port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  sni: 138.199.35.206
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 03
-  port: 9002
-  server: 138.199.35.212
+  server: 156.146.59.10
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 04
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  sni: 138.199.35.210
+- client-fingerprint: firefox
+  name: 1|US - zhuhai.uk 03
+  network: ws
+  port: 443
+  server: api.fuck-you.dyn.site.fwqfw783rg2dad.website
+  servername: api.fuck-you.dyn.site.fwqfw783rg2dad.website
   tls: true
-  type: http
-- name: 1|US - zhuhai.uk 05
-  password: 'null'
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  sni: 138.199.35.202
-  tls: true
-  type: http
-  username: 'null'
-- alterId: 0
-  cipher: auto
-  name: 1|US - zhuhai.uk 06
-  network: http
-  port: 52080
-  server: 38.246.226.240
-  type: vmess
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+  type: vless
+  udp: true
+  uuid: 391f093f-85fc-473d-abe2-ea607b9ff567
+  ws-opts:
+    headers:
+      Host: api.fuck-you.dyn.site.fwqfw783rg2dad.website
+    path: /websocket?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|US - zhuhai.uk 01
