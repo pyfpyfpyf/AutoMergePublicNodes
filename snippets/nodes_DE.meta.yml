@@ -8,24 +8,6 @@ proxies:
   type: http
   udp: true
   username: testuser1
-- cipher: aes-256-cfb
-  name: 1|DE - zhuhai.uk
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 120.232.250.163
-  type: ss
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk 02
-  port: 443
-  reality-opts:
-    public-key: YkcQyTOh9YpZmilRob-eVxwoo4uwBAa9oHmURMTFzEM
-    short-id: 2b8c5e91
-  server: 2.26.71.73
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 4e843ed6-09e7-4be5-bd52-a1dc46568aeb
 - name: 1|DE - zhuhai.uk 03
   network: tcp
   port: 22222
@@ -48,3 +30,15 @@ proxies:
   type: vless
   udp: true
   uuid: 1c20357e-be52-4e5e-8eb6-6434adcb4b71
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: mygrpc
+  name: 1|DE - zhuhai.uk 02
+  network: grpc
+  port: 2096
+  server: 46.182.24.112
+  servername: v1.api2.ttpservers.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 163dc809-7970-4ff8-a7e5-8080ad53e7bb
