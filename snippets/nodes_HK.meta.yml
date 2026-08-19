@@ -1,22 +1,4 @@
 proxies:
-- name: 1|HK - zhuhai.uk
-  password: 1427eb10-7529-4d38-a6a2-01b337868b37
-  port: 4433
-  server: hk2.xiaoliyu.cyou
-  skip-cert-verify: true
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk 02
-  port: 38507
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 188.253.123.164
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|HK - zhuhai.uk 04
@@ -27,7 +9,15 @@ proxies:
     short-id: bc8e3658db7d1323
   server: 155.117.199.13
   servername: cdnjs.cloudflare.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- name: 1|HK - zhuhai.uk 02
+  password: EQ30679154
+  port: 443
+  server: true-coral.rooster465.autos
+  sni: true-coral.rooster465.autos
+  tls: true
+  type: trojan
