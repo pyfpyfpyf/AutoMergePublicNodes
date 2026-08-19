@@ -68,7 +68,7 @@ proxies:
   uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|US_speednode_0136
+  name: 0,1|FR - zhuhai.uk
   network: tcp
   port: 29893
   reality-opts:
@@ -180,66 +180,64 @@ proxies:
 - name: 1|US - zhuhai.uk
   password: 'null'
   port: 9002
-  server: 138.199.35.217
+  server: 138.199.35.200
   skip-cert-verify: true
-  sni: 138.199.35.217
+  sni: 138.199.35.200
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 02
-  password: 39275498-a48c-11ee-b03a-f23c913c8d2b
+  network: ws
   port: 443
-  server: 943b6ab6-tk59c0-tl2lpx-1ofy2.sj.hyhuawei.com
+  server: ed8d.wdz.de5.net
+  servername: ed8d.wdz.de5.net
+  tls: true
+  type: vless
+  uuid: 0b06f318-ab9d-4de7-8779-360bd5f7ea67
+  ws-opts:
+    path: /
+- name: 1|US - zhuhai.uk 03
+  port: 9002
+  server: 138.199.35.218
   skip-cert-verify: true
   tls: true
   type: http
-  username: 39275498-a48c-11ee-b03a-f23c913c8d2b
-- name: 1|US - zhuhai.uk 03
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 162.243.146.243
-  sni: a2f392f3.acsnet.co
+- name: 1|US - zhuhai.uk 04
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  sni: 138.199.35.207
   tls: true
   type: http
-  username: testuser1
-- name: 1|US - zhuhai.uk 04
-  port: 58011
-  server: us22.sofast.live
-  type: vless
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
 - name: 1|US - zhuhai.uk 05
   password: None
   port: 9002
-  server: 156.146.59.16
+  server: 138.199.35.200
   skip-cert-verify: true
-  sni: 156.146.59.16
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 06
-  port: 9002
-  server: 156.146.59.30
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 07
-  port: 9002
-  server: 156.146.59.7
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 08
   password: 'null'
   port: 9002
-  server: 138.199.35.205
+  server: 156.146.59.27
   skip-cert-verify: true
+  sni: 156.146.59.27
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 09
+- name: 1|US - zhuhai.uk 07
+  password: e4b72b531a2d10900519
   port: 443
-  server: 38.28.193.1
+  server: 107.151.238.27
   skip-cert-verify: true
-  sni: 38.28.193.1
+  sni: 6b97ee1b.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+- name: 1|US - zhuhai.uk 08
+  port: 9002
+  server: 156.146.59.7
+  skip-cert-verify: true
   tls: true
   type: http

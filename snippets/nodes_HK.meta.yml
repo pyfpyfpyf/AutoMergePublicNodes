@@ -1,18 +1,22 @@
 proxies:
 - name: 1|HK - zhuhai.uk
-  password: HC04361579
-  port: 443
-  server: normal-elk.rooster465.autos
+  password: 1427eb10-7529-4d38-a6a2-01b337868b37
+  port: 4433
+  server: hk2.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: normal-elk.rooster465.autos
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 02
+  port: 38507
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  server: 188.253.123.164
+  servername: cdnjs.cloudflare.com
   tls: true
-  type: trojan
-- name: 1|HK - zhuhai.uk 02
-  port: 443
-  server: fan.240104.xyz
-  sni: fan.240104.xyz
-  tls: true
-  type: http
+  type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|HK - zhuhai.uk 04
