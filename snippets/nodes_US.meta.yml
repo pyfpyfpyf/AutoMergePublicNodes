@@ -138,11 +138,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 07
+- name: 0|US_speednode_0129
   port: 9002
   server: 138.199.35.208
   skip-cert-verify: true
-  sni: 138.199.35.208
   tls: true
   type: http
   udp: true
@@ -234,7 +233,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk
+- name: 0|US_speednode_0141
   port: 443
   server: fan.226278.xyz
   tls: true
@@ -254,10 +253,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0144
+- name: 0,1|US - zhuhai.uk
   port: 9002
   server: 156.146.59.5
   skip-cert-verify: true
+  sni: 156.146.59.5
   tls: true
   type: http
   udp: true
@@ -369,38 +369,36 @@ proxies:
   type: http
   udp: true
 - name: 1|US - zhuhai.uk 02
-  password: 'null'
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  sni: 138.199.35.206
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 162.243.146.243
+  sni: a2f392f3.acsnet.co
   tls: true
   type: http
-  username: 'null'
+  username: testuser1
 - name: 1|US - zhuhai.uk 03
   port: 9002
-  server: 156.146.59.36
+  server: 138.199.35.198
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 04
-  port: 9002
-  server: 138.199.35.204
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 04
+  port: 443
+  reality-opts:
+    public-key: ExoLmgvra4OkUzW08_tkUKCOpqZ-fp-sur_NqpRui1s
+  server: 66.112.214.26
+  servername: www.icloud.com
   skip-cert-verify: true
   tls: true
-  type: http
+  type: vless
+  uuid: 490a11eb-e38a-4a85-b391-7175de597b80
 - name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 156.146.59.49
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 06
   password: 'null'
   port: 9002
-  server: 138.199.35.215
+  server: 138.199.35.199
   skip-cert-verify: true
-  sni: 138.199.35.215
   tls: true
   type: http
   username: 'null'

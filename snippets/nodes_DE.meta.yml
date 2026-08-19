@@ -8,9 +8,46 @@ proxies:
   type: http
   udp: true
   username: testuser1
-- name: 1|DE - zhuhai.uk
+- alterId: 0
+  cipher: auto
+  name: 1|DE - zhuhai.uk 02
+  network: ws
+  port: 16644
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: 7b9d480b-ff5a-4fde-a192-ac79131caa9a
+  ws-opts:
+    headers:
+      Host: d2e7f5d110ba6d4b122b4723b13ecc8f.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: android
+  name: 1|DE - zhuhai.uk 05
+  network: ws
   port: 443
-  server: 149.36.50.157
+  server: mlt.spbculture.org
+  servername: mlt.spbculture.org
+  tls: true
+  type: vless
+  uuid: fecd4358-c037-4ae2-bae0-c72792fd8e40
+  ws-opts:
+    headers:
+      Host: mlt.spbculture.org
+    path: /api/v2/upload/2aec3a50a58a
+- name: 1|DE - zhuhai.uk 06
+  port: 443
+  server: 178.200.186.204
   skip-cert-verify: true
   tls: true
   type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk 07
+  port: 443
+  reality-opts:
+    public-key: KdveJDEjZkGpf3Ymw3Ptu0cjDQ9geOY3ueMniWuWa2E
+    short-id: 2694d28edfdd2c38
+  server: jwut-19a9lvb.univanta.top
+  servername: www.bing.com
+  tls: true
+  type: vless
+  uuid: 56971dae-1974-4ebe-a903-00e310828dd5
