@@ -25,9 +25,21 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 1|HK - zhuhai.uk
+  name: 1|DE - zhuhai.uk 02
   network: ws
-  port: 16622
+  port: 16644
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: b43b4eb3-3874-474d-a2fb-ddf1d15b1398
+  ws-opts:
+    headers:
+      Host: d86f6b4af87f7763136b32ebe64db573.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|DE - zhuhai.uk 05
+  network: ws
+  port: 16644
   server: planb.mojcn.com.linuxlh.xin
   type: vmess
   uuid: 5b874a21-93b4-4fd5-9e11-b3cc30c9abdf
@@ -37,13 +49,55 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|HK - zhuhai.uk 03
+  name: 1|HK - zhuhai.uk
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+  ws-opts:
+    headers:
+      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+    path: /
+- cipher: aes-128-gcm
+  name: 1|GB - zhuhai.uk
+  password: 929c5ce8-222b-4d93-a80f-9ed580e2e8c1
+  port: 1055
+  server: edir2end.cloud2orbit.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 1|GB - zhuhai.uk 02
+  password: 929c5ce8-222b-4d93-a80f-9ed580e2e8c1
+  port: 1057
+  server: edir2end.cloud2orbit.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1|HK - zhuhai.uk 02
   network: ws
   port: 16622
   server: planb.mojcn.com.linuxlh.xin
   type: vmess
-  uuid: 8dac4389-c4fa-4df6-983c-da2ead0a22f7
+  uuid: 83c25eab-8461-4b6a-b714-f4279535b316
   ws-opts:
     headers:
-      Host: 1bf422b464b0b7151f0a527e043c9b68.mobgslb.tbcache.com
+      Host: a5f19060282ba7516bdd6ce8dd04528b.mobgslb.tbcache.com
+    path: /
+- name: 1|PL - zhuhai.uk 02
+  password: EQ30679154
+  port: 443
+  server: pretty-mollusk.rooster465.autos
+  tls: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 1|DE - zhuhai.uk 08
+  network: ws
+  port: 16644
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: b655fa09-40b8-4317-a713-87a793dde9d0
+  ws-opts:
+    headers:
+      Host: 883147dc12db58e094e3f13e202fe20c.mobgslb.tbcache.com
     path: /

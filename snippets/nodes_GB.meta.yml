@@ -47,12 +47,11 @@ proxies:
   type: http
   udp: true
   username: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
-- name: 0,1|GB - zhuhai.uk
+- name: 0|GB_speednode_0009
   password: a95e9198-0671-11f0-9426-f23c932f2c32
   port: 443
   server: 6d74a01e-thrgg0-thri9q-azvy.cldvpuk.cdnbytescm.com
   skip-cert-verify: true
-  sni: 6d74a01e-thrgg0-thri9q-azvy.cldvpuk.cdnbytescm.com
   tls: true
   type: http
   udp: true
@@ -73,3 +72,29 @@ proxies:
   type: http
   udp: true
   username: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
+- cipher: aes-128-gcm
+  name: 1|GB - zhuhai.uk
+  password: 929c5ce8-222b-4d93-a80f-9ed580e2e8c1
+  port: 1055
+  server: edir2end.cloud2orbit.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 1|GB - zhuhai.uk 02
+  password: 929c5ce8-222b-4d93-a80f-9ed580e2e8c1
+  port: 1057
+  server: edir2end.cloud2orbit.com
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|GB - zhuhai.uk 01
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI
+    short-id: f63805c3ecc7a483
+  server: 195.184.247.222
+  servername: savesafe.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb

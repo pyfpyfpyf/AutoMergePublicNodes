@@ -7,21 +7,27 @@ proxies:
   sni: t11.qifei.app
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|JP - zhuhai.uk 03
-  port: 22369
-  reality-opts:
-    public-key: rRNb-oeDtsCMz2CW-wEZPeIRV2IRcYhNB--jX2aIYDk
-  server: fuck.p1d2.com
-  servername: apple.com
-  skip-cert-verify: true
-  tls: true
+- name: 1|JP - zhuhai.uk
+  port: 52143
+  server: 139.180.198.220
   type: vless
-  uuid: 83efc3a0-05c6-462b-89f7-07c430f73c03
+  uuid: 2942bae7-9dcf-4a2e-f928-933c0ab3eab0
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|JP - zhuhai.uk 02
+  port: 443
+  reality-opts:
+    public-key: ZuN9nc78h4Ccb19eb9NpTCs0jZkhJB8L0i1ZoAhu0XU
+    short-id: b2f4518cf979889d
+  server: 43.165.177.82
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 0b772594-d6b9-4f4f-849b-8a6f92f594fe
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk 01
+  network: tcp
   port: 28176
   reality-opts:
     public-key: HBeH_uPYOMp9D7Mq1KxBzduX07OZ9C8rT4zSHNjiO3g
@@ -30,18 +36,5 @@ proxies:
   servername: www.cloudflare.com
   tls: true
   type: vless
-  uuid: 48d6a7ca-4257-4400-b810-eecb16e9e30f
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|JP - zhuhai.uk 01
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1xIu8ESLs4JviWXp8XaOceWAEVHqWLzNIiojA_uf8Ug
-    short-id: 83feb7aa267e9ddf
-  server: 103.100.158.10
-  servername: www.apple.com
-  tls: true
-  type: vless
   udp: true
-  uuid: 6a1f6c94-7785-42e2-9203-381d1f4db37e
+  uuid: 48d6a7ca-4257-4400-b810-eecb16e9e30f
