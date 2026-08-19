@@ -1,4 +1,18 @@
 proxies:
+- name: 1|HK - zhuhai.uk
+  password: HC04361579
+  port: 443
+  server: normal-elk.rooster465.autos
+  skip-cert-verify: true
+  sni: normal-elk.rooster465.autos
+  tls: true
+  type: trojan
+- name: 1|HK - zhuhai.uk 02
+  port: 443
+  server: fan.240104.xyz
+  sni: fan.240104.xyz
+  tls: true
+  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|HK - zhuhai.uk 04
@@ -13,17 +27,3 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 1|HK - zhuhai.uk 02
-  port: 443
-  server: hk40.240104.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|HK - zhuhai.uk 03
-  password: TW_3QZglKmlgzc9zBCDD5W8tQ==
-  port: 443
-  server: 45.144.136.244
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: anytls
-  udp: true
