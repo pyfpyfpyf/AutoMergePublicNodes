@@ -72,20 +72,17 @@ proxies:
   type: http
   udp: true
   username: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|GB - zhuhai.uk 01
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI
-    short-id: f63805c3ecc7a483
-  server: 195.184.247.222
-  servername: savesafe.co
-  tls: true
+- name: 1|GB - zhuhai.uk 01
+  network: ws
+  port: 8880
+  server: 172.67.207.26
   type: vless
   udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  uuid: 65aed3c1-1999-46a1-a3f3-2e5eb119ec64
+  ws-opts:
+    headers:
+      Host: weathered-hat-76a5.380-d00.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|GB - zhuhai.uk 02

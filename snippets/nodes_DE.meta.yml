@@ -8,37 +8,28 @@ proxies:
   type: http
   udp: true
   username: testuser1
-- name: 1|DE - zhuhai.uk 03
-  network: tcp
-  port: 22222
-  server: 63.185.246.118
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 1|DE - zhuhai.uk 01
-  network: grpc
-  port: 18443
-  reality-opts:
-    public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0
-    short-id: 5c766813929a1fdd
-  server: 104.167.24.227
-  servername: gp1.steptofsvo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1c20357e-be52-4e5e-8eb6-6434adcb4b71
+- alterId: 0
+  cipher: auto
+  name: 1|DE - zhuhai.uk
+  network: ws
+  port: 16644
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: 7b9d480b-ff5a-4fde-a192-ac79131caa9a
+  ws-opts:
+    headers:
+      Host: d2e7f5d110ba6d4b122b4723b13ecc8f.mobgslb.tbcache.com
+    path: /
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: mygrpc
+  flow: xtls-rprx-vision
   name: 1|DE - zhuhai.uk 02
-  network: grpc
-  port: 2096
-  server: 46.182.24.112
-  servername: v1.api2.ttpservers.ru
+  port: 443
+  reality-opts:
+    public-key: KdveJDEjZkGpf3Ymw3Ptu0cjDQ9geOY3ueMniWuWa2E
+    short-id: 2694d28edfdd2c38
+  server: jwut-19a9lvb.univanta.top
+  servername: www.bing.com
+  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
-  uuid: 163dc809-7970-4ff8-a7e5-8080ad53e7bb
+  uuid: 56971dae-1974-4ebe-a903-00e310828dd5
