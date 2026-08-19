@@ -49,11 +49,10 @@ proxies:
     headers:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: /
-- name: 0,1|US - zhuhai.uk
+- name: 0|US_speednode_0121
   port: 9002
   server: 138.199.35.215
   skip-cert-verify: true
-  sni: 138.199.35.215
   tls: true
   type: http
   udp: true
@@ -234,10 +233,9 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 10
+- name: 0|US_speednode_0141
   port: 443
   server: fan.226278.xyz
-  skip-cert-verify: true
   tls: true
   type: http
   udp: true
@@ -369,78 +367,48 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 1|US - zhuhai.uk
+  network: ws
+  port: 8880
+  server: 147.185.161.2
+  type: vless
+  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
+  ws-opts:
+    headers:
+      Host: old-violet-a5ce.29-440.workers.dev
+    path: /pyip=Telegram🇨🇳+@WangCai2
 - name: 1|US - zhuhai.uk 02
   password: 'null'
   port: 9002
-  server: 156.146.59.33
+  server: 156.146.59.19
   skip-cert-verify: true
-  sni: 156.146.59.33
+  sni: 156.146.59.19
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 03
-  port: 443
-  server: fan.365747.xyz
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 04
-  password: None
-  port: 9002
-  server: 156.146.59.23
-  skip-cert-verify: true
-  sni: 156.146.59.23
-  tls: true
-  type: http
-  username: 'null'
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 05
-  port: 11094
-  reality-opts:
-    public-key: 9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk
-    short-id: a356addf
-  server: 51.81.223.225
-  servername: www.yahoo.com
-  skip-cert-verify: true
+  name: 1|US - zhuhai.uk 03
+  port: 443
+  server: s2317.okgfwbackxyz.xyz
+  servername: u643766u75eebf99s2316.kukuss.top
   tls: true
   type: vless
-  uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 1|US - zhuhai.uk 06
-  password: None
+  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
+- name: 1|US - zhuhai.uk 04
   port: 9002
-  server: 156.146.59.43
+  server: 156.146.59.17
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 07
+- name: 1|US - zhuhai.uk 05
   password: 'null'
   port: 9002
-  server: 138.199.35.205
+  server: 138.199.35.210
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 08
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 09
-  password: 'null'
-  port: 9002
-  server: 156.146.59.23
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 11
-  port: 9002
-  server: 156.146.59.50
-  skip-cert-verify: true
-  tls: true
-  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|US - zhuhai.uk 12
@@ -454,3 +422,38 @@ proxies:
   type: vless
   udp: true
   uuid: 490a11eb-e38a-4a85-b391-7175de597b80
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 10
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: GYD0NwdNDlDIAkRGIMqRC7RuhZTScmSw2SlknoRNrDo
+    short-id: 521959f62377e2fa
+  server: 154.29.155.211
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e1588d14-0a16-483f-9d54-cf521541035b
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 07
+  network: tcp
+  port: 40444
+  reality-opts:
+    public-key: ZZK_Oo5-iDDgoWzxIURTLWoKPbC8NFto3Mk7OvAZgRU
+    short-id: b3f2a1c9
+  server: 5.253.38.67
+  servername: www.lovelive-anime.jp
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2af4399e-e3b4-4de4-a679-1dc15c3be2f5
+- name: 1|US - zhuhai.uk 08
+  network: tcp
+  port: 64584
+  server: usa.zelnora.ir
+  type: vless
+  udp: true
+  uuid: a8307b5d-2d9e-4d34-912d-5b5dd8340082

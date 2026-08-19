@@ -23,15 +23,67 @@ proxies:
   sni: t11.qifei.app
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 1|FR - zhuhai.uk
-  password: amazonskr05
+- name: 1|SG - zhuhai.uk
+  password: EQ30679154
   port: 443
-  server: 15.237.216.173
+  server: allowed-poodle.rooster465.autos
+  tls: true
+  type: trojan
+- name: 1|HK - zhuhai.uk 02
+  password: HC04361579
+  port: 443
+  server: renewing-ewe.rooster465.autos
+  skip-cert-verify: true
+  sni: renewing-ewe.rooster465.autos
+  tls: true
+  type: trojan
+- cipher: aes-256-cfb
+  name: 1|HK - zhuhai.uk 03
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 120.232.250.162
   type: ss
-- cipher: aes-256-gcm
-  name: 1|RU - zhuhai.uk
-  password: 6b39ae3234dfd68b
-  port: 20887
-  server: 45.140.169.123
+- name: 1|GB - zhuhai.uk
+  password: fg20mtCFHy
+  port: 5448
+  server: londhtc.southbyte.xyz
+  skip-cert-verify: true
+  sni: londhtc.southbyte.xyz
+  tls: true
+  type: trojan
+- cipher: aes-256-cfb
+  name: 1|DE - zhuhai.uk
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 120.232.250.163
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1|HK - zhuhai.uk 04
+  network: ws
+  port: 16622
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: b43b4eb3-3874-474d-a2fb-ddf1d15b1398
+  ws-opts:
+    headers:
+      Host: d86f6b4af87f7763136b32ebe64db573.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|HK - zhuhai.uk 05
+  network: ws
+  port: 16622
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: e01e16ef-6e90-43a0-8582-84c426264678
+  ws-opts:
+    headers:
+      Host: 0c9125a3a7b10901acb65f26906fea4b.mobgslb.tbcache.com
+    path: /
+- cipher: aes-256-cfb
+  name: 1|KR - zhuhai.uk
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.235
   type: ss
