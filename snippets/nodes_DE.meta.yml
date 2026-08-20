@@ -1,33 +1,24 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- client-fingerprint: chrome
   name: 1|DE - zhuhai.uk
-  network: ws
-  port: 443
-  server: node.socks5.kdns.fr
-  servername: wax-waters-legacy-remark.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: 773a1c22-27a3-4a38-8b7f-e0343217f96a
-  ws-opts:
-    headers:
-      Host: wax-waters-legacy-remark.trycloudflare.com
-    path: /773a1c22-27a3-4a38-8b7f-e0343217f96a-vm
-- client-fingerprint: qq
-  name: 1|DE - zhuhai.uk 02
-  network: ws
-  port: 443
-  server: d2hplu8rn1zhez.cloudfront.net
-  servername: d2hplu8rn1zhez.cloudfront.net
-  skip-cert-verify: true
+  port: 7190
+  reality-opts:
+    public-key: mPyGyFIPaIJskk9IhHv9rkv7amf77CYUV0KVeqDsPU8
+    short-id: 7398e0c72f7d5c0e
+  server: 5.75.207.94
+  servername: pypi.org
   tls: true
   type: vless
-  uuid: f17a82cc-4b2b-49bc-8875-51c43cc49c36
-  ws-opts:
-    path: /api/v3/ws/events
-- name: 1|DE - zhuhai.uk 03
-  port: 443
-  server: fan.973511.xyz
-  sni: fan.973511.xyz
+  uuid: 8ce90db0-2b57-41eb-83f2-f65f68c6409b
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk 02
+  port: 13443
+  reality-opts:
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: a7f3c91b2e6d84c0
+  server: 31.76.5.26
+  servername: auto.cendora.ru
   tls: true
-  type: http
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
