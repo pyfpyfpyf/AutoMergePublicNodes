@@ -1,36 +1,16 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 1|HK - zhuhai.uk
-  network: ws
+- name: 1|HK - zhuhai.uk
+  password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
   port: 443
-  server: node.socks5.kdns.fr
-  servername: territory-evaluations-postcard-submissions.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: 2a07db01-6ca6-4e01-9345-bfd8ccfb780d
-  ws-opts:
-    headers:
-      Host: territory-evaluations-postcard-submissions.trycloudflare.com
-    path: /2a07db01-6ca6-4e01-9345-bfd8ccfb780d-vm
+  server: 79d0b4ab-tk59c0-tll9n7-1l0qa.hk2.hyhuawei.com
+  skip-cert-verify: true
+  type: anytls
+  udp: true
 - name: 1|HK - zhuhai.uk 02
-  password: '!!str 111'
-  port: 11211
-  server: 47.243.173.50
-  type: socks5
-  username: '111'
-- name: 1|HK - zhuhai.uk 03
   obfs: salamander
   obfs-password: 1ol3tasb90
   password: 1dcc3b89-0b45-3908-9120-19741361d55d
-  port: 10030
+  port: 11255
   server: fg7xl1div.d33tqmk.cc
-  sni: xk7q3.ckpfef.top
+  sni: xk7qhk309.ckpfef.top
   type: hysteria2
-- name: 1|HK - zhuhai.uk 04
-  port: 443
-  server: fan.240104.xyz
-  skip-cert-verify: true
-  sni: fan.240104.xyz
-  tls: true
-  type: http
