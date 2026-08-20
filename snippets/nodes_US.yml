@@ -1,4 +1,21 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 1|US - zhuhai.uk 05
+  password: amazonskr05
+  port: 443
+  server: 3.147.62.185
+  type: ss
+- name: 1|US - zhuhai.uk 10
+  network: ws
+  password: fa66f1e6-b12e-4f21-8597-1ad4dd7654b1
+  port: 443
+  server: trojan.gboard.dev
+  skip-cert-verify: true
+  sni: trojan.gboard.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
 - name: 1|US - zhuhai.uk 14
   network: ws
   password: 2bc2efc9-1943-4b2e-9412-43190d5099e4

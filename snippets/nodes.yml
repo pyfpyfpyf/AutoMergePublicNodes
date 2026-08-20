@@ -1,16 +1,46 @@
 proxies:
+- name: 1|CH - zhuhai.uk
+  password: kxHw-Dk-e9dffgzYszMlEqLJ92AnY3Pi
+  port: 443
+  server: tr-switzerlandgopota.unlimited-access.ru
+  sni: tr-switzerlandgopota.unlimited-access.ru
+  tls: true
+  type: trojan
 - cipher: aes-256-cfb
-  name: 1|KR - zhuhai.uk
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.235
+  name: 1|US - zhuhai.uk 05
+  password: amazonskr05
+  port: 443
+  server: 3.147.62.185
   type: ss
 - cipher: aes-256-cfb
-  name: 1|KR - zhuhai.uk 02
+  name: 1|DE - zhuhai.uk 05
+  password: amazonskr05
+  port: 443
+  server: 3.76.102.125
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|TW - zhuhai.uk
   password: 7eadc6dbe2ae
   port: 65443
-  server: 121.46.230.138
+  server: 120.232.253.94
   type: ss
+- cipher: aes-256-gcm
+  name: 1|JP - zhuhai.uk
+  password: 3b970540-cdc4-43b4-ade2-3983c78afb48
+  port: 19287
+  server: ss.021.node-for-bigairport.win
+  type: ss
+- name: 1|US - zhuhai.uk 10
+  network: ws
+  password: fa66f1e6-b12e-4f21-8597-1ad4dd7654b1
+  port: 443
+  server: trojan.gboard.dev
+  skip-cert-verify: true
+  sni: trojan.gboard.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
 - name: 1|US - zhuhai.uk 14
   network: ws
   password: 2bc2efc9-1943-4b2e-9412-43190d5099e4
