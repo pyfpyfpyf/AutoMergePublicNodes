@@ -1,15 +1,20 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 1|SG - zhuhai.uk 02
-  network: ws
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk
   port: 443
-  server: node.socks5.kdns.fr
-  servername: brake-substance-shared-dual.trycloudflare.com
+  reality-opts:
+    public-key: gAhXIWc39CLI_9Si6KwYNPh3ciFpH8g6RDcFYDCiyjQ
+    short-id: f9fa109f0584f0bf
+  server: 163.128.98.254
+  servername: www.apple.com
   tls: true
-  type: vmess
-  uuid: 3abf004b-aec7-4da9-b47c-8ebdfa3e005c
-  ws-opts:
-    headers:
-      Host: brake-substance-shared-dual.trycloudflare.com
-    path: /3abf004b-aec7-4da9-b47c-8ebdfa3e005c-vm
+  type: vless
+  uuid: ada01ec8-a49e-4223-82dd-e1abe768b767
+- name: 1|SG - zhuhai.uk 02
+  password: 18d2cd7a-ba92-40a2-abcd-d8ebe1ef0c1a
+  port: 12017
+  server: kkkhhh.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
+  sni: 63.yuanul.com
+  tls: true
+  type: trojan
