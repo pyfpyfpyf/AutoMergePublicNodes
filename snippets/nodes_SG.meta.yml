@@ -1,27 +1,22 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- client-fingerprint: chrome
   name: 1|SG - zhuhai.uk
   network: ws
-  port: 443
-  server: node.socks5.kdns.fr
-  servername: ericsson-lab-managed-oem.trycloudflare.com
+  port: 47112
+  server: 213.35.100.31
+  servername: chajiatv.de5.net
+  skip-cert-verify: true
   tls: true
-  type: vmess
-  uuid: f683235c-54b0-4442-bf0d-812d3804946e
+  type: vless
+  uuid: 7014e572-847b-4d56-83ba-0d9af0fcacf4
   ws-opts:
     headers:
-      Host: ericsson-lab-managed-oem.trycloudflare.com
-    path: /f683235c-54b0-4442-bf0d-812d3804946e-vm
-- cipher: aes-256-cfb
-  name: 1|SG - zhuhai.uk 02
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 183.240.203.86
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|SG - zhuhai.uk 03
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 120.232.253.90
-  type: ss
+      Host: chajiatv.de5.net
+    path: /
+- name: 1|SG - zhuhai.uk 02
+  password: 18d2cd7a-ba92-40a2-abcd-d8ebe1ef0c1a
+  port: 12018
+  server: kkkhhh.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
+  sni: 64.yuanul.com
+  tls: true
+  type: trojan

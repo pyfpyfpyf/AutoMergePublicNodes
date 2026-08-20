@@ -1,7 +1,15 @@
 proxies:
 - name: 1|HK - zhuhai.uk
-  password: 1427eb10-7529-4d38-a6a2-01b337868b37
-  port: 4433
-  server: hk2.xiaoliyu.cyou
+  password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+  port: 443
+  server: 79d0b4ab-tk59c0-tll9n7-1l0qa.hk2.hyhuawei.com
   skip-cert-verify: true
-  type: hysteria2
+  sni: 79d0b4ab-tk59c0-tll9n7-1l0qa.hk2.hyhuawei.com
+  type: anytls
+  udp: true
+- name: 1|HK - zhuhai.uk 02
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
+  type: socks5
+  username: '111'
