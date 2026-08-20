@@ -1,5 +1,13 @@
 proxies:
-- name: 1|KR - zhuhai.uk
-  port: 1080
-  server: 43.164.136.189
-  type: socks5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|KR - zhuhai.uk
+  port: 443
+  reality-opts:
+    public-key: 6pZxjabeHoyJlsc2cP3Q5YK7G0bIOQwzWFyiarbUQXc
+    short-id: c8af1462debbc1
+  server: kr2.miyazono-kaori.com
+  servername: www.coway.com
+  tls: true
+  type: vless
+  uuid: df816a3d-8e27-461f-955d-2e523d3c73f7

@@ -1,26 +1,38 @@
 proxies:
-- name: 1|DE - zhuhai.uk 02
-  port: 443
-  server: fan.973511.xyz
-  sni: fan.973511.xyz
-  tls: true
-  type: http
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk 04
+  name: 1|DE - zhuhai.uk
+  port: 443
+  reality-opts:
+    public-key: JH9UnU0LFCDS3Q8zR7dhQDYrQ4iZGDgDB-sQcQ1q-kA
+    short-id: 5a9ab320
+  server: de2.miyazono-kaori.com
+  servername: www.siemens.com
+  tls: true
+  type: vless
+  uuid: df816a3d-8e27-461f-955d-2e523d3c73f7
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk 02
   port: 2027
   reality-opts:
     public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: 8d3293f0066e129a
+    short-id: dc8109baf0f607ea
   server: 78.159.247.253
   servername: storage.yandex.net
   skip-cert-verify: true
   tls: true
   type: vless
   uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
-- cipher: aes-256-cfb
-  name: 1|DE - zhuhai.uk 05
-  password: amazonskr05
-  port: 443
-  server: 3.76.102.125
-  type: ss
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk 03
+  port: 8443
+  reality-opts:
+    public-key: QMJRGTqZRbpeLpIAdvn6dhftuzrpwbtwmVG2s5IuuU0
+    short-id: 00a02855ba568c29
+  server: 138.124.254.68
+  servername: de-two.quiet-rogue.site
+  tls: true
+  type: vless
+  uuid: 6fe06b02-74f7-431f-8ca4-c702fa3322bf
