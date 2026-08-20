@@ -1,13 +1,21 @@
 proxies:
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: auto
   name: 1|KR - zhuhai.uk
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: subsequent-warranty-unlock-approx.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 10be30a5-f74d-40ed-981c-e6bc7ef90a38
+  ws-opts:
+    headers:
+      Host: subsequent-warranty-unlock-approx.trycloudflare.com
+    path: /10be30a5-f74d-40ed-981c-e6bc7ef90a38-vm
+- cipher: aes-256-gcm
+  name: 1|KR - zhuhai.uk 02
   password: b160be88-28c2-31bb-a153-8b050228f0c3
   port: 20041
   server: w.4.h.5.k.w.t.9.6.kr01-ae5.entry.v51124-3a.qpon
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|KR - zhuhai.uk 02
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
   type: ss

@@ -1,7 +1,21 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 1|SG - zhuhai.uk
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: assist-express-prints-championships.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: a82d2e10-5a65-4fb3-a460-e7d02576de1f
+  ws-opts:
+    headers:
+      Host: assist-express-prints-championships.trycloudflare.com
+    path: /a82d2e10-5a65-4fb3-a460-e7d02576de1f-vm
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|SG - zhuhai.uk
+  name: 1|SG - zhuhai.uk 02
   port: 443
   reality-opts:
     public-key: gAhXIWc39CLI_9Si6KwYNPh3ciFpH8g6RDcFYDCiyjQ
@@ -11,10 +25,9 @@ proxies:
   tls: true
   type: vless
   uuid: ada01ec8-a49e-4223-82dd-e1abe768b767
-- name: 1|SG - zhuhai.uk 02
-  password: 18d2cd7a-ba92-40a2-abcd-d8ebe1ef0c1a
-  port: 12017
-  server: kkkhhh.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
-  sni: 63.yuanul.com
-  tls: true
-  type: trojan
+- name: 1|SG - zhuhai.uk 03
+  password: pass
+  port: 1080
+  server: 47.237.78.169
+  type: socks5
+  username: user
