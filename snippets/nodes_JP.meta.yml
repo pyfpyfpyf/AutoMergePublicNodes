@@ -1,41 +1,13 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 1|JP - zhuhai.uk
-  network: ws
   port: 443
-  server: node.socks5.kdns.fr
-  servername: withdrawal-bosnia-renew-uniform.trycloudflare.com
+  reality-opts:
+    public-key: qkSw1mYeebLzLGFAxnSu0CuNaSQXdhR-doksZoqEniA
+    short-id: f75fbd5b
+  server: jp4.miyazono-kaori.com
+  servername: www.bandainamcoent.co.jp
   tls: true
-  type: vmess
-  uuid: eb443e93-f537-4743-a2a6-754f22918632
-  ws-opts:
-    headers:
-      Host: withdrawal-bosnia-renew-uniform.trycloudflare.com
-    path: /eb443e93-f537-4743-a2a6-754f22918632-vm
-- alterId: 0
-  cipher: auto
-  name: 1|JP - zhuhai.uk 02
-  network: ws
-  port: 443
-  server: node.socks5.kdns.fr
-  servername: weapon-hampshire-retrieved-generators.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: 634088b8-3161-4eb0-adbf-e7e01066ab8c
-  ws-opts:
-    headers:
-      Host: weapon-hampshire-retrieved-generators.trycloudflare.com
-    path: /634088b8-3161-4eb0-adbf-e7e01066ab8c-vm
-- name: 1|JP - zhuhai.uk 03
-  port: 443
-  server: fan.571589.xyz
-  sni: fan.571589.xyz
-  tls: true
-  type: http
-- cipher: aes-256-cfb
-  name: 1|JP - zhuhai.uk 04
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.136
-  type: ss
+  type: vless
+  uuid: df816a3d-8e27-461f-955d-2e523d3c73f7
