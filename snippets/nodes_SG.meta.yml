@@ -1,22 +1,15 @@
 proxies:
-- client-fingerprint: chrome
-  name: 1|SG - zhuhai.uk
-  network: ws
-  port: 47112
-  server: 213.35.100.31
-  servername: chajiatv.de5.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 7014e572-847b-4d56-83ba-0d9af0fcacf4
-  ws-opts:
-    headers:
-      Host: chajiatv.de5.net
-    path: /
+- name: 1|SG - zhuhai.uk
+  password: pass
+  port: 1080
+  server: 47.237.78.169
+  type: socks5
+  username: user
 - name: 1|SG - zhuhai.uk 02
   password: 18d2cd7a-ba92-40a2-abcd-d8ebe1ef0c1a
-  port: 12018
-  server: kkkhhh.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
-  sni: 64.yuanul.com
-  tls: true
-  type: trojan
+  port: 8021
+  server: kkkhhh.xs-us.net
+  skip-cert-verify: true
+  sni: sni.eos-suzhou-4.cmecloud.cn
+  type: anytls
+  udp: true

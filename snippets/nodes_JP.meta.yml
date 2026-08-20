@@ -1,22 +1,11 @@
 proxies:
 - name: 1|JP - zhuhai.uk
-  port: 443
-  server: fan.571589.xyz
-  skip-cert-verify: true
-  sni: fan.571589.xyz
-  tls: true
-  type: http
-- alterId: 0
-  cipher: auto
-  name: 1|JP - zhuhai.uk 02
-  network: ws
-  port: 443
-  server: node.socks5.kdns.fr
-  servername: withdrawal-bosnia-renew-uniform.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: eb443e93-f537-4743-a2a6-754f22918632
-  ws-opts:
-    headers:
-      Host: withdrawal-bosnia-renew-uniform.trycloudflare.com
-    path: /eb443e93-f537-4743-a2a6-754f22918632-vm
+  port: 10808
+  server: 101.36.104.239
+  type: socks5
+- name: 1|JP - zhuhai.uk 02
+  password: '!!str 123456'
+  port: 1080
+  server: 8.209.236.192
+  type: socks5
+  username: '123456'
