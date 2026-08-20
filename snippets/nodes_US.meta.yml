@@ -25,7 +25,7 @@ proxies:
   username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|US_speednode_0132
+  name: 0,1|US - zhuhai.uk
   network: tcp
   port: 11094
   reality-opts:
@@ -177,57 +177,48 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- name: 1|US - zhuhai.uk
-  port: 443
-  server: fan.596189.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 1|US - zhuhai.uk 02
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 147.182.216.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: testuser1
-- name: 1|US - zhuhai.uk 03
   port: 9002
   server: 156.146.59.31
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 04
-  password: 'null'
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 156.146.59.20
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 06
-  port: 443
-  server: 38.28.193.1
-  skip-cert-verify: true
-  sni: 38.28.193.1
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 07
+- name: 1|US - zhuhai.uk 03
   port: 9002
   server: 138.199.35.195
   skip-cert-verify: true
+  sni: 138.199.35.195
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 08
+- name: 1|US - zhuhai.uk 04
+  password: None
   port: 9002
-  server: 156.146.59.5
+  server: 138.199.35.204
   skip-cert-verify: true
-  sni: 156.146.59.5
+  sni: 138.199.35.204
   tls: true
   type: http
+  username: 'null'
+- alterId: 0
+  cipher: auto
+  name: 1|US - zhuhai.uk 05
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: written-maple-inquiries-exceptional.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: ca63bc09-a7b3-47c2-8fe5-7233c38ad489
+  ws-opts:
+    headers:
+      Host: written-maple-inquiries-exceptional.trycloudflare.com
+    path: /ca63bc09-a7b3-47c2-8fe5-7233c38ad489-vm
+- name: 1|US - zhuhai.uk 06
+  password: None
+  port: 9002
+  server: 156.146.59.16
+  skip-cert-verify: true
+  sni: 156.146.59.16
+  tls: true
+  type: http
+  username: 'null'
