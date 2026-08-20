@@ -1,15 +1,24 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 1|GB - zhuhai.uk
-  network: ws
+- name: 1|GB - zhuhai.uk
+  password: a95e9198-0671-11f0-9426-f23c932f2c32
   port: 443
-  server: node.socks5.kdns.fr
-  servername: notre-lanes-register-durable.trycloudflare.com
+  server: d3ea7b20-ths2o0-ths4hq-azvy.cldvpuk.cdnbytescm.com
+  skip-cert-verify: true
+  sni: d3ea7b20-ths2o0-ths4hq-azvy.cldvpuk.cdnbytescm.com
   tls: true
-  type: vmess
-  uuid: 9b2c688e-cd45-49d3-bfd1-a2b6392df504
-  ws-opts:
-    headers:
-      Host: notre-lanes-register-durable.trycloudflare.com
-    path: /9b2c688e-cd45-49d3-bfd1-a2b6392df504-vm
+  type: http
+  username: a95e9198-0671-11f0-9426-f23c932f2c32
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|GB - zhuhai.uk 01
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: RVj8E6YuWeOq9XzIVLQCKM39qa-Cknp-GYvVAA1UPFo
+    short-id: 72cceb78
+  server: 138.124.125.211
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1996007c-e7bc-464b-999b-cac28cec6c3e

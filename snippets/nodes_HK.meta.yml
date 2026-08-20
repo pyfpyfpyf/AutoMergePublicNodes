@@ -13,22 +13,28 @@ proxies:
     headers:
       Host: buf-mills-maximum-accomplished.trycloudflare.com
     path: /62209842-bcc3-4af3-b0c9-e6dec708c60f-vm
-- cipher: aes-256-cfb
+- alterId: 0
+  cipher: auto
   name: 1|HK - zhuhai.uk 02
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 120.232.253.98
-  type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk 03
-  port: 35193
-  reality-opts:
-    public-key: d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE
-    short-id: e8daed2d
-  server: hk3n.wxgqlfx.vip
-  servername: www.apple.com
-  skip-cert-verify: true
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: territory-evaluations-postcard-submissions.trycloudflare.com
   tls: true
-  type: vless
-  uuid: 35cbae61-ee10-4cb9-abb8-4950b35e9851
+  type: vmess
+  uuid: 2a07db01-6ca6-4e01-9345-bfd8ccfb780d
+  ws-opts:
+    headers:
+      Host: territory-evaluations-postcard-submissions.trycloudflare.com
+    path: /2a07db01-6ca6-4e01-9345-bfd8ccfb780d-vm
+- name: 1|HK - zhuhai.uk 03
+  password: 39275498-a48c-11ee-b03a-f23c913c8d2b
+  port: 443
+  server: 23d89b4a-tk59c0-tl2lpx-1ofy2.hk2.hyhuawei.com
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- name: 1|HK - zhuhai.uk 04
+  port: 10808
+  server: 123.58.219.171
+  type: socks5
