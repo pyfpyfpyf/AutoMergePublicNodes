@@ -1,24 +1,19 @@
 proxies:
-- client-fingerprint: chrome
-  name: 1|DE - zhuhai.uk
-  port: 7190
+- name: 1|DE - zhuhai.uk
+  port: 443
+  server: 138.201.56.241
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk 02
+  port: 443
   reality-opts:
-    public-key: mPyGyFIPaIJskk9IhHv9rkv7amf77CYUV0KVeqDsPU8
-    short-id: 7398e0c72f7d5c0e
-  server: 5.75.207.94
-  servername: pypi.org
+    public-key: YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU
+    short-id: 2186a755ed67b034
+  server: 31.76.5.26
+  servername: nordic.cendora.ru
   tls: true
   type: vless
-  uuid: 8ce90db0-2b57-41eb-83f2-f65f68c6409b
-- cipher: aes-256-cfb
-  name: 1|DE - zhuhai.uk 02
-  password: amazonskr05
-  port: 443
-  server: 3.66.86.250
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|DE - zhuhai.uk 03
-  password: amazonskr05
-  port: 443
-  server: 3.76.102.125
-  type: ss
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
