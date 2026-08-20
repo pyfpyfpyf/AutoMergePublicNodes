@@ -1,7 +1,14 @@
 proxies:
 - name: 1|JP - zhuhai.uk
-  password: vik7pgPgqnWuAngj
-  port: 16001
-  server: 38.207.130.119
-  sni: jp-akile-2.nebulacloud.win
-  type: hysteria2
+  port: 443
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  sni: fan.571589.xyz
+  tls: true
+  type: http
+- name: 1|JP - zhuhai.uk 02
+  password: '!!str 123456'
+  port: 1080
+  server: 8.209.236.192
+  type: socks5
+  username: '123456'

@@ -1,19 +1,24 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 1|DE - zhuhai.uk
-  network: ws
-  port: 16644
-  server: planb.mojcn.com.linuxlh.xin
-  type: vmess
-  uuid: b5f7ad86-9e40-4684-98f9-83f8136a1054
-  ws-opts:
-    headers:
-      Host: eeee7339c9f412913069ff64b12fb71f.mobgslb.tbcache.com
-    path: /
 - cipher: aes-256-cfb
-  name: 1|SG - zhuhai.uk
+  name: 1|KR - zhuhai.uk
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.235
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|SG - zhuhai.uk 02
   password: 7eadc6dbe2ae
   port: 65443
   server: 120.232.253.90
   type: ss
+- name: 1|US - zhuhai.uk 14
+  network: ws
+  password: 2bc2efc9-1943-4b2e-9412-43190d5099e4
+  port: 443
+  server: trojan.gboard.dev
+  skip-cert-verify: true
+  sni: trojan.gboard.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /

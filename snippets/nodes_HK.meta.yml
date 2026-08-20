@@ -1,21 +1,14 @@
 proxies:
-- name: 1|HK - zhuhai.uk
-  port: 443
-  server: hk40.240104.xyz
-  sni: hk40.240104.xyz
-  tls: true
-  type: http
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk 04
-  network: tcp
-  port: 31723
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  server: 155.117.199.13
-  servername: cdnjs.cloudflare.com
+  name: 1|HK - zhuhai.uk
+  network: ws
+  port: 2096
+  server: 172.67.68.66
+  servername: shanxp.dpdns.org
   tls: true
   type: vless
-  udp: true
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  ws-opts:
+    headers:
+      Host: shanxp.dpdns.org
+    path: /
