@@ -178,86 +178,53 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  port: 52683
-  server: jp.sofast.live
-  type: vless
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+  password: 57ec0f01-0c00-4a69-ad67-937b4735640b
+  port: 35193
+  server: 40t2.wxgqlfx.vip
+  skip-cert-verify: true
+  sni: 40t2.wxgqlfx.vip
+  type: hysteria2
 - name: 1|US - zhuhai.uk 02
-  password: 'null'
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 03
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  sni: 138.199.35.202
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 04
-  port: 22222
-  server: 193.25.215.182
-  type: socks5
-- name: 1|US - zhuhai.uk 05
-  password: 'null'
-  port: 9002
-  server: 156.146.59.23
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 06
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 107.151.238.27
-  skip-cert-verify: true
-  sni: 6b97ee1b.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- name: 1|US - zhuhai.uk 07
-  port: 443
-  server: mmgr.club
-  sni: mmgr.club
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 08
-  password: None
   port: 9002
   server: 156.146.59.19
   skip-cert-verify: true
   tls: true
   type: http
+- name: 1|US - zhuhai.uk 04
+  port: 9002
+  server: 156.146.59.25
+  skip-cert-verify: true
+  sni: 156.146.59.25
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 05
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  sni: 138.199.35.195
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 06
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 07
+  password: None
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  sni: 138.199.35.204
+  tls: true
+  type: http
   username: 'null'
-- client-fingerprint: random
-  name: 1|US - zhuhai.uk 09
-  network: ws
-  port: 2053
-  server: 172.67.193.74
-  servername: testcf.motherfuck.dpdns.org
+- name: 1|US - zhuhai.uk 08
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: 2e67eff4-02ac-4a13-b695-4452465df6a1
-  ws-opts:
-    headers:
-      Host: testcf.motherfuck.dpdns.org
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 10
-  network: ws
-  port: 2096
-  server: cloudflare.idc.rocks
-  servername: cindy.rainfall0705.cc.cd
-  tls: true
-  type: vless
-  uuid: 341832cc-ba98-425b-8225-b3db621a0da3
-  ws-opts:
-    headers:
-      Host: cindy.rainfall0705.cc.cd
-    path: /
+  type: http
 - name: 1|US - zhuhai.uk 01
   network: ws
   port: 41834

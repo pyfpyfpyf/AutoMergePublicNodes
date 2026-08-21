@@ -1,1 +1,21 @@
-proxies: []
+proxies:
+- name: 1|FR - zhuhai.uk
+  port: 443
+  server: fan.132031.xyz
+  sni: fan.132031.xyz
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|FR - zhuhai.uk 01
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aB_2Tcf0A5LoiIEZHztR_l-ZOFeJKxYRH67s_OVQ9C0
+    short-id: a91045bc
+  server: 163.5.153.153
+  servername: www.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0a76a766-d141-44b8-944e-dff757d7116f
