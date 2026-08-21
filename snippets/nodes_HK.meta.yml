@@ -1,13 +1,15 @@
 proxies:
 - name: 1|HK - zhuhai.uk
-  password: '!!str 111'
-  port: 11211
-  server: 47.243.173.50
+  password: admin
+  port: 1080
+  server: 47.239.116.165
   type: socks5
-  username: '111'
+  username: admin
 - name: 1|HK - zhuhai.uk 02
-  password: '!!str 123'
-  port: 3060
-  server: 43.100.43.112
-  type: socks5
-  username: '123'
+  password: GWgpVE
+  port: 7008
+  server: api.meituan88.com
+  skip-cert-verify: true
+  sni: globalnetworktraffic.com
+  type: anytls
+  udp: true

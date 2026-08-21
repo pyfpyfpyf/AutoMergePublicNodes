@@ -1,65 +1,55 @@
 proxies:
+- name: 1|US - zhuhai.uk 03
+  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
+  port: 59385
+  server: us01.duotg.top
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: true
+  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 1|US - zhuhai.uk 02
+  name: 1|GB - zhuhai.uk
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21108
-  server: 211.91.158.44
+  port: 21104
+  server: 211.91.158.26
   type: ss
-- cipher: aes-256-cfb
-  name: 1|TH - zhuhai.uk
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 103.169.67.34
-  type: ss
+- name: 1|ES - zhuhai.uk
+  password: fg20mtCFHy
+  port: 5443
+  server: 172.233.115.40
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 1|JP - zhuhai.uk
+  name: 1|SG - zhuhai.uk
   network: ws
   port: 443
   server: node.socks5.kdns.fr
-  servername: former-investments-vip-gem.trycloudflare.com
+  servername: motels-vaccine-oasis-itunes.trycloudflare.com
   tls: true
   type: vmess
-  uuid: 1d24b4c4-95ed-4763-ab31-cfccb10df9a2
+  uuid: d7829b88-b265-4699-93ff-0beae9177b25
   ws-opts:
     headers:
-      Host: former-investments-vip-gem.trycloudflare.com
-    path: /1d24b4c4-95ed-4763-ab31-cfccb10df9a2-vm
-- cipher: aes-256-gcm
-  name: 1|RU - zhuhai.uk
-  password: a2c044fe22258a18
-  port: 12666
-  server: 46.29.163.40
-  type: ss
+      Host: motels-vaccine-oasis-itunes.trycloudflare.com
+    path: /d7829b88-b265-4699-93ff-0beae9177b25-vm
 - cipher: chacha20-ietf-poly1305
-  name: 1|RU - zhuhai.uk 02
-  password: TU4NUJuMe4XlZ3NCQ_1KiQ
-  port: 1080
-  server: robon.mashhad1market.ir
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 1|DE - zhuhai.uk 03
-  network: ws
-  port: 443
-  server: node.socks5.kdns.fr
-  servername: tail-replace-themselves-harbour.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: a65aac42-c887-4a86-827e-47f357453f1d
-  ws-opts:
-    headers:
-      Host: tail-replace-themselves-harbour.trycloudflare.com
-    path: /a65aac42-c887-4a86-827e-47f357453f1d-vm
-- cipher: chacha20-ietf-poly1305
-  name: 1|IN - zhuhai.uk
+  name: 1|SG - zhuhai.uk 02
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21125
+  port: 21110
   server: 211.91.158.44
   type: ss
-- cipher: aes-256-cfb
-  name: 1|JP - zhuhai.uk 03
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.136
+- cipher: chacha20-ietf-poly1305
+  name: 1|KR - zhuhai.uk
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21107
+  server: 211.91.158.26
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 1|KR - zhuhai.uk 02
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21114
+  server: 211.91.158.44
   type: ss
