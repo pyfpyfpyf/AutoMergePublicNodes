@@ -1,5 +1,19 @@
 proxies:
-- name: 1|SG - zhuhai.uk
+- alterId: 0
+  cipher: auto
+  name: 1|SG - zhuhai.uk
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: gravity-refer-provider-russia.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 7b3ecf80-5e7a-418b-9f15-0fcc5a3e03de
+  ws-opts:
+    headers:
+      Host: gravity-refer-provider-russia.trycloudflare.com
+    path: /7b3ecf80-5e7a-418b-9f15-0fcc5a3e03de-vm
+- name: 1|SG - zhuhai.uk 02
   password: b7634b80-18e1-4dde-98f7-079b03e5a7e1
   port: 7000
   server: asg2.jueduibupao.top
@@ -7,7 +21,7 @@ proxies:
   sni: www.microsoft.com
   type: anytls
   udp: true
-- name: 1|SG - zhuhai.uk 02
+- name: 1|SG - zhuhai.uk 03
   password: b7634b80-18e1-4dde-98f7-079b03e5a7e1
   port: 7000
   server: asg3.jueduibupao.top

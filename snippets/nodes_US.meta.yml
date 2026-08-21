@@ -133,7 +133,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0141
+- name: 0,1|US - zhuhai.uk 05
   port: 443
   server: 38.28.193.188
   skip-cert-verify: true
@@ -179,38 +179,33 @@ proxies:
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
   port: 9002
-  server: 138.199.35.199
+  server: 138.199.35.219
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 02
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 02
   network: ws
-  password: MiTiVPN
   port: 443
-  server: 213.182.199.137
+  server: 172.67.161.109
+  servername: 8-M14.ayuTtHaYA-1.Kdns.FR
   skip-cert-verify: true
-  sni: 66-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
   tls: true
-  type: trojan
+  type: vless
+  uuid: 13da3f61-36bc-4f4f-9b49-4152de570bd3
   ws-opts:
     headers:
-      Host: 2-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      Host: 8-m14.AYUTthaya-1.kDNs.Fr
+    path: /awsDCktnglce5OhBQMBK8JLBwh2V
 - name: 1|US - zhuhai.uk 03
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 20065
-  server: us01.duotg.top
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: true
-  type: trojan
-- name: 1|US - zhuhai.uk 04
+  password: 'null'
   port: 9002
-  server: 138.199.35.207
+  server: 138.199.35.217
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 05
+  username: 'null'
+- name: 1|US - zhuhai.uk 04
   password: None
   port: 9002
   server: 156.146.59.19
@@ -222,27 +217,21 @@ proxies:
 - client-fingerprint: chrome
   name: 1|US - zhuhai.uk 06
   network: ws
-  port: 443
-  server: 104.21.17.84
-  servername: GofAS.uNaTTENEDpaY.kdnS.fr
+  port: 8443
+  server: 8.35.211.188
+  servername: vpn-1fj.pages.dev
   tls: true
   type: vless
-  uuid: d5dcbbe8-7b66-4ad3-ac66-607d780d617e
+  uuid: 2b181a3a-c001-4145-845a-5d43a43837d5
   ws-opts:
     headers:
-      Host: gofas.unattenedpay.kdns.fr
-    path: /eyJqdW5rIjoiRERRazBRbnBiVngiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+      Host: vpn-1fj.pages.dev
+    path: /
 - name: 1|US - zhuhai.uk 07
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: mg2.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg2.mangshe.xyz
-  type: hysteria2
-- name: 1|US - zhuhai.uk 08
   port: 9002
-  server: 138.199.35.195
+  server: 156.146.59.25
   skip-cert-verify: true
+  sni: 156.146.59.25
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 01
