@@ -1,11 +1,20 @@
 proxies:
-- name: 1|GB - zhuhai.uk 03
-  password: 3b32eb1c-150e-4eb4-8323-370844489508
-  port: 53274
-  server: yzany01.downapptwo.cc
-  sni: jp33.swiftrelay.cc
-  type: anytls
-  udp: true
+- name: 1|GB - zhuhai.uk
+  port: 443
+  server: 6d74a01e-thrgg0-thri9q-azvy.cldvpuk.cdnbytescm.com
+  skip-cert-verify: true
+  sni: 6d74a01e-thrgg0-thri9q-azvy.cldvpuk.cdnbytescm.com
+  tls: true
+  type: http
+- name: 1|GB - zhuhai.uk 02
+  password: a95e9198-0671-11f0-9426-f23c932f2c32
+  port: 443
+  server: d3ea7b20-ths2o0-ths4hq-azvy.cldvpuk.cdnbytescm.com
+  skip-cert-verify: true
+  sni: d3ea7b20-ths2o0-ths4hq-azvy.cldvpuk.cdnbytescm.com
+  tls: true
+  type: http
+  username: a95e9198-0671-11f0-9426-f23c932f2c32
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|GB - zhuhai.uk 04
@@ -20,3 +29,17 @@ proxies:
   type: vless
   udp: true
   uuid: be5b6ad6-8184-4b63-82ac-3bc00c09c98c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|GB - zhuhai.uk 03
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c
+    short-id: 33acba1b
+  server: 138.124.180.137
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5234b2b7-5e07-422c-8159-d62a676c00c6

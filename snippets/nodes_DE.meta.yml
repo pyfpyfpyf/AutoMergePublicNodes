@@ -1,18 +1,54 @@
 proxies:
+- name: 1|DE - zhuhai.uk
+  password: fg20mtCFHy
+  port: 5443
+  server: 134.122.77.227
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: trojan
 - name: 1|DE - zhuhai.uk 02
   network: ws
-  port: 443
-  server: cdn4.velnaro.ir
-  servername: cdn4.velnaro.ir
+  port: 2083
+  server: 104.17.151.3
+  servername: arvan2.dearhossein-taktaz.ir
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: d2615adf-96c4-414e-9126-eedf9ec9f0c0
+  uuid: 180e7d3a-3947-44dc-ba47-68244400f61d
   ws-opts:
-    path: /happy-2026-fall
+    headers:
+      Host: arvan2.dearhossein-taktaz.ir
+    path: /
+- name: 1|DE - zhuhai.uk 03
+  port: 443
+  server: 138.201.56.241
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 1|DE - zhuhai.uk 04
-  network: tcp
-  port: 22222
-  server: 35.157.103.248
+  network: ws
+  port: 2087
+  server: 104.24.244.0
+  servername: arvan2.dearhossein-taktaz.ir
+  skip-cert-verify: true
+  tls: true
   type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  uuid: 180e7d3a-3947-44dc-ba47-68244400f61d
+  ws-opts:
+    headers:
+      Host: arvan2.dearhossein-taktaz.ir
+    path: /
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk 06
+  port: 2027
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: 8d3293f0066e129a
+  server: 78.159.247.253
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
