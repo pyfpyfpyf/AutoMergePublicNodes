@@ -179,89 +179,93 @@ proxies:
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
   port: 9002
-  server: 138.199.35.206
+  server: 138.199.35.211
   skip-cert-verify: true
+  sni: 138.199.35.211
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
   port: 9002
-  server: 156.146.59.8
+  server: 156.146.59.30
   skip-cert-verify: true
+  sni: 156.146.59.30
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 03
-  port: 443
-  server: fan.596189.xyz
+  port: 9002
+  server: 138.199.35.200
   skip-cert-verify: true
+  sni: 138.199.35.200
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 04
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 156.146.59.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 06
-  password: 'null'
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 07
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 08
-  port: 443
-  server: fan.226278.xyz
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 09
-  password: 'null'
   port: 9002
   server: 138.199.35.212
   skip-cert-verify: true
   sni: 138.199.35.212
   tls: true
   type: http
+- name: 1|US - zhuhai.uk 05
+  password: 'null'
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 10
+- name: 1|US - zhuhai.uk 06
+  password: 3b32eb1c-150e-4eb4-8323-370844489508
+  port: 52870
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: us03.swiftrelay.cc
+  type: anytls
+  udp: true
+- name: 1|US - zhuhai.uk 07
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  sni: 138.199.35.202
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 08
   port: 9002
   server: 138.199.35.195
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 11
-  password: 'null'
-  port: 9002
-  server: 156.146.59.38
+- name: 1|US - zhuhai.uk 09
+  port: 443
+  server: fan.596189.xyz
   skip-cert-verify: true
-  sni: 156.146.59.38
+  sni: fan.596189.xyz
   tls: true
   type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 12
+- name: 1|US - zhuhai.uk 10
   port: 9002
-  server: 156.146.59.27
+  server: 138.199.35.213
   skip-cert-verify: true
-  sni: 156.146.59.27
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 11
+  port: 9002
+  server: 156.146.59.33
+  skip-cert-verify: true
+  sni: 156.146.59.33
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 13
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 27732
-  server: us01.duotg.top
+  port: 9002
+  server: 156.146.59.4
   skip-cert-verify: true
-  sni: www.microsoft.com
   tls: true
-  type: trojan
+  type: http
+- name: 1|US - zhuhai.uk 14
+  password: 'null'
+  port: 9002
+  server: 156.146.59.19
+  skip-cert-verify: true
+  sni: 156.146.59.19
+  tls: true
+  type: http
+  username: 'null'
