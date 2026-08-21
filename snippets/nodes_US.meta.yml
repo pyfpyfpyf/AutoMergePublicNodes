@@ -177,16 +177,24 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- name: 1|US - zhuhai.uk
-  password: f93486ce-cc84-11ed-9e98-f23c913c8d2b
-  port: 443
-  server: ab27af15-tk7400-tlvq5w-1jcwu.los.gotochinatown.net
+- name: 1|US - zhuhai.uk 02
+  password: 'null'
+  port: 9002
+  server: 138.199.35.196
   skip-cert-verify: true
+  sni: 138.199.35.196
   tls: true
   type: http
-  username: f93486ce-cc84-11ed-9e98-f23c913c8d2b
+  username: 'null'
+- name: 1|US - zhuhai.uk 03
+  port: 9002
+  server: 156.146.59.10
+  skip-cert-verify: true
+  sni: 156.146.59.10
+  tls: true
+  type: http
 - client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 02
+  name: 1|US - zhuhai.uk 04
   network: ws
   port: 443
   server: 104.21.17.84
@@ -198,6 +206,41 @@ proxies:
     headers:
       Host: gofas.unattenedpay.kdns.fr
     path: /eyJqdW5rIjoiRERRazBRbnBiVngiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
+- name: 1|US - zhuhai.uk 05
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 06
+  password: None
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  sni: 138.199.35.208
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 07
+  password: f93486ce-cc84-11ed-9e98-f23c913c8d2b
+  port: 443
+  server: ab27af15-tk7400-tlvq5w-1jcwu.los.gotochinatown.net
+  type: socks5
+  username: f93486ce-cc84-11ed-9e98-f23c913c8d2b
+- name: 1|US - zhuhai.uk 08
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 09
+  password: None
+  port: 9002
+  server: 156.146.59.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|US - zhuhai.uk 01
