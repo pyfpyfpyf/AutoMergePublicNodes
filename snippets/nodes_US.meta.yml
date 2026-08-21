@@ -133,7 +133,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 05
+- name: 0|US_speednode_0141
   port: 443
   server: 38.28.193.188
   skip-cert-verify: true
@@ -178,68 +178,80 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
+  password: f93486ce-cc84-11ed-9e98-f23c913c8d2b
+  port: 443
+  server: 4130e965-tk7400-tlvq5w-1jcwu.sv.plebai.net
+  type: socks5
+  username: f93486ce-cc84-11ed-9e98-f23c913c8d2b
+- name: 1|US - zhuhai.uk 02
   port: 9002
-  server: 138.199.35.219
+  server: 156.146.59.34
+  skip-cert-verify: true
+  sni: 156.146.59.34
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 03
+  password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
+  port: 8443
+  server: 480de765-tk7400-toh6wi-jx5r.isp.cdnkuaishou.com
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 02
-  network: ws
-  port: 443
-  server: 172.67.161.109
-  servername: 8-M14.ayuTtHaYA-1.Kdns.FR
+  username: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
+- name: 1|US - zhuhai.uk 05
+  port: 9002
+  server: 156.146.59.48
+  skip-cert-verify: true
+  sni: 156.146.59.48
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 06
+  port: 9002
+  server: 156.146.59.11
+  skip-cert-verify: true
+  sni: 156.146.59.11
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 07
+  password: f93486ce-cc84-11ed-9e98-f23c913c8d2b
+  port: 8443
+  server: e6533a1a-tk7400-tlvq5w-1jcwu.isp.cdnkuaishou.com
   skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: 13da3f61-36bc-4f4f-9b49-4152de570bd3
-  ws-opts:
-    headers:
-      Host: 8-m14.AYUTthaya-1.kDNs.Fr
-    path: /awsDCktnglce5OhBQMBK8JLBwh2V
-- name: 1|US - zhuhai.uk 03
+  type: http
+  username: f93486ce-cc84-11ed-9e98-f23c913c8d2b
+- name: 1|US - zhuhai.uk 08
   password: 'null'
   port: 9002
-  server: 138.199.35.217
+  server: 138.199.35.210
   skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 04
-  password: None
-  port: 9002
-  server: 156.146.59.19
-  skip-cert-verify: true
-  sni: 156.146.59.19
+  sni: 138.199.35.210
   tls: true
   type: http
   username: 'null'
 - client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 06
-  network: ws
-  port: 8443
-  server: 8.35.211.188
-  servername: vpn-1fj.pages.dev
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 09
+  port: 443
+  reality-opts:
+    public-key: GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c
+    short-id: 33acba1b
+  server: 138.124.180.137
+  servername: www.apple.com
   tls: true
   type: vless
-  uuid: 2b181a3a-c001-4145-845a-5d43a43837d5
-  ws-opts:
-    headers:
-      Host: vpn-1fj.pages.dev
-    path: /
-- name: 1|US - zhuhai.uk 07
-  port: 9002
-  server: 156.146.59.25
-  skip-cert-verify: true
-  sni: 156.146.59.25
+  uuid: 5234b2b7-5e07-422c-8159-d62a676c00c6
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 01
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UR-ELTbCCTAAvg_y8vIznWFkGkCKFFaEAVgTtPYNCCk
+    short-id: 54861d36
+  server: de3.voronvpn.com
+  servername: storage.yandexcloud.net
   tls: true
-  type: http
-- name: 1|US - zhuhai.uk 01
-  network: ws
-  port: 41834
-  server: 157.238.208.110
   type: vless
   udp: true
-  uuid: 5adeccb9-dfca-41de-cdf7-4d901f2e70f5
-  ws-opts:
-    path: /5adeccb9
+  uuid: 9e27f64b-7ae9-461b-b4c4-99696276633b

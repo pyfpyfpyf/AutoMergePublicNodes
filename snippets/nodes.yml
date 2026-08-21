@@ -1,17 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 1|DE - zhuhai.uk
-  password: amazonskr05
-  port: 443
-  server: 3.76.102.125
-  type: ss
-- name: 1|LV - zhuhai.uk
-  password: kxHw-Dk-e9dffgzYszMlEqLJ92AnY3Pi
-  port: 443
-  server: tr-latvia1.unlimited-access.ru
-  sni: tr-latvia1.unlimited-access.ru
-  tls: true
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 1|SG - zhuhai.uk
@@ -26,27 +13,57 @@ proxies:
     headers:
       Host: gravity-refer-provider-russia.trycloudflare.com
     path: /7b3ecf80-5e7a-418b-9f15-0fcc5a3e03de-vm
-- cipher: aes-256-cfb
-  name: 1|FR - zhuhai.uk
-  password: amazonskr05
+- alterId: 0
+  cipher: auto
+  name: 1|GB - zhuhai.uk
+  network: ws
   port: 443
-  server: 13.38.46.203
+  server: node.socks5.kdns.fr
+  servername: silly-pictures-vital-stopping.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 91279594-61a9-49ea-a1c1-b4c53632fd9a
+  ws-opts:
+    headers:
+      Host: silly-pictures-vital-stopping.trycloudflare.com
+    path: /91279594-61a9-49ea-a1c1-b4c53632fd9a-vm
+- alterId: 0
+  cipher: auto
+  name: 1|JP - zhuhai.uk
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: withdrawal-bosnia-renew-uniform.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: eb443e93-f537-4743-a2a6-754f22918632
+  ws-opts:
+    headers:
+      Host: withdrawal-bosnia-renew-uniform.trycloudflare.com
+    path: /eb443e93-f537-4743-a2a6-754f22918632-vm
+- alterId: 0
+  cipher: auto
+  name: 1|SG - zhuhai.uk 03
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: remedy-pal-tions-backup.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 24ed4b43-545d-43f5-acb8-29ba249e1f8d
+  ws-opts:
+    headers:
+      Host: remedy-pal-tions-backup.trycloudflare.com
+    path: /24ed4b43-545d-43f5-acb8-29ba249e1f8d-vm
+- cipher: chacha20-ietf-poly1305
+  name: 1|GB - zhuhai.uk 03
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21117
+  server: 211.91.158.26
   type: ss
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   name: 1|DE - zhuhai.uk 02
-  password: amazonskr05
-  port: 443
-  server: 63.176.139.123
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|TH - zhuhai.uk
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 103.169.67.34
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|JP - zhuhai.uk 02
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.136
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21118
+  server: 211.91.158.26
   type: ss
