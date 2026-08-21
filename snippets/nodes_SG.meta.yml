@@ -1,13 +1,15 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|SG - zhuhai.uk
+- name: 1|SG - zhuhai.uk
+  password: pass
+  port: 1080
+  server: 47.237.78.169
+  type: socks5
+  username: user
+- name: 1|SG - zhuhai.uk 02
+  password: e4b72b531a2d10900519
   port: 443
-  reality-opts:
-    public-key: gAhXIWc39CLI_9Si6KwYNPh3ciFpH8g6RDcFYDCiyjQ
-    short-id: f9fa109f0584f0bf
-  server: 163.128.98.254
-  servername: www.apple.com
+  server: 146.70.29.45
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: ada01ec8-a49e-4223-82dd-e1abe768b767
+  type: http
+  username: testuser1

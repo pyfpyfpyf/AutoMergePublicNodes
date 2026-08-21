@@ -1,11 +1,14 @@
 proxies:
-- name: 1|HK - zhuhai.uk
-  port: 30001
-  server: 45.194.33.12
-  type: socks5
-- cipher: aes-256-gcm
-  name: 1|HK - zhuhai.uk 02
-  password: b160be88-28c2-31bb-a153-8b050228f0c3
-  port: 19273
-  server: x.4.w.5.3.i.t.9.6.hk01-ae5.entry.v51124-3a.qpon
-  type: ss
+- client-fingerprint: chrome
+  name: 1|HK - zhuhai.uk
+  network: ws
+  port: 2053
+  server: 172.67.65.56
+  servername: whitecreeper.pages.dev
+  tls: true
+  type: vless
+  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
+  ws-opts:
+    headers:
+      Host: whitecreeper.pages.dev
+    path: /proxyip=ProxyIP.SG.CMLiussss.Net
