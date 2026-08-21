@@ -1,10 +1,18 @@
 proxies:
-- name: 1|GB - zhuhai.uk
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|GB - zhuhai.uk 02
+  network: tcp
   port: 443
-  server: 6d74a01e-thrgg0-thri9q-azvy.cldvpuk.cdnbytescm.com
-  skip-cert-verify: true
+  reality-opts:
+    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+    short-id: fd55b698ee8c3629
+  server: 5.152.223.193
+  servername: strapi.io
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: f09a0e10-a32f-4c77-9cb6-63b0823b5ad7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|GB - zhuhai.uk 04
@@ -19,3 +27,17 @@ proxies:
   type: vless
   udp: true
   uuid: be5b6ad6-8184-4b63-82ac-3bc00c09c98c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|GB - zhuhai.uk 03
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c
+    short-id: 33acba1b
+  server: 138.124.180.137
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5234b2b7-5e07-422c-8159-d62a676c00c6
