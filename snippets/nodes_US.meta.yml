@@ -14,11 +14,12 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: 0|US_speednode_0131
+- name: 0,1|US - zhuhai.uk 03
   password: 'null'
   port: 9002
   server: 138.199.35.216
   skip-cert-verify: true
+  sni: 138.199.35.216
   tls: true
   type: http
   udp: true
@@ -155,10 +156,11 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 0|US_speednode_0143
+- name: 0,1|US - zhuhai.uk 07
   port: 9002
   server: 138.199.35.198
   skip-cert-verify: true
+  sni: 138.199.35.198
   tls: true
   type: http
   udp: true
@@ -177,142 +179,87 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- name: 1|US - zhuhai.uk
-  password: 'null'
-  port: 9002
-  server: 156.146.59.15
-  skip-cert-verify: true
-  sni: 156.146.59.15
-  tls: true
-  type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 02
-  port: 8090
-  server: 209.148.53.153
+  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
+  port: 46292
+  server: us01.duotg.top
   skip-cert-verify: true
-  sni: 209.148.53.153
+  sni: www.microsoft.com
   tls: true
-  type: http
-- name: 1|US - zhuhai.uk 03
-  port: 9002
-  server: 156.146.59.39
-  skip-cert-verify: true
-  tls: true
-  type: http
+  type: trojan
 - name: 1|US - zhuhai.uk 04
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  sni: 138.199.35.219
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 06
   password: 'null'
   port: 9002
-  server: 138.199.35.195
+  server: 156.146.59.41
   skip-cert-verify: true
-  sni: 138.199.35.195
+  sni: 156.146.59.41
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 07
+- name: 1|US - zhuhai.uk 05
+  port: 22222
+  server: 193.25.215.182
+  type: socks5
+- name: 1|US - zhuhai.uk 06
   port: 9002
-  server: 156.146.59.17
+  server: 156.146.59.31
   skip-cert-verify: true
-  sni: 156.146.59.17
+  sni: 156.146.59.31
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 08
-  port: 443
-  server: purposebydesig.club
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 09
-  port: 443
-  server: jewelscollecti.icu
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 10
+  password: 'null'
   port: 9002
-  server: 138.199.35.200
+  server: 156.146.59.33
   skip-cert-verify: true
-  sni: 138.199.35.200
+  sni: 156.146.59.33
   tls: true
   type: http
-- alterId: 0
-  cipher: auto
-  name: 1|US - zhuhai.uk 11
+  username: 'null'
+- name: 1|US - zhuhai.uk 09
   network: ws
+  password: MiTiVPN
   port: 443
-  server: node.socks5.kdns.fr
-  servername: hawaiian-bald-shed-goes.trycloudflare.com
+  server: 188.42.145.180
+  skip-cert-verify: true
+  sni: 82929473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
   tls: true
-  type: vmess
-  uuid: de2b04aa-cc4d-4bc8-86e2-eca350671ea8
+  type: trojan
   ws-opts:
     headers:
-      Host: hawaiian-bald-shed-goes.trycloudflare.com
-    path: /de2b04aa-cc4d-4bc8-86e2-eca350671ea8-vm
-- name: 1|US - zhuhai.uk 12
+      Host: 383838-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-g@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 1|US - zhuhai.uk 10
   port: 9002
-  server: 156.146.59.8
-  skip-cert-verify: true
-  sni: 156.146.59.8
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 13
-  port: 9002
-  server: 156.146.59.38
+  server: 138.199.35.195
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 14
-  password: 'null'
   port: 9002
-  server: 138.199.35.212
+  server: 156.146.59.5
   skip-cert-verify: true
+  sni: 156.146.59.5
   tls: true
   type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 15
   port: 9002
-  server: 138.199.35.207
+  server: 156.146.59.19
   skip-cert-verify: true
-  sni: 138.199.35.207
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 16
   port: 9002
-  server: 138.199.35.201
+  server: 138.199.35.215
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 17
   password: 'null'
   port: 9002
-  server: 138.199.35.215
+  server: 138.199.35.210
   skip-cert-verify: true
-  sni: 138.199.35.215
+  sni: 138.199.35.210
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 18
-  port: 9002
-  server: 156.146.59.4
-  skip-cert-verify: true
-  sni: 156.146.59.4
-  tls: true
-  type: http
-- cipher: chacha20-ietf-poly1305
-  name: 1|US - zhuhai.uk 19
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21105
-  server: 211.91.158.44
-  type: ss
