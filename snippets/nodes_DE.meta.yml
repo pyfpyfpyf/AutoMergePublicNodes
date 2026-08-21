@@ -1,26 +1,8 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk
-  port: 443
-  reality-opts:
-    public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
-    short-id: f7d0420b8ab26060
-  server: 194.87.24.10
-  servername: de1.de-cdn.ru
-  tls: true
+- name: 1|DE - zhuhai.uk 04
+  network: tcp
+  port: 22222
+  server: 35.157.103.248
   type: vless
-  uuid: 22419260-5475-49d8-a29c-01905c54d1b8
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk 04
-  port: 2027
-  reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: 8d3293f0066e129a
-  server: 78.159.247.253
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
