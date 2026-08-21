@@ -1,14 +1,21 @@
 proxies:
-- client-fingerprint: chrome
+- alterId: 0
+  cipher: auto
   name: 1|HK - zhuhai.uk
   network: ws
-  port: 2096
-  server: 172.67.68.66
-  servername: shanxp.dpdns.org
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: softball-chief-observations-myspace.trycloudflare.com
   tls: true
-  type: vless
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  type: vmess
+  uuid: e53732d9-85c6-44fe-91eb-52fe9349dccc
   ws-opts:
     headers:
-      Host: shanxp.dpdns.org
-    path: /
+      Host: softball-chief-observations-myspace.trycloudflare.com
+    path: /e53732d9-85c6-44fe-91eb-52fe9349dccc-vm
+- name: 1|HK - zhuhai.uk 02
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
+  type: socks5
+  username: '111'
