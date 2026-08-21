@@ -8,9 +8,16 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   name: 1|GB - zhuhai.uk 02
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21104
+  port: 21117
   server: 211.91.158.26
   type: ss
+- name: 1|GB - zhuhai.uk 03
+  port: 443
+  server: 6d74a01e-thrgg0-thri9q-azvy.cldvpuk.cdnbytescm.com
+  skip-cert-verify: true
+  sni: 6d74a01e-thrgg0-thri9q-azvy.cldvpuk.cdnbytescm.com
+  tls: true
+  type: http
 - client-fingerprint: chrome
   name: 1|GB - zhuhai.uk 01
   network: ws

@@ -1,14 +1,23 @@
 proxies:
-- name: 1|KR - zhuhai.uk
-  password: b7634b80-18e1-4dde-98f7-079b03e5a7e1
-  port: 7000
-  server: akr1.jueduibupao.top
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: anytls
-  udp: true
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
+  name: 1|KR - zhuhai.uk
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21114
+  server: 211.91.158.44
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 1|KR - zhuhai.uk 02
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21114
+  server: 211.91.158.26
+  type: ss
+- name: 1|KR - zhuhai.uk 03
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  username: T2clM0QlM0Q6
+- cipher: aes-256-cfb
+  name: 1|KR - zhuhai.uk 04
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.138
