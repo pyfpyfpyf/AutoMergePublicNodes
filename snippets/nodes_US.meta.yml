@@ -180,67 +180,24 @@ proxies:
 - name: 1|US - zhuhai.uk
   password: f93486ce-cc84-11ed-9e98-f23c913c8d2b
   port: 443
-  server: 4130e965-tk7400-tlvq5w-1jcwu.sv.plebai.net
-  type: socks5
-  username: f93486ce-cc84-11ed-9e98-f23c913c8d2b
-- name: 1|US - zhuhai.uk 02
-  port: 9002
-  server: 156.146.59.34
-  skip-cert-verify: true
-  sni: 156.146.59.34
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 03
-  password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
-  port: 8443
-  server: 480de765-tk7400-toh6wi-jx5r.isp.cdnkuaishou.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
-- name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 156.146.59.48
-  skip-cert-verify: true
-  sni: 156.146.59.48
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 06
-  port: 9002
-  server: 156.146.59.11
-  skip-cert-verify: true
-  sni: 156.146.59.11
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 07
-  password: f93486ce-cc84-11ed-9e98-f23c913c8d2b
-  port: 8443
-  server: e6533a1a-tk7400-tlvq5w-1jcwu.isp.cdnkuaishou.com
+  server: ab27af15-tk7400-tlvq5w-1jcwu.los.gotochinatown.net
   skip-cert-verify: true
   tls: true
   type: http
   username: f93486ce-cc84-11ed-9e98-f23c913c8d2b
-- name: 1|US - zhuhai.uk 08
-  password: 'null'
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  sni: 138.199.35.210
-  tls: true
-  type: http
-  username: 'null'
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 09
+  name: 1|US - zhuhai.uk 02
+  network: ws
   port: 443
-  reality-opts:
-    public-key: GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c
-    short-id: 33acba1b
-  server: 138.124.180.137
-  servername: www.apple.com
+  server: 104.21.17.84
+  servername: GofAS.uNaTTENEDpaY.kdnS.fr
   tls: true
   type: vless
-  uuid: 5234b2b7-5e07-422c-8159-d62a676c00c6
+  uuid: d5dcbbe8-7b66-4ad3-ac66-607d780d617e
+  ws-opts:
+    headers:
+      Host: gofas.unattenedpay.kdns.fr
+    path: /eyJqdW5rIjoiRERRazBRbnBiVngiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|US - zhuhai.uk 01
