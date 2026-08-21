@@ -1,14 +1,28 @@
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   name: 1|DE - zhuhai.uk
   network: ws
-  port: 8444
-  server: 51.77.76.61
-  servername: link.meshbeat.online
+  port: 2087
+  server: node2.onepanel123.ru
+  servername: node2.onepanel123.ru
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 1f619326-cd93-4d6b-aebe-e0b5f8831d02
+  uuid: 2edfd299-fd54-4056-9d79-3c99f19bdae1
   ws-opts:
     headers:
-      Host: link.meshbeat.online
-    path: /api/v1/devices/ff3c56308c/telemetry
+      Host: node2.onepanel123.ru
+    path: /de-vless-ws
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk 02
+  port: 2027
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: dc8109baf0f607ea
+  server: 78.159.247.253
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060

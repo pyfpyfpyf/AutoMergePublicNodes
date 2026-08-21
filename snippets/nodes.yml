@@ -1,27 +1,15 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|KR - zhuhai.uk
+  name: 1|IN - zhuhai.uk
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21114
-  server: 211.91.158.44
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 1|GB - zhuhai.uk
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21117
-  server: 211.91.158.44
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 1|KR - zhuhai.uk 02
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21114
+  port: 21125
   server: 211.91.158.26
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1|GB - zhuhai.uk 02
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21117
-  server: 211.91.158.26
+  name: 1|HK - zhuhai.uk
+  password: ljqdalu13..
+  port: 8319
+  server: 95.40.120.162
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 1|SG - zhuhai.uk
@@ -29,27 +17,17 @@ proxies:
   port: 21121
   server: 211.91.158.26
   type: ss
-- cipher: aes-256-gcm
-  name: 1|CA - zhuhai.uk
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 51.222.155.32
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 1|IL - zhuhai.uk
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21116
-  server: 211.91.158.44
+  name: 1|HK - zhuhai.uk 02
+  password: aed6e687-58a9-4836-ba62-7d8184c94df4
+  port: 32060
+  server: 82.38.46.65
   type: ss
-- cipher: aes-256-cfb
-  name: 1|FR - zhuhai.uk 02
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 95.170.13.47
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|KR - zhuhai.uk 04
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
+- name: 1|US - zhuhai.uk 03
+  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
+  port: 46292
+  server: us01.duotg.top
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: true
+  type: trojan
