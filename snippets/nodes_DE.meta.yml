@@ -1,34 +1,65 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk
-  port: 443
-  reality-opts:
-    public-key: YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU
-    short-id: 2186a755ed67b034
-  server: 31.76.5.26
-  servername: nordic.cendora.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk 02
-  port: 2027
-  reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: 8d3293f0066e129a
-  server: 78.159.247.253
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
-- name: 1|DE - zhuhai.uk 03
+- name: 1|DE - zhuhai.uk
   network: ws
   port: 2087
-  server: 104.18.19.39
+  server: 172.66.146.2
+  servername: arvan2.dearhossein-taktaz.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 1cc5e727-62f2-469e-963e-20af8cbf1bf5
+  ws-opts:
+    headers:
+      Host: arvan2.dearhossein-taktaz.ir
+    path: /
+- name: 1|DE - zhuhai.uk 02
+  network: ws
+  port: 2087
+  server: 104.25.116.204
+  servername: arvan2.dearhossein-taktaz.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 1cc5e727-62f2-469e-963e-20af8cbf1bf5
+  ws-opts:
+    headers:
+      Host: arvan2.dearhossein-taktaz.ir
+    path: /
+- name: 1|DE - zhuhai.uk 03
+  network: ws
+  port: 2083
+  server: 104.18.151.69
+  servername: arvan2.dearhossein-taktaz.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 1cc5e727-62f2-469e-963e-20af8cbf1bf5
+  ws-opts:
+    headers:
+      Host: arvan2.dearhossein-taktaz.ir
+    path: /
+- name: 1|DE - zhuhai.uk 04
+  port: 16679
+  server: 116.203.193.15
+  type: vless
+  uuid: 7a04ab9c-493a-43fc-b382-a5adb3b6e2cb
+- name: 1|DE - zhuhai.uk 05
+  network: ws
+  port: 8443
+  server: 104.18.10.167
+  servername: arvan2.dearhossein-taktaz.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 1cc5e727-62f2-469e-963e-20af8cbf1bf5
+  ws-opts:
+    headers:
+      Host: arvan2.dearhossein-taktaz.ir
+    path: /
+- name: 1|DE - zhuhai.uk 06
+  network: ws
+  port: 2087
+  server: 104.24.244.0
   servername: arvan2.dearhossein-taktaz.ir
   skip-cert-verify: true
   tls: true
