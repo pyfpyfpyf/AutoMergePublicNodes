@@ -178,20 +178,15 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
+  password: 'null'
   port: 9002
-  server: 156.146.59.28
+  server: 156.146.59.15
   skip-cert-verify: true
-  sni: 156.146.59.28
+  sni: 156.146.59.15
   tls: true
   type: http
+  username: 'null'
 - name: 1|US - zhuhai.uk 02
-  port: 9002
-  server: 156.146.59.10
-  skip-cert-verify: true
-  sni: 156.146.59.10
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 03
   password: 'null'
   port: 9002
   server: 138.199.35.195
@@ -199,46 +194,98 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- client-fingerprint: edge
+- name: 1|US - zhuhai.uk 03
+  port: 9002
+  server: 156.146.59.38
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 04
+  port: 9002
+  server: 156.146.59.48
+  skip-cert-verify: true
+  sni: 156.146.59.48
+  tls: true
+  type: http
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|US - zhuhai.uk 05
-  port: 13443
+  port: 50159
   reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: a7f3c91b2e6d84c0
-  server: 88.218.92.164
-  servername: auto.cendora.ru
+    public-key: 6GwkpQjzpkMH3iFG8kTm4Xy3UHbjdWz8SwEYqtUio2A
+    short-id: 3a462b65305f0f33
+  server: 154.17.227.162
+  servername: www.cloudflare.com
   tls: true
   type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  uuid: 4260691d-3b69-4ae2-a62c-e42f7a63586e
 - name: 1|US - zhuhai.uk 06
-  password: None
+  password: 'null'
   port: 9002
-  server: 138.199.35.202
+  server: 156.146.59.23
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 07
   port: 9002
-  server: 156.146.59.4
+  server: 156.146.59.34
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 08
-  password: 'null'
+  password: None
   port: 9002
-  server: 156.146.59.19
+  server: 138.199.35.204
   skip-cert-verify: true
-  sni: 156.146.59.19
+  sni: 138.199.35.204
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 09
-  password: 5040a6b0-92be-42bc-a8ab-7f8c1d02866c
-  port: 21578
-  server: yzany01.downapptwo.cc
+  network: ws
+  port: 443
+  server: 141.101.122.147
+  servername: a.cwvps.eu.org
+  tls: true
+  type: vless
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  ws-opts:
+    headers:
+      Host: a.cwvps.eu.org
+    path: /ws
+- name: 1|US - zhuhai.uk 10
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 188.42.145.180
   skip-cert-verify: true
-  sni: us38.lunartrace.io
-  type: anytls
-  udp: true
+  sni: 82929473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 82929473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-g@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 1|US - zhuhai.uk 11
+  port: 9002
+  server: 156.146.59.10
+  skip-cert-verify: true
+  sni: 156.146.59.10
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 12
+  password: 'null'
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 13
+  password: 099830134df5ac3a04a4b21d39b8c395
+  port: 50160
+  server: 163.192.14.135
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
