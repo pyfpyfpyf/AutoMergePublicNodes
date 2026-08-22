@@ -14,7 +14,7 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: 0|US_speednode_0131
+- name: 0,1|US - zhuhai.uk 07
   password: 'null'
   port: 9002
   server: 138.199.35.216
@@ -38,7 +38,7 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 0|US_speednode_0133
+- name: 0,1|US - zhuhai.uk 09
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
@@ -133,7 +133,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0141
+- name: 0,1|US - zhuhai.uk 05
   port: 443
   server: 38.28.193.188
   skip-cert-verify: true
@@ -177,78 +177,76 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- name: 1|US - zhuhai.uk
-  port: 443
-  server: fan.596189.xyz
+- name: 1|US - zhuhai.uk 04
+  port: 9002
+  server: 156.146.59.30
   skip-cert-verify: true
-  sni: fan.596189.xyz
+  sni: 156.146.59.30
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
   port: 9002
-  server: 156.146.59.47
+  server: 138.199.35.209
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 03
   port: 9002
-  server: 156.146.59.12
+  server: 156.146.59.9
   skip-cert-verify: true
-  sni: 156.146.59.12
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 04
-  password: 'null'
-  port: 9002
-  server: 156.146.59.12
-  skip-cert-verify: true
-  sni: 156.146.59.12
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  sni: 138.199.35.209
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 06
-  port: 9050
-  server: 45.61.129.165
-  type: socks5
-- name: 1|US - zhuhai.uk 07
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  sni: 138.199.35.195
+  port: 443
+  server: fan.226278.xyz
+  sni: fan.226278.xyz
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 08
-  password: None
-  port: 9002
-  server: 156.146.59.50
-  skip-cert-verify: true
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 08
+  port: 13443
+  reality-opts:
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: a7f3c91b2e6d84c0
+  server: 88.218.92.164
+  servername: auto.cendora.ru
   tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 09
-  port: 9002
-  server: 156.146.59.27
-  skip-cert-verify: true
-  sni: 156.146.59.27
-  tls: true
-  type: http
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - name: 1|US - zhuhai.uk 10
   port: 9002
-  server: 156.146.59.23
+  server: 138.199.35.196
   skip-cert-verify: true
-  sni: 156.146.59.23
+  sni: 138.199.35.196
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 11
   port: 9002
-  server: 156.146.59.20
+  server: 138.199.35.208
+  skip-cert-verify: true
+  sni: 138.199.35.208
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 12
+  port: 9002
+  server: 156.146.59.4
+  skip-cert-verify: true
+  sni: 156.146.59.4
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 13
+  port: 9002
+  server: 138.199.35.207
   skip-cert-verify: true
   tls: true
   type: http
+- name: 1|US - zhuhai.uk 14
+  password: 'null'
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  sni: 138.199.35.215
+  tls: true
+  type: http
+  username: 'null'

@@ -1,25 +1,40 @@
 proxies:
-- name: 1|DE - zhuhai.uk
-  password: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
-  port: 8443
-  server: hy2-germany.unlimited-access.ru
-  sni: hy2-germany.unlimited-access.ru
-  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|DE - zhuhai.uk 04
-  port: 443
+  port: 2027
   reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: 00bca5982f82d083
-  server: 194.48.250.172
-  servername: eu-central.cendora.ru
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: dc8109baf0f607ea
+  server: 78.159.247.253
+  servername: storage.yandex.net
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: 1|DE - zhuhai.uk 05
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+- name: 1|DE - zhuhai.uk 02
   port: 443
-  server: 141.17.83.73
+  server: 138.201.56.241
   skip-cert-verify: true
   tls: true
   type: http
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk 03
+  port: 443
+  reality-opts:
+    public-key: 6hrP_JlRUK40WwXk9ZL0FpB19bTR0RnrUGYX5SaZkCE
+    short-id: 0501b478da6a4950
+  server: 5.175.161.47
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  uuid: eb85f61f-acb3-4689-8b7c-d8ad2a6aa43f
+- name: 1|DE - zhuhai.uk 05
+  obfs: salamander
+  obfs-password: SalamanderDE2026
+  password: Germany2026hy
+  port: 8443
+  server: 45.128.99.14
+  sni: de.nobelchat.ru
+  type: hysteria2
