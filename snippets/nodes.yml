@@ -1,16 +1,14 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 1|HK - zhuhai.uk 02
-  password: ljqdalu13..
-  port: 8319
-  server: 95.40.120.162
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|KR - zhuhai.uk
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
+- grpc-opts:
+    grpc-service-name: mygrpc
+  name: 1|RU - zhuhai.uk
+  network: grpc
+  password: 654df5c6-73ac-3b11-8269-6b21fb8d9dad
+  port: 489
+  server: rub01.nwncd.com
+  sni: rub01.nwncd.com
+  tls: true
+  type: trojan
 - cipher: aes-256-cfb
   name: 1|TH - zhuhai.uk
   password: 7eadc6dbe2ae

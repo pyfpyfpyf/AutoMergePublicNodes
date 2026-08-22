@@ -1,13 +1,46 @@
 proxies:
 - name: 1|HK - zhuhai.uk
-  password: 9q3Mb0IzSVbnwaqK
-  port: 16001
-  server: 18.162.42.61
-  sni: hk-ls-r-1.czzhkractqqakfzdmrgd.cc
-  type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 1|HK - zhuhai.uk 02
-  password: ljqdalu13..
-  port: 8319
-  server: 95.40.120.162
-  type: ss
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
+  type: socks5
+  username: '111'
+- client-fingerprint: chrome
+  name: 1|HK - zhuhai.uk 03
+  network: ws
+  port: 2053
+  server: 104.17.148.111
+  servername: vpn-1fj.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2b181a3a-c001-4145-845a-5d43a43837d5
+  ws-opts:
+    headers:
+      Host: vpn-1fj.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 1|HK - zhuhai.uk 01
+  network: ws
+  port: 2053
+  server: 104.17.112.90
+  servername: vpn-1fj.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2b181a3a-c001-4145-845a-5d43a43837d5
+  ws-opts:
+    headers:
+      Host: vpn-1fj.pages.dev
+    path: /
+- name: 1|HK - zhuhai.uk 02
+  network: ws
+  port: 80
+  server: 104.18.43.36
+  type: vless
+  udp: true
+  uuid: 50414e45-4c5f-5a45-5553-cea58e4acf49
+  ws-opts:
+    headers:
+      Host: web-app-aug8yr.app-f1qsy1.workers.dev
+    path: /api/ws
