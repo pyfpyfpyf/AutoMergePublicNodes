@@ -1,52 +1,34 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 1|HK - zhuhai.uk
-  password: d4d9d554-1e3f-3108-8029-d6fc1fbba683
-  port: 1814
-  server: p.y.8.q.a.y.x.8.d.hk05-ae5.entry.v51124-4.qpon
+- cipher: chacha20-ietf-poly1305
+  name: 1|IN - zhuhai.uk
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21125
+  server: 211.91.158.44
   type: ss
-- name: 1|JP - zhuhai.uk
+- cipher: chacha20-ietf-poly1305
+  name: 1|JP - zhuhai.uk 03
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21119
+  server: 211.91.158.44
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1|HK - zhuhai.uk 03
   network: ws
-  password: 24b1bde2-1609-486a-abad-b87f0d2e3da7
-  port: 443
-  server: cdn1.bpcdn.cc
-  sni: jpefoaweho04.jptimecsgo.xyz
-  tls: true
-  type: trojan
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
   ws-opts:
     headers:
-      Host: jpefoaweho04.jptimecsgo.xyz
-    path: /images
+      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+    path: /
 - cipher: aes-256-cfb
   name: 1|KR - zhuhai.uk
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.138
   type: ss
-- name: 1|MY - zhuhai.uk
-  network: ws
-  password: 24b1bde2-1609-486a-abad-b87f0d2e3da7
-  port: 443
-  server: cdn1.bpcdn.cc
-  sni: gogoyy.bpmalai2026.top
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: gogoyy.bpmalai2026.top
-    path: /images
-- name: 1|MY - zhuhai.uk 02
-  network: ws
-  password: 24b1bde2-1609-486a-abad-b87f0d2e3da7
-  port: 443
-  server: cdn2.bpcdn.cc
-  sni: gogoyy.bpmalai2026.top
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: gogoyy.bpmalai2026.top
-    path: /images
 - name: 1|NL - zhuhai.uk 01
   password: FH72359861
   port: 443
