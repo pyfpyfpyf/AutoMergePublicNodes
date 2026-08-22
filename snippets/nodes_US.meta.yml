@@ -178,91 +178,77 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
+  port: 443
+  server: fan.596189.xyz
+  skip-cert-verify: true
+  sni: fan.596189.xyz
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 02
+  port: 9002
+  server: 156.146.59.47
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 03
+  port: 9002
+  server: 156.146.59.12
+  skip-cert-verify: true
+  sni: 156.146.59.12
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 04
   password: 'null'
   port: 9002
-  server: 156.146.59.28
+  server: 156.146.59.12
   skip-cert-verify: true
-  sni: 156.146.59.28
+  sni: 156.146.59.12
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 03
-  password: None
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 04
-  network: ws
-  port: 443
-  server: yx.zhourf2006.dpdns.org
-  servername: yx.zhourf2006.dpdns.org
-  tls: true
-  type: vless
-  uuid: 7e81824b-35e0-4eb1-89e9-592f0c92aa6b
-  ws-opts:
-    headers:
-      Host: yx.zhourf2006.dpdns.org
-    path: /blog/ranking/task/proxyip=156.246.92.195,172.238.6.57,43.207.197.79,156.246.91.114,161.248.254.27,153.121.45.101,101.36.105.226?ed=2560
 - name: 1|US - zhuhai.uk 05
   port: 9002
-  server: 156.146.59.28
+  server: 138.199.35.209
   skip-cert-verify: true
+  sni: 138.199.35.209
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 06
-  port: 443
-  server: webdrone.club
-  skip-cert-verify: true
-  sni: webdrone.club
-  tls: true
-  type: http
+  port: 9050
+  server: 45.61.129.165
+  type: socks5
 - name: 1|US - zhuhai.uk 07
   port: 9002
-  server: 156.146.59.8
+  server: 138.199.35.195
   skip-cert-verify: true
-  sni: 156.146.59.8
+  sni: 138.199.35.195
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 08
-  password: 'null'
+  password: None
   port: 9002
-  server: 138.199.35.220
+  server: 156.146.59.50
   skip-cert-verify: true
-  sni: 138.199.35.220
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 09
-  port: 443
-  server: 38.28.193.1
+  port: 9002
+  server: 156.146.59.27
   skip-cert-verify: true
-  sni: 38.28.193.1
+  sni: 156.146.59.27
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 10
-  password: 3b32eb1c-150e-4eb4-8323-370844489508
-  port: 27932
-  server: yzany01.downapptwo.cc
-  skip-cert-verify: true
-  sni: us20.pulsarcore.site
-  type: anytls
-  udp: true
-- name: 1|US - zhuhai.uk 11
-  password: 3b32eb1c-150e-4eb4-8323-370844489508
-  port: 40430
-  server: yzany01.downapptwo.cc
-  skip-cert-verify: true
-  sni: us69.swiftrelay.cc
-  type: anytls
-  udp: true
-- name: 1|US - zhuhai.uk 12
   port: 9002
-  server: 138.199.35.201
+  server: 156.146.59.23
   skip-cert-verify: true
-  sni: 138.199.35.201
+  sni: 156.146.59.23
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 11
+  port: 9002
+  server: 156.146.59.20
+  skip-cert-verify: true
   tls: true
   type: http

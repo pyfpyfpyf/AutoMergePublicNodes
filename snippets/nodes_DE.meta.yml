@@ -1,23 +1,25 @@
 proxies:
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 1|DE - zhuhai.uk
-  network: grpc
+- name: 1|DE - zhuhai.uk
+  password: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
   port: 8443
+  server: hy2-germany.unlimited-access.ru
+  sni: hy2-germany.unlimited-access.ru
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk 04
+  port: 443
   reality-opts:
-    public-key: 6hrP_JlRUK40WwXk9ZL0FpB19bTR0RnrUGYX5SaZkCE
-    short-id: 0501b478da6a4950
-  server: 5.175.161.47
-  servername: gateway.icloud.com
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+  server: 194.48.250.172
+  servername: eu-central.cendora.ru
   tls: true
   type: vless
-  uuid: eb85f61f-acb3-4689-8b7c-d8ad2a6aa43f
-- name: 1|DE - zhuhai.uk 02
-  password: 3b32eb1c-150e-4eb4-8323-370844489508
-  port: 33832
-  server: yzany01.downapptwo.cc
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+- name: 1|DE - zhuhai.uk 05
+  port: 443
+  server: 141.17.83.73
   skip-cert-verify: true
-  sni: de02.swiftrelay.cc
-  type: anytls
-  udp: true
+  tls: true
+  type: http
