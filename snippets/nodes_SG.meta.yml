@@ -1,7 +1,18 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 1|SG - zhuhai.uk
+  port: 13779
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  server: 166.108.235.162
+  servername: tesla.com
+  tls: true
+  type: vless
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk 02
   port: 443
   reality-opts:
     public-key: kxuW6rJkcKU88l_sgqezrcMFEy4yofrgouBoKufWASs
@@ -12,11 +23,3 @@ proxies:
   tls: true
   type: vless
   uuid: 389e0591-86d6-408f-bf24-18f611a0c94b
-- name: 1|SG - zhuhai.uk 02
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 146.70.29.45
-  sni: 92461d2d.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
