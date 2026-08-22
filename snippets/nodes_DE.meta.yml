@@ -1,40 +1,20 @@
 proxies:
-- name: 1|DE - zhuhai.uk
+- alterId: 0
+  cipher: auto
+  name: 1|DE - zhuhai.uk
   network: ws
-  port: 8443
-  server: 104.18.24.41
-  servername: arvan2.dearhossein-taktaz.ir
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 180e7d3a-3947-44dc-ba47-68244400f61d
+  port: 16644
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: b312c029-18bb-43c8-bc5a-b4f8d193853c
   ws-opts:
     headers:
-      Host: arvan2.dearhossein-taktaz.ir
+      Host: 09a25e0678d5f69a5bb882d9f6441ad2.mobgslb.tbcache.com
     path: /
 - name: 1|DE - zhuhai.uk 02
-  network: ws
-  port: 8443
-  server: 172.67.225.147
-  servername: arvan2.dearhossein-taktaz.ir
+  port: 443
+  server: 185.44.107.166
   skip-cert-verify: true
+  sni: 185.44.107.166
   tls: true
-  type: vless
-  uuid: 180e7d3a-3947-44dc-ba47-68244400f61d
-  ws-opts:
-    headers:
-      Host: arvan2.dearhossein-taktaz.ir
-    path: /
-- name: 1|DE - zhuhai.uk 03
-  network: ws
-  port: 2087
-  server: 104.27.57.122
-  servername: arvan2.dearhossein-taktaz.ir
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 180e7d3a-3947-44dc-ba47-68244400f61d
-  ws-opts:
-    headers:
-      Host: arvan2.dearhossein-taktaz.ir
-    path: /
+  type: http

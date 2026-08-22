@@ -1,17 +1,61 @@
 proxies:
-- name: 1|TW - zhuhai.uk
+- cipher: aes-256-gcm
+  name: 1|US - zhuhai.uk
+  password: dbccbb54-fe4e-40c4-bf19-88792c6a8ded
+  port: 22509
+  server: d898705d-4499-4417-ab32-f6991badc762.2ecde35d-10dc-4e67-a9bc-0bf4a0c859f2.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1|DE - zhuhai.uk
+  network: ws
+  port: 16644
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: b312c029-18bb-43c8-bc5a-b4f8d193853c
+  ws-opts:
+    headers:
+      Host: 09a25e0678d5f69a5bb882d9f6441ad2.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|US - zhuhai.uk 18
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: hawaiian-bald-shed-goes.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: de2b04aa-cc4d-4bc8-86e2-eca350671ea8
+  ws-opts:
+    headers:
+      Host: hawaiian-bald-shed-goes.trycloudflare.com
+    path: /de2b04aa-cc4d-4bc8-86e2-eca350671ea8-vm
+- name: 1|HK - zhuhai.uk 02
   network: ws
   password: 24b1bde2-1609-486a-abad-b87f0d2e3da7
   port: 443
-  server: ttww11.bpca2026.top
-  sni: ttww11.bpca2026.top
+  server: cdn1.bpcdn.cc
+  sni: baihkhk1.xn--ghqp68hvpn1ka.com
   tls: true
   type: trojan
   ws-opts:
     headers:
-      Host: ttww11.bpca2026.top
+      Host: baihkhk1.xn--ghqp68hvpn1ka.com
     path: /images
-- name: 1|SG - zhuhai.uk 02
+- name: 1|JP - zhuhai.uk 02
+  network: ws
+  password: 24b1bde2-1609-486a-abad-b87f0d2e3da7
+  port: 443
+  server: cdn1.bpcdn.cc
+  sni: jpefoaweho04.jptimecsgo.xyz
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jpefoaweho04.jptimecsgo.xyz
+    path: /images
+- name: 1|SG - zhuhai.uk
   network: ws
   password: 24b1bde2-1609-486a-abad-b87f0d2e3da7
   port: 443
@@ -24,42 +68,18 @@ proxies:
     headers:
       Host: light.bpsg2026.top
     path: /images
-- name: 1|JP - zhuhai.uk 03
+- name: 1|SG - zhuhai.uk 02
   network: ws
   password: 24b1bde2-1609-486a-abad-b87f0d2e3da7
   port: 443
   server: cdn2.bpcdn.cc
-  sni: jpefoaweho04.jptimecsgo.xyz
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: jpefoaweho04.jptimecsgo.xyz
-    path: /images
-- name: 1|US - zhuhai.uk 04
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 213.182.199.137
   skip-cert-verify: true
-  sni: 66-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
+  sni: light.bpsg2026.top
   tls: true
   type: trojan
   ws-opts:
     headers:
-      Host: 2-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 1|HK - zhuhai.uk
-  network: ws
-  password: 24b1bde2-1609-486a-abad-b87f0d2e3da7
-  port: 443
-  server: cdn2.bpcdn.cc
-  sni: baihkhk1.xn--ghqp68hvpn1ka.com
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: baihkhk1.xn--ghqp68hvpn1ka.com
+      Host: light.bpsg2026.top
     path: /images
 - name: 1|MY - zhuhai.uk
   network: ws

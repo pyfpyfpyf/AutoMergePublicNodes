@@ -38,10 +38,11 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 0|US_speednode_0133
+- name: 0,1|US - zhuhai.uk 06
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
+  sni: fan.365747.xyz
   tls: true
   type: http
   udp: true
@@ -177,68 +178,164 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- name: 1|US - zhuhai.uk
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  sni: 138.199.35.197
-  tls: true
-  type: http
+- cipher: aes-256-gcm
+  name: 1|US - zhuhai.uk
+  password: dbccbb54-fe4e-40c4-bf19-88792c6a8ded
+  port: 22509
+  server: d898705d-4499-4417-ab32-f6991badc762.2ecde35d-10dc-4e67-a9bc-0bf4a0c859f2.com
+  type: ss
 - name: 1|US - zhuhai.uk 02
   port: 9002
-  server: 138.199.35.219
+  server: 156.146.59.17
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 03
-  password: 24b1bde2-1609-486a-abad-b87f0d2e3da7
-  port: 51995
-  server: 172.96.141.4
+- name: 1|US - zhuhai.uk 16
+  port: 9002
+  server: 138.199.35.201
   skip-cert-verify: true
-  sni: api.push.apple.com
-  type: hysteria2
-- name: 1|US - zhuhai.uk 04
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 213.182.199.137
-  skip-cert-verify: true
-  sni: 66-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
+  sni: 138.199.35.201
   tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 2-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+  type: http
+- name: 1|US - zhuhai.uk 04
+  port: 9002
+  server: 156.146.59.5
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 1|US - zhuhai.uk 05
   password: 'null'
-  port: 9002
-  server: 138.199.35.217
+  port: 443
+  server: 38.28.193.188
   skip-cert-verify: true
+  sni: 38.28.193.188
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 06
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 162.243.146.243
-  sni: a2f392f3.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
 - name: 1|US - zhuhai.uk 07
   password: 'null'
   port: 9002
-  server: 138.199.35.207
+  server: 138.199.35.213
   skip-cert-verify: true
+  sni: 138.199.35.213
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 08
   port: 9002
-  server: 156.146.59.44
+  server: 138.199.35.214
   skip-cert-verify: true
-  sni: 156.146.59.44
+  sni: 138.199.35.214
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 09
+  password: None
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  sni: 138.199.35.196
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 10
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  sni: 138.199.35.203
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 11
+  password: 'null'
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 12
+  password: None
+  port: 9002
+  server: 156.146.59.50
+  skip-cert-verify: true
+  sni: 156.146.59.50
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 13
+  port: 9002
+  server: 156.146.59.9
+  skip-cert-verify: true
+  sni: 156.146.59.9
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 14
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 15
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  sni: 138.199.35.217
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 17
+  password: 'null'
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  sni: 138.199.35.205
+  tls: true
+  type: http
+  username: 'null'
+- alterId: 0
+  cipher: auto
+  name: 1|US - zhuhai.uk 18
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: hawaiian-bald-shed-goes.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: de2b04aa-cc4d-4bc8-86e2-eca350671ea8
+  ws-opts:
+    headers:
+      Host: hawaiian-bald-shed-goes.trycloudflare.com
+    path: /de2b04aa-cc4d-4bc8-86e2-eca350671ea8-vm
+- name: 1|US - zhuhai.uk 23
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  sni: 138.199.35.218
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 20
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  sni: 138.199.35.219
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 21
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 22
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  sni: 138.199.35.208
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 24
+  port: 9002
+  server: 156.146.59.34
+  skip-cert-verify: true
+  sni: 156.146.59.34
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 01

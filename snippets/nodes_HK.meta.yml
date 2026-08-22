@@ -1,9 +1,16 @@
 proxies:
 - name: 1|HK - zhuhai.uk
+  password: 24b1bde2-1609-486a-abad-b87f0d2e3da7
+  port: 52299
+  server: 82.47.32.31
+  skip-cert-verify: true
+  sni: iosapps.itunes.apple.com
+  type: hysteria2
+- name: 1|HK - zhuhai.uk 02
   network: ws
   password: 24b1bde2-1609-486a-abad-b87f0d2e3da7
   port: 443
-  server: cdn2.bpcdn.cc
+  server: cdn1.bpcdn.cc
   sni: baihkhk1.xn--ghqp68hvpn1ka.com
   tls: true
   type: trojan
@@ -39,14 +46,3 @@ proxies:
     headers:
       Host: vpn-1fj.pages.dev
     path: /
-- name: 1|HK - zhuhai.uk 02
-  network: ws
-  port: 80
-  server: 104.18.43.36
-  type: vless
-  udp: true
-  uuid: 50414e45-4c5f-5a45-5553-cea58e4acf49
-  ws-opts:
-    headers:
-      Host: web-app-aug8yr.app-f1qsy1.workers.dev
-    path: /api/ws
