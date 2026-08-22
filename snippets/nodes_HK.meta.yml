@@ -1,7 +1,35 @@
 proxies:
 - name: 1|HK - zhuhai.uk
-  port: 443
-  server: fan.240104.xyz
-  sni: fan.240104.xyz
+  password: admin
+  port: 1080
+  server: 47.239.116.165
+  type: socks5
+  username: admin
+- name: 1|HK - zhuhai.uk 02
+  password: 3b32eb1c-150e-4eb4-8323-370844489508
+  port: 25135
+  server: yazhouany02.downapptwo.cc
+  skip-cert-verify: true
+  sni: hk27.pulsarcore.site
+  type: anytls
+  udp: true
+- name: 1|HK - zhuhai.uk 03
+  password: 3b32eb1c-150e-4eb4-8323-370844489508
+  port: 24318
+  server: yzany01.downapptwo.cc
+  skip-cert-verify: true
+  sni: hk08.jdddyy01.cc
+  type: anytls
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 04
+  port: 10025
+  reality-opts:
+    public-key: o9HJwtbkN76N7Tp5Iz_mVgOWGGjdIFLVSMN4VeK1M38
+    short-id: dc3a980d52dd
+  server: family.bucket.8.kfc-520.com
+  servername: www.hp.com
   tls: true
-  type: http
+  type: vless
+  uuid: 7aecb4a5-f0a4-32a0-aabe-c9d5241e313f
