@@ -1,11 +1,45 @@
 proxies:
-- name: 1|HK - zhuhai.uk
-  port: 443
-  server: hk40.240104.xyz
+- client-fingerprint: random
+  name: 1|HK - zhuhai.uk
+  network: ws
+  port: 2083
+  server: 172.67.67.118
+  servername: kv.074167.xyz
   skip-cert-verify: true
-  sni: hk40.240104.xyz
   tls: true
-  type: http
+  type: vless
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+  ws-opts:
+    headers:
+      Host: kv.074167.xyz
+    path: /
+- client-fingerprint: chrome
+  name: 1|HK - zhuhai.uk 02
+  network: ws
+  port: 443
+  server: www.5h.com
+  servername: youxuanku.kdns.fr
+  tls: true
+  type: vless
+  uuid: 4c0b7280-76bb-495c-9c8b-f05712ebf805
+  ws-opts:
+    headers:
+      Host: youxuanku.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  name: 1|HK - zhuhai.uk 03
+  network: ws
+  port: 2053
+  server: 104.17.148.111
+  servername: vpn-1fj.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2b181a3a-c001-4145-845a-5d43a43837d5
+  ws-opts:
+    headers:
+      Host: vpn-1fj.pages.dev
+    path: /
 - client-fingerprint: chrome
   name: 1|HK - zhuhai.uk 01
   network: ws
@@ -20,14 +54,3 @@ proxies:
     headers:
       Host: vpn-1fj.pages.dev
     path: /
-- name: 1|HK - zhuhai.uk 02
-  network: ws
-  port: 80
-  server: 104.18.43.36
-  type: vless
-  udp: true
-  uuid: 50414e45-4c5f-5a45-5553-cea58e4acf49
-  ws-opts:
-    headers:
-      Host: web-app-aug8yr.app-f1qsy1.workers.dev
-    path: /api/ws
