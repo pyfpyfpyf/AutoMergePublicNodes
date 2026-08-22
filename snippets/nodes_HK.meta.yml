@@ -1,27 +1,15 @@
 proxies:
 - name: 1|HK - zhuhai.uk
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
+  type: socks5
+  username: '111'
+- name: 1|HK - zhuhai.uk 02
   password: 3b32eb1c-150e-4eb4-8323-370844489508
-  port: 35853
+  port: 27631
   server: yzany01.downapptwo.cc
-  sni: hk01.pulsarcore.site
-  type: anytls
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk 02
-  port: 52519
-  reality-opts:
-    public-key: izz9UbxGR9SycqxSIqaIGXMru7Ks6N0KQPyJsoZhEWE
-    short-id: d2
-  server: hk3.kfc-520.com
-  servername: www.adobe.com
-  tls: true
-  type: vless
-  uuid: 7aecb4a5-f0a4-32a0-aabe-c9d5241e313f
-- name: 1|HK - zhuhai.uk 03
-  password: 3b32eb1c-150e-4eb4-8323-370844489508
-  port: 15700
-  server: yzany01.downapptwo.cc
-  sni: hk18.pulsarcore.site
+  skip-cert-verify: true
+  sni: hk03.jdddyy01.cc
   type: anytls
   udp: true
