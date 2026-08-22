@@ -155,11 +155,10 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 0,1|US - zhuhai.uk 13
+- name: 0|US_speednode_0143
   port: 9002
   server: 138.199.35.198
   skip-cert-verify: true
-  sni: 138.199.35.198
   tls: true
   type: http
   udp: true
@@ -180,110 +179,96 @@ proxies:
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
   port: 9002
-  server: 156.146.59.42
+  server: 138.199.35.219
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
   port: 9002
-  server: 156.146.59.44
+  server: 156.146.59.41
   skip-cert-verify: true
-  sni: 156.146.59.44
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 03
   port: 9002
-  server: 138.199.35.206
+  server: 156.146.59.33
   skip-cert-verify: true
-  sni: 138.199.35.206
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 04
   port: 9002
-  server: 138.199.35.213
+  server: 138.199.35.199
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 05
   port: 9002
-  server: 138.199.35.209
+  server: 156.146.59.44
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 07
-  port: 9002
-  server: 156.146.59.11
+- name: 1|US - zhuhai.uk 06
+  password: 24b1bde2-1609-486a-abad-b87f0d2e3da7
+  port: 52256
+  server: 108.181.5.106
   skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- cipher: aes-256-gcm
+  name: 1|US - zhuhai.uk 07
+  password: d4d9d554-1e3f-3108-8029-d6fc1fbba683
+  port: 20012
+  server: p.q.5.q.2.u.w.8.d.us01-ae5.entry.v51124-4.qpon
+  type: ss
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 08
+  port: 22319
+  reality-opts:
+    public-key: kjfwyYnvXMqeF3yJB6kyInsEsaA1ZmZMqtM_djwjPyI
+    short-id: 83946b7f
+  server: f0937aa2-8d0d-48e1-a1bd-d89483ba7d18.2ecde35d-10dc-4e67-a9bc-0bf4a0c859f2.com
+  servername: www.lilith.com
   tls: true
-  type: http
-- name: 1|US - zhuhai.uk 08
-  port: 9002
-  server: 156.146.59.25
-  skip-cert-verify: true
-  tls: true
-  type: http
+  type: vless
+  uuid: dbccbb54-fe4e-40c4-bf19-88792c6a8ded
 - name: 1|US - zhuhai.uk 09
-  port: 9002
-  server: 156.146.59.30
-  skip-cert-verify: true
-  sni: 156.146.59.30
+  network: ws
+  password: 24b1bde2-1609-486a-abad-b87f0d2e3da7
+  port: 443
+  server: cdn1.bpcdn.cc
+  sni: ttt1.ttttlefjljl.xyz
   tls: true
-  type: http
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttt1.ttttlefjljl.xyz
+    path: /images
 - name: 1|US - zhuhai.uk 10
-  port: 9002
-  server: 138.199.35.207
+  password: 24b1bde2-1609-486a-abad-b87f0d2e3da7
+  port: 51043
+  server: 147.90.235.159
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: www.bing.com
+  type: hysteria2
 - name: 1|US - zhuhai.uk 11
-  port: 443
-  server: efr-marktplatz.club
-  sni: efr-marktplatz.club
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 12
-  port: 9002
-  server: 156.146.59.39
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 14
-  password: None
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  sni: 138.199.35.204
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 15
   password: 'null'
   port: 9002
-  server: 156.146.59.23
+  server: 156.146.59.21
   skip-cert-verify: true
-  sni: 156.146.59.23
+  sni: 156.146.59.21
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 16
-  password: 'null'
-  port: 9002
-  server: 156.146.59.27
-  skip-cert-verify: true
-  sni: 156.146.59.27
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 12
+  port: 28180
+  reality-opts:
+    public-key: HBeH_uPYOMp9D7Mq1KxBzduX07OZ9C8rT4zSHNjiO3g
+    short-id: c1cd56a8
+  server: guzljsefoasducuxk80.gxiwoxwecuowerfns.com
+  servername: www.cloudflare.com
   tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 17
-  port: 443
-  server: kimberlymilano.icu
-  sni: kimberlymilano.icu
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 18
-  port: 9002
-  server: 156.146.59.12
-  skip-cert-verify: true
-  sni: 156.146.59.12
-  tls: true
-  type: http
+  type: vless
+  uuid: 7ed513cf-3fc8-4f25-91e0-e1c6e0a922cb
