@@ -1,24 +1,11 @@
 proxies:
 - name: 1|HK - zhuhai.uk
-  password: '!!str 111'
-  port: 11211
-  server: 47.243.173.50
-  type: socks5
-  username: '111'
-- client-fingerprint: chrome
-  name: 1|HK - zhuhai.uk 03
-  network: ws
-  port: 2053
-  server: 104.17.148.111
-  servername: vpn-1fj.pages.dev
+  port: 443
+  server: hk40.240104.xyz
+  skip-cert-verify: true
+  sni: hk40.240104.xyz
   tls: true
-  type: vless
-  udp: true
-  uuid: 2b181a3a-c001-4145-845a-5d43a43837d5
-  ws-opts:
-    headers:
-      Host: vpn-1fj.pages.dev
-    path: /
+  type: http
 - client-fingerprint: chrome
   name: 1|HK - zhuhai.uk 01
   network: ws
