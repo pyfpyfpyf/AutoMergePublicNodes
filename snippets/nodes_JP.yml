@@ -1,13 +1,13 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 1|JP - zhuhai.uk
-  password: d4d9d554-1e3f-3108-8029-d6fc1fbba683
-  port: 17743
-  server: p.q.8.r.a.y.w.8.d.jp11-ae5.entry.v51124-4.qpon
-  type: ss
-- cipher: aes-256-gcm
-  name: 1|JP - zhuhai.uk 02
-  password: d4d9d554-1e3f-3108-8029-d6fc1fbba683
-  port: 12545
-  server: p.q.5.t.0.u.5.8.d.jp08-ae5.entry.v51124-4.qpon
-  type: ss
+- name: 1|JP - zhuhai.uk
+  network: ws
+  password: 24b1bde2-1609-486a-abad-b87f0d2e3da7
+  port: 443
+  server: cdn1.bpcdn.cc
+  sni: jpefoaweho04.jptimecsgo.xyz
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jpefoaweho04.jptimecsgo.xyz
+    path: /images

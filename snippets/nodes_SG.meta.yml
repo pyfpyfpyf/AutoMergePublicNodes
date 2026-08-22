@@ -1,13 +1,22 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 1|SG - zhuhai.uk 03
-  password: d4d9d554-1e3f-3108-8029-d6fc1fbba683
-  port: 20082
-  server: e.q.e.8.0.y.l.8.d.sg03-ae5.entry.v51124-4.qpon
-  type: ss
-- cipher: aes-256-gcm
-  name: 1|SG - zhuhai.uk 04
-  password: dbccbb54-fe4e-40c4-bf19-88792c6a8ded
-  port: 22506
-  server: d898705d-4499-4417-ab32-f6991badc762.2ecde35d-10dc-4e67-a9bc-0bf4a0c859f2.com
-  type: ss
+- name: 1|SG - zhuhai.uk
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 146.70.29.45
+  skip-cert-verify: true
+  sni: 146.70.29.45
+  tls: true
+  type: http
+  username: testuser1
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk 02
+  port: 28185
+  reality-opts:
+    public-key: HBeH_uPYOMp9D7Mq1KxBzduX07OZ9C8rT4zSHNjiO3g
+    short-id: c1cd56a8
+  server: guzljsefoasducuxk85.gxiwoxwecuowerfns.com
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 7ed513cf-3fc8-4f25-91e0-e1c6e0a922cb
