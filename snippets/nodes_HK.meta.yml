@@ -1,48 +1,14 @@
 proxies:
 - name: 1|HK - zhuhai.uk
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
+  type: socks5
+  username: '111'
+- name: 1|HK - zhuhai.uk 02
   password: 24b1bde2-1609-486a-abad-b87f0d2e3da7
   port: 52299
   server: 82.47.32.31
   skip-cert-verify: true
   sni: iosapps.itunes.apple.com
   type: hysteria2
-- name: 1|HK - zhuhai.uk 02
-  network: ws
-  password: 24b1bde2-1609-486a-abad-b87f0d2e3da7
-  port: 443
-  server: cdn1.bpcdn.cc
-  sni: baihkhk1.xn--ghqp68hvpn1ka.com
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: baihkhk1.xn--ghqp68hvpn1ka.com
-    path: /images
-- client-fingerprint: chrome
-  name: 1|HK - zhuhai.uk 03
-  network: ws
-  port: 2053
-  server: 104.17.148.111
-  servername: vpn-1fj.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2b181a3a-c001-4145-845a-5d43a43837d5
-  ws-opts:
-    headers:
-      Host: vpn-1fj.pages.dev
-    path: /
-- client-fingerprint: chrome
-  name: 1|HK - zhuhai.uk 01
-  network: ws
-  port: 2053
-  server: 104.17.112.90
-  servername: vpn-1fj.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2b181a3a-c001-4145-845a-5d43a43837d5
-  ws-opts:
-    headers:
-      Host: vpn-1fj.pages.dev
-    path: /

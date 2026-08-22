@@ -1,29 +1,8 @@
 proxies:
-- client-fingerprint: firefox
-  name: 1|FR - zhuhai.uk 03
-  network: tcp
-  port: 17780
-  reality-opts:
-    public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28
-    short-id: a0fbc54d937aaccb
-  server: 172.239.26.184
-  servername: amp-api-edge.apps.apple.com
-  skip-cert-verify: true
+- name: 1|FR - zhuhai.uk
+  password: freeuser1
+  port: 9251
+  server: fr012.freeconnect.link
   tls: true
-  type: vless
-  udp: true
-  uuid: a06119a7-4f1a-4592-86d9-e050a332b2b3
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|FR - zhuhai.uk 02
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: aB_2Tcf0A5LoiIEZHztR_l-ZOFeJKxYRH67s_OVQ9C0
-    short-id: a91045bc
-  server: 163.5.153.153
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0a76a766-d141-44b8-944e-dff757d7116f
+  type: http
+  username: freeuser1
