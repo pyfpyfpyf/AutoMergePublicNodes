@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- name: 1|SG - zhuhai.uk 02
+  network: ws
+  password: 24b1bde2-1609-486a-abad-b87f0d2e3da7
+  port: 443
+  server: cdn1.bpcdn.cc
+  skip-cert-verify: true
+  sni: light.bpsg2026.top
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: light.bpsg2026.top
+    path: /images

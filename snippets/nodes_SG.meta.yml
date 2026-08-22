@@ -1,15 +1,14 @@
 proxies:
-- client-fingerprint: chrome
-  name: 1|SG - zhuhai.uk
+- name: 1|SG - zhuhai.uk 02
   network: ws
-  port: 47112
-  server: 213.35.100.31
-  servername: chajiatv.de5.net
+  password: 24b1bde2-1609-486a-abad-b87f0d2e3da7
+  port: 443
+  server: cdn1.bpcdn.cc
   skip-cert-verify: true
+  sni: light.bpsg2026.top
   tls: true
-  type: vless
-  uuid: 7014e572-847b-4d56-83ba-0d9af0fcacf4
+  type: trojan
   ws-opts:
     headers:
-      Host: chajiatv.de5.net
-    path: /
+      Host: light.bpsg2026.top
+    path: /images

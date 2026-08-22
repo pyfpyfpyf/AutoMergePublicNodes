@@ -1,19 +1,22 @@
 proxies:
 - name: 1|GB - zhuhai.uk
-  port: 9443
-  server: 37.120.233.34
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8080
+  server: 138.124.0.168
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: hopp-legend-se.roxa.org
+  type: hysteria2
 - name: 1|GB - zhuhai.uk 02
-  password: a95e9198-0671-11f0-9426-f23c932f2c32
-  port: 443
-  server: 6d74a01e-thrgg0-thri9q-azvy.cldvpuk.cdnbytescm.com
-  skip-cert-verify: true
-  sni: 6d74a01e-thrgg0-thri9q-azvy.cldvpuk.cdnbytescm.com
-  tls: true
-  type: http
-  username: a95e9198-0671-11f0-9426-f23c932f2c32
+  network: ws
+  port: 80
+  server: mtn.v2plus.ovh
+  type: vless
+  udp: true
+  uuid: 4ee7a384-4312-4dcb-8043-2ae51a15252d
+  ws-opts:
+    headers:
+      Host: worker3.wateci1156.workers.dev
+    path: /yEehdR6POSWwzRXP
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|GB - zhuhai.uk 01
