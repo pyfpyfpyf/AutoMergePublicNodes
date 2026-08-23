@@ -1,31 +1,21 @@
 proxies:
 - name: 1|JP - zhuhai.uk
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 47427
-  server: jp01.duotg.top
-  skip-cert-verify: true
+  port: 10808
+  server: 101.36.104.239
+  type: socks5
+- name: 1|JP - zhuhai.uk 02
+  port: 443
+  server: fan.571589.xyz
+  sni: fan.571589.xyz
+  tls: true
+  type: http
+- name: 1|JP - zhuhai.uk 03
+  password: 752a9aac-91a7-4284-9d6e-234efae318b6
+  port: 17962
+  server: jjz.jjznodenode.top
+  sni: jjz.jjznodenode.top
   type: anytls
   udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|JP - zhuhai.uk 02
-  port: 53113
-  reality-opts:
-    public-key: BdFiTcTZt1oIRD_Q04KnxPjs_1cZFqjV-sbVGP49PVY
-    short-id: 238ba3b9e8
-  server: jpaws.ccwink.photos
-  servername: docs.aws.amazon.com
-  tls: true
-  type: vless
-  uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1
-- name: 1|JP - zhuhai.uk 03
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 49731
-  server: dd1d1.catcat321.com
-  skip-cert-verify: true
-  sni: d.jpj2.cat.bilibili.com
-  tls: true
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 1|JP - zhuhai.uk 04
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
