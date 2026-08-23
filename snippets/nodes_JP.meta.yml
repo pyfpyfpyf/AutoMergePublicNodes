@@ -1,24 +1,34 @@
 proxies:
-- name: 1|JP - zhuhai.uk
-  port: 10808
-  server: 101.36.104.239
-  type: socks5
+- cipher: chacha20-ietf-poly1305
+  name: 1|JP - zhuhai.uk
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21119
+  server: 211.91.158.26
+  type: ss
 - name: 1|JP - zhuhai.uk 02
+  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
+  port: 47427
+  server: jp01.duotg.top
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- name: 1|JP - zhuhai.uk 03
+  password: b4c65d3711d27d46f32263f1dd9caf48
+  port: 50160
+  server: 151.145.65.190
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 1|JP - zhuhai.uk 04
   port: 443
   server: fan.571589.xyz
+  skip-cert-verify: true
   sni: fan.571589.xyz
   tls: true
   type: http
-- name: 1|JP - zhuhai.uk 03
-  password: 752a9aac-91a7-4284-9d6e-234efae318b6
-  port: 17962
-  server: jjz.jjznodenode.top
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|JP - zhuhai.uk 04
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21119
-  server: 211.91.158.44
-  type: ss
+- name: 1|JP - zhuhai.uk 05
+  password: '!!str 123456'
+  port: 1080
+  server: 8.209.236.192
+  type: socks5
+  username: '123456'

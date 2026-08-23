@@ -38,10 +38,11 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 0|US_speednode_0133
+- name: 0,1|US - zhuhai.uk 08
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
+  sni: fan.365747.xyz
   tls: true
   type: http
   udp: true
@@ -178,33 +179,71 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
+  password: None
   port: 9002
-  server: 138.199.35.214
+  server: 156.146.59.33
   skip-cert-verify: true
   tls: true
   type: http
+  username: 'null'
 - name: 1|US - zhuhai.uk 02
   password: 'null'
   port: 9002
-  server: 156.146.59.23
+  server: 138.199.35.199
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 03
-  port: 52683
-  server: jp.sofast.live
-  type: vless
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-- name: 1|US - zhuhai.uk 04
+  password: 'null'
   port: 9002
-  server: 138.199.35.205
+  server: 138.199.35.198
   skip-cert-verify: true
-  sni: 138.199.35.205
+  sni: 138.199.35.198
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 05
-  port: 52683
-  server: jp.sofast.live
+  username: 'null'
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 04
+  port: 13779
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  server: 216.36.104.12
+  servername: tesla.com
+  tls: true
   type: vless
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+- name: 1|US - zhuhai.uk 05
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 06
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 07
+  port: 9002
+  server: 156.146.59.4
+  skip-cert-verify: true
+  sni: 156.146.59.4
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 09
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  sni: 138.199.35.218
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 10
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  sni: 138.199.35.203
+  tls: true
+  type: http
