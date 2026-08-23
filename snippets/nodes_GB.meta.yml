@@ -1,19 +1,26 @@
 proxies:
-- name: 1|GB - zhuhai.uk
-  port: 443
-  server: 6d74a01e-thrgg0-thri9q-azvy.cldvpuk.cdnbytescm.com
-  skip-cert-verify: true
-  sni: 6d74a01e-thrgg0-thri9q-azvy.cldvpuk.cdnbytescm.com
-  tls: true
-  type: http
+- name: 1|GB - zhuhai.uk 03
+  network: ws
+  port: 8880
+  server: 50.62.198.50
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime39.workers.dev
+    path: /?ed=2560
 - name: 1|GB - zhuhai.uk 02
-  password: a95e9198-0671-11f0-9426-f23c932f2c32
-  port: 443
-  server: d3ea7b20-ths2o0-ths4hq-azvy.cldvpuk.cdnbytescm.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: a95e9198-0671-11f0-9426-f23c932f2c32
+  network: ws
+  port: 8080
+  server: 172.67.132.85
+  type: vless
+  udp: true
+  uuid: 3a701524-30c8-45f3-8922-d7af5d024af0
+  ws-opts:
+    headers:
+      Host: server14.peekconf.workers.dev
+    path: /eyJqdW5rIjoiWDRPODRLWDd2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iXX0=
 - name: 1|GB - zhuhai.uk 04
   network: ws
   port: 8880
