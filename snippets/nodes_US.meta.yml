@@ -177,51 +177,58 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk
-  port: 2053
-  reality-opts:
-    public-key: Ykqzyu0BsdHJYXLzP5_twyUe9wwcqbHUiRFhG_VFEXs
-    short-id: 2efc3fc4cbd815eb
-  server: 48696.cdn.digitaldashcloud.com
-  servername: images-na.ssl-images-amazon.com
-  tls: true
-  type: vless
-  uuid: f50b4075-dcae-4905-9c3b-bd35e2ead053
-- name: 1|US - zhuhai.uk 02
-  password: 'null'
+- name: 1|US - zhuhai.uk
   port: 9002
-  server: 138.199.35.214
+  server: 138.199.35.200
   skip-cert-verify: true
+  sni: 138.199.35.200
   tls: true
   type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 03
-  port: 443
-  server: fan.596189.xyz
+- name: 1|US - zhuhai.uk 02
+  port: 9002
+  server: 138.199.35.220
   skip-cert-verify: true
+  sni: 138.199.35.220
   tls: true
   type: http
 - client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 04
-  port: 13779
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 03
+  port: 25395
   reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: af1bdd293097b664
-  server: 216.36.104.12
-  servername: tesla.com
+    public-key: fn4-XMwPlbt1-nxhBkDWQlc9bQSXAFLxRnuSa_Bq8yI
+    short-id: ea9aa464
+  server: inbound.sled019fd6eb-369f.rfsconfig.com
+  servername: k0g3h.biliimg.com
   tls: true
   type: vless
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-- name: 1|US - zhuhai.uk 05
-  password: 'null'
-  port: 443
-  server: 38.28.193.188
+  uuid: c0460ba7-a0a3-44f9-9913-a46a43c4601c
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 09
+  network: tcp
+  port: 995
+  reality-opts:
+    public-key: 6LSBBaOUWujvSovACjcP7m-DI9u9R584qdJxNYnu-24
+    short-id: 93e1b426caffbf75
+  server: 2.27.57.154
+  servername: ubuntu.com
   skip-cert-verify: true
   tls: true
-  type: http
-  username: 'null'
+  type: vless
+  udp: true
+  uuid: 0a11d3b4-682c-4bfb-afb0-820b8285cb4b
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 05
+  network: tcp
+  port: 443
+  server: 64.49.13.198
+  servername: wok10.api3-max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 1|US - zhuhai.uk 06
@@ -255,18 +262,3 @@ proxies:
   type: vless
   udp: true
   uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 09
-  network: tcp
-  port: 995
-  reality-opts:
-    public-key: 6LSBBaOUWujvSovACjcP7m-DI9u9R584qdJxNYnu-24
-    short-id: 93e1b426caffbf75
-  server: 2.27.57.154
-  servername: ubuntu.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0a11d3b4-682c-4bfb-afb0-820b8285cb4b
