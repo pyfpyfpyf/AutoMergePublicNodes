@@ -178,34 +178,17 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  port: 9002
-  server: 156.146.59.30
-  skip-cert-verify: true
-  sni: 156.146.59.30
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 02
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  sni: 138.199.35.201
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 03
-  password: None
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
+  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+  port: 8443
+  server: 82.39.214.95
+  sni: hopp-us.yyuyy.com
+  type: hysteria2
 - client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 04
+  name: 1|US - zhuhai.uk 02
   network: ws
   port: 443
   server: 141.101.122.147
   servername: a.cwvps.eu.org
-  skip-cert-verify: true
   tls: true
   type: vless
   uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
@@ -213,39 +196,55 @@ proxies:
     headers:
       Host: a.cwvps.eu.org
     path: /ws
+- name: 1|US - zhuhai.uk 03
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  sni: 138.199.35.200
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 04
+  port: 9002
+  server: 156.146.59.23
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 1|US - zhuhai.uk 05
-  password: None
   port: 9002
-  server: 156.146.59.16
+  server: 156.146.59.33
   skip-cert-verify: true
-  sni: 156.146.59.16
   tls: true
   type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 06
-  password: 603e192aa740396fcae361bdd146b8c1
-  port: 50160
-  server: 179.255.158.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- name: 1|US - zhuhai.uk 07
   port: 9002
-  server: 156.146.59.36
+  server: 156.146.59.3
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 01
-  network: ws
-  port: 2096
-  server: 172.64.151.254
-  servername: oyue.rainfall0705.cc.cd
+- name: 1|US - zhuhai.uk 07
+  port: 443
+  server: fan.226278.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 08
+  port: 443
+  server: 38.28.193.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 09
+  network: tcp
+  port: 995
+  reality-opts:
+    public-key: 6LSBBaOUWujvSovACjcP7m-DI9u9R584qdJxNYnu-24
+    short-id: 93e1b426caffbf75
+  server: 2.27.57.154
+  servername: ubuntu.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 341832cc-ba98-425b-8225-b3db621a0da3
-  ws-opts:
-    headers:
-      Host: oyue.rainfall0705.cc.cd
-    path: /
+  uuid: 0a11d3b4-682c-4bfb-afb0-820b8285cb4b

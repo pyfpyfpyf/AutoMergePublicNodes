@@ -1,18 +1,26 @@
 proxies:
-- name: 1|HK - zhuhai.uk
-  password: admin
-  port: 1080
-  server: 47.239.116.165
-  type: socks5
-  username: admin
+- cipher: aes-256-gcm
+  name: 1|HK - zhuhai.uk
+  password: Butterfly123@qwe9527
+  port: 10006
+  server: 36.33.35.105
+  type: ss
+- name: 1|HK - zhuhai.uk 02
+  password: GWgpVE
+  port: 7008
+  server: api.meituan88.com
+  skip-cert-verify: true
+  sni: globalnetworktraffic.com
+  type: anytls
+  udp: true
 - name: 1|HK - zhuhai.uk 01
   network: ws
-  port: 80
-  server: 104.25.248.247
+  port: 8880
+  server: 104.17.191.15
   type: vless
   udp: true
-  uuid: b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d
+  uuid: 80cead8e-0d28-4b0a-bacd-8005471a5c39
   ws-opts:
     headers:
-      Host: cfnew.schzyc.cc.cd
-    path: /
+      Host: flat-fire-40ed.96-042.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
