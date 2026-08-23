@@ -1,27 +1,16 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 1|SG - zhuhai.uk
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21121
-  server: 211.91.158.44
-  type: ss
+- name: 1|SG - zhuhai.uk
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 19160
+  server: rrr2.tube-cat.com
+  skip-cert-verify: true
+  sni: r.sg6.cat.bilibili.com
+  tls: true
+  type: trojan
 - name: 1|SG - zhuhai.uk 02
-  password: 2544ad8a388f1b7e6d1c878f5a7d121c
+  password: 0742bdc33427533deea4903d4ae27533
   port: 50160
-  server: 213.35.114.141
+  server: 20.24.150.10
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|SG - zhuhai.uk 03
-  port: 443
-  reality-opts:
-    public-key: kxuW6rJkcKU88l_sgqezrcMFEy4yofrgouBoKufWASs
-    short-id: 2fadfe9a357ec21e
-  server: 66.42.62.84
-  servername: www.apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 389e0591-86d6-408f-bf24-18f611a0c94b
