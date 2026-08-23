@@ -1,15 +1,16 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|GB - zhuhai.uk
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 45.131.212.41
-  servername: gb.sellflow.org
+- name: 1|GB - zhuhai.uk
+  port: 1080
+  server: 212.58.132.5
+  type: socks5
+- name: 1|GB - zhuhai.uk 02
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20022
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
   tls: true
-  type: vless
-  uuid: 5322390f-20ee-49e4-9b38-51fc1b5a1758
+  type: trojan
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 1|GB - zhuhai.uk 03
@@ -40,17 +41,6 @@ proxies:
   type: vless
   udp: true
   uuid: 4c44adcd-d4ff-48fc-a35d-8c882381a9ef
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|GB - zhuhai.uk 02
-  network: tcp
-  port: 443
-  server: 217.179.6.228
-  servername: lapa6.api3-max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 1|GB - zhuhai.uk 01
