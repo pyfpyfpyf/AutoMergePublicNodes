@@ -25,7 +25,7 @@ proxies:
   username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|US_speednode_0132
+  name: 0,1|US - zhuhai.uk
   network: tcp
   port: 11094
   reality-opts:
@@ -155,7 +155,7 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 0|US_speednode_0143
+- name: 0,1|US - zhuhai.uk 03
   port: 9002
   server: 138.199.35.198
   skip-cert-verify: true
@@ -177,69 +177,72 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- name: 1|US - zhuhai.uk
-  password: None
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  sni: 138.199.35.200
-  tls: true
-  type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 02
+  password: 099830134df5ac3a04a4b21d39b8c395
+  port: 50160
+  server: 163.192.14.135
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 04
+  port: 13779
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  server: 69.63.193.78
+  servername: tesla.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+- name: 1|US - zhuhai.uk 05
   port: 9002
   server: 156.146.59.38
   skip-cert-verify: true
   sni: 156.146.59.38
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 03
-  port: 52683
-  server: jp.sofast.live
-  type: vless
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-- name: 1|US - zhuhai.uk 04
+- name: 1|US - zhuhai.uk 06
   network: ws
-  port: 80
-  server: 172.66.138.120
+  port: 8880
+  server: log.bpminecraft.com
   type: vless
-  uuid: b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d
+  uuid: 828aa918-2ed3-4541-8519-083f9efeaaf7
   ws-opts:
     headers:
-      Host: cfnew.schzyc.cc.cd
-    path: /
-- name: 1|US - zhuhai.uk 05
+      Host: icy-hall-bfba.266-f4e.workers.dev
+    path: /pyip=proxyip.us.cmliussss.net
+- name: 1|US - zhuhai.uk 07
+  password: None
+  port: 9002
+  server: 156.146.59.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 08
+  port: 443
+  server: mmgr.club
+  sni: mmgr.club
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 09
+  password: 'null'
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 10
   port: 9002
   server: 156.146.59.34
   skip-cert-verify: true
+  sni: 156.146.59.34
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 06
-  port: 9002
-  server: 156.146.59.21
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 07
-  port: 9002
-  server: 156.146.59.32
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 08
-  network: ws
-  port: 2083
-  server: 27.50.48.142
-  servername: chajiatv.de5.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 7014e572-847b-4d56-83ba-0d9af0fcacf4
-  ws-opts:
-    headers:
-      Host: chajiatv.de5.net
-    path: /
 - client-fingerprint: chrome
   name: 1|US - zhuhai.uk 01
   network: ws
