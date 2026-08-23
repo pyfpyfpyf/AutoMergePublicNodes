@@ -179,45 +179,24 @@ proxies:
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
   port: 9002
-  server: 138.199.35.200
+  server: 156.146.59.32
   skip-cert-verify: true
-  sni: 138.199.35.200
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
   port: 9002
-  server: 138.199.35.220
+  server: 138.199.35.207
   skip-cert-verify: true
-  sni: 138.199.35.220
   tls: true
   type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 03
-  port: 25395
-  reality-opts:
-    public-key: fn4-XMwPlbt1-nxhBkDWQlc9bQSXAFLxRnuSa_Bq8yI
-    short-id: ea9aa464
-  server: inbound.sled019fd6eb-369f.rfsconfig.com
-  servername: k0g3h.biliimg.com
-  tls: true
-  type: vless
-  uuid: c0460ba7-a0a3-44f9-9913-a46a43c4601c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 09
-  network: tcp
-  port: 995
-  reality-opts:
-    public-key: 6LSBBaOUWujvSovACjcP7m-DI9u9R584qdJxNYnu-24
-    short-id: 93e1b426caffbf75
-  server: 2.27.57.154
-  servername: ubuntu.com
+- name: 1|US - zhuhai.uk 03
+  password: None
+  port: 9002
+  server: 156.146.59.4
   skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 0a11d3b4-682c-4bfb-afb0-820b8285cb4b
+  type: http
+  username: 'null'
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 1|US - zhuhai.uk 05
@@ -262,3 +241,18 @@ proxies:
   type: vless
   udp: true
   uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 09
+  network: tcp
+  port: 995
+  reality-opts:
+    public-key: 6LSBBaOUWujvSovACjcP7m-DI9u9R584qdJxNYnu-24
+    short-id: 93e1b426caffbf75
+  server: 2.27.57.154
+  servername: ubuntu.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0a11d3b4-682c-4bfb-afb0-820b8285cb4b
