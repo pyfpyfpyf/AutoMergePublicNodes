@@ -1,14 +1,13 @@
 proxies:
-- name: 1|JP - zhuhai.uk 02
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 40124
-  server: jp01.duotg.top
-  skip-cert-verify: true
-  sni: jp01.duotg.top
-  type: anytls
-  udp: true
-- name: 1|JP - zhuhai.uk 03
-  port: 443
-  server: fan.571589.xyz
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk
+  port: 53113
+  reality-opts:
+    public-key: BdFiTcTZt1oIRD_Q04KnxPjs_1cZFqjV-sbVGP49PVY
+    short-id: 238ba3b9e8
+  server: jpaws.ccwink.photos
+  servername: docs.aws.amazon.com
   tls: true
-  type: http
+  type: vless
+  uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1

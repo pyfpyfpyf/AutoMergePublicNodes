@@ -25,7 +25,7 @@ proxies:
   username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,1|US - zhuhai.uk 03
+  name: 0|US_speednode_0132
   network: tcp
   port: 11094
   reality-opts:
@@ -177,35 +177,51 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- client-fingerprint: ios
+- client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 1|US - zhuhai.uk
-  port: 443
+  port: 2053
   reality-opts:
-    public-key: XpaYw0-hwSPxgV8K-WUbEaxbAwxjYVpDkDGOMONwUiA
-    short-id: 79f44f5c
-  server: 134.195.101.129
-  servername: updates.cdn-apple.com
+    public-key: Ykqzyu0BsdHJYXLzP5_twyUe9wwcqbHUiRFhG_VFEXs
+    short-id: 2efc3fc4cbd815eb
+  server: 48696.cdn.digitaldashcloud.com
+  servername: images-na.ssl-images-amazon.com
   tls: true
   type: vless
-  uuid: eb91a7de-0b69-47f6-95fc-4e2283b48be5
+  uuid: f50b4075-dcae-4905-9c3b-bd35e2ead053
 - name: 1|US - zhuhai.uk 02
+  password: 'null'
   port: 9002
-  server: 138.199.35.197
+  server: 138.199.35.214
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 05
-  network: tcp
+  username: 'null'
+- name: 1|US - zhuhai.uk 03
   port: 443
-  server: 64.49.13.198
-  servername: wok10.api3-max.ru
+  server: fan.596189.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 04
+  port: 13779
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  server: 216.36.104.12
+  servername: tesla.com
   tls: true
   type: vless
-  udp: true
-  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+- name: 1|US - zhuhai.uk 05
+  password: 'null'
+  port: 443
+  server: 38.28.193.188
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 1|US - zhuhai.uk 06
