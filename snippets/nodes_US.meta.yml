@@ -14,7 +14,7 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: 0|US_speednode_0131
+- name: 0,1|US - zhuhai.uk
   password: 'null'
   port: 9002
   server: 138.199.35.216
@@ -38,7 +38,7 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 0,1|US - zhuhai.uk
+- name: 0|US_speednode_0133
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
@@ -155,10 +155,11 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 0|US_speednode_0143
+- name: 0,1|US - zhuhai.uk 04
   port: 9002
   server: 138.199.35.198
   skip-cert-verify: true
+  sni: 138.199.35.198
   tls: true
   type: http
   udp: true
@@ -178,85 +179,64 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk 02
-  password: 'null'
   port: 9002
-  server: 156.146.59.38
+  server: 156.146.59.34
   skip-cert-verify: true
-  sni: 156.146.59.38
+  sni: 156.146.59.34
   tls: true
   type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 03
   password: 'null'
   port: 9002
-  server: 156.146.59.28
+  server: 138.199.35.205
   skip-cert-verify: true
-  sni: 156.146.59.28
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 04
+- name: 1|US - zhuhai.uk 05
+  password: 'null'
+  port: 9002
+  server: 156.146.59.41
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 06
   port: 9002
   server: 138.199.35.208
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 05
-  network: tcp
-  port: 443
-  server: 64.49.13.198
-  servername: wok10.api3-max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 06
-  network: tcp
-  port: 443
-  server: 64.49.13.249
-  servername: wok4.api3-max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 08
-  network: tcp
-  port: 443
-  server: wok6.api3-max.ru
-  servername: wok6.api3-max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 07
-  network: tcp
-  port: 443
-  server: wok10.api3-max.ru
-  servername: wok10.api3-max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 09
-  network: tcp
-  port: 995
-  reality-opts:
-    public-key: 6LSBBaOUWujvSovACjcP7m-DI9u9R584qdJxNYnu-24
-    short-id: 93e1b426caffbf75
-  server: 2.27.57.154
-  servername: ubuntu.com
+- name: 1|US - zhuhai.uk 07
+  password: 'null'
+  port: 9002
+  server: 156.146.59.30
   skip-cert-verify: true
   tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 08
+  port: 50159
+  reality-opts:
+    public-key: m4h311FFXc-2_cebf7mfjVxGMGCw7B4ADrRpgMsUxTw
+    short-id: 0fbe8f876366819f
+  server: 154.17.224.207
+  servername: www.cloudflare.com
+  tls: true
   type: vless
-  udp: true
-  uuid: 0a11d3b4-682c-4bfb-afb0-820b8285cb4b
+  uuid: 06431129-68ab-4ed0-adb4-e218715a5cac
+- name: 1|US - zhuhai.uk 09
+  port: 9002
+  server: 156.146.59.8
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 10
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  sni: 138.199.35.204
+  tls: true
+  type: http
