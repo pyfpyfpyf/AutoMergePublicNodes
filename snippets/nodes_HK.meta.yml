@@ -1,17 +1,16 @@
 proxies:
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 1|HK - zhuhai.uk
-  network: ws
-  port: 8443
-  server: 104.26.1.23
-  servername: shanxp.dpdns.org
+  port: 798
+  reality-opts:
+    public-key: czEoNozTky8HvZ2j4Tnkr6c9L-rAhsdoaBvEz1vjAkU
+    short-id: 6aa9279c1fbab9c9
+  server: hk03.ccdn3.work
+  servername: i1.hdslb.com
   tls: true
   type: vless
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
-  ws-opts:
-    headers:
-      Host: shanxp.dpdns.org
-    path: /
+  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
 - name: 1|HK - zhuhai.uk 01
   network: ws
   port: 8880

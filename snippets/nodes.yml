@@ -1,21 +1,33 @@
 proxies:
-- name: 1|US - zhuhai.uk 11
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 41963
-  server: rrr1.tube-cat.com
+- cipher: aes-128-gcm
+  name: 1|PH - zhuhai.uk
+  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
+  port: 10917
+  server: mn.qwer-cn.org
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 1|IN - zhuhai.uk
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21103
+  server: 211.91.158.26
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|GB - zhuhai.uk 02
+  password: amazonskr05
+  port: 443
+  server: 13.135.252.176
+  type: ss
+- name: 1|UA - zhuhai.uk
+  password: 6fbda1e2-85e5-48dc-9fa0-21be0651aa47
+  port: 22226
+  server: gfw.cmcuct.com
   skip-cert-verify: true
-  sni: r.US5.cat.bilibili.com
+  sni: cos.ap-hongkong.myqcloud.com
   tls: true
   type: trojan
-- cipher: aes-256-cfb
-  name: 1|TH - zhuhai.uk
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 103.169.67.34
-  type: ss
-- name: 1|ID - zhuhai.uk
+- name: 1|KR - zhuhai.uk
   password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20056
+  port: 20088
   server: kkvlvvq-a.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
