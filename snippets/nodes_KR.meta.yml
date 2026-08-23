@@ -1,20 +1,21 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- cipher: chacha20-ietf-poly1305
   name: 1|KR - zhuhai.uk
-  port: 12227
-  reality-opts:
-    public-key: TyLCcV_uDkpmiZCEB8sMrUJsUUSXMLv0QbI9II2vXFk
-    short-id: e8
-  server: 3xhk.moomot.cc.cd
-  servername: addons.mozilla.org
-  tls: true
-  type: vless
-  uuid: 10d6e5e9-47ab-4803-9c79-cedaff952a9d
-- name: 1|KR - zhuhai.uk 02
-  password: c86222db9b5784ef6a2c0ab13f6ef658
-  port: 50160
-  server: 168.107.13.220
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21114
+  server: 211.91.158.44
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 1|KR - zhuhai.uk 02
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21107
+  server: 211.91.158.26
+  type: ss
+- name: 1|KR - zhuhai.uk 03
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20001
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+  sni: hk.catxstar.com
+  tls: true
+  type: trojan
