@@ -1,16 +1,26 @@
 proxies:
-- name: 1|JP - zhuhai.uk
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 50033
-  server: jp01.duotg.top
-  skip-cert-verify: true
-  sni: jp01.duotg.top
-  type: anytls
-  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk
+  port: 50159
+  reality-opts:
+    public-key: GBSyMDmBSz4C-brs0GYG6HXNb2CyWANvkBrd8W1GDU0
+    short-id: 6b22ad2202d70547
+  server: 45.66.218.187
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: fdb25e5e-d99a-468c-aa13-0fe9892771b6
 - name: 1|JP - zhuhai.uk 02
-  password: 3e8790e4fb6629aa819217d9655eafa3
+  password: b4c65d3711d27d46f32263f1dd9caf48
   port: 50160
-  server: 140.83.85.233
+  server: 151.145.65.190
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
+- name: 1|JP - zhuhai.uk 03
+  port: 443
+  server: fan.571589.xyz
+  sni: fan.571589.xyz
+  tls: true
+  type: http
