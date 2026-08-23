@@ -178,19 +178,7 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  port: 9002
-  server: 156.146.59.44
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 02
-  port: 9002
-  server: 156.146.59.38
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 03
-  password: 'null'
+  password: None
   port: 9002
   server: 138.199.35.200
   skip-cert-verify: true
@@ -198,54 +186,71 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- cipher: aes-256-gcm
-  name: 1|US - zhuhai.uk 04
-  password: 7w9x5m4kNWNFgKuDXFUxu68x-26wbWwg
-  port: 8388
-  server: 38.64.58.242
-  type: ss
-- name: 1|US - zhuhai.uk 05
-  password: 17aVvwmiSU
-  port: 10929
-  server: do.aigh.store
+- name: 1|US - zhuhai.uk 02
+  port: 9002
+  server: 156.146.59.38
   skip-cert-verify: true
-  sni: do.aigh.store
-  type: hysteria2
+  sni: 156.146.59.38
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 03
+  port: 52683
+  server: jp.sofast.live
+  type: vless
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
+- name: 1|US - zhuhai.uk 04
+  network: ws
+  port: 80
+  server: 172.66.138.120
+  type: vless
+  uuid: b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d
+  ws-opts:
+    headers:
+      Host: cfnew.schzyc.cc.cd
+    path: /
+- name: 1|US - zhuhai.uk 05
+  port: 9002
+  server: 156.146.59.34
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 1|US - zhuhai.uk 06
   port: 9002
-  server: 138.199.35.211
+  server: 156.146.59.21
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 07
-  password: 'null'
   port: 9002
-  server: 138.199.35.195
+  server: 156.146.59.32
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 08
-  password: 'null'
-  port: 443
-  server: 38.28.193.188
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 08
+  network: ws
+  port: 2083
+  server: 27.50.48.142
+  servername: chajiatv.de5.net
   skip-cert-verify: true
   tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 09
-  password: 'null'
-  port: 9002
-  server: 156.146.59.41
-  skip-cert-verify: true
-  sni: 156.146.59.41
+  type: vless
+  uuid: 7014e572-847b-4d56-83ba-0d9af0fcacf4
+  ws-opts:
+    headers:
+      Host: chajiatv.de5.net
+    path: /
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 01
+  network: ws
+  port: 2096
+  server: 172.64.151.254
+  servername: oyue.rainfall0705.cc.cd
   tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 10
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  sni: 138.199.35.197
-  tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 341832cc-ba98-425b-8225-b3db621a0da3
+  ws-opts:
+    headers:
+      Host: oyue.rainfall0705.cc.cd
+    path: /
