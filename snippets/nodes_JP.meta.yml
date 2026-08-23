@@ -1,12 +1,10 @@
 proxies:
 - name: 1|JP - zhuhai.uk
-  password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 50033
-  server: jp01.duotg.top
-  skip-cert-verify: true
-  sni: jp01.duotg.top
-  type: anytls
-  udp: true
+  port: 443
+  server: fan.571589.xyz
+  sni: fan.571589.xyz
+  tls: true
+  type: http
 - name: 1|JP - zhuhai.uk 02
   password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
   port: 24935
@@ -15,11 +13,16 @@ proxies:
   sni: jp01.duotg.top
   type: anytls
   udp: true
-- name: 1|JP - zhuhai.uk 03
+- cipher: aes-256-cfb
+  name: 1|JP - zhuhai.uk 03
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.136
+  type: ss
+- name: 1|JP - zhuhai.uk 04
   password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 28080
+  port: 47427
   server: jp01.duotg.top
   skip-cert-verify: true
-  sni: jp01.duotg.top
   type: anytls
   udp: true
