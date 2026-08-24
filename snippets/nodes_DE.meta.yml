@@ -1,15 +1,13 @@
 proxies:
-- client-fingerprint: chrome
-  name: 1|DE - zhuhai.uk 03
-  network: ws
+- name: 1|DE - zhuhai.uk 02
+  password: e5gqbtu97umt992j
+  port: 9443
+  server: 185.230.44.170
+  sni: 185.230.44.170
+  type: hysteria2
+- name: 1|DE - zhuhai.uk 03
   port: 443
-  server: 199.232.78.159
-  servername: ssl.fastly.com
+  server: 149.36.50.1
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 22fff84b-dd89-489d-bc4c-794f664b92a2
-  ws-opts:
-    headers:
-      Host: 7wwwspeedtestnet.global.ssl.fastly.net
-    path: /
+  type: http
