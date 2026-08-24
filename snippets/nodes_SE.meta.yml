@@ -1,13 +1,7 @@
 proxies:
-- name: 1|SE - zhuhai.uk
-  port: 443
-  server: 149.50.216.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
+- client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 1|SE - zhuhai.uk 02
+  name: 1|SE - zhuhai.uk
   port: 443
   reality-opts:
     public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
@@ -18,3 +12,15 @@ proxies:
   tls: true
   type: vless
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 1|SE - zhuhai.uk 02
+  port: 443
+  reality-opts:
+    public-key: 0DU2XI6J-aVzvYzrKQ7XOI9WPRMOADKTyn2V9E71WA8
+    short-id: b4c513c67294b791
+  server: swe-one.letsgodance.site
+  servername: swe-one.letsgodance.site
+  tls: true
+  type: vless
+  uuid: 5d36ddf8-dde5-4b2d-8213-d3255f22a0f1
