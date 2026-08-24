@@ -1,13 +1,17 @@
 proxies:
-- name: 1|KR - zhuhai.uk
-  port: 1080
-  server: 43.164.136.189
-  type: socks5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|KR - zhuhai.uk
+  port: 39350
+  reality-opts:
+    public-key: tpAOObIN_rvQ0jv80_IWOnqN4DcLgMWn3nqZV-SeWBo
+    short-id: 6de2f7993095
+  server: us.moomot.cc.cd
+  servername: addons.mozilla.org
+  tls: true
+  type: vless
+  uuid: 7e0032cc-041a-4782-9235-4d980294a6d3
 - name: 1|KR - zhuhai.uk 02
-  password: 5b2012ba-d040-4281-b92c-4f005badd179
-  port: 7000
-  server: akr1.jueduibupao.top
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: anytls
-  udp: true
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
