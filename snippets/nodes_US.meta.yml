@@ -25,7 +25,7 @@ proxies:
   username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,1|US - zhuhai.uk 09
+  name: 0|US_speednode_0132
   network: tcp
   port: 11094
   reality-opts:
@@ -178,63 +178,85 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  password: 'null'
   port: 9002
-  server: 156.146.59.12
+  server: 156.146.59.17
   skip-cert-verify: true
-  sni: 156.146.59.12
   tls: true
   type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 02
-  password: 569354367bdf7f34d31bbf33760bf314
-  port: 50160
-  server: 166.0.16.52
+  port: 9002
+  server: 156.146.59.33
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+  tls: true
+  type: http
 - name: 1|US - zhuhai.uk 03
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 04
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  sni: 138.199.35.200
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 05
+  password: None
   port: 9002
   server: 138.199.35.197
   skip-cert-verify: true
   sni: 138.199.35.197
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 04
-  password: 'null'
-  port: 9002
-  server: 156.146.59.44
+  username: 'null'
+- name: 1|US - zhuhai.uk 06
+  port: 443
+  server: fan.226278.xyz
   skip-cert-verify: true
-  sni: 156.146.59.44
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 07
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20011
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: true
+  type: trojan
+- name: 1|US - zhuhai.uk 08
+  port: 9002
+  server: 156.146.59.7
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 09
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 10
+  password: None
+  port: 9002
+  server: 156.146.59.19
+  skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 05
-  network: ws
-  port: 80
-  server: 172.66.138.120
-  type: vless
-  uuid: b4f25b41-cc8e-49eb-bdb8-83dd8c7e542d
-  ws-opts:
-    headers:
-      Host: cfnew.schzyc.cc.cd
-    path: /
-- name: 1|US - zhuhai.uk 06
-  port: 52683
-  server: jp.sofast.live
-  type: vless
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 08
-  network: ws
+- name: 1|US - zhuhai.uk 11
   port: 443
-  server: sjzhehzs-production.up.railway.app
-  servername: sjzhehzs-production.up.railway.app
+  server: tzoa.fun
+  skip-cert-verify: true
+  sni: tzoa.fun
   tls: true
-  type: vless
-  udp: true
-  uuid: 5331798d-827a-47b2-8a00-d62db5077812
-  ws-opts:
-    headers:
-      Host: sjzhehzs-production.up.railway.app
-    path: /ws/5331798d-827a-47b2-8a00-d62db5077812
+  type: http
+- name: 1|US - zhuhai.uk 12
+  password: 'null'
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
