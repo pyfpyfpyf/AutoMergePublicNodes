@@ -1,14 +1,32 @@
 proxies:
-- name: 1|IN - zhuhai.uk
+- alterId: 0
+  cipher: auto
+  name: 1|JP - zhuhai.uk
+  network: ws
+  port: 11972
+  server: 120.240.142.21
+  type: vmess
+  uuid: d19c5396-aef2-b508-3abb-e9f93c8b0cfc
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /8adff421-9461-c795-7fb6-226142b8e194
+- cipher: aes-256-cfb
+  name: 1|KR - zhuhai.uk
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
+  type: ss
+- name: 1|TH - zhuhai.uk
   password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20034
+  port: 20006
   server: kkvlvvq-a.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   tls: true
   type: trojan
 - cipher: aes-256-cfb
-  name: 1|TH - zhuhai.uk
+  name: 1|TH - zhuhai.uk 02
   password: 7eadc6dbe2ae
   port: 65443
   server: 103.169.67.34

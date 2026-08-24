@@ -1,11 +1,27 @@
 proxies:
-- name: 1|JP - zhuhai.uk
-  port: 10808
-  server: 101.36.104.239
-  type: socks5
+- alterId: 0
+  cipher: auto
+  name: 1|JP - zhuhai.uk
+  network: ws
+  port: 11972
+  server: 120.240.142.21
+  type: vmess
+  uuid: d19c5396-aef2-b508-3abb-e9f93c8b0cfc
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /8adff421-9461-c795-7fb6-226142b8e194
 - name: 1|JP - zhuhai.uk 02
-  password: '!!str 123456'
-  port: 1080
-  server: 8.209.236.192
-  type: socks5
-  username: '123456'
+  password: 9c5be37406b6584005b8de0ee3734dd9
+  port: 50160
+  server: 140.238.43.0
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 1|JP - zhuhai.uk 03
+  password: 3e8790e4fb6629aa819217d9655eafa3
+  port: 50160
+  server: 140.83.85.233
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
