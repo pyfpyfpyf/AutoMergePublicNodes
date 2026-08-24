@@ -179,46 +179,48 @@ proxies:
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
   port: 9002
-  server: 138.199.35.214
+  server: 138.199.35.210
   skip-cert-verify: true
-  sni: 138.199.35.214
+  sni: 138.199.35.210
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
-  password: 'null'
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  sni: 138.199.35.201
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 03
   port: 9002
   server: 138.199.35.206
   skip-cert-verify: true
   sni: 138.199.35.206
   tls: true
   type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 03
-  password: 'null'
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  sni: 138.199.35.214
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 04
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 107.151.238.27
-  sni: 6b97ee1b.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
 - cipher: aes-256-gcm
-  name: 1|US - zhuhai.uk 05
+  name: 1|US - zhuhai.uk 04
   password: Butterfly123@qwe9527
-  port: 50003
+  port: 50001
   server: 103.236.66.4
   type: ss
+- name: 1|US - zhuhai.uk 05
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  sni: 138.199.35.207
+  tls: true
+  type: http
 - name: 1|US - zhuhai.uk 06
   port: 9002
-  server: 138.199.35.197
+  server: 138.199.35.217
+  skip-cert-verify: true
+  sni: 138.199.35.217
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 07
+  port: 9002
+  server: 138.199.35.212
   skip-cert-verify: true
   tls: true
   type: http
