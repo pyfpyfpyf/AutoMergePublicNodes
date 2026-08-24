@@ -1,7 +1,20 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 1|HK - zhuhai.uk
-  password: 3b970540-cdc4-43b4-ade2-3983c78afb48
-  port: 16098
-  server: ss.018.node-for-bigairport.win
-  type: ss
+- name: 1|HK - zhuhai.uk
+  port: 443
+  server: hk40.240104.xyz
+  sni: hk40.240104.xyz
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: 1|HK - zhuhai.uk 02
+  network: ws
+  port: 2083
+  server: 104.26.10.183
+  servername: shanxp.dpdns.org
+  tls: true
+  type: vless
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  ws-opts:
+    headers:
+      Host: shanxp.dpdns.org
+    path: /
