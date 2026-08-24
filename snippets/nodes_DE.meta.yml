@@ -1,21 +1,15 @@
 proxies:
-- name: 1|DE - zhuhai.uk 02
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  sni: 87.249.132.97
-  tls: true
-  type: http
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk 01
-  network: tcp
+  name: 1|DE - zhuhai.uk 03
+  network: ws
   port: 443
-  reality-opts:
-    public-key: gydLdekl4sNcE2j7vueKJJhpYWTBxlGs_VQ6-ZH55iQ
-  server: 31.76.119.198
-  servername: www.akamai.com
+  server: 199.232.78.159
+  servername: ssl.fastly.com
   tls: true
   type: vless
   udp: true
-  uuid: 45c595fa-988f-11f1-8024-54db13ea7d40
+  uuid: 22fff84b-dd89-489d-bc4c-794f664b92a2
+  ws-opts:
+    headers:
+      Host: 7wwwspeedtestnet.global.ssl.fastly.net
+    path: /

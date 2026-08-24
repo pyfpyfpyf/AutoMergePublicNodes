@@ -1,14 +1,25 @@
 proxies:
 - name: 1|RU - zhuhai.uk
   network: ws
-  port: 14443
-  server: mws.tunnelgate.org
-  servername: mws.tunnelgate.org
-  skip-cert-verify: true
-  tls: true
+  port: 4100
+  server: 81.200.144.27
   type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  uuid: f0528a17-863f-4160-a5a0-0d9ad03f2ee7
   ws-opts:
     headers:
-      Host: mws.tunnelgate.org
-    path: /ru
+      Host: live.ok.ru
+    path: /v1
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|RU - zhuhai.uk 02
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: L5qLDM9pWlBV6gU9yCT4_yc7jz982FiLi2CZWLo3Ki0
+    short-id: dcbf3f13ce2dbe37
+  server: 46.8.41.42
+  servername: uk1.panel11.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9aff0732-7ce4-4b34-ba20-e67c6df64fdd

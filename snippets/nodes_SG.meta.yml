@@ -1,19 +1,20 @@
 proxies:
-- name: 1|SG - zhuhai.uk
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk
+  port: 443
+  reality-opts:
+    public-key: kxuW6rJkcKU88l_sgqezrcMFEy4yofrgouBoKufWASs
+    short-id: 2fadfe9a357ec21e
+  server: 66.42.62.84
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 389e0591-86d6-408f-bf24-18f611a0c94b
+- name: 1|SG - zhuhai.uk 02
   password: 023c40e3394dd2c2f1b5d12556db2a6f
   port: 50160
   server: 38.180.190.215
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- client-fingerprint: chrome
-  name: 1|SG - zhuhai.uk 02
-  port: 13779
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: af1bdd293097b664
-  server: 166.108.235.162
-  servername: tesla.com
-  tls: true
-  type: vless
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0

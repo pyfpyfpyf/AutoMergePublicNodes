@@ -14,7 +14,7 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: 0|US_speednode_0131
+- name: 0,1|US - zhuhai.uk 05
   password: 'null'
   port: 9002
   server: 138.199.35.216
@@ -25,7 +25,7 @@ proxies:
   username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|US_speednode_0132
+  name: 0,1|US - zhuhai.uk 09
   network: tcp
   port: 11094
   reality-opts:
@@ -178,88 +178,57 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  port: 9002
-  server: 156.146.59.49
+  password: 57ec0f01-0c00-4a69-ad67-937b4735640b
+  port: 35193
+  server: 40t2.wxgqlfx.vip
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: 40t2.wxgqlfx.vip
+  type: hysteria2
 - name: 1|US - zhuhai.uk 02
   password: 'null'
   port: 9002
-  server: 156.146.59.41
+  server: 156.146.59.15
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 03
-  port: 9002
-  server: 156.146.59.41
-  skip-cert-verify: true
-  sni: 156.146.59.41
-  tls: true
-  type: http
+  network: ws
+  port: 8880
+  server: www.visa.com.sg
+  type: vless
+  uuid: d8235de7-84c7-4454-b333-4d854c393929
+  ws-opts:
+    headers:
+      Host: fragrant-butterfly-3e76.387.workers.dev
+    path: /pyip=ProxyIP.US.CMLiussss.net
 - name: 1|US - zhuhai.uk 04
-  password: 'null'
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  sni: 138.199.35.218
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 156.146.59.29
-  skip-cert-verify: true
-  sni: 156.146.59.29
-  tls: true
-  type: http
+  port: 58011
+  server: us22.sofast.live
+  type: vless
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
 - name: 1|US - zhuhai.uk 06
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  sni: 138.199.35.201
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 07
-  password: None
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 08
-  port: 9002
-  server: 156.146.59.5
-  skip-cert-verify: true
-  sni: 156.146.59.5
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 09
-  password: 'null'
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  sni: 138.199.35.212
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 10
   port: 443
-  server: fan.226278.xyz
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 11
-  port: 9002
-  server: 156.146.59.21
+  server: fan.596189.xyz
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 12
-  port: 9002
-  server: 156.146.59.16
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 07
+  port: 13779
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  server: 216.36.104.12
+  servername: tesla.com
   skip-cert-verify: true
-  sni: 156.146.59.16
+  tls: true
+  type: vless
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+- name: 1|US - zhuhai.uk 08
+  port: 443
+  server: jewelscollecti.icu
+  skip-cert-verify: true
+  sni: jewelscollecti.icu
   tls: true
   type: http

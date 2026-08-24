@@ -1,23 +1,29 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 1|JP - zhuhai.uk
-  password: 3b970540-cdc4-43b4-ade2-3983c78afb48
-  port: 20001
-  server: ss.033.node-for-bigairport.win
-  type: ss
+- name: 1|JP - zhuhai.uk 03
+  port: 443
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  sni: fan.571589.xyz
+  tls: true
+  type: http
 - name: 1|JP - zhuhai.uk 02
   password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
-  port: 24935
+  port: 28080
   server: jp01.duotg.top
   skip-cert-verify: true
-  sni: jp01.duotg.top
+  sni: www.microsoft.com
   type: anytls
   udp: true
-- name: 1|JP - zhuhai.uk 03
+- cipher: chacha20-ietf-poly1305
+  name: 1|JP - zhuhai.uk 04
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21119
+  server: 211.91.158.26
+  type: ss
+- name: 1|JP - zhuhai.uk 05
   password: 02cd3bac-2a78-4dbb-82b9-6b64084ddd8e
   port: 47427
   server: jp01.duotg.top
   skip-cert-verify: true
-  sni: jp01.duotg.top
   type: anytls
   udp: true
