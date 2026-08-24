@@ -25,7 +25,7 @@ proxies:
   username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,1|US - zhuhai.uk 09
+  name: 0|US_speednode_0132
   network: tcp
   port: 11094
   reality-opts:
@@ -126,13 +126,14 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
-- name: 0|US_speednode_0140
+- name: 0,1|US - zhuhai.uk 08
   password: None
   port: 443
   server: purposebydesig.club
   tls: true
   type: http
   udp: true
+  username: 'null'
 - name: 0|US_speednode_0141
   port: 443
   server: 38.28.193.188
@@ -177,56 +178,62 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- name: 1|US - zhuhai.uk
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 1|US - zhuhai.uk 02
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  sni: 138.199.35.206
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 03
+  password: 'null'
   port: 9002
   server: 138.199.35.196
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 04
-  password: None
-  port: 9002
-  server: 156.146.59.50
-  skip-cert-verify: true
-  sni: 156.146.59.50
+  sni: 138.199.35.196
   tls: true
   type: http
   username: 'null'
-- cipher: aes-256-gcm
-  name: 1|US - zhuhai.uk 05
-  password: Butterfly123@qwe9527
-  port: 50001
-  server: 103.236.66.4
-  type: ss
+- name: 1|US - zhuhai.uk 03
+  password: 'null'
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 04
+  password: 'null'
+  port: 9002
+  server: 156.146.59.33
+  skip-cert-verify: true
+  sni: 156.146.59.33
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 05
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  sni: 138.199.35.207
+  tls: true
+  type: http
 - name: 1|US - zhuhai.uk 06
-  port: 58011
-  server: us22.sofast.live
-  type: vless
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+  password: None
+  port: 9002
+  server: 156.146.59.41
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 07
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 08
-  network: ws
-  port: 443
-  server: sjzhehzs-production.up.railway.app
-  servername: sjzhehzs-production.up.railway.app
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 09
+  port: 731
+  reality-opts:
+    public-key: kB-IqOFgh-UEjAp1CKDXd9XTKuNvRTZuAjIw59Ifv1A
+    short-id: 05632940c93c9314
+  server: hk04.ccdn3.work
+  servername: i1.hdslb.com
   tls: true
   type: vless
-  udp: true
-  uuid: 5331798d-827a-47b2-8a00-d62db5077812
-  ws-opts:
-    headers:
-      Host: sjzhehzs-production.up.railway.app
-    path: /ws/5331798d-827a-47b2-8a00-d62db5077812
+  uuid: d5e77b10-7374-11eb-b739-9160314e12e6
