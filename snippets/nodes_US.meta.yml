@@ -177,58 +177,73 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- name: 1|US - zhuhai.uk
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: edge.sync.v1
+  name: 1|US - zhuhai.uk
+  network: grpc
   port: 443
-  server: fan.226278.xyz
-  sni: fan.226278.xyz
+  server: usab.mythos-wargame.fun
+  servername: usab.mythos-wargame.fun
   tls: true
-  type: http
+  type: vless
+  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
 - name: 1|US - zhuhai.uk 02
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 03
   password: None
   port: 9002
-  server: 138.199.35.200
+  server: 138.199.35.198
   skip-cert-verify: true
+  sni: 138.199.35.198
   tls: true
   type: http
   username: 'null'
+- name: 1|US - zhuhai.uk 03
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  sni: 138.199.35.201
+  tls: true
+  type: http
 - name: 1|US - zhuhai.uk 04
   port: 9002
-  server: 138.199.35.212
+  server: 138.199.35.210
   skip-cert-verify: true
+  sni: 138.199.35.210
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 05
-  port: 443
-  server: fan.596189.xyz
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 06
-  password: None
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 07
-  password: None
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 08
   password: 'null'
-  port: 9002
-  server: 138.199.35.202
+  port: 443
+  server: 38.28.193.188
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 07
+  network: ws
+  port: 8443
+  server: 192.204.58.167
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 01
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 185.24.151.236
+  servername: ai.jobinvest.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8ff82100-8aad-4281-bf41-f318519d7182
