@@ -177,45 +177,37 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: edge.sync.v1
-  name: 1|US - zhuhai.uk
-  network: grpc
-  port: 443
-  server: usab.mythos-wargame.fun
-  servername: usab.mythos-wargame.fun
-  tls: true
-  type: vless
-  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
-- name: 1|US - zhuhai.uk 02
-  password: None
+- name: 1|US - zhuhai.uk 05
   port: 9002
-  server: 138.199.35.198
+  server: 138.199.35.218
   skip-cert-verify: true
-  sni: 138.199.35.198
+  sni: 138.199.35.218
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 02
+  network: ws
+  port: 10444
+  server: 45.86.245.225
+  type: vless
+  uuid: 4005ddae-29bb-431e-a212-7737316d08ea
+  ws-opts:
+    headers:
+      Host: vpnpolar.online
+    path: /beeline
+- name: 1|US - zhuhai.uk 03
+  password: 'null'
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 03
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  sni: 138.199.35.201
-  tls: true
-  type: http
 - name: 1|US - zhuhai.uk 04
+  password: None
   port: 9002
-  server: 138.199.35.210
+  server: 138.199.35.209
   skip-cert-verify: true
-  sni: 138.199.35.210
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 05
-  password: 'null'
-  port: 443
-  server: 38.28.193.188
-  skip-cert-verify: true
+  sni: 138.199.35.209
   tls: true
   type: http
   username: 'null'
