@@ -1,1 +1,19 @@
-proxies: []
+proxies:
+- name: 1|FR - zhuhai.uk
+  password: kakashka13222
+  port: 1105
+  server: 194.9.172.236
+  skip-cert-verify: true
+  sni: 194.9.172.236
+  tls: true
+  type: trojan
+- name: 1|FR - zhuhai.uk 02
+  network: ws
+  port: 10444
+  server: 94.228.168.18
+  type: vless
+  uuid: 4005ddae-29bb-431e-a212-7737316d08ea
+  ws-opts:
+    headers:
+      Host: vpnpolar.online
+    path: /beeline
