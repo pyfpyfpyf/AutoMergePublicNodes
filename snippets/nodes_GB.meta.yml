@@ -1,25 +1,30 @@
 proxies:
-- name: 1|GB - zhuhai.uk
-  password: a95e9198-0671-11f0-9426-f23c932f2c32
+- client-fingerprint: qq
+  grpc-opts:
+    grpc-service-name: edge.sync.v1
+  name: 1|GB - zhuhai.uk 02
+  network: grpc
   port: 443
-  server: c0a5bcb4-thtxc0-ths4hq-azvy.cldvpuk.cdnbytescm.com
-  sni: c0a5bcb4-thtxc0-ths4hq-azvy.cldvpuk.cdnbytescm.com
+  server: fla.mythos-wargame.fun
+  servername: fla.mythos-wargame.fun
   tls: true
-  type: http
-  username: a95e9198-0671-11f0-9426-f23c932f2c32
-- name: 1|GB - zhuhai.uk 02
+  type: vless
+  udp: true
+  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: 1|GB - zhuhai.uk 03
+  network: grpc
   port: 443
-  server: 185.235.0.66
-  skip-cert-verify: true
+  reality-opts:
+    public-key: eNvO4-6_VFngHHC6D5AhcCpCpOdi5gY7-Srimhh-6Xw
+  server: 104.171.128.225
+  servername: dl.google.com
   tls: true
-  type: http
-- name: 1|GB - zhuhai.uk 03
-  password: a95e9198-0671-11f0-9426-f23c932f2c32
-  port: 443
-  server: 5c78e09e-thxmo0-tjdj5q-azvy.cldvpuk.cdnbytescm.com
-  tls: true
-  type: http
-  username: a95e9198-0671-11f0-9426-f23c932f2c32
+  type: vless
+  udp: true
+  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
 - client-fingerprint: safari
   grpc-opts:
     grpc-service-name: grpc-tunnel
