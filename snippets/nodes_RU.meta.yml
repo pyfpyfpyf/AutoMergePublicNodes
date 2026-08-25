@@ -1,11 +1,21 @@
 proxies:
-- name: 1|RU - zhuhai.uk
-  network: ws
-  port: 4100
-  server: 81.200.144.27
+- grpc-opts:
+    grpc-service-name: zuugrpc
+  name: 1|RU - zhuhai.uk 02
+  network: grpc
+  port: 27700
+  server: 46.149.66.9
   type: vless
-  uuid: f0528a17-863f-4160-a5a0-0d9ad03f2ee7
-  ws-opts:
-    headers:
-      Host: live.ok.ru
-    path: /v1
+  udp: true
+  uuid: 9e09f1ce-45d4-466d-b077-81b0dae00db2
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 1|RU - zhuhai.uk 01
+  network: tcp
+  port: 8443
+  server: 185.147.27.165
+  servername: user-6a8c51f9.noooo.win
+  tls: true
+  type: vless
+  udp: true
+  uuid: f230254f-d4cd-4d83-8a2d-e83927ef98ac
