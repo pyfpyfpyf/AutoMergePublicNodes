@@ -1,4 +1,10 @@
 proxies:
+- name: 1|JP - zhuhai.uk
+  port: 443
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 1|JP - zhuhai.uk 02
   password: 'null'
   port: 443
@@ -8,14 +14,6 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 1|JP - zhuhai.uk 03
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 12791
-  server: jpglobal-identity-federation-auth.younai-ytl.shop
-  skip-cert-verify: true
-  sni: jp10.pulsarcore.site
-  type: anytls
-  udp: true
 - client-fingerprint: chrome
   name: 1|JP - zhuhai.uk 01
   network: ws

@@ -1,45 +1,48 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk
+- name: 1|DE - zhuhai.uk
   port: 443
-  reality-opts:
-    public-key: YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU
-    short-id: 2186a755ed67b034
-  server: 31.76.5.26
-  servername: nordic.cendora.ru
+  server: 185.44.107.166
   skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk 05
-  port: 13443
-  reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: a7f3c91b2e6d84c0
-  server: 31.76.5.26
-  servername: auto.cendora.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: 1|DE - zhuhai.uk 03
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
-  port: 443
-  server: de1.sferavpn.pro
-  sni: de1.sferavpn.pro
-  type: hysteria2
-- name: 1|DE - zhuhai.uk 04
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  sni: 87.249.132.97
+  sni: 185.44.107.166
   tls: true
   type: http
+- name: 1|DE - zhuhai.uk 02
+  obfs: salamander
+  obfs-password: Xydh1mcz51VQHbbJ
+  password: 585b7bfe-6269-4149-ae22-ff07c57b5510
+  port: 443
+  server: 157.228.137.81
+  skip-cert-verify: true
+  sni: msk2.nebuchadnezzar.ink
+  type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|AT - zhuhai.uk 01
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 185.24.151.243
+  servername: de.jobinvest.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8ff82100-8aad-4281-bf41-f318519d7182
+- client-fingerprint: chrome
+  name: 1|DE - zhuhai.uk 04
+  network: ws
+  port: 8443
+  server: 95.181.175.209
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
 - client-fingerprint: chrome
   name: 1|DE - zhuhai.uk 07
   network: ws
@@ -81,6 +84,20 @@ proxies:
   ws-opts:
     headers:
       Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- client-fingerprint: chrome
+  name: 1|DE - zhuhai.uk 03
+  network: ws
+  port: 443
+  server: 185.255.93.189
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
     path: /pg/10086-dfc816f117c49173
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
