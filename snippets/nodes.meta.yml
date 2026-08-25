@@ -287,14 +287,15 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|RO_speednode_0044
+- name: 0,1|RO - zhuhai.uk 05
   port: 9002
   server: 193.176.84.35
   skip-cert-verify: true
+  sni: 193.176.84.35
   tls: true
   type: http
   udp: true
-- name: 0,1|RO - zhuhai.uk 02
+- name: 0|RO_speednode_0045
   port: 9002
   server: 193.176.84.17
   skip-cert-verify: true
@@ -569,11 +570,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|RO - zhuhai.uk
+- name: 0|RO_speednode_0083
   port: 9002
   server: 193.176.84.25
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
   udp: true
@@ -770,10 +770,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|RO_speednode_0110
+- name: 0,1|RO - zhuhai.uk 03
   port: 9002
   server: 193.176.84.27
   skip-cert-verify: true
+  sni: www.bing.com
   tls: true
   type: http
   udp: true
@@ -1038,14 +1039,13 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
-- name: 0,1|US - zhuhai.uk
+- name: 0|US_speednode_0140
   password: None
   port: 443
   server: purposebydesig.club
   tls: true
   type: http
   udp: true
-  username: 'null'
 - name: 0|US_speednode_0141
   port: 443
   server: 38.28.193.188
@@ -1088,116 +1088,137 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- client-fingerprint: edge
-  name: 1|NL - zhuhai.uk
-  port: 46142
-  reality-opts:
-    public-key: l-OE7EwER1Z_jAifGE_UZ3FqHDMGzaR0jQHFYj5RNAk
-    short-id: 39feeba3085c
-  server: ned.waldron.ir
-  servername: www.yahoo.com
+- name: 1|SE - zhuhai.uk
+  port: 443
+  server: 149.50.216.65
   skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|SG - zhuhai.uk
+  network: ws
+  port: 443
+  server: 172.67.69.106
+  servername: zero.csmaster.ggff.net
   tls: true
   type: vless
-  uuid: 255386a8-aec5-4425-bfe7-ca49b7448deb
-- name: 1|FI - zhuhai.uk
-  password: x
-  port: 8891
-  server: extension.intern3t.ru
+  uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
+  ws-opts:
+    headers:
+      Host: zero.csmaster.ggff.net
+    path: /
+- name: 1|RO - zhuhai.uk
+  port: 9002
+  server: 193.176.84.19
   skip-cert-verify: true
-  sni: extension.intern3t.ru
+  sni: www.bing.com
   tls: true
   type: http
-  username: 85efca17026d85555ffc9b651149b5b7
-- name: 1|UA - zhuhai.uk
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20066
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-- name: 1|KR - zhuhai.uk
-  port: 1080
-  server: 43.164.136.189
-  type: socks5
-- name: 1|JP - zhuhai.uk
+- name: 1|DE - zhuhai.uk
+  obfs: salamander
+  obfs-password: Xydh1mcz51VQHbbJ
+  password: 585b7bfe-6269-4149-ae22-ff07c57b5510
   port: 443
-  server: fan.571589.xyz
+  server: 157.228.137.81
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: msk2.nebuchadnezzar.ink
+  type: hysteria2
 - name: 1|FR - zhuhai.uk
   password: kakashka13222
   port: 1105
   server: 194.9.172.236
   skip-cert-verify: true
+  sni: 194.9.172.236
   tls: true
   type: trojan
-- name: 1|IT - zhuhai.uk
+- name: 1|US - zhuhai.uk 02
+  network: ws
+  port: 8880
+  server: www.visa.com.sg
+  type: vless
+  uuid: d8235de7-84c7-4454-b333-4d854c393929
+  ws-opts:
+    headers:
+      Host: fragrant-butterfly-3e76.387.workers.dev
+    path: /pyip=ProxyIP.US.CMLiussss.net
+- name: 1|NL - zhuhai.uk
+  port: 9002
+  server: 84.17.47.147
+  skip-cert-verify: true
+  sni: 84.17.47.147
+  tls: true
+  type: http
+- name: 1|DE - zhuhai.uk 03
   port: 443
-  server: 95.229.15.89
+  server: fan.973511.xyz
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|HK - zhuhai.uk
+- name: 1|MO - zhuhai.uk
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20068
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: true
+  type: trojan
+- name: 1|US - zhuhai.uk 03
+  password: e4b72b531a2d10900519
   port: 443
-  server: hk40.240104.xyz
-  sni: hk40.240104.xyz
+  server: 147.182.216.4
+  skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 02
-  password: 'null'
+  username: testuser1
+- name: 1|US - zhuhai.uk 04
+  password: None
   port: 9002
-  server: 138.199.35.211
+  server: 138.199.35.220
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 1|LV - zhuhai.uk
+- name: 1|RO - zhuhai.uk 02
+  port: 9002
+  server: 193.176.84.26
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  name: 1|DE - zhuhai.uk 04
+  network: ws
   port: 443
+  server: cloud.dev.fosonmine.site
+  servername: cloud.dev.fosonmine.site
+  tls: true
+  type: vless
+  uuid: a2ec6ed8-ef05-4fa9-b6c5-aec54186f89a
+  ws-opts:
+    headers:
+      Host: cloud.dev.fosonmine.site
+    path: /api/v2/session/channel/connect
+- name: 1|DE - zhuhai.uk 05
+  network: ws
+  port: 2052
+  server: cctvhikvision.center
+  type: vless
+  uuid: 3302c871-79e8-45a3-8233-d0547ae963ed
+  ws-opts:
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+    path: /@BlueKnight_net--@BlueKnight_net
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 1|LV - zhuhai.uk 02
+  port: 13443
   reality-opts:
-    public-key: m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0
-    short-id: dd3ff38418d29d22
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: a7f3c91b2e6d84c0
   server: 195.123.210.168
-  servername: eu-west.cendora.ru
+  servername: auto.cendora.ru
   tls: true
   type: vless
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: 1|RO - zhuhai.uk 03
-  password: 'null'
-  port: 9002
-  server: 193.176.84.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 03
-  port: 443
-  server: crosscards.site
-  sni: crosscards.site
-  tls: true
-  type: http
-- client-fingerprint: random
-  name: 1|HK - zhuhai.uk 02
-  network: ws
-  port: 2083
-  server: 172.67.69.144
-  servername: kv.074167.xyz
-  tls: true
-  type: vless
-  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
-  ws-opts:
-    headers:
-      Host: kv.074167.xyz
-    path: /
-- name: 1|NL - zhuhai.uk 02
-  port: 62145
-  server: 158.180.12.255
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
 - name: 1|RO - zhuhai.uk 04
   port: 9002
   server: 193.176.84.38
@@ -1205,82 +1226,106 @@ proxies:
   sni: www.bing.com
   tls: true
   type: http
-- name: 1|IN - zhuhai.uk
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 139.59.87.113
-  skip-cert-verify: true
-  sni: 8b3b5771.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- name: 1|US - zhuhai.uk 04
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|GR - zhuhai.uk
-  port: 443
-  server: 149.22.85.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|NL - zhuhai.uk 03
-  network: ws
-  port: 2083
-  server: 188.166.49.168
-  servername: cf3.schzyc.cc.cd
-  tls: true
-  type: vless
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  ws-opts:
-    headers:
-      Host: cf3.schzyc.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net
 - name: 1|US - zhuhai.uk 05
   password: 'null'
   port: 9002
-  server: 138.199.35.210
+  server: 138.199.35.198
   skip-cert-verify: true
-  sni: 138.199.35.210
+  sni: 138.199.35.198
   tls: true
   type: http
   username: 'null'
+- name: 1|RO - zhuhai.uk 06
+  port: 9002
+  server: 193.176.84.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 06
+  port: 443
+  server: purposebydesig.club
+  tls: true
+  type: http
+- client-fingerprint: random
+  name: 1|US - zhuhai.uk 07
+  network: ws
+  port: 8443
+  server: 172.64.144.243
+  servername: kv.074167.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+  ws-opts:
+    headers:
+      Host: kv.074167.xyz
+    path: /
 - client-fingerprint: firefox
-  name: 1|NL - zhuhai.uk 04
+  name: 1|NL - zhuhai.uk 02
   port: 17780
   reality-opts:
     public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28
     short-id: a0fbc54d937aaccb
-  server: 172.239.237.246
+  server: am1.milkabebar.ir
   servername: amp-api-edge.apps.apple.com
-  skip-cert-verify: true
   tls: true
   type: vless
   uuid: a06119a7-4f1a-4592-86d9-e050a332b2b3
-- name: 1|RO - zhuhai.uk 05
-  port: 9002
-  server: 193.176.84.29
-  skip-cert-verify: true
+- name: 1|US - zhuhai.uk 08
+  port: 22216
+  reality-opts:
+    public-key: sTE0YXI6Pv6OQUNbM-hNpNOhzon0_m2YUd7B1_g-JAU
+    short-id: 0f4412d42129f080
+  server: usnoad.whooisthebest.ir
+  servername: amp-api-edge.apps.apple.com
   tls: true
-  type: http
-- name: 1|SG - zhuhai.uk
-  password: 023c40e3394dd2c2f1b5d12556db2a6f
-  port: 50160
-  server: 38.180.190.215
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- name: 1|SG - zhuhai.uk 02
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 146.70.29.45
-  skip-cert-verify: true
-  sni: 92461d2d.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
+  type: vless
+  uuid: 5c5619e4-0577-48d4-8d0c-6ad9c5cc0ecf
+- cipher: aes-256-gcm
+  name: 1|HK - zhuhai.uk
+  password: Butterfly123@qwe9527
+  port: 10006
+  server: 36.33.35.105
+  type: ss
+- cipher: aes-256-gcm
+  name: 1|HK - zhuhai.uk 02
+  password: Butterfly123@qwe9527
+  port: 10001
+  server: 103.236.66.4
+  type: ss
+- name: 1|JP - zhuhai.uk
+  port: 10808
+  server: 101.36.104.239
+  type: socks5
+- name: 1|JP - zhuhai.uk 02
+  password: '123456'
+  port: 1080
+  server: 8.209.236.192
+  type: socks5
+  username: '123456'
+- cipher: aes-256-cfb
+  name: 1|KR - zhuhai.uk
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
+  type: ss
+- name: 1|KR - zhuhai.uk 02
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 15503
+  server: test01.y1static-content-distribution.shop
+  sni: kr08.lunartrace.io
+  type: anytls
+  udp: true
+- cipher: aes-256-cfb
+  name: 1|TH - zhuhai.uk
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 103.169.67.34
+  type: ss
+- name: 1|TH - zhuhai.uk 02
+  port: 1080
+  server: 43.164.3.124
+  type: socks5
 - name: 1|NO - zhuhai.uk 01
   network: tcp
   port: 40443
