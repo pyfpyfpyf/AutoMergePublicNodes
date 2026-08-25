@@ -177,62 +177,17 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- name: 1|US - zhuhai.uk 02
-  network: ws
-  port: 8880
-  server: www.visa.com.sg
-  type: vless
-  uuid: d8235de7-84c7-4454-b333-4d854c393929
-  ws-opts:
-    headers:
-      Host: fragrant-butterfly-3e76.387.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
-- name: 1|US - zhuhai.uk 03
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 147.182.216.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: testuser1
-- name: 1|US - zhuhai.uk 04
-  password: None
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 05
+- name: 1|US - zhuhai.uk
   password: 'null'
-  port: 9002
-  server: 138.199.35.198
+  port: 443
+  server: 38.28.193.188
   skip-cert-verify: true
-  sni: 138.199.35.198
+  sni: 38.28.193.188
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 06
-  port: 443
-  server: purposebydesig.club
-  tls: true
-  type: http
-- client-fingerprint: random
-  name: 1|US - zhuhai.uk 07
-  network: ws
-  port: 8443
-  server: 172.64.144.243
-  servername: kv.074167.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
-  ws-opts:
-    headers:
-      Host: kv.074167.xyz
-    path: /
 - client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 08
+  name: 1|US - zhuhai.uk 02
   port: 22216
   reality-opts:
     public-key: sTE0YXI6Pv6OQUNbM-hNpNOhzon0_m2YUd7B1_g-JAU
@@ -242,15 +197,43 @@ proxies:
   tls: true
   type: vless
   uuid: 5c5619e4-0577-48d4-8d0c-6ad9c5cc0ecf
+- cipher: aes-256-gcm
+  name: 1|US - zhuhai.uk 03
+  password: Butterfly123@qwe9527
+  port: 50003
+  server: 103.236.66.4
+  type: ss
+- name: 1|US - zhuhai.uk 04
+  password: None
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 05
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  sni: 138.199.35.216
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 06
+  port: 52683
+  server: jp.sofast.live
+  type: vless
+  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: edge.sync.v1
-  name: 1|US - zhuhai.uk 01
-  network: grpc
+  name: 1|US - zhuhai.uk 07
+  network: ws
   port: 443
-  server: eeb.mythos-wargame.fun
-  servername: eeb.mythos-wargame.fun
+  server: 104.19.50.28
+  servername: vpn-1fj.pages.dev
+  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
-  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
+  uuid: 2b181a3a-c001-4145-845a-5d43a43837d5
+  ws-opts:
+    headers:
+      Host: vpn-1fj.pages.dev
+    path: /
