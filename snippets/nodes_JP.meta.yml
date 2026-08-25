@@ -1,9 +1,17 @@
 proxies:
 - name: 1|JP - zhuhai.uk
-  port: 443
-  server: fan.571589.xyz
+  network: ws
+  password: 1addb6f6-c65a-4652-91e7-cbf3c6fa6f95
+  port: 48966
+  server: 221.230.19.73
+  skip-cert-verify: true
+  sni: vpn-node.internal
   tls: true
-  type: http
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vpn-node.internal
+    path: /xVpnTrojanWsSvc7f3a
 - name: 1|JP - zhuhai.uk 03
   password: 'null'
   port: 443

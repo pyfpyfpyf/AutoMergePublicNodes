@@ -1,4 +1,10 @@
 proxies:
+- name: 1|GB - zhuhai.uk
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: qq
   grpc-opts:
     grpc-service-name: edge.sync.v1
