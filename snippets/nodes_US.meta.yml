@@ -126,13 +126,14 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
-- name: 0|US_speednode_0140
+- name: 0,1|US - zhuhai.uk
   password: None
   port: 443
   server: purposebydesig.club
   tls: true
   type: http
   udp: true
+  username: 'null'
 - name: 0|US_speednode_0141
   port: 443
   server: 38.28.193.188
@@ -177,29 +178,23 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- name: 1|US - zhuhai.uk
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  sni: 138.199.35.205
-  tls: true
-  type: http
 - name: 1|US - zhuhai.uk 02
+  password: 'null'
   port: 9002
-  server: 138.199.35.195
+  server: 138.199.35.211
   skip-cert-verify: true
   tls: true
   type: http
+  username: 'null'
 - name: 1|US - zhuhai.uk 03
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  sni: 138.199.35.201
+  port: 443
+  server: crosscards.site
+  sni: crosscards.site
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 04
   port: 9002
-  server: 138.199.35.213
+  server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
@@ -208,20 +203,10 @@ proxies:
   port: 9002
   server: 138.199.35.210
   skip-cert-verify: true
+  sni: 138.199.35.210
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 06
-  port: 52683
-  server: jp.sofast.live
-  type: vless
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
-- name: 1|US - zhuhai.uk 07
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: edge.sync.v1
