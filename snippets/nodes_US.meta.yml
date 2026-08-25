@@ -179,27 +179,42 @@ proxies:
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
   port: 443
-  server: kimberlymilano.icu
-  skip-cert-verify: true
-  sni: kimberlymilano.icu
+  server: mmgr.club
+  sni: mmgr.club
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
   port: 443
-  server: fan.596189.xyz
-  skip-cert-verify: true
+  server: fan.226278.xyz
+  sni: fan.226278.xyz
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 03
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  sni: 138.199.35.219
-  tls: true
-  type: http
+- cipher: aes-256-gcm
+  name: 1|US - zhuhai.uk 03
+  password: Butterfly123@qwe9527
+  port: 50001
+  server: 103.236.66.4
+  type: ss
 - name: 1|US - zhuhai.uk 04
   port: 9002
-  server: 138.199.35.197
+  server: 138.199.35.201
   skip-cert-verify: true
+  sni: 138.199.35.201
   tls: true
   type: http
+- name: 1|US - zhuhai.uk 05
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  sni: 138.199.35.215
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 06
+  password: None
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  sni: 138.199.35.209
+  tls: true
+  type: http
+  username: 'null'

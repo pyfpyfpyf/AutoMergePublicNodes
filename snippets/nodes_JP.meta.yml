@@ -3,18 +3,20 @@ proxies:
   password: 'null'
   port: 443
   server: fan.571589.xyz
-  skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|JP - zhuhai.uk 02
+- name: 1|JP - zhuhai.uk 02
   port: 443
-  reality-opts:
-    public-key: d1NlaZfnsYjWfxRTqIBk1ldBUmdE-kRTEQ_sWd1JYwI
-  server: 2.27.27.80
-  servername: www.ray-balance.space
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  sni: fan.571589.xyz
   tls: true
-  type: vless
-  uuid: 710fc22f-06b2-4b6d-bb3e-f57c17b670a6
+  type: http
+- name: 1|JP - zhuhai.uk 03
+  password: b4c65d3711d27d46f32263f1dd9caf48
+  port: 50160
+  server: 151.145.65.190
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
