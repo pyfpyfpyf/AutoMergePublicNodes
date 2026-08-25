@@ -1,19 +1,16 @@
 proxies:
-- name: 1|JP - zhuhai.uk
-  port: 443
-  server: fan.571589.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
+- cipher: aes-256-gcm
+  name: 1|JP - zhuhai.uk
+  password: Butterfly123@qwe9527
+  port: 40002
+  server: 103.236.66.4
+  type: ss
 - name: 1|JP - zhuhai.uk 02
-  password: 'null'
   port: 443
   server: fan.571589.xyz
   skip-cert-verify: true
-  sni: fan.571589.xyz
   tls: true
   type: http
-  username: 'null'
 - client-fingerprint: chrome
   name: 1|JP - zhuhai.uk 01
   network: ws
