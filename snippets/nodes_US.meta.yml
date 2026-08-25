@@ -179,42 +179,72 @@ proxies:
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
   port: 443
-  server: mmgr.club
-  sni: mmgr.club
+  server: kimberlymilano.icu
+  skip-cert-verify: true
+  sni: kimberlymilano.icu
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
   port: 443
-  server: fan.226278.xyz
-  sni: fan.226278.xyz
+  server: 38.28.193.1
+  skip-cert-verify: true
   tls: true
   type: http
-- cipher: aes-256-gcm
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
   name: 1|US - zhuhai.uk 03
-  password: Butterfly123@qwe9527
-  port: 50001
-  server: 103.236.66.4
-  type: ss
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.202
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - name: 1|US - zhuhai.uk 04
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  sni: 138.199.35.201
+  port: 443
+  server: jewelscollecti.icu
+  sni: jewelscollecti.icu
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 138.199.35.215
+  port: 443
+  server: fan.226278.xyz
   skip-cert-verify: true
-  sni: 138.199.35.215
+  sni: fan.226278.xyz
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 06
   password: None
   port: 9002
-  server: 138.199.35.209
+  server: 138.199.35.200
   skip-cert-verify: true
-  sni: 138.199.35.209
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 07
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 41963
+  server: rrr1.tube-cat.com
+  skip-cert-verify: true
+  sni: r.US5.cat.bilibili.com
+  tls: true
+  type: trojan
+- name: 1|US - zhuhai.uk 08
+  password: 'null'
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 09
+  password: 'null'
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  sni: 138.199.35.195
   tls: true
   type: http
   username: 'null'
