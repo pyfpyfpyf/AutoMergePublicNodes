@@ -1,38 +1,14 @@
 proxies:
-- name: 1|GB - zhuhai.uk 02
-  password: a95e9198-0671-11f0-9426-f23c932f2c32
-  port: 443
-  server: d3ea7b20-ths2o0-ths4hq-azvy.cldvpuk.cdnbytescm.com
-  skip-cert-verify: true
-  sni: d3ea7b20-ths2o0-ths4hq-azvy.cldvpuk.cdnbytescm.com
-  tls: true
-  type: http
-  username: a95e9198-0671-11f0-9426-f23c932f2c32
 - client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 1|GB - zhuhai.uk 03
-  network: grpc
+  flow: xtls-rprx-vision
+  name: 1|GB - zhuhai.uk
   port: 443
   reality-opts:
-    public-key: eNvO4-6_VFngHHC6D5AhcCpCpOdi5gY7-Srimhh-6Xw
-  server: 104.171.128.225
-  servername: dl.google.com
+    public-key: djzfpNmvwYjCaOUUOHU_k0kl92HXIGIurq2i0p5UyDo
+    short-id: 1dc6d8a2045a7c9d
+  server: 109.169.85.141
+  servername: slashdot.org
+  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
-  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
-- client-fingerprint: safari
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 1|GB - zhuhai.uk 04
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: eNvO4-6_VFngHHC6D5AhcCpCpOdi5gY7-Srimhh-6Xw
-  server: 104.171.128.225
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 82d145c1-d691-4eef-9de1-9c316db4859a
+  uuid: bbc164a1-b246-456b-aefd-95c5e5f877d4

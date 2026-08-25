@@ -1,11 +1,5 @@
 proxies:
 - name: 1|JP - zhuhai.uk
-  port: 443
-  server: fan.571589.xyz
-  sni: fan.571589.xyz
-  tls: true
-  type: http
-- name: 1|JP - zhuhai.uk 02
   password: 'null'
   port: 443
   server: fan.571589.xyz
@@ -13,20 +7,14 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 1|JP - zhuhai.uk 03
-  port: 10808
-  server: 101.36.104.239
-  type: socks5
-- name: 1|JP - zhuhai.uk 04
-  network: ws
-  password: 1addb6f6-c65a-4652-91e7-cbf3c6fa6f95
-  port: 48966
-  server: 221.230.19.73
-  skip-cert-verify: true
-  sni: vpn-node.internal
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk 02
+  port: 443
+  reality-opts:
+    public-key: d1NlaZfnsYjWfxRTqIBk1ldBUmdE-kRTEQ_sWd1JYwI
+  server: 2.27.27.80
+  servername: www.ray-balance.space
   tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: vpn-node.internal
-    path: /xVpnTrojanWsSvc7f3a
+  type: vless
+  uuid: 710fc22f-06b2-4b6d-bb3e-f57c17b670a6

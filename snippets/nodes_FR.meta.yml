@@ -1,11 +1,20 @@
 proxies:
-- name: 1|FR - zhuhai.uk
-  network: ws
-  port: 10444
-  server: 94.228.168.18
+- cipher: aes-256-cfb
+  name: 1|FR - zhuhai.uk
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 95.170.13.47
+  type: ss
+- client-fingerprint: chrome
+  name: 1|FR - zhuhai.uk 04
+  network: tcp
+  port: 40492
+  reality-opts:
+    public-key: qxTe4rYbyXphUF5L2zyEXzXfwJxky34-bEuX7zYcTDA
+    short-id: 206432f9
+  server: my.xavino-shop.ir
+  servername: amp-api-edge.apps.apple.com
+  tls: true
   type: vless
-  uuid: 4005ddae-29bb-431e-a212-7737316d08ea
-  ws-opts:
-    headers:
-      Host: vpnpolar.online
-    path: /beeline
+  udp: true
+  uuid: b2e4465d-3dae-46d8-82ec-4ddd521a9c59
