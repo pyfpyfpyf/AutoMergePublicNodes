@@ -133,11 +133,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 07
+- name: 0|US_speednode_0141
   port: 443
   server: 38.28.193.188
   skip-cert-verify: true
-  sni: 38.28.193.188
   tls: true
   type: http
   udp: true
@@ -179,47 +178,59 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  password: None
   port: 9002
-  server: 138.199.35.200
+  server: 138.199.35.205
   skip-cert-verify: true
-  sni: 138.199.35.200
+  sni: 138.199.35.205
   tls: true
   type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 02
-  port: 443
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  sni: jewelscollecti.icu
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 03
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  sni: 138.199.35.210
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 04
-  password: 'null'
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 06
   port: 9002
   server: 138.199.35.195
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 09
+- name: 1|US - zhuhai.uk 03
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  sni: 138.199.35.201
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 04
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 05
   password: 'null'
   port: 9002
-  server: 138.199.35.207
+  server: 138.199.35.210
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
+- name: 1|US - zhuhai.uk 06
+  port: 52683
+  server: jp.sofast.live
+  type: vless
+  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+- name: 1|US - zhuhai.uk 07
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: edge.sync.v1
+  name: 1|US - zhuhai.uk 01
+  network: grpc
+  port: 443
+  server: eeb.mythos-wargame.fun
+  servername: eeb.mythos-wargame.fun
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
