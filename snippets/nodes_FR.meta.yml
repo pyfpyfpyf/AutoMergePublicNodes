@@ -1,6 +1,11 @@
 proxies:
 - name: 1|FR - zhuhai.uk
-  port: 443
-  server: fan.132031.xyz
-  tls: true
-  type: http
+  network: ws
+  port: 10444
+  server: 94.228.168.18
+  type: vless
+  uuid: 4005ddae-29bb-431e-a212-7737316d08ea
+  ws-opts:
+    headers:
+      Host: vpnpolar.online
+    path: /beeline

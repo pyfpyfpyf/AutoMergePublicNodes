@@ -1,22 +1,13 @@
 proxies:
-- name: 1|GB - zhuhai.uk
+- name: 1|GB - zhuhai.uk 02
+  password: a95e9198-0671-11f0-9426-f23c932f2c32
   port: 443
-  server: 185.235.0.2
+  server: d3ea7b20-ths2o0-ths4hq-azvy.cldvpuk.cdnbytescm.com
   skip-cert-verify: true
+  sni: d3ea7b20-ths2o0-ths4hq-azvy.cldvpuk.cdnbytescm.com
   tls: true
   type: http
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-service-name: edge.sync.v1
-  name: 1|GB - zhuhai.uk 02
-  network: grpc
-  port: 443
-  server: fla.mythos-wargame.fun
-  servername: fla.mythos-wargame.fun
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
+  username: a95e9198-0671-11f0-9426-f23c932f2c32
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: grpc-tunnel

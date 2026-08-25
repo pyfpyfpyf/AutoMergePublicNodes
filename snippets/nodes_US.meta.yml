@@ -133,7 +133,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0141
+- name: 0,1|US - zhuhai.uk 06
   port: 443
   server: 38.28.193.188
   skip-cert-verify: true
@@ -177,32 +177,39 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
+- name: 1|US - zhuhai.uk
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 1|US - zhuhai.uk 02
   port: 9002
-  server: 138.199.35.210
+  server: 138.199.35.202
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 03
-  port: 443
-  server: fan.596189.xyz
-  sni: fan.596189.xyz
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  sni: 138.199.35.201
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 04
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  sni: 138.199.35.215
+  port: 443
+  server: purposebydesig.club
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 05
+  password: 'null'
   port: 9002
-  server: 138.199.35.219
+  server: 138.199.35.198
   skip-cert-verify: true
-  sni: 138.199.35.219
+  sni: 138.199.35.198
   tls: true
   type: http
+  username: 'null'
 - client-fingerprint: qq
   grpc-opts:
     grpc-service-name: edge.sync.v1
