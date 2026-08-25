@@ -177,37 +177,44 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  sni: 138.199.35.218
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 02
-  network: ws
-  port: 10444
-  server: 45.86.245.225
-  type: vless
-  uuid: 4005ddae-29bb-431e-a212-7737316d08ea
-  ws-opts:
-    headers:
-      Host: vpnpolar.online
-    path: /beeline
-- name: 1|US - zhuhai.uk 03
+- name: 1|US - zhuhai.uk
   password: 'null'
   port: 9002
-  server: 138.199.35.195
+  server: 138.199.35.196
+  skip-cert-verify: true
+  sni: 138.199.35.196
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 02
+  password: None
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  sni: 138.199.35.208
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 03
+  port: 443
+  server: webdrone.club
+  sni: webdrone.club
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 04
+  password: 'null'
+  port: 9002
+  server: 138.199.35.214
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 04
-  password: None
+- name: 1|US - zhuhai.uk 05
+  password: 'null'
   port: 9002
-  server: 138.199.35.209
+  server: 138.199.35.199
   skip-cert-verify: true
-  sni: 138.199.35.209
+  sni: 138.199.35.199
   tls: true
   type: http
   username: 'null'

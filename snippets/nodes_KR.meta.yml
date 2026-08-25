@@ -1,13 +1,22 @@
 proxies:
 - name: 1|KR - zhuhai.uk
-  password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
-  port: 31433
-  server: 891f3762-ta1og0-tiqsce-t6fv.kr.oshuawei.com
-  sni: 891f3762-ta1og0-tiqsce-t6fv.kr.oshuawei.com
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 15503
+  server: test01.y1static-content-distribution.shop
+  sni: kr08.lunartrace.io
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|KR - zhuhai.uk 02
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 989gq45ogQSZLDoUTcLNSYW5v_3ER7W_6Oi_8swZzXo
+    short-id: cb55f541
+  server: 178.83.31.93
+  servername: www.cloudflare.com
   tls: true
-  type: http
-  username: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
-- name: 1|KR - zhuhai.uk 02
-  port: 1080
-  server: 43.164.136.189
-  type: socks5
+  type: vless
+  udp: true
+  uuid: 4a97788b-5d8a-410c-875c-ba36930e185e
