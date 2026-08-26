@@ -178,82 +178,76 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  port: 443
-  server: goedkoopgeluid.icu
+  port: 9002
+  server: 138.199.35.216
   skip-cert-verify: true
+  sni: 138.199.35.216
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
   password: 'null'
-  port: 443
-  server: 38.28.193.188
+  port: 9002
+  server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 03
-  network: ws
+  password: 398e0d38-8649-11ef-959c-f23c9164ca5d
   port: 443
-  server: cf2.laowu.life
-  servername: cf2.laowu.life
-  tls: true
-  type: vless
-  uuid: 86e02d10-23e7-496d-b90c-313649587c68
-  ws-opts:
-    headers:
-      Host: cf2.laowu.life
-    path: /api/v2/stream
+  server: 227f38d1-tki800-tlx75w-1gxvd.sj.oshuawei.com
+  type: socks5
+  username: 398e0d38-8649-11ef-959c-f23c9164ca5d
 - name: 1|US - zhuhai.uk 04
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
+  port: 1080
+  server: 43.162.94.99
+  type: socks5
+  username: Og==
 - name: 1|US - zhuhai.uk 05
-  port: 443
-  server: fan.226278.xyz
+  port: 9002
+  server: 138.199.35.211
   skip-cert-verify: true
-  sni: fan.226278.xyz
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 06
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 28219
-  server: jpglobal-identity-federation-auth.younai-ytl.shop
+  port: 443
+  server: purecambogiasl.live
+  sni: purecambogiasl.live
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 07
+  password: 'null'
+  port: 9002
+  server: 138.199.35.212
   skip-cert-verify: true
-  sni: us05.pulsarcore.site
+  sni: 138.199.35.212
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 08
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 19070
+  server: yazhouany02.downapptwo.cc
+  sni: us30.lunartrace.io
   type: anytls
   udp: true
-- name: 1|US - zhuhai.uk 07
-  network: ws
+- name: 1|US - zhuhai.uk 09
+  password: 398e0d38-8649-11ef-959c-f23c9164ca5d
   port: 443
-  server: cf2.laowu.life
-  servername: cf2.laowu.life
+  server: 86c80e81-tki800-tlx75w-1gxvd.se.oshuawei.com
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: c283f898-9276-413d-a658-736c645124dd
-  ws-opts:
-    headers:
-      Host: cf2.laowu.life
-    path: /api/v2/stream
-- name: 1|US - zhuhai.uk 08
-  network: ws
-  port: 443
-  server: cf.laowu.life
-  servername: cf.laowu.life
+  type: http
+  username: 398e0d38-8649-11ef-959c-f23c9164ca5d
+- name: 1|US - zhuhai.uk 10
+  password: 'null'
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  sni: 138.199.35.217
   tls: true
-  type: vless
-  uuid: 5abcf400-cc5b-4a90-a525-7136ca1b3f39
-  ws-opts:
-    headers:
-      Host: cf.laowu.life
-    path: /api/v1/stream
-- cipher: aes-256-cfb
-  name: 1|US - zhuhai.uk 09
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
-  type: ss
+  type: http
+  username: 'null'
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 1|US - zhuhai.uk 01

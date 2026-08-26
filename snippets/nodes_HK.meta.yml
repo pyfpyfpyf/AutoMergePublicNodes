@@ -1,15 +1,20 @@
 proxies:
 - name: 1|HK - zhuhai.uk
-  password: '!!str 123'
-  port: 3060
-  server: 43.100.43.112
-  type: socks5
-  username: '123'
-- name: 1|HK - zhuhai.uk 02
-  password: 'null'
-  port: 443
-  server: fan.240104.xyz
+  password: b0917015b656b3dd2286b5633af0c5c1
+  port: 50160
+  server: 31.57.248.176
   skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 02
+  port: 443
+  reality-opts:
+    public-key: KhRbgahSFqlPKB6QNp9QYb4oXMy2SIgi440tm6iFZHA
+    short-id: ea6b43
+  server: hk4.miyazono-kaori.com
+  servername: hk4e-launcher-static.hoyoverse.com
   tls: true
-  type: http
-  username: 'null'
+  type: vless
+  uuid: 44817aed-4e54-4704-8ca1-9f22243ed1a5

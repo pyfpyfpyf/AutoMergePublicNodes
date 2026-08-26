@@ -1,17 +1,16 @@
 proxies:
-- client-fingerprint: firefox
-  name: 1|SG - zhuhai.uk 01
-  network: tcp
-  port: 2053
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk
+  port: 443
   reality-opts:
-    public-key: yVb3JqVqlnXhiIb3E-gAVvgsXCpWgoeLIAJau9yuZ1I
-    short-id: 3fc9b11ceeb2cc6b
-  server: 217.217.254.126
-  servername: www.apple.com
+    public-key: jpn2pLj_p5lxGwycLht80v2qNeP7jHwh1Gv-nTU8zXY
+    short-id: ddcd71ec09e5893a
+  server: sg3.miyazono-kaori.com
+  servername: www.changiairport.com
   tls: true
   type: vless
-  udp: true
-  uuid: 30430ca4-9a16-4689-a276-4014599d2f39
+  uuid: 44817aed-4e54-4704-8ca1-9f22243ed1a5
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: update
@@ -27,6 +26,19 @@ proxies:
   type: vless
   udp: true
   uuid: D8ED7FFD-7AA8-4EEB-9020-18A1A38AE6CC
+- client-fingerprint: firefox
+  name: 1|SG - zhuhai.uk 01
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: yVb3JqVqlnXhiIb3E-gAVvgsXCpWgoeLIAJau9yuZ1I
+    short-id: 3fc9b11ceeb2cc6b
+  server: 217.217.254.126
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30430ca4-9a16-4689-a276-4014599d2f39
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|SG - zhuhai.uk 05

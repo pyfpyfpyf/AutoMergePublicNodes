@@ -6,13 +6,18 @@ proxies:
   skip-cert-verify: true
   sni: 177.2.185.222
   type: hysteria2
-- name: 1|JP - zhuhai.uk 02
-  password: 'null'
-  port: 443
-  server: fan.571589.xyz
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk 02
+  port: 50159
+  reality-opts:
+    public-key: fLtEa_5BiN89xQDypfFMOu5o6DoUf6ch42jGdkXy6zE
+    short-id: 7f24526f7307c07a
+  server: 162.141.131.102
+  servername: www.cloudflare.com
   tls: true
-  type: http
-  username: 'null'
+  type: vless
+  uuid: 063e01c2-4c0f-418e-9375-3cc1312f635b
 - name: 1|JP - zhuhai.uk 01
   network: ws
   port: 443
