@@ -1,15 +1,15 @@
 proxies:
 - name: 1|HK - zhuhai.uk
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 56726
-  server: test01.y1static-content-distribution.shop
-  skip-cert-verify: true
-  sni: hk11.pulsarcore.site
-  type: anytls
-  udp: true
-- name: 1|HK - zhuhai.uk 02
-  password: admin
-  port: 1080
-  server: 47.239.116.165
+  password: '!!str 123'
+  port: 3060
+  server: 43.100.43.112
   type: socks5
-  username: admin
+  username: '123'
+- name: 1|HK - zhuhai.uk 02
+  password: 'null'
+  port: 443
+  server: fan.240104.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
