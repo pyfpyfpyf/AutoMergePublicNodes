@@ -1,16 +1,5 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk
-  port: 39215
-  reality-opts:
-    public-key: Ab2RAQoGfVpiwFJionUkQfzW_PSsKoRoPjDWBXP71WI
-  server: 69.33.212.77
-  servername: www.iij.ad.jp
-  tls: true
-  type: vless
-  uuid: 0125dbce-8605-4868-9cef-a531a99e6228
-- name: 1|HK - zhuhai.uk 02
+- name: 1|HK - zhuhai.uk
   password: 29204996-a723-4291-8c70-30843b592d40
   port: 24318
   server: yzany01.downapptwo.cc
@@ -39,3 +28,17 @@ proxies:
     headers:
       Host: cfnew.schzyc.cc.cd
     path: /?ed=2048
+- client-fingerprint: chrome
+  name: 1|HK - zhuhai.uk 02
+  network: ws
+  port: 443
+  server: 43.174.193.1
+  servername: eded-52n.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+  ws-opts:
+    headers:
+      Host: eded-52n.pages.dev
+    path: /

@@ -1,9 +1,8 @@
 proxies:
-- name: 1|GB - zhuhai.uk 02
-  port: 443
-  server: 6d74a01e-thrgg0-thri9q-azvy.cldvpuk.cdnbytescm.com
+- name: 1|GB - zhuhai.uk
+  port: 9443
+  server: 37.120.233.34
   skip-cert-verify: true
-  sni: 6d74a01e-thrgg0-thri9q-azvy.cldvpuk.cdnbytescm.com
   tls: true
   type: http
 - name: 1|GB - zhuhai.uk 03
@@ -28,3 +27,14 @@ proxies:
     headers:
       Host: vms.lifetime39.workers.dev
     path: /
+- name: 1|GB - zhuhai.uk 02
+  network: ws
+  port: 80
+  server: mtn.v2plus.ovh
+  type: vless
+  udp: true
+  uuid: 2cf79e40-74fe-4de9-ae0e-e496620a09a6
+  ws-opts:
+    headers:
+      Host: worker3.fexepit851.workers.dev
+    path: /BMnajv3ovlpn8Abs

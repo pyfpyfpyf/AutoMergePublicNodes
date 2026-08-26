@@ -1,16 +1,10 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|JP - zhuhai.uk
-  port: 50159
-  reality-opts:
-    public-key: j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA
-    short-id: 091e1c5db8451757
-  server: 154.31.114.248
-  servername: www.cloudflare.com
+- name: 1|JP - zhuhai.uk
+  port: 443
+  server: fan.571589.xyz
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: d56624b2-35bb-468c-9b2a-e0b0df7230c1
+  type: http
 - client-fingerprint: chrome
   name: 1|JP - zhuhai.uk 01
   network: ws
