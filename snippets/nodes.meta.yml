@@ -266,17 +266,19 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|RO_speednode_0041
+- name: 0,1|RO - zhuhai.uk 04
   port: 9002
   server: 193.176.84.33
   skip-cert-verify: true
+  sni: www.bing.com
   tls: true
   type: http
   udp: true
-- name: 0|RO_speednode_0042
+- name: 0,1|RO - zhuhai.uk
   port: 9002
   server: 193.176.84.30
   skip-cert-verify: true
+  sni: 193.176.84.30
   tls: true
   type: http
   udp: true
@@ -1087,26 +1089,81 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 107.151.238.27
+  password: None
+  port: 9002
+  server: 138.199.35.220
   skip-cert-verify: true
-  sni: 6b97ee1b.acsnet.co
   tls: true
   type: http
-  username: testuser1
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|EE - zhuhai.uk
+  username: 'null'
+- name: 1|CO - zhuhai.uk
+  port: 62145
+  server: 157.137.230.133
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: 1|US - zhuhai.uk 02
+  password: 'null'
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  sni: 138.199.35.199
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|BG - zhuhai.uk
+  network: ws
   port: 443
-  reality-opts:
-    public-key: ZXi0bwZwOe9e5CMticA2-bU7qamHgs_sN-2kHygbDyk
-    short-id: e91da98020a38be9
-  server: 31.76.34.205
-  servername: russia.cendora.ru
+  server: 91.247.37.58
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
   tls: true
   type: vless
-  uuid: 423b1d79-08c4-0005-9d5e-c541f791b55f
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- name: 1|US - zhuhai.uk 03
+  password: 'null'
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  sni: 138.199.35.195
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|CO - zhuhai.uk 02
+  port: 62145
+  server: 157.137.216.119
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: 1|RO - zhuhai.uk 03
+  port: 9002
+  server: 193.176.84.16
+  skip-cert-verify: true
+  sni: 193.176.84.16
+  tls: true
+  type: http
+- name: 1|NO - zhuhai.uk
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20085
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: true
+  type: trojan
+- name: 1|CO - zhuhai.uk 03
+  port: 62145
+  server: 157.137.214.95
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+- name: 1|US - zhuhai.uk 04
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 19070
+  server: yazhouany02.downapptwo.cc
+  skip-cert-verify: true
+  sni: us30.lunartrace.io
+  type: anytls
+  udp: true
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 1|PL - zhuhai.uk
@@ -1119,16 +1176,10 @@ proxies:
   tls: true
   type: vless
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: 1|CH - zhuhai.uk
-  password: 1Telegram_MojiVPN
-  port: 1080
-  server: ch-zur.pvdata.host
-  type: socks5
-  username: N9cyF6jvgy3ZEmCNKe04zBIR
-- name: 1|FR - zhuhai.uk
+- name: 1|LV - zhuhai.uk
   network: ws
   port: 443
-  server: 46.8.225.124
+  server: 31.56.27.128
   servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
   tls: true
   type: vless
@@ -1137,126 +1188,78 @@ proxies:
     headers:
       Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
     path: /pg/10086-dfc816f117c49173
-- name: 1|RO - zhuhai.uk
-  port: 9002
-  server: 193.176.84.21
+- name: 1|DE - zhuhai.uk 03
+  port: 443
+  server: 185.44.107.166
   skip-cert-verify: true
-  sni: 193.176.84.21
+  sni: 185.44.107.166
   tls: true
   type: http
-- name: 1|RO - zhuhai.uk 02
-  port: 9002
-  server: 193.176.84.23
+- name: 1|GB - zhuhai.uk
+  port: 443
+  server: 185.235.0.2
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: 185.235.0.2
   tls: true
   type: http
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+- name: 1|US - zhuhai.uk 05
+  network: ws
+  port: 2096
+  server: 104.18.33.66
+  servername: magic2vpn.cc.cd
+  tls: true
+  type: vless
+  uuid: 130add98-f232-406d-8bab-a6b61293db07
+  ws-opts:
+    headers:
+      Host: magic2vpn.cc.cd
+    path: /proxyip=ProxyIP.JP.CMLiussss.net
+- name: 1|US - zhuhai.uk 06
+  password: 'null'
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- flow: xtls-rprx-vision
   name: 1|SE - zhuhai.uk
   port: 443
   reality-opts:
-    public-key: AjJEU0yOwxU1qq-6-M32xKTOOc0xI4dpTiRp5EzXIRM
-    short-id: '49'
-  server: 88.216.189.177
-  servername: id.vk.com
+    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
+    short-id: 4a46213c935e2ee4
+  server: 31.76.70.32
+  servername: baltic.cendora.ru
   skip-cert-verify: true
   tls: true
   type: vless
-  uuid: bd1b4bd2-a312-433d-ae7b-d5d28f50af2a
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk
-  port: 443
-  reality-opts:
-    public-key: ZXi0bwZwOe9e5CMticA2-bU7qamHgs_sN-2kHygbDyk
-    short-id: e91da98020a38be9
-  server: 31.76.34.203
-  servername: russia.cendora.ru
-  tls: true
-  type: vless
-  uuid: 423b1d79-08c4-0003-9d5e-c541f791b55f
-- name: 1|US - zhuhai.uk 02
-  port: 443
-  server: fan.226278.xyz
-  sni: fan.226278.xyz
-  tls: true
-  type: http
-- name: 1|FI - zhuhai.uk
-  password: x
-  port: 8891
-  server: extension.intern3t.ru
-  sni: extension.intern3t.ru
-  tls: true
-  type: http
-  username: 85efca17026d85555ffc9b651149b5b7
-- name: 1|NO - zhuhai.uk
-  password: 1Telegram_MojiVPN
-  port: 1080
-  server: no-osl.pvdata.host
-  type: socks5
-  username: N9cyF6jvgy3ZEmCNKe04zBIR
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk 02
-  port: 443
-  reality-opts:
-    public-key: V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc
-    short-id: 76132b3b39704c44
-  server: 77.91.66.178
-  servername: de1.hat.onl
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: dbb5075f-2ff4-4aad-a952-bcc82e4a6355
-- name: 1|IT - zhuhai.uk
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20065
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 1|LV - zhuhai.uk
+  name: 1|LV - zhuhai.uk 02
   port: 13443
   reality-opts:
     public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
     short-id: a7f3c91b2e6d84c0
   server: 195.123.210.168
   servername: auto.cendora.ru
-  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: 1|RO - zhuhai.uk 03
-  password: None
-  port: 9002
-  server: 193.176.84.17
-  skip-cert-verify: true
-  sni: 193.176.84.17
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 03
+- cipher: aes-256-cfb
+  name: 1|MY - zhuhai.uk
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 118.107.222.231
+  type: ss
+- name: 1|DE - zhuhai.uk 04
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
   port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|NL - zhuhai.uk 03
-  port: 443
-  reality-opts:
-    public-key: pgG2grngQEtOFJImLfz0AEm-O2IodM2jCY4aMCYQI1U
-    short-id: 6aa2d2e950441a9a
-  server: 89.105.195.35
-  servername: nl3.freeinternat.com
-  tls: true
-  type: vless
-  uuid: dabb9a19-03ab-4cdf-8963-d3c45eb0f80d
+  server: de1.sferavpn.pro
+  sni: de1.sferavpn.pro
+  type: hysteria2
 - name: 1|HK - zhuhai.uk
   password: b0917015b656b3dd2286b5633af0c5c1
   port: 50160
@@ -1296,34 +1299,17 @@ proxies:
     headers:
       Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
     path: /pg/10086-dfc816f117c49173
-- name: 1|KR - zhuhai.uk
-  password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
-  port: 31433
-  server: 891f3762-ta1og0-tiqsce-t6fv.kr.oshuawei.com
-  sni: 891f3762-ta1og0-tiqsce-t6fv.kr.oshuawei.com
-  tls: true
-  type: http
-  username: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
 - cipher: aes-256-cfb
-  name: 1|KR - zhuhai.uk 02
+  name: 1|KR - zhuhai.uk
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.138
   type: ss
-- cipher: aes-256-cfb
-  name: 1|TH - zhuhai.uk
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 103.169.67.34
-  type: ss
-- name: 1|TH - zhuhai.uk 02
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20023
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
+- name: 1|KR - zhuhai.uk 02
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  username: Og==
 - name: 1|FR - zhuhai.uk 02
   network: ws
   port: 443
@@ -1366,6 +1352,20 @@ proxies:
     headers:
       Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
     path: /pg/10086-dfc816f117c491730| 荷兰 nl | ams | 43.170.17.114:443
+- name: 1|NL - zhuhai.uk 03
+  network: ws
+  port: 443
+  server: 194.87.0.196
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c491730| 风车郁金 | nl | 194.87.0.196:443
 - flow: xtls-rprx-vision
   name: 1|SE - zhuhai.uk 01
   network: tcp
@@ -1393,6 +1393,20 @@ proxies:
     headers:
       Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
     path: /pg/10086-dfc816f117c49173
+- name: 1|NL - zhuhai.uk 02
+  network: ws
+  port: 443
+  server: 62.60.254.131
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c491730| 🇫🇮 芬兰 07 | 62.60.254.131:443
 - name: 1|NL - zhuhai.uk 05
   network: ws
   port: 8443

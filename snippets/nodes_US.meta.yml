@@ -178,23 +178,57 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 107.151.238.27
+  password: None
+  port: 9002
+  server: 138.199.35.220
   skip-cert-verify: true
-  sni: 6b97ee1b.acsnet.co
   tls: true
   type: http
-  username: testuser1
+  username: 'null'
 - name: 1|US - zhuhai.uk 02
-  port: 443
-  server: fan.226278.xyz
-  sni: fan.226278.xyz
+  password: 'null'
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  sni: 138.199.35.199
   tls: true
   type: http
+  username: 'null'
 - name: 1|US - zhuhai.uk 03
-  port: 443
-  server: 149.34.248.65
+  password: 'null'
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  sni: 138.199.35.195
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 04
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 19070
+  server: yazhouany02.downapptwo.cc
+  skip-cert-verify: true
+  sni: us30.lunartrace.io
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 05
+  network: ws
+  port: 2096
+  server: 104.18.33.66
+  servername: magic2vpn.cc.cd
+  tls: true
+  type: vless
+  uuid: 130add98-f232-406d-8bab-a6b61293db07
+  ws-opts:
+    headers:
+      Host: magic2vpn.cc.cd
+    path: /proxyip=ProxyIP.JP.CMLiussss.net
+- name: 1|US - zhuhai.uk 06
+  password: 'null'
+  port: 9002
+  server: 138.199.35.206
   skip-cert-verify: true
   tls: true
   type: http
+  username: 'null'
