@@ -1,48 +1,4 @@
 proxies:
-- name: 1|DE - zhuhai.uk
-  port: 443
-  server: 138.201.56.241
-  skip-cert-verify: true
-  sni: 138.201.56.241
-  tls: true
-  type: http
-- cipher: chacha20-ietf-poly1305
-  name: 1|DE - zhuhai.uk 02
-  password: no4dl1ENNqLx0q7l7C5Z/AZgQ0cKwYENHPdC5TvTLAg=
-  port: 16156
-  server: e4.cover20.ir
-  type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk 03
-  port: 13443
-  reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: a7f3c91b2e6d84c0
-  server: 31.76.5.26
-  servername: auto.cendora.ru
-  tls: true
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: 1|DE - zhuhai.uk 04
-  port: 443
-  server: fan.973511.xyz
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: 1|DE - zhuhai.uk 08
-  network: ws
-  port: 2053
-  server: 85.192.26.210
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-    path: /
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 1|DE - zhuhai.uk 01
@@ -57,6 +13,34 @@ proxies:
   type: vless
   udp: true
   uuid: 423b1d79-08c4-0003-9d5e-c541f791b55f
+- client-fingerprint: chrome
+  name: 1|DE - zhuhai.uk 04
+  network: ws
+  port: 443
+  server: 207.180.218.132
+  servername: eded-52n.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+  ws-opts:
+    headers:
+      Host: eded-52n.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: 1|DE - zhuhai.uk 08
+  network: ws
+  port: 2053
+  server: 85.192.26.210
+  servername: eded-52n.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+  ws-opts:
+    headers:
+      Host: eded-52n.pages.dev
+    path: /
 - client-fingerprint: chrome
   name: 1|DE - zhuhai.uk 05
   network: ws
@@ -86,10 +70,38 @@ proxies:
       Host: eded-52n.pages.dev
     path: /
 - client-fingerprint: chrome
+  name: 1|DE - zhuhai.uk 02
+  network: ws
+  port: 443
+  server: 45.80.228.24
+  servername: eded-52n.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
+  ws-opts:
+    headers:
+      Host: eded-52n.pages.dev
+    path: /
+- client-fingerprint: chrome
   name: 1|DE - zhuhai.uk 09
   network: ws
   port: 8443
   server: 77.110.120.45
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- client-fingerprint: chrome
+  name: 1|DE - zhuhai.uk 03
+  network: ws
+  port: 443
+  server: 185.255.93.189
   servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
   tls: true
   type: vless
