@@ -1,15 +1,43 @@
 proxies:
-- name: 1|SG - zhuhai.uk
-  password: 29204996-a723-4291-8c70-30843b592d40
-  port: 16406
-  server: test01.y1static-content-distribution.shop
-  skip-cert-verify: true
-  sni: yz203.y1static-content-distribution.shop
-  type: anytls
-  udp: true
-- name: 1|SG - zhuhai.uk 02
-  port: 443
-  server: 156.146.56.97
-  skip-cert-verify: true
+- client-fingerprint: firefox
+  name: 1|SG - zhuhai.uk 01
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: yVb3JqVqlnXhiIb3E-gAVvgsXCpWgoeLIAJau9yuZ1I
+    short-id: 3fc9b11ceeb2cc6b
+  server: 217.217.254.126
+  servername: www.apple.com
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 30430ca4-9a16-4689-a276-4014599d2f39
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  name: 1|SG - zhuhai.uk 04
+  network: grpc
+  port: 10038
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: sg3-r.link-t7.com
+  servername: d1.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: D8ED7FFD-7AA8-4EEB-9020-18A1A38AE6CC
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk 05
+  network: tcp
+  port: 15006
+  reality-opts:
+    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
+    short-id: 029a6cc4
+  server: nian.001.url111.kcloud02.top
+  servername: www.adobe.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
