@@ -1,13 +1,11 @@
 proxies:
-- name: 1|GB - zhuhai.uk
-  password: a95e9198-0671-11f0-9426-f23c932f2c32
+- name: 1|GB - zhuhai.uk 02
   port: 443
-  server: d3ea7b20-ths2o0-ths4hq-azvy.cldvpuk.cdnbytescm.com
+  server: 6d74a01e-thrgg0-thri9q-azvy.cldvpuk.cdnbytescm.com
   skip-cert-verify: true
-  sni: d3ea7b20-ths2o0-ths4hq-azvy.cldvpuk.cdnbytescm.com
+  sni: 6d74a01e-thrgg0-thri9q-azvy.cldvpuk.cdnbytescm.com
   tls: true
   type: http
-  username: a95e9198-0671-11f0-9426-f23c932f2c32
 - name: 1|GB - zhuhai.uk 03
   network: ws
   port: 8880
@@ -30,14 +28,3 @@ proxies:
     headers:
       Host: vms.lifetime39.workers.dev
     path: /
-- name: 1|GB - zhuhai.uk 02
-  network: ws
-  port: 80
-  server: mtn.v2plus.ovh
-  type: vless
-  udp: true
-  uuid: 2cf79e40-74fe-4de9-ae0e-e496620a09a6
-  ws-opts:
-    headers:
-      Host: worker3.fexepit851.workers.dev
-    path: /BMnajv3ovlpn8Abs

@@ -1,18 +1,25 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk 01
-  network: tcp
+- client-fingerprint: chrome
+  name: 1|DE - zhuhai.uk
+  network: ws
   port: 443
-  reality-opts:
-    public-key: ZXi0bwZwOe9e5CMticA2-bU7qamHgs_sN-2kHygbDyk
-    short-id: e91da98020a38be9
-  server: 31.76.34.203
-  servername: russia.cendora.ru
+  server: 77.110.121.157
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
   tls: true
   type: vless
-  udp: true
-  uuid: 423b1d79-08c4-0003-9d5e-c541f791b55f
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- name: 1|DE - zhuhai.uk 02
+  obfs: salamander
+  obfs-password: Xydh1mcz51VQHbbJ
+  password: b92b11bd-8e05-4f4c-8e62-aa691c56a5be
+  port: 443
+  server: 157.228.137.81
+  sni: msk2.nebuchadnezzar.ink
+  type: hysteria2
 - client-fingerprint: chrome
   name: 1|DE - zhuhai.uk 04
   network: ws
@@ -41,6 +48,20 @@ proxies:
     headers:
       Host: eded-52n.pages.dev
     path: /
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk 01
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ZXi0bwZwOe9e5CMticA2-bU7qamHgs_sN-2kHygbDyk
+    short-id: e91da98020a38be9
+  server: 31.76.34.203
+  servername: russia.cendora.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 423b1d79-08c4-0003-9d5e-c541f791b55f
 - client-fingerprint: chrome
   name: 1|DE - zhuhai.uk 05
   network: ws
@@ -60,20 +81,6 @@ proxies:
   network: ws
   port: 8443
   server: 62.60.228.84
-  servername: eded-52n.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2eadb97f-bba4-4471-8d55-bd461525a2dc
-  ws-opts:
-    headers:
-      Host: eded-52n.pages.dev
-    path: /
-- client-fingerprint: chrome
-  name: 1|DE - zhuhai.uk 02
-  network: ws
-  port: 443
-  server: 45.80.228.24
   servername: eded-52n.pages.dev
   tls: true
   type: vless
