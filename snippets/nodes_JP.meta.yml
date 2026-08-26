@@ -1,14 +1,28 @@
 proxies:
 - name: 1|JP - zhuhai.uk
-  password: b504c8ce7f607a6c910ec5209e526b7e
-  port: 38888
-  server: 177.2.185.222
-  skip-cert-verify: true
-  sni: 177.2.185.222
-  type: hysteria2
+  password: '!!str 123456'
+  port: 1080
+  server: 8.209.236.192
+  type: socks5
+  username: '123456'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|JP - zhuhai.uk 02
+  network: tcp
+  port: 50159
+  reality-opts:
+    public-key: j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA
+    short-id: 091e1c5db8451757
+  server: 154.31.114.248
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d56624b2-35bb-468c-9b2a-e0b0df7230c1
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk 01
+  network: tcp
   port: 50159
   reality-opts:
     public-key: fLtEa_5BiN89xQDypfFMOu5o6DoUf6ch42jGdkXy6zE
@@ -17,18 +31,5 @@ proxies:
   servername: www.cloudflare.com
   tls: true
   type: vless
-  uuid: 063e01c2-4c0f-418e-9375-3cc1312f635b
-- name: 1|JP - zhuhai.uk 01
-  network: ws
-  port: 443
-  server: 43.170.8.95
-  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
   udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
+  uuid: 063e01c2-4c0f-418e-9375-3cc1312f635b

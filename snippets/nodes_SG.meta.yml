@@ -1,55 +1,23 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|SG - zhuhai.uk
-  port: 443
-  reality-opts:
-    public-key: jpn2pLj_p5lxGwycLht80v2qNeP7jHwh1Gv-nTU8zXY
-    short-id: ddcd71ec09e5893a
-  server: sg3.miyazono-kaori.com
-  servername: www.changiairport.com
-  tls: true
-  type: vless
-  uuid: 44817aed-4e54-4704-8ca1-9f22243ed1a5
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 1|SG - zhuhai.uk 04
-  network: grpc
-  port: 10038
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg3-r.link-t7.com
-  servername: d1.awsstatic.com
-  tls: true
-  type: vless
+- name: 1|SG - zhuhai.uk
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 47053
+  server: yazhouany02.downapptwo.cc
+  skip-cert-verify: true
+  type: anytls
   udp: true
-  uuid: D8ED7FFD-7AA8-4EEB-9020-18A1A38AE6CC
-- client-fingerprint: firefox
-  name: 1|SG - zhuhai.uk 01
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: yVb3JqVqlnXhiIb3E-gAVvgsXCpWgoeLIAJau9yuZ1I
-    short-id: 3fc9b11ceeb2cc6b
-  server: 217.217.254.126
-  servername: www.apple.com
-  tls: true
-  type: vless
+- name: 1|SG - zhuhai.uk 02
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 47096
+  server: test01.y1static-content-distribution.shop
+  skip-cert-verify: true
+  sni: xjp33.pulsarcore.site
+  type: anytls
   udp: true
-  uuid: 30430ca4-9a16-4689-a276-4014599d2f39
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|SG - zhuhai.uk 05
-  network: tcp
-  port: 15006
-  reality-opts:
-    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
-    short-id: 029a6cc4
-  server: nian.001.url111.kcloud02.top
-  servername: www.adobe.com
-  tls: true
-  type: vless
+- name: 1|SG - zhuhai.uk 03
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 16406
+  server: test01.y1static-content-distribution.shop
+  sni: yz203.y1static-content-distribution.shop
+  type: anytls
   udp: true
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
