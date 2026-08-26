@@ -178,52 +178,61 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  port: 443
-  server: fan.226278.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 02
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  sni: 138.199.35.207
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 03
-  port: 443
-  server: goedkoopgeluid.icu
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 05
   network: ws
   port: 443
-  server: cf.laowu.life
-  servername: cf.laowu.life
+  server: cf2.laowu.life
+  servername: cf2.laowu.life
   tls: true
   type: vless
-  uuid: 5abcf400-cc5b-4a90-a525-7136ca1b3f39
+  uuid: 82d01e09-2e38-4bb9-87b2-2c7503a82c2d
   ws-opts:
     headers:
-      Host: cf.laowu.life
-    path: /api/v1/stream
-- name: 1|US - zhuhai.uk 06
+      Host: cf2.laowu.life
+    path: /api/v2/stream
+- name: 1|US - zhuhai.uk 02
+  port: 443
+  server: fan.226278.xyz
+  sni: fan.226278.xyz
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 03
+  network: ws
+  port: 443
+  server: 43.169.19.179
+  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
+  ws-opts:
+    headers:
+      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173
+- name: 1|US - zhuhai.uk 04
   password: None
   port: 9002
-  server: 138.199.35.197
+  server: 138.199.35.204
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 07
-  port: 50159
-  reality-opts:
-    public-key: NBbof3yc52opWMuUywEOj6A5fSCPav3ZzTMhQYwxKXs
-    short-id: 55b7664bb39e6886
-  server: 179.255.124.81
-  servername: www.cloudflare.com
+- name: 1|US - zhuhai.uk 05
+  password: 'null'
+  port: 443
+  server: 38.28.193.188
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 06
+  network: ws
+  port: 443
+  server: cf2.laowu.life
+  servername: cf2.laowu.life
   tls: true
   type: vless
-  uuid: e08ff179-2c35-4a95-a8f8-6b2f7bd315ef
+  uuid: c283f898-9276-413d-a658-736c645124dd
+  ws-opts:
+    headers:
+      Host: cf2.laowu.life
+    path: /api/v2/stream
