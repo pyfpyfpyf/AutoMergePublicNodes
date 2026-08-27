@@ -1,7 +1,24 @@
 proxies:
 - name: 1|KR - zhuhai.uk
-  password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
-  port: 8080
-  server: 139.28.168.58
-  sni: grape-honk.yyuyy.com
-  type: hysteria2
+  port: 1080
+  server: 43.164.136.189
+  type: socks5
+- cipher: aes-256-cfb
+  name: 1|KR - zhuhai.uk 02
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
+  type: ss
+- client-fingerprint: firefox
+  name: 1|KR - zhuhai.uk 03
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: Wg07hKwQjSVmOsEHn7X1iLAXR2wkKRSyv8TZmq9ZsRA
+    short-id: 58186df4a95a1504
+  server: 151.245.106.49
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f7dddc4-6c77-4e2c-bfa4-7e5afdfd48f8

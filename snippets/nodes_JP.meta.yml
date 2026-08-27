@@ -1,34 +1,30 @@
 proxies:
 - name: 1|JP - zhuhai.uk
+  password: 4kch6iOn
   port: 443
-  server: fan.571589.xyz
-  tls: true
-  type: http
+  server: cn13.somethingstranges.com
+  skip-cert-verify: true
+  sni: down413.mihoyo.yuanshen.com
+  type: anytls
+  udp: true
+- name: 1|JP - zhuhai.uk 02
+  password: b504c8ce7f607a6c910ec5209e526b7e
+  port: 38888
+  server: 177.2.185.222
+  skip-cert-verify: true
+  sni: 177.2.185.222
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|JP - zhuhai.uk 02
+  name: 1|JP - zhuhai.uk 03
   network: tcp
-  port: 50159
+  port: 443
   reality-opts:
-    public-key: j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA
-    short-id: 091e1c5db8451757
-  server: 154.31.114.248
-  servername: www.cloudflare.com
+    public-key: 5qkRIcB3SAxOr6m76YHUHNFdhsaK7HXWPipELhPD8j4
+    short-id: 64299c2e
+  server: xaxaxa.kdns.fr
+  servername: www.oracle.com
   tls: true
   type: vless
   udp: true
-  uuid: d56624b2-35bb-468c-9b2a-e0b0df7230c1
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|JP - zhuhai.uk 01
-  network: tcp
-  port: 50159
-  reality-opts:
-    public-key: fLtEa_5BiN89xQDypfFMOu5o6DoUf6ch42jGdkXy6zE
-    short-id: 7f24526f7307c07a
-  server: 162.141.131.102
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 063e01c2-4c0f-418e-9375-3cc1312f635b
+  uuid: 5c958497-4461-499a-881b-b5e5bfeade62

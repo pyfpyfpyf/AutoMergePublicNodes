@@ -1,14 +1,8 @@
 proxies:
-- client-fingerprint: chrome
-  name: 1|DE - zhuhai.uk 02
-  network: tcp
-  port: 34156
-  reality-opts:
-    public-key: BsCp88E9PdpEDjC5bxLMP2tiJYK6afCPQT_CoxCVgAI
-    short-id: d6cdfdd9a21f8d23
-  server: de.propollcenter.site
-  servername: yahoo.com
+- name: 1|DE - zhuhai.uk 02
+  port: 443
+  server: 138.201.56.241
+  skip-cert-verify: true
+  sni: 138.201.56.241
   tls: true
-  type: vless
-  udp: true
-  uuid: 16c50a3f-b9bd-45f5-9bcd-76bf878876f6
+  type: http
