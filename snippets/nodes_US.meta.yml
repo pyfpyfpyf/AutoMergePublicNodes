@@ -83,7 +83,7 @@ proxies:
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|US_speednode_0137
+  name: 0,1|FR - zhuhai.uk 01
   network: tcp
   port: 39399
   reality-opts:
@@ -177,66 +177,30 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- name: 1|US - zhuhai.uk
-  network: ws
-  password: 7e7d81db-779d-4216-9b94-7a6a09874549
-  port: 443
-  server: 0000.cloudflare.182682.xyz
-  sni: huoyuznhhy5gkpj2g.usgogo202510.top
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: huoyuznhhy5gkpj2g.usgogo202510.top
-    path: /images
 - name: 1|US - zhuhai.uk 02
-  network: ws
-  password: 7e7d81db-779d-4216-9b94-7a6a09874549
-  port: 443
-  server: 104.19.174.68
-  sni: huojian.usfaster.top
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: huojian.usfaster.top
-    path: /images
-- name: 1|US - zhuhai.uk 03
+  password: 'null'
   port: 9002
-  server: 138.199.35.208
+  server: 138.199.35.212
+  skip-cert-verify: true
+  sni: 138.199.35.212
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 04
+  port: 443
+  server: fan.226278.xyz
+  sni: fan.226278.xyz
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 05
+  port: 9002
+  server: 138.199.35.219
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 04
-  network: ws
-  password: 7e7d81db-779d-4216-9b94-7a6a09874549
-  port: 443
-  server: 8888.cloudflare.182682.xyz
-  sni: huojian.usfaster.top
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: huojian.usfaster.top
-    path: /images
-- name: 1|US - zhuhai.uk 05
-  password: 901113fb-2ddd-4472-84bf-307de471f32f
-  port: 443
-  server: us-nyc.katanalink.net
+- name: 1|US - zhuhai.uk 06
+  port: 8090
+  server: 209.148.53.153
   skip-cert-verify: true
-  sni: us-nyc.katanalink.net
-  type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 01
-  network: tcp
-  port: 51486
-  reality-opts:
-    public-key: UB7YAOLuxMOFBejs3SSOIaiYCYk2X4UZH5j9iWbbIS4
-    short-id: 2576868adedf9fc0
-  server: 45.33.107.237
-  servername: www.nvidia.com
   tls: true
-  type: vless
-  udp: true
-  uuid: 72e4f3f6-3382-4a68-9817-8d65927e9bbd
+  type: http

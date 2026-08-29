@@ -1,26 +1,11 @@
 proxies:
-- cipher: aes-256-cfb
+- cipher: aes-128-gcm
   name: 1|KR - zhuhai.uk
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
+  password: 66b18308-128b-4817-8adc-0adfb03f3124
+  port: 40029
+  server: k6p9tz.5tencent.asia
   type: ss
 - name: 1|KR - zhuhai.uk 02
-  port: 1090
-  server: 121.169.46.116
+  port: 1080
+  server: 43.164.136.189
   type: socks5
-  username: T2c9PTo=
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|KR - zhuhai.uk 01
-  network: tcp
-  port: 28482
-  reality-opts:
-    public-key: 8fsYG_Pg35aeg1E5Gc3HUaXou2OUQee4ukxVk99iR0s
-    short-id: fa1e592603c283
-  server: 43.202.46.25
-  servername: www.intel.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 83973343-90db-423d-a5f7-2e3b56aeb8f4
