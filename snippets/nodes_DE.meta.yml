@@ -1,8 +1,14 @@
 proxies:
-- name: 1|DE - zhuhai.uk
-  password: 523486c6-c0b5-4e5b-8896-4af2375b41cc
-  port: 8443
-  server: 31.76.70.107
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk
+  port: 443
+  reality-opts:
+    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
+    short-id: 4fa44664f6a566d3
+  server: germany.superbuba.top
+  servername: germany.superbuba.top
   skip-cert-verify: true
-  sni: quic.tyr-agentstvo.tech
-  type: hysteria2
+  tls: true
+  type: vless
+  uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90

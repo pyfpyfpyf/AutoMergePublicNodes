@@ -178,57 +178,54 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 02
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 03
+  network: ws
+  password: 7e7d81db-779d-4216-9b94-7a6a09874549
   port: 443
-  server: fan.596189.xyz
+  server: 0000.cloudflare.182682.xyz
+  sni: huoyuznhhy5gkpj2g.usgogo202510.top
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: huoyuznhhy5gkpj2g.usgogo202510.top
+    path: /images
+- name: 1|US - zhuhai.uk 02
+  network: ws
+  password: 7e7d81db-779d-4216-9b94-7a6a09874549
+  port: 443
+  server: 104.19.174.68
+  sni: huojian.usfaster.top
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: huojian.usfaster.top
+    path: /images
+- name: 1|US - zhuhai.uk 03
+  port: 9002
+  server: 138.199.35.208
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 04
-  port: 9002
-  server: 138.199.35.199
+  network: ws
+  password: 7e7d81db-779d-4216-9b94-7a6a09874549
+  port: 443
+  server: 8888.cloudflare.182682.xyz
+  sni: huojian.usfaster.top
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: huojian.usfaster.top
+    path: /images
+- name: 1|US - zhuhai.uk 05
+  password: 901113fb-2ddd-4472-84bf-307de471f32f
+  port: 443
+  server: us-nyc.katanalink.net
   skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 05
-  port: 43595
-  reality-opts:
-    public-key: waNzNRIL_3TaF3UfgeAy1M5r8YVUeOA0nx3jPiXYZSE
-    short-id: e482c0320674c651
-  server: 45.33.62.166
-  servername: www.amd.com
-  tls: true
-  type: vless
-  uuid: 2642f590-2bce-4031-8f93-7eed983621f5
-- name: 1|US - zhuhai.uk 07
-  password: 'null'
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 08
-  password: 'null'
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
+  sni: us-nyc.katanalink.net
+  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 1|US - zhuhai.uk 01

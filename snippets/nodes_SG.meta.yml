@@ -1,19 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 1|SG - zhuhai.uk
-  network: ws
-  port: 16618
-  server: planb.mojcn.com.linuxlh.xin
-  type: vmess
-  uuid: b5f7ad86-9e40-4684-98f9-83f8136a1054
-  ws-opts:
-    headers:
-      Host: eeee7339c9f412913069ff64b12fb71f.mobgslb.tbcache.com
-    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|SG - zhuhai.uk 02
+  name: 1|SG - zhuhai.uk
   port: 15006
   reality-opts:
     public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
@@ -24,13 +12,32 @@ proxies:
   tls: true
   type: vless
   uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-- name: 1|SG - zhuhai.uk 03
-  password: f87376e17da040ed04c9665ce8972930
-  port: 50160
-  server: 138.2.73.238
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk 02
+  port: 22872
+  reality-opts:
+    public-key: RSikfX950b5w04iH_VvXYAkC5zku5qilSsSIJoXzyhc
+    short-id: 2798448b96fff0e0
+  server: 52.221.220.242
+  servername: www.intel.com
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+  tls: true
+  type: vless
+  uuid: 8abb4009-5efe-4d27-aa56-d50c37d2b1b8
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk 03
+  port: 15006
+  reality-opts:
+    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
+    short-id: 029a6cc4
+  server: 82.38.46.66
+  servername: www.adobe.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 1|SG - zhuhai.uk 06
