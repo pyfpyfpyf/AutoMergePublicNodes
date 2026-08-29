@@ -1,14 +1,74 @@
 proxies:
-- name: 1|JP - zhuhai.uk
-  password: b504c8ce7f607a6c910ec5209e526b7e
-  port: 38888
-  server: 177.2.185.222
-  skip-cert-verify: true
-  sni: 177.2.185.222
-  type: hysteria2
-- name: 1|JP - zhuhai.uk 02
-  port: 443
-  server: fan.571589.xyz
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk
+  port: 18614
+  reality-opts:
+    public-key: w0jjW_RLHvQc2tk_7sbxfBawdMlJZfb7rKROwg051gA
+    short-id: c6966bed91ecd9
+  server: 13.114.124.85
+  servername: www.tesla.com
   skip-cert-verify: true
   tls: true
+  type: vless
+  uuid: 926912d3-1656-4e83-9971-411b283f7998
+- alterId: 0
+  cipher: auto
+  name: 1|JP - zhuhai.uk 02
+  network: ws
+  port: 16617
+  server: p4.cnb.linuxlh.xin
+  type: vmess
+  uuid: 6ee2a7ba-cd92-427f-ac4f-2f8d284e316c
+  ws-opts:
+    headers:
+      Host: 5b22547ba5cc9b83a7a9534b4a7cf9ea.mobgslb.tbcache.com
+    path: /
+- name: 1|JP - zhuhai.uk 03
+  password: 'null'
+  port: 443
+  server: fan.571589.xyz
+  sni: fan.571589.xyz
+  tls: true
   type: http
+  username: 'null'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk 04
+  port: 47571
+  reality-opts:
+    public-key: OyfEDzOiDM5eMvTacJ4bVhF1V0QZgvz-vP3K456l3W4
+    short-id: 4c8b46e500b0f3ad
+  server: 35.78.59.6
+  servername: www.amd.com
+  tls: true
+  type: vless
+  uuid: 88a67610-b7ae-42ba-8af0-29cfa54cef37
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk 05
+  network: tcp
+  port: 59497
+  reality-opts:
+    public-key: l7ImR_EgkkLJ4BkITf0eHQcOazxENAz4EL8pQ1k5lko
+    short-id: d1d28c01d2c3c6
+  server: 54.178.54.169
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2c178adb-54c2-4eaa-8e30-1322d17922c4
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk 06
+  network: tcp
+  port: 27898
+  reality-opts:
+    public-key: Pd8NKW1KgKjHl6lzGTB3qIAThLbT7alN_I1uIbAQrxA
+    short-id: 9e638ff3d3d9265c
+  server: 54.95.137.141
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 40a726db-6815-44de-9c2f-80e7bfb8f81c

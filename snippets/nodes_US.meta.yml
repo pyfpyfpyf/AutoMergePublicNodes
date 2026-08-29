@@ -178,79 +178,68 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  port: 443
-  server: fan.226278.xyz
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
-  password: None
   port: 9002
-  server: 138.199.35.208
+  server: 138.199.35.219
   skip-cert-verify: true
-  sni: 138.199.35.208
   tls: true
   type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 03
-  port: 22222
-  server: 193.25.215.182
-  type: socks5
-- name: 1|US - zhuhai.uk 04
   port: 443
-  server: jewelscollecti.icu
+  server: fan.596189.xyz
   skip-cert-verify: true
-  sni: jewelscollecti.icu
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 05
-  password: None
+- name: 1|US - zhuhai.uk 04
   port: 9002
-  server: 138.199.35.211
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 05
+  port: 43595
+  reality-opts:
+    public-key: waNzNRIL_3TaF3UfgeAy1M5r8YVUeOA0nx3jPiXYZSE
+    short-id: e482c0320674c651
+  server: 45.33.62.166
+  servername: www.amd.com
+  tls: true
+  type: vless
+  uuid: 2642f590-2bce-4031-8f93-7eed983621f5
+- name: 1|US - zhuhai.uk 07
+  password: 'null'
+  port: 9002
+  server: 138.199.35.212
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 06
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 07
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  sni: 138.199.35.203
-  tls: true
-  type: http
 - name: 1|US - zhuhai.uk 08
   password: 'null'
   port: 9002
-  server: 138.199.35.215
+  server: 138.199.35.200
   skip-cert-verify: true
-  sni: 138.199.35.215
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 09
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 147.182.216.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: testuser1
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 1|US - zhuhai.uk 01
   network: tcp
-  port: 10974
+  port: 51486
   reality-opts:
-    public-key: rQHsnXffkul9uYK50Efqzu-KBZ6ZwKNZts86r8u3iEw
-    short-id: a727f329ba2a22
-  server: 45.33.107.60
-  servername: www.intel.com
+    public-key: UB7YAOLuxMOFBejs3SSOIaiYCYk2X4UZH5j9iWbbIS4
+    short-id: 2576868adedf9fc0
+  server: 45.33.107.237
+  servername: www.nvidia.com
   tls: true
   type: vless
   udp: true
-  uuid: da249715-4a6f-4873-ac3d-260f2b6e0065
+  uuid: 72e4f3f6-3382-4a68-9817-8d65927e9bbd

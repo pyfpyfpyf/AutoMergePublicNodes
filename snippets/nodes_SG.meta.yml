@@ -1,16 +1,103 @@
 proxies:
-- name: 1|SG - zhuhai.uk
-  port: 443
-  server: 156.146.56.97
+- alterId: 0
+  cipher: auto
+  name: 1|SG - zhuhai.uk
+  network: ws
+  port: 16618
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: b5f7ad86-9e40-4684-98f9-83f8136a1054
+  ws-opts:
+    headers:
+      Host: eeee7339c9f412913069ff64b12fb71f.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk 02
+  port: 15006
+  reality-opts:
+    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
+    short-id: 029a6cc4
+  server: nian.001.url111.kcloud02.top
+  servername: www.adobe.com
   skip-cert-verify: true
   tls: true
-  type: http
-- name: 1|SG - zhuhai.uk 02
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 146.70.29.45
+  type: vless
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+- name: 1|SG - zhuhai.uk 03
+  password: f87376e17da040ed04c9665ce8972930
+  port: 50160
+  server: 138.2.73.238
   skip-cert-verify: true
-  sni: 92461d2d.acsnet.co
+  sni: www.bing.com
+  type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk 06
+  network: tcp
+  port: 41077
+  reality-opts:
+    public-key: dd41CxgkW8Nzb4424-YNVaVkody-X9xAY30bUOjEohI
+    short-id: 3f7addb532645b1c
+  server: 13.212.253.233
+  servername: www.tesla.com
   tls: true
-  type: http
-  username: testuser1
+  type: vless
+  udp: true
+  uuid: 32d1be4e-5094-4881-984f-f927e9961edb
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk 07
+  network: tcp
+  port: 52457
+  reality-opts:
+    public-key: nA2aGvkk6Wf3NvrKavmZg_g01xujyrYAiCJS4x0kFHc
+    short-id: 93ed34c8eea01f
+  server: 54.254.51.144
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 81853004-816d-40c1-973f-2be269ba8051
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk 01
+  network: tcp
+  port: 54489
+  reality-opts:
+    public-key: b8P0DSI3bftNNT3I9QN_BDSdJ6RT8_aNXDcwwhelnzk
+    short-id: cc7a57d36b14c736
+  server: 3.1.248.148
+  servername: www.tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e0e09114-371e-4d87-b2f0-d7ee58be74a9
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk 05
+  network: tcp
+  port: 53836
+  reality-opts:
+    public-key: zKRmiqB6phUSq8EO4PIujKNHeNZP3JVWLwCKX8iKgVA
+    short-id: 89dd6fba1e43
+  server: 54.254.241.82
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a205aa45-9314-43c6-ab0f-8718c573ee78
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk 04
+  network: tcp
+  port: 26017
+  reality-opts:
+    public-key: cy4ePzAdSz4pqRmAXXchMIgSoSKo8qjq2qLk5805LRA
+    short-id: af1c2e33b0c7dad7
+  server: 54.251.224.5
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d318cdac-0033-4b6e-98bf-35116e79c93f

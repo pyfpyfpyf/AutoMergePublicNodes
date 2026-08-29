@@ -1,49 +1,36 @@
 proxies:
-- cipher: aes-256-cfb
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
   name: 1|KR - zhuhai.uk
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
-- client-fingerprint: chrome
+  network: grpc
+  port: 10046
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr1-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+- name: 1|KR - zhuhai.uk 02
+  password: 9cfc9458e48c028ec03ff86ebc71c744
+  port: 50160
+  server: 150-230-252-217.liao.kdns.fr
+  skip-cert-verify: true
+  sni: 150-230-252-217.liao.kdns.fr
+  type: hysteria2
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 1|KR - zhuhai.uk 02
-  port: 25636
-  reality-opts:
-    public-key: 3q6CuhLN7vMBISVK5PGjjlGKrRlub5VerIonNSL4c1o
-    short-id: f34d0b76b7af0199
-  server: kghgalybqwqqnqnbdb.jiedddym.com
-  servername: www.apple.com
-  tls: true
-  type: vless
-  uuid: 0234cdd9-35ee-40a5-b698-9820f09a04f5
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
   name: 1|KR - zhuhai.uk 01
-  network: grpc
-  port: 10047
+  network: tcp
+  port: 28482
   reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: kr2-r.link-t7.com
-  servername: s0.awsstatic.com
+    public-key: 8fsYG_Pg35aeg1E5Gc3HUaXou2OUQee4ukxVk99iR0s
+    short-id: fa1e592603c283
+  server: 43.202.46.25
+  servername: www.intel.com
   tls: true
   type: vless
   udp: true
-  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 1|KR - zhuhai.uk 03
-  network: grpc
-  port: 10049
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: kr4-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+  uuid: 83973343-90db-423d-a5f7-2e3b56aeb8f4
