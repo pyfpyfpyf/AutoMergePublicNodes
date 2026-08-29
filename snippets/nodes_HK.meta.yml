@@ -1,5 +1,5 @@
 proxies:
-- client-fingerprint: random
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|HK - zhuhai.uk
   port: 15003
@@ -8,6 +8,15 @@ proxies:
     short-id: 4c517b9e
   server: nian.001.url111.kcloud02.top
   servername: www.cloudflare.com
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+- name: 1|HK - zhuhai.uk 02
+  password: 'null'
+  port: 443
+  server: fan.240104.xyz
+  sni: fan.240104.xyz
+  tls: true
+  type: http
+  username: 'null'
