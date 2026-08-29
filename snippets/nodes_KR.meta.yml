@@ -1,39 +1,47 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 1|KR - zhuhai.uk
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
+  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|KR - zhuhai.uk
-  port: 28108
-  reality-opts:
-    public-key: V7aQPeJYEgNHcw1A35n3uLby2sOASOAyz7vtjajBfwM
-    short-id: 2f7be5d0
-  server: gndybirds.sparrowvl08.gjtxyszcicaly.com
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 3c148b74-b901-400d-8957-6195e1254e47
-- client-fingerprint: chrome
   name: 1|KR - zhuhai.uk 02
-  network: ws
-  port: 18047
-  server: 121.173.93.124
-  servername: grc.ccwu.cc
+  port: 25636
+  reality-opts:
+    public-key: 3q6CuhLN7vMBISVK5PGjjlGKrRlub5VerIonNSL4c1o
+    short-id: f34d0b76b7af0199
+  server: kghgalybqwqqnqnbdb.jiedddym.com
+  servername: www.apple.com
   tls: true
   type: vless
-  uuid: a30a3f37-1ab2-46bd-8c6b-a26d7c775f2a
-  ws-opts:
-    headers:
-      Host: grc.ccwu.cc
-    path: /?ed=2560
+  uuid: 0234cdd9-35ee-40a5-b698-9820f09a04f5
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: update
   name: 1|KR - zhuhai.uk 01
   network: grpc
-  port: 10050
+  port: 10047
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: 686c0ef0
-  server: kr5-r.link-t7.com
+  server: kr2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  name: 1|KR - zhuhai.uk 03
+  network: grpc
+  port: 10049
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr4-r.link-t7.com
   servername: s0.awsstatic.com
   tls: true
   type: vless

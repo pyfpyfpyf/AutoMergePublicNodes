@@ -1,28 +1,16 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|SG - zhuhai.uk
-  port: 28151
-  reality-opts:
-    public-key: HBeH_uPYOMp9D7Mq1KxBzduX07OZ9C8rT4zSHNjiO3g
-    short-id: c1cd56a8
-  server: guzsasfreuivcluie51.gxsdfewocinexuxiqee.com
-  servername: www.cloudflare.com
+- name: 1|SG - zhuhai.uk
+  port: 443
+  server: 156.146.56.97
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: 3c148b74-b901-400d-8957-6195e1254e47
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 1|SG - zhuhai.uk 01
-  network: grpc
-  port: 10038
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg3-r.link-t7.com
-  servername: d1.awsstatic.com
+  type: http
+- name: 1|SG - zhuhai.uk 02
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 146.70.29.45
+  skip-cert-verify: true
+  sni: 92461d2d.acsnet.co
   tls: true
-  type: vless
-  udp: true
-  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+  type: http
+  username: testuser1

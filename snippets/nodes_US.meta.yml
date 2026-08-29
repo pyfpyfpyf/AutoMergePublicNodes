@@ -177,149 +177,80 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk
-  network: ws
+- name: 1|US - zhuhai.uk
   port: 443
-  server: auctions.ihg.com.cn
-  servername: grc.ccwu.cc
+  server: fan.226278.xyz
   tls: true
-  type: vless
-  uuid: a30a3f37-1ab2-46bd-8c6b-a26d7c775f2a
-  ws-opts:
-    headers:
-      Host: grc.ccwu.cc
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 02
-  network: ws
+  type: http
+- name: 1|US - zhuhai.uk 02
+  password: None
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  sni: 138.199.35.208
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 03
+  port: 22222
+  server: 193.25.215.182
+  type: socks5
+- name: 1|US - zhuhai.uk 04
   port: 443
-  server: cdnjs.com
-  servername: grc.ccwu.cc
+  server: jewelscollecti.icu
+  skip-cert-verify: true
+  sni: jewelscollecti.icu
   tls: true
-  type: vless
-  uuid: a30a3f37-1ab2-46bd-8c6b-a26d7c775f2a
-  ws-opts:
-    headers:
-      Host: grc.ccwu.cc
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 03
-  network: ws
-  port: 443
-  server: cloudflare-ech.com
-  servername: grc.ccwu.cc
-  tls: true
-  type: vless
-  uuid: a30a3f37-1ab2-46bd-8c6b-a26d7c775f2a
-  ws-opts:
-    headers:
-      Host: grc.ccwu.cc
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 04
-  network: ws
-  port: 443
-  server: pages.dev
-  servername: grc.ccwu.cc
-  tls: true
-  type: vless
-  uuid: a30a3f37-1ab2-46bd-8c6b-a26d7c775f2a
-  ws-opts:
-    headers:
-      Host: grc.ccwu.cc
-    path: /?ed=2560
+  type: http
 - name: 1|US - zhuhai.uk 05
-  password: 'null'
+  password: None
   port: 9002
-  server: 138.199.35.202
+  server: 138.199.35.211
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 06
-  network: ws
-  port: 443
-  server: www.allianz.com
-  servername: grc.ccwu.cc
+- name: 1|US - zhuhai.uk 06
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: a30a3f37-1ab2-46bd-8c6b-a26d7c775f2a
-  ws-opts:
-    headers:
-      Host: grc.ccwu.cc
-    path: /?ed=2560
+  type: http
 - name: 1|US - zhuhai.uk 07
-  port: 443
-  server: purecambogiasl.live
-  sni: purecambogiasl.live
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 08
-  network: ws
-  port: 443
-  server: engage.cloudflareclient.com
-  servername: grc.ccwu.cc
-  tls: true
-  type: vless
-  uuid: a30a3f37-1ab2-46bd-8c6b-a26d7c775f2a
-  ws-opts:
-    headers:
-      Host: grc.ccwu.cc
-    path: /?ed=2560
-- name: 1|US - zhuhai.uk 09
-  password: 'null'
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 10
-  network: ws
-  port: 443
-  server: www.leics.police.uk
-  servername: grc.ccwu.cc
-  tls: true
-  type: vless
-  uuid: a30a3f37-1ab2-46bd-8c6b-a26d7c775f2a
-  ws-opts:
-    headers:
-      Host: grc.ccwu.cc
-    path: /?ed=2560
-- name: 1|US - zhuhai.uk 11
   port: 9002
   server: 138.199.35.203
   skip-cert-verify: true
   sni: 138.199.35.203
   tls: true
   type: http
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 12
-  network: ws
+- name: 1|US - zhuhai.uk 08
+  password: 'null'
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  sni: 138.199.35.215
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 09
+  password: e4b72b531a2d10900519
   port: 443
-  server: bestcf.030101.xyz
-  servername: grc.ccwu.cc
+  server: 147.182.216.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: testuser1
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 01
+  network: tcp
+  port: 10974
+  reality-opts:
+    public-key: rQHsnXffkul9uYK50Efqzu-KBZ6ZwKNZts86r8u3iEw
+    short-id: a727f329ba2a22
+  server: 45.33.107.60
+  servername: www.intel.com
   tls: true
   type: vless
-  uuid: a30a3f37-1ab2-46bd-8c6b-a26d7c775f2a
-  ws-opts:
-    headers:
-      Host: grc.ccwu.cc
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 13
-  network: ws
-  port: 443
-  server: www.asda.com
-  servername: grc.ccwu.cc
-  tls: true
-  type: vless
-  uuid: a30a3f37-1ab2-46bd-8c6b-a26d7c775f2a
-  ws-opts:
-    headers:
-      Host: grc.ccwu.cc
-    path: /?ed=2560
+  udp: true
+  uuid: da249715-4a6f-4873-ac3d-260f2b6e0065

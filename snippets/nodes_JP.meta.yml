@@ -1,19 +1,14 @@
 proxies:
 - name: 1|JP - zhuhai.uk
-  password: '!!str 123456'
-  port: 1080
-  server: 8.209.236.192
-  type: socks5
-  username: '123456'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|JP - zhuhai.uk 02
-  port: 28115
-  reality-opts:
-    public-key: V7aQPeJYEgNHcw1A35n3uLby2sOASOAyz7vtjajBfwM
-    short-id: 2f7be5d0
-  server: gumagician.clownlv15.gjtxyszcicaly.com
-  servername: www.cloudflare.com
+  password: b504c8ce7f607a6c910ec5209e526b7e
+  port: 38888
+  server: 177.2.185.222
+  skip-cert-verify: true
+  sni: 177.2.185.222
+  type: hysteria2
+- name: 1|JP - zhuhai.uk 02
+  port: 443
+  server: fan.571589.xyz
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: 3c148b74-b901-400d-8957-6195e1254e47
+  type: http
