@@ -1,14 +1,15 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk
-  port: 15003
-  reality-opts:
-    public-key: R_3usai5pYqcc0aIzXPfaoe-VE_7JOe60fUNMicwfQ8
-    short-id: 4c517b9e
-  server: nian.001.url111.kcloud02.top
-  servername: www.cloudflare.com
+- name: 1|HK - zhuhai.uk
+  password: zssrOQ
+  port: 7008
+  server: api.meituan88.com
+  skip-cert-verify: true
+  sni: globalnetworktraffic.com
+  type: anytls
+  udp: true
+- name: 1|HK - zhuhai.uk 02
+  port: 443
+  server: fan.240104.xyz
   skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+  type: http

@@ -14,7 +14,7 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: 0|US_speednode_0131
+- name: 0,1|US - zhuhai.uk 06
   password: 'null'
   port: 9002
   server: 138.199.35.216
@@ -178,37 +178,40 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  password: None
+  password: 'null'
   port: 9002
-  server: 138.199.35.208
+  server: 138.199.35.205
   skip-cert-verify: true
-  sni: 138.199.35.208
+  sni: 138.199.35.205
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 02
   port: 443
-  server: 23.82.137.230
-  skip-cert-verify: true
+  server: crosscards.site
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 03
-  port: 10801
-  server: 152.53.53.54
+  password: test123
+  port: 1080
+  server: 185.145.99.41
   type: socks5
+  username: test123
 - name: 1|US - zhuhai.uk 04
-  password: None
   port: 9002
-  server: 138.199.35.204
+  server: 138.199.35.216
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 05
-  password: 'null'
-  port: 8090
-  server: 209.148.53.153
+  port: 443
+  server: fan.596189.xyz
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
+- name: 1|US - zhuhai.uk 07
+  port: 443
+  server: berniesbodybla.fun
+  sni: berniesbodybla.fun
+  tls: true
+  type: http
