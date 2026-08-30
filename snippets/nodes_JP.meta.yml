@@ -1,6 +1,19 @@
 proxies:
-- name: 1|JP - zhuhai.uk
-  port: 10000
-  server: 14.137.238.140
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk
+  port: 55555
+  reality-opts:
+    public-key: 1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4
+    short-id: af317506
+  server: uh-jp01.ziyoufly.xyz
+  servername: pypi.org
+  tls: true
   type: vless
-  uuid: 6f361c37-bc54-43dd-8c8b-0f59354745a5
+  uuid: c2a08e4d-da8f-435e-90e8-65600ee185be
+- name: 1|JP - zhuhai.uk 02
+  port: 443
+  server: fan.571589.xyz
+  sni: fan.571589.xyz
+  tls: true
+  type: http

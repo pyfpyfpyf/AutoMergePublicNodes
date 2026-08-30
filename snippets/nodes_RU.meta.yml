@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- name: 1|RU - zhuhai.uk
+  network: ws
+  port: 14443
+  server: mws.tunnelgate.org
+  servername: mws.tunnelgate.org
+  tls: true
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  ws-opts:
+    headers:
+      Host: mws.tunnelgate.org
+    path: /ru

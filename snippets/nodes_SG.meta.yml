@@ -1,53 +1,14 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 1|SG - zhuhai.uk
-  password: 66b18308-128b-4817-8adc-0adfb03f3124
-  port: 40026
-  server: k6p9tz.5tencent.asia
-  type: ss
-- name: 1|SG - zhuhai.uk 02
-  password: 436114b5f36b2e704bdfa0927d57b6cd
-  port: 50160
-  server: 47.241.108.227
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk 02
+  port: 15006
+  reality-opts:
+    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
+    short-id: 029a6cc4
+  server: nian.001.url111.kcloud02.top
+  servername: www.adobe.com
   skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 1|SG - zhuhai.uk 07
-  network: tcp
-  port: 8444
-  reality-opts:
-    public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
-  server: 140.245.109.76
-  servername: tesla.com
   tls: true
   type: vless
-  udp: true
-  uuid: a2adde9c-4714-4b7c-9f4c-5b32d85df5b6
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 1|SG - zhuhai.uk 06
-  network: tcp
-  port: 8444
-  reality-opts:
-    public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
-  server: 140.245.109.76
-  servername: tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e0a73956-4621-4772-9a8f-d15114a99d12
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 1|SG - zhuhai.uk 01
-  network: tcp
-  port: 8444
-  reality-opts:
-    public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
-  server: 140.245.109.76
-  servername: tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c606644a-9b60-446e-93d2-19243373003a
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
