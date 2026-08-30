@@ -1,5 +1,14 @@
 proxies:
-- name: 1|FR - zhuhai.uk 02
-  port: 1088
-  server: 51.178.49.241
-  type: socks5
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 1|FR - zhuhai.uk 03
+  network: tcp
+  port: 8444
+  reality-opts:
+    public-key: Pgzq-J8UfuBeYi0XSVTn3uYYmi9Rm2dpegks9Ko8M0Y
+  server: 129.151.239.170
+  servername: tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e199ac6c-2528-485a-959d-8351a93f966b

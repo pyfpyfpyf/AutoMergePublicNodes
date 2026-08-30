@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- name: 1|GB - zhuhai.uk
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|GB - zhuhai.uk 01
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: tPyAWkalFM4yi9lYY0zLDRxQyfSwPDwiexAy9QOjrWI
+    short-id: 42171a632f3b99ed
+  server: 95.154.221.153
+  servername: strapi.io
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6c245314-225b-4999-9051-180b8dba117c
