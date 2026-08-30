@@ -14,7 +14,7 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: 0,1|US - zhuhai.uk 02
+- name: 0|US_speednode_0131
   password: 'null'
   port: 9002
   server: 138.199.35.216
@@ -68,7 +68,7 @@ proxies:
   uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|US_speednode_0136
+  name: 0,1|FR - zhuhai.uk 03
   network: tcp
   port: 29893
   reality-opts:
@@ -76,14 +76,14 @@ proxies:
     short-id: bc8e3658db7d1323
   server: 155.117.199.13
   servername: cdnjs.cloudflare.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,1|FR - zhuhai.uk 01
+  name: 0,1|FR - zhuhai.uk
   network: tcp
   port: 39399
   reality-opts:
@@ -91,7 +91,7 @@ proxies:
     short-id: bc8e3658db7d1323
   server: 155.117.199.13
   servername: cdnjs.cloudflare.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -142,7 +142,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|US_speednode_0142
+  name: 0,1|KR - zhuhai.uk 01
   network: tcp
   port: 39211
   reality-opts:
@@ -180,44 +180,57 @@ proxies:
 - name: 1|US - zhuhai.uk
   password: 'null'
   port: 9002
-  server: 138.199.35.218
+  server: 138.199.35.220
   skip-cert-verify: true
+  sni: 138.199.35.220
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 02
+  password: None
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  sni: 138.199.35.209
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 03
+  password: 'null'
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 04
   port: 443
-  server: fan.596189.xyz
+  reality-opts:
+    public-key: iusZvFfHH5OJ6sAPFF6e7Km9WP0nmWfjXXfhTQuSR24
+    short-id: 8b6e932c
+  server: pq.aws67.yydjc.top
+  servername: updates.cdn-apple.com
   tls: true
-  type: http
-- name: 1|US - zhuhai.uk 08
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  sni: 138.199.35.219
+  type: vless
+  uuid: 2bac0164-8ff3-4027-9c9f-3401fa4671c0
+- cipher: aes-256-cfb
+  name: 1|US - zhuhai.uk 05
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  type: ss
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 06
+  network: ws
+  port: 2096
+  server: 172.64.151.254
+  servername: oyue.rainfall0705.cc.cd
   tls: true
-  type: http
-- name: 1|US - zhuhai.uk 05
-  password: 'null'
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  sni: 138.199.35.212
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 06
-  password: e9a98960-e28b-434d-984d-c0aee9df8978
-  port: 7001
-  server: 66.154.113.16
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-- name: 1|US - zhuhai.uk 07
-  password: 'null'
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
+  type: vless
+  uuid: 341832cc-ba98-425b-8225-b3db621a0da3
+  ws-opts:
+    headers:
+      Host: oyue.rainfall0705.cc.cd
+    path: /
