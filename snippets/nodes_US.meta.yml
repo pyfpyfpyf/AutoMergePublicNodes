@@ -133,7 +133,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 07
+- name: 0|US_speednode_0141
   port: 443
   server: 38.28.193.188
   skip-cert-verify: true
@@ -179,43 +179,45 @@ proxies:
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
   password: 'null'
+  port: 443
+  server: 38.28.193.188
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 02
+  password: None
   port: 9002
-  server: 138.199.35.213
+  server: 138.199.35.210
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 03
   password: 'null'
-  port: 443
-  server: fan.596189.xyz
+  port: 9002
+  server: 138.199.35.204
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 04
   port: 9002
-  server: 138.199.35.211
+  server: 138.199.35.215
   skip-cert-verify: true
-  sni: 138.199.35.211
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 05
-  password: None
+- name: 1|US - zhuhai.uk 06
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  sni: 138.199.35.214
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 07
   port: 443
-  server: crosscards.site
+  server: fan.596189.xyz
+  skip-cert-verify: true
+  sni: fan.596189.xyz
   tls: true
   type: http
-  username: 'null'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 06
-  port: 7800
-  reality-opts:
-    public-key: GDfuRpdZtjy5U6ReEAYHuXKQviqRH_iEei4b1RhX5jI
-    short-id: 8447e29c
-  server: 154.12.56.179
-  servername: www.python.org
-  tls: true
-  type: vless
-  uuid: e765764a-5f3c-403e-9e53-05f541309f67
