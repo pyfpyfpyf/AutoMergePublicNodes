@@ -1,8 +1,27 @@
 proxies:
-- name: 1|SG - zhuhai.uk
-  password: f87376e17da040ed04c9665ce8972930
-  port: 50160
-  server: 138.2.73.238
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk 03
+  network: tcp
+  port: 8444
+  reality-opts:
+    public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
+  server: 140.245.109.76
+  servername: tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9d4e62b2-b2fd-46bf-b63b-e129edd1524d
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk 01
+  network: tcp
+  port: 8444
+  reality-opts:
+    public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
+  server: 140.245.109.76
+  servername: tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ca9df148-e636-47fe-9af6-fe8fe3eec197
