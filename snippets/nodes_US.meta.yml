@@ -14,7 +14,7 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: 0,1|US - zhuhai.uk 03
+- name: 0|US_speednode_0131
   password: 'null'
   port: 9002
   server: 138.199.35.216
@@ -178,25 +178,72 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
+  network: ws
+  port: 443
+  server: 172.67.156.222
+  servername: 6-m16.CHiAN-mAI-6.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 6-M16.chiaN-MAi-6.KDns.fR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- cipher: aes-256-cfb
+  name: 1|US - zhuhai.uk 02
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  type: ss
+- name: 1|US - zhuhai.uk 03
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 04
   password: e4b72b531a2d10900519
   port: 443
-  server: 107.151.238.27
-  sni: 6b97ee1b.acsnet.co
+  server: 162.243.146.243
+  sni: a2f392f3.acsnet.co
   tls: true
   type: http
   username: testuser1
-- name: 1|US - zhuhai.uk 02
-  network: ws
-  password: 8oUrvxh0mGkzTknV
+- name: 1|US - zhuhai.uk 05
   port: 443
-  server: 172.66.44.113
-  sni: X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV
+  server: fan.596189.xyz
+  skip-cert-verify: true
   tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: x4fta9t-k6qyj-z3ic12a2alp.pages.dev
-    path: /tr/umNfhlIvgJV03yVilevkSR5ZotMtq
+  type: http
+- name: 1|US - zhuhai.uk 06
+  password: 'null'
+  port: 443
+  server: purecambogiasl.live
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 07
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 08
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- name: 1|US - zhuhai.uk 09
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 147.182.216.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: testuser1
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: movie

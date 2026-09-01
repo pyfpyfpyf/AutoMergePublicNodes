@@ -1,55 +1,49 @@
 proxies:
-- name: 1|US - zhuhai.uk 02
-  network: ws
-  password: 8oUrvxh0mGkzTknV
-  port: 443
-  server: 172.66.44.113
-  sni: X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: x4fta9t-k6qyj-z3ic12a2alp.pages.dev
-    path: /tr/umNfhlIvgJV03yVilevkSR5ZotMtq
-- alterId: 0
-  cipher: auto
-  name: 1|HK - zhuhai.uk 02
-  network: ws
-  port: 16632
-  server: m.cnmjin.net
-  type: vmess
-  uuid: 75d8194d-cd07-4690-bb8c-4fdb509eb8ca
-  ws-opts:
-    headers:
-      Host: b1a2e0a36f2740e720c3e722318ea788.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|IN - zhuhai.uk
-  network: ws
-  port: 16626
-  server: planb.mojcn.com.linuxlh.xin
-  type: vmess
-  uuid: 45c4a7a4-a1d4-4657-a92a-ab45558afac0
-  ws-opts:
-    headers:
-      Host: 6418046cd66ae322ebd1b8f4d82fd12c.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|HK - zhuhai.uk 03
-  network: ws
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
-  type: vmess
-  uuid: 2498a366-dd3c-4f0b-832c-f2df12f7ee27
-  ws-opts:
-    headers:
-      Host: 791f9b5b1318471268a2dc21098376cc.mobgslb.tbcache.com
-    path: /
+- cipher: aes-128-gcm
+  name: 1|HR - zhuhai.uk
+  password: 07c79546-2bf5-446b-b817-0c0084ffb770
+  port: 35193
+  server: q5h8zr.5tencent.asia
+  type: ss
 - cipher: aes-256-cfb
-  name: 1|TH - zhuhai.uk
+  name: 1|US - zhuhai.uk 02
   password: 7eadc6dbe2ae
   port: 65443
-  server: 103.169.67.34
+  server: 121.46.230.233
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|GB - zhuhai.uk 03
+  password: amazonskr05
+  port: 443
+  server: 18.132.203.206
+  type: ss
+- cipher: aes-128-gcm
+  name: 1|RU - zhuhai.uk
+  password: 07c79546-2bf5-446b-b817-0c0084ffb770
+  port: 40040
+  server: q5h8zr.5tencent.asia
+  type: ss
+- cipher: aes-128-gcm
+  name: 1|MX - zhuhai.uk
+  password: 07c79546-2bf5-446b-b817-0c0084ffb770
+  port: 35028
+  server: q5h8zr.5tencent.asia
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1|HK - zhuhai.uk
+  network: ws
+  port: 16632
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: 522bf832-cb94-4588-bb4e-a578d1f72603
+  ws-opts:
+    headers:
+      Host: bc35dd8f9bb478fdf27856815a6d1dc8.mobgslb.tbcache.com
+    path: /
+- cipher: aes-128-gcm
+  name: 1|SG - zhuhai.uk
+  password: 07c79546-2bf5-446b-b817-0c0084ffb770
+  port: 40022
+  server: q5h8zr.5tencent.asia
   type: ss

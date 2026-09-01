@@ -1,33 +1,17 @@
 proxies:
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
+- cipher: aes-128-gcm
   name: 1|SG - zhuhai.uk
-  network: grpc
-  port: 10036
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg1-r.link-t7.com
-  servername: s0.awsstatic.com
+  password: 07c79546-2bf5-446b-b817-0c0084ffb770
+  port: 40022
+  server: q5h8zr.5tencent.asia
+  type: ss
+- name: 1|SG - zhuhai.uk 02
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 1933
+  server: sg1.xiaoliyu.cyou
   skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 1|SG - zhuhai.uk 02
-  network: grpc
-  port: 10036
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg1-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+  sni: sg1.xiaoliyu.cyou
+  type: hysteria2
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: update

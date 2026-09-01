@@ -1,20 +1,16 @@
 proxies:
 - client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
   name: 1|KR - zhuhai.uk
-  network: ws
-  port: 12150
-  server: 61.85.1.77
-  servername: me.instll.filegear-sg.me
+  network: grpc
+  port: 10049
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr4-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: fb3db213-29ba-45b5-ac7f-beec1efce689
-  ws-opts:
-    headers:
-      Host: me.instll.filegear-sg.me
-    path: /discount/lesson/directory
-- name: 1|KR - zhuhai.uk 02
-  password: 1beb216e3f60aea9555dae60d219a5ca
-  port: 50160
-  server: 152-69-231-175.liao.kdns.fr
-  sni: 152-69-231-175.liao.kdns.fr
-  type: hysteria2
+  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
