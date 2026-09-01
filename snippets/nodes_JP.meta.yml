@@ -1,75 +1,11 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|JP - zhuhai.uk
-  port: 15007
-  reality-opts:
-    public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA
-    short-id: 2c4d005b
-  server: 82.38.46.66
-  servername: www.bing.com
-  tls: true
-  type: vless
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-- alterId: 0
-  cipher: auto
-  name: 1|JP - zhuhai.uk 02
-  network: ws
-  port: 16617
-  server: planb.mojcn.com.linuxlh.xin
-  type: vmess
-  uuid: ca68cf56-7c3c-4127-816e-7442de9176b7
-  ws-opts:
-    headers:
-      Host: 7ddc7ef7c7f198c5e7dbed9634157ca7.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|JP - zhuhai.uk 03
-  network: ws
-  port: 16617
-  server: planb.mojcn.com.linuxlh.xin
-  type: vmess
-  uuid: 75d8194d-cd07-4690-bb8c-4fdb509eb8ca
-  ws-opts:
-    headers:
-      Host: b1a2e0a36f2740e720c3e722318ea788.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|JP - zhuhai.uk 04
-  network: ws
-  port: 8555
-  server: 54.168.242.25
-  type: vmess
-  uuid: 7aa3a024-e333-4b63-99a2-3db9d3b2054e
-  ws-opts:
-    headers:
-      Host: a.189.cn
-    path: /
-- name: 1|JP - zhuhai.uk 05
-  port: 443
-  server: fan.571589.xyz
-  sni: fan.571589.xyz
-  tls: true
-  type: http
-- name: 1|JP - zhuhai.uk 06
-  password: 'null'
-  port: 443
-  server: fan.571589.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|JP - zhuhai.uk 07
-  port: 15007
-  reality-opts:
-    public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA
-    short-id: 2c4d005b
-  server: nian.001.url111.kcloud02.top
-  servername: www.bing.com
-  tls: true
-  type: vless
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+- name: 1|JP - zhuhai.uk
+  port: 10808
+  server: 101.36.104.239
+  type: socks5
+- name: 1|JP - zhuhai.uk 02
+  password: '!!str 123456'
+  port: 1080
+  server: 8.209.236.192
+  type: socks5
+  username: '123456'
