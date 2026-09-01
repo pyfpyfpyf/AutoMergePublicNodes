@@ -1,49 +1,52 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 1|HR - zhuhai.uk
-  password: 07c79546-2bf5-446b-b817-0c0084ffb770
-  port: 35193
-  server: q5h8zr.5tencent.asia
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|US - zhuhai.uk 02
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.233
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|GB - zhuhai.uk 03
-  password: amazonskr05
-  port: 443
-  server: 18.132.203.206
-  type: ss
-- cipher: aes-128-gcm
-  name: 1|RU - zhuhai.uk
-  password: 07c79546-2bf5-446b-b817-0c0084ffb770
-  port: 40040
-  server: q5h8zr.5tencent.asia
-  type: ss
-- cipher: aes-128-gcm
-  name: 1|MX - zhuhai.uk
-  password: 07c79546-2bf5-446b-b817-0c0084ffb770
-  port: 35028
-  server: q5h8zr.5tencent.asia
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 1|HK - zhuhai.uk
+  name: 1|IN - zhuhai.uk
   network: ws
-  port: 16632
-  server: t.cnmjcn.cyou
+  port: 16626
+  server: planb.mojcn.com.linuxlh.xin
   type: vmess
-  uuid: 522bf832-cb94-4588-bb4e-a578d1f72603
+  uuid: a004e196-8e94-4d17-b95d-fa02fa68038e
   ws-opts:
     headers:
-      Host: bc35dd8f9bb478fdf27856815a6d1dc8.mobgslb.tbcache.com
+      Host: 4b413f3013048c48708eb5ac1ac3d90d.mobgslb.tbcache.com
     path: /
-- cipher: aes-128-gcm
-  name: 1|SG - zhuhai.uk
-  password: 07c79546-2bf5-446b-b817-0c0084ffb770
-  port: 40022
-  server: q5h8zr.5tencent.asia
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1|IN - zhuhai.uk 02
+  network: ws
+  port: 16626
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: 62e0878c-ff8c-4a67-b18f-89886e24750c
+  ws-opts:
+    headers:
+      Host: 706a0a2fb2f7729acf9a103060a7abc3.mobgslb.tbcache.com
+    path: /
+- name: 1|HK - zhuhai.uk
+  password: 5b5b69cd-c9f6-3117-8f4f-0e9bff3811b7
+  port: 14437
+  server: adakv1-h05.sonofthewinds.com
+  sni: vk5.sonofthewinds.com
+  tls: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 1|HK - zhuhai.uk 02
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: bc8a58c9-a544-4f85-87cf-274f6eb4d8cb
+  ws-opts:
+    headers:
+      Host: 9531724e3efc3135bdf7f4339b2e04d7.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|CA - zhuhai.uk
+  network: http
+  port: 49432
+  server: 38.47.121.14
+  type: vmess
+  uuid: ce94f204-ffa6-4fa8-a1dc-ecfccfd463cb
