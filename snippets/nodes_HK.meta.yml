@@ -1,20 +1,84 @@
 proxies:
 - name: 1|HK - zhuhai.uk
-  password: 5b5b69cd-c9f6-3117-8f4f-0e9bff3811b7
-  port: 14437
-  server: adakv1-h05.sonofthewinds.com
-  sni: vk5.sonofthewinds.com
-  tls: true
-  type: trojan
-- alterId: 0
-  cipher: auto
+  port: 30001
+  server: 45.194.33.12
+  type: socks5
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: movie
   name: 1|HK - zhuhai.uk 02
-  network: ws
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
-  type: vmess
-  uuid: bc8a58c9-a544-4f85-87cf-274f6eb4d8cb
-  ws-opts:
-    headers:
-      Host: 9531724e3efc3135bdf7f4339b2e04d7.mobgslb.tbcache.com
-    path: /
+  network: grpc
+  port: 10128
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk3-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  name: 1|HK - zhuhai.uk 03
+  network: grpc
+  port: 10127
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk2-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+- name: 1|HK - zhuhai.uk 04
+  port: 443
+  server: hk40.240104.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: movie
+  name: 1|HK - zhuhai.uk 01
+  network: grpc
+  port: 10136
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk6-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 06
+  network: tcp
+  port: 10024
+  reality-opts:
+    public-key: FOb0ZkxJkEGs2Z0FUD__78hraM4jz1zYVaHzIanK8Gs
+    short-id: b2
+  server: family.bucket.zjs.h.1.0.kfc-520.com
+  servername: www.hp.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c2564a65-0821-3241-b090-45d49cef58fd
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 08
+  network: tcp
+  port: 10022
+  reality-opts:
+    public-key: FmSty5DyZmIEu6Yg8KhYmE-JqqWxFaesDlrk9pJweS4
+    short-id: fbb093
+  server: family.bucket.zjs.h.1.0.kfc-520.com
+  servername: www.hp.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c2564a65-0821-3241-b090-45d49cef58fd
