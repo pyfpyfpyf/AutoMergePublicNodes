@@ -1,11 +1,52 @@
 proxies:
-- name: 1|JP - zhuhai.uk
-  port: 10808
-  server: 101.36.104.239
-  type: socks5
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk
+  port: 15007
+  reality-opts:
+    public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA
+    short-id: 2c4d005b
+  server: 82.38.46.66
+  servername: www.bing.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
 - name: 1|JP - zhuhai.uk 02
-  password: '!!str 123456'
-  port: 1080
-  server: 8.209.236.192
+  port: 443
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  sni: fan.571589.xyz
+  tls: true
+  type: http
+- name: 1|JP - zhuhai.uk 03
+  port: 10808
+  server: 101.36.104.46
   type: socks5
-  username: '123456'
+- name: 1|JP - zhuhai.uk 05
+  password: 'null'
+  port: 443
+  server: fan.571589.xyz
+  sni: fan.571589.xyz
+  tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk 06
+  port: 15007
+  reality-opts:
+    public-key: qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA
+    short-id: 2c4d005b
+  server: nian.001.url111.kcloud02.top
+  servername: www.bing.com
+  tls: true
+  type: vless
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+- name: 1|JP - zhuhai.uk 07
+  password: bfab079f-6028-4e80-b4d8-f7ba0871cbf8
+  port: 3488
+  server: c2.bestai.beauty
+  skip-cert-verify: true
+  sni: c2.bestai.beauty
+  type: hysteria2

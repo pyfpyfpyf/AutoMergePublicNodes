@@ -1,9 +1,36 @@
 proxies:
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  name: 1|HK - zhuhai.uk
+  network: grpc
+  port: 10126
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk1-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
 - alterId: 0
   cipher: auto
-  name: 1|HK - zhuhai.uk
+  name: 1|HK - zhuhai.uk 02
   network: ws
-  port: 16622
+  port: 16632
+  server: m.cnmjin.net
+  type: vmess
+  uuid: 75d8194d-cd07-4690-bb8c-4fdb509eb8ca
+  ws-opts:
+    headers:
+      Host: b1a2e0a36f2740e720c3e722318ea788.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|HK - zhuhai.uk 03
+  network: ws
+  port: 16632
   server: planb.mojcn.com.linuxlh.xin
   type: vmess
   uuid: 2498a366-dd3c-4f0b-832c-f2df12f7ee27
@@ -11,50 +38,3 @@ proxies:
     headers:
       Host: 791f9b5b1318471268a2dc21098376cc.mobgslb.tbcache.com
     path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk 02
-  port: 15003
-  reality-opts:
-    public-key: R_3usai5pYqcc0aIzXPfaoe-VE_7JOe60fUNMicwfQ8
-    short-id: 4c517b9e
-  server: 82.38.46.66
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk 03
-  port: 15003
-  reality-opts:
-    public-key: R_3usai5pYqcc0aIzXPfaoe-VE_7JOe60fUNMicwfQ8
-    short-id: 4c517b9e
-  server: nian.001.url111.kcloud02.top
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-- name: 1|HK - zhuhai.uk 04
-  port: 443
-  server: fan.240104.xyz
-  skip-cert-verify: true
-  sni: fan.240104.xyz
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: movie
-  name: 1|HK - zhuhai.uk 01
-  network: grpc
-  port: 10129
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk4-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6

@@ -1,9 +1,45 @@
 proxies:
+- name: 1|US - zhuhai.uk 02
+  network: ws
+  password: 8oUrvxh0mGkzTknV
+  port: 443
+  server: 172.66.44.113
+  sni: X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: x4fta9t-k6qyj-z3ic12a2alp.pages.dev
+    path: /tr/umNfhlIvgJV03yVilevkSR5ZotMtq
 - alterId: 0
   cipher: auto
-  name: 1|HK - zhuhai.uk
+  name: 1|HK - zhuhai.uk 02
   network: ws
-  port: 16622
+  port: 16632
+  server: m.cnmjin.net
+  type: vmess
+  uuid: 75d8194d-cd07-4690-bb8c-4fdb509eb8ca
+  ws-opts:
+    headers:
+      Host: b1a2e0a36f2740e720c3e722318ea788.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|IN - zhuhai.uk
+  network: ws
+  port: 16626
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: 45c4a7a4-a1d4-4657-a92a-ab45558afac0
+  ws-opts:
+    headers:
+      Host: 6418046cd66ae322ebd1b8f4d82fd12c.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|HK - zhuhai.uk 03
+  network: ws
+  port: 16632
   server: planb.mojcn.com.linuxlh.xin
   type: vmess
   uuid: 2498a366-dd3c-4f0b-832c-f2df12f7ee27
@@ -12,20 +48,8 @@ proxies:
       Host: 791f9b5b1318471268a2dc21098376cc.mobgslb.tbcache.com
     path: /
 - cipher: aes-256-cfb
-  name: 1|TH - zhuhai.uk 02
+  name: 1|TH - zhuhai.uk
   password: 7eadc6dbe2ae
   port: 65443
   server: 103.169.67.34
-  type: ss
-- cipher: aes-128-gcm
-  name: 1|TW - zhuhai.uk
-  password: 08986883-2781-4e41-b518-a561aab5de4a
-  port: 40013
-  server: w7k2mf.5tencent.asia
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|KR - zhuhai.uk
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
   type: ss

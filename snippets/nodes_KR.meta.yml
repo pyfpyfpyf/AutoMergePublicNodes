@@ -1,12 +1,20 @@
 proxies:
-- cipher: aes-256-cfb
+- client-fingerprint: chrome
   name: 1|KR - zhuhai.uk
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
+  network: ws
+  port: 12150
+  server: 61.85.1.77
+  servername: me.instll.filegear-sg.me
+  tls: true
+  type: vless
+  uuid: fb3db213-29ba-45b5-ac7f-beec1efce689
+  ws-opts:
+    headers:
+      Host: me.instll.filegear-sg.me
+    path: /discount/lesson/directory
 - name: 1|KR - zhuhai.uk 02
-  port: 1090
-  server: 121.169.46.116
-  type: socks5
-  username: T2clM0QlM0Q6
+  password: 1beb216e3f60aea9555dae60d219a5ca
+  port: 50160
+  server: 152-69-231-175.liao.kdns.fr
+  sni: 152-69-231-175.liao.kdns.fr
+  type: hysteria2
