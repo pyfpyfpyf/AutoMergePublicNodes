@@ -177,38 +177,89 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- name: 1|US - zhuhai.uk 03
-  password: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
-  port: 443
-  server: ush2.shazamri.xyz
+- name: 1|US - zhuhai.uk
+  port: 9002
+  server: 138.199.35.201
   skip-cert-verify: true
-  sni: ush2.shazamri.xyz
-  type: hysteria2
-- name: 1|US - zhuhai.uk 04
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 02
+  network: ws
+  port: 443
+  server: 104.21.71.47
+  servername: 9-m16.ChIaN-MAI-X.kDnS.fR
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 9-m16.ChIaN-mAi-x.KDnS.FR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 1|US - zhuhai.uk 03
   port: 443
   server: jgwynphotoarts.pro
+  skip-cert-verify: true
   sni: jgwynphotoarts.pro
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 05
-  password: 'null'
-  port: 9002
-  server: 138.199.35.211
+- name: 1|US - zhuhai.uk 04
+  network: ws
+  port: 443
+  server: 104.21.27.112
+  servername: 8-M16.PatTAya-8.kdnS.fR
   skip-cert-verify: true
   tls: true
+  type: vless
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 8-m16.paTtAya-8.kdns.FR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 1|US - zhuhai.uk 05
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  sni: 138.199.35.203
+  tls: true
   type: http
-  username: 'null'
+- name: 1|US - zhuhai.uk 06
+  network: ws
+  port: 443
+  server: 104.21.83.140
+  servername: 0-m16.ChIANG-maI2032.kdNS.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 0-m16.ChIAng-Mai2032.kdnS.fR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 1|US - zhuhai.uk 07
+  port: 8443
+  server: 104.219.236.83
+  skip-cert-verify: true
+  sni: 104.219.236.83
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 08
+  port: 443
+  server: crosscards.site
+  sni: crosscards.site
+  tls: true
+  type: http
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 1|US - zhuhai.uk 01
-  network: tcp
-  port: 50159
-  reality-opts:
-    public-key: y0H3WXwfSsM7Ux1G8V0knwVRs8QTZ3RRM8X9lWKMj2o
-    short-id: 196313aca4449459
-  server: 192.243.114.176
-  servername: www.ibm.com
+  network: ws
+  port: 443
+  server: web-production-5f54e.up.railway.app
+  servername: web-production-5f54e.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: c8f8b628-f984-4449-bfa1-481d865ac728
+  uuid: da8f7273-fd3c-47fd-8938-b47b8eb0bb1e
+  ws-opts:
+    headers:
+      Host: web-production-5f54e.up.railway.app
+    path: /ws/vless/da8f7273-fd3c-47fd-8938-b47b8eb0bb1e?ed

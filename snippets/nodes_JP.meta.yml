@@ -1,13 +1,30 @@
 proxies:
+- name: 1|JP - zhuhai.uk 03
+  port: 443
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  sni: fan.571589.xyz
+  tls: true
+  type: http
+- name: 1|JP - zhuhai.uk 02
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 31735
+  server: jpglobal-identity-federation-auth.younai-ytl.shop
+  sni: jp31.lunartrace.io
+  type: anytls
+  udp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|JP - zhuhai.uk
-  port: 55555
+  grpc-opts:
+    grpc-service-name: update
+  name: 1|JP - zhuhai.uk 04
+  network: grpc
+  port: 10034
   reality-opts:
-    public-key: 1XQ60qYOfBZJpcilNV9Fu7OSpuO5_6-zrNZIYhB_YU4
-    short-id: af317506
-  server: uh-jp01.ziyoufly.xyz
-  servername: pypi.org
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: jp4-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: c2a08e4d-da8f-435e-90e8-65600ee185be
+  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
