@@ -1,23 +1,40 @@
 proxies:
-- name: 1|SG - zhuhai.uk
-  port: 443
-  server: 154.26.139.24
-  skip-cert-verify: true
-  sni: 154.26.139.24
-  tls: true
-  type: http
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 1|SG - zhuhai.uk 02
-  network: grpc
-  port: 10036
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk
+  port: 15006
   reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg1-r.link-t7.com
-  servername: s0.awsstatic.com
+    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
+    short-id: 029a6cc4
+  server: nian.001.url111.kcloud02.top
+  servername: www.adobe.com
   skip-cert-verify: true
   tls: true
   type: vless
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk 02
+  port: 8444
+  reality-opts:
+    public-key: OYHRKufAg09vpdsYBQB_vjikJ9DyE1KurtHQZRRLeWQ
+  server: 140.245.109.76
+  servername: tesla.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 2024aef5-67f2-4bb0-b817-06a166181bff
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk 03
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: M4VxY_IPnii4ldlg9Z3Av6VZ_lpC-njSq_JnRBSUM1s
+    short-id: 8e5a820d
+  server: do2sg1xxx.87544899.xyz
+  servername: bod.changiairport.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 58c14e54-6db0-46fb-a1fb-8f3184197d94

@@ -1,28 +1,33 @@
 proxies:
-- name: 1|HK - zhuhai.uk
-  port: 443
-  server: hk40.240104.xyz
-  tls: true
-  type: http
+- alterId: 0
+  cipher: auto
+  name: 1|HK - zhuhai.uk
+  network: ws
+  port: 16632
+  server: m.cnmjin.net
+  type: vmess
+  uuid: a004e196-8e94-4d17-b95d-fa02fa68038e
+  ws-opts:
+    headers:
+      Host: 4b413f3013048c48708eb5ac1ac3d90d.mobgslb.tbcache.com
+    path: /
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: movie
   name: 1|HK - zhuhai.uk 02
-  network: grpc
-  port: 10129
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk4-r.link-t7.com
-  servername: s0.awsstatic.com
+  network: ws
+  port: 443
+  server: jp.mkdir.kdns.fr
+  servername: python-test123.pages.dev
   tls: true
   type: vless
-  udp: true
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
+  ws-opts:
+    headers:
+      Host: python-test123.pages.dev
+    path: /
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: movie
-  name: 1|HK - zhuhai.uk 03
+  name: 1|HK - zhuhai.uk 04
   network: grpc
   port: 10130
   reality-opts:
@@ -37,14 +42,14 @@ proxies:
   uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
 - client-fingerprint: chrome
   grpc-opts:
-    grpc-service-name: movie
-  name: 1|HK - zhuhai.uk 01
+    grpc-service-name: update
+  name: 1|HK - zhuhai.uk 03
   network: grpc
-  port: 10128
+  port: 10127
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: 686c0ef0
-  server: hk3-r.link-t7.com
+  server: hk2-r.link-t7.com
   servername: s0.awsstatic.com
   tls: true
   type: vless
