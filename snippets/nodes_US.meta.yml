@@ -178,59 +178,63 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  port: 443
-  server: fan.596189.xyz
+  password: 'null'
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  sni: 138.199.35.204
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 02
+  port: 9443
+  server: 38.95.111.226
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 03
+  password: None
   port: 9002
-  server: 138.199.35.216
+  server: 138.199.35.209
   skip-cert-verify: true
-  sni: 138.199.35.216
+  sni: 138.199.35.209
   tls: true
   type: http
+  username: 'null'
 - name: 1|US - zhuhai.uk 04
   port: 9002
-  server: 138.199.35.208
+  server: 138.199.35.212
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 08
   network: ws
-  password: 8oUrvxh0mGkzTknV
   port: 443
-  server: 172.66.44.113
+  server: 104.21.41.228
+  servername: 3-aPi-gEWAy-m14.Xgh.ccWu.CC
   skip-cert-verify: true
-  sni: X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV
   tls: true
-  type: trojan
+  type: vless
+  uuid: 2e05bfa9-697c-46e9-bfd3-06ecfb23e349
   ws-opts:
     headers:
-      Host: x4fta9t-k6qyj-z3ic12a2alp.pages.dev
-    path: /tr/umNfhlIvgJV03yVilevkSR5ZotMtq
+      Host: 3-Api-geWAy-m14.Xgh.Ccwu.cC
+    path: /awsDCktnglce5OhBQMBK8JLBwh2V
+- name: 1|US - zhuhai.uk 06
+  port: 443
+  server: berniesbodybla.fun
+  tls: true
+  type: http
 - name: 1|US - zhuhai.uk 07
   network: ws
-  port: 2052
-  server: 104.18.47.113
+  port: 443
+  server: 104.21.3.118
+  servername: ASSetS-dIsTrIBUtIoN-M14-1.WWw890604.dpDns.oRg
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: 2e05bfa9-697c-46e9-bfd3-06ecfb23e349
   ws-opts:
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- name: 1|US - zhuhai.uk 09
-  password: None
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  sni: 138.199.35.196
-  tls: true
-  type: http
-  username: 'null'
+      Host: AsSets-diSTrIButIoN-m14-1.wwW890604.dpDNS.Org
+    path: /awsDCktnglce5OhBQMBK8JLBwh2V
