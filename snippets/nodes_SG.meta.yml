@@ -1,19 +1,18 @@
 proxies:
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 1|SG - zhuhai.uk 02
-  network: grpc
-  port: 10040
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg5-r.link-t7.com
-  servername: d1.awsstatic.com
-  tls: true
-  type: vless
+- name: 1|SG - zhuhai.uk
+  password: f87376e17da040ed04c9665ce8972930
+  port: 50160
+  server: 138.2.73.238
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 1|SG - zhuhai.uk 02
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 56277
+  server: yzany01.downapptwo.cc
+  sni: xjp03.pulsarcore.site
+  type: anytls
   udp: true
-  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: update
