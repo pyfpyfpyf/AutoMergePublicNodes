@@ -1,29 +1,30 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- client-fingerprint: random
+  flow: xtls-rprx-vision
   name: 1|HK - zhuhai.uk
-  network: ws
-  port: 16632
-  server: m.cnmjin.net
-  type: vmess
-  uuid: a004e196-8e94-4d17-b95d-fa02fa68038e
-  ws-opts:
-    headers:
-      Host: 4b413f3013048c48708eb5ac1ac3d90d.mobgslb.tbcache.com
-    path: /
-- client-fingerprint: chrome
-  name: 1|HK - zhuhai.uk 02
-  network: ws
-  port: 443
-  server: jp.mkdir.kdns.fr
-  servername: python-test123.pages.dev
+  port: 15003
+  reality-opts:
+    public-key: R_3usai5pYqcc0aIzXPfaoe-VE_7JOe60fUNMicwfQ8
+    short-id: 4c517b9e
+  server: nian.001.url111.kcloud02.top
+  servername: www.cloudflare.com
   tls: true
   type: vless
-  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
-  ws-opts:
-    headers:
-      Host: python-test123.pages.dev
-    path: /
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: movie
+  name: 1|HK - zhuhai.uk 02
+  network: grpc
+  port: 10130
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk5-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: movie
