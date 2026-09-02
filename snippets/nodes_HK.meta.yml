@@ -1,23 +1,24 @@
 proxies:
+- name: 1|HK - zhuhai.uk
+  port: 443
+  server: hk40.240104.xyz
+  tls: true
+  type: http
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk
-  port: 8443
+  grpc-opts:
+    grpc-service-name: movie
+  name: 1|HK - zhuhai.uk 02
+  network: grpc
+  port: 10129
   reality-opts:
-    public-key: CWYHeUE7Mo416w_cZEpIOknbKpYfS3VNz1pv4CYSAgs
-    short-id: 00d40d72
-  server: dcloudsbohk-g.orbit-links.com
-  servername: sns-video-qc.xhscdn.com
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk4-r.link-t7.com
+  servername: s0.awsstatic.com
   tls: true
   type: vless
-  uuid: 3004a27c-c4d6-4b5f-862c-bcf9f9f2f8fd
-- name: 1|HK - zhuhai.uk 02
-  password: 5b5b69cd-c9f6-3117-8f4f-0e9bff3811b7
-  port: 14438
-  server: adakv1-h06.sonofthewinds.com
-  sni: vk6.sonofthewinds.com
-  tls: true
-  type: trojan
+  udp: true
+  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: movie

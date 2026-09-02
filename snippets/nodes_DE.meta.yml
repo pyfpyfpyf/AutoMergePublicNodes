@@ -1,9 +1,26 @@
 proxies:
 - name: 1|DE - zhuhai.uk
-  network: ws
-  port: 2087
-  server: 188.220.67.198
+  password: b504a1c7-1bfe-461f-9329-cbc653deb3d7
+  port: 443
+  server: 144.31.217.201
+  sni: 144-31-217-201.sslip.io
+  type: hysteria2
+- name: 1|DE - zhuhai.uk 02
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk 03
+  port: 443
+  reality-opts:
+    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+    short-id: 4da5d1853f04af6d
+  server: 31.76.71.140
+  servername: rrr.windconnect.pro
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
-  ws-opts:
-    path: /8f2690e2d016
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd

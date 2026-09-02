@@ -38,7 +38,7 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 0|US_speednode_0133
+- name: 0,1|US - zhuhai.uk 12
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
@@ -178,75 +178,88 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 02
   network: ws
   port: 443
-  server: 104.21.71.47
-  servername: 9-m16.ChIaN-MAI-X.kDnS.fR
+  server: 172.67.136.68
+  servername: EDGE-RoutiNG-m16-1.kAZaN.kDNs.fr
   skip-cert-verify: true
   tls: true
   type: vless
   uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
   ws-opts:
     headers:
-      Host: 9-m16.ChIaN-mAi-x.KDnS.FR
+      Host: EDgE-RouTINg-m16-1.KazAN.KDNs.fr
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 1|US - zhuhai.uk 02
+  port: 52683
+  server: jp.sofast.live
+  type: vless
+  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
 - name: 1|US - zhuhai.uk 03
-  port: 443
-  server: jgwynphotoarts.pro
+  port: 9002
+  server: 138.199.35.220
   skip-cert-verify: true
-  sni: jgwynphotoarts.pro
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 04
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 05
   network: ws
   port: 443
-  server: 104.21.27.112
-  servername: 8-M16.PatTAya-8.kdnS.fR
+  server: 172.67.190.103
+  servername: 9-M16.ChiaNG-RAI2036.KDNS.fR
   skip-cert-verify: true
   tls: true
   type: vless
   uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
   ws-opts:
     headers:
-      Host: 8-m16.paTtAya-8.kdns.FR
+      Host: 9-m16.chiAng-rAI2036.kDNS.Fr
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 1|US - zhuhai.uk 05
+- name: 1|US - zhuhai.uk 07
+  password: None
+  port: 443
+  server: mmgr.club
+  skip-cert-verify: true
+  sni: mmgr.club
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 08
+  password: 'null'
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  sni: 138.199.35.215
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 09
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 10
+  port: 443
+  reality-opts:
+    public-key: hdnTJaDJ5FlN8-3BrKTGFXzn-NjXe6CdiW5ZkNgZzC4
+    short-id: c63df49c
+  server: vul1us6xhbqcf9.87544899.xyz
+  servername: maps.apple.com
+  tls: true
+  type: vless
+  uuid: 58c14e54-6db0-46fb-a1fb-8f3184197d94
+- name: 1|US - zhuhai.uk 11
   port: 9002
   server: 138.199.35.203
   skip-cert-verify: true
-  sni: 138.199.35.203
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 06
-  network: ws
-  port: 443
-  server: 104.21.83.140
-  servername: 0-m16.ChIANG-maI2032.kdNS.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 0-m16.ChIAng-Mai2032.kdnS.fR
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 1|US - zhuhai.uk 07
-  port: 8443
-  server: 104.219.236.83
-  skip-cert-verify: true
-  sni: 104.219.236.83
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 08
-  port: 443
-  server: crosscards.site
-  sni: crosscards.site
   tls: true
   type: http
 - client-fingerprint: chrome
