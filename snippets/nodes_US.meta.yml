@@ -177,64 +177,48 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- name: 1|US - zhuhai.uk
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk
+  port: 443
+  reality-opts:
+    public-key: CmZcK-NJ3i5iVDRiiBY3RpeiR2kooDbtJBOmPq29ABY
+    short-id: 0ccb4b57
+  server: 129.80.99.88
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
+  uuid: 450ed4bd-fc3e-4aab-b50d-33f2cdfcfc18
+- name: 1|US - zhuhai.uk 02
+  network: ws
+  port: 443
+  server: 172.67.148.36
+  servername: 4-m13.aYuTtHaYa-x.KDNs.fR
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  ws-opts:
+    headers:
+      Host: 4-M13.AyutthayA-x.KDns.Fr
+    path: /ED3ZQPu7lqyeDGD58KabZ
+- cipher: aes-256-cfb
+  name: 1|US - zhuhai.uk 03
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  type: ss
+- name: 1|US - zhuhai.uk 04
   password: 'null'
   port: 9002
-  server: 138.199.35.204
+  server: 138.199.35.213
   skip-cert-verify: true
-  sni: 138.199.35.204
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 02
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 03
-  password: None
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  sni: 138.199.35.209
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 04
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 1|US - zhuhai.uk 05
-  network: ws
   port: 443
-  server: 104.21.41.228
-  servername: 3-aPi-gEWAy-m14.Xgh.ccWu.CC
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 2e05bfa9-697c-46e9-bfd3-06ecfb23e349
-  ws-opts:
-    headers:
-      Host: 3-Api-geWAy-m14.Xgh.Ccwu.cC
-    path: /awsDCktnglce5OhBQMBK8JLBwh2V
-- name: 1|US - zhuhai.uk 06
-  port: 443
-  server: berniesbodybla.fun
+  server: webdrone.club
+  sni: webdrone.club
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 07
-  network: ws
-  port: 443
-  server: 104.21.3.118
-  servername: ASSetS-dIsTrIBUtIoN-M14-1.WWw890604.dpDns.oRg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 2e05bfa9-697c-46e9-bfd3-06ecfb23e349
-  ws-opts:
-    headers:
-      Host: AsSets-diSTrIButIoN-m14-1.wwW890604.dpDNS.Org
-    path: /awsDCktnglce5OhBQMBK8JLBwh2V
