@@ -1,11 +1,31 @@
 proxies:
-- name: 1|HK - zhuhai.uk
-  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
-  port: 27631
-  server: yzany01.downapptwo.cc
-  sni: hk03.jdddyy01.cc
-  type: anytls
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 1|HK - zhuhai.uk
+  network: ws
+  port: 16632
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
+  ws-opts:
+    headers:
+      Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: movie
+  name: 1|HK - zhuhai.uk 02
+  network: grpc
+  port: 10136
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: hk6-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: movie
@@ -17,7 +37,6 @@ proxies:
     short-id: 686c0ef0
   server: hk4-r.link-t7.com
   servername: s0.awsstatic.com
-  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -33,7 +52,6 @@ proxies:
     short-id: 686c0ef0
   server: hk3-r.link-t7.com
   servername: s0.awsstatic.com
-  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
