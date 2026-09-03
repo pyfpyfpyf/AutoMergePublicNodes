@@ -1,8 +1,15 @@
 proxies:
+- name: 1|SG - zhuhai.uk
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 56277
+  server: yzany01.downapptwo.cc
+  sni: xjp03.pulsarcore.site
+  type: anytls
+  udp: true
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: update
-  name: 1|SG - zhuhai.uk 03
+  name: 1|SG - zhuhai.uk 02
   network: grpc
   port: 10037
   reality-opts:
@@ -12,27 +19,4 @@ proxies:
   servername: s0.awsstatic.com
   tls: true
   type: vless
-  udp: true
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- name: 1|SG - zhuhai.uk 02
-  password: f87376e17da040ed04c9665ce8972930
-  port: 50160
-  server: 138.2.73.238
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 1|SG - zhuhai.uk 01
-  network: grpc
-  port: 10039
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg4-r.link-t7.com
-  servername: d1.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
