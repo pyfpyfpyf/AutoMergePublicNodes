@@ -155,7 +155,7 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 0|US_speednode_0143
+- name: 0,1|US - zhuhai.uk 05
   port: 9002
   server: 138.199.35.198
   skip-cert-verify: true
@@ -178,87 +178,79 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  port: 9002
-  server: 138.199.35.204
+  network: ws
+  port: 443
+  server: 172.67.155.189
+  servername: 8-M13.1B9390A5-6209-45bD-ba0E-057EBb2641C3.Kdns.fr
   skip-cert-verify: true
-  sni: 138.199.35.204
   tls: true
-  type: http
+  type: vless
+  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
+  ws-opts:
+    headers:
+      Host: 8-M13.1B9390a5-6209-45Bd-ba0E-057EBb2641c3.KDns.Fr
+    path: /ED3ZQPu7lqyeDGD58KabZ
 - name: 1|US - zhuhai.uk 02
   port: 9002
-  server: 138.199.35.209
+  server: 138.199.35.208
   skip-cert-verify: true
+  sni: 138.199.35.208
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 03
-  password: 'null'
-  port: 9002
-  server: 138.199.35.209
+  network: ws
+  port: 443
+  server: 172.67.177.227
+  servername: 4-m16.cHiAN-mai-7.kdnS.fr
   skip-cert-verify: true
   tls: true
-  type: http
-  username: 'null'
+  type: vless
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 4-m16.ChIAn-mai-7.kDnS.fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - name: 1|US - zhuhai.uk 04
-  password: e4b72b531a2d10900519
+  network: ws
   port: 443
-  server: 107.151.238.27
-  skip-cert-verify: true
-  sni: 6b97ee1b.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- name: 1|US - zhuhai.uk 05
-  password: 'null'
-  port: 9002
-  server: 138.199.35.197
+  server: 172.67.173.191
+  servername: 4-m20.e00e.ccwu.cc
   skip-cert-verify: true
   tls: true
-  type: http
-  username: 'null'
+  type: vless
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  ws-opts:
+    headers:
+      Host: 4-m20.e00e.ccwu.cc
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
 - name: 1|US - zhuhai.uk 06
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 162.243.146.243
-  sni: a2f392f3.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
 - name: 1|US - zhuhai.uk 07
   port: 9002
-  server: 138.199.35.212
+  server: 138.199.35.220
   skip-cert-verify: true
-  sni: 138.199.35.212
+  sni: 138.199.35.220
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 08
-  port: 443
-  server: webdrone.club
+  password: 'null'
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  sni: 138.199.35.211
   tls: true
   type: http
-  username: Ok5vbmU=
+  username: 'null'
 - name: 1|US - zhuhai.uk 09
-  port: 443
-  server: fan.596189.xyz
-  tls: true
-  type: http
-  username: bnVsbDpudWxs
-- name: 1|US - zhuhai.uk 10
+  password: 'null'
   port: 9002
-  server: 138.199.35.201
+  server: 138.199.35.202
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 11
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 12
-  password: None
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
+  sni: 138.199.35.202
   tls: true
   type: http
   username: 'null'
