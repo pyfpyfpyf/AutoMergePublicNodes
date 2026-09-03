@@ -1,15 +1,33 @@
 proxies:
 - name: 1|JP - zhuhai.uk
-  password: 'null'
+  password: '!!str 123456'
+  port: 1080
+  server: 8.209.236.192
+  type: socks5
+  username: '123456'
+- alterId: 0
+  cipher: auto
+  name: 1|JP - zhuhai.uk 02
+  network: ws
+  port: 16617
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
+  ws-opts:
+    headers:
+      Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
+    path: /
+- name: 1|JP - zhuhai.uk 03
   port: 443
   server: fan.571589.xyz
   sni: fan.571589.xyz
   tls: true
   type: http
-  username: 'null'
-- name: 1|JP - zhuhai.uk 02
-  port: 443
-  server: fan.571589.xyz
+- name: 1|JP - zhuhai.uk 04
+  password: 9e98496a-0036-4cc6-8302-3929c29ba772
+  port: 35791
+  server: iijjp.mggl.wang
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: www.apple.com
+  type: anytls
+  udp: true

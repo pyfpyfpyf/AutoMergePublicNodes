@@ -38,7 +38,7 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 0|US_speednode_0133
+- name: 0,1|US - zhuhai.uk 06
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
@@ -178,120 +178,61 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
+  password: None
   port: 9002
-  server: 138.199.35.199
+  server: 138.199.35.204
+  skip-cert-verify: true
+  sni: 138.199.35.204
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 02
+  port: 9002
+  server: 138.199.35.201
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 02
-  password: None
+- name: 1|US - zhuhai.uk 03
+  password: 'null'
   port: 9002
-  server: 138.199.35.210
+  server: 138.199.35.196
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 03
-  network: ws
-  port: 443
-  server: 172.67.177.227
-  servername: 4-m16.cHiAN-mai-7.kdnS.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 4-m16.ChIAn-mai-7.kDnS.fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - name: 1|US - zhuhai.uk 04
-  port: 443
-  server: purposebydesig.club
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 05
+  password: e4b72b531a2d10900519
   port: 443
-  server: fan.226278.xyz
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 06
-  port: 9002
-  server: 138.199.35.209
+  server: 107.151.238.27
   skip-cert-verify: true
+  sni: 6b97ee1b.acsnet.co
   tls: true
   type: http
+  username: testuser1
 - name: 1|US - zhuhai.uk 07
-  password: 'null'
+  network: ws
   port: 443
-  server: 38.28.193.188
+  server: 172.67.185.142
+  servername: 6-m20.c3d5336a-3310-48b7-8505-ec90b7a7df24.kdns.fr
   skip-cert-verify: true
-  sni: 38.28.193.188
   tls: true
-  type: http
-  username: 'null'
+  type: vless
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  ws-opts:
+    headers:
+      Host: 6-m20.c3d5336a-3310-48b7-8505-ec90b7a7df24.kdns.fr
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
 - name: 1|US - zhuhai.uk 08
-  password: a42e71d55789f9fdbaff55e05f7acd9963d91acecd1b8c86
-  port: 8443
-  server: 23.236.66.91
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-- name: 1|US - zhuhai.uk 09
-  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
-  port: 32578
-  server: svip.skycon808.com
-  skip-cert-verify: true
-  sni: us58.pulsarcore.site
-  type: anytls
-  udp: true
-- name: 1|US - zhuhai.uk 10
-  password: 'null'
+  password: None
   port: 9002
   server: 138.199.35.218
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 11
-  password: 'null'
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 12
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 13
-  password: None
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  sni: 138.199.35.208
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 14
-  port: 52683
-  server: jp.sofast.live
-  type: vless
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: gun
-  name: 1|US - zhuhai.uk 01
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng
-    short-id: 3fa234ea9feaa048
-  server: 85.155.178.96
-  servername: us03.glaveda.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: d7430ae7-320c-4658-808b-3006d0627d82
