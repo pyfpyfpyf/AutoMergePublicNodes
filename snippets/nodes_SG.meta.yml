@@ -1,15 +1,8 @@
 proxies:
-- name: 1|SG - zhuhai.uk
-  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
-  port: 56277
-  server: yzany01.downapptwo.cc
-  sni: xjp03.pulsarcore.site
-  type: anytls
-  udp: true
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: update
-  name: 1|SG - zhuhai.uk 02
+  name: 1|SG - zhuhai.uk
   network: grpc
   port: 10037
   reality-opts:
@@ -17,6 +10,14 @@ proxies:
     short-id: 686c0ef0
   server: sg2-r.link-t7.com
   servername: s0.awsstatic.com
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+- name: 1|SG - zhuhai.uk 02
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 56277
+  server: yzany01.downapptwo.cc
+  sni: xjp03.pulsarcore.site
+  type: anytls
+  udp: true
