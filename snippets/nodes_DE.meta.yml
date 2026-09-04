@@ -1,32 +1,25 @@
 proxies:
 - name: 1|DE - zhuhai.uk
   port: 443
-  server: fan.973511.xyz
+  server: 138.201.56.241
+  skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
+- name: 1|DE - zhuhai.uk 02
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk 02
+  name: 1|DE - zhuhai.uk 03
   port: 443
   reality-opts:
     public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
     short-id: 4da5d1853f04af6d
-  server: rrr.windconnect.pro
+  server: 31.76.71.140
   servername: rrr.windconnect.pro
   tls: true
   type: vless
   uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk 03
-  network: tcp
-  port: 5005
-  reality-opts:
-    public-key: -6SjfnZXAYm69euKQ3XNhq0nC7No7YE4qfdc2qx0Xwo
-    short-id: a1b2c3d4
-  server: 80.253.249.193
-  servername: special.aeternavpn.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52
