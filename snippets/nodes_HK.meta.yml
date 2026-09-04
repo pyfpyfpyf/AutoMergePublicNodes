@@ -1,23 +1,20 @@
 proxies:
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: movie
+- alterId: 0
+  cipher: auto
   name: 1|HK - zhuhai.uk
-  network: grpc
-  port: 10136
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk6-r.link-t7.com
-  servername: s0.awsstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
+  ws-opts:
+    headers:
+      Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
+    path: /
 - name: 1|HK - zhuhai.uk 02
-  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
-  port: 35853
-  server: yzany01.downapptwo.cc
-  sni: hk01.pulsarcore.site
-  type: anytls
-  udp: true
+  port: 443
+  server: hk40.240104.xyz
+  skip-cert-verify: true
+  sni: hk40.240104.xyz
+  tls: true
+  type: http
