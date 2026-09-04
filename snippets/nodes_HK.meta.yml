@@ -1,8 +1,25 @@
 proxies:
 - name: 1|HK - zhuhai.uk
-  password: 9d280633-bba9-40e7-92e1-a6f7715e016b
-  port: 55001
-  server: dafeizhu.xxxyun.top
-  sni: atlhk1.jueduibupao.top
-  type: anytls
-  udp: true
+  port: 443
+  server: hk40.240104.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|HK - zhuhai.uk 02
+  password: admin
+  port: 8899
+  server: 47.242.19.215
+  type: socks5
+  username: admin
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 03
+  port: 443
+  reality-opts:
+    public-key: zV4Sja0iajpdzkR1iBMbI7RRWL2nlpgwGOtirQSG-zc
+    short-id: b81edf7fdee4
+  server: hk3.miyazono-kaori.com
+  servername: hk4e-launcher-static.hoyoverse.com
+  tls: true
+  type: vless
+  uuid: 1b1cb87f-f32c-4311-a86c-828f0cde0d13
