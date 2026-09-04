@@ -1,28 +1,15 @@
 proxies:
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 1|HK - zhuhai.uk
-  network: grpc
-  port: 10127
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: hk2-r.link-t7.com
-  servername: s0.awsstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk 02
+- name: 1|HK - zhuhai.uk
   port: 443
-  reality-opts:
-    public-key: KhRbgahSFqlPKB6QNp9QYb4oXMy2SIgi440tm6iFZHA
-    short-id: ea6b43
-  server: hk4.miyazono-kaori.com
-  servername: hk4e-launcher-static.hoyoverse.com
+  server: hk40.240104.xyz
+  sni: hk40.240104.xyz
   tls: true
-  type: vless
-  uuid: 1b1cb87f-f32c-4311-a86c-828f0cde0d13
+  type: http
+- name: 1|HK - zhuhai.uk 02
+  password: 'null'
+  port: 443
+  server: fan.240104.xyz
+  sni: fan.240104.xyz
+  tls: true
+  type: http
+  username: 'null'

@@ -1,18 +1,21 @@
 proxies:
-- name: 1|KR - zhuhai.uk
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  name: 1|KR - zhuhai.uk
+  network: grpc
+  port: 10050
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr5-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
+- name: 1|KR - zhuhai.uk 02
   port: 1090
   server: 121.169.46.116
   type: socks5
-  username: Og%3D%3D
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|KR - zhuhai.uk 02
-  port: 443
-  reality-opts:
-    public-key: 6pZxjabeHoyJlsc2cP3Q5YK7G0bIOQwzWFyiarbUQXc
-    short-id: c8af1462debbc1
-  server: kr2.miyazono-kaori.com
-  servername: www.coway.com
-  tls: true
-  type: vless
-  uuid: 1b1cb87f-f32c-4311-a86c-828f0cde0d13
+  username: VDJjbE0wUWxNMFE2Og==
