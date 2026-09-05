@@ -1,37 +1,22 @@
 proxies:
 - name: 1|DE - zhuhai.uk
   port: 443
-  server: fan.973511.xyz
-  skip-cert-verify: true
-  sni: fan.973511.xyz
-  tls: true
-  type: http
-- name: 1|DE - zhuhai.uk 02
-  password: 'null'
-  port: 443
-  server: fan.973511.xyz
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|DE - zhuhai.uk 03
-  password: 'null'
-  port: 443
   server: 141.17.83.73
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
-- client-fingerprint: random
-  name: 1|DE - zhuhai.uk 04
-  network: ws
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: gun
+  name: 1|DE - zhuhai.uk 01
+  network: grpc
   port: 443
-  server: ct.877774.xyz
-  servername: eu-central.xhs152.shop
-  skip-cert-verify: true
+  reality-opts:
+    public-key: QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng
+    short-id: 3fa234ea9feaa048
+  server: mageia.ubuntuhosting.host
+  servername: mageia.ubuntuhosting.host
   tls: true
   type: vless
-  uuid: e6661e6a-2b86-4da2-9e94-0034e0bfbd07
-  ws-opts:
-    headers:
-      Host: eu-central.xhs152.shop
-    path: /announcement
+  udp: true
+  uuid: d7430ae7-320c-4658-808b-3006d0627d82
