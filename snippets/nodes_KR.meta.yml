@@ -1,16 +1,17 @@
 proxies:
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
+  flow: xtls-rprx-vision
   name: 1|KR - zhuhai.uk
-  network: grpc
-  port: 10050
+  port: 50159
   reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: kr5-r.link-t7.com
-  servername: s0.awsstatic.com
-  skip-cert-verify: true
+    public-key: k8nAYo1-IaxhdMI4CLPK0BcjD7TiFoBCwpB0CqUSHg0
+    short-id: effd22907e2bf94f
+  server: 168.110.121.199
+  servername: www.ibm.com
   tls: true
   type: vless
-  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
+  uuid: 23aa3d7e-039b-4c21-a8f7-0f7d1ddbbbb6
+- name: 1|KR - zhuhai.uk 02
+  port: 1080
+  server: 43.164.136.189
+  type: socks5
