@@ -3,20 +3,13 @@ proxies:
   password: 'null'
   port: 443
   server: fan.571589.xyz
+  sni: fan.571589.xyz
   tls: true
   type: http
   username: 'null'
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: gun
-  name: 1|JP - zhuhai.uk 02
-  network: grpc
+- name: 1|JP - zhuhai.uk 02
   port: 443
-  reality-opts:
-    public-key: QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng
-    short-id: 3fa234ea9feaa048
-  server: 140.99.243.19
-  servername: jp03.glaveda.net
+  server: fan.571589.xyz
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: d7430ae7-320c-4658-808b-3006d0627d82
+  type: http

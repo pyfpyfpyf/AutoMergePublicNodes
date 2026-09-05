@@ -1,15 +1,13 @@
 proxies:
 - name: 1|HK - zhuhai.uk
   port: 443
-  server: hk40.240104.xyz
-  sni: hk40.240104.xyz
+  server: fan.240104.xyz
+  skip-cert-verify: true
   tls: true
   type: http
 - name: 1|HK - zhuhai.uk 02
-  password: 'null'
-  port: 443
-  server: fan.240104.xyz
-  sni: fan.240104.xyz
-  tls: true
-  type: http
-  username: 'null'
+  password: admin
+  port: 8899
+  server: 47.242.19.215
+  type: socks5
+  username: admin
