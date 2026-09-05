@@ -1,15 +1,4 @@
 proxies:
-- name: 1|HK - zhuhai.uk
-  port: 443
-  server: hk40.240104.xyz
-  skip-cert-verify: true
-  sni: hk40.240104.xyz
-  tls: true
-  type: http
-- name: 1|HK - zhuhai.uk 02
-  port: 10808
-  server: 123.58.219.171
-  type: socks5
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: update
@@ -26,3 +15,9 @@ proxies:
   type: vless
   udp: true
   uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
+- name: 1|HK - zhuhai.uk 02
+  password: admin
+  port: 1080
+  server: 47.239.116.165
+  type: socks5
+  username: admin

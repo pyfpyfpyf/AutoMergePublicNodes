@@ -1,15 +1,15 @@
 proxies:
-- client-fingerprint: random
-  name: 1|JP - zhuhai.uk
-  network: ws
+- name: 1|JP - zhuhai.uk
+  password: 'null'
   port: 443
-  server: ct.877774.xyz
-  servername: jp-osa.xhs152.shop
+  server: fan.571589.xyz
+  sni: fan.571589.xyz
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|JP - zhuhai.uk 02
+  port: 443
+  server: fan.571589.xyz
   skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: e6661e6a-2b86-4da2-9e94-0034e0bfbd07
-  ws-opts:
-    headers:
-      Host: jp-osa.xhs152.shop
-    path: /announcement
+  type: http
