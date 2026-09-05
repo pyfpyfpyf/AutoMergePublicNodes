@@ -1,7 +1,16 @@
 proxies:
-- cipher: aes-256-cfb
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
   name: 1|KR - zhuhai.uk
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
+  network: grpc
+  port: 10050
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr5-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: DFDBA849-E8F0-4C1B-9BD6-C4C87679B0A3
