@@ -1,8 +1,23 @@
 proxies:
 - name: 1|SG - zhuhai.uk
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 1933
-  server: sg1.xiaoliyu.cyou
+  password: 9d280633-bba9-40e7-92e1-a6f7715e016b
+  port: 7000
+  server: asg2.jueduibupao.top
   skip-cert-verify: true
-  sni: sg1.xiaoliyu.cyou
-  type: hysteria2
+  sni: www.microsoft.com
+  type: anytls
+  udp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: bby
+  name: 1|SG - zhuhai.uk 02
+  network: grpc
+  port: 40000
+  reality-opts:
+    public-key: zmQlybXu8iCiAhwghmKa85-_2VQvjV51waoBp6A2YU8
+    short-id: 66739b1d
+  server: sg04.333210.best
+  servername: www.walmart.com
+  tls: true
+  type: vless
+  uuid: e10af88b-44fb-444d-949a-5f3aa7fec457
