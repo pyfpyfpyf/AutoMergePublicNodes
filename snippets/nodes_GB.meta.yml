@@ -1,6 +1,29 @@
 proxies:
 - name: 1|GB - zhuhai.uk
-  port: 8443
-  server: 5.101.149.245
+  network: ws
+  port: 2087
+  server: 45.95.184.120
+  type: vless
+  uuid: 4a269a45-a9e3-4272-b04a-1d42d581150f
+  ws-opts:
+    path: /4de527ea5ed9
+- name: 1|GB - zhuhai.uk 02
+  network: ws
+  port: 2087
+  server: 45.95.184.90
+  type: vless
+  uuid: 4a269a45-a9e3-4272-b04a-1d42d581150f
+  ws-opts:
+    path: /4de527ea5ed9
+- client-fingerprint: chrome
+  name: 1|GB - zhuhai.uk 03
+  network: tcp
+  port: 42546
+  reality-opts:
+    public-key: YYXAgMxWrqeSWpRqILvNRpjA4VFE_j9b3R0tYv0ULHI
+  server: 82.40.62.197
+  servername: amp-api-edge.apps.apple.com
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: ea603be5-a2f6-4a4d-b97d-7c976d93ee0d
