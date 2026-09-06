@@ -177,19 +177,45 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- name: 1|US - zhuhai.uk
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk
+  network: ws
+  port: 443
+  server: 172.67.204.201
+  servername: 7-m16.CHiaN-MAi-8.KDNs.FR
   tls: true
-  type: http
+  type: vless
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 7-m16.CHiaN-MAi-8.KDNS.Fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - name: 1|US - zhuhai.uk 02
-  port: 9002
-  server: 138.199.35.204
+  port: 8090
+  server: 209.148.53.153
   skip-cert-verify: true
+  sni: 209.148.53.153
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 03
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 04
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 05
+  port: 443
+  server: fullmanfirm.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 06
   network: ws
   port: 443
   server: 172.67.221.200
@@ -202,63 +228,23 @@ proxies:
     headers:
       Host: 5-M16.chiaN-Mai-9.KdnS.Fr
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 1|US - zhuhai.uk 04
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  sni: 138.199.35.203
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 05
+- name: 1|US - zhuhai.uk 07
   password: None
-  port: 9002
-  server: 138.199.35.209
+  port: 443
+  server: 52.55.81.168
   skip-cert-verify: true
-  sni: 138.199.35.209
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 06
+- name: 1|US - zhuhai.uk 08
   port: 9002
-  server: 138.199.35.197
+  server: 138.199.35.209
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 07
-  port: 443
-  reality-opts:
-    public-key: w5egR8fKNXrEJns2AfwStSzRQ9yHY_invtW7tnqm8Dk
-    short-id: 297842ea18bf
-  server: us2.miyazono-kaori.com
-  servername: download-porter.hoyoverse.com
-  tls: true
-  type: vless
-  uuid: c20828bd-c63b-401f-b324-7b652dd353af
-- name: 1|US - zhuhai.uk 08
-  network: ws
-  port: 443
-  server: 172.67.190.103
-  servername: 9-m16.chiAng-rAI2036.kDNS.Fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 9-m16.chiAng-rAI2036.kDNS.Fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - name: 1|US - zhuhai.uk 09
-  network: ws
-  port: 443
-  server: 172.67.149.248
-  servername: IMg-edGE-M16-3.HUAngsHANg.pP.UA
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: IMG-edGe-m16-3.hUAnGSHANg.PP.uA
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123

@@ -1,7 +1,19 @@
 proxies:
-- name: 1|HK - zhuhai.uk 02
+- name: 1|HK - zhuhai.uk
+  password: admin
+  port: 1080
+  server: 47.239.116.165
+  type: socks5
+  username: admin
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 02
   port: 443
-  server: hk40.240104.xyz
-  skip-cert-verify: true
+  reality-opts:
+    public-key: zV4Sja0iajpdzkR1iBMbI7RRWL2nlpgwGOtirQSG-zc
+    short-id: b81edf7fdee4
+  server: hk3.miyazono-kaori.com
+  servername: hk4e-launcher-static.hoyoverse.com
   tls: true
-  type: http
+  type: vless
+  uuid: 6a845224-63c1-480b-a7d8-14134d616c8d

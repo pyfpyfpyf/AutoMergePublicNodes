@@ -1,15 +1,22 @@
 proxies:
-- client-fingerprint: random
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 1|SG - zhuhai.uk
-  network: ws
   port: 443
-  server: www.visa.com.hk
-  servername: ap-south.xhs152.shop
-  skip-cert-verify: true
+  reality-opts:
+    public-key: I2PQq5bidT2RjVCJt2r-eSVpLNY61quSYgS2dseomF8
+    short-id: 1dd8558159ecd0
+  server: sg4.miyazono-kaori.com
+  servername: www.changiairport.com
   tls: true
   type: vless
-  uuid: db04ac87-08bb-49a9-9deb-556fe915892e
-  ws-opts:
-    headers:
-      Host: ap-south.xhs152.shop
-    path: /announcement
+  uuid: 6a845224-63c1-480b-a7d8-14134d616c8d
+- name: 1|SG - zhuhai.uk 02
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 146.70.29.45
+  skip-cert-verify: true
+  sni: 92461d2d.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
