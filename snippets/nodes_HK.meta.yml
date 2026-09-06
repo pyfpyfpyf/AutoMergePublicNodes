@@ -1,7 +1,17 @@
 proxies:
-- name: 1|HK - zhuhai.uk
-  password: admin
-  port: 1080
-  server: 47.239.116.165
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk
+  port: 443
+  reality-opts:
+    public-key: EXIEsAJq-s30mA0r997iwrR8ijvGLZ7DOTkr_R39QCE
+    short-id: 54fc3827c8
+  server: 156.248.10.58
+  servername: nono.hhhkkhktt.xyz
+  tls: true
+  type: vless
+  uuid: 2c366360-0333-4738-9423-6d5b378e3594
+- name: 1|HK - zhuhai.uk 02
+  port: 10808
+  server: 123.58.219.171
   type: socks5
-  username: admin
