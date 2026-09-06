@@ -1,1 +1,25 @@
-proxies: []
+proxies:
+- name: 1|DE - zhuhai.uk
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 199.232.78.160
+  sni: ssl.fastly.com
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn-ss-mitivpn-----mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- cipher: aes-256-cfb
+  name: 1|JP - zhuhai.uk 02
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.137
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|KR - zhuhai.uk
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
+  type: ss

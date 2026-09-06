@@ -1,9 +1,22 @@
 proxies:
 - name: 1|GB - zhuhai.uk
-  network: ws
-  port: 2087
-  server: 147.189.141.106
+  password: a95e9198-0671-11f0-9426-f23c932f2c32
+  port: 443
+  server: 6d74a01e-thrgg0-thri9q-azvy.cldvpuk.cdnbytescm.com
+  skip-cert-verify: true
+  sni: 6d74a01e-thrgg0-thri9q-azvy.cldvpuk.cdnbytescm.com
+  tls: true
+  type: http
+  username: a95e9198-0671-11f0-9426-f23c932f2c32
+- client-fingerprint: chrome
+  name: 1|GB - zhuhai.uk 02
+  network: tcp
+  port: 35745
+  reality-opts:
+    public-key: wCxG46NhMGffE2VezAgfPj9PJckGUo07yEBvItYUAGI
+  server: 82.40.62.39
+  servername: amp-api-edge.apps.apple.com
+  tls: true
   type: vless
-  uuid: 4a269a45-a9e3-4272-b04a-1d42d581150f
-  ws-opts:
-    path: /4de527ea5ed9
+  udp: true
+  uuid: 9d36046b-b249-4efc-954b-59d078cad769

@@ -1,28 +1,19 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 1|JP - zhuhai.uk
-  port: 25892
+  port: 40000
   reality-opts:
-    public-key: 20EMD5w9RCv9W_MtV6PfJAcKwSUpRfdQ_uA_UBHggRE
-    short-id: 9b0f012413fd
-  server: 52.68.64.80
-  servername: www.sony.com
+    public-key: aHRsAvtF9gLDaghGswro-Aopi9pXLO01OKGeFze9oFw
+    short-id: b5e833f5
+  server: jp03.333210.best
+  servername: aws.amazon.com
   tls: true
   type: vless
-  uuid: 31d84170-673e-4653-afaf-0656656be6dc
-- name: 1|JP - zhuhai.uk 03
-  port: 443
-  server: fan.571589.xyz
-  skip-cert-verify: true
-  sni: fan.571589.xyz
-  tls: true
-  type: http
-- name: 1|JP - zhuhai.uk 04
-  password: 'null'
-  port: 443
-  server: fan.571589.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
+  uuid: e10af88b-44fb-444d-949a-5f3aa7fec457
+- cipher: aes-256-cfb
+  name: 1|JP - zhuhai.uk 02
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.137
+  type: ss
