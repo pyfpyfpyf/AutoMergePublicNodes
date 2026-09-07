@@ -1,1 +1,49 @@
-proxies: []
+proxies:
+- name: 1|GB - zhuhai.uk 03
+  obfs: salamander
+  obfs-password: 02c4876afcc37c4298f71796b09a55da
+  password: ed76d01a068000d9f034144d47baf1a4
+  port: 443
+  server: 134.65.60.88
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|GB - zhuhai.uk 06
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: brightharbor.download
+  servername: localhost
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+- client-fingerprint: chrome
+  name: 1|GB - zhuhai.uk 05
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: freshjuniper.download
+  servername: localhost
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|GB - zhuhai.uk 04
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
+    short-id: a9c4f17e3b62d8
+  server: 176.109.88.216
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2c7f1414-87ae-4a01-9796-a02c067891a6
