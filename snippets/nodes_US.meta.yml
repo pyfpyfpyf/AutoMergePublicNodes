@@ -177,53 +177,41 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- name: 1|US - zhuhai.uk 02
-  port: 52683
-  server: jp.sofast.live
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk
+  network: ws
+  port: 443
+  server: cfyes.ziyoufly.xyz
+  servername: cf-uh-us01-2.23523463.xyz
+  tls: true
   type: vless
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-- cipher: aes-256-cfb
+  uuid: 3b578f92-da29-48cb-b037-40d2ef032afe
+  ws-opts:
+    headers:
+      Host: cf-uh-us01-2.23523463.xyz
+    path: /ziyou
+- name: 1|US - zhuhai.uk 02
+  password: test123
+  port: 1080
+  server: 185.145.99.41
+  type: socks5
+  username: test123
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 1|US - zhuhai.uk 03
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.232
-  type: ss
+  port: 443
+  reality-opts:
+    public-key: oTMDLwY2hloBfA7ShzVsrFhjL4QXR6mY32B93rMLxV0
+    short-id: 525e0ffc773f48ba
+  server: 172.236.233.59
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: abd1c29a-94cb-4648-8d1e-5baae9d2a807
 - name: 1|US - zhuhai.uk 04
   port: 443
   server: kimberlymilano.icu
+  sni: kimberlymilano.icu
   tls: true
   type: http
-  username: bnVsbDpudWxs
-- name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 06
-  port: 443
-  server: carolinafreigh.fun
-  tls: true
-  type: http
-  username: Ok5vbmU=
-- name: 1|US - zhuhai.uk 07
-  password: 'null'
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 08
-  network: ws
-  port: 443
-  server: 104.21.36.81
-  servername: 4-m16.cHIaNg-raI2036.kdns.FR
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 4-M16.ChIANG-RaI2036.kdnS.fR
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB

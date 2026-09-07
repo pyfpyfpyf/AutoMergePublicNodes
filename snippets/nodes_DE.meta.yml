@@ -1,17 +1,14 @@
 proxies:
-- name: 1|DE - zhuhai.uk 02
-  password: 'null'
-  port: 443
-  server: 141.17.83.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|DE - zhuhai.uk 03
+- client-fingerprint: chrome
+  name: 1|DE - zhuhai.uk
   network: ws
-  port: 2087
-  server: 163.8.195.241
+  port: 443
+  server: 91.184.250.202
+  servername: sni.868001.xyz
+  tls: true
   type: vless
-  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
   ws-opts:
-    path: /29c8fed7ca22
+    headers:
+      Host: sni.868001.xyz
+    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
