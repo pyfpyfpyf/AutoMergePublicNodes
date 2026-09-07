@@ -177,41 +177,77 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk
-  network: ws
+- name: 1|US - zhuhai.uk
+  obfs: salamander
+  obfs-password: 8c076142c9f5eaf115ec1522aa5bbade
+  password: 9da1fe49d6d788e865cb40113d2a4b9c
   port: 443
-  server: cfyes.ziyoufly.xyz
-  servername: cf-uh-us01-2.23523463.xyz
+  server: 146.71.85.6
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 1|US - zhuhai.uk 02
+  password: None
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  sni: 138.199.35.197
+  tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: safari
+  name: 1|US - zhuhai.uk 03
+  network: ws
+  port: 2083
+  server: 172.66.0.236
+  servername: cfvvv-ev1.pages.dev
   tls: true
   type: vless
-  uuid: 3b578f92-da29-48cb-b037-40d2ef032afe
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
   ws-opts:
     headers:
-      Host: cf-uh-us01-2.23523463.xyz
-    path: /ziyou
-- name: 1|US - zhuhai.uk 02
-  password: test123
-  port: 1080
-  server: 185.145.99.41
-  type: socks5
-  username: test123
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 03
-  port: 443
-  reality-opts:
-    public-key: oTMDLwY2hloBfA7ShzVsrFhjL4QXR6mY32B93rMLxV0
-    short-id: 525e0ffc773f48ba
-  server: 172.236.233.59
-  servername: www.cloudflare.com
+      Host: cfvvv-ev1.pages.dev
+    path: /
+- name: 1|US - zhuhai.uk 04
+  password: None
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  sni: 138.199.35.198
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 05
+  password: 'null'
+  port: 9002
+  server: 138.199.35.200
   skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: abd1c29a-94cb-4648-8d1e-5baae9d2a807
-- name: 1|US - zhuhai.uk 04
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 06
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 07
   port: 443
-  server: kimberlymilano.icu
-  sni: kimberlymilano.icu
+  server: goedkoopgeluid.icu
+  sni: goedkoopgeluid.icu
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 08
+  password: 'null'
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 09
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
   tls: true
   type: http
