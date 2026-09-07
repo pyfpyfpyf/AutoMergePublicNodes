@@ -1,13 +1,11 @@
 proxies:
-- name: 1|JP - zhuhai.uk
-  port: 10808
-  server: 101.36.104.46
-  type: socks5
-- name: 1|JP - zhuhai.uk 02
-  password: 'null'
+- client-fingerprint: chrome
+  name: 1|JP - zhuhai.uk
   port: 443
-  server: fan.571589.xyz
-  sni: fan.571589.xyz
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: 130.12.102.125
+  servername: localhost
   tls: true
-  type: http
-  username: 'null'
+  type: vless
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3

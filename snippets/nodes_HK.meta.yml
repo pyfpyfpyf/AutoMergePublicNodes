@@ -1,10 +1,12 @@
 proxies:
 - name: 1|HK - zhuhai.uk
-  password: admin
-  port: 1080
-  server: 47.239.116.165
-  type: socks5
-  username: admin
+  password: dCwrni
+  port: 7008
+  server: api.meituan88.com
+  skip-cert-verify: true
+  sni: globalnetworktraffic.com
+  type: anytls
+  udp: true
 - name: 1|HK - zhuhai.uk 02
   password: 'null'
   port: 443
@@ -13,3 +15,9 @@ proxies:
   tls: true
   type: http
   username: 'null'
+- name: 1|HK - zhuhai.uk 03
+  password: abc123
+  port: 1080
+  server: 47.239.98.42
+  type: socks5
+  username: abc123
