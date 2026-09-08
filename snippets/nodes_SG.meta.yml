@@ -1,10 +1,13 @@
 proxies:
-- name: 1|SG - zhuhai.uk 02
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 146.70.29.45
-  skip-cert-verify: true
-  sni: 146.70.29.45
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk
+  port: 10018
+  reality-opts:
+    public-key: __YqMje4P5LY575OvzZjKJddTTn3vI6n0tMsMKCgcRY
+    short-id: 6cfa2459bb
+  server: family.bucket.6.kfc-520.com
+  servername: www.sap.com
   tls: true
-  type: http
-  username: testuser1
+  type: vless
+  uuid: 2a88deea-221d-3f06-9846-4067c6f725ee
