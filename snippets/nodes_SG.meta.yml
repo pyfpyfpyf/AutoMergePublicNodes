@@ -1,14 +1,10 @@
 proxies:
-- client-fingerprint: firefox
-  name: 1|SG - zhuhai.uk
-  network: ws
-  port: 8443
-  server: 104.17.71.206
-  servername: 8.sahanwickramasinghe.me
+- name: 1|SG - zhuhai.uk 02
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 146.70.29.45
+  skip-cert-verify: true
+  sni: 146.70.29.45
   tls: true
-  type: vless
-  uuid: 542fd687-5160-4f80-9223-56678567dd29
-  ws-opts:
-    headers:
-      Host: 8.sahanwickramasinghe.me
-    path: /
+  type: http
+  username: testuser1
