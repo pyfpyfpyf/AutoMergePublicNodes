@@ -1,10 +1,15 @@
 proxies:
-- name: 1|SG - zhuhai.uk
-  password: e4b72b531a2d10900519
+- client-fingerprint: random
+  name: 1|SG - zhuhai.uk
+  network: ws
   port: 443
-  server: 146.70.29.45
+  server: www.visa.com.hk
+  servername: ap-south.xhs152.shop
   skip-cert-verify: true
-  sni: 146.70.29.45
   tls: true
-  type: http
-  username: testuser1
+  type: vless
+  uuid: 7b1897ec-afb5-425c-afbf-d79634b6b317
+  ws-opts:
+    headers:
+      Host: ap-south.xhs152.shop
+    path: /announcement
