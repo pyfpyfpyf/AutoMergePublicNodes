@@ -1,7 +1,25 @@
 proxies:
-- name: 1|SG - zhuhai.uk
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk
   port: 443
-  server: 154.26.139.24
-  skip-cert-verify: true
+  reality-opts:
+    public-key: xjWkdgeetCnB1-kHqwVnAaSUqg4qK9TFWQlamW8FSRI
+    short-id: e2e15173
+  server: pq.aws64.yydjc.top
+  servername: iosapps.itunes.apple.com
   tls: true
-  type: http
+  type: vless
+  uuid: 6e8bd3a2-425a-4dfb-a3ed-7256c50b3f73
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk 02
+  port: 443
+  reality-opts:
+    public-key: 9076EbD5vM8kATc_08QvDiqZF5KHTM_LaSrMOvcwfHw
+    short-id: 57b7989c
+  server: pq.aws65.yydjc.top
+  servername: iosapps.itunes.apple.com
+  tls: true
+  type: vless
+  uuid: 6e8bd3a2-425a-4dfb-a3ed-7256c50b3f73

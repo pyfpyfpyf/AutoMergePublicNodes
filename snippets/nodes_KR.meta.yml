@@ -1,5 +1,19 @@
 proxies:
-- name: 1|KR - zhuhai.uk
-  port: 1090
-  server: 121.169.46.116
-  type: socks5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|KR - zhuhai.uk
+  port: 443
+  reality-opts:
+    public-key: 6pZxjabeHoyJlsc2cP3Q5YK7G0bIOQwzWFyiarbUQXc
+    short-id: c8af1462debbc1
+  server: kr2.miyazono-kaori.com
+  servername: www.coway.com
+  tls: true
+  type: vless
+  uuid: 6e680912-5f2c-4f7a-94cf-432a2d6aa858
+- cipher: aes-256-cfb
+  name: 1|KR - zhuhai.uk 02
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
+  type: ss
