@@ -1,15 +1,21 @@
 proxies:
-- name: 1|JP - zhuhai.uk
+- client-fingerprint: chrome
+  name: 1|GB - zhuhai.uk 02
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: freshjuniper.download
+  servername: localhost
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+- name: 1|JP - zhuhai.uk 03
   port: 443
   server: fan.571589.xyz
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|JP - zhuhai.uk 02
-  password: 'null'
-  port: 443
-  server: fan.571589.xyz
-  sni: fan.571589.xyz
-  tls: true
-  type: http
-  username: 'null'
+  username: bnVsbDpudWxs
