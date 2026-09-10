@@ -1,6 +1,16 @@
 proxies:
-- name: 1|KR - zhuhai.uk
-  port: 1090
-  server: 121.169.46.116
-  type: socks5
-  username: VDJjOVBUbz06
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  name: 1|KR - zhuhai.uk
+  network: grpc
+  port: 10047
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr2-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: D2436339-0F26-479A-8064-4D91C2B93652

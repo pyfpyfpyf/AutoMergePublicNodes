@@ -1,52 +1,41 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|GB - zhuhai.uk 03
-  network: tcp
-  port: 443
+  name: 1|GB - zhuhai.uk
+  port: 30521
   reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 2.26.178.166
-  servername: localhost
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|GB - zhuhai.uk 02
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 2.26.178.152
-  servername: localhost
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- client-fingerprint: chrome
-  name: 1|GB - zhuhai.uk 08
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 130.12.102.125
-  servername: localhost
+    public-key: TsiUxIyOUQqEhPYWJ2HAlM-ecuOiHbH5ZTnaFdGdNU8
+  server: 45.152.65.157
+  servername: aws.amazon.com
   skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  uuid: e6752712-f10c-4c8c-8308-d80b70a2b87a
+- name: 1|GB - zhuhai.uk 02
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: chrome
-  name: 1|GB - zhuhai.uk 07
+  flow: xtls-rprx-vision
+  name: 1|GB - zhuhai.uk 03
+  port: 11763
+  reality-opts:
+    public-key: V3mjjvp5OFn8TNw7WK0RR2p7l9sVX2v7Zr56ag3QkiQ
+  server: 45.152.64.9
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: fe564b09-1fd8-4053-934b-3106350e4272
+- client-fingerprint: chrome
+  name: 1|GB - zhuhai.uk 04
   network: tcp
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
   server: 130.12.102.26
   servername: localhost
-  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
