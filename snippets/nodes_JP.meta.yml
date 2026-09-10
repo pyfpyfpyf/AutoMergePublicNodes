@@ -1,13 +1,5 @@
 proxies:
 - name: 1|JP - zhuhai.uk
-  password: 'null'
-  port: 443
-  server: fan.571589.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|JP - zhuhai.uk 02
   password: XrgOXIVkpI
   port: 54324
   server: jpsui.jzy88.top
@@ -15,3 +7,25 @@ proxies:
   sni: jpsui.jzy88.top
   type: anytls
   udp: true
+- client-fingerprint: chrome
+  name: 1|JP - zhuhai.uk 02
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: freshjuniper.download
+  servername: freshjuniper.download
+  tls: true
+  type: vless
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+- name: 1|JP - zhuhai.uk 03
+  port: 10808
+  server: 101.36.104.46
+  type: socks5
+- name: 1|JP - zhuhai.uk 04
+  password: 'null'
+  port: 443
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
