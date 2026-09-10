@@ -1,11 +1,19 @@
 proxies:
-- name: 1|JP - zhuhai.uk
+- cipher: aes-256-cfb
+  name: 1|JP - zhuhai.uk
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.137
+  type: ss
+- name: 1|JP - zhuhai.uk 02
   port: 10808
   server: 101.36.104.46
   type: socks5
-- name: 1|JP - zhuhai.uk 02
-  port: 443
-  server: fan.571589.xyz
+- name: 1|JP - zhuhai.uk 03
+  password: 4e7c56ed-68dc-358d-8b4b-fe5c2e74632d
+  port: 44029
+  server: 62.234.223.235
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: baidu.com
+  type: trojan
+  udp: true
