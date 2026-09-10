@@ -1,24 +1,10 @@
 proxies:
-- name: 1|SG - zhuhai.uk
+- name: 1|SG - zhuhai.uk 02
   password: e4b72b531a2d10900519
   port: 443
   server: 146.70.29.45
-  sni: 92461d2d.acsnet.co
+  skip-cert-verify: true
+  sni: 146.70.29.45
   tls: true
   type: http
   username: testuser1
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 1|SG - zhuhai.uk 01
-  network: grpc
-  port: 10037
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  server: sg2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: D2436339-0F26-479A-8064-4D91C2B93652
