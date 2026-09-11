@@ -45,9 +45,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0134
+- name: 0,1|US - zhuhai.uk 11
   port: 443
   server: voteshirleysew.club
+  skip-cert-verify: true
+  sni: voteshirleysew.club
   tls: true
   type: http
   udp: true
@@ -126,13 +128,14 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
-- name: 0|US_speednode_0140
+- name: 0,1|US - zhuhai.uk 02
   password: None
   port: 443
   server: purposebydesig.club
   tls: true
   type: http
   udp: true
+  username: 'null'
 - name: 0|US_speednode_0141
   port: 443
   server: 38.28.193.188
@@ -178,23 +181,64 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  port: 443
-  server: jewelscollecti.icu
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
   tls: true
   type: http
-  username: Ok5vbmU=
-- name: 1|US - zhuhai.uk 02
+- name: 1|US - zhuhai.uk 04
   password: None
   port: 9002
-  server: 138.199.35.198
+  server: 138.199.35.209
   skip-cert-verify: true
-  sni: 138.199.35.198
+  sni: 138.199.35.209
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 03
-  port: 9002
-  server: 138.199.35.204
+- name: 1|US - zhuhai.uk 05
+  port: 9443
+  server: 38.95.111.226
   skip-cert-verify: true
   tls: true
   type: http
+- name: 1|US - zhuhai.uk 06
+  port: 10801
+  server: 161.153.97.29
+  type: socks5
+- name: 1|US - zhuhai.uk 07
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- name: 1|US - zhuhai.uk 08
+  password: 'null'
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  sni: 138.199.35.210
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 09
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  sni: 138.199.35.210
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 10
+  port: 443
+  server: purposebydesig.club
+  sni: purposebydesig.club
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 12
+  password: 'null'
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  sni: 138.199.35.200
+  tls: true
+  type: http
+  username: 'null'
