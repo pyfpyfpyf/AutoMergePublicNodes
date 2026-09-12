@@ -178,95 +178,56 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  port: 443
-  server: crosscards.site
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  sni: 138.199.35.201
   tls: true
   type: http
-  username: Ok5vbmU=
 - name: 1|US - zhuhai.uk 02
   password: 'null'
-  port: 443
-  server: fan.365747.xyz
+  port: 9002
+  server: 138.199.35.210
   skip-cert-verify: true
-  sni: fan.365747.xyz
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 03
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
+  port: 443
+  server: fan.226278.xyz
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 04
-  port: 52683
-  server: jp.sofast.live
-  type: vless
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
-- name: 1|US - zhuhai.uk 05
   port: 443
   server: fan.596189.xyz
-  tls: true
-  type: http
-  username: bnVsbDpudWxs
-- name: 1|US - zhuhai.uk 06
-  port: 9002
-  server: 138.199.35.215
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 07
-  port: 443
-  server: fullmanfirm.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 08
-  port: 10801
-  server: 161.153.97.29
-  type: socks5
-- name: 1|US - zhuhai.uk 09
-  password: 'null'
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  sni: 138.199.35.218
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 10
-  password: 'null'
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  sni: 138.199.35.195
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 11
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
+  sni: fan.596189.xyz
   tls: true
   type: http
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 12
-  port: 443
-  reality-opts:
-    public-key: EVhq2BxKuw2Cody1DmF_HPvUYKwzdXbHP47blUv-eRM
-    short-id: 55ab5559e3a6d10a
-  server: 5.34.178.120
-  servername: www.cloudflare.com
+  name: 1|US - zhuhai.uk 05
+  network: ws
+  port: 8443
+  server: 8.39.125.23
+  servername: flywall.666986.xyz
   tls: true
   type: vless
-  uuid: 9063f9fb-e88a-4ee0-b4a4-a92ca7316a9f
-- name: 1|US - zhuhai.uk 13
-  obfs: salamander
-  obfs-password: c8827ab99e316c5bd414e21afa915ddf
-  password: 8294f130408299df8cab08c80bf6f819
+  uuid: 4c3f4c91-fb76-46bf-8758-15e708486374
+  ws-opts:
+    headers:
+      Host: flywall.666986.xyz
+    path: /mistyhill
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 01
+  network: tcp
   port: 443
-  server: 24.233.8.109
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
+  reality-opts:
+    public-key: vFnG0SzHIv43o3L8bw4reKp3EIFuSS-BCyBqbWUsYCo
+    short-id: 6591f200
+  server: cdn12usa.goonars.com
+  servername: cdn12usa.goonars.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 02722550-1915-4629-a653-cbe95e594f70

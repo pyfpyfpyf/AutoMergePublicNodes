@@ -1,10 +1,13 @@
 proxies:
-- name: 1|SG - zhuhai.uk
-  password: e4b72b531a2d10900519
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk
   port: 443
-  server: 146.70.29.45
-  skip-cert-verify: true
-  sni: 146.70.29.45
+  reality-opts:
+    public-key: vUhHTgZiXSho6Nv84w_JZW7Mo7XjJr0TsOBf19Dpols
+    short-id: 37c94ae25b69a93a
+  server: sg1.miyazono-kaori.com
+  servername: sg-hyp-api.hoyoverse.com
   tls: true
-  type: http
-  username: testuser1
+  type: vless
+  uuid: 0edbdf9a-3cae-4234-889a-1ec5c59c9c2c
