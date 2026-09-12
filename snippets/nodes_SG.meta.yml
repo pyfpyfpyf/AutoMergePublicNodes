@@ -1,13 +1,14 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|SG - zhuhai.uk
-  port: 443
-  reality-opts:
-    public-key: vUhHTgZiXSho6Nv84w_JZW7Mo7XjJr0TsOBf19Dpols
-    short-id: 37c94ae25b69a93a
-  server: sg1.miyazono-kaori.com
-  servername: sg-hyp-api.hoyoverse.com
+- client-fingerprint: qq
+  name: 1|SG - zhuhai.uk 02
+  network: ws
+  port: 8443
+  server: news.zoom.us
+  servername: u.srilankangrill.online
   tls: true
   type: vless
-  uuid: 0edbdf9a-3cae-4234-889a-1ec5c59c9c2c
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  ws-opts:
+    headers:
+      Host: u.srilankangrill.online
+    path: /
