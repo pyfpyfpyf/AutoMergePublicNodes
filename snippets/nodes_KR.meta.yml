@@ -1,13 +1,14 @@
 proxies:
-- name: 1|KR - zhuhai.uk
-  port: 1090
-  server: 121.169.46.116
-  type: socks5
-  username: Og%3D%3D
-- name: 1|KR - zhuhai.uk 02
-  password: maintell
-  port: 2053
-  server: 152.70.237.123
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|KR - zhuhai.uk 02
+  port: 443
+  reality-opts:
+    public-key: wrSzVpmEdnTU7oS5UbKuNnvP57Z7cJkOZRBwRqHM_Hk
+    short-id: 6132a3b8dd2d8c6b
+  server: 47.80.61.21
+  servername: www.logitech.com
   skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
+  tls: true
+  type: vless
+  uuid: f5851a6e-72da-4e4e-99b2-c79629149503
