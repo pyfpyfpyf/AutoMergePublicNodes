@@ -177,72 +177,89 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- name: 1|US - zhuhai.uk
+- name: 1|US - zhuhai.uk 12
   port: 443
-  server: fan.596189.xyz
+  server: purecambogiasl.live
+  skip-cert-verify: true
+  sni: purecambogiasl.live
+  tls: true
+  type: http
+  username: bnVsbDpudWxs
+- name: 1|US - zhuhai.uk 02
+  port: 443
+  server: 52.55.81.168
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 02
-  network: ws
+- name: 1|US - zhuhai.uk 03
+  password: None
   port: 443
-  server: isn88.pages.dev
-  servername: isn88.pages.dev
+  server: zebpay.site
   tls: true
-  type: vless
-  uuid: 246372d4-6d3c-47ed-94e2-6c0fbc852396
-  ws-opts:
-    headers:
-      Host: isn88.pages.dev
-    path: /
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 03
-  network: ws
-  port: 443
-  server: serq.pages.dev
-  servername: serq.pages.dev
-  tls: true
-  type: vless
-  uuid: 229c7fb5-52a1-43b5-832f-8bee3f61bbf1
-  ws-opts:
-    headers:
-      Host: serq.pages.dev
-    path: /
+  type: http
+  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|US - zhuhai.uk 04
   port: 443
   reality-opts:
-    public-key: FKTaFzF4zfAqXBdDQHwSVl_XyNcC3T17s_FqhHyZchg
-    short-id: fb9456392070128e
-  server: 45.149.172.80
-  servername: www.amazon.com
+    public-key: EVhq2BxKuw2Cody1DmF_HPvUYKwzdXbHP47blUv-eRM
+    short-id: 55ab5559e3a6d10a
+  server: 5.34.178.120
+  servername: www.cloudflare.com
   tls: true
   type: vless
-  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
+  uuid: 9063f9fb-e88a-4ee0-b4a4-a92ca7316a9f
 - name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 06
   port: 9002
   server: 138.199.35.209
   skip-cert-verify: true
+  sni: 138.199.35.209
   tls: true
   type: http
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 07
-  network: ws
+- name: 1|US - zhuhai.uk 08
+  password: None
   port: 443
-  server: sserq.pages.dev
-  servername: sserq.pages.dev
+  server: fullmanfirm.icu
+  sni: fullmanfirm.icu
   tls: true
-  type: vless
-  uuid: 2c76c84a-1bfd-4413-8974-c44b3390a03b
-  ws-opts:
-    headers:
-      Host: sserq.pages.dev
-    path: /
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 07
+  password: 'null'
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 09
+  password: 'null'
+  port: 443
+  server: purecambogiasl.live
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 10
+  port: 443
+  server: berniesbodybla.fun
+  sni: berniesbodybla.fun
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 11
+  password: 'null'
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 13
+  obfs: salamander
+  obfs-password: c8827ab99e316c5bd414e21afa915ddf
+  password: 8294f130408299df8cab08c80bf6f819
+  port: 443
+  server: 24.233.8.109
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
