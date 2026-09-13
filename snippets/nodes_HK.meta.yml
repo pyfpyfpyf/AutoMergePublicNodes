@@ -1,20 +1,19 @@
 proxies:
+- name: 1|HK - zhuhai.uk
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
+  type: socks5
+  username: '111'
 - client-fingerprint: chrome
-  name: 1|HK - zhuhai.uk
-  network: ws
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 02
   port: 443
-  server: 193.134.211.209
-  servername: umxke.nlrb.4c0.hh.vavava.kdns.fr
+  reality-opts:
+    public-key: ID53PilNajhqBP3PTJJxurZOFnZfKVs-CU5buNOaKBQ
+    short-id: e40b98d40e53b8b9
+  server: 47.83.4.146
+  servername: www.cloudflare.com
   tls: true
   type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: umxke.nlrb.4c0.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 1|HK - zhuhai.uk 02
-  password: admin
-  port: 1080
-  server: 47.239.116.165
-  type: socks5
-  username: admin
+  uuid: 8952ecb7-4b85-4aa5-8b22-adc9aa4d3591
