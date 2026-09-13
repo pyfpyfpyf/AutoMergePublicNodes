@@ -1,14 +1,25 @@
 proxies:
-- name: 1|JP - zhuhai.uk
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk
+  port: 443
+  reality-opts:
+    public-key: kb1uhDsBcfsCD6acCuFcVERW29dscNGIjKPd67NArVk
+    short-id: ab3b914f0c9d9de5
+  server: 47.74.3.200
+  servername: www.logitech.com
+  tls: true
+  type: vless
+  uuid: 7fb42fab-ea8a-4f0f-af9e-55df8ae6cb1d
+- name: 1|JP - zhuhai.uk 03
+  port: 443
+  server: fan.587475.xyz
+  sni: fan.587475.xyz
+  tls: true
+  type: http
+- name: 1|JP - zhuhai.uk 04
   port: 443
   server: fan.571589.xyz
   tls: true
   type: http
-- name: 1|JP - zhuhai.uk 02
-  password: 'null'
-  port: 443
-  server: fan.571589.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
+  username: bnVsbDpudWxs

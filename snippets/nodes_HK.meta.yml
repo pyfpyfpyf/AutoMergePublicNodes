@@ -1,8 +1,17 @@
 proxies:
-- name: 1|HK - zhuhai.uk
-  port: 10808
-  server: 123.58.219.171
-  type: socks5
+- client-fingerprint: chrome
+  name: 1|HK - zhuhai.uk
+  network: ws
+  port: 443
+  server: 193.134.211.209
+  servername: umxke.nlrb.4c0.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: umxke.nlrb.4c0.hh.vavava.kdns.fr
+    path: /?ed=2560
 - name: 1|HK - zhuhai.uk 02
   password: admin
   port: 1080
