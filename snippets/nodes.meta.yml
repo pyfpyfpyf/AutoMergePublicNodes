@@ -6,16 +6,14 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|NL - zhuhai.uk 03
+- name: 0|NL_speednode_0005
   password: None
   port: 9002
   server: 84.17.47.125
   skip-cert-verify: true
-  sni: 84.17.47.125
   tls: true
   type: http
   udp: true
-  username: 'null'
 - name: 0|NL_speednode_0006
   port: 9002
   server: 84.17.47.150
@@ -961,9 +959,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0134
+- name: 0,1|US - zhuhai.uk 11
   port: 443
   server: voteshirleysew.club
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true
@@ -1088,181 +1087,243 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- name: 1|NL - zhuhai.uk
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 82.196.9.7
-  skip-cert-verify: true
-  sni: 52c40907.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- name: 1|HK - zhuhai.uk
-  port: 443
-  server: hk40.240104.xyz
-  sni: hk40.240104.xyz
-  tls: true
-  type: http
-- name: 1|EE - zhuhai.uk
-  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
-  port: 443
-  server: news.gazette.help
-  skip-cert-verify: true
-  sni: news.gazette.help
-  type: hysteria2
-- name: 1|JP - zhuhai.uk
-  port: 443
-  server: fan.571589.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 1|US - zhuhai.uk
   port: 9002
   server: 138.199.35.212
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|RO - zhuhai.uk
+- name: 1|US - zhuhai.uk 16
+  password: None
   port: 9002
-  server: 193.176.84.34
+  server: 138.199.35.197
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 02
-  port: 8443
-  server: 104.219.236.83
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|JP - zhuhai.uk 02
-  port: 10808
-  server: 101.36.104.46
-  type: socks5
-- name: 1|RO - zhuhai.uk 02
-  password: 'null'
-  port: 9002
-  server: 193.176.84.35
-  skip-cert-verify: true
-  sni: 193.176.84.35
+  sni: 138.199.35.197
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 03
   password: 'null'
   port: 9002
-  server: 138.199.35.209
+  server: 138.199.35.204
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 04
+  password: None
   port: 9002
-  server: 138.199.35.207
+  server: 138.199.35.219
   skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 1|NL - zhuhai.uk
+  port: 443
+  reality-opts:
+    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
+    short-id: 00a61d55a07de885
+  server: 89.105.206.123
+  servername: nl.convert-flow.net
+  tls: true
+  type: vless
+  uuid: 3a22ca95-bd99-4c6b-a799-f8f73930ea05
+- name: 1|GB - zhuhai.uk
+  port: 8443
+  server: 5.101.149.245
+  skip-cert-verify: true
+  sni: 5.101.149.245
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 138.199.35.204
+  password: 'null'
+  port: 443
+  server: purecambogiasl.live
   skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|JP - zhuhai.uk
+  port: 8094
+  server: 110.80.25.76
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|NL - zhuhai.uk 02
+  port: 9002
+  server: 84.17.47.147
+  skip-cert-verify: true
+  sni: 84.17.47.147
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 06
-  password: 'null'
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|NL - zhuhai.uk 02
   password: None
   port: 9002
-  server: 84.17.47.146
+  server: 138.199.35.206
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- cipher: chacha20-ietf-poly1305
-  name: 1|GB - zhuhai.uk
-  password: c58d16e593d44f42
-  port: 11001
-  server: 158.173.221.214
-  type: ss
 - name: 1|US - zhuhai.uk 07
-  port: 443
-  server: fan.226278.xyz
-  sni: fan.226278.xyz
-  tls: true
-  type: http
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 19000
+  server: anytls2.864106.xyz
+  skip-cert-verify: true
+  sni: anytls2.864106.xyz
+  type: anytls
+  udp: true
 - name: 1|US - zhuhai.uk 08
-  port: 58011
-  server: us22.sofast.live
-  type: vless
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-- name: 1|HK - zhuhai.uk 02
-  port: 10808
-  server: 123.58.219.171
-  type: socks5
-- name: 1|JP - zhuhai.uk 03
+  password: 'null'
   port: 443
-  server: fan.587475.xyz
+  server: 38.28.193.188
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|NL - zhuhai.uk 04
-  password: None
-  port: 443
-  server: 51.158.243.91
-  skip-cert-verify: true
-  sni: 51.158.243.91
   tls: true
   type: http
   username: 'null'
-- name: 1|ID - zhuhai.uk
-  password: freeuser1
-  port: 9251
-  server: sr2-id.freeconnect.link
+- name: 1|US - zhuhai.uk 09
+  obfs: salamander
+  obfs-password: c8827ab99e316c5bd414e21afa915ddf
+  password: 8294f130408299df8cab08c80bf6f819
+  port: 443
+  server: 24.233.8.109
   skip-cert-verify: true
-  sni: sr2-id.freeconnect.link
+  sni: www.bing.com
+  type: hysteria2
+- name: 1|US - zhuhai.uk 10
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  sni: 138.199.35.209
   tls: true
   type: http
-  username: freeuser1
-- name: 1|US - zhuhai.uk 09
-  password: 'null'
+- name: 1|US - zhuhai.uk 12
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  sni: 138.199.35.213
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 13
+  password: c2356e22-b026-4f12-8508-cf61f0b0c867
+  port: 4356
+  server: 107.174.255.14
+  skip-cert-verify: true
+  type: hysteria2
+- name: 1|US - zhuhai.uk 14
   port: 9002
   server: 138.199.35.208
   skip-cert-verify: true
+  sni: 138.199.35.208
+  tls: true
+  type: http
+- name: 1|RO - zhuhai.uk
+  port: 9002
+  server: 193.176.84.34
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 1|RO - zhuhai.uk 02
+  port: 9002
+  server: 193.176.84.22
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 15
+  password: 'null'
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 1|FR - zhuhai.uk
+- name: 1|GR - zhuhai.uk
   port: 443
-  server: 141.94.16.4
+  server: 149.22.85.78
   skip-cert-verify: true
-  sni: 141.94.16.4
   tls: true
   type: http
-- name: 1|KR - zhuhai.uk
+- name: 1|US - zhuhai.uk 17
+  password: 'null'
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 18
+  password: 'null'
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  sni: 138.199.35.202
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 19
+  network: ws
+  port: 443
+  server: 172.64.145.195
+  servername: cfnew.zxs1202.cc.cd
+  tls: true
+  type: vless
+  uuid: 428e3a9c-7ba6-4268-ae43-91c0e5b8d677
+  ws-opts:
+    headers:
+      Host: cfnew.zxs1202.cc.cd
+    path: /?ed=2048
+- name: 1|HK - zhuhai.uk
+  password: 'null'
+  port: 443
+  server: fan.240104.xyz
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|HK - zhuhai.uk 02
+  obfs: salamander
+  obfs-password: 5c8f1a3e7b2d9046c1f8a5e3b7d04f2a
+  password: 0c7fa158eb9f72a1c4b80927e48373dc
+  port: 443
+  server: 8.218.56.189
+  skip-cert-verify: true
+  sni: 8.218.56.189
+  type: hysteria2
+- client-fingerprint: random
+  name: 1|KR - zhuhai.uk
+  network: ws
+  port: 443
+  server: 123.111.169.70
+  servername: vip.868068.xyz
+  tls: true
+  type: vless
+  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
+  ws-opts:
+    headers:
+      Host: vip.868068.xyz
+    path: /proxyip=us.xiabibi.cf
+- name: 1|KR - zhuhai.uk 02
   port: 1090
   server: 121.169.46.116
   type: socks5
-- name: 1|KR - zhuhai.uk 02
-  password: 1beb216e3f60aea9555dae60d219a5ca
-  port: 50160
-  server: 152-69-231-175.liao.kdns.fr
-  skip-cert-verify: true
-  sni: 152-69-231-175.liao.kdns.fr
-  type: hysteria2
-- name: 1|SG - zhuhai.uk 02
+- name: 1|SG - zhuhai.uk
   password: e4b72b531a2d10900519
   port: 443
   server: 146.70.29.45
-  skip-cert-verify: true
   sni: 92461d2d.acsnet.co
   tls: true
   type: http
   username: testuser1
+- name: 1|ID - zhuhai.uk 02
+  password: freeuser1
+  port: 9251
+  server: sr2-id.freeconnect.link
+  sni: sr2-id.freeconnect.link
+  tls: true
+  type: http
+  username: freeuser1
 - name: 1|NL - zhuhai.uk 01
   network: ws
   port: 80

@@ -1,11 +1,17 @@
 proxies:
 - name: 1|HK - zhuhai.uk
+  password: 'null'
   port: 443
-  server: hk40.240104.xyz
-  sni: hk40.240104.xyz
+  server: fan.240104.xyz
   tls: true
   type: http
+  username: 'null'
 - name: 1|HK - zhuhai.uk 02
-  port: 10808
-  server: 123.58.219.171
-  type: socks5
+  obfs: salamander
+  obfs-password: 5c8f1a3e7b2d9046c1f8a5e3b7d04f2a
+  password: 0c7fa158eb9f72a1c4b80927e48373dc
+  port: 443
+  server: 8.218.56.189
+  skip-cert-verify: true
+  sni: 8.218.56.189
+  type: hysteria2
