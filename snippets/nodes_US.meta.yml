@@ -179,18 +179,44 @@ proxies:
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
   port: 443
+  server: efr-marktplatz.club
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 02
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  sni: 138.199.35.207
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 03
+  port: 443
+  server: fullmanfirm.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: Ok5vbmU=
+- name: 1|US - zhuhai.uk 04
+  port: 443
+  server: webdrone.club
+  tls: true
+  type: http
+  username: T2s1dmJtVT06
+- name: 1|US - zhuhai.uk 05
+  port: 443
   server: 38.28.193.1
   skip-cert-verify: true
   sni: 38.28.193.1
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 02
+- name: 1|US - zhuhai.uk 06
   port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
+  server: zebpay.site
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 03
+  username: Ok5vbmU=
+- name: 1|US - zhuhai.uk 07
   network: ws
   port: 443
   server: nl4.zuoai.cf
@@ -202,80 +228,71 @@ proxies:
     headers:
       Host: xi.tbv.ccwu.cc
     path: /proxyip=us.xiabibi.cf
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 04
-  port: 443
-  reality-opts:
-    public-key: HR3BRJLZP0CBPG3r4aTXk0JhAzkyKoEW8WnW8xtHtCA
-    short-id: 0631f6666e3e7035
-  server: 38.244.20.149
-  servername: www.apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: a2e2d5e7-5d23-40d8-baad-088b9e26b9c2
-- name: 1|US - zhuhai.uk 05
-  network: ws
-  port: 443
-  server: kz3.zuoai.cf
-  servername: xi.tbv.ccwu.cc
-  tls: true
-  type: vless
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  ws-opts:
-    headers:
-      Host: xi.tbv.ccwu.cc
-    path: /proxyip=us.xiabibi.cf
-- name: 1|US - zhuhai.uk 06
-  network: ws
-  port: 443
-  server: fi1.zuoai.cf
-  servername: xi.tbv.ccwu.cc
-  tls: true
-  type: vless
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  ws-opts:
-    headers:
-      Host: xi.tbv.ccwu.cc
-    path: /proxyip=us.xiabibi.cf
-- name: 1|US - zhuhai.uk 07
-  port: 443
-  server: efr-marktplatz.club
-  sni: efr-marktplatz.club
-  tls: true
-  type: http
-  username: Ok5vbmU=
 - name: 1|US - zhuhai.uk 08
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  sni: 138.199.35.214
+  network: ws
+  port: 443
+  server: store.ubi.com
+  servername: xi.tbv.ccwu.cc
   tls: true
-  type: http
-- name: 1|US - zhuhai.uk 09
-  password: 'null'
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  sni: 138.199.35.211
+  type: vless
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  ws-opts:
+    headers:
+      Host: xi.tbv.ccwu.cc
+    path: /proxyip=us.xiabibi.cf
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 09
+  port: 61592
+  reality-opts:
+    public-key: jnu0rNHECTe_v7H9Fmgg0iUSepHz4QQQRPW0XpX5URs
+    short-id: 1359c9bf9f7442e5
+  server: 51.194.251.114
+  servername: store.storeimages.cdn-apple.com
   tls: true
-  type: http
-  username: 'null'
+  type: vless
+  uuid: BD1F7E5E-9E0B-4919-A7F1-84BC9E69426D
 - name: 1|US - zhuhai.uk 10
-  password: 'null'
+  network: ws
+  port: 443
+  server: nexusmods.com
+  servername: xi.tbv.ccwu.cc
+  tls: true
+  type: vless
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  ws-opts:
+    headers:
+      Host: xi.tbv.ccwu.cc
+    path: /proxyip=us.xiabibi.cf
+- name: 1|US - zhuhai.uk 11
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 12
+  obfs: salamander
+  obfs-password: c8827ab99e316c5bd414e21afa915ddf
+  password: 8294f130408299df8cab08c80bf6f819
+  port: 443
+  server: 24.233.8.109
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 1|US - zhuhai.uk 13
   port: 9002
   server: 138.199.35.215
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 11
+- name: 1|US - zhuhai.uk 14
+  password: 'null'
   port: 443
-  server: jgwynphotoarts.pro
+  server: 52.55.81.168
   skip-cert-verify: true
   tls: true
   type: http
+  username: 'null'
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: movie
