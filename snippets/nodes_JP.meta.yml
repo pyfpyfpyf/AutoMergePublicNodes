@@ -1,11 +1,17 @@
 proxies:
 - name: 1|JP - zhuhai.uk
+  port: 443
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|JP - zhuhai.uk 02
   port: 10808
   server: 101.36.104.46
   type: socks5
-- name: 1|JP - zhuhai.uk 02
+- name: 1|JP - zhuhai.uk 03
   port: 443
   server: fan.587475.xyz
-  sni: fan.587475.xyz
+  skip-cert-verify: true
   tls: true
   type: http
