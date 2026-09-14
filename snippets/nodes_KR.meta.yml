@@ -1,18 +1,29 @@
 proxies:
-- client-fingerprint: random
+- client-fingerprint: chrome
   name: 1|KR - zhuhai.uk
   network: ws
   port: 443
-  server: 123.111.169.70
-  servername: vip.868068.xyz
+  server: 134.185.99.52
+  servername: mia9.pages.dev
   tls: true
   type: vless
-  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
+  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
   ws-opts:
     headers:
-      Host: vip.868068.xyz
-    path: /proxyip=us.xiabibi.cf
-- name: 1|KR - zhuhai.uk 02
-  port: 1090
-  server: 121.169.46.116
-  type: socks5
+      Host: mia9.pages.dev
+    path: /TG:@MiaChatChannel
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  name: 1|KR - zhuhai.uk 01
+  network: grpc
+  port: 10048
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: kr3-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7
