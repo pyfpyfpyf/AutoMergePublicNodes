@@ -1,13 +1,17 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|SG - zhuhai.uk
-  port: 20270
-  reality-opts:
-    public-key: q78tZmuaXQTsrrjZtjjRDtoni6tzN-HhXcAY-iT5zF0
-    short-id: fc13d6208ebbae16
-  server: sg-1.gsafevpnapi.com
-  servername: www.yahoo.com
+- name: 1|SG - zhuhai.uk
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 20562
+  server: mszz.mangshe.xyz
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
+- name: 1|SG - zhuhai.uk 02
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 146.70.29.45
+  skip-cert-verify: true
+  sni: 92461d2d.acsnet.co
   tls: true
-  type: vless
-  uuid: e016d072-ed97-40d4-a83f-04c00f8df2a5
+  type: http
+  username: testuser1

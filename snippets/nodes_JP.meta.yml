@@ -1,14 +1,24 @@
 proxies:
 - name: 1|JP - zhuhai.uk
+  port: 10808
+  server: 101.36.104.46
+  type: socks5
+- name: 1|JP - zhuhai.uk 02
   port: 443
   server: fan.571589.xyz
+  skip-cert-verify: true
   tls: true
   type: http
-- alterId: 0
-  cipher: auto
-  name: 1|JP - zhuhai.uk 02
-  network: http
-  port: 49432
-  server: 38.47.121.14
-  type: vmess
-  uuid: ce94f204-ffa6-4fa8-a1dc-ecfccfd463cb
+- client-fingerprint: chrome
+  name: 1|JP - zhuhai.uk 01
+  network: tcp
+  port: 13779
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  server: 202.144.192.76
+  servername: tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0

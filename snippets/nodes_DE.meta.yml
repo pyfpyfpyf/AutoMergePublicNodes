@@ -1,7 +1,19 @@
 proxies:
 - name: 1|DE - zhuhai.uk
+  network: ws
+  password: MITIVPN
   port: 443
-  server: fan.973511.xyz
+  server: 167.82.76.7
+  sni: ssl.fastly.com
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---ss--s---mitivpn-33s.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 1|DE - zhuhai.uk 02
+  port: 443
+  server: 141.17.83.78
   skip-cert-verify: true
   tls: true
   type: http
