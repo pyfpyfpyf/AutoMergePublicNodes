@@ -2,7 +2,7 @@ proxies:
 - name: 1|GB - zhuhai.uk
   port: 8443
   server: 5.101.149.245
-  sni: 5.101.149.245
+  skip-cert-verify: true
   tls: true
   type: http
 - client-fingerprint: chrome

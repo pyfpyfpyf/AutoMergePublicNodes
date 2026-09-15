@@ -178,66 +178,60 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  port: 443
-  server: fullmanfirm.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 02
-  port: 443
-  server: 52.55.81.168
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 05
-  password: 'null'
+  password: None
   port: 9002
-  server: 138.199.35.207
+  server: 138.199.35.198
   skip-cert-verify: true
-  sni: 138.199.35.207
+  sni: 138.199.35.198
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 06
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  sni: 138.199.35.204
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 03
+  password: 'null'
+  port: 443
+  server: 38.28.193.188
+  skip-cert-verify: true
+  sni: 38.28.193.188
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 04
-  port: 9002
-  server: 138.199.35.202
+  password: test123
+  port: 1080
+  server: 185.145.99.41
+  type: socks5
+  username: test123
+- name: 1|US - zhuhai.uk 05
+  port: 8443
+  server: 104.219.236.83
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 06
-  password: 'null'
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 07
-  network: ws
+- name: 1|US - zhuhai.uk 07
   port: 443
-  server: nsktoer.pages.dev
-  servername: nsktoer.pages.dev
+  server: fullmanfirm.icu
   tls: true
-  type: vless
-  uuid: bf96705c-ddd7-4631-9845-670051bae18d
-  ws-opts:
-    headers:
-      Host: nsktoer.pages.dev
-    path: /
+  type: http
 - name: 1|US - zhuhai.uk 08
   password: 'null'
   port: 9002
-  server: 138.199.35.209
+  server: 138.199.35.207
   skip-cert-verify: true
-  sni: 138.199.35.209
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 09
+  password: None
   port: 9002
-  server: 138.199.35.207
+  server: 138.199.35.200
   skip-cert-verify: true
-  sni: 138.199.35.207
   tls: true
   type: http
+  username: 'null'
