@@ -1,19 +1,14 @@
 proxies:
-- client-fingerprint: chrome
-  name: 1|JP - zhuhai.uk
-  network: ws
+- name: 1|JP - zhuhai.uk
   port: 443
-  server: 207.148.99.230
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
+  server: fan.571589.xyz
   tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /test/company/library?ed=2560
-- name: 1|JP - zhuhai.uk 02
-  port: 10808
-  server: 101.36.104.239
-  type: socks5
+  type: http
+- alterId: 0
+  cipher: auto
+  name: 1|JP - zhuhai.uk 02
+  network: http
+  port: 49432
+  server: 38.47.121.14
+  type: vmess
+  uuid: ce94f204-ffa6-4fa8-a1dc-ecfccfd463cb
