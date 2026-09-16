@@ -1,5 +1,5 @@
 proxies:
-- name: 1|JP - zhuhai.uk
+- name: 1|JP - zhuhai.uk 05
   port: 443
   server: fan.571589.xyz
   skip-cert-verify: true
@@ -11,6 +11,7 @@ proxies:
   port: 443
   server: fan.571589.xyz
   skip-cert-verify: true
+  sni: fan.571589.xyz
   tls: true
   type: http
   username: 'null'
@@ -20,3 +21,16 @@ proxies:
   sni: fan.587475.xyz
   tls: true
   type: http
+- client-fingerprint: chrome
+  name: 1|JP - zhuhai.uk 01
+  network: tcp
+  port: 13779
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+    short-id: af1bdd293097b664
+  server: 202.144.192.76
+  servername: tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
