@@ -1,5 +1,22 @@
 proxies:
 - name: 1|HK - zhuhai.uk
-  port: 10808
-  server: 123.58.219.171
+  password: admin
+  port: 8899
+  server: 47.242.19.215
   type: socks5
+  username: admin
+- client-fingerprint: chrome
+  name: 1|HK - zhuhai.uk 01
+  network: ws
+  port: 443
+  server: 8.222.70.238
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /mall/china/doc?ed=2560
