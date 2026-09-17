@@ -3,7 +3,21 @@ proxies:
   password: e4b72b531a2d10900519
   port: 443
   server: 146.70.29.45
+  skip-cert-verify: true
   sni: 92461d2d.acsnet.co
   tls: true
   type: http
   username: testuser1
+- client-fingerprint: chrome
+  name: 1|SG - zhuhai.uk 02
+  network: ws
+  port: 443
+  server: 47.131.189.221
+  servername: mia7.pages.dev
+  tls: true
+  type: vless
+  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+  ws-opts:
+    headers:
+      Host: mia7.pages.dev
+    path: /TG:@MiaChatChannel
