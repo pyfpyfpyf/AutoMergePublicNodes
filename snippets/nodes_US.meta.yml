@@ -177,76 +177,81 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- name: 1|US - zhuhai.uk 02
-  port: 443
-  server: fullmanfirm.icu
+- name: 1|US - zhuhai.uk
+  port: 9002
+  server: 138.199.35.212
   skip-cert-verify: true
-  sni: fullmanfirm.icu
+  sni: 138.199.35.212
   tls: true
   type: http
-  username: Ok5vbmU=
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 02
+  port: 40443
+  reality-opts:
+    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
+    short-id: ee33
+  server: 72.56.41.33
+  servername: deepl.com
+  tls: true
+  type: vless
+  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
 - name: 1|US - zhuhai.uk 03
   port: 443
-  server: goedkoopgeluid.icu
+  server: jgwynphotoarts.pro
+  sni: jgwynphotoarts.pro
   tls: true
   type: http
-  username: Ok5vbmU=
 - name: 1|US - zhuhai.uk 04
-  port: 9002
-  server: 138.199.35.210
+  port: 443
+  server: kimberlymilano.icu
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
+  port: 1080
+  server: 144.24.47.42
+  type: socks5
+  username: Og==
 - name: 1|US - zhuhai.uk 06
   password: 'null'
   port: 9002
-  server: 138.199.35.219
+  server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 07
-  password: 'null'
+  password: None
   port: 9002
-  server: 138.199.35.209
+  server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 08
-  password: 'null'
   port: 443
-  server: kimberlymilano.icu
-  sni: kimberlymilano.icu
+  server: goedkoopgeluid.icu
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 09
+  password: 'null'
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 09
-  password: e4b72b531a2d10900519
+- name: 1|US - zhuhai.uk 10
   port: 443
-  server: 147.182.216.4
-  sni: 93b6d804.acsnet.co
+  server: mmgr.club
+  sni: mmgr.club
   tls: true
   type: http
-  username: testuser1
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 1|US - zhuhai.uk 01
-  network: grpc
-  port: 9880
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabb
-  server: 176.123.162.100
-  servername: dl.google.com
+- name: 1|US - zhuhai.uk 11
+  port: 443
+  server: fullmanfirm.icu
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  type: http
+  username: Ok5vbmU=
