@@ -177,58 +177,23 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
+- name: 1|US - zhuhai.uk
+  password: 'null'
+  port: 443
+  server: kimberlymilano.icu
+  tls: true
+  type: http
+  username: 'null'
 - name: 1|US - zhuhai.uk 02
   password: None
   port: 9002
-  server: 138.199.35.200
+  server: 138.199.35.208
   skip-cert-verify: true
+  sni: 138.199.35.208
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 03
-  password: None
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 04
-  password: sg-trojan-2026
-  port: 443
-  server: 43.173.90.202
-  skip-cert-verify: true
-  sni: sg-proxy.local
-  tls: true
-  type: trojan
-- name: 1|US - zhuhai.uk 05
-  password: 'null'
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  sni: 138.199.35.207
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 06
-  password: 'null'
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  sni: 138.199.35.218
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 07
-  password: 'null'
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  sni: 138.199.35.205
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 08
   password: 'null'
   port: 9002
   server: 138.199.35.200
@@ -237,3 +202,51 @@ proxies:
   tls: true
   type: http
   username: 'null'
+- name: 1|US - zhuhai.uk 04
+  password: None
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 05
+  password: 'null'
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  sni: 138.199.35.205
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 06
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 07
+  port: 40443
+  reality-opts:
+    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
+    short-id: ee33
+  server: 72.56.41.33
+  servername: deepl.com
+  tls: true
+  type: vless
+  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
+- name: 1|US - zhuhai.uk 08
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  sni: 138.199.35.220
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 09
+  port: 443
+  server: fullmanfirm.icu
+  tls: true
+  type: http
+  username: Ok5vbmU=
