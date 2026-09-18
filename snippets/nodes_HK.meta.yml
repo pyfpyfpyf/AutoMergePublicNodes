@@ -1,7 +1,16 @@
 proxies:
 - name: 1|HK - zhuhai.uk
-  password: '!!str 111'
-  port: 11211
-  server: 47.243.173.50
+  port: 10808
+  server: 123.58.219.171
   type: socks5
-  username: '111'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 1|HK - zhuhai.uk 02
+  password: 9sK2mP8xQ7vL3nZ6
+  port: 443
+  server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
+  skip-cert-verify: true
+  sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
+  type: anytls
+  udp: true
