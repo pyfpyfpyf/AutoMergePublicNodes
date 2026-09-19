@@ -1,7 +1,25 @@
 proxies:
-- name: 1|HK - zhuhai.uk
-  password: f4927789e58bcd24b6f6
-  port: 10444
-  server: h.zz2233.cyou
-  sni: h.zz2233.cyou
-  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk
+  port: 443
+  reality-opts:
+    public-key: zV4Sja0iajpdzkR1iBMbI7RRWL2nlpgwGOtirQSG-zc
+    short-id: b81edf7fdee4
+  server: hk3.miyazono-kaori.com
+  servername: hk4e-launcher-static.hoyoverse.com
+  tls: true
+  type: vless
+  uuid: c43389cf-4364-4bf3-8ee2-6ba81a9104f8
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 02
+  port: 443
+  reality-opts:
+    public-key: HbjpGbCmp7lBysnS-twEYgGoriXACHZQObIpU9zJWVc
+    short-id: a273e9ee6ac0a466
+  server: hk5.miyazono-kaori.com
+  servername: www.hsbc.com.hk
+  tls: true
+  type: vless
+  uuid: c43389cf-4364-4bf3-8ee2-6ba81a9104f8
