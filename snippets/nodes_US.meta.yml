@@ -38,7 +38,7 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 0|US_speednode_0133
+- name: 0,1|US - zhuhai.uk 03
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
@@ -178,53 +178,48 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  password: 'null'
+  password: None
   port: 9002
-  server: 138.199.35.217
+  server: 138.199.35.200
   skip-cert-verify: true
-  sni: 138.199.35.217
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 02
-  port: 443
-  server: crosscards.site
-  tls: true
-  type: http
-  username: bnVsbDpudWxs
-- name: 1|US - zhuhai.uk 03
   password: 'null'
-  port: 9002
-  server: 138.199.35.205
+  port: 443
+  server: fan.596189.xyz
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 04
-  password: None
-  port: 443
-  server: zebpay.site
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 05
   password: 'null'
-  port: 443
-  server: goedkoopgeluid.icu
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 06
-  port: 443
-  server: fan.226278.xyz
-  skip-cert-verify: true
-  sni: fan.226278.xyz
-  tls: true
-  type: http
 - name: 1|US - zhuhai.uk 07
-  port: 443
-  server: efr-marktplatz.club
-  sni: efr-marktplatz.club
-  tls: true
-  type: http
-  username: Ok5vbmU=
+  network: ws
+  port: 80
+  server: 172.67.183.52
+  type: vless
+  udp: true
+  uuid: c8f3f81a-5276-48e9-af6b-c537fb4c7856
+  ws-opts:
+    headers:
+      Host: r7yhmg1zxnt120wmkag.mf1h0myptv4lougs7341bmttcz8.workers.dev
+    path: /vl/2INL39K32mKsOBKt?ed=2560
+- name: 1|US - zhuhai.uk 01
+  network: ws
+  port: 8880
+  server: 172.67.179.98
+  type: vless
+  udp: true
+  uuid: 129b50b6-060d-475c-b1de-b87c2a67051f
+  ws-opts:
+    headers:
+      Host: shrill-waterfall-bfe2.416.workers.dev
+    path: /pyip=ProxyIP.JP.CMLiussss.net
