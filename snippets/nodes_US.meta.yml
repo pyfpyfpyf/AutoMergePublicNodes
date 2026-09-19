@@ -38,7 +38,7 @@ proxies:
   type: vless
   udp: true
   uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- name: 0,1|US - zhuhai.uk 03
+- name: 0|US_speednode_0133
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
@@ -178,48 +178,43 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  password: None
+  password: 'null'
   port: 9002
-  server: 138.199.35.200
+  server: 138.199.35.197
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 02
-  password: 'null'
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 02
+  network: ws
   port: 443
-  server: fan.596189.xyz
-  skip-cert-verify: true
+  server: 172.67.212.195
+  servername: 2-m17.KUWAIT-AIrLInE.kDNS.Fr
   tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 04
-  password: 'null'
+  type: vless
+  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
+  ws-opts:
+    headers:
+      Host: 2-m17.KuwAIT-aiRliNE.KDns.Fr
+    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
+- name: 1|US - zhuhai.uk 03
   port: 9002
-  server: 138.199.35.206
+  server: 138.199.35.205
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 07
-  network: ws
-  port: 80
-  server: 172.67.183.52
-  type: vless
+- name: 1|US - zhuhai.uk 04
+  password: 9sK2mP8xQ7vL3nZ6
+  port: 443
+  server: awefd2313fefarg23fr24.pnuqcnp.cn
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
   udp: true
-  uuid: c8f3f81a-5276-48e9-af6b-c537fb4c7856
-  ws-opts:
-    headers:
-      Host: r7yhmg1zxnt120wmkag.mf1h0myptv4lougs7341bmttcz8.workers.dev
-    path: /vl/2INL39K32mKsOBKt?ed=2560
-- name: 1|US - zhuhai.uk 01
-  network: ws
-  port: 8880
-  server: 172.67.179.98
-  type: vless
-  udp: true
-  uuid: 129b50b6-060d-475c-b1de-b87c2a67051f
-  ws-opts:
-    headers:
-      Host: shrill-waterfall-bfe2.416.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
+- name: 1|US - zhuhai.uk 05
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http

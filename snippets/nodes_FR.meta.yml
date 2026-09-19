@@ -1,1 +1,19 @@
-proxies: []
+proxies:
+- name: 1|FR - zhuhai.uk
+  port: 443
+  server: 149.102.245.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: 1|FR - zhuhai.uk 02
+  port: 443
+  reality-opts:
+    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
+    short-id: ae682368818bd6c5
+  server: 34.155.10.226
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
