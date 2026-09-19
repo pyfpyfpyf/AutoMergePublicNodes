@@ -1,1 +1,24 @@
-proxies: []
+proxies:
+- cipher: aes-256-cfb
+  name: 1|FR - zhuhai.uk
+  password: amazonskr05
+  port: 443
+  server: 13.36.169.164
+  type: ss
+- name: 1|FR - zhuhai.uk 02
+  port: 443
+  server: 141.94.16.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: 1|FR - zhuhai.uk 03
+  port: 443
+  reality-opts:
+    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
+    short-id: ae682368818bd6c5
+  server: 34.155.10.226
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
