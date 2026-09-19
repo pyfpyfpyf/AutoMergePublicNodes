@@ -126,13 +126,14 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
-- name: 0|US_speednode_0140
+- name: 0,1|US - zhuhai.uk 12
   password: None
   port: 443
   server: purposebydesig.club
   tls: true
   type: http
   udp: true
+  username: 'null'
 - name: 0|US_speednode_0141
   port: 443
   server: 38.28.193.188
@@ -178,15 +179,30 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  password: 'null'
+  password: None
   port: 9002
   server: 138.199.35.197
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
+- name: 1|US - zhuhai.uk 02
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  sni: 138.199.35.200
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 03
+  password: 'null'
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
 - client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 02
+  name: 1|US - zhuhai.uk 04
   network: ws
   port: 443
   server: 172.67.212.195
@@ -198,23 +214,58 @@ proxies:
     headers:
       Host: 2-m17.KuwAIT-aiRliNE.KDns.Fr
     path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
-- name: 1|US - zhuhai.uk 03
+- cipher: aes-256-cfb
+  name: 1|US - zhuhai.uk 05
+  password: amazonskr05
+  port: 443
+  server: 3.148.195.154
+  type: ss
+- name: 1|US - zhuhai.uk 06
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  sni: 138.199.35.201
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 07
+  port: 4443
+  reality-opts:
+    public-key: 321Ii2xbCoyll6WJ0Qm1Sh8qcC0kxXvUaZhe3kyasD8
+    short-id: a1b2c3d4e5f6a7b8
+  server: 45.159.79.71
+  servername: sentry.io
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
+- name: 1|US - zhuhai.uk 08
+  password: 'null'
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 09
   port: 9002
   server: 138.199.35.205
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 04
-  password: 9sK2mP8xQ7vL3nZ6
+- name: 1|US - zhuhai.uk 10
   port: 443
-  server: awefd2313fefarg23fr24.pnuqcnp.cn
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-- name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 138.199.35.218
+  server: fullmanfirm.icu
   skip-cert-verify: true
   tls: true
   type: http
+- name: 1|US - zhuhai.uk 11
+  password: 'null'
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  sni: 138.199.35.204
+  tls: true
+  type: http
+  username: 'null'
