@@ -1,7 +1,12 @@
 proxies:
-- name: 1|SG - zhuhai.uk
-  port: 9443
-  server: 149.88.99.209
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  name: 1|SG - zhuhai.uk
+  port: 20003
+  reality-opts:
+    public-key: MNuMD-QetOhWYDuVRaQj-mhcrQMVWyF3zm3DNpaE_E4
+    short-id: 43ebaa76bdeab867
+  server: 106.75.137.66
+  servername: cache.video.iqiyi.com
   tls: true
-  type: http
+  type: vless
+  uuid: efbd22e5-1fd7-4c50-a41d-279915d89b66

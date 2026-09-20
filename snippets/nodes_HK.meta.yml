@@ -1,5 +1,27 @@
 proxies:
-- name: 1|HK - zhuhai.uk
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk
+  port: 29827
+  reality-opts:
+    public-key: aFwfZMfFUyzU8RB_vh3fxtjUxDcQlu4QapSdQH0jG04
+  server: 45.144.137.215
+  servername: aws.amazon.com
+  tls: true
+  type: vless
+  uuid: 2726dd7f-81fe-4b31-9b9b-e691ee730562
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 02
+  port: 45838
+  reality-opts:
+    public-key: uXR_8HuoykVpZgv9r27qlbwUsL8dOIg5wFbnWybA5Fg
+  server: 45.145.229.198
+  servername: aws.amazon.com
+  tls: true
+  type: vless
+  uuid: 01556b48-8cbc-47f6-8967-ff8f46cf7e77
+- name: 1|HK - zhuhai.uk 03
   password: 9sK2mP8xQ7vL3nZ6
   port: 443
   server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
@@ -7,9 +29,36 @@ proxies:
   sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
   type: anytls
   udp: true
-- name: 1|HK - zhuhai.uk 02
-  password: admin
-  port: 8899
-  server: 47.242.19.215
-  type: socks5
-  username: admin
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 04
+  port: 54030
+  reality-opts:
+    public-key: 1kifGOu6PhqrZmV4gK1XEmnKsq1Gcr9sqJYw4SQxujY
+  server: 103.143.81.60
+  servername: www.ebay.com
+  tls: true
+  type: vless
+  uuid: 322c0364-b447-45c2-a27c-250376170dc0
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 05
+  port: 40229
+  reality-opts:
+    public-key: NdYhIYluMQg_VZTxYc9DtlCWl6bNDXS421HBsTECaBE
+  server: 193.134.211.12
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: fd33946a-ad66-48bb-bece-36a19009a20e
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 06
+  port: 50045
+  reality-opts:
+    public-key: cxzKVlA9i0WAztJ9QJ0v4nactMJKLXDyzJd00hBFGQ4
+  server: 68.64.183.49
+  servername: aws.amazon.com
+  tls: true
+  type: vless
+  uuid: 72f59ca4-df5d-4ab1-af97-3e0a10ba56fd

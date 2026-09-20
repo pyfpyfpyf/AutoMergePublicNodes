@@ -178,61 +178,66 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  password: 'null'
-  port: 443
-  server: berniesbodybla.fun
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 02
-  password: 'null'
-  port: 9002
-  server: 138.199.35.212
+  password: fcc91034-a05d-4da1-ab38-422b21987ff9
+  port: 52413
+  server: 108.181.6.53
   skip-cert-verify: true
+  sni: iosapps.itunes.apple.com
+  type: hysteria2
+- name: 1|US - zhuhai.uk 02
+  port: 443
+  server: fan.226278.xyz
+  sni: fan.226278.xyz
   tls: true
   type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 03
   password: 'null'
   port: 9002
-  server: 138.199.35.199
+  server: 138.199.35.198
   skip-cert-verify: true
+  sni: 138.199.35.198
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 04
-  port: 9002
-  server: 138.199.35.196
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 04
+  port: 40443
+  reality-opts:
+    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
+    short-id: ee33
+  server: 72.56.41.33
+  servername: deepl.com
   skip-cert-verify: true
   tls: true
-  type: http
+  type: vless
+  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
 - name: 1|US - zhuhai.uk 05
   port: 9002
-  server: 138.199.35.218
+  server: 138.199.35.204
   skip-cert-verify: true
-  sni: 138.199.35.218
+  sni: 138.199.35.204
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 06
-  password: None
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 06
+  network: ws
+  port: 443
+  server: 104.21.62.195
+  servername: 3.qq1-0.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: cb53f904-c979-454f-bf43-621990008148
+  ws-opts:
+    headers:
+      Host: 3.qq1-0.kdns.fr
+    path: /LNbYtR09FXg1AmmjhdiHvR8v
+- name: 1|US - zhuhai.uk 07
+  password: 'null'
   port: 9002
   server: 138.199.35.215
   skip-cert-verify: true
-  sni: 138.199.35.215
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 07
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 147.182.216.4
-  sni: 93b6d804.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- name: 1|US - zhuhai.uk 08
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
