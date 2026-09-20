@@ -1,12 +1,15 @@
 proxies:
-- client-fingerprint: firefox
-  name: 1|DE - zhuhai.uk
-  port: 2053
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk 01
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: jeS6Zu-p1Gf6GtraIAbpgQoSeT26Xq3GqgqVxccbVhY
-    short-id: 4d14da19b19cfc8c
-  server: 162.55.242.208
-  servername: www.cloudflare.com
+    public-key: z_Rn0Vvq1GB39RhN6v7DhdtD-kS0XZa_je0h-no_hWs
+    short-id: 59eee550a1014198
+  server: de10.delivery-4f1c.com
+  servername: de10.delivery-4f1c.com
   tls: true
   type: vless
-  uuid: 659ffdfa-47d2-47d7-af40-5afe0907eead
+  udp: true
+  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
