@@ -21,7 +21,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|NL - zhuhai.uk 02
+- name: 0|NL_speednode_0007
   port: 9002
   server: 84.17.47.148
   skip-cert-verify: true
@@ -1065,7 +1065,7 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 0,1|US - zhuhai.uk 03
+- name: 0|US_speednode_0143
   port: 9002
   server: 138.199.35.198
   skip-cert-verify: true
@@ -1086,188 +1086,172 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk
-  port: 35559
-  reality-opts:
-    public-key: 0BRJ4nv0yLutb5ATRT3WbLgE9Y58udx3PbVOUVbOhkY
-  server: 207.57.128.108
-  servername: www.ebay.com
-  tls: true
-  type: vless
-  uuid: 6d7deb4c-d700-4e0f-bc17-122ccc564f28
-- name: 1|US - zhuhai.uk
-  password: e4b72b531a2d10900519
+- name: 1|JP - zhuhai.uk 02
   port: 443
-  server: 107.151.238.27
-  sni: 6b97ee1b.acsnet.co
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  sni: fan.571589.xyz
   tls: true
   type: http
-  username: testuser1
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|NL - zhuhai.uk
-  port: 443
-  reality-opts:
-    public-key: IBzFSziv_xISB-Q6X90PocTBde6jb4X6swEvdZQhqzk
-    short-id: d0aae44f
-  server: 45.11.27.86
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  uuid: a2738d8d-ed26-4b13-a4a2-b89c7238cd10
-- name: 1|US - zhuhai.uk 02
-  password: 'null'
+  username: bnVsbDpudWxs
+- name: 1|US - zhuhai.uk
+  password: None
   port: 9002
-  server: 138.199.35.219
+  server: 138.199.35.215
   skip-cert-verify: true
-  sni: 138.199.35.219
   tls: true
   type: http
   username: 'null'
-- name: 1|BD - zhuhai.uk
+- name: 1|KR - zhuhai.uk
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  username: T2c9PTo=
+- name: 1|ES - zhuhai.uk
+  port: 1083
+  server: 161.35.90.93
+  type: socks5
+- name: 1|JP - zhuhai.uk 03
+  password: 'null'
   port: 443
-  server: 35.247.136.78
-  skip-cert-verify: true
-  sni: 35.247.136.78
+  server: fan.571589.xyz
+  sni: fan.571589.xyz
   tls: true
   type: http
-- name: 1|HK - zhuhai.uk 02
-  port: 10808
-  server: 123.58.219.171
-  type: socks5
-- name: 1|DE - zhuhai.uk
-  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
-  port: 2056
-  server: dg1.mangshe.xyz
+  username: 'null'
+- name: 1|US - zhuhai.uk 02
+  network: ws
+  port: 443
+  server: 104.21.87.109
+  servername: 7-m16.PhUkEt2035.kdNS.fr
+  tls: true
+  type: vless
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 7-m16.PhUkEt2035.kdNS.fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 1|US - zhuhai.uk 03
+  port: 9002
+  server: 138.199.35.204
   skip-cert-verify: true
-  sni: dg1.mangshe.xyz
-  type: hysteria2
+  sni: 138.199.35.204
+  tls: true
+  type: http
+- name: 1|RO - zhuhai.uk
+  port: 9002
+  server: 193.176.84.34
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk
+  port: 30852
+  reality-opts:
+    public-key: HN9gCD2plpOr5jSNJfv9Xcl2Zjj-AKvfbNmLBNYWcUc
+  server: 207.57.135.42
+  servername: www.paypal.com
+  tls: true
+  type: vless
+  uuid: 10fdf9ce-3304-47cf-874b-9a3be30d5030
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk 02
+  port: 443
+  reality-opts:
+    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
+    short-id: 4fa44664f6a566d3
+  server: gesmankos.sadiepinki.com
+  servername: gesmankos.sadiepinki.com
+  tls: true
+  type: vless
+  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
+- flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 02
+  port: 46042
+  reality-opts:
+    public-key: BjAkOapbZN6R4cUgz8Ye-o-uyWz6o_LoUlI5kbURMh0
+  server: 38.147.171.99
+  servername: dash.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 1e89e68f-eceb-4159-baee-2b77c9d34717
+- name: 1|IT - zhuhai.uk
+  port: 443
+  server: 93.42.177.250
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: random
+  name: 1|DE - zhuhai.uk 04
+  network: ws
+  port: 2096
+  server: de3-node.rumedia-cdn.com
+  servername: st3f6d.rumedia-cdn.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
+  ws-opts:
+    headers:
+      Host: st3f6d.rumedia-cdn.com
+    path: /cdn/v3/live
+- flow: xtls-rprx-vision
+  name: 1|TR - zhuhai.uk
+  port: 9443
+  reality-opts:
+    public-key: dZ0rhO_PL67-Ciwc6CHQgtde3a5EUUuReA7M-lRNCDQ
+    short-id: e336c9a786fae301
+  server: 13.143.137.164
+  servername: plaincanvas.videoclothing.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+- alpn:
+  - http/1.1
+  name: 1|TW - zhuhai.uk
+  password: 9sK2mP8xQ7vL3nZ6
+  port: 443
+  server: 6ivh.pnuqcnp.cn
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
 - name: 1|US - zhuhai.uk 04
   network: ws
   port: 443
   server: 104.21.62.195
-  servername: 5.qq1-0.kdns.fr
+  servername: 3.qq1-0.kdns.fr
   tls: true
   type: vless
   uuid: cb53f904-c979-454f-bf43-621990008148
   ws-opts:
     headers:
-      Host: 5.qq1-0.kdns.fr
+      Host: 3.qq1-0.kdns.fr
     path: /LNbYtR09FXg1AmmjhdiHvR8v
-- name: 1|US - zhuhai.uk 07
-  password: 'null'
-  port: 9002
-  server: 138.199.35.209
+- name: 1|JP - zhuhai.uk 04
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 20561
+  server: msjp1.mangshe.xyz
   skip-cert-verify: true
-  sni: 138.199.35.209
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|RU - zhuhai.uk
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 4433
-  server: ru.xiaoliyu.cyou
-  skip-cert-verify: true
+  sni: www.microsoft.com
   type: hysteria2
-- name: 1|US - zhuhai.uk 06
-  port: 443
-  server: berniesbodybla.fun
-  tls: true
-  type: http
-  username: Ok5vbmU=
-- name: 1|DE - zhuhai.uk 02
-  port: 443
-  server: fan.973511.xyz
-  tls: true
-  type: http
-  username: bnVsbDpudWxs
-- flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk 03
-  port: 14934
-  reality-opts:
-    public-key: C9qIqeSCAkCLIqki3n21hyeILLltWcZJ6M0HgRTGmk4
-  server: 207.57.129.114
-  servername: dash.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 630b700b-3c91-463a-9ef5-ee01f5848b45
-- name: 1|US - zhuhai.uk 08
-  password: None
-  port: 9002
-  server: 138.199.35.207
+- name: 1|MY - zhuhai.uk
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: 103.117.141.103
   skip-cert-verify: true
-  sni: 138.199.35.207
+  sni: mlxy.mangshe.xyz
+  type: hysteria2
+- name: 1|ID - zhuhai.uk
+  password: freeuser1
+  port: 9251
+  server: sr2-id.freeconnect.link
   tls: true
   type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 09
-  port: 443
-  server: fullmanfirm.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 10
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|IN - zhuhai.uk
-  port: 443
-  server: 35.197.129.84
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|AU - zhuhai.uk
-  password: 'null'
-  port: 443
-  server: 159.13.44.228
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk 04
-  port: 29827
-  reality-opts:
-    public-key: aFwfZMfFUyzU8RB_vh3fxtjUxDcQlu4QapSdQH0jG04
-  server: 45.144.137.215
-  servername: aws.amazon.com
-  tls: true
-  type: vless
-  uuid: 2726dd7f-81fe-4b31-9b9b-e691ee730562
-- name: 1|JP - zhuhai.uk
-  port: 443
-  server: fan.571589.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: bnVsbDpudWxs
-- name: 1|KR - zhuhai.uk 02
-  port: 1090
-  server: 121.169.46.116
-  type: socks5
-  username: Vm10U1MyRnJPVmRSYkZacFpXcEJNazluUFQwNjo=
-- flow: xtls-rprx-vision
-  name: 1|SG - zhuhai.uk
-  port: 443
-  reality-opts:
-    public-key: xZaUaPEQIRWewPh9LsTehSiqqFL0INeNyp-ERkuy7Qs
-    short-id: 3bb3fff95c
-  server: aws-sg.webprovider.top
-  servername: icloud.com
-  tls: true
-  type: vless
-  uuid: 3180f311-16fb-445c-b129-4d946940c21a
-- name: 1|SG - zhuhai.uk 02
-  port: 443
-  server: 172.104.57.243
-  servername: zoom.us
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: b847f2ff-091f-4396-a8d0-d2fe3bfaa0bf
+  username: freeuser1
 - flow: xtls-rprx-vision
   name: 1|DE - zhuhai.uk 01
   network: tcp
