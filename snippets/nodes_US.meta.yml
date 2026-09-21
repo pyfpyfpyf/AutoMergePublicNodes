@@ -45,9 +45,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0134
+- name: 0,1|US - zhuhai.uk 08
   port: 443
   server: voteshirleysew.club
+  skip-cert-verify: true
+  sni: voteshirleysew.club
   tls: true
   type: http
   udp: true
@@ -178,45 +180,78 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  port: 9443
-  server: 38.95.111.226
+  password: 'null'
+  port: 443
+  server: fan.596189.xyz
   skip-cert-verify: true
   tls: true
   type: http
+  username: 'null'
 - name: 1|US - zhuhai.uk 02
   password: 'null'
   port: 9002
-  server: 138.199.35.209
+  server: 138.199.35.206
   skip-cert-verify: true
+  sni: 138.199.35.206
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 04
-  password: None
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: 1|US - zhuhai.uk 05
-  network: grpc
-  port: 9873
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabb
-  server: 176.109.104.195
-  servername: dl.google.com
-  tls: true
-  type: vless
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-- name: 1|US - zhuhai.uk 06
-  password: https://xship.best
+- name: 1|US - zhuhai.uk 03
+  password: https://xship.2fa.cat
   port: 443
   server: starlink-ft.251313.xyz
   skip-cert-verify: true
-  sni: xship.top
+  sni: www.cloudflare.com
   type: hysteria2
+- name: 1|US - zhuhai.uk 04
+  network: ws
+  port: 443
+  server: 104.21.87.109
+  servername: 7-m16.PhUkEt2035.kdNS.fr
+  tls: true
+  type: vless
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 7-m16.PhUkEt2035.kdNS.fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 1|US - zhuhai.uk 05
+  port: 443
+  server: goedkoopgeluid.icu
+  skip-cert-verify: true
+  sni: goedkoopgeluid.icu
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 06
+  password: 9sK2mP8xQ7vL3nZ6
+  port: 443
+  server: awefd2313fefarg23fr24.pnuqcnp.cn
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
+- name: 1|US - zhuhai.uk 07
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 09
+  network: ws
+  port: 443
+  server: 104.21.62.195
+  servername: 3.qq1-0.kdns.fr
+  tls: true
+  type: vless
+  uuid: cb53f904-c979-454f-bf43-621990008148
+  ws-opts:
+    headers:
+      Host: 3.qq1-0.kdns.fr
+    path: /LNbYtR09FXg1AmmjhdiHvR8v
+- name: 1|US - zhuhai.uk 10
+  port: 443
+  server: fullmanfirm.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
