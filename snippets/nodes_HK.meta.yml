@@ -1,11 +1,32 @@
 proxies:
 - name: 1|HK - zhuhai.uk
-  port: 10808
-  server: 123.58.219.171
-  type: socks5
-- name: 1|HK - zhuhai.uk 02
-  password: admin
-  port: 1080
-  server: 47.239.116.165
-  type: socks5
-  username: admin
+  password: 9sK2mP8xQ7vL3nZ6
+  port: 443
+  server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
+  skip-cert-verify: true
+  sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 02
+  port: 35559
+  reality-opts:
+    public-key: 0BRJ4nv0yLutb5ATRT3WbLgE9Y58udx3PbVOUVbOhkY
+  server: 207.57.128.108
+  servername: www.ebay.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6d7deb4c-d700-4e0f-bc17-122ccc564f28
+- name: 1|HK - zhuhai.uk 01
+  network: ws
+  port: 10088
+  server: cooper365.cloud
+  type: vless
+  udp: true
+  uuid: 9f9db0fb-135a-4141-8a0a-68eaf28f2da1
+  ws-opts:
+    headers:
+      Host: cooper365.cloud
+    path: /vless
