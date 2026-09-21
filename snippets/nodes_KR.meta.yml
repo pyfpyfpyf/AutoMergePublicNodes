@@ -1,6 +1,21 @@
 proxies:
-- name: 1|KR - zhuhai.uk
+- client-fingerprint: chrome
+  name: 1|KR - zhuhai.uk
+  network: ws
+  port: 2083
+  server: 123.111.169.70
+  servername: shuma.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
+- name: 1|KR - zhuhai.uk 02
+  password: Og%3D%3D
   port: 1090
   server: 121.169.46.116
   type: socks5
-  username: VDJjbE0wUWxNMFE2Og==
+  username: Og%3D%3D
