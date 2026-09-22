@@ -1,18 +1,17 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk
-  port: 42038
-  reality-opts:
-    public-key: uK4Syxig1VpR42JEkbld2ZIaymNkt5MW4UMt21LsaRA
-  server: 207.57.131.82
-  servername: aws.amazon.com
-  tls: true
-  type: vless
-  uuid: 451ae20e-adca-4d00-bf12-9572f58f181b
+- name: 1|HK - zhuhai.uk
+  password: 9sK2mP8xQ7vL3nZ6
+  port: 443
+  server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
+  skip-cert-verify: true
+  sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
+  type: anytls
+  udp: true
 - name: 1|HK - zhuhai.uk 02
-  password: '!!str 111'
-  port: 11211
-  server: 47.243.173.50
-  type: socks5
-  username: '111'
+  password: 'null'
+  port: 443
+  server: fan.240104.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
