@@ -7,11 +7,18 @@ proxies:
   sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
   type: anytls
   udp: true
-- name: 1|HK - zhuhai.uk 02
-  password: 'null'
+- client-fingerprint: chrome
+  name: 1|HK - zhuhai.uk 02
+  network: ws
   port: 443
-  server: fan.240104.xyz
+  server: 103.101.0.73
+  servername: shuma.ccwu.cc
   skip-cert-verify: true
   tls: true
-  type: http
-  username: 'null'
+  type: vless
+  udp: true
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  ws-opts:
+    headers:
+      Host: shuma.ccwu.cc
+    path: /
