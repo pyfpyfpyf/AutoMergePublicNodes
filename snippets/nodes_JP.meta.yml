@@ -1,13 +1,18 @@
 proxies:
 - name: 1|JP - zhuhai.uk
-  port: 10808
-  server: 101.36.104.239
-  type: socks5
-- flow: xtls-rprx-vision
+  password: my_super_password_123
+  port: 5443
+  server: open.2ml.cc.cd
+  skip-cert-verify: true
+  type: hysteria2
+- client-fingerprint: chrome
   name: 1|JP - zhuhai.uk 02
-  port: 28888
-  server: wax-gtm-sg.vam3cua2rx.xyz
-  servername: uej88p.huaweiyouxuan.com
+  port: 443
+  reality-opts:
+    public-key: qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI
+    short-id: 780152c21e234b5a
+  server: 34.84.126.188
+  servername: www.cloudflare.com
   tls: true
   type: vless
-  uuid: 06417f0a-14f1-419b-8b39-c82c65eb1f8d
+  uuid: 51a43b75-c84b-46eb-885e-c24e7819cd0b

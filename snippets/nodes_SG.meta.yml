@@ -1,10 +1,21 @@
 proxies:
-- name: 1|SG - zhuhai.uk
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 146.70.29.45
-  skip-cert-verify: true
-  sni: 92461d2d.acsnet.co
+- cipher: aes-128-gcm
+  name: 1|SG - zhuhai.uk
+  password: 3234f051-172a-4d96-9f8d-2aeec41cd6a5
+  port: 10934
+  server: mn.qwer-cn.org
+  type: ss
+- client-fingerprint: chrome
+  name: 1|SG - zhuhai.uk 01
+  network: ws
+  port: 8443
+  server: 154.194.0.7
+  servername: speed.dulacloud.store
   tls: true
-  type: http
-  username: testuser1
+  type: vless
+  udp: true
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    headers:
+      Host: speed.dulacloud.store
+    path: /dula?Telegram-WangCai2

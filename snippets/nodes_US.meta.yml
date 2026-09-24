@@ -14,7 +14,7 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: 0|US_speednode_0131
+- name: 0,1|US - zhuhai.uk 06
   password: 'null'
   port: 9002
   server: 138.199.35.216
@@ -126,14 +126,13 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
-- name: 0,1|US - zhuhai.uk 06
+- name: 0|US_speednode_0140
   password: None
   port: 443
   server: purposebydesig.club
   tls: true
   type: http
   udp: true
-  username: 'null'
 - name: 0|US_speednode_0141
   port: 443
   server: 38.28.193.188
@@ -178,29 +177,24 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 02
-  port: 30556
-  reality-opts:
-    public-key: EcmNQqZxyW4GCEQF-7nH54w3qgBkLzsfqFSgafGjB0E
-    short-id: d082f567
-  server: 137.175.82.40
-  servername: www.lovelive-anime.jp
+- name: 1|US - zhuhai.uk
+  port: 443
+  server: crosscards.site
+  skip-cert-verify: true
+  sni: crosscards.site
   tls: true
-  type: vless
-  uuid: 949d278e-6d98-4014-84e9-59f1c6c93e0e
-- name: 1|US - zhuhai.uk 03
+  type: http
+- name: 1|US - zhuhai.uk 02
   network: ws
   port: 2095
-  server: blog.cloudflare.com
+  server: www.fbi.gov
   type: vless
   uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
       Host: llm-api.sofurry.dpdns.org
     path: /
-- name: 1|US - zhuhai.uk 04
+- name: 1|US - zhuhai.uk 03
   network: ws
   port: 2095
   server: support.cloudflare.com
@@ -210,67 +204,16 @@ proxies:
     headers:
       Host: llm-api.sofurry.dpdns.org
     path: /
-- name: 1|US - zhuhai.uk 05
-  network: ws
-  port: 2095
-  server: itarmy.com.ua
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: llm-api.sofurry.dpdns.org
-    path: /
-- name: 1|US - zhuhai.uk 07
+- name: 1|US - zhuhai.uk 04
   port: 9002
-  server: 138.199.35.212
+  server: 138.199.35.216
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 08
-  network: ws
-  port: 2095
-  server: www.wto.org
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: llm-api.sofurry.dpdns.org
-    path: /
-- name: 1|US - zhuhai.uk 09
-  network: ws
-  port: 2095
-  server: openai.com
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: llm-api.sofurry.dpdns.org
-    path: /
-- name: 1|US - zhuhai.uk 10
-  network: ws
-  port: 2095
-  server: www.shopify.com
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: llm-api.sofurry.dpdns.org
-    path: /
-- name: 1|US - zhuhai.uk 11
-  network: ws
-  port: 2095
-  server: www.csgo.net
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: llm-api.sofurry.dpdns.org
-    path: /
-- name: 1|US - zhuhai.uk 12
+- name: 1|US - zhuhai.uk 05
   password: 'null'
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
+  port: 443
+  server: zebpay.site
   tls: true
   type: http
   username: 'null'
