@@ -1,7 +1,18 @@
 proxies:
 - name: 1|JP - zhuhai.uk
-  port: 443
-  server: fan.571589.xyz
+  password: my_super_password_123
+  port: 5443
+  server: open.2ml.cc.cd
   skip-cert-verify: true
+  type: hysteria2
+- client-fingerprint: qq
+  name: 1|JP - zhuhai.uk 02
+  port: 443
+  reality-opts:
+    public-key: qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI
+    short-id: 780152c21e234b5a
+  server: 34.84.126.188
+  servername: www.cloudflare.com
   tls: true
-  type: http
+  type: vless
+  uuid: 51a43b75-c84b-46eb-885e-c24e7819cd0b
