@@ -45,9 +45,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0134
+- name: 0,1|ID - zhuhai.uk
   port: 443
   server: voteshirleysew.club
+  skip-cert-verify: true
   tls: true
   type: http
   udp: true
@@ -155,7 +156,7 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 0|US_speednode_0143
+- name: 0,1|US - zhuhai.uk 04
   port: 9002
   server: 138.199.35.198
   skip-cert-verify: true
@@ -178,85 +179,100 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  password: None
+  port: 443
+  server: fullmanfirm.icu
+  tls: true
+  type: http
+  username: Ok5vbmU=
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 02
+  network: ws
+  port: 443
+  server: 172.67.215.180
+  servername: 2.i0-6.de5.Net
+  tls: true
+  type: vless
+  uuid: 62e499fe-458e-47da-a0c8-cae69144ebe9
+  ws-opts:
+    headers:
+      Host: 2.I0-6.DE5.neT
+    path: /FbLtzaav4GSW7GPL6LUGsEkZ
+- name: 1|US - zhuhai.uk 03
+  password: 'null'
   port: 9002
-  server: 138.199.35.212
+  server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 02
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 05
+  network: ws
+  port: 443
+  server: 172.67.189.137
+  servername: Cc.huAnGshANg.hIDNs.cO
+  tls: true
+  type: vless
+  uuid: 62e499fe-458e-47da-a0c8-cae69144ebe9
+  ws-opts:
+    headers:
+      Host: CC.HUangSHANG.HIdNs.cO
+    path: /FbLtzaav4GSW7GPL6LUGsEkZ
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 06
+  port: 443
+  reality-opts:
+    public-key: GjzyBnCFWt9D3gtFsMKpvqcmUUYqPA3zNP0o3aNcNSg
+    short-id: e70046c27dae6aa7
+  server: 38.77.133.202
+  servername: www.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 4a215f09-e1f1-46a6-8e2f-7fb096fa6b1f
+- name: 1|US - zhuhai.uk 07
+  password: 'null'
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 08
+  password: 'null'
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 10
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  sni: 138.199.35.208
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 11
   password: None
+  port: 443
+  server: fullmanfirm.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 12
+  password: None
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 13
   port: 9002
   server: 138.199.35.206
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 03
-  password: 'null'
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  sni: 138.199.35.201
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 04
-  password: 'null'
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 05
-  obfs: salamander
-  obfs-password: c8827ab99e316c5bd414e21afa915ddf
-  password: 8294f130408299df8cab08c80bf6f819
-  port: 443
-  server: 24.233.8.109
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- name: 1|US - zhuhai.uk 06
-  password: 'null'
-  port: 22222
-  server: 193.25.215.182
-  type: socks5
-  username: 'null'
-- name: 1|US - zhuhai.uk 07
-  port: 443
-  server: purecambogiasl.live
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 08
-  network: ws
-  port: 8880
-  server: 172.64.52.6
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- name: 1|US - zhuhai.uk 09
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 01
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0dIyov95G3A1ySANsJzdYY9DGLvaIFU8ofJf3Jtv1Ds
-    short-id: befa80d97af98b74
-  server: 38.244.20.25
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5272cd9f-a028-4452-ad8a-9bc21f87bb19
