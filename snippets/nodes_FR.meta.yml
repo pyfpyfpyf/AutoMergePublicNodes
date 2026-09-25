@@ -1,25 +1,23 @@
 proxies:
-- client-fingerprint: edge
-  name: 1|FR - zhuhai.uk
-  network: ws
-  port: 2000
-  server: fr.node.katahost.org
-  servername: zalupa.gayvibe.dpdns.org
-  tls: true
-  type: vless
-  uuid: cc3dfc2d-dead-41be-97bf-410a40891f38
-  ws-opts:
-    path: /
-- name: 1|FR - zhuhai.uk 02
+- name: 1|FR - zhuhai.uk
+  password: 'null'
   port: 443
   server: fan.132031.xyz
-  skip-cert-verify: true
+  sni: fan.132031.xyz
   tls: true
   type: http
-- name: 1|FR - zhuhai.uk 03
+  username: 'null'
+- name: 1|FR - zhuhai.uk 02
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.7.139
   skip-cert-verify: true
   sni: www.bing.com
+  type: hysteria2
+- name: 1|FR - zhuhai.uk 03
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: vk.com
   type: hysteria2
