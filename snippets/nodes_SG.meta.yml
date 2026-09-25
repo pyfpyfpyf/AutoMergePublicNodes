@@ -1,8 +1,22 @@
 proxies:
 - name: 1|SG - zhuhai.uk
-  password: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
-  port: 443
-  server: 4a453e27-tm96o0-tnggms-6gn6.sg7.hyhuawei.com
+  port: 9443
+  server: 149.88.99.209
   skip-cert-verify: true
-  sni: 4a453e27-tm96o0-tnggms-6gn6.sg7.hyhuawei.com
+  tls: true
+  type: http
+- name: 1|SG - zhuhai.uk 02
+  password: 9b9ac7d3-93c8-4802-a757-6dd3e1c63123
+  port: 20000
+  server: sg01-hy.poke-mon.xyz
+  skip-cert-verify: true
+  sni: www.bing.com
   type: hysteria2
+- name: 1|SG - zhuhai.uk 03
+  password: 9b9ac7d3-93c8-4802-a757-6dd3e1c63123
+  port: 54258
+  server: ptxlv6-01.waimaosass.icu
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: trojan

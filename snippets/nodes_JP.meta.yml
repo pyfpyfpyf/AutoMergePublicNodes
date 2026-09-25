@@ -1,9 +1,20 @@
 proxies:
-- name: 1|JP - zhuhai.uk
-  password: 'null'
+- client-fingerprint: safari
+  name: 1|JP - zhuhai.uk
+  network: ws
   port: 443
-  server: fan.571589.xyz
+  server: cos-cdn-a.alicdn.win
+  servername: mms-static-5jbjnd-e.oppocdn.sbs
+  tls: true
+  type: vless
+  uuid: 26e3e3a1-0334-45ba-b8e0-1b89dfc2b1a1
+  ws-opts:
+    headers:
+      Host: mms-static-edio-e.oppocdn.sbs
+    path: /newlogin/login.do
+- name: 1|JP - zhuhai.uk 02
+  port: 443
+  server: fan.587475.xyz
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
