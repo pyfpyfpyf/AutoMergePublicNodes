@@ -180,68 +180,62 @@ proxies:
 - name: 1|US - zhuhai.uk
   password: 'null'
   port: 9002
-  server: 138.199.35.200
+  server: 138.199.35.219
   skip-cert-verify: true
+  sni: 138.199.35.219
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 02
-  port: 443
-  server: kimberlymilano.icu
-  skip-cert-verify: true
-  sni: kimberlymilano.icu
-  tls: true
-  type: http
 - name: 1|US - zhuhai.uk 03
   port: 9002
-  server: 138.199.35.202
+  server: 138.199.35.218
   skip-cert-verify: true
+  sni: 138.199.35.218
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 04
-  password: None
+  password: 'null'
   port: 9002
-  server: 138.199.35.202
+  server: 138.199.35.213
   skip-cert-verify: true
-  sni: 138.199.35.202
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
+  network: ws
+  port: 2086
+  server: 172.67.214.193
+  type: vless
+  uuid: e5583623-53ef-4177-8070-8c553f70bcfa
+  ws-opts:
+    headers:
+      Host: fvfb8xac5j0nthxzqf.dr5945ov0z598kfft573isahdj3fmmv4.workers.dev
+    path: /vl/NnAT20AqcYOuOLe1r?ed=2560
 - name: 1|US - zhuhai.uk 06
   port: 9002
-  server: 138.199.35.197
+  server: 138.199.35.202
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 07
-  password: test123
-  port: 1080
-  server: 185.145.99.41
-  type: socks5
-  username: test123
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 08
-  port: 4433
-  reality-opts:
-    public-key: ptrxM_lwiuXte-ynRSfM7AyayGbWrfCzkV1gQ5EgeSw
-    short-id: 0fa5bc397af019a2
-  server: 107.149.159.190
-  servername: www.postgresql.org
-  tls: true
-  type: vless
-  uuid: 443d55c9-9b78-4ad4-ac34-5ada5b98e97e
-- name: 1|US - zhuhai.uk 09
-  password: None
-  port: 9002
-  server: 138.199.35.208
+  password: 'null'
+  port: 443
+  server: fan.365747.xyz
   skip-cert-verify: true
+  sni: fan.365747.xyz
   tls: true
   type: http
   username: 'null'
+- client-fingerprint: randomized
+  name: 1|US - zhuhai.uk 08
+  network: ws
+  port: 443
+  server: 172.64.229.156
+  servername: pmpmppm.pages.dev
+  tls: true
+  type: vless
+  uuid: 87c467e9-f0af-4b03-8fbd-65fd375d3a26
+  ws-opts:
+    headers:
+      Host: pmpmppm.pages.dev
+    path: /?ed=2048
