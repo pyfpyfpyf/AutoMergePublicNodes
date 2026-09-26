@@ -1,25 +1,16 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|SG - zhuhai.uk
+- name: 1|SG - zhuhai.uk
+  password: e4b72b531a2d10900519
   port: 443
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: deccc6fac1ddb0ff
-  server: 67.159.49.37
-  servername: www.apple.com
+  server: 146.70.29.45
+  skip-cert-verify: true
+  sni: 92461d2d.acsnet.co
   tls: true
-  type: vless
-  uuid: e8414039-5807-437f-9feb-6e3ff9b79bdc
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|SG - zhuhai.uk 02
-  port: 443
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: deccc6fac1ddb0ff
-  server: 67.159.49.36
-  servername: www.apple.com
+  type: http
+  username: testuser1
+- name: 1|SG - zhuhai.uk 02
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: e8414039-5807-437f-9feb-6e3ff9b79bdc
+  type: http
