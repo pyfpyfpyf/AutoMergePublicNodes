@@ -178,89 +178,70 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  password: None
+  password: 'null'
   port: 9002
-  server: 138.199.35.220
+  server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 02
-  network: ws
   port: 443
-  server: 172.67.212.195
-  servername: 7-m17.KuWAiT-AIrLiNE.kDns.Fr
+  server: kimberlymilano.icu
+  skip-cert-verify: true
+  sni: kimberlymilano.icu
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 03
+  port: 9002
+  server: 138.199.35.202
   skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
-  ws-opts:
-    headers:
-      Host: 7-M17.kUwaIt-AIrLInE.kDNS.fr
-    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 03
-  port: 47700
-  reality-opts:
-    public-key: GuS5do70boXjF2CVlS19J6pwNq1-BHDFYWc8ykj8gGw
-    short-id: bdb8101a
-  server: 108.186.180.148
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: af24a0e4-f5a2-4b97-a678-992d45346147
+  type: http
 - name: 1|US - zhuhai.uk 04
   password: None
   port: 9002
-  server: 138.199.35.219
+  server: 138.199.35.202
   skip-cert-verify: true
+  sni: 138.199.35.202
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 05
-  network: ws
-  port: 443
-  server: 172.67.220.58
-  servername: 7-m17.kUWaIT.kDnS.Fr
+  port: 9002
+  server: 138.199.35.215
   skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
-  ws-opts:
-    headers:
-      Host: 7-M17.KuWAit.kdNS.fR
-    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
+  type: http
 - name: 1|US - zhuhai.uk 06
-  password: None
   port: 9002
   server: 138.199.35.197
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 07
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
+  password: test123
+  port: 1080
+  server: 185.145.99.41
+  type: socks5
+  username: test123
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 08
+  port: 4433
+  reality-opts:
+    public-key: ptrxM_lwiuXte-ynRSfM7AyayGbWrfCzkV1gQ5EgeSw
+    short-id: 0fa5bc397af019a2
+  server: 107.149.159.190
+  servername: www.postgresql.org
   tls: true
-  type: http
-- name: 1|US - zhuhai.uk 08
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  sni: 138.199.35.201
-  tls: true
-  type: http
+  type: vless
+  uuid: 443d55c9-9b78-4ad4-ac34-5ada5b98e97e
 - name: 1|US - zhuhai.uk 09
+  password: None
   port: 9002
   server: 138.199.35.208
   skip-cert-verify: true
   tls: true
   type: http
-- cipher: aes-256-cfb
-  name: 1|US - zhuhai.uk 10
-  password: amazonskr05
-  port: 443
-  server: 54.234.217.115
-  type: ss
+  username: 'null'
