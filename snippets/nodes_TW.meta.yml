@@ -1,1 +1,23 @@
-proxies: []
+proxies:
+- name: 1|TW - zhuhai.uk
+  password: 9sK2mP8xQ7vL3nZ6
+  port: 443
+  server: 6ivh.pnuqcnp.cn
+  skip-cert-verify: true
+  sni: 6ivh.pnuqcnp.cn
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: 1|TW - zhuhai.uk 01
+  network: ws
+  port: 8443
+  server: 141.11.87.48
+  servername: edgetunnel-4uw.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  ws-opts:
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+    path: /

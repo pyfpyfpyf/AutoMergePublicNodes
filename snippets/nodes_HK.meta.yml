@@ -1,7 +1,42 @@
 proxies:
-- name: 1|HK - zhuhai.uk
-  password: admin
-  port: 8899
-  server: 47.242.19.215
-  type: socks5
-  username: admin
+- cipher: aes-128-gcm
+  name: 1|HK - zhuhai.uk
+  password: 2wsxcde3
+  port: 8020
+  server: 124.151.25.50
+  type: ss
+- name: 1|HK - zhuhai.uk 02
+  password: 9sK2mP8xQ7vL3nZ6
+  port: 443
+  server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
+  sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: 1|HK - zhuhai.uk 01
+  network: ws
+  port: 443
+  server: 104.17.150.17
+  servername: edgetunnel-4uw.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  ws-opts:
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+    path: /
+- client-fingerprint: random
+  name: 1|HK - zhuhai.uk 03
+  network: ws
+  port: 443
+  server: 39.109.50.142
+  servername: yf.962456.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97532b08-357e-4140-a6f0-8e07f2ed3327
+  ws-opts:
+    headers:
+      Host: yf.962456.xyz
+    path: /proxyip=kr.william.us.ci
