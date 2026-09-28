@@ -1,15 +1,22 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 1|DE - zhuhai.uk 02
-  network: tcp
-  port: 20855
-  reality-opts:
-    public-key: c6Pu0_yAYxIrnYjbwIYLsKB_xhcLsk17BgojLeaIvE8
-    short-id: efe9
-  server: 172.104.237.173
-  servername: www.cloudflare.com
+  network: ws
+  port: 14443
+  server: 95.163.232.171
+  servername: media-se.compressor.work
+  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
+  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  ws-opts:
+    headers:
+      Host: media-se.compressor.work
+    path: /ws
+- name: 1|DE - zhuhai.uk 03
+  port: 443
+  server: fan.973511.xyz
+  skip-cert-verify: true
+  sni: fan.973511.xyz
+  tls: true
+  type: http
