@@ -1,17 +1,21 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 1|HK - zhuhai.uk
-  password: 2wsxcde3
-  port: 8020
-  server: 124.151.25.50
-  type: ss
-- name: 1|HK - zhuhai.uk 02
-  password: 9sK2mP8xQ7vL3nZ6
+- name: 1|HK - zhuhai.uk
   port: 443
-  server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
-  sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
-  type: anytls
-  udp: true
+  server: fan.240104.xyz
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 02
+  port: 443
+  reality-opts:
+    public-key: Y9TEgB_8YVWzv8-wblXBjeX2t7IAtQhtQ3pE08gfNWw
+    short-id: 862266ae05b7a62f
+  server: 47.83.143.75
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 1658f804-41bf-4b7c-a0be-ba01097e0f41
 - client-fingerprint: chrome
   name: 1|HK - zhuhai.uk 01
   network: ws
