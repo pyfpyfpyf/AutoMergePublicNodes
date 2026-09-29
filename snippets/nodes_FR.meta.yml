@@ -1,35 +1,8 @@
 proxies:
-- name: 1|FR - zhuhai.uk
-  port: 4443
-  server: 83.172.143.53
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|FR - zhuhai.uk 02
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 60111
-  server: 62.210.7.139
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 1|FR - zhuhai.uk 03
-  network: ws
-  port: 8443
-  server: 45.38.228.94
-  servername: shephe.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  ws-opts:
-    headers:
-      Host: shephe.dpdns.org
-    path: /
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: cdn.v1.AssetService
-  name: 1|FR - zhuhai.uk 04
+  name: 1|FR - zhuhai.uk 13
   network: grpc
   port: 443
   server: assets-fr4.pleiades.codes

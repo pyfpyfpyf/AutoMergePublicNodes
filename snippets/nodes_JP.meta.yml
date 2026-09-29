@@ -1,35 +1,10 @@
 proxies:
-- name: 1|JP - zhuhai.uk
-  password: 184cdec28da5a09450803c8debcd2cc9
-  port: 50160
-  server: 138.3.208.26
-  skip-cert-verify: true
-  sni: 138.3.208.26
-  type: hysteria2
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|JP - zhuhai.uk 02
-  port: 38830
-  reality-opts:
-    public-key: 5E5p5boHrgCyBlt5qZPX1XozU9I90JoBgS4zmXngllI
-    short-id: ac12ed79
-  server: 13.230.30.102
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-- name: 1|JP - zhuhai.uk 03
-  password: '!!str 123456'
-  port: 30194
-  server: hy2.lefamn.top
-  skip-cert-verify: true
-  type: hysteria2
-- name: 1|JP - zhuhai.uk 04
+  name: 1|JP - zhuhai.uk
   network: ws
   port: 443
   server: api.w2m.ink
   servername: api.w2m.ink
-  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 8344360f-0349-4784-a19f-33fd92e89389
@@ -37,17 +12,35 @@ proxies:
     headers:
       Host: api.w2m.ink
     path: /v2
-- name: 1|JP - zhuhai.uk 05
-  password: 184cdec28da5a09450803c8debcd2cc9
-  port: 50160
-  server: 138.3.208.26
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- name: 1|JP - zhuhai.uk 06
-  password: RQBXe4kpsRant_2u1PzdneBOPuCSwUSI
+- name: 1|JP - zhuhai.uk 02
   port: 443
-  server: 43.167.208.94
+  server: fan.571589.xyz
+  tls: true
+  type: http
+- client-fingerprint: edge
+  name: 1|JP - zhuhai.uk 03
+  network: ws
+  port: 8443
+  server: www.wto.org
+  servername: jp.520785.xyz
+  tls: true
+  type: vless
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  ws-opts:
+    headers:
+      Host: jp.520785.xyz
+    path: /static/media/video-chunk.f4v
+- client-fingerprint: random
+  name: 1|JP - zhuhai.uk 04
+  network: ws
+  port: 443
+  server: 150.230.206.130
+  servername: fm3.pages.dev
   skip-cert-verify: true
-  sni: 43.167.208.94jpwxgqlfx97
-  type: hysteria2
+  tls: true
+  type: vless
+  uuid: 2fdf56f7-7bd0-43c5-8c57-a505a74c61b0
+  ws-opts:
+    headers:
+      Host: fm3.pages.dev
+    path: /?ed=2560
