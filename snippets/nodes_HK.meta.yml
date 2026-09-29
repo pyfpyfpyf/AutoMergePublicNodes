@@ -1,20 +1,25 @@
 proxies:
-- name: 1|HK - zhuhai.uk
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk
   port: 443
-  server: 202.146.222.29
-  skip-cert-verify: true
-  sni: httpst.mewangcai2U0001F1E8U0001F1F3
-  type: hysteria2
-- client-fingerprint: chrome
+  reality-opts:
+    public-key: 4ubYp4HaBJgn1qXwfo0hiejncurXCckII-O_FMDXTgI
+    short-id: 3b74d85e
+  server: china.letsconnectpoint.com
+  servername: china.letsconnectpoint.com
+  tls: true
+  type: vless
+  uuid: a368752a-32fc-42f3-980a-6b049218b23f
+- client-fingerprint: random
   flow: xtls-rprx-vision
   name: 1|HK - zhuhai.uk 02
   port: 443
   reality-opts:
-    public-key: HbjpGbCmp7lBysnS-twEYgGoriXACHZQObIpU9zJWVc
-    short-id: a273e9ee6ac0a466
-  server: hk5.miyazono-kaori.com
-  servername: www.hsbc.com.hk
+    public-key: 4ubYp4HaBJgn1qXwfo0hiejncurXCckII-O_FMDXTgI
+    short-id: 3b74d85e
+  server: china.letsconnectpoint.com
+  servername: china.letsconnectpoint.com
   tls: true
   type: vless
-  uuid: f568577d-e805-4039-a43c-d6c8dd51181a
+  uuid: 914f3806-07a1-4158-9624-e183de065a38
