@@ -1,7 +1,13 @@
 proxies:
+- name: 1|KR - zhuhai.uk 02
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  username: Vm0xMFUxTXlSblJUYTFwT1UwZFNWMVpxVG05VU1WSldWMnRhVG1GNmJIVlVNbmhoVWxaT2RHTkhiRk5XUlVsNlZteGFhMDVHVW5KTlZXUlRWa1Z3VVZkdVl6bFFWRzg5T2c9PTo=
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 1|KR - zhuhai.uk
+  name: 1|KR - zhuhai.uk 01
+  network: tcp
   port: 443
   reality-opts:
     public-key: Cn5_Bic3VFQ2ONvH5_npnbMYZ-oxkl4BxawPKxoRdCQ
@@ -10,4 +16,5 @@ proxies:
   servername: gateway.icloud.com
   tls: true
   type: vless
+  udp: true
   uuid: 82C94E17-B27E-4356-82C1-2F9C79B0CF6D
