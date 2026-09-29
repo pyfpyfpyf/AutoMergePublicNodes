@@ -1,46 +1,19 @@
 proxies:
-- client-fingerprint: chrome
-  name: 1|JP - zhuhai.uk
-  network: ws
-  port: 443
-  server: api.w2m.ink
-  servername: api.w2m.ink
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk 01
+  network: tcp
+  port: 10202
+  reality-opts:
+    public-key: E0R7f_nEkbcnc97Z82aDMo2bUVGgcIzChCVYwsQmXnc
+    short-id: 88bd7f
+  server: family.bucket.x1.kfc-520.com
+  servername: www.apple.com
   tls: true
   type: vless
-  uuid: 8344360f-0349-4784-a19f-33fd92e89389
-  ws-opts:
-    headers:
-      Host: api.w2m.ink
-    path: /v2
+  udp: true
+  uuid: 8cb0c4fb-03ee-35b8-a47b-cd1d7e76dfd3
 - name: 1|JP - zhuhai.uk 02
-  port: 443
-  server: fan.571589.xyz
-  tls: true
-  type: http
-- client-fingerprint: edge
-  name: 1|JP - zhuhai.uk 03
-  network: ws
-  port: 8443
-  server: www.wto.org
-  servername: jp.520785.xyz
-  tls: true
-  type: vless
-  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
-  ws-opts:
-    headers:
-      Host: jp.520785.xyz
-    path: /static/media/video-chunk.f4v
-- client-fingerprint: random
-  name: 1|JP - zhuhai.uk 04
-  network: ws
-  port: 443
-  server: 150.230.206.130
-  servername: fm3.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 2fdf56f7-7bd0-43c5-8c57-a505a74c61b0
-  ws-opts:
-    headers:
-      Host: fm3.pages.dev
-    path: /?ed=2560
+  port: 10808
+  server: 101.36.104.239
+  type: socks5

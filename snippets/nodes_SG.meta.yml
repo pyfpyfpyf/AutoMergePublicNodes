@@ -1,7 +1,13 @@
 proxies:
-- name: 1|SG - zhuhai.uk
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk
   port: 443
-  server: 43.160.239.37
-  skip-cert-verify: true
+  reality-opts:
+    public-key: jpn2pLj_p5lxGwycLht80v2qNeP7jHwh1Gv-nTU8zXY
+    short-id: ddcd71ec09e5893a
+  server: sg3.miyazono-kaori.com
+  servername: www.changiairport.com
   tls: true
-  type: http
+  type: vless
+  uuid: f568577d-e805-4039-a43c-d6c8dd51181a
