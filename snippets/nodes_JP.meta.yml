@@ -1,28 +1,13 @@
 proxies:
-- client-fingerprint: chrome
-  name: 1|JP - zhuhai.uk 02
-  network: ws
+- name: 1|JP - zhuhai.uk
+  password: 184cdec28da5a09450803c8debcd2cc9
+  port: 50160
+  server: 138.3.208.26
+  skip-cert-verify: true
+  type: hysteria2
+- name: 1|JP - zhuhai.uk 02
   port: 443
-  server: api.w2m.ink
-  servername: api.w2m.ink
+  server: fan.587475.xyz
+  sni: fan.587475.xyz
   tls: true
-  type: vless
-  uuid: 8344360f-0349-4784-a19f-33fd92e89389
-  ws-opts:
-    headers:
-      Host: api.w2m.ink
-    path: /v2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|JP - zhuhai.uk 01
-  network: tcp
-  port: 20270
-  reality-opts:
-    public-key: gaFVpIOW9RJGuFFisfXVvITfYY5ikKn-4gB89ZQCFHI
-    short-id: 89fecfdaf45cd76d
-  server: jp-1.gsafevpnapi.com
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 976bf067-9865-4184-938a-204463938c09
+  type: http
