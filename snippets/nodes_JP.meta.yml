@@ -1,27 +1,28 @@
 proxies:
-- name: 1|JP - zhuhai.uk
+- client-fingerprint: chrome
+  name: 1|JP - zhuhai.uk 02
+  network: ws
   port: 443
-  server: fan.587475.xyz
-  skip-cert-verify: true
+  server: api.w2m.ink
+  servername: api.w2m.ink
   tls: true
-  type: http
-- name: 1|JP - zhuhai.uk 02
-  port: 443
-  server: fan.571589.xyz
-  tls: true
-  type: http
-  username: bnVsbDpudWxs
-- client-fingerprint: firefox
+  type: vless
+  uuid: 8344360f-0349-4784-a19f-33fd92e89389
+  ws-opts:
+    headers:
+      Host: api.w2m.ink
+    path: /v2
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|JP - zhuhai.uk 01
   network: tcp
-  port: 10202
+  port: 20270
   reality-opts:
-    public-key: E0R7f_nEkbcnc97Z82aDMo2bUVGgcIzChCVYwsQmXnc
-    short-id: 88bd7f
-  server: family.bucket.x1.kfc-520.com
-  servername: www.apple.com
+    public-key: gaFVpIOW9RJGuFFisfXVvITfYY5ikKn-4gB89ZQCFHI
+    short-id: 89fecfdaf45cd76d
+  server: jp-1.gsafevpnapi.com
+  servername: www.yahoo.com
   tls: true
   type: vless
   udp: true
-  uuid: 8cb0c4fb-03ee-35b8-a47b-cd1d7e76dfd3
+  uuid: 976bf067-9865-4184-938a-204463938c09
