@@ -1,22 +1,7 @@
 proxies:
 - name: 1|SG - zhuhai.uk
-  password: f87376e17da040ed04c9665ce8972930
-  port: 50160
-  server: 138.2.73.238
+  port: 443
+  server: 154.26.139.24
   skip-cert-verify: true
-  sni: 138.2.73.238
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|SG - zhuhai.uk 01
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 5wGgDloyck_L25Y5rkWorpV3IK00pK0Lki7LR0VY0io
-    short-id: 4fba6fd2c74fd18f
-  server: 216.195.196.86
-  servername: www.cloudflare.com
   tls: true
-  type: vless
-  udp: true
-  uuid: 7c973569-71da-4d18-8c80-aa4c8ee2f257
+  type: http

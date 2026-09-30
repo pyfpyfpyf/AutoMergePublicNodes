@@ -1,13 +1,23 @@
 proxies:
 - name: 1|JP - zhuhai.uk
-  password: 184cdec28da5a09450803c8debcd2cc9
-  port: 50160
-  server: 138.3.208.26
-  skip-cert-verify: true
-  type: hysteria2
-- name: 1|JP - zhuhai.uk 02
+  password: 'null'
   port: 443
-  server: fan.587475.xyz
-  sni: fan.587475.xyz
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  sni: fan.571589.xyz
   tls: true
   type: http
+  username: 'null'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk 02
+  port: 25874
+  reality-opts:
+    public-key: aBdmSZuchSwd7IKT4PPb8hgTFWZeb-4iGSyf8lIGUSE
+    short-id: 6ba85179e30d4fc2
+  server: jpt.negai.de
+  servername: jpt.negai.de
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: bfac5c43-52f2-4b0a-9fee-3e2281483c81
