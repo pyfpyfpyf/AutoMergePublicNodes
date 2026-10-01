@@ -1,31 +1,27 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 庆祝亚冬会胜利召开
-  network: tcp
-  port: '443'
-  server: web.51.la
-  servername: web.51.la
+- name: 1|TR - zhuhai.uk
+  network: ws
+  password: e309e031-991e-4656-9934-44d10deb8fd8
+  port: 2053
+  server: nimm.mpd.cc.cd
+  sni: nimm.mpd.cc.cd
   tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 敏感时期，更新暂停
-  network: tcp
-  port: '443'
-  server: web.51.la
-  servername: web.51.la
-  tls: true
-  type: vmess
-  uuid: c6e84072-2e69-4928-90af-436b3fcd0663
-- alterId: 0
-  cipher: auto
-  name: 如有需要，自行搭建
-  network: tcp
-  port: '443'
-  server: web.51.la
-  servername: web.51.la
-  tls: true
-  type: vmess
-  uuid: e0c6b3b7-9f5b-4bd6-9abf-260663aa4f1b
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nimm.mpd.cc.cd
+    path: /0962
+- cipher: aes-256-gcm
+  name: 1|JP - zhuhai.uk 02
+  password: 9cfaa78d51ac366f
+  port: 20999
+  server: 103.115.18.145
+  type: ss
+- name: 1|IE - zhuhai.uk 01
+  password: Trojan@82164024
+  port: 443
+  server: ie.tronsg.com
+  skip-cert-verify: true
+  sni: ie.tronsg.com
+  type: trojan
+  udp: true
