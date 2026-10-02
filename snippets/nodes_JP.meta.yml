@@ -1,13 +1,25 @@
 proxies:
-- name: 1|JP - zhuhai.uk
-  port: 443
-  server: fan.571589.xyz
-  sni: fan.571589.xyz
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk
+  port: 45250
+  reality-opts:
+    public-key: 6Jqp7L6aeFDuH8XgsUvRIDirG9n13xPLZZyIVV-W9DA
+    short-id: be83f55430e78a10
+  server: 43.207.190.145
+  servername: www.apple.com
   tls: true
-  type: http
-- cipher: aes-256-gcm
+  type: vless
+  uuid: 868112f7-0a5f-4140-b031-98d50d5f8dce
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 1|JP - zhuhai.uk 02
-  password: 9cfaa78d51ac366f
-  port: 20999
-  server: 103.115.18.145
-  type: ss
+  port: 44078
+  reality-opts:
+    public-key: Y3bsFXsj_Yj3bYAoDFy2TUHCKV2Dmnwu55KUUvkA_g0
+    short-id: 7a8e5e740527adbf
+  server: 52.195.147.1
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: f2813cc0-e79a-4ca1-acf5-56f37a999f26
