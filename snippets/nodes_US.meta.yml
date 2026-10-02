@@ -133,7 +133,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0141
+- name: 0,1|US - zhuhai.uk 03
   port: 443
   server: 38.28.193.188
   skip-cert-verify: true
@@ -155,7 +155,7 @@ proxies:
   type: vless
   udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- name: 0,1|US - zhuhai.uk 07
+- name: 0|US_speednode_0143
   port: 9002
   server: 138.199.35.198
   skip-cert-verify: true
@@ -177,91 +177,59 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- name: 1|US - zhuhai.uk
+- name: 1|US - zhuhai.uk 07
   password: 336501b6-51d2-11ee-a993-f23c9164ca5d
   port: 443
   server: 352f2792-t2dr40-t8kd6j-1c9em.se.oshuawei.com
-  skip-cert-verify: true
   sni: 352f2792-t2dr40-t8kd6j-1c9em.se.oshuawei.com
   tls: true
   type: http
   username: 336501b6-51d2-11ee-a993-f23c9164ca5d
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
+- client-fingerprint: random
+  flow: xtls-rprx-vision
   name: 1|US - zhuhai.uk 02
-  password: 9sK2mP8xQ7vL3nZ6
-  port: 443
-  server: awefd2313fefarg23fr24.pnuqcnp.cn
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 03
-  network: ws
-  port: 443
-  server: 104.18.192.253
-  servername: www.nihaoyun.top
+  port: 9443
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  server: 38.180.254.125
+  servername: www.amazon.com
   tls: true
   type: vless
-  uuid: b1c31d36-c6b5-414b-88d2-9e24e7bfcca3
-  ws-opts:
-    headers:
-      Host: www.nihaoyun.top
-    path: /
+  uuid: 3969ccbc-7bb3-4def-a9b4-26e2c84b66f8
 - name: 1|US - zhuhai.uk 04
-  password: e4b72b531a2d10900519
+  password: 'null'
   port: 443
-  server: 147.182.216.4
-  skip-cert-verify: true
-  sni: 93b6d804.acsnet.co
+  server: crosscards.site
+  sni: crosscards.site
   tls: true
   type: http
-  username: testuser1
+  username: 'null'
 - name: 1|US - zhuhai.uk 05
   port: 9002
   server: 138.199.35.208
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 06
-  password: None
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 06
+  network: ws
+  port: 443
+  server: minimize-evenness.cdn-content.com
+  servername: minimize-evenness.cdn-content.com
+  tls: true
+  type: vless
+  uuid: 172db2f1-9180-4e5b-b1f5-0dfd0a05d496
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+    path: /ws
+- name: 1|US - zhuhai.uk 08
+  password: 'null'
   port: 9002
-  server: 138.199.35.211
+  server: 138.199.35.198
   skip-cert-verify: true
+  sni: 138.199.35.198
   tls: true
   type: http
   username: 'null'
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 08
-  network: ws
-  port: 443
-  server: 104.24.43.44
-  servername: www.nihaoyun.top
-  tls: true
-  type: vless
-  uuid: b1c31d36-c6b5-414b-88d2-9e24e7bfcca3
-  ws-opts:
-    headers:
-      Host: www.nihaoyun.top
-    path: /
-- name: 1|US - zhuhai.uk 09
-  port: 443
-  server: purecambogiasl.live
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 10
-  network: ws
-  port: 443
-  server: 104.16.246.213
-  servername: www.nihaoyun.top
-  tls: true
-  type: vless
-  uuid: b1c31d36-c6b5-414b-88d2-9e24e7bfcca3
-  ws-opts:
-    headers:
-      Host: www.nihaoyun.top
-    path: /
