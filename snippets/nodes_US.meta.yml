@@ -14,7 +14,7 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: 0,1|US - zhuhai.uk 03
+- name: 0|US_speednode_0131
   password: 'null'
   port: 9002
   server: 138.199.35.216
@@ -45,9 +45,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0134
+- name: 0,1|US - zhuhai.uk 13
   port: 443
   server: voteshirleysew.club
+  sni: voteshirleysew.club
   tls: true
   type: http
   udp: true
@@ -177,71 +178,80 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- name: 1|US - zhuhai.uk
-  port: 52683
-  server: jp.sofast.live
-  type: vless
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
 - name: 1|US - zhuhai.uk 02
-  port: 9002
-  server: 138.199.35.196
+  port: 443
+  server: jewelscollecti.icu
   skip-cert-verify: true
-  sni: 138.199.35.196
+  sni: jewelscollecti.icu
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 03
+  port: 8443
+  server: 129.212.181.253
+  skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 04
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
+  password: 'null'
+  port: 443
+  server: kimberlymilano.icu
   tls: true
   type: http
+  username: 'null'
 - name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 138.199.35.216
+  port: 443
+  server: 129.153.93.183
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 06
+  password: 'null'
   port: 443
-  server: kimberlymilano.icu
+  server: fan.596189.xyz
   skip-cert-verify: true
-  sni: kimberlymilano.icu
   tls: true
   type: http
+  username: 'null'
 - name: 1|US - zhuhai.uk 07
-  port: 443
-  server: 167.88.60.242
+  password: None
+  port: 9002
+  server: 138.199.35.214
   skip-cert-verify: true
   tls: true
   type: http
+  username: 'null'
 - name: 1|US - zhuhai.uk 08
   port: 9002
-  server: 138.199.35.195
+  server: 138.199.35.218
+  skip-cert-verify: true
+  sni: 138.199.35.218
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 09
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  sni: 138.199.35.207
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 10
+  port: 8090
+  server: 209.148.53.153
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: edge
-  name: 1|US - zhuhai.uk 09
-  network: ws
+- name: 1|US - zhuhai.uk 11
+  password: None
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 12
+  password: 'null'
   port: 443
-  server: 104.17.157.153
-  servername: hk.152568.xyz
+  server: mmgr.club
   tls: true
-  type: vless
-  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
-  ws-opts:
-    headers:
-      Host: hk.152568.xyz
-    path: /cdn/packages/runtime-core.tar.gz
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 10
-  port: 9443
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
-  server: 38.180.254.125
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 3969ccbc-7bb3-4def-a9b4-26e2c84b66f8
+  type: http
+  username: 'null'
