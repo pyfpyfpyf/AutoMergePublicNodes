@@ -1,29 +1,13 @@
 proxies:
-- client-fingerprint: random
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 1|SG - zhuhai.uk
-  network: ws
   port: 443
-  server: ct.877774.xyz
-  servername: ap-south.862400.xyz
-  skip-cert-verify: true
+  reality-opts:
+    public-key: C3TC3BxZM2ehdAprVXOSsL8R_O-G2Be0XqqZhoEQLD0
+    short-id: 1fda1fb3436cf8b0
+  server: 38.180.190.67
+  servername: www.apple.com
   tls: true
   type: vless
-  uuid: d19d7dce-9a9d-40dd-87be-cc4d3647a46f
-  ws-opts:
-    headers:
-      Host: ap-south.862400.xyz
-    path: /announcement
-- alterId: 0
-  cipher: auto
-  name: 1|SG - zhuhai.uk 02
-  network: ws
-  port: 443
-  server: F3YzRb8QSDsQUWDy.v.3dns.vip
-  servername: F3YzRb8QSDsQUWDy.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
-  ws-opts:
-    headers:
-      Host: F3YzRb8QSDsQUWDy.v.3dns.vip
-    path: /ws-vmess
+  uuid: de83320d-9b23-473e-93f6-d66482124c06

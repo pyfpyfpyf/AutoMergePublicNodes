@@ -2,18 +2,42 @@ proxies:
 - flow: xtls-rprx-vision
   name: 1|HK - zhuhai.uk
   port: 14343
+  server: 14.17.78.146
+  servername: thuk.huaweiyouxuan.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+- flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 02
+  port: 14343
   server: 27.155.117.209
   servername: thuk.huaweiyouxuan.com
   tls: true
   type: vless
   uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-- name: 1|HK - zhuhai.uk 02
-  network: ws
-  port: 26506
-  server: 216.38.170.8
+- flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 03
+  port: 14343
+  server: 36.248.14.90
+  servername: thuk.huaweiyouxuan.com
+  tls: true
   type: vless
-  uuid: 593c2ff4-f051-4859-8449-b0130e2991df
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+- client-fingerprint: chrome
+  name: 1|HK - zhuhai.uk 04
+  port: 443
+  reality-opts:
+    public-key: HV_4dmK3rwzqhWP1yOpC1L8BObd5lpZRYTzUflsi2x4
+    short-id: 64b3f192fc0669e1
+  server: 34.96.188.243
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 75d38591-267e-4d89-98bc-164f25b50880
+- cipher: aes-256-gcm
+  name: 1|HK - zhuhai.uk 05
+  password: b13de0c0-87c9-381f-b286-8ef2b880e343
+  port: 14563
+  server: 27.44.127.109
+  type: ss
