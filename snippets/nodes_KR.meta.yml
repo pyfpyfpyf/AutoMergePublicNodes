@@ -1,12 +1,26 @@
 proxies:
-- name: 1|KR - zhuhai.uk
-  port: 1090
-  server: 121.169.46.116
-  type: socks5
-- name: 1|KR - zhuhai.uk 02
-  password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
-  port: 31433
-  server: 783f6643-tcev40-th02zb-m0b9.kr.oshuawei.com
+- alterId: 0
+  cipher: auto
+  name: 1|KR - zhuhai.uk
+  network: ws
+  port: 443
+  server: IM7Zz1n2ZNPU8orN.v.3dns.vip
+  servername: IM7Zz1n2ZNPU8orN.v.3dns.vip
   tls: true
-  type: http
-  username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: IM7Zz1n2ZNPU8orN.v.3dns.vip
+    path: /ws-vmess
+- client-fingerprint: chrome
+  name: 1|KR - zhuhai.uk 02
+  port: 443
+  reality-opts:
+    public-key: M0QKczb2MzOH45qDViIAbb9LPrVVyCp880D4HlwIKnA
+    short-id: 8685f8b4d9f4f51e
+  server: 34.47.83.187
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: cb2abff3-5fe6-4b5a-aa19-5739deb285b6

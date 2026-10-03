@@ -1,27 +1,29 @@
 proxies:
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
+- client-fingerprint: random
   name: 1|SG - zhuhai.uk
-  port: 57541
-  reality-opts:
-    public-key: hAtfAzXQrbxyqiK3b2XrsxZ35sWiN8iqp0LvjKr9_DE
-    short-id: 22b19630280c3f
-  server: funagfr.alixxplay.com
-  servername: www.lamer.com.sg
-  tls: true
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- client-fingerprint: chrome
-  name: 1|SG - zhuhai.uk 01
   network: ws
   port: 443
-  server: trackydev.site
-  servername: trackydev.site
+  server: ct.877774.xyz
+  servername: ap-south.862400.xyz
+  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
-  uuid: 92d67828-4c56-4795-af5a-f387651380dc
+  uuid: d19d7dce-9a9d-40dd-87be-cc4d3647a46f
   ws-opts:
     headers:
-      Host: trackydev.site
-    path: /
+      Host: ap-south.862400.xyz
+    path: /announcement
+- alterId: 0
+  cipher: auto
+  name: 1|SG - zhuhai.uk 02
+  network: ws
+  port: 443
+  server: F3YzRb8QSDsQUWDy.v.3dns.vip
+  servername: F3YzRb8QSDsQUWDy.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
+  ws-opts:
+    headers:
+      Host: F3YzRb8QSDsQUWDy.v.3dns.vip
+    path: /ws-vmess
