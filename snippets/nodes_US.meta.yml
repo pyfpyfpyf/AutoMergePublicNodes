@@ -180,35 +180,21 @@ proxies:
 - name: 1|US - zhuhai.uk
   password: 'null'
   port: 9002
-  server: 138.199.35.212
+  server: 138.199.35.207
   skip-cert-verify: true
-  sni: 138.199.35.212
+  sni: 138.199.35.207
   tls: true
   type: http
   username: 'null'
 - name: 1|US - zhuhai.uk 02
-  password: None
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  sni: 138.199.35.215
+  password: 'null'
+  port: 443
+  server: carolinafreigh.fun
   tls: true
   type: http
   username: 'null'
 - client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 03
-  port: 443
-  reality-opts:
-    public-key: cTwhlN0bIkprnzvGCMPmsdxk8XkqUz3LcCrS0FKnbVI
-    short-id: c08efcd72d7e8389
-  server: 34.48.220.167
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 8ea1a178-2719-47b7-99d0-33d8dc361ba3
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 06
+  name: 1|US - zhuhai.uk 05
   port: 443
   reality-opts:
     public-key: aGm3egxU7SVqVw-oxqXbJ0u4ctldnmTjwaDh4Mao2EE
@@ -219,51 +205,63 @@ proxies:
   tls: true
   type: vless
   uuid: 9d0395c0-016f-453e-b0be-fc66f1ee1d80
-- name: 1|US - zhuhai.uk 05
-  port: 8443
-  server: 45.145.72.122
+- name: 1|US - zhuhai.uk 04
+  port: 8090
+  server: 24.142.229.178
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 07
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 06
   port: 443
-  server: 52.15.98.63
+  reality-opts:
+    public-key: LYnDDS0AkBwVeeTyIEE5MhrTV_PZO5f1qBAbMN6z4HM
+    short-id: f1955f72763eb2fb
+  server: 136.86.230.49
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: dffab367-7769-4c6c-86f2-66fc6bd03003
+- name: 1|US - zhuhai.uk 07
+  port: 9002
+  server: 138.199.35.205
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
   name: 1|US - zhuhai.uk 08
-  port: 21263
+  port: 443
   reality-opts:
-    public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
-    short-id: 3d31326f95
-  server: apinbxs.zalolink.com
+    public-key: cTwhlN0bIkprnzvGCMPmsdxk8XkqUz3LcCrS0FKnbVI
+    short-id: c08efcd72d7e8389
+  server: 34.48.220.167
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 8ea1a178-2719-47b7-99d0-33d8dc361ba3
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 09
+  port: 34379
+  reality-opts:
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: e51285e3
+  server: funagfr.alixxplay.com
   servername: us1p1.xn--ghq880n3na965a.com
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 09
+  name: 1|US - zhuhai.uk 10
   port: 47672
   reality-opts:
     public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
     short-id: 70ab6d813e
   server: funagfr.alixxplay.com
   servername: us1p1.xn--ghq880n3na965a.com
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 10
-  port: 443
-  reality-opts:
-    public-key: BrrUmsqz_it4ZJbmA9prG8jnOCYHwZTfQTsRTD9pJ28
-    short-id: 56ac5798693ff7c0
-  server: 104.249.172.57
-  servername: www.bing.com
-  tls: true
-  type: vless
-  uuid: b50a5785-d7af-4bd4-a88f-06b4c42db7a2
