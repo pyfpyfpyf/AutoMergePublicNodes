@@ -1,16 +1,38 @@
 proxies:
-- flow: xtls-rprx-vision
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 1|HK - zhuhai.uk
   port: 14343
-  server: 14.17.78.144
+  server: 14.17.78.146
   servername: thuk.huaweiyouxuan.com
   skip-cert-verify: true
   tls: true
   type: vless
   uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-- name: 1|HK - zhuhai.uk 02
-  password: b0917015b656b3dd2286b5633af0c5c1
-  port: 50160
-  server: 31.57.248.176
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 02
+  port: 443
+  reality-opts:
+    public-key: wet3gh-OtTXd6G20ic3hdldK4wEbwtI1WGr4bvXtVmQ
+    short-id: 3467b2ee
+  server: 8.217.110.53
+  servername: www.amazon.com
   skip-cert-verify: true
-  type: hysteria2
+  tls: true
+  type: vless
+  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
+- name: 1|HK - zhuhai.uk 08
+  password: bc96cf70-9c62-4f52-aa7b-70b1814a94cf
+  port: 443
+  server: node1.luoye.ee
+  sni: node1.luoye.ee
+  type: trojan
+  udp: true
+- name: 1|HK - zhuhai.uk 04
+  password: a72513ad-90f9-4ae0-8ef5-c25b7fb81d77
+  port: 443
+  server: node1.luoye.ee
+  sni: node1.luoye.ee
+  type: trojan
+  udp: true

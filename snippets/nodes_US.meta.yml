@@ -178,108 +178,22 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
+  port: 9050
+  server: 43.108.46.4
+  type: socks5
+- name: 1|US - zhuhai.uk 02
   port: 9002
-  server: 138.199.35.209
+  server: 138.199.35.206
   skip-cert-verify: true
-  sni: 138.199.35.209
   tls: true
   type: http
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 02
-  network: ws
+- name: 1|US - zhuhai.uk 03
+  port: 9080
+  server: 23.95.222.32
+  type: socks5
+- name: 1|US - zhuhai.uk 04
   port: 8443
-  server: cf5.danfeng.eu.org
-  servername: name.zxs1202.cc.cd
-  tls: true
-  type: vless
-  uuid: db2fc6e0-a670-478d-88ad-1c218f6ca6c7
-  ws-opts:
-    headers:
-      Host: name.zxs1202.cc.cd
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 03
-  port: 443
-  reality-opts:
-    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
-    short-id: 21270a66
-  server: tk1.high-speed-test-56424.me
-  servername: aws.amazon.com
-  tls: true
-  type: vless
-  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 04
-  network: ws
-  port: 443
-  server: 172.64.144.248
-  servername: name.zxs1202.cc.cd
-  tls: true
-  type: vless
-  uuid: db2fc6e0-a670-478d-88ad-1c218f6ca6c7
-  ws-opts:
-    headers:
-      Host: name.zxs1202.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 05
-  network: ws
-  port: 443
-  server: cf.877774.xyz
-  servername: name.zxs1202.cc.cd
-  tls: true
-  type: vless
-  uuid: db2fc6e0-a670-478d-88ad-1c218f6ca6c7
-  ws-opts:
-    headers:
-      Host: name.zxs1202.cc.cd
-    path: /
-- name: 1|US - zhuhai.uk 06
-  port: 9002
-  server: 138.199.35.195
+  server: 129.212.181.253
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 07
-  network: ws
-  port: 8443
-  server: cf7.danfeng.eu.org
-  servername: name.zxs1202.cc.cd
-  tls: true
-  type: vless
-  uuid: db2fc6e0-a670-478d-88ad-1c218f6ca6c7
-  ws-opts:
-    headers:
-      Host: name.zxs1202.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 08
-  network: ws
-  port: 443
-  server: 172.67.108.140
-  servername: name.zxs1202.cc.cd
-  tls: true
-  type: vless
-  uuid: db2fc6e0-a670-478d-88ad-1c218f6ca6c7
-  ws-opts:
-    headers:
-      Host: name.zxs1202.cc.cd
-    path: /
-- name: 1|US - zhuhai.uk 09
-  password: https://xship.2fa.cat
-  port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: hysteria2
-- name: 1|US - zhuhai.uk 10
-  password: 'null'
-  port: 443
-  server: voteshirleysew.club
-  skip-cert-verify: true
-  sni: voteshirleysew.club
-  tls: true
-  type: http
-  username: 'null'
