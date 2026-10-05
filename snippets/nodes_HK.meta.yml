@@ -1,9 +1,27 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk
+- flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 04
   port: 14343
   server: 27.155.117.209
+  servername: thuk.huaweiyouxuan.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 02
+  port: 14343
+  server: 36.248.14.90
+  servername: thuk.huaweiyouxuan.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+- flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 03
+  port: 14343
+  server: 14.17.78.144
   servername: thuk.huaweiyouxuan.com
   skip-cert-verify: true
   tls: true
