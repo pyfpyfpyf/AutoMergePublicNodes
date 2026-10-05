@@ -1,5 +1,21 @@
 proxies:
 - name: 1|JP - zhuhai.uk
-  port: 1080
-  server: 153.226.138.221
+  port: 10808
+  server: 101.36.104.239
   type: socks5
+- name: 1|JP - zhuhai.uk 02
+  port: 10808
+  server: 101.36.104.46
+  type: socks5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk 03
+  port: 443
+  reality-opts:
+    public-key: TDbVu9oeQc6rjrsBcHuMs0tybjKy2EQQdZalmLvwSk0
+    short-id: 8ea105393d
+  server: bgroup.jp3.ilovegairport.com
+  servername: ap-northeast-1.console.aws.amazon.com
+  tls: true
+  type: vless
+  uuid: f354744d-21d9-4836-9934-4989e1c4d877
