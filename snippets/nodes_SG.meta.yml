@@ -1,9 +1,15 @@
 proxies:
-- flow: xtls-rprx-vision
-  name: 1|SG - zhuhai.uk
-  port: 33102
-  server: 27.44.143.169
-  servername: sgg.knhqf.com
+- name: 1|SG - zhuhai.uk
+  port: 443
+  server: 154.26.139.24
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
+  type: http
+- name: 1|SG - zhuhai.uk 02
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  port: 8886
+  server: 139.180.146.200
+  skip-cert-verify: true
+  sni: 139.180.146.200
+  tls: true
+  type: trojan
