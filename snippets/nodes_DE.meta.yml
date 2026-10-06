@@ -1,1 +1,21 @@
-proxies: []
+proxies:
+- name: 1|DE - zhuhai.uk
+  port: 443
+  server: 217.110.121.54
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: 1|DE - zhuhai.uk 01
+  network: ws
+  port: 2087
+  server: 188.114.97.3
+  servername: s4ws.ragingbull.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  ws-opts:
+    headers:
+      Host: s4ws.ragingbull.de5.net
+    path: /wsrb7k2m
