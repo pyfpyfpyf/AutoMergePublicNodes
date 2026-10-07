@@ -1,15 +1,14 @@
 proxies:
-- client-fingerprint: chrome
-  name: 1|DE - zhuhai.uk 01
-  network: ws
-  port: 2087
-  server: 188.114.97.3
-  servername: s4ws.ragingbull.de5.net
+- client-fingerprint: randomized
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk
+  port: 443
+  reality-opts:
+    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+    short-id: 4be4110078ebed4a
+  server: de2.srv.vbuste.ru
+  servername: de2.srv.vbuste.ru
+  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
-  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
-  ws-opts:
-    headers:
-      Host: s4ws.ragingbull.de5.net
-    path: /wsrb7k2m
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
