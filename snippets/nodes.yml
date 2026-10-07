@@ -1,16 +1,21 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 1|IE - zhuhai.uk
-  password: cb403111-a584-48a7-af9d-fd029156e114
-  port: 21196
-  server: ruot.ayucloudservices.nl
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 1|KR - zhuhai.uk
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 8443
-  server: 13.124.117.110
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1|CN - zhuhai.uk
+  port: 50002
+  server: 112.132.215.108
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 1|CN - zhuhai.uk 02
+  network: ws
+  port: 10086
+  server: 39.108.113.127
+  type: vmess
+  uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
+  ws-opts:
+    path: /
 - name: 1|HK - zhuhai.uk 03
   password: 654d0888-1452-4e1b-8077-ab00b45409fb
   port: 443

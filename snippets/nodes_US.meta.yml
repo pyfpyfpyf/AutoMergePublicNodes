@@ -178,68 +178,63 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  port: 9002
-  server: 138.199.35.196
+  port: 443
+  server: 172.64.68.89
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
-  port: 443
-  server: 137.175.22.96
+  port: 9002
+  server: 138.199.35.213
   skip-cert-verify: true
+  sni: 138.199.35.213
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 03
+  port: 443
+  server: 137.175.22.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 04
+  port: 443
+  server: 137.175.22.72
+  skip-cert-verify: true
+  sni: 137.175.22.72
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 05
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 06
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 07
+  password: 'null'
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 08
+  password: None
   port: 9002
   server: 138.199.35.206
   skip-cert-verify: true
   sni: 138.199.35.206
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 04
-  password: 'null'
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 05
-  password: 'null'
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 06
-  port: 443
-  server: 64.98.50.100
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 07
-  password: 'null'
-  port: 443
-  server: berniesbodybla.fun
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 08
-  port: 443
-  server: berniesbodybla.fun
-  tls: true
-  type: http
-  username: Ok5vbmU=
 - name: 1|US - zhuhai.uk 09
-  password: None
-  port: 9002
-  server: 138.199.35.201
+  port: 443
+  server: 137.175.22.40
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 10
-  port: 1080
-  server: 83.147.217.103
-  type: socks5

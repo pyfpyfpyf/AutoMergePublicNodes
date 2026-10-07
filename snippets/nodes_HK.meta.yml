@@ -1,9 +1,22 @@
 proxies:
 - name: 1|HK - zhuhai.uk
-  port: 443
-  server: fan.240104.xyz
+  port: 10808
+  server: 123.58.219.171
+  type: socks5
+- client-fingerprint: chrome
+  name: 1|HK - zhuhai.uk 02
+  network: ws
+  port: 8443
+  server: 146.56.221.148
+  servername: ccc.010304.xyz
+  skip-cert-verify: true
   tls: true
-  type: http
+  type: vless
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
 - name: 1|HK - zhuhai.uk 03
   password: 654d0888-1452-4e1b-8077-ab00b45409fb
   port: 443
