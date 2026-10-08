@@ -1,22 +1,25 @@
 proxies:
-- name: 1|HK - zhuhai.uk
-  password: 'null'
-  port: 443
-  server: fan.240104.xyz
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk
+  port: 9443
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  server: 45.207.157.24
+  servername: www.amazon.com
   tls: true
-  type: http
-  username: 'null'
-- name: 1|HK - zhuhai.uk 02
-  password: abc123
-  port: 1080
-  server: 47.239.98.42
-  type: socks5
-  username: abc123
-- name: 1|HK - zhuhai.uk 03
-  password: 654d0888-1452-4e1b-8077-ab00b45409fb
-  port: 443
-  server: node1.luoye.ee
-  sni: node1.luoye.ee
-  type: trojan
-  udp: true
+  type: vless
+  uuid: cbe82d99-2927-49d2-8ea9-d0d0162a60ec
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 02
+  port: 9443
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  server: 45.207.156.198
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 52d5defc-88f6-4c2c-9b1f-c19bf3e99778

@@ -1,5 +1,26 @@
 proxies:
-- name: 1|SG - zhuhai.uk
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk
+  port: 9443
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  server: 176.97.64.118
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 52d5defc-88f6-4c2c-9b1f-c19bf3e99778
+- name: 1|SG - zhuhai.uk 02
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 146.70.29.45
+  skip-cert-verify: true
+  sni: 92461d2d.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+- name: 1|SG - zhuhai.uk 03
   password: 81c4547b-e5d8-4af8-baf0-91c5c0c05a9b
   port: 1892
   server: sin-a-01.auuas.com
@@ -7,9 +28,3 @@ proxies:
   sni: images.apple.com
   type: anytls
   udp: true
-- name: 1|SG - zhuhai.uk 02
-  port: 9443
-  server: 149.88.99.209
-  skip-cert-verify: true
-  tls: true
-  type: http
