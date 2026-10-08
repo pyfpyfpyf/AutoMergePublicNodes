@@ -1,1 +1,29 @@
-proxies: []
+proxies:
+- client-fingerprint: randomized
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk
+  port: 443
+  reality-opts:
+    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+    short-id: 4be4110078ebed4a
+  server: 177.1.187.251
+  servername: de2.srv.vbuste.ru
+  tls: true
+  type: vless
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+- name: 1|DE - zhuhai.uk 02
+  port: 8443
+  server: 188.120.225.125
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|DE - zhuhai.uk 03
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|DE - zhuhai.uk 04
+  port: 9090
+  server: 202.4.116.146
+  type: socks5
