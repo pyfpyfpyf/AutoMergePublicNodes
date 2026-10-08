@@ -1,15 +1,15 @@
 proxies:
-- client-fingerprint: qq
-  name: 1|SG - zhuhai.uk
-  network: ws
-  port: 443
-  server: 170.114.52.22
-  servername: asia.csmaster.site
+- name: 1|SG - zhuhai.uk
+  password: 81c4547b-e5d8-4af8-baf0-91c5c0c05a9b
+  port: 1892
+  server: sin-a-01.auuas.com
+  skip-cert-verify: true
+  sni: images.apple.com
+  type: anytls
+  udp: true
+- name: 1|SG - zhuhai.uk 02
+  port: 9443
+  server: 149.88.99.209
   skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: a853e120-3570-462b-aec1-e8f3d4f92d24
-  ws-opts:
-    headers:
-      Host: asia.csmaster.site
-    path: /
+  type: http
