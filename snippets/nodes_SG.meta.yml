@@ -1,23 +1,15 @@
 proxies:
-- client-fingerprint: random
-  name: 1|SG - zhuhai.uk
-  network: ws
-  port: 443
-  server: 139.162.41.109
-  servername: fm3.pages.dev
+- name: 1|SG - zhuhai.uk
+  port: 9443
+  server: 149.88.99.209
   skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: 3a94ee89-c64e-4895-8381-ada18c4a46ec
-  ws-opts:
-    headers:
-      Host: fm3.pages.dev
-    path: /?ed=2560
-- name: 1|SG - zhuhai.uk 02
-  password: 81c4547b-e5d8-4af8-baf0-91c5c0c05a9b
-  port: 1892
-  server: sin-a-02.auuas.com
-  skip-cert-verify: true
-  sni: images.apple.com
+  type: http
+- client-fingerprint: chrome
+  name: 1|SG - zhuhai.uk 02
+  password: 6cdc1a00-e9e7-4ef2-8d53-541688f9324c
+  port: 1044
+  server: fseo7hyw.zf-mix.9999231.xyz
+  sni: sg-cc.9999231.xyz
   type: anytls
   udp: true
