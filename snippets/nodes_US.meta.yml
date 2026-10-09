@@ -178,67 +178,38 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  password: 'null'
   port: 9002
-  server: 138.199.35.212
+  server: 138.199.35.219
   skip-cert-verify: true
-  sni: 138.199.35.212
   tls: true
   type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 02
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 02
   port: 443
-  server: 71.43.26.234
-  skip-cert-verify: true
+  reality-opts:
+    public-key: -Cc9Wduo_L3TI70LPHFamFOaQer2Lzzux-vwAVDn5ns
+    short-id: f0dc50e8
+  server: pq.us03.yydjc.top
+  servername: iosapps.itunes.apple.com
   tls: true
-  type: http
+  type: vless
+  uuid: 11b0e50b-2efe-472d-bbc9-e6b159811d39
 - name: 1|US - zhuhai.uk 03
-  password: 'null'
-  port: 9002
-  server: 138.199.35.215
+  port: 443
+  server: 162.217.114.50
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 04
-  password: None
-  port: 9002
-  server: 138.199.35.206
+  port: 8443
+  server: 45.145.73.240
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 05
-  password: 'null'
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 06
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 07
-  password: 'null'
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 08
   port: 443
-  server: 137.175.22.72
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 09
-  port: 443
-  server: 137.175.77.35
+  server: 66.64.100.66
   skip-cert-verify: true
   tls: true
   type: http

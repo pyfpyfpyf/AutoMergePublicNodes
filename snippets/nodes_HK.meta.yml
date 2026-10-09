@@ -1,5 +1,24 @@
 proxies:
-- name: 1|HK - zhuhai.uk
-  port: 8443
-  server: 107.149.92.23
-  type: socks5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk
+  port: 443
+  reality-opts:
+    public-key: sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE
+    short-id: 6d962e8d8a0dce
+  server: japro02.xyy123.bid
+  servername: p-nt-www-amazon-com-kalias.amazon.com
+  tls: true
+  type: vless
+  uuid: 23af32ca-bea1-4a5e-bebb-04d1b1b633bc
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 02
+  port: 26480
+  reality-opts:
+    public-key: thefrz26hPQjCrKszJ6m_41nLmThPGkTEKBjYVDGM0E
+  server: 20.205.14.234
+  servername: addons.mozilla.org
+  tls: true
+  type: vless
+  uuid: 01de63ee-d2d6-4842-b2f0-d54c7eca267a

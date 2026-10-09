@@ -1,15 +1,30 @@
 proxies:
-- name: 1|SG - zhuhai.uk
-  password: WvH8ooM9hom4KOOJHFJz1x5umE0aV4R0
-  port: 443
-  server: 43.156.36.253
-  skip-cert-verify: true
-  sni: tx-hy2
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk
+  port: 47592
+  reality-opts:
+    public-key: WIQGJ43m8ym13-VZ57mAtWY5vOwHMHEpnLV8caw2-kA
+    short-id: f38326f99edf
+  server: dghk2610.supertoolify.com
+  servername: www.lamer.com.sg
   tls: true
-  type: trojan
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - name: 1|SG - zhuhai.uk 02
   port: 443
-  server: 43.160.239.37
+  server: 154.26.139.24
   skip-cert-verify: true
   tls: true
   type: http
+- client-fingerprint: chrome
+  name: 1|SG - zhuhai.uk 03
+  port: 443
+  reality-opts:
+    public-key: hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4
+    short-id: eb97ce837da2f6ad
+  server: 34.87.113.18
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 5567cac6-2a32-4318-83cd-7df3a9eebbd7

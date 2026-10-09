@@ -1,14 +1,25 @@
 proxies:
-- name: 1|JP - zhuhai.uk
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk
   port: 443
-  server: fan.571589.xyz
+  reality-opts:
+    public-key: zMagqZuHMMpbYO2aciR2tBAjzBVLeXe0N205r4YCY14
+    short-id: 1a92a625
+  server: pq.aws49.yydjc.top
+  servername: cdn-dynmedia-1.microsoft.com
   tls: true
-  type: http
-- name: 1|JP - zhuhai.uk 02
-  password: 'null'
+  type: vless
+  uuid: 11b0e50b-2efe-472d-bbc9-e6b159811d39
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk 02
   port: 443
-  server: fan.571589.xyz
-  sni: fan.571589.xyz
+  reality-opts:
+    public-key: scnmyqQqGfHXAG9Ihe-bzs1xvqwQlMhCc87zJdIzPTs
+    short-id: 2edcfbb7
+  server: pq.aws56.yydjc.top
+  servername: updates.cdn-apple.com
   tls: true
-  type: http
-  username: 'null'
+  type: vless
+  uuid: 11b0e50b-2efe-472d-bbc9-e6b159811d39
