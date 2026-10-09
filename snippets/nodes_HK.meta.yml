@@ -1,12 +1,20 @@
 proxies:
 - name: 1|HK - zhuhai.uk
-  port: 6666
-  server: 61.142.113.42
-  type: socks5
-- name: 1|HK - zhuhai.uk 02
-  port: 443
-  server: fan.240104.xyz
+  password: ec5d4252-898b-42a6-b3a6-6e61b52817f8
+  port: 20000
+  server: cmhk88.bilibilii.cc
   skip-cert-verify: true
-  sni: fan.240104.xyz
+  sni: aio-static.hkbn.net
   tls: true
-  type: http
+  type: trojan
+- client-fingerprint: chrome
+  name: 1|HK - zhuhai.uk 02
+  port: 443
+  reality-opts:
+    public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
+    short-id: 56d4e7ae4f86fa39
+  server: 34.92.19.135
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 90153538-ef08-4942-b8e1-41e7c523e659
