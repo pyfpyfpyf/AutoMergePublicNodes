@@ -178,46 +178,41 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  port: 8090
-  server: 184.188.139.2
+  port: 443
+  server: fan.596189.xyz
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
   port: 443
-  server: tzoa.fun
+  server: 137.175.22.89
+  skip-cert-verify: true
   tls: true
   type: http
-  username: bnVsbDpudWxs
 - name: 1|US - zhuhai.uk 03
+  port: 443
+  server: fan.226278.xyz
+  sni: fan.226278.xyz
+  tls: true
+  type: http
+- cipher: aes-128-gcm
+  name: 1|US - zhuhai.uk 04
+  password: 2581cebb-e452-4ee3-8849-3cd358bf9394
+  port: 40032
+  server: ruot.ayucloudservices.nl
+  type: ss
+- name: 1|US - zhuhai.uk 05
+  port: 443
+  server: 38.28.193.1
+  skip-cert-verify: true
+  sni: 38.28.193.1
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 06
   password: e4b72b531a2d10900519
   port: 443
   server: 147.182.216.4
-  sni: 93b6d804.acsnet.co
+  skip-cert-verify: true
   tls: true
   type: http
   username: testuser1
-- name: 1|US - zhuhai.uk 04
-  password: None
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 05
-  port: 1080
-  server: 83.147.217.103
-  type: socks5
-- name: 1|US - zhuhai.uk 06
-  port: 443
-  server: 121.127.34.82
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 07
-  port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  tls: true
-  type: http

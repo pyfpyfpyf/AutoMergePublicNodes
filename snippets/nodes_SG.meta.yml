@@ -1,23 +1,10 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|SG - zhuhai.uk
-  port: 41202
-  reality-opts:
-    public-key: Qy3mbHGSK-cWrJ_Dsaj-R8ydGtWo4lr3EtAvrEWv3mo
-  server: 20.212.105.115
-  servername: aws.amazon.com
-  tls: true
-  type: vless
-  uuid: f0e2feb9-cbe0-49fc-a148-8ec97cb0f948
-- client-fingerprint: chrome
-  name: 1|SG - zhuhai.uk 02
+- name: 1|SG - zhuhai.uk
+  password: e4b72b531a2d10900519
   port: 443
-  reality-opts:
-    public-key: hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4
-    short-id: eb97ce837da2f6ad
-  server: 34.87.113.18
-  servername: www.cloudflare.com
+  server: 146.70.29.45
+  skip-cert-verify: true
+  sni: 92461d2d.acsnet.co
   tls: true
-  type: vless
-  uuid: 5567cac6-2a32-4318-83cd-7df3a9eebbd7
+  type: http
+  username: testuser1
