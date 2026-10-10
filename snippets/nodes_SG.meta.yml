@@ -1,1 +1,19 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk
+  port: 443
+  reality-opts:
+    public-key: PhOIlEfiYVUhkWKIfX_IOwJ6zz_Zk0QEj4sfcZyuShY
+    short-id: abcddb0c38896b8b
+  server: 13.212.173.211
+  servername: api-placer-v2.mach2mach.com
+  tls: true
+  type: vless
+  uuid: 7e68e32f-8015-4f37-9082-70e8b0b58043
+- name: 1|SG - zhuhai.uk 02
+  port: 443
+  server: 154.26.139.24
+  skip-cert-verify: true
+  tls: true
+  type: http
