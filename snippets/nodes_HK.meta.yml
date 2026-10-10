@@ -1,8 +1,17 @@
 proxies:
-- name: 1|HK - zhuhai.uk 02
+- name: 1|HK - zhuhai.uk
+  port: 10808
+  server: 36.155.23.163
+  type: socks5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 02
   port: 443
-  server: fan.240104.xyz
-  skip-cert-verify: true
-  sni: fan.240104.xyz
+  reality-opts:
+    public-key: AgTktefiMM58y7f-KFgEtmVti_YJbd0GPSkxNeJ0RH4
+    short-id: bdaf
+  server: jpga01.xyy123.bid
+  servername: buckeye-retail-website.amazon.com
   tls: true
-  type: http
+  type: vless
+  uuid: 0d8bb1ce-a70f-43b7-abf6-37bf5c856eb2
