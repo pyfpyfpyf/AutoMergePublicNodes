@@ -1,10 +1,21 @@
 proxies:
-- name: 1|SG - zhuhai.uk
-  password: e4b72b531a2d10900519
+- client-fingerprint: random
+  name: 1|SG - zhuhai.uk
+  network: ws
   port: 443
-  server: 146.70.29.45
+  server: 139.162.41.109
+  servername: fm3.pages.dev
   skip-cert-verify: true
-  sni: 92461d2d.acsnet.co
+  tls: true
+  type: vless
+  uuid: 3a94ee89-c64e-4895-8381-ada18c4a46ec
+  ws-opts:
+    headers:
+      Host: fm3.pages.dev
+    path: /?ed=2560
+- name: 1|SG - zhuhai.uk 02
+  port: 443
+  server: 154.26.139.24
+  skip-cert-verify: true
   tls: true
   type: http
-  username: testuser1
