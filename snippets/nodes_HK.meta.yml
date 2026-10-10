@@ -1,7 +1,8 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 1|HK - zhuhai.uk
-  password: 70a5c510-d56d-43e7-b150-9c00c969bd50
-  port: 40016
-  server: ruot.ayucloudservices.nl
-  type: ss
+- name: 1|HK - zhuhai.uk 02
+  port: 443
+  server: fan.240104.xyz
+  skip-cert-verify: true
+  sni: fan.240104.xyz
+  tls: true
+  type: http
