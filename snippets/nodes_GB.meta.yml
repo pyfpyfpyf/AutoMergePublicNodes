@@ -1,7 +1,13 @@
 proxies:
-- name: 1|GB - zhuhai.uk
-  port: 443
-  server: 185.164.138.156
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|GB - zhuhai.uk
+  port: 51000
+  reality-opts:
+    public-key: k3RNJwN_I5rR6l2L_uVOXhcPKzQ1sWdUekSTh7OAO0c
+    short-id: 6017ac4c083191
+  server: 194.147.16.114
+  servername: www.ucl.ac.uk
   tls: true
-  type: http
+  type: vless
+  uuid: b8ea754c-848e-5952-bcc4-2c72e6f44f10

@@ -1,9 +1,14 @@
 proxies:
-- name: 1|HK - zhuhai.uk
-  port: 10808
-  server: 36.155.23.163
-  type: socks5
-- name: 1|HK - zhuhai.uk 02
-  port: 10808
-  server: 123.58.219.171
-  type: socks5
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk
+  port: 9443
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  server: 45.207.157.24
+  servername: www.amazon.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: fe0721ac-c577-4938-b7ca-8ab5f43bb8da
