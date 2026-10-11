@@ -1,16 +1,15 @@
 proxies:
-- name: 1|FR - zhuhai.uk
-  port: 8090
-  server: 217.181.201.254
-  skip-cert-verify: true
-  tls: true
-  type: http
+- client-fingerprint: chrome
+  name: 1|FR - zhuhai.uk
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 1012
+  server: 7sa65104.zf-mix.9999231.xyz
+  sni: fr-house.9999231.xyz
+  type: anytls
+  udp: true
 - name: 1|FR - zhuhai.uk 02
-  port: 9090
-  server: 202.4.123.220
-  type: socks5
-- name: 1|FR - zhuhai.uk 03
   port: 443
-  server: fan.132031.xyz
+  server: 62.210.147.2
+  skip-cert-verify: true
   tls: true
   type: http
