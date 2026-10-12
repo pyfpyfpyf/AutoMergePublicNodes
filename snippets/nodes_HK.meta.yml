@@ -1,14 +1,20 @@
 proxies:
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk 02
-  port: 9443
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
-  server: 45.207.157.24
-  servername: www.amazon.com
+- cipher: aes-128-gcm
+  name: 1|HK - zhuhai.uk
+  password: edad69d9-ea99-4ce9-bae8-8fedc2afcbf4
+  port: 40002
+  server: ruot.ayucloudservices.nl
+  type: ss
+- name: 1|HK - zhuhai.uk 02
+  port: 443
+  server: fan.240104.xyz
   skip-cert-verify: true
+  sni: fan.240104.xyz
   tls: true
-  type: vless
-  uuid: fe0721ac-c577-4938-b7ca-8ab5f43bb8da
+  type: http
+- cipher: aes-128-gcm
+  name: 1|HK - zhuhai.uk 03
+  password: d63d34c4-1bdb-446a-bdf0-7667e30a9173
+  port: 40002
+  server: ruot.ayucloudservices.nl
+  type: ss

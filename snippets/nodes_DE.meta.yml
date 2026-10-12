@@ -1,11 +1,21 @@
 proxies:
 - name: 1|DE - zhuhai.uk
   port: 443
-  server: 159.69.94.125
+  server: 193.233.75.115
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|DE - zhuhai.uk 02
+- client-fingerprint: chrome
+  name: 1|DE - zhuhai.uk 02
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 1025
+  server: 0yb5v73f.zf-mix.9999231.xyz
+  sni: de-wy.9999231.xyz
+  type: anytls
+  udp: true
+- name: 1|DE - zhuhai.uk 03
   port: 443
-  server: 31.77.19.92
-  type: socks5
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
