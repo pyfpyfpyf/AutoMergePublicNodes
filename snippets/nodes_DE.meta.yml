@@ -1,21 +1,25 @@
 proxies:
-- name: 1|DE - zhuhai.uk
-  port: 443
-  server: 193.233.75.115
-  skip-cert-verify: true
-  tls: true
-  type: http
 - client-fingerprint: chrome
-  name: 1|DE - zhuhai.uk 02
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 1025
-  server: 0yb5v73f.zf-mix.9999231.xyz
-  sni: de-wy.9999231.xyz
-  type: anytls
-  udp: true
-- name: 1|DE - zhuhai.uk 03
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk
   port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
+  reality-opts:
+    public-key: Mlc1zeT6bmVI1SikL1ZSuZv3c-RNa7qwBnOS5Wd-YwM
+    short-id: e17daa3101
+  server: 189.24.84.170
+  servername: www.sony.com
   tls: true
-  type: http
+  type: vless
+  uuid: d388d1ac-be49-4cb6-88a8-2eeec632efe8
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk 02
+  port: 443
+  reality-opts:
+    public-key: 7vGRh29DmlE13UV_fLUfl2bUpqkmJprSenLZXS8XJEc
+    short-id: 3560f3d77a767c3a
+  server: 147.45.39.4
+  servername: de5.nztvpn.com
+  tls: true
+  type: vless
+  uuid: ee18d188-14cc-417e-beb1-70e4add6d023
