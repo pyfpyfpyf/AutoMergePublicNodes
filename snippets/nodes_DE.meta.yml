@@ -1,13 +1,11 @@
 proxies:
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk
+- name: 1|DE - zhuhai.uk
   port: 443
-  reality-opts:
-    public-key: Ego9_BM1Sy20swG1UaGOucL_o94l3F6uw8TOTH2jYRI
-    short-id: 5347d9d0b588c111
-  server: 144.31.165.102
-  servername: www.lovelive-anime.jp
+  server: 159.69.94.125
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: b1936288-a353-4ff1-89b3-edaead599c6b
+  type: http
+- name: 1|DE - zhuhai.uk 02
+  port: 443
+  server: 31.77.19.92
+  type: socks5
