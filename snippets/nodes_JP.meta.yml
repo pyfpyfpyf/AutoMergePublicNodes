@@ -1,8 +1,20 @@
 proxies:
 - name: 1|JP - zhuhai.uk
-  password: Trojan@82164024
+  port: 1080
+  server: 217.142.236.180
+  type: socks5
+- name: 1|JP - zhuhai.uk 03
   port: 443
-  server: jp.tronsg.com
-  sni: jp.tronsg.com
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  sni: fan.571589.xyz
   tls: true
-  type: trojan
+  type: http
+  username: bnVsbDpudWxs
+- name: 1|JP - zhuhai.uk 04
+  password: my_super_password_123
+  port: 5443
+  server: open.2ml.bid
+  skip-cert-verify: true
+  sni: open.2ml.bid
+  type: hysteria2

@@ -1,20 +1,16 @@
 proxies:
-- name: 1|JP - zhuhai.uk
+- name: 1|KR - zhuhai.uk
   password: Trojan@82164024
   port: 443
-  server: jp.tronsg.com
-  sni: jp.tronsg.com
+  server: kr.tronsg.com
+  skip-cert-verify: true
+  sni: kr.tronsg.com
   tls: true
   type: trojan
-- cipher: aes-256-gcm
-  name: 1|RU - zhuhai.uk
-  password: d8a115ba7ee0d990
-  port: 20119
-  server: 176.32.32.108
-  type: ss
-- cipher: aes-256-gcm
-  name: 1|RU - zhuhai.uk 02
-  password: bdb313adf74c2ede
-  port: 20111
-  server: 45.140.168.141
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1|CN - zhuhai.uk
+  port: 50002
+  server: 112.132.215.108
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
