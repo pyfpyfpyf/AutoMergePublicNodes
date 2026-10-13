@@ -1,14 +1,17 @@
 proxies:
 - name: 1|KR - zhuhai.uk
-  password: Trojan@82164024
-  port: 443
-  server: kr.tronsg.com
-  skip-cert-verify: true
-  sni: kr.tronsg.com
-  tls: true
-  type: trojan
-- name: 1|KR - zhuhai.uk 02
   port: 1090
   server: 121.169.46.116
   type: socks5
-  username: VkRKamJFMHdVV3hOTUZFMk9nOlZESmpiRTB3VVd4Tk1GRTJPZw==
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|KR - zhuhai.uk 02
+  port: 37874
+  reality-opts:
+    public-key: JIyJDLrlP1RoxI10J-J85vuY7HjeD7SybLWc5RPYHD0
+    short-id: 67a6bb5096652aa8
+  server: 144.24.77.185
+  servername: addons.mozilla.org
+  tls: true
+  type: vless
+  uuid: e21a8428-f769-419c-a1b0-7254c975fbc0
