@@ -1,63 +1,15 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 1|KR - zhuhai.uk
-  network: ws
+- name: 1|KR - zhuhai.uk
+  password: Trojan@82164024
   port: 443
-  server: A4TkEZqmtsdJFNnF.v.3dns.vip
-  servername: A4TkEZqmtsdJFNnF.v.3dns.vip
+  server: kr.tronsg.com
+  skip-cert-verify: true
+  sni: kr.tronsg.com
   tls: true
-  type: vmess
-  uuid: e4cfeb24-c58f-4813-b0c8-d2b6b52cd244
-  ws-opts:
-    headers:
-      Host: A4TkEZqmtsdJFNnF.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 1|KR - zhuhai.uk 02
-  network: ws
-  port: 443
-  server: Z2ItHKfX1Hkxe8uS.v.3dns.vip
-  servername: Z2ItHKfX1Hkxe8uS.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: b89b702b-31ef-4f6a-85df-c264795a987b
-  ws-opts:
-    headers:
-      Host: Z2ItHKfX1Hkxe8uS.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 1|KR - zhuhai.uk 03
-  network: ws
-  port: 443
-  server: KruqOPZZRnwFtn5i.v.3dns.vip
-  servername: KruqOPZZRnwFtn5i.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: e4cfeb24-c58f-4813-b0c8-d2b6b52cd244
-  ws-opts:
-    headers:
-      Host: KruqOPZZRnwFtn5i.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 1|KR - zhuhai.uk 04
-  network: ws
-  port: 443
-  server: 1VlM6ClKE7huYg5u.v.3dns.vip
-  servername: 1VlM6ClKE7huYg5u.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: e4cfeb24-c58f-4813-b0c8-d2b6b52cd244
-  ws-opts:
-    headers:
-      Host: 1VlM6ClKE7huYg5u.v.3dns.vip
-    path: /ws-vmess
+  type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|KR - zhuhai.uk 05
+  name: 1|KR - zhuhai.uk 02
   port: 443
   reality-opts:
     public-key: GR_zPAgxF9PZ70Z9UpSmMlcd2STyoAC0fZTSHkTTCGE
@@ -67,8 +19,3 @@ proxies:
   tls: true
   type: vless
   uuid: 583cc910-b57c-4dd0-a4a7-cea51a30b032
-- name: 1|KR - zhuhai.uk 06
-  port: 1090
-  server: 121.169.46.116
-  type: socks5
-  username: VDJjbE0wUWxNMFE2Og==
