@@ -1,1 +1,18 @@
-proxies: []
+proxies:
+- name: 1|GB - zhuhai.uk
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|GB - zhuhai.uk 01
+  network: ws
+  port: 8880
+  server: 194.76.18.2
+  type: vless
+  udp: true
+  uuid: bb5f4b63-0b91-4f2c-8a02-66c3f99c1aaa
+  ws-opts:
+    headers:
+      Host: yellow-mouse-fcce.400-318.workers.dev
+    path: /pyip=Telegram🇨🇳 @WangCai2
