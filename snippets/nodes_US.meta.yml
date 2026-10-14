@@ -178,19 +178,79 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
-- name: 1|US - zhuhai.uk 02
-  port: 443
-  server: jewelscollecti.icu
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  sni: 138.199.35.211
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 03
+- name: 1|US - zhuhai.uk 02
+  password: None
   port: 443
-  server: 38.247.141.135
+  server: webdrone.club
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 03
+  port: 9002
+  server: 138.199.35.207
   skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 04
+  port: 443
+  server: 148.135.10.80
+  skip-cert-verify: true
+  sni: 148.135.10.80
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 05
+  password: None
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 06
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 07
+  port: 443
+  server: 149.88.21.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 08
+  network: ws
+  port: 443
+  server: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
+  servername: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
+  tls: true
+  type: vless
+  uuid: 0b3c3f4f-843a-5b0a-98fe-132c88fbefc0
+  ws-opts:
+    path: /ws/0b3c3f4f-843a-5b0a-98fe-132c88fbefc0
+- alterId: 0
+  cipher: auto
+  name: 1|US - zhuhai.uk 09
+  network: ws
+  port: 443
+  server: Dv9bYFLawYZl3oU9.v.3dns.vip
+  servername: Dv9bYFLawYZl3oU9.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: a263bd66-828f-45ee-9197-ffc801ab019c
+  ws-opts:
+    headers:
+      Host: Dv9bYFLawYZl3oU9.v.3dns.vip
+    path: /ws-vmess
+- name: 1|US - zhuhai.uk 10
+  port: 443
+  server: jewelscollecti.icu
   tls: true
   type: http
