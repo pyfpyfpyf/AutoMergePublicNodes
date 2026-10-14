@@ -1,13 +1,15 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|SG - zhuhai.uk
+- name: 1|SG - zhuhai.uk
   port: 443
-  reality-opts:
-    public-key: za53zkNAm5tPgC6ZTU1oM90ofHaI9ODk-6msB-M3cWU
-    short-id: 0f65424c53d491e6
-  server: 149.104.30.138
-  servername: www.bing.com
+  server: 154.26.139.24
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: a33cfdfd-90af-4e5b-a42e-047293c528e6
+  type: http
+- name: 1|SG - zhuhai.uk 02
+  password: 81c4547b-e5d8-4af8-baf0-91c5c0c05a9b
+  port: 1892
+  server: sin-a-01.auuas.com
+  skip-cert-verify: true
+  sni: images.apple.com
+  type: anytls
+  udp: true
