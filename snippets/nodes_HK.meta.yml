@@ -1,7 +1,13 @@
 proxies:
-- cipher: aes-128-gcm
+- client-fingerprint: random
+  flow: xtls-rprx-vision
   name: 1|HK - zhuhai.uk
-  password: 3238e070-60e4-437b-be4e-22826d7cd871
-  port: 40002
-  server: ruot.ayucloudservices.nl
-  type: ss
+  port: 443
+  reality-opts:
+    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
+    short-id: 1c3e8241a8743df9
+  server: 152.233.71.81
+  servername: brointelengence.com
+  tls: true
+  type: vless
+  uuid: 741809be-e44e-000b-b411-bf66f0ae3860

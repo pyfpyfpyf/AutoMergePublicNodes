@@ -1,7 +1,35 @@
 proxies:
 - name: 1|DE - zhuhai.uk
-  port: 9443
-  server: 213.177.229.161
+  port: 443
+  server: 194.67.110.12
   skip-cert-verify: true
   tls: true
   type: http
+- alterId: 0
+  cipher: auto
+  name: 1|DE - zhuhai.uk 02
+  network: ws
+  port: 443
+  server: 9FvMZovqvgV9O0xM.v.3dns.vip
+  servername: 9FvMZovqvgV9O0xM.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 10d6665f-10c9-4f03-9b83-ba45968f748d
+  ws-opts:
+    headers:
+      Host: 9FvMZovqvgV9O0xM.v.3dns.vip
+    path: /ws-vmess
+- client-fingerprint: random
+  grpc-opts:
+    grpc-service-name: gdd-grpc
+  name: 1|DE - zhuhai.uk 01
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk
+  server: 31.58.95.10
+  servername: de-gdd-1.unturned-rust-dead.lol
+  tls: true
+  type: vless
+  udp: true
+  uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
