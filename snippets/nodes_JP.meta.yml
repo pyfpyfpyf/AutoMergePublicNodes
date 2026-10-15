@@ -1,14 +1,39 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+- alterId: 0
+  cipher: auto
   name: 1|JP - zhuhai.uk
-  port: 41563
+  network: ws
+  port: 443
+  server: z0EJSQ63dprivBtV.v.3dns.vip
+  servername: z0EJSQ63dprivBtV.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: ad8685f2-5d17-411e-855c-1cc2ed5144a9
+  ws-opts:
+    headers:
+      Host: z0EJSQ63dprivBtV.v.3dns.vip
+    path: /ws-vmess
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk 02
+  port: 443
   reality-opts:
-    public-key: HrcXRHtsitc_AVlN-_8fZuRgaP-Mqa_9JJotI9OnkVc
-    short-id: 25c79e5856c7
-  server: 43.247.132.85
-  servername: iosapps.itunes.apple.com
-  skip-cert-verify: true
+    public-key: HtrHyKJvjeh9xNVlNXidqFra8n_DhlL8EGu4ERst8QI
+    short-id: 912d2b581f59fb
+  server: jp3.oh-node.com
+  servername: www.bandainamcoent.co.jp
   tls: true
   type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  uuid: 7cfd34ae-edad-4cc5-9d6f-066f7add7829
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk 03
+  port: 443
+  reality-opts:
+    public-key: 3yorIs_psiYbIeESwMdne5mPe2JVzeNOpDa2IJxQ-Es
+    short-id: 21fa8a1ebf
+  server: jp2.oh-node.com
+  servername: www.capcom.co.jp
+  tls: true
+  type: vless
+  uuid: 7cfd34ae-edad-4cc5-9d6f-066f7add7829

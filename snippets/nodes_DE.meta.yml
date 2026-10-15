@@ -1,26 +1,22 @@
 proxies:
-- name: 1|DE - zhuhai.uk
-  password: happybirthdaydaniel
-  port: 25267
-  server: de-bots4.h1cloud.net
-  skip-cert-verify: true
-  sni: t.mefuckthewall
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk
+  port: 33939
+  reality-opts:
+    public-key: IPg65ZC9ZkvXpBZN2GSnICYZaIyGxcj2d8Y406KXA1I
+    short-id: b20abd16cda27eeb
+  server: funagfrdfs.alixxplay.com
+  servername: www.otto.de
   tls: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 1|DE - zhuhai.uk 02
-  network: ws
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 1|DE - zhuhai.uk 02
   port: 443
-  server: xIvYT9T3GrgoRgc5.v.3dns.vip
-  servername: xIvYT9T3GrgoRgc5.v.3dns.vip
+  server: 194.67.110.12
+  skip-cert-verify: true
   tls: true
-  type: vmess
-  uuid: a263bd66-828f-45ee-9197-ffc801ab019c
-  ws-opts:
-    headers:
-      Host: xIvYT9T3GrgoRgc5.v.3dns.vip
-    path: /ws-vmess
+  type: http
 - client-fingerprint: random
   grpc-opts:
     grpc-service-name: gdd-grpc
