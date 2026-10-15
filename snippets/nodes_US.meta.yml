@@ -177,65 +177,46 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- name: 1|US - zhuhai.uk
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 1|US - zhuhai.uk
+  password: 0324fbc29561
   port: 443
-  server: 38.247.141.135
+  server: 98416548.df6h451rh.xin
   skip-cert-verify: true
-  sni: 38.247.141.135
-  tls: true
-  type: http
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
 - name: 1|US - zhuhai.uk 02
-  port: 8443
-  server: 45.145.73.240
+  port: 443
+  server: 170.199.233.89
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 03
-  port: 443
-  server: 38.28.185.130
+  password: None
+  port: 9002
+  server: 138.199.35.206
   skip-cert-verify: true
   tls: true
   type: http
+  username: 'null'
 - name: 1|US - zhuhai.uk 04
-  port: 9443
-  server: 149.88.21.140
+  port: 9002
+  server: 138.199.35.213
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
+  password: 'null'
+  port: 443
+  server: purposebydesig.club
   tls: true
   type: http
+  username: 'null'
 - name: 1|US - zhuhai.uk 06
   port: 443
-  server: mmgr.club
-  skip-cert-verify: true
-  sni: mmgr.club
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 07
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 08
-  port: 42346
-  reality-opts:
-    public-key: fk0_CYMC_RKIbBDwS-lagle8Jm-hnvkSlV_7P0nBagM
-    short-id: 3f8ced2bf06b8448
-  server: 176.122.183.26
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: d5bc1380-2afd-4c7e-bacd-54e7833b0140
-- name: 1|US - zhuhai.uk 09
-  port: 443
-  server: 38.28.185.205
-  skip-cert-verify: true
+  server: purecambogiasl.live
   tls: true
   type: http

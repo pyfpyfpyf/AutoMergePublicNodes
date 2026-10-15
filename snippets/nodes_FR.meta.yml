@@ -1,7 +1,9 @@
 proxies:
 - name: 1|FR - zhuhai.uk
-  port: 8090
-  server: 82.96.128.175
-  skip-cert-verify: true
-  tls: true
-  type: http
+  network: ws
+  port: 14430
+  server: 138.124.70.41
+  type: vless
+  uuid: 6cc745e3-4eb9-46c8-a4a1-85dee7b87edc
+  ws-opts:
+    path: /vless
