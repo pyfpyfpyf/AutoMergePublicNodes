@@ -189,34 +189,47 @@ proxies:
   type: anytls
   udp: true
 - name: 1|US - zhuhai.uk 02
-  port: 443
-  server: 170.199.233.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 03
-  password: None
   port: 9002
-  server: 138.199.35.206
+  server: 138.199.35.218
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 03
+  port: 47672
+  reality-opts:
+    public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
+    short-id: 70ab6d813e
+  server: funagfrdfs.alixxplay.com
+  servername: us1p1.xn--ghq880n3na965a.com
+  tls: true
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - name: 1|US - zhuhai.uk 04
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
+  port: 443
+  server: crosscards.site
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 05
-  password: 'null'
-  port: 443
-  server: purposebydesig.club
+  port: 8090
+  server: 173.42.49.102
+  skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 06
   port: 443
-  server: purecambogiasl.live
+  server: goedkoopgeluid.icu
+  sni: goedkoopgeluid.icu
   tls: true
   type: http
+- name: 1|US - zhuhai.uk 07
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 08
+  port: 11080
+  server: 172.247.27.29
+  type: socks5

@@ -1,21 +1,30 @@
 proxies:
 - name: 1|DE - zhuhai.uk
   port: 9002
-  server: 158.173.154.1
+  server: 158.173.154.5
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: random
-  grpc-opts:
-    grpc-service-name: gdd-grpc
-  name: 1|DE - zhuhai.uk 01
-  network: grpc
+- name: 1|DE - zhuhai.uk 02
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|DE - zhuhai.uk 03
   port: 443
-  reality-opts:
-    public-key: aYz4_13W8gtAXGBrWeqJXtExahAJ9kUPDapqeyAlYCk
-  server: 31.58.95.10
-  servername: de-gdd-1.unturned-rust-dead.lol
+  server: 79.76.126.155
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk 01
+  network: tcp
+  port: 443
+  server: 152.53.186.202
+  servername: deinfo.chaosnetwork.app
   tls: true
   type: vless
   udp: true
-  uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
+  uuid: 5538eaaa-ac3d-4414-a1f5-280212949ed9
