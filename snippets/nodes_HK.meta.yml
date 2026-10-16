@@ -1,5 +1,17 @@
 proxies:
-- client-fingerprint: random
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk
+  port: 32134
+  reality-opts:
+    public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
+    short-id: 6c6c7c97
+  server: 3696b38bsg.murphyweb.sbs
+  servername: buylite.music.apple.com
+  tls: true
+  type: vless
+  uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|HK - zhuhai.uk 02
   port: 443
@@ -8,7 +20,6 @@ proxies:
     short-id: 1c3e8241a8743df9
   server: 152.233.71.81
   servername: brointelengence.com
-  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 741809be-e44e-000b-b411-bf66f0ae3860

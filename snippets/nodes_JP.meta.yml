@@ -1,26 +1,15 @@
 proxies:
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 1|JP - zhuhai.uk
-  port: 9443
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
-  server: 38.180.201.12
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: fe0721ac-c577-4938-b7ca-8ab5f43bb8da
-- name: 1|JP - zhuhai.uk 02
-  password: 'null'
+- name: 1|JP - zhuhai.uk
   port: 443
   server: fan.571589.xyz
+  skip-cert-verify: true
+  sni: fan.571589.xyz
   tls: true
   type: http
-  username: 'null'
+  username: bnVsbDpudWxs
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 1|JP - zhuhai.uk 03
+  name: 1|JP - zhuhai.uk 02
   port: 443
   reality-opts:
     public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
