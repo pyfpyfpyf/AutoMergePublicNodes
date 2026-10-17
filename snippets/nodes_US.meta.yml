@@ -178,57 +178,66 @@ proxies:
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
 - name: 1|US - zhuhai.uk
-  port: 443
-  server: kimberlymilano.icu
+  port: 8090
+  server: 173.42.49.102
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
-  password: None
+  port: 8443
+  server: 54.190.176.228
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 06
+  port: 34379
+  reality-opts:
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: e51285e3
+  server: funagfrdfs.alixxplay.com
+  servername: us1p1.xn--ghq880n3na965a.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 1|US - zhuhai.uk 05
+  password: 'null'
   port: 9002
-  server: 138.199.35.206
+  server: 138.199.35.210
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- client-fingerprint: chrome
+- name: 1|US - zhuhai.uk 07
+  port: 443
+  server: webdrone.club
+  tls: true
+  type: http
+  username: Ok5vbmU=
+- name: 1|US - zhuhai.uk 08
+  port: 9090
+  server: 202.4.119.226
+  type: socks5
+- client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 03
+  name: 1|US - zhuhai.uk 09
   port: 47672
   reality-opts:
     public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
     short-id: 70ab6d813e
   server: funagfrdfs.alixxplay.com
   servername: us1p1.xn--ghq880n3na965a.com
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 1|US - zhuhai.uk 04
+- name: 1|US - zhuhai.uk 10
+  password: None
   port: 443
-  server: fan.596189.xyz
+  server: goedkoopgeluid.icu
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 06
-  password: 'null'
-  port: 443
-  server: carolinafreigh.fun
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 07
-  port: 9090
-  server: 202.4.119.226
-  type: socks5
-- name: 1|US - zhuhai.uk 08
-  port: 8090
-  server: 50.76.211.251
-  skip-cert-verify: true
-  tls: true
-  type: http

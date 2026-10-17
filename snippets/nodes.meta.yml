@@ -769,11 +769,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|RO - zhuhai.uk
+- name: 0|RO_speednode_0110
   port: 9002
   server: 193.176.84.27
   skip-cert-verify: true
-  sni: 193.176.84.27
   tls: true
   type: http
   udp: true
@@ -1099,184 +1098,71 @@ proxies:
     headers:
       Host: pw.toc.dpdns.org
     path: /vplaetshs
-- name: 1|JP - zhuhai.uk
-  port: 443
-  server: fan.571589.xyz
-  tls: true
-  type: http
-- name: 1|HK - zhuhai.uk
-  port: 443
-  server: fan.240104.xyz
-  tls: true
-  type: http
-  username: bnVsbDpudWxs
-- name: 1|NL - zhuhai.uk
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 82.196.9.7
-  sni: 52c40907.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- alpn:
-  - http/1.1
-  name: 1|TW - zhuhai.uk
-  password: ec74bb6a86c2
-  port: 443
-  server: er8u54dh.df6h451rh.xin
-  skip-cert-verify: true
-  sni: px.ads.linkedin.com
-  type: anytls
-  udp: true
-- flow: xtls-rprx-vision
-  name: 1|TW - zhuhai.uk 02
-  port: 1003
-  reality-opts:
-    public-key: VNxeZH2-AUjHiZ3NpQpG54DN-0WFk9Rej1s9Zu_IYQk
-    short-id: 661613a7
-  server: leml9vt5.zf-all.9999231.xyz
-  servername: thtrjhtyjjfd.weebly.com
-  tls: true
-  type: vless
-  uuid: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+- alterId: 0
+  cipher: auto
+  name: 1|CN - zhuhai.uk
+  network: ws
+  port: 10086
+  server: 39.108.113.127
+  type: vmess
+  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
+  ws-opts:
+    path: /
+- name: 1|DK - zhuhai.uk
+  port: 9090
+  server: 202.4.116.146
+  type: socks5
 - name: 1|US - zhuhai.uk
-  port: 443
-  server: kimberlymilano.icu
+  port: 8090
+  server: 173.42.49.102
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|CH - zhuhai.uk
+- name: 1|FR - zhuhai.uk
+  port: 8090
+  server: 217.181.201.254
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|IN - zhuhai.uk
   port: 9443
-  server: 37.120.213.210
+  server: 165.231.253.242
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|BG - zhuhai.uk
-  port: 9443
-  server: 169.150.237.1
+- name: 1|US - zhuhai.uk 02
+  port: 8443
+  server: 54.190.176.228
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|RO - zhuhai.uk 02
-  port: 9002
-  server: 193.176.84.26
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|RO - zhuhai.uk 03
+- name: 1|RO - zhuhai.uk
   port: 9002
   server: 193.176.84.34
   skip-cert-verify: true
+  sni: www.bing.com
   tls: true
   type: http
-- name: 1|DK - zhuhai.uk
-  port: 443
-  server: 185.245.84.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|TW - zhuhai.uk 03
-  password: 0324fbc29561
-  port: 443
-  server: er8u54dh.df6h451rh.xin
-  skip-cert-verify: true
-  sni: px.ads.linkedin.com
-  type: anytls
-  udp: true
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 1|SG - zhuhai.uk
-  port: 46105
-  reality-opts:
-    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-    short-id: 28f5c1f8f98a
-  server: funagfrdfs.alixxplay.com
-  servername: www.lamer.com.sg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 1|SG - zhuhai.uk 02
-  password: '8888'
-  port: 1080
-  server: 47.236.168.243
-  type: socks5
-  username: '8888'
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 1|VN - zhuhai.uk
-  port: 55688
-  reality-opts:
-    public-key: KeV1nArisy7FO5DjqTSmn0hBnlNd38rzhbIMMpe-MBw
-    short-id: a46bb5972cf50671
-  server: funagfrdfs.alixxplay.com
-  servername: bilibili-vn.biliimg.com
-  tls: true
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 1|US - zhuhai.uk 02
+- name: 1|FR - zhuhai.uk 02
   password: None
-  port: 9002
-  server: 138.199.35.206
+  port: 443
+  server: fan.132031.xyz
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
 - flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 03
-  port: 47672
+  name: 1|US - zhuhai.uk 06
+  port: 34379
   reality-opts:
-    public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
-    short-id: 70ab6d813e
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: e51285e3
   server: funagfrdfs.alixxplay.com
   servername: us1p1.xn--ghq880n3na965a.com
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 1|US - zhuhai.uk 04
-  port: 443
-  server: fan.596189.xyz
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 06
-  password: 'null'
-  port: 443
-  server: carolinafreigh.fun
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 07
-  port: 9090
-  server: 202.4.119.226
-  type: socks5
-- name: 1|CA - zhuhai.uk
-  port: 1081
-  server: 149.248.18.106
-  type: socks5
-- name: 1|US - zhuhai.uk 08
-  port: 8090
-  server: 50.76.211.251
-  skip-cert-verify: true
-  tls: true
-  type: http
-- flow: xtls-rprx-vision
-  name: 1|KR - zhuhai.uk
-  port: 443
-  reality-opts:
-    public-key: DHOrfoin7TeRpnIoU3d6qT5Yrq3QPVFp49kApATA4iE
-    short-id: e04a526b0b09c765
-  server: 13.125.94.114
-  servername: lmate.net
-  tls: true
-  type: vless
-  uuid: 7e68e32f-8015-4f37-9082-70e8b0b58043
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: 1|JP - zhuhai.uk 01
@@ -1292,3 +1178,135 @@ proxies:
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 1|LT - zhuhai.uk
+  port: 443
+  server: 89.124.11.9
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|CA - zhuhai.uk
+  port: 443
+  server: 142.44.210.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 05
+  password: 'null'
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- flow: xtls-rprx-vision
+  name: 1|ES - zhuhai.uk
+  port: 12331
+  reality-opts:
+    public-key: AavBPGGJUpyGWiriV_Fbx-SrAvR5t-9mHeQY8uIltyo
+    short-id: 41b9cb10b696
+  server: 8dwou5alze.chhbuv.cn
+  servername: www.tue.nl
+  tls: true
+  type: vless
+  uuid: d9109567-3fc3-4e08-9cac-4d9162ef5a9f
+- name: 1|US - zhuhai.uk 07
+  port: 443
+  server: webdrone.club
+  tls: true
+  type: http
+  username: Ok5vbmU=
+- name: 1|US - zhuhai.uk 08
+  port: 9090
+  server: 202.4.119.226
+  type: socks5
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 09
+  port: 47672
+  reality-opts:
+    public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
+    short-id: 70ab6d813e
+  server: funagfrdfs.alixxplay.com
+  servername: us1p1.xn--ghq880n3na965a.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 1|US - zhuhai.uk 10
+  password: None
+  port: 443
+  server: goedkoopgeluid.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|IL - zhuhai.uk
+  port: 443
+  server: 169.150.248.17
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|NL - zhuhai.uk
+  port: 443
+  server: 185.238.170.10
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 02
+  port: 443
+  reality-opts:
+    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
+    short-id: 1c3e8241a8743df9
+  server: 152.233.71.81
+  servername: brointelengence.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 741809be-e44e-000b-b411-bf66f0ae3860
+- flow: xtls-rprx-vision
+  name: 1|KR - zhuhai.uk
+  port: 443
+  reality-opts:
+    public-key: DHOrfoin7TeRpnIoU3d6qT5Yrq3QPVFp49kApATA4iE
+    short-id: e04a526b0b09c765
+  server: 13.125.94.114
+  servername: lmate.net
+  tls: true
+  type: vless
+  uuid: 7e68e32f-8015-4f37-9082-70e8b0b58043
+- name: 1|KR - zhuhai.uk 02
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  username: VkRKak9WQlViejA2Og==
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk 02
+  port: 46105
+  reality-opts:
+    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
+    short-id: 28f5c1f8f98a
+  server: funagfrdfs.alixxplay.com
+  servername: www.lamer.com.sg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 1|TW - zhuhai.uk
+  password: ec74bb6a86c2
+  port: 443
+  server: 684616s4.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
+  udp: true
+- name: 1|TW - zhuhai.uk 02
+  password: 0324fbc29561
+  port: 443
+  server: 684616s4.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
+  udp: true
