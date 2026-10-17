@@ -1,7 +1,13 @@
 proxies:
+- name: 1|JP - zhuhai.uk
+  port: 443
+  server: fan.587475.xyz
+  sni: fan.587475.xyz
+  tls: true
+  type: http
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: 1|JP - zhuhai.uk
+  name: 1|JP - zhuhai.uk 02
   port: 56656
   reality-opts:
     public-key: QFM3jTzb5n-E9L2cfFo6GHqioGmIkjmG60l8wXA4IXc
@@ -12,9 +18,3 @@ proxies:
   tls: true
   type: vless
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 1|JP - zhuhai.uk 02
-  port: 343
-  server: 133.18.200.207
-  skip-cert-verify: true
-  tls: true
-  type: http
