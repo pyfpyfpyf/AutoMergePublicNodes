@@ -1,5 +1,8 @@
 proxies:
-- name: 1|TW - zhuhai.uk
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 1|TW - zhuhai.uk
   password: ec74bb6a86c2
   port: 443
   server: 684616s4.df6h451rh.xin
@@ -8,7 +11,7 @@ proxies:
   type: anytls
   udp: true
 - name: 1|TW - zhuhai.uk 02
-  password: 0324fbc29561
+  password: ec74bb6a86c2
   port: 443
   server: 684616s4.df6h451rh.xin
   skip-cert-verify: true

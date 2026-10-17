@@ -1098,71 +1098,83 @@ proxies:
     headers:
       Host: pw.toc.dpdns.org
     path: /vplaetshs
-- alterId: 0
-  cipher: auto
-  name: 1|CN - zhuhai.uk
-  network: ws
-  port: 10086
-  server: 39.108.113.127
-  type: vmess
-  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
-  ws-opts:
-    path: /
-- name: 1|DK - zhuhai.uk
-  port: 9090
-  server: 202.4.116.146
-  type: socks5
 - name: 1|US - zhuhai.uk
-  port: 8090
-  server: 173.42.49.102
+  port: 9002
+  server: 138.199.35.213
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|FR - zhuhai.uk
-  port: 8090
-  server: 217.181.201.254
+- name: 1|DE - zhuhai.uk
+  port: 443
+  server: 116.202.172.99
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|IN - zhuhai.uk
+- name: 1|SG - zhuhai.uk
   port: 9443
-  server: 165.231.253.242
+  server: 149.88.99.209
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
-  port: 8443
-  server: 54.190.176.228
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|RO - zhuhai.uk
-  port: 9002
-  server: 193.176.84.34
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 1|FR - zhuhai.uk 02
-  password: None
   port: 443
-  server: fan.132031.xyz
+  server: fullmanfirm.icu
+  skip-cert-verify: true
+  sni: fullmanfirm.icu
+  tls: true
+  type: http
+- name: 1|FR - zhuhai.uk
+  port: 443
+  server: 51.210.167.149
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
-- flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 06
-  port: 34379
+- name: 1|RU - zhuhai.uk
+  port: 1080
+  server: 176.215.246.216
+  type: socks5
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk 02
+  port: 33939
   reality-opts:
-    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
-    short-id: e51285e3
+    public-key: IPg65ZC9ZkvXpBZN2GSnICYZaIyGxcj2d8Y406KXA1I
+    short-id: b20abd16cda27eeb
   server: funagfrdfs.alixxplay.com
-  servername: us1p1.xn--ghq880n3na965a.com
-  skip-cert-verify: true
+  servername: www.otto.de
   tls: true
   type: vless
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 1|US - zhuhai.uk 03
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk
+  port: 443
+  reality-opts:
+    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
+    short-id: 1c3e8241a8743df9
+  server: 152.233.71.81
+  servername: brointelengence.com
+  tls: true
+  type: vless
+  uuid: 741809be-e44e-000b-b411-bf66f0ae3860
+- name: 1|NL - zhuhai.uk
+  port: 443
+  server: 185.238.170.10
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|CA - zhuhai.uk
+  port: 443
+  server: 206.223.183.16
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: 1|JP - zhuhai.uk 01
@@ -1178,123 +1190,88 @@ proxies:
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 1|LT - zhuhai.uk
-  port: 443
-  server: 89.124.11.9
+- name: 1|SE - zhuhai.uk
+  port: 8443
+  server: 77.221.136.60
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|CA - zhuhai.uk
-  port: 443
-  server: 142.44.210.129
+- name: 1|US - zhuhai.uk 04
+  port: 9002
+  server: 138.199.35.201
   skip-cert-verify: true
+  sni: 138.199.35.201
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 05
-  password: 'null'
+  port: 443
+  server: 64.98.50.100
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 06
   port: 9002
-  server: 138.199.35.210
+  server: 138.199.35.195
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
-- flow: xtls-rprx-vision
-  name: 1|ES - zhuhai.uk
-  port: 12331
-  reality-opts:
-    public-key: AavBPGGJUpyGWiriV_Fbx-SrAvR5t-9mHeQY8uIltyo
-    short-id: 41b9cb10b696
-  server: 8dwou5alze.chhbuv.cn
-  servername: www.tue.nl
-  tls: true
-  type: vless
-  uuid: d9109567-3fc3-4e08-9cac-4d9162ef5a9f
 - name: 1|US - zhuhai.uk 07
-  port: 443
-  server: webdrone.club
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
   tls: true
   type: http
-  username: Ok5vbmU=
+- name: 1|DE - zhuhai.uk 03
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 167.172.172.190
+  skip-cert-verify: true
+  sni: a7acacbe.acsnet.co
+  tls: true
+  type: http
+  username: testuser1
+- name: 1|RU - zhuhai.uk 02
+  password: 9jkvAVV-9ufV6IGd
+  port: 41560
+  server: chalo-ru.nexorcdn.com
+  skip-cert-verify: true
+  sni: chalo-ru.nexorcdn.com
+  tls: true
+  type: http
+  username: ef37886e2aacd6fa622e3de3810299c2
 - name: 1|US - zhuhai.uk 08
-  port: 9090
-  server: 202.4.119.226
-  type: socks5
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 09
-  port: 47672
-  reality-opts:
-    public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
-    short-id: 70ab6d813e
-  server: funagfrdfs.alixxplay.com
-  servername: us1p1.xn--ghq880n3na965a.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 1|US - zhuhai.uk 10
-  password: None
-  port: 443
-  server: goedkoopgeluid.icu
+  port: 9002
+  server: 138.199.35.217
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
-- name: 1|IL - zhuhai.uk
+- name: 1|IE - zhuhai.uk
   port: 443
-  server: 169.150.248.17
+  server: 18.200.158.139
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|NL - zhuhai.uk
-  port: 443
-  server: 185.238.170.10
+- name: 1|US - zhuhai.uk 09
+  port: 8443
+  server: 45.145.73.240
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk 02
-  port: 443
-  reality-opts:
-    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
-    short-id: 1c3e8241a8743df9
-  server: 152.233.71.81
-  servername: brointelengence.com
+- name: 1|MY - zhuhai.uk
+  port: 9443
+  server: 152.233.3.14
   skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: 741809be-e44e-000b-b411-bf66f0ae3860
-- flow: xtls-rprx-vision
-  name: 1|KR - zhuhai.uk
+  type: http
+- name: 1|IN - zhuhai.uk
   port: 443
-  reality-opts:
-    public-key: DHOrfoin7TeRpnIoU3d6qT5Yrq3QPVFp49kApATA4iE
-    short-id: e04a526b0b09c765
-  server: 13.125.94.114
-  servername: lmate.net
-  tls: true
-  type: vless
-  uuid: 7e68e32f-8015-4f37-9082-70e8b0b58043
-- name: 1|KR - zhuhai.uk 02
-  port: 1090
-  server: 121.169.46.116
-  type: socks5
-  username: VkRKak9WQlViejA2Og==
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 1|SG - zhuhai.uk 02
-  port: 46105
-  reality-opts:
-    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-    short-id: 28f5c1f8f98a
-  server: funagfrdfs.alixxplay.com
-  servername: www.lamer.com.sg
+  server: 110.173.188.221
   skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 1|TW - zhuhai.uk
+  type: http
+- alpn:
+  - http/1.1
+  name: 1|TW - zhuhai.uk
   password: ec74bb6a86c2
   port: 443
   server: 684616s4.df6h451rh.xin
@@ -1303,7 +1280,7 @@ proxies:
   type: anytls
   udp: true
 - name: 1|TW - zhuhai.uk 02
-  password: 0324fbc29561
+  password: ec74bb6a86c2
   port: 443
   server: 684616s4.df6h451rh.xin
   skip-cert-verify: true
