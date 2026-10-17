@@ -14,11 +14,12 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-- name: 0|US_speednode_0131
+- name: 0,1|US - zhuhai.uk 05
   password: 'null'
   port: 9002
   server: 138.199.35.216
   skip-cert-verify: true
+  sni: 138.199.35.216
   tls: true
   type: http
   udp: true
@@ -133,7 +134,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0141
+- name: 0,1|US - zhuhai.uk
   port: 443
   server: 38.28.193.188
   skip-cert-verify: true
@@ -177,42 +178,25 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-- name: 1|US - zhuhai.uk
-  password: None
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 02
+  port: 42346
+  reality-opts:
+    public-key: fk0_CYMC_RKIbBDwS-lagle8Jm-hnvkSlV_7P0nBagM
+    short-id: 3f8ced2bf06b8448
+  server: 176.122.183.26
+  servername: www.amazon.com
   tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 02
-  password: 'null'
-  port: 443
-  server: fullmanfirm.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
+  type: vless
+  uuid: d5bc1380-2afd-4c7e-bacd-54e7833b0140
 - name: 1|US - zhuhai.uk 03
   port: 443
-  server: 20.42.108.114
-  skip-cert-verify: true
+  server: purecambogiasl.live
   tls: true
   type: http
+  username: bnVsbDpudWxs
 - name: 1|US - zhuhai.uk 04
-  port: 443
-  server: 162.217.114.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 05
-  password: None
-  port: 443
-  server: goedkoopgeluid.icu
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 06
   password: 'null'
   port: 9002
   server: 138.199.35.198
@@ -221,37 +205,15 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 07
-  password: 'null'
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 06
+  port: 47691
+  reality-opts:
+    public-key: 6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg
+    short-id: 2905326a
+  server: funagfrdfs.alixxplay.com
+  servername: m.media-amazon.com
   tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 08
-  password: None
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 09
-  port: 443
-  server: purposebydesig.club
-  tls: true
-  type: http
-  username: Ok5vbmU=
-- name: 1|US - zhuhai.uk 10
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 11
-  port: 443
-  server: webdrone.club
-  sni: webdrone.club
-  tls: true
-  type: http
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
