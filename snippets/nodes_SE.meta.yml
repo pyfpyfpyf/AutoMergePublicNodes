@@ -1,5 +1,14 @@
 proxies:
+- name: 0|SE_speednode_0020
+  port: 443
+  server: 217.210.129.243
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: 1|SE - zhuhai.uk
-  port: 1080
-  server: 171.25.158.95
-  type: socks5
+  port: 8443
+  server: 77.221.136.60
+  skip-cert-verify: true
+  tls: true
+  type: http
