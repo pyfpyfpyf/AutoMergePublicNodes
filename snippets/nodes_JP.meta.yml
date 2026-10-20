@@ -6,14 +6,29 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 1|JP - zhuhai.uk
-  password: 'null'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk
   port: 443
-  server: fan.571589.xyz
+  reality-opts:
+    public-key: Z7B8VKvjAiBH93XEkHFWCVBfK8Mu5HTLtAwfr5LuYlk
+    short-id: 67c9e7da12d2
+  server: speedjapga1.xyy123.win
+  servername: amzn.com
   tls: true
-  type: http
-  username: 'null'
-- name: 1|JP - zhuhai.uk 02
-  port: 1080
-  server: 217.142.236.180
-  type: socks5
+  type: vless
+  uuid: 9290643b-1a90-4357-b9b5-b47eacbffc0e
+- alterId: 0
+  cipher: auto
+  name: 1|JP - zhuhai.uk 02
+  network: ws
+  port: 443
+  server: Ihqvc0H7viuFfFZH.v.3dns.vip
+  servername: Ihqvc0H7viuFfFZH.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
+  ws-opts:
+    headers:
+      Host: Ihqvc0H7viuFfFZH.v.3dns.vip
+    path: /ws-vmess

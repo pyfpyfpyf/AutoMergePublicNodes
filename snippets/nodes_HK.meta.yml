@@ -1,31 +1,21 @@
 proxies:
-- name: 1|HK - zhuhai.uk
-  port: 10039
-  server: 118.25.131.160
+- alterId: 0
+  cipher: auto
+  name: 1|HK - zhuhai.uk
+  network: ws
+  port: 443
+  server: QqfK1z63fsH1yom8.v.3dns.vip
+  servername: QqfK1z63fsH1yom8.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: a791985f-a4f9-410e-b2fa-8aca1e2424e1
+  ws-opts:
+    headers:
+      Host: QqfK1z63fsH1yom8.v.3dns.vip
+    path: /ws-vmess
+- name: 1|HK - zhuhai.uk 02
+  port: 3128
+  server: 119.28.24.235
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk 02
-  port: 443
-  reality-opts:
-    public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs
-    short-id: 1bc2c1ef1c
-  server: pccw01.fualta.org
-  servername: www.apple.com
-  tls: true
-  type: vless
-  uuid: 285c4b67-5c15-3317-b2b1-d2ffac34d1e0
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|HK - zhuhai.uk 03
-  port: 9443
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
-  server: 45.202.248.173
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
