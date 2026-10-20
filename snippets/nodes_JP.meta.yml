@@ -1,8 +1,19 @@
 proxies:
-- name: 1|JP - zhuhai.uk
-  port: 443
-  server: fan.571589.xyz
+- name: 0|JP_speednode_0011
+  port: 343
+  server: 133.18.200.207
   skip-cert-verify: true
   tls: true
   type: http
-  username: bnVsbDpudWxs
+  udp: true
+- name: 1|JP - zhuhai.uk
+  password: 'null'
+  port: 443
+  server: fan.571589.xyz
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|JP - zhuhai.uk 02
+  port: 1080
+  server: 217.142.236.180
+  type: socks5
