@@ -1,21 +1,15 @@
 proxies:
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
+- alterId: 0
+  cipher: auto
   name: 1|HK - zhuhai.uk
-  port: 20003
-  reality-opts:
-    public-key: OgcLHAAzQV0qTuXwHnz0huEueM5f3vRpYZHMH8JsjC4
-    short-id: 09d75ddaf90d0ba5
-  server: 103.180.20.100
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 52ac38da-c2fa-4f98-bef1-f3adef5d3ae9
+  port: 50001
+  server: 101.32.8.251
+  type: vmess
+  uuid: 5706beb5-479b-475d-b557-00309327e9cc
 - name: 1|HK - zhuhai.uk 02
   password: 0324fbc29561
   port: 443
   server: 654968169.df6h451rh.xin
   skip-cert-verify: true
-  sni: images.ctfassets.net
   type: anytls
   udp: true
