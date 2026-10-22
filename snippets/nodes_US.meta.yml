@@ -1,12 +1,13 @@
 proxies:
-- name: 0|US_speednode_0039
+- name: 0,1|US - zhuhai.uk 13
   port: 9002
   server: 138.199.35.215
   skip-cert-verify: true
+  sni: 138.199.35.215
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0040
+- name: 0,1|US - zhuhai.uk 03
   port: 9002
   server: 138.199.35.195
   skip-cert-verify: true
@@ -52,9 +53,10 @@ proxies:
   type: http
   udp: true
 - name: 1|US - zhuhai.uk
-  port: 9002
-  server: 138.199.35.216
+  port: 443
+  server: 129.153.93.183
   skip-cert-verify: true
+  sni: 129.153.93.183
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
@@ -65,48 +67,76 @@ proxies:
   tls: true
   type: http
   username: testuser1
-- name: 1|US - zhuhai.uk 03
-  password: None
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- client-fingerprint: safari
+- client-fingerprint: ios
   flow: xtls-rprx-vision
   name: 1|US - zhuhai.uk 04
+  port: 34379
+  reality-opts:
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: e51285e3
+  server: funagfrdfs.alixxplay.com
+  servername: us1p1.xn--ghq880n3na965a.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 1|US - zhuhai.uk 05
+  port: 443
+  server: jewelscollecti.icu
+  skip-cert-verify: true
+  sni: jewelscollecti.icu
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 06
   port: 47691
   reality-opts:
     public-key: 6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg
     short-id: 2905326a
   server: funagfrdfs.alixxplay.com
   servername: m.media-amazon.com
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 1|US - zhuhai.uk 05
-  password: 'null'
-  port: 443
-  server: fan.365747.xyz
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 06
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: 1|US - zhuhai.uk 07
-  port: 8443
-  server: 45.145.72.122
+  port: 443
+  server: 137.175.22.29
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 08
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
+  port: 443
+  server: kimberlymilano.icu
+  sni: kimberlymilano.icu
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 09
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  sni: 138.199.35.201
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 10
+  port: 443
+  server: efr-marktplatz.club
+  skip-cert-verify: true
+  sni: efr-marktplatz.club
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 11
+  port: 443
+  server: fan.226278.xyz
+  sni: fan.226278.xyz
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 12
+  password: None
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
