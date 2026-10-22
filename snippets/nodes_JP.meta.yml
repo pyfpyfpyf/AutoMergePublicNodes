@@ -1,22 +1,16 @@
 proxies:
-- name: 0|JP_speednode_0011
-  port: 343
-  server: 133.18.200.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 1|JP - zhuhai.uk
-  password: 'null'
-  port: 443
-  server: fan.571589.xyz
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|JP - zhuhai.uk 02
   port: 443
   server: fan.587475.xyz
   skip-cert-verify: true
-  sni: fan.587475.xyz
   tls: true
   type: http
+- name: 1|JP - zhuhai.uk 03
+  password: 'null'
+  port: 443
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  sni: fan.571589.xyz
+  tls: true
+  type: http
+  username: 'null'
