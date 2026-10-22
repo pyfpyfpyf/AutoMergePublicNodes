@@ -13,7 +13,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|US - zhuhai.uk 11
+- name: 0|US_speednode_0030
   port: 9002
   server: 138.199.35.214
   skip-cert-verify: true
@@ -36,54 +36,25 @@ proxies:
       Host: jp-osa.862400.xyz
     path: /announcement?ed=2048
 - name: 1|US - zhuhai.uk
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 02
-  port: 443
-  server: webdrone.club
-  sni: webdrone.club
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 13
-  port: 443
-  server: carolinafreigh.fun
-  skip-cert-verify: true
-  sni: carolinafreigh.fun
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 04
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  sni: 138.199.35.196
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 06
   port: 8443
-  server: 129.212.181.253
+  server: 44.217.145.28
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 07
-  port: 44499
-  server: 45.61.188.134
-  type: socks5
-- name: 1|US - zhuhai.uk 08
-  port: 8090
-  server: 184.188.139.2
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 12
+  port: 34379
+  reality-opts:
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: e51285e3
+  server: funagfrdfs.alixxplay.com
+  servername: us1p1.xn--ghq880n3na965a.com
   skip-cert-verify: true
   tls: true
-  type: http
-- name: 1|US - zhuhai.uk 09
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 1|US - zhuhai.uk 03
   password: None
   port: 9002
   server: 138.199.35.202
@@ -91,34 +62,81 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 10
-  port: 34379
-  reality-opts:
-    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
-    short-id: e51285e3
-  server: funagfrdfs.alixxplay.com
-  servername: us1p1.xn--ghq880n3na965a.com
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 04
+  network: ws
+  port: 2053
+  server: saas.sin.fan
+  servername: vp6.1145678.xyz
   tls: true
   type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 1|US - zhuhai.uk 12
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  ws-opts:
+    headers:
+      Host: vp6.1145678.xyz
+    path: /drama
+- name: 1|US - zhuhai.uk 05
   port: 443
-  server: 38.28.185.152
+  server: 129.153.93.183
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 14
-  port: 47691
-  reality-opts:
-    public-key: 6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg
-    short-id: 2905326a
-  server: funagfrdfs.alixxplay.com
-  servername: m.media-amazon.com
+- name: 1|US - zhuhai.uk 06
+  port: 443
+  server: carolinafreigh.fun
   skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  type: http
+- name: 1|US - zhuhai.uk 07
+  port: 443
+  server: 38.28.193.188
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 08
+  password: 'null'
+  port: 443
+  server: jgwynphotoarts.pro
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 09
+  port: 443
+  server: 162.217.114.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 10
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  sni: 138.199.35.210
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 11
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 13
+  port: 443
+  server: 137.175.22.56
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 14
+  password: 'null'
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 15
+  password: None
+  port: 443
+  server: efr-marktplatz.club
+  tls: true
+  type: http
+  username: 'null'
