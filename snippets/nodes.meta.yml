@@ -117,7 +117,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|IE_speednode_0015
+- name: 0,1|IE - zhuhai.uk
   port: 443
   server: 18.200.158.139
   skip-cert-verify: true
@@ -153,7 +153,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|NL_speednode_0030
+- name: 0,1|NL - zhuhai.uk
   port: 9002
   server: 84.17.47.125
   skip-cert-verify: true
@@ -168,11 +168,10 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0,1|RO - zhuhai.uk 02
+- name: 0|RO_speednode_0032
   port: 9002
   server: 193.176.84.24
   skip-cert-verify: true
-  sni: www.bing.com
   tls: true
   type: http
   udp: true
@@ -256,7 +255,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 0|US_speednode_0044
+- name: 0,1|US - zhuhai.uk 05
   port: 9002
   server: 138.199.35.217
   skip-cert-verify: true
@@ -270,100 +269,9 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 1|US - zhuhai.uk
-  password: None
-  port: 443
-  server: webdrone.club
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 02
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
-  sni: 138.199.35.220
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 03
-  password: None
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|DE - zhuhai.uk
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 167.172.172.190
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: testuser1
-- name: 1|IE - zhuhai.uk
-  port: 443
-  server: 149.88.96.12
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 04
-  password: 'null'
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 05
-  port: 443
-  server: 12.221.146.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|RO - zhuhai.uk
-  password: 'null'
-  port: 9002
-  server: 193.176.84.24
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 06
-  port: 443
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  sni: jewelscollecti.icu
-  tls: true
-  type: http
-- name: 1|HK - zhuhai.uk
-  password: 0324fbc29561
-  port: 443
-  server: 654968169.df6h451rh.xin
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- name: 1|RO - zhuhai.uk 03
-  password: None
-  port: 9002
-  server: 193.176.84.30
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|RO - zhuhai.uk 04
-  password: None
-  port: 9002
-  server: 193.176.84.23
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|NL - zhuhai.uk
-  port: 9090
-  server: 202.4.116.146
-  type: socks5
-- flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 07
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk
   port: 34379
   reality-opts:
     public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
@@ -373,69 +281,150 @@ proxies:
   tls: true
   type: vless
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 1|JP - zhuhai.uk
+- name: 1|TW - zhuhai.uk
+  network: ws
   port: 443
-  server: fan.587475.xyz
-  skip-cert-verify: true
-  sni: fan.587475.xyz
-  tls: true
-  type: http
-- name: 1|RO - zhuhai.uk 05
-  password: None
-  port: 9002
-  server: 193.176.84.21
+  server: 60.248.219.54
+  servername: ty986gfazs.cainiaohub.xyz
   skip-cert-verify: true
   tls: true
-  type: http
-  username: 'null'
-- name: 1|RO - zhuhai.uk 06
-  password: None
-  port: 9002
-  server: 193.176.84.38
+  type: vless
+  uuid: 06e177f7-240d-4687-bd85-235505801a5e
+  ws-opts:
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+- name: 1|TW - zhuhai.uk 02
+  password: 0324fbc29561
+  port: 443
+  server: er8u54dh.df6h451rh.xin
   skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|RO - zhuhai.uk 07
-  password: 'null'
-  port: 9002
-  server: 193.176.84.25
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
+  sni: px.ads.linkedin.com
+  type: anytls
+  udp: true
 - cipher: aes-256-gcm
   name: 1|IT - zhuhai.uk
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.45
+  server: 202.50.253.54
   type: ss
+- name: 1|RO - zhuhai.uk
+  port: 9002
+  server: 193.176.84.30
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 02
+  port: 443
+  server: 129.153.93.183
+  skip-cert-verify: true
+  sni: 129.153.93.183
+  tls: true
+  type: http
+- name: 1|HR - zhuhai.uk
+  port: 443
+  server: 154.47.29.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 03
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|RO - zhuhai.uk 02
+  port: 9002
+  server: 193.176.84.25
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 1|TW - zhuhai.uk 03
+  network: ws
+  port: 443
+  server: 60.248.219.53
+  servername: ty986gfazs.cainiaohub.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
+  ws-opts:
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+- name: 1|NL - zhuhai.uk 02
+  port: 9002
+  server: 84.17.47.123
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|FR - zhuhai.uk
+  port: 443
+  server: 82.66.235.221
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|JP - zhuhai.uk
+  password: 'null'
+  port: 443
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  sni: fan.571589.xyz
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|FR - zhuhai.uk 02
+  port: 8090
+  server: 217.181.201.254
+  skip-cert-verify: true
+  tls: true
+  type: http
+- alterId: 0
+  cipher: auto
+  name: 1|HK - zhuhai.uk
+  port: 50001
+  server: 101.32.8.251
+  type: vmess
+  uuid: 5706beb5-479b-475d-b557-00309327e9cc
+- name: 1|US - zhuhai.uk 04
+  password: None
+  port: 443
+  server: webdrone.club
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|NL - zhuhai.uk 03
+  port: 1088
+  server: 51.15.20.32
+  type: socks5
 - cipher: aes-256-gcm
   name: 1|IT - zhuhai.uk 02
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.36
+  server: 202.50.253.90
   type: ss
-- name: 1|JP - zhuhai.uk 02
-  port: 443
-  server: fan.571589.xyz
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 08
-  port: 443
-  server: 137.175.22.29
+- name: 1|SE - zhuhai.uk
+  port: 8443
+  server: 77.221.136.60
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 09
-  password: 'null'
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  sni: 138.199.35.204
+- name: 1|HK - zhuhai.uk 02
+  port: 10808
+  server: 123.58.219.171
+  type: socks5
+- flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 03
+  port: 9443
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
+  server: 45.207.157.8
+  servername: www.amazon.com
   tls: true
-  type: http
-  username: 'null'
+  type: vless
+  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
 - name: 1|KR - zhuhai.uk
   port: 1090
   server: 121.169.46.116
