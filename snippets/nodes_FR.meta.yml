@@ -1,26 +1,5 @@
 proxies:
-- name: 0|FR_speednode_0008
-  port: 443
-  server: 82.65.162.76
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 0|FR_speednode_0009
-  port: 443
-  server: 51.158.243.91
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 0|FR_speednode_0010
-  port: 443
-  server: 51.210.167.149
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 0|FR_speednode_0011
+- name: 0|FR_speednode_0005
   password: 'null'
   port: 23856
   server: 51.159.225.196
@@ -29,22 +8,42 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: 0|FR_speednode_0012
+- name: 0|FR_speednode_0006
   port: 8090
   server: 83.206.1.225
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 1|FR - zhuhai.uk
+- name: 0|FR_speednode_0007
   port: 443
-  server: 82.66.235.221
+  server: 84.235.228.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 0|FR_speednode_0008
+  port: 443
+  server: 82.65.162.76
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 1|FR - zhuhai.uk
+  port: 8090
+  server: 217.181.201.254
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|FR - zhuhai.uk 02
+  port: 443
+  server: fan.132031.xyz
+  sni: fan.132031.xyz
+  tls: true
+  type: http
+- name: 1|FR - zhuhai.uk 03
   port: 8090
-  server: 217.181.201.254
+  server: 82.96.128.175
   skip-cert-verify: true
   tls: true
   type: http
