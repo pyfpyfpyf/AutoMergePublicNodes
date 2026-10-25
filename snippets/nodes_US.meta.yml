@@ -14,86 +14,84 @@ proxies:
   type: http
   udp: true
 - name: 1|US - zhuhai.uk
-  port: 443
-  server: fan.226278.xyz
-  sni: fan.226278.xyz
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
-  port: 8090
-  server: 173.42.49.102
-  skip-cert-verify: true
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 162.243.146.243
+  sni: a2f392f3.acsnet.co
   tls: true
   type: http
+  username: testuser1
 - name: 1|US - zhuhai.uk 03
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 04
   password: e4b72b531a2d10900519
   port: 443
   server: 147.182.216.4
+  skip-cert-verify: true
   sni: 93b6d804.acsnet.co
   tls: true
   type: http
   username: testuser1
 - client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 05
-  network: ws
-  port: 2053
-  server: saas.sin.fan
-  servername: vp7.1145678.xyz
-  tls: true
-  type: vless
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  ws-opts:
-    headers:
-      Host: vp7.1145678.xyz
-    path: /question/watch
-- name: 1|US - zhuhai.uk 06
-  port: 443
-  server: 162.217.114.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 07
-  port: 8090
-  server: 66.153.187.90
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 08
-  port: 8443
-  server: 44.217.145.28
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 09
-  port: 443
-  server: 38.28.185.152
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 10
-  port: 443
-  server: 137.175.22.45
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 11
+  name: 1|US - zhuhai.uk 04
   port: 34379
   reality-opts:
     public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
     short-id: e51285e3
   server: funagfrdfs.alixxplay.com
   servername: us1p1.xn--ghq880n3na965a.com
-  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 1|US - zhuhai.uk 05
+  port: 443
+  server: 137.175.22.40
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 06
+  port: 443
+  server: fan.226278.xyz
+  sni: fan.226278.xyz
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 07
+  password: None
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  sni: 138.199.35.201
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 08
+  port: 443
+  server: fan.596189.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 09
+  port: 443
+  server: voteshirleysew.club
+  skip-cert-verify: true
+  sni: voteshirleysew.club
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 10
+  network: ws
+  port: 2096
+  server: saas.sin.fan
+  servername: vp6.1145678.xyz
+  tls: true
+  type: vless
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  ws-opts:
+    headers:
+      Host: vp6.1145678.xyz
+    path: /test
