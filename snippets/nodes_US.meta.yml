@@ -1,114 +1,101 @@
 proxies:
-- name: 0|US_speednode_0050
-  password: None
-  port: 443
-  server: 149.22.88.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 0|US_speednode_0051
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 0|US_speednode_0052
+- name: 0|US_speednode_0039
   port: 8443
   server: 44.248.167.117
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0053
-  port: 443
-  server: 64.98.50.100
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 0,1|US - zhuhai.uk 04
+- name: 0|US_speednode_0040
   port: 443
   server: 38.247.141.135
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0055
-  password: None
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 0|US_speednode_0056
+- name: 0|US_speednode_0041
   port: 443
-  server: 12.202.180.118
+  server: 64.98.50.100
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0057
-  port: 443
-  server: 45.63.38.134
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  name: 0|US_speednode_0042
+  port: 19167
+  server: mx001.zestapp778.com
+  servername: mx001.zestapp778.com
+  skip-cert-verify: false
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 0|US_speednode_0058
-  port: 8090
-  server: 173.42.49.102
-  skip-cert-verify: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+- client-fingerprint: firefox
+  name: 0|US_speednode_0043
+  port: 54857
+  server: 130.94.18.208
+  servername: us001.zestapp778.com
+  skip-cert-verify: false
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 0|US_speednode_0059
-  port: 443
-  server: 68.235.56.51
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
 - name: 1|US - zhuhai.uk
-  port: 9002
-  server: 138.199.35.196
+  port: 8443
+  server: 54.190.176.228
   skip-cert-verify: true
-  sni: 138.199.35.196
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
-  password: None
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 03
+  password: 'null'
   port: 9002
-  server: 138.199.35.208
+  server: 138.199.35.215
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 03
+- name: 1|US - zhuhai.uk 04
   port: 443
-  server: fan.226278.xyz
+  server: 167.88.60.242
   skip-cert-verify: true
-  sni: fan.226278.xyz
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 05
-  port: 443
-  server: 38.28.185.152
+  password: 'null'
+  port: 9002
+  server: 138.199.35.212
   skip-cert-verify: true
   tls: true
   type: http
+  username: 'null'
 - name: 1|US - zhuhai.uk 06
-  port: 443
-  server: 137.175.22.89
+  port: 8443
+  server: 45.150.164.18
   skip-cert-verify: true
   tls: true
   type: http
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 1|US - zhuhai.uk 07
+  port: 34379
+  reality-opts:
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: e51285e3
+  server: funagfrdfs.alixxplay.com
+  servername: us1p1.xn--ghq880n3na965a.com
+  tls: true
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 08
   network: ws
-  port: 2053
+  port: 2083
   server: saas.sin.fan
   servername: vp7.1145678.xyz
   tls: true
@@ -117,4 +104,35 @@ proxies:
   ws-opts:
     headers:
       Host: vp7.1145678.xyz
-    path: /question/watch
+    path: /events/class
+- name: 1|US - zhuhai.uk 09
+  port: 443
+  server: zebpay.site
+  tls: true
+  type: http
+  username: bnVsbDpudWxs
+- name: 1|US - zhuhai.uk 10
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  sni: 138.199.35.209
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 11
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 12
+  port: 8090
+  server: 66.153.187.90
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 13
+  port: 443
+  server: 38.28.185.152
+  skip-cert-verify: true
+  tls: true
+  type: http
