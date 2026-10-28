@@ -1,21 +1,25 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 1|HK - zhuhai.uk
-  network: ws
-  port: 443
-  server: rhHiErkwRf6fHs2H.v.3dns.vip
-  servername: rhHiErkwRf6fHs2H.v.3dns.vip
+  port: 2091
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 213.152.180.55
+  servername: www.apple.com
   tls: true
-  type: vmess
-  uuid: 78b3f149-f037-465d-b2fb-11adb6f73ff8
-  ws-opts:
-    headers:
-      Host: rhHiErkwRf6fHs2H.v.3dns.vip
-    path: /ws-vmess
-- name: 1|HK - zhuhai.uk 02
-  password: admin
-  port: 8899
-  server: 47.242.19.215
-  type: socks5
-  username: admin
+  type: vless
+  uuid: ce17d29c-3587-4d8c-b09d-e03437df8bbd
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|HK - zhuhai.uk 02
+  port: 2091
+  reality-opts:
+    public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
+    short-id: 08a4b1f473932632
+  server: 213.152.180.104
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: ce17d29c-3587-4d8c-b09d-e03437df8bbd
