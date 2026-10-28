@@ -41,73 +41,63 @@ proxies:
   udp: true
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
 - name: 1|US - zhuhai.uk
-  port: 9443
-  server: 198.44.135.19
-  skip-cert-verify: true
+  port: 44499
+  server: 45.61.188.134
+  type: socks5
+- name: 1|US - zhuhai.uk 02
+  password: None
+  port: 443
+  server: tzoa.fun
   tls: true
   type: http
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 02
-  network: ws
-  port: 443
-  server: saas.sin.fan
-  servername: vp3.1145678.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  ws-opts:
-    headers:
-      Host: vp3.1145678.xyz
-    path: /links/go.php/act
+  username: 'null'
 - name: 1|US - zhuhai.uk 03
   port: 443
-  server: 137.175.22.29
+  server: zebpay.site
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk 04
-  network: ws
+- name: 1|US - zhuhai.uk 04
+  password: 'null'
   port: 443
-  server: saas.sin.fan
-  servername: vp.1145678.xyz
+  server: zebpay.site
   skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  ws-opts:
-    headers:
-      Host: vp.1145678.xyz
-    path: /data/docs/source
+  type: http
+  username: 'null'
 - client-fingerprint: chrome
   name: 1|US - zhuhai.uk 05
   network: ws
-  port: 443
+  port: 2053
   server: saas.sin.fan
-  servername: vp.1145678.xyz
-  skip-cert-verify: true
+  servername: vp21.1145678.xyz
   tls: true
   type: vless
   uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
   ws-opts:
     headers:
-      Host: vp.1145678.xyz
-    path: /detail
-- alterId: 0
-  cipher: auto
-  name: 1|US - zhuhai.uk 06
-  network: ws
+      Host: vp21.1145678.xyz
+    path: /items/downloads
+- name: 1|US - zhuhai.uk 06
+  password: 'null'
   port: 443
-  server: jijWLfZr2d5Hn3ut.v.3dns.vip
-  servername: jijWLfZr2d5Hn3ut.v.3dns.vip
+  server: fullmanfirm.icu
   tls: true
-  type: vmess
-  uuid: b664cc36-4896-454b-bb9c-1377c76176de
-  ws-opts:
-    headers:
-      Host: jijWLfZr2d5Hn3ut.v.3dns.vip
-    path: /ws-vmess
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 07
+  port: 8443
+  server: 44.229.69.166
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 08
+  password: 'null'
+  port: 443
+  server: fan.365747.xyz
+  tls: true
+  type: http
+  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|US - zhuhai.uk 01

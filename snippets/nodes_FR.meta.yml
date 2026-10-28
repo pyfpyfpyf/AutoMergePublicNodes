@@ -6,7 +6,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|FR_speednode_0009
+- name: 0,1|FR - zhuhai.uk
   port: 8090
   server: 83.206.1.225
   skip-cert-verify: true
@@ -36,9 +36,16 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 1|FR - zhuhai.uk
-  port: 8090
-  server: 217.181.201.254
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|FR - zhuhai.uk 02
+  port: 2092
+  reality-opts:
+    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
+    short-id: 716b7eba38125f3a
+  server: 213.152.180.104
+  servername: www.apple.com
   skip-cert-verify: true
   tls: true
-  type: http
+  type: vless
+  uuid: 4d8cc1c2-2605-43c4-8e17-dcafa86d9757

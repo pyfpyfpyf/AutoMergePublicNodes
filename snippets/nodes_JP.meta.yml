@@ -30,31 +30,17 @@ proxies:
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- alterId: 0
-  cipher: auto
-  name: 1|JP - zhuhai.uk
-  network: ws
+- name: 1|JP - zhuhai.uk
+  password: 'null'
   port: 443
-  server: 5eCGYgGBia1r0RCQ.v.3dns.vip
-  servername: 5eCGYgGBia1r0RCQ.v.3dns.vip
+  server: fan.571589.xyz
+  sni: fan.571589.xyz
   tls: true
-  type: vmess
-  uuid: 0b80814e-7b96-4ec2-bbe2-fd17435e33b4
-  ws-opts:
-    headers:
-      Host: 5eCGYgGBia1r0RCQ.v.3dns.vip
-    path: /ws-vmess
-- client-fingerprint: chrome
-  name: 1|JP - zhuhai.uk 02
-  network: ws
+  type: http
+  username: 'null'
+- name: 1|JP - zhuhai.uk 02
   port: 443
-  server: saas.sin.fan
-  servername: vp1.1145678.xyz
-  skip-cert-verify: true
+  server: fan.571589.xyz
+  sni: fan.571589.xyz
   tls: true
-  type: vless
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  ws-opts:
-    headers:
-      Host: vp1.1145678.xyz
-    path: /manhua/link/video/TkZDG0RVE1kPREsSEQ8YEEBHSEpZUwhIFF4WRBIIFUkVRQQQRhNYEFASC0FbR1ZETQ9cXUZAQ1laV0cXFBJEXFNWA1IGAlNUBEpYElFeVhQDWV0SQwEWQlpGWRoNA1EcDxk=
+  type: http
