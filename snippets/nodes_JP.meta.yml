@@ -35,20 +35,26 @@ proxies:
   name: 1|JP - zhuhai.uk
   network: ws
   port: 443
-  server: 47.237.85.7
-  servername: gathered-fat-gsm-weekend.trycloudflare.com
+  server: 5eCGYgGBia1r0RCQ.v.3dns.vip
+  servername: 5eCGYgGBia1r0RCQ.v.3dns.vip
   tls: true
   type: vmess
-  uuid: 284c8008-5a85-4451-a8d1-b79c62f74d32
+  uuid: 0b80814e-7b96-4ec2-bbe2-fd17435e33b4
   ws-opts:
     headers:
-      Host: gathered-fat-gsm-weekend.trycloudflare.com
-    path: /vmess-argo
-- name: 1|JP - zhuhai.uk 02
-  port: 10808
-  server: 101.36.104.46
-  type: socks5
-- name: 1|JP - zhuhai.uk 03
-  port: 10808
-  server: 101.36.104.239
-  type: socks5
+      Host: 5eCGYgGBia1r0RCQ.v.3dns.vip
+    path: /ws-vmess
+- client-fingerprint: chrome
+  name: 1|JP - zhuhai.uk 02
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: vp1.1145678.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  ws-opts:
+    headers:
+      Host: vp1.1145678.xyz
+    path: /manhua/link/video/TkZDG0RVE1kPREsSEQ8YEEBHSEpZUwhIFF4WRBIIFUkVRQQQRhNYEFASC0FbR1ZETQ9cXUZAQ1laV0cXFBJEXFNWA1IGAlNUBEpYElFeVhQDWV0SQwEWQlpGWRoNA1EcDxk=

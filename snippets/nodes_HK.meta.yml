@@ -1,43 +1,25 @@
 proxies:
-- name: 1|HK - zhuhai.uk
-  password: 0324fbc29561
-  port: 443
-  server: 654968169.df6h451rh.xin
-  skip-cert-verify: true
-  sni: images.ctfassets.net
-  type: anytls
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 1|HK - zhuhai.uk 02
+  name: 1|HK - zhuhai.uk
   network: ws
   port: 443
-  server: QlxYtBpuqj3qqJsJ.v.3dns.vip
-  servername: QlxYtBpuqj3qqJsJ.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: b664cc36-4896-454b-bb9c-1377c76176de
-  ws-opts:
-    headers:
-      Host: QlxYtBpuqj3qqJsJ.v.3dns.vip
-    path: /ws-vmess
-- name: 1|HK - zhuhai.uk 03
-  password: admin
-  port: 8899
-  server: 47.242.19.215
-  type: socks5
-  username: admin
-- alterId: 0
-  cipher: auto
-  name: 1|HK - zhuhai.uk 04
-  network: ws
-  port: 443
-  server: LZS3fc6DC8S12WNf.v.3dns.vip
-  servername: LZS3fc6DC8S12WNf.v.3dns.vip
+  server: TbkAjUee5UNb6JDx.v.3dns.vip
+  servername: TbkAjUee5UNb6JDx.v.3dns.vip
   tls: true
   type: vmess
   uuid: 78b3f149-f037-465d-b2fb-11adb6f73ff8
   ws-opts:
     headers:
-      Host: LZS3fc6DC8S12WNf.v.3dns.vip
+      Host: TbkAjUee5UNb6JDx.v.3dns.vip
     path: /ws-vmess
+- name: 1|HK - zhuhai.uk 02
+  port: 3128
+  server: 119.28.24.235
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|HK - zhuhai.uk 03
+  port: 10808
+  server: 123.58.219.171
+  type: socks5

@@ -40,30 +40,85 @@ proxies:
   type: vless
   udp: true
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+- name: 1|US - zhuhai.uk
+  port: 9443
+  server: 198.44.135.19
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: chrome
-  name: 1|US - zhuhai.uk
+  name: 1|US - zhuhai.uk 02
   network: ws
-  port: 2083
+  port: 443
   server: saas.sin.fan
-  servername: vp25.1145678.xyz
+  servername: vp3.1145678.xyz
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
   ws-opts:
     headers:
-      Host: vp25.1145678.xyz
-    path: /comics/ads/thread
+      Host: vp3.1145678.xyz
+    path: /links/go.php/act
+- name: 1|US - zhuhai.uk 03
+  port: 443
+  server: 137.175.22.29
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 04
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: vp.1145678.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  ws-opts:
+    headers:
+      Host: vp.1145678.xyz
+    path: /data/docs/source
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 05
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: vp.1145678.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  ws-opts:
+    headers:
+      Host: vp.1145678.xyz
+    path: /detail
+- alterId: 0
+  cipher: auto
+  name: 1|US - zhuhai.uk 06
+  network: ws
+  port: 443
+  server: jijWLfZr2d5Hn3ut.v.3dns.vip
+  servername: jijWLfZr2d5Hn3ut.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: b664cc36-4896-454b-bb9c-1377c76176de
+  ws-opts:
+    headers:
+      Host: jijWLfZr2d5Hn3ut.v.3dns.vip
+    path: /ws-vmess
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|US - zhuhai.uk 02
+  name: 1|US - zhuhai.uk 01
   network: tcp
   port: 443
   reality-opts:
-    public-key: SmgYcFIvvFXW3xh4gvGhIJuQsaZvWkAylcjB6TEddEs
-    short-id: 896f52ba2cfca903
-  server: 47.251.108.158
-  servername: www.cloudflare.com
+    public-key: aZDDxJRwRH2J4FPtoIr7DmOvpQPh9sbGbvV-NpVpfms
+    short-id: 336c2cff6e3717c4
+  server: 155.117.232.61
+  servername: node-usa.blok-signalon.top
   tls: true
   type: vless
   udp: true
-  uuid: 975fc322-6e38-434b-a53c-d39fed49b9a9
+  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
