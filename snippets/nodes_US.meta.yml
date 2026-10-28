@@ -40,71 +40,30 @@ proxies:
   type: vless
   udp: true
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- name: 1|US - zhuhai.uk
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk
+  network: ws
+  port: 2083
+  server: saas.sin.fan
+  servername: vp25.1145678.xyz
   tls: true
-  type: http
-- name: 1|US - zhuhai.uk 02
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 03
+  type: vless
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  ws-opts:
+    headers:
+      Host: vp25.1145678.xyz
+    path: /comics/ads/thread
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|US - zhuhai.uk 02
+  network: tcp
   port: 443
-  server: kimberlymilano.icu
-  sni: kimberlymilano.icu
+  reality-opts:
+    public-key: SmgYcFIvvFXW3xh4gvGhIJuQsaZvWkAylcjB6TEddEs
+    short-id: 896f52ba2cfca903
+  server: 47.251.108.158
+  servername: www.cloudflare.com
   tls: true
-  type: http
-- name: 1|US - zhuhai.uk 04
-  port: 443
-  server: fullmanfirm.icu
-  tls: true
-  type: http
-  username: Ok5vbmU=
-- name: 1|US - zhuhai.uk 05
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  sni: 138.199.35.198
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 06
-  port: 443
-  server: fan.226278.xyz
-  sni: fan.226278.xyz
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 07
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 08
-  port: 8090
-  server: 50.184.176.222
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 09
-  port: 8443
-  server: 44.217.145.28
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 10
-  port: 443
-  server: 137.175.22.120
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 11
-  password: 0324fbc29561
-  port: 443
-  server: 98416548.df6h451rh.xin
-  skip-cert-verify: true
-  type: anytls
+  type: vless
   udp: true
+  uuid: 975fc322-6e38-434b-a53c-d39fed49b9a9
