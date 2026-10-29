@@ -6,7 +6,16 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 1|DE - zhuhai.uk
-  port: 9090
-  server: 202.4.123.220
-  type: socks5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|DE - zhuhai.uk
+  port: 2094
+  reality-opts:
+    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
+    short-id: 55986a94e2228791
+  server: 213.152.180.104
+  servername: www.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 372af4ce-2153-4061-822c-b657172308f6

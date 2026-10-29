@@ -1,13 +1,13 @@
 proxies:
-- name: 1|SG - zhuhai.uk
-  port: 443
-  server: 154.26.139.24
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|SG - zhuhai.uk 02
+  port: 2089
+  reality-opts:
+    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
+    short-id: deccc6fac1ddb0ff
+  server: 213.152.180.55
+  servername: www.apple.com
   tls: true
-  type: http
-- name: 1|SG - zhuhai.uk 02
-  port: 9443
-  server: 152.233.9.239
-  skip-cert-verify: true
-  tls: true
-  type: http
+  type: vless
+  uuid: 38d3d211-cc9f-491a-a8ab-9a5be57bb712
