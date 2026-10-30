@@ -1,5 +1,5 @@
 proxies:
-- client-fingerprint: random
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 1|SG - zhuhai.uk
   port: 19825
@@ -8,6 +8,7 @@ proxies:
     short-id: 6ba85179e30d4fc2
   server: sg2-8sb.6121999.dpdns.org
   servername: sg2-8sb.6121999.dpdns.org
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
