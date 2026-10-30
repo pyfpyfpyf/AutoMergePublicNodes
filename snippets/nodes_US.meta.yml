@@ -1,12 +1,12 @@
 proxies:
-- name: 0,1|US - zhuhai.uk 06
+- name: 0|US_speednode_0039
   port: 8443
   server: 44.248.167.117
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0040
+- name: 0,1|US - zhuhai.uk 04
   port: 443
   server: 38.247.141.135
   skip-cert-verify: true
@@ -41,42 +41,48 @@ proxies:
   udp: true
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
 - name: 1|US - zhuhai.uk
-  port: 443
-  server: 96.5.129.85
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 02
-  network: ws
-  port: 443
-  server: 172.64.152.241
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /fp=chromefp=chrome
-- name: 1|US - zhuhai.uk 03
   password: 'null'
   port: 443
-  server: 38.28.193.188
-  skip-cert-verify: true
-  sni: 38.28.193.188
+  server: fullmanfirm.icu
   tls: true
   type: http
   username: 'null'
-- name: 1|US - zhuhai.uk 04
+- name: 1|US - zhuhai.uk 02
   port: 8443
   server: 54.190.176.228
   skip-cert-verify: true
   tls: true
   type: http
+- name: 1|US - zhuhai.uk 03
+  port: 443
+  server: 137.175.22.89
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 1|US - zhuhai.uk 05
   port: 443
-  server: carolinafreigh.fun
+  server: 137.175.22.98
   skip-cert-verify: true
-  sni: carolinafreigh.fun
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 06
+  password: 'null'
+  port: 443
+  server: fan.365747.xyz
+  skip-cert-verify: true
+  sni: fan.365747.xyz
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 07
+  port: 443
+  server: fan.596189.xyz
+  sni: fan.596189.xyz
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 08
+  port: 443
+  server: fan.226278.xyz
+  sni: fan.226278.xyz
   tls: true
   type: http
