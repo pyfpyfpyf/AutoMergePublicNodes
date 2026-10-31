@@ -1,1 +1,20 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 1|SE - zhuhai.uk 03
+  port: 443
+  reality-opts:
+    public-key: QvT-t_h_AF2EAT4Ggh_a6pcCK3StY8G9WCXn6-dJbxk
+    short-id: 51079f144d661484
+  server: s12.bsh-net.ru
+  servername: s12.bsh-net.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: a0fa7e19-70ec-41e0-b0cc-bcc984d4201a
+- name: 1|SE - zhuhai.uk 02
+  port: 8443
+  server: 77.221.136.60
+  skip-cert-verify: true
+  tls: true
+  type: http
