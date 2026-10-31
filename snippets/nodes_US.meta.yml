@@ -40,54 +40,35 @@ proxies:
   type: vless
   udp: true
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- client-fingerprint: firefox
-  name: 1|US - zhuhai.uk
+- name: 1|US - zhuhai.uk
   port: 443
-  reality-opts:
-    public-key: 5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E
-    short-id: 257420d9d430152a
-  server: 79.182.39.57
-  servername: a0688bt.us4.h1clayd.click
+  server: 38.28.193.188
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+  type: http
 - name: 1|US - zhuhai.uk 02
-  port: 8443
-  server: 45.145.73.240
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 03
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 107.151.238.27
-  skip-cert-verify: true
-  sni: 6b97ee1b.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- name: 1|US - zhuhai.uk 04
-  network: ws
-  port: 8080
-  server: 208.84.100.209
-  type: vless
-  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
-  ws-opts: null
-- name: 1|US - zhuhai.uk 05
-  port: 1088
-  server: 67.207.92.87
+  password: test123
+  port: 1080
+  server: 104.168.249.36
   type: socks5
-- name: 1|US - zhuhai.uk 06
-  port: 443
-  server: 23.133.176.14
+  username: test123
+- name: 1|US - zhuhai.uk 03
+  port: 8090
+  server: 24.142.229.178
   skip-cert-verify: true
   tls: true
   type: http
-- name: 1|US - zhuhai.uk 07
-  network: ws
-  port: 8080
-  server: 208.84.100.209
-  type: vless
-  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
-  ws-opts:
-    path: /
+- name: 1|US - zhuhai.uk 04
+  password: None
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|US - zhuhai.uk 05
+  port: 443
+  server: fan.226278.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http

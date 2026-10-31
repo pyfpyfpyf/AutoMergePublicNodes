@@ -1,5 +1,18 @@
 proxies:
 - name: 1|HK - zhuhai.uk
-  port: 6666
-  server: 61.142.113.42
+  password: admin
+  port: 8899
+  server: 47.242.19.215
   type: socks5
+  username: admin
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 1|HK - zhuhai.uk 02
+  password: 0324fbc29561
+  port: 443
+  server: 56481.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
