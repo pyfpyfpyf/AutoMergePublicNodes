@@ -30,14 +30,26 @@ proxies:
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 1|JP - zhuhai.uk
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk
+  port: 443
+  reality-opts:
+    public-key: dr63-MwSmvcVljij8PHNZasukHgBv0mHk-QKa7i4yyo
+    short-id: bff486649d0ae69e
+  server: jp.huahua.wiki
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: ef857676-6b00-4c1b-8d98-712dd355230a
+- name: 1|JP - zhuhai.uk 02
   port: 443
   server: fan.571589.xyz
   skip-cert-verify: true
   sni: fan.571589.xyz
   tls: true
   type: http
-- name: 1|JP - zhuhai.uk 02
+- name: 1|JP - zhuhai.uk 03
   password: 'null'
   port: 443
   server: fan.571589.xyz
@@ -45,3 +57,7 @@ proxies:
   tls: true
   type: http
   username: 'null'
+- name: 1|JP - zhuhai.uk 04
+  port: 10808
+  server: 101.36.104.46
+  type: socks5
