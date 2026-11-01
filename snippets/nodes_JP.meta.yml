@@ -31,10 +31,24 @@ proxies:
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - name: 1|JP - zhuhai.uk
-  password: 'null'
-  port: 343
-  server: 133.18.200.207
+  port: 10808
+  server: 101.36.104.46
+  type: socks5
+- name: 1|JP - zhuhai.uk 02
+  port: 40583
+  server: 120.232.204.58
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk 03
+  port: 443
+  reality-opts:
+    public-key: dr63-MwSmvcVljij8PHNZasukHgBv0mHk-QKa7i4yyo
+    short-id: bff486649d0ae69e
+  server: jp.huahua.wiki
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: ef857676-6b00-4c1b-8d98-712dd355230a
