@@ -40,38 +40,60 @@ proxies:
   type: vless
   udp: true
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- name: 1|US - zhuhai.uk
-  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk
+  network: ws
   port: 443
-  server: 2bf1e5af-tdsv40-tf8z9r-1pr35.se.oshuawei.com
-  skip-cert-verify: true
-  sni: 2bf1e5af-tdsv40-tf8z9r-1pr35.se.oshuawei.com
+  server: minimize-evenness.cdn-content.com
+  servername: minimize-evenness.cdn-content.com
   tls: true
-  type: http
-  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+  type: vless
+  uuid: 3c8a0eb8-37a3-4e69-8c5b-7ef465095710
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+    path: /ws
 - name: 1|US - zhuhai.uk 02
-  password: None
   port: 443
   server: mmgr.club
-  skip-cert-verify: true
+  sni: mmgr.club
   tls: true
   type: http
-  username: 'null'
 - name: 1|US - zhuhai.uk 03
-  port: 443
-  server: 137.175.22.116
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 04
-  port: 443
-  server: 20.42.108.114
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|US - zhuhai.uk 05
   port: 9002
   server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
+- client-fingerprint: firefox
+  name: 1|US - zhuhai.uk 04
+  network: ws
+  port: 443
+  server: piracy-android.video-streams.org
+  servername: piracy-android.video-streams.org
+  tls: true
+  type: vless
+  uuid: 909259b0-0a30-4ef5-bfd8-5ffe5d99cb56
+  ws-opts:
+    headers:
+      Host: piracy-android.video-streams.org
+    path: /ws
+- name: 1|US - zhuhai.uk 05
+  port: 52683
+  server: jp.sofast.live
+  type: vless
+  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+- name: 1|US - zhuhai.uk 06
+  port: 443
+  server: voteshirleysew.club
+  tls: true
+  type: http
+  username: bnVsbDpudWxs
+- name: 1|US - zhuhai.uk 07
+  password: 16955d72-1794-11f0-a035-f23c95b6f51d
+  port: 443
+  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 16955d72-1794-11f0-a035-f23c95b6f51d
