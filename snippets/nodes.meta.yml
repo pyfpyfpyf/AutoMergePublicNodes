@@ -84,7 +84,7 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|FR_speednode_0009
+- name: 0,1|FR - zhuhai.uk
   port: 8090
   server: 83.206.1.225
   skip-cert-verify: true
@@ -399,162 +399,181 @@ proxies:
   type: vless
   udp: true
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- flow: xtls-rprx-vision
-  name: 1|KZ - zhuhai.uk 02
-  port: 47443
+- name: 1|JP - zhuhai.uk
+  port: 443
+  server: fan.587475.xyz
+  tls: true
+  type: http
+- name: 1|EE - zhuhai.uk
+  port: 25895
   reality-opts:
-    public-key: z1GSwCEACvO9RLcMVpcURiT8er4oeIdeSJhraw_0cGU
-    short-id: ae97223a8f799877
-  server: 95.56.251.12
-  servername: kz1.waspnest.space
-  skip-cert-verify: true
+    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
+    short-id: a73f0410d728c823
+  server: ee.h1cloud.net
+  servername: www.samsung.com
   tls: true
   type: vless
-  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
-- name: 1|FR - zhuhai.uk
-  password: 'null'
-  port: 6103
-  server: 87.98.174.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|RO - zhuhai.uk
-  port: 9002
-  server: 193.176.84.35
-  skip-cert-verify: true
-  tls: true
-  type: http
+  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
 - name: 1|US - zhuhai.uk
-  network: ws
   port: 443
-  server: minimize-evenness.cdn-content.com
-  servername: minimize-evenness.cdn-content.com
-  tls: true
-  type: vless
-  uuid: 3c8a0eb8-37a3-4e69-8c5b-7ef465095710
-  ws-opts:
-    headers:
-      Host: minimize-evenness.cdn-content.com
-    path: /ws
-- name: 1|US - zhuhai.uk 02
-  port: 443
-  server: mmgr.club
-  sni: mmgr.club
+  server: fan.226278.xyz
   tls: true
   type: http
+- name: 1|DE - zhuhai.uk
+  password: c9aca131-c6a4-4518-9d7d-be52a60b4a3f
+  port: 443
+  server: nlll.obxodvpn.us
+  skip-cert-verify: true
+  sni: nl1.obxodvpn.us
+  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 1|DE - zhuhai.uk
-  port: 8443
+  name: 1|DE - zhuhai.uk 02
+  port: 443
   reality-opts:
-    public-key: 1H1DiBCBB7fpALV71pH1q66ePybBFlVOcxftdlQimQ8
-    short-id: 385cb18df0892069
-  server: 92.243.74.224
-  servername: de8.vpngold.ru
+    public-key: 2IylNqpuTBeUvd333tXWY6i0l8nkH6o5qfRVKZm6FA0
+    short-id: e0aadc6f38ff06a8
+  server: 200.169.184.168
+  servername: tm6.24convertflow.ru
   tls: true
   type: vless
-  uuid: a52fd54b-ba4d-4d11-8e00-301e2646cd66
+  uuid: 6036c28a-8db2-432e-8118-ff0c16641ad0
+- name: 1|EE - zhuhai.uk 02
+  port: 25895
+  reality-opts:
+    public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
+    short-id: a73f0410d728c823
+  server: 79.182.39.232
+  servername: www.samsung.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+- name: 1|DE - zhuhai.uk 03
+  port: 443
+  server: 159.69.94.125
+  skip-cert-verify: true
+  sni: 159.69.94.125
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 02
+  port: 8443
+  server: 45.150.164.18
+  skip-cert-verify: true
+  sni: 45.150.164.18
+  tls: true
+  type: http
 - name: 1|US - zhuhai.uk 03
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- name: 1|RO - zhuhai.uk
   port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  name: 1|US - zhuhai.uk 04
-  network: ws
-  port: 443
-  server: piracy-android.video-streams.org
-  servername: piracy-android.video-streams.org
-  tls: true
-  type: vless
-  uuid: 909259b0-0a30-4ef5-bfd8-5ffe5d99cb56
-  ws-opts:
-    headers:
-      Host: piracy-android.video-streams.org
-    path: /ws
-- name: 1|US - zhuhai.uk 05
-  port: 52683
-  server: jp.sofast.live
-  type: vless
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
-- name: 1|US - zhuhai.uk 06
-  port: 443
-  server: voteshirleysew.club
-  tls: true
-  type: http
-  username: bnVsbDpudWxs
-- cipher: aes-256-gcm
-  name: 1|IT - zhuhai.uk
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
-  type: ss
-- name: 1|FR - zhuhai.uk 02
-  port: 443
-  server: fan.132031.xyz
-  tls: true
-  type: http
-  username: bnVsbDpudWxs
-- name: 1|IN - zhuhai.uk
-  port: 443
-  server: 110.173.188.221
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|IL - zhuhai.uk
-  port: 443
-  server: 169.150.248.17
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|LV - zhuhai.uk
-  password: 'null'
-  port: 443
-  server: 185.219.159.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: 1|US - zhuhai.uk 07
-  password: 16955d72-1794-11f0-a035-f23c95b6f51d
-  port: 443
-  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 16955d72-1794-11f0-a035-f23c95b6f51d
-- name: 1|LT - zhuhai.uk
-  port: 443
-  server: 89.124.11.9
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 1|HK - zhuhai.uk
-  port: 3128
-  server: 119.28.24.235
+  server: 193.176.84.32
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|NL - zhuhai.uk
   password: 'null'
   port: 443
-  server: 5.255.118.82
+  server: 185.93.106.214
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: 1|JP - zhuhai.uk
-  port: 10808
-  server: 101.36.104.46
-  type: socks5
-- name: 1|JP - zhuhai.uk 02
+- name: 1|FR - zhuhai.uk 02
   port: 443
-  server: fan.587475.xyz
-  sni: fan.587475.xyz
+  server: 62.210.27.111
+  skip-cert-verify: true
   tls: true
   type: http
+- client-fingerprint: qq
+  name: 1|PL - zhuhai.uk
+  port: 443
+  server: 87.242.119.253
+  servername: hvtlr-ru-47sb.fade.mom
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: aba9cdd4-026c-0001-87a9-9b3e5f24dd82
+- name: 1|US - zhuhai.uk 04
+  password: 'null'
+  port: 443
+  server: berniesbodybla.fun
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|NL - zhuhai.uk 02
+  port: 9090
+  server: 202.4.117.245
+  type: socks5
+- name: 1|RO - zhuhai.uk 02
+  port: 9002
+  server: 193.176.84.36
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 1|NL - zhuhai.uk 03
+  port: 443
+  server: 157.22.183.72
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 05
+  port: 443
+  server: voteshirleysew.club
+  skip-cert-verify: true
+  sni: voteshirleysew.club
+  tls: true
+  type: http
+- client-fingerprint: ios
+  name: 1|US - zhuhai.uk 06
+  network: ws
+  port: 443
+  server: piracy-android.video-streams.org
+  servername: piracy-android.video-streams.org
+  tls: true
+  type: vless
+  uuid: f2a7b23e-6ec3-432b-8381-5219d80f606f
+  ws-opts:
+    headers:
+      Host: piracy-android.video-streams.org
+    path: /ws
+- name: 1|TW - zhuhai.uk
+  password: 0324fbc29561
+  port: 443
+  server: er8u54dh.df6h451rh.xin
+  skip-cert-verify: true
+  sni: er8u54dh.df6h451rh.xin
+  type: anytls
+  udp: true
+- name: 1|US - zhuhai.uk 07
+  port: 52683
+  server: jp.sofast.live
+  type: vless
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
+- name: 1|RU - zhuhai.uk
+  password: 9jkvAVV-9ufV6IGd
+  port: 44008
+  server: chalo-ru.nexorcdn.com
+  sni: chalo-ru.nexorcdn.com
+  tls: true
+  type: http
+  username: ef37886e2aacd6fa622e3de3810299c2
+- name: 1|HK - zhuhai.uk
+  port: 443
+  server: fan.240104.xyz
+  skip-cert-verify: true
+  sni: fan.240104.xyz
+  tls: true
+  type: http
+- name: 1|HK - zhuhai.uk 02
+  port: 10808
+  server: 123.58.219.171
+  type: socks5
 - name: 1|KR - zhuhai.uk
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 18572
@@ -564,17 +583,44 @@ proxies:
   tls: true
   type: trojan
 - name: 1|KR - zhuhai.uk 02
-  password: T2clM0QlM0Q6
+  password: VDJjbE0wUWxNMFE2Og
   port: 1090
   server: 121.169.46.116
   type: socks5
-  username: T2clM0QlM0Q6
+  username: VDJjbE0wUWxNMFE2Og
 - name: 1|SG - zhuhai.uk
   password: '8888'
   port: 1080
   server: 47.236.168.243
   type: socks5
   username: '8888'
+- name: 1|SG - zhuhai.uk 02
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 15589
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  tls: true
+  type: trojan
+- grpc-opts:
+    grpc-service-name: rex-eb0bf76b710ce763
+  name: 1|IN - zhuhai.uk
+  network: grpc
+  port: 2443
+  reality-opts:
+    public-key: h85e28MxBgNyT9d9cNeOLVtWfHq6cT_1_oxZOTajtTg
+    short-id: 92c32de179e5d908
+  server: hydra.yokkastars.com
+  servername: deepl.com
+  tls: true
+  type: vless
+  uuid: 5e679ccd-1586-4d5f-b87b-48251046cad8
+- name: 1|IN - zhuhai.uk 02
+  port: 443
+  server: 110.173.188.221
+  skip-cert-verify: true
+  tls: true
+  type: http
 - grpc-opts:
     grpc-service-name: vlgrpc
   name: 1|RU - zhuhai.uk 01

@@ -1,13 +1,15 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 1|IT - zhuhai.uk
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
-  type: ss
 - name: 1|KR - zhuhai.uk
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 18572
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  tls: true
+  type: trojan
+- name: 1|SG - zhuhai.uk 02
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 15589
   server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
   sni: cm.g.doubleclick.net

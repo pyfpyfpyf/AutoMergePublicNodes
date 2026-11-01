@@ -40,60 +40,53 @@ proxies:
   type: vless
   udp: true
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- client-fingerprint: chrome
-  name: 1|US - zhuhai.uk
-  network: ws
+- name: 1|US - zhuhai.uk
   port: 443
-  server: minimize-evenness.cdn-content.com
-  servername: minimize-evenness.cdn-content.com
+  server: fan.226278.xyz
   tls: true
-  type: vless
-  uuid: 3c8a0eb8-37a3-4e69-8c5b-7ef465095710
-  ws-opts:
-    headers:
-      Host: minimize-evenness.cdn-content.com
-    path: /ws
+  type: http
 - name: 1|US - zhuhai.uk 02
-  port: 443
-  server: mmgr.club
-  sni: mmgr.club
+  port: 8443
+  server: 45.150.164.18
+  skip-cert-verify: true
+  sni: 45.150.164.18
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 03
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- name: 1|US - zhuhai.uk 04
+  password: 'null'
+  port: 443
+  server: berniesbodybla.fun
   tls: true
   type: http
-- client-fingerprint: firefox
-  name: 1|US - zhuhai.uk 04
+  username: 'null'
+- name: 1|US - zhuhai.uk 05
+  port: 443
+  server: voteshirleysew.club
+  skip-cert-verify: true
+  sni: voteshirleysew.club
+  tls: true
+  type: http
+- client-fingerprint: ios
+  name: 1|US - zhuhai.uk 06
   network: ws
   port: 443
   server: piracy-android.video-streams.org
   servername: piracy-android.video-streams.org
   tls: true
   type: vless
-  uuid: 909259b0-0a30-4ef5-bfd8-5ffe5d99cb56
+  uuid: f2a7b23e-6ec3-432b-8381-5219d80f606f
   ws-opts:
     headers:
       Host: piracy-android.video-streams.org
     path: /ws
-- name: 1|US - zhuhai.uk 05
+- name: 1|US - zhuhai.uk 07
   port: 52683
   server: jp.sofast.live
   type: vless
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
-- name: 1|US - zhuhai.uk 06
-  port: 443
-  server: voteshirleysew.club
-  tls: true
-  type: http
-  username: bnVsbDpudWxs
-- name: 1|US - zhuhai.uk 07
-  password: 16955d72-1794-11f0-a035-f23c95b6f51d
-  port: 443
-  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 16955d72-1794-11f0-a035-f23c95b6f51d
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
