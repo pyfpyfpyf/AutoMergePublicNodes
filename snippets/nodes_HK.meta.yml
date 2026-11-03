@@ -1,19 +1,5 @@
 proxies:
-- client-fingerprint: chrome
-  name: 1|HK - zhuhai.uk
-  port: 8443
-  reality-opts:
-    public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
-    short-id: 4ad2e4e660550e43
-  server: 154.83.87.6
-  servername: github.githubassets.com
-  tls: true
-  type: vless
-  uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 1|HK - zhuhai.uk 02
+- name: 1|HK - zhuhai.uk
   password: 0324fbc29561
   port: 443
   server: 56481.df6h451rh.xin
@@ -21,3 +7,16 @@ proxies:
   sni: images.ctfassets.net
   type: anytls
   udp: true
+- name: 1|HK - zhuhai.uk 02
+  port: 443
+  server: fan.240104.xyz
+  skip-cert-verify: true
+  sni: fan.240104.xyz
+  tls: true
+  type: http
+- name: 1|HK - zhuhai.uk 03
+  port: 3128
+  server: 119.28.24.235
+  skip-cert-verify: true
+  tls: true
+  type: http
