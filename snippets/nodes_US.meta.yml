@@ -6,10 +6,11 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 0|US_speednode_0040
+- name: 0,1|US - zhuhai.uk 04
   port: 443
   server: 38.247.141.135
   skip-cert-verify: true
+  sni: 38.247.141.135
   tls: true
   type: http
   udp: true
@@ -41,21 +42,59 @@ proxies:
   udp: true
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
 - name: 1|US - zhuhai.uk
-  port: 9443
-  server: 198.44.135.19
+  port: 8443
+  server: 45.145.73.240
   skip-cert-verify: true
   tls: true
   type: http
 - name: 1|US - zhuhai.uk 02
-  network: ws
-  port: 443
-  server: wwww.qarvian.ir
-  servername: cdn.akamai.steamstatic.com
+  port: 9002
+  server: 138.199.35.212
   skip-cert-verify: true
   tls: true
+  type: http
+- name: 1|US - zhuhai.uk 03
+  port: 443
+  server: fan.226278.xyz
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: 1|US - zhuhai.uk 05
+  network: ws
+  port: 2096
+  server: saas.sin.fan
+  servername: vp9.1145678.xyz
+  tls: true
   type: vless
-  uuid: 3d9d91c0-0a90-471a-a518-a0ff66a1970a
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
   ws-opts:
     headers:
-      Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
-    path: /
+      Host: vp9.1145678.xyz
+    path: /thread/list
+- name: 1|US - zhuhai.uk 06
+  port: 443
+  server: jewelscollecti.icu
+  skip-cert-verify: true
+  sni: jewelscollecti.icu
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 07
+  port: 8090
+  server: 173.42.49.102
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 08
+  port: 443
+  server: efr-marktplatz.club
+  skip-cert-verify: true
+  sni: efr-marktplatz.club
+  tls: true
+  type: http
+- name: 1|US - zhuhai.uk 01
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 169.197.140.218
+  sni: learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
+  type: trojan
+  udp: true
