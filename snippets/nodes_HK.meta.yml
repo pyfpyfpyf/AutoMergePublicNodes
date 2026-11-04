@@ -1,5 +1,14 @@
 proxies:
-- name: 1|HK - zhuhai.uk
-  port: 10808
-  server: 123.58.219.171
-  type: socks5
+- client-fingerprint: chrome
+  name: 1|HK - zhuhai.uk
+  network: ws
+  port: 8443
+  server: 154.19.186.229
+  servername: hk1.1am.cc.cd
+  tls: true
+  type: vless
+  uuid: 2377a148-5e9b-431f-93f4-a1bbaa3dabe9
+  ws-opts:
+    headers:
+      Host: hk1.1am.cc.cd
+    path: /69258b95124b5273
