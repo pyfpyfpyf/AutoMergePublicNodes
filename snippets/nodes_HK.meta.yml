@@ -1,8 +1,25 @@
 proxies:
-- name: 1|HK - zhuhai.uk 02
+- name: 1|HK - zhuhai.uk
+  port: 6666
+  server: 218.77.50.79
+  type: socks5
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 1|HK - zhuhai.uk 02
+  password: 0324fbc29561
   port: 443
-  server: fan.240104.xyz
+  server: 56481.df6h451rh.xin
   skip-cert-verify: true
-  sni: fan.240104.xyz
-  tls: true
-  type: http
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: 1|HK - zhuhai.uk 03
+  password: 0324fbc29561
+  port: 443
+  server: 56481.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
+  udp: true
