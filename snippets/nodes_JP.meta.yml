@@ -30,11 +30,31 @@ proxies:
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 1|JP - zhuhai.uk
-  port: 7000
-  server: 58.32.16.138
-  type: socks5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 1|JP - zhuhai.uk
+  port: 443
+  reality-opts:
+    public-key: YSklMc171NEC2B6m8INRbVpRCPIZbO9ekgx53IgyXAs
+    short-id: 19a26f04a348e35b
+  server: 66.42.40.136
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: bb9f102d-f023-4d66-8ae3-2245e2904960
 - name: 1|JP - zhuhai.uk 02
-  port: 10808
-  server: 101.36.104.239
-  type: socks5
+  password: 'null'
+  port: 443
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  sni: fan.571589.xyz
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|JP - zhuhai.uk 03
+  port: 443
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  sni: fan.571589.xyz
+  tls: true
+  type: http
