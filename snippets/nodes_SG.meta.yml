@@ -1,7 +1,12 @@
 proxies:
-- name: 1|SG - zhuhai.uk
-  port: 9443
-  server: 149.88.99.209
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  name: 1|SG - zhuhai.uk
+  port: 4022
+  reality-opts:
+    public-key: 2g8FZHxPWjphq568-OS8ypk7qb76HiMhWua0UAJfOl8
+    short-id: ace0f99d
+  server: 106.75.143.18
+  servername: buylite.tv.apple.com
   tls: true
-  type: http
+  type: vless
+  uuid: e4e2afbe-1a21-4ca2-a22f-b5417e825687
