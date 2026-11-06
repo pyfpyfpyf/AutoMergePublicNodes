@@ -1,13 +1,7 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|SG - zhuhai.uk 02
-  port: 443
-  reality-opts:
-    public-key: mXQudYHNu0pebcdk1_qn-UgcmwhjaV7y9UrYu3HX7Rg
-    short-id: 0123456789abcdef
-  server: 43.163.112.174
-  servername: www.cloudflare.com
+- name: 1|SG - zhuhai.uk
+  port: 9443
+  server: 152.233.9.239
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: 0dedd47d-47b9-4ed1-9c9f-cbeecad57a68
+  type: http
