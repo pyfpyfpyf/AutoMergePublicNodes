@@ -9,14 +9,17 @@ proxies:
 - name: 1|DE - zhuhai.uk
   password: 'null'
   port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  sni: 213.109.163.119
+  tls: true
+  type: http
+  username: 'null'
+- name: 1|DE - zhuhai.uk 02
+  password: 'null'
+  port: 443
   server: 193.233.75.115
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- cipher: aes-256-cfb
-  name: 1|DE - zhuhai.uk 02
-  password: amazonskr05
-  port: 443
-  server: 51.102.203.129
-  type: ss
