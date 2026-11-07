@@ -1,17 +1,15 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- client-fingerprint: safari
   name: 1|HK - zhuhai.uk
-  port: 20019
-  reality-opts:
-    public-key: t-omY-EMjYJ2PwBk0XSXZ1tPoV97k7VYue665F8j1Qw
-    short-id: 25a346c1
-  server: 175hgffc.needss.top
-  servername: www.hsbc.com.hk
+  port: 31884
+  server: hk010.zestapp778.com
+  servername: hk010.zestapp778.com
   tls: true
   type: vless
-  uuid: d016aa1b-1a84-4119-b50e-e94cacfb1bb3
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
 - name: 1|HK - zhuhai.uk 02
-  port: 10808
-  server: 123.58.219.171
-  type: socks5
+  port: 3128
+  server: 119.28.24.235
+  skip-cert-verify: true
+  tls: true
+  type: http
